@@ -1,0 +1,926 @@
+<Type Name="_TimelineView" FullName="Microsoft.Office.Interop.Outlook._TimelineView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d8782cb760e1337c679a6b41fe4b7c59d4c1ea3c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639393" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _TimelineView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimelineView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimelineView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _TimelineView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _TimelineView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006309C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>適用、<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />を現在のビュー オブジェクト。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">新しいビューの名前を指定します。</param>
+        <param name="SaveOption">新しいビューの保存オプションを指定します。</param>
+        <summary>新しい<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトの基に、既存の<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。</summary>
+        <returns>新しい受信者を表す <b>View</b> オブジェクト。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultExpandCollapseSetting">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.DefaultExpandCollapseSetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultExpandCollapseSetting As OlDefaultExpandCollapseSetting" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting get(); void set(Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />のグループの既定の展開の設定を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションからオブジェクトを削除します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndField">
+      <MemberSignature Language="C#" Value="public string EndField { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EndField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.EndField" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EndField { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>表示される Outlook アイテムの期間が終了するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>値、<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.StartField" />と、<b>プロバイダー</b>のプロパティは、Outlook アイテムの期間を表す<b>TimelineView</b>オブジェクトを使用する Outlook アイテムのプロパティを指定します。カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToDate(DateTime Date);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">ビューで変更する日付を指定します。</param>
+        <summary>現在のビューで情報の表示に使用される日付を変更します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupByFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OrderFields GroupByFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields GroupByFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.GroupByFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupByFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OrderFields ^ GroupByFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトがグループ化されます。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont ItemFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont ItemFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.ItemFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ ItemFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64045)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64045)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />内の Outlook アイテムを表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
+          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>かどうか<b>は True</b>ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LowerScaleFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont LowerScaleFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont LowerScaleFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.LowerScaleFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LowerScaleFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ LowerScaleFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64044)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64044)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の時間帯目盛りの下の部分を表示するために使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLabelWidth">
+      <MemberSignature Language="C#" Value="public int MaxLabelWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLabelWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.MaxLabelWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxLabelWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxLabelWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64043)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64043)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64043)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>内の Outlook アイテムのラベルの最大長 (文字数) を表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティは、0 から 132 までの値を設定できます。このプロパティは、0 より小さい値に設定されている場合は、0 に設定されています。このプロパティが 132 よりも大きい値に設定されている場合、プロパティは、132 に設定されます。このプロパティの既定値は、80 です</para>。
+          <para>場合はこのプロパティを 0 に設定すると、Outlook アイテムのラベルがビューに表示されません</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</summary>
+        <remarks>
+          <para>このメソッドは、組み込みの Outlook ビューでのみ機能します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TimelineView.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>ビューまたはビューの変更内容を保存します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowLabelWhenViewingByMonth">
+      <MemberSignature Language="C#" Value="public bool ShowLabelWhenViewingByMonth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowLabelWhenViewingByMonth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.ShowLabelWhenViewingByMonth" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowLabelWhenViewingByMonth As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowLabelWhenViewingByMonth { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64372)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64372)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64372)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>月別に表示するとき、Outlook アイテムのラベルが表示されるかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティは、該当する場合にのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" /><b>olTimelineViewMonth</b>にプロパティを設定します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowWeekNumbers">
+      <MemberSignature Language="C#" Value="public bool ShowWeekNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowWeekNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.ShowWeekNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowWeekNumbers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowWeekNumbers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64373)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64373)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64373)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>タイムライン スケールを週の番号のラベルが表示されるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>TimelineView</b>オブジェクトの時間帯目盛りの何週目で番号のラベルが表示される場所によって異なりますの値を<b>True</b>にこのプロパティが設定されている場合、<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" />プロパティ</para>。
+            <item><description>プロパティの値</description>の
+              <description>ラベルの場所</description></item>を
+          <list type="table"><item><description><b>olTimelineViewDay</b></description><description>時間帯目盛り、日付ラベルの上部に表示されます</description></item>。
+            <item><description><b>olTimelineViewWeek</b></description><description>時間帯目盛り、週ラベルの上部に表示されます</description></item>。
+            <item><description><b>olTimelineViewMonth</b></description><description>日付と日付ラベルを置き換えて、時間帯目盛りの下部に表示されます</description></item></list>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトは、組み込みの Outlook ビューです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartField">
+      <MemberSignature Language="C#" Value="public string StartField { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StartField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.StartField" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StartField { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>表示される Outlook アイテムの期間を開始するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ストア</b>の値と<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.EndField" />プロパティは、Outlook アイテムの期間を表す<b>TimelineView</b>オブジェクトを使用する Outlook アイテムのプロパティを示します。カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimelineViewMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlTimelineViewMode TimelineViewMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlTimelineViewMode TimelineViewMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimelineViewMode As OlTimelineViewMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlTimelineViewMode TimelineViewMode { Microsoft::Office::Interop::Outlook::OlTimelineViewMode get(); void set(Microsoft::Office::Interop::Outlook::OlTimelineViewMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64392)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64392)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64392)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimelineViewMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTimelineViewMode" />の表示モードを示す定数の<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpperScaleFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont UpperScaleFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont UpperScaleFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.UpperScaleFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UpperScaleFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ UpperScaleFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64040)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64040)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の時間帯目盛りの上部の表示に使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimelineView.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。ビューを作成するにはをビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの<b>XML</b>プロパティを取得することができますしをときにを XML の構造方法を決定するには、
+          <para>です。 </para><para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
