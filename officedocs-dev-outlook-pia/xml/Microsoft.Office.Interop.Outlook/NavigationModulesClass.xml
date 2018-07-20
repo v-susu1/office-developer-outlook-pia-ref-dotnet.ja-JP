@@ -1,0 +1,402 @@
+<Type Name="NavigationModulesClass" FullName="Microsoft.Office.Interop.Outlook.NavigationModulesClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e36c0589970adb6958ce95e7753f1ebf17c8e583" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639063" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class NavigationModulesClass : Microsoft.Office.Interop.Outlook.NavigationModules, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi NavigationModulesClass extends System.Object implements class Microsoft.Office.Interop.Outlook._NavigationModules, class Microsoft.Office.Interop.Outlook.NavigationModules, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationModulesClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class NavigationModulesClass&#xA;Implements IEnumerable, NavigationModules" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationModulesClass : Microsoft::Office::Interop::Outlook::NavigationModules, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.NavigationModules</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000610E7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ff9bb-101">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ff9bb-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="ff9bb-102">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ff9bb-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="ff9bb-103">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ff9bb-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="ff9bb-104">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ff9bb-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff9bb-105">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-106">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-107">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-108">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff9bb-109">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-110">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-111">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-112">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff9bb-113">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-114">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-115">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-116">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNavigationModule">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NavigationModule GetNavigationModule (Microsoft.Office.Interop.Outlook.OlNavigationModuleType ModuleType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.NavigationModule GetNavigationModule([in]valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType ModuleType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.NavigationModulesClass.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNavigationModule (ModuleType As OlNavigationModuleType) As NavigationModule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::NavigationModule ^ GetNavigationModule(Microsoft::Office::Interop::Outlook::OlNavigationModuleType ModuleType) = Microsoft::Office::Interop::Outlook::_NavigationModules::GetNavigationModule;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ModuleType" Type="Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />
+      </Parameters>
+      <Docs>
+        <param name="ModuleType">To be added.</param>
+        <summary>
+          <span data-ttu-id="ff9bb-117">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-118">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-119">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-120">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NavigationModule this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NavigationModule Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Object) As NavigationModule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NavigationModule ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::NavigationModule ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="ff9bb-121">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-122">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-123">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-124">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff9bb-125">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-126">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-127">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-128">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.NavigationModulesClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._NavigationModules.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff9bb-129">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="ff9bb-130">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="ff9bb-131">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="ff9bb-132">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff9bb-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

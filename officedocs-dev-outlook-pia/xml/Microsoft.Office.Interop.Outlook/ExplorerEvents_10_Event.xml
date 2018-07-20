@@ -1,0 +1,647 @@
+<Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638532" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ExplorerEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ExplorerEvents_10), typeof(Microsoft.Office.Interop.Outlook.ExplorerEvents_10_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ed0a5-p101">これは、対応する COM オブジェクトとの相互互換性のためマネージ コードで必要な COM コクラスの処理中に作成された .NET インターフェイスです。このインターフェイスは以前のインターフェイスの全イベントと追加の新しいイベントを実装します。使用するイベントが COM オブジェクトのメソッドと同じ名前を共有している場合にのみ、このインターフェイスを使用します。この場合、イベントに接続するにはこのインターフェイスにキャストし、メソッドを呼び出すにはプライマリ インターフェイスにキャストします。それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed0a5-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Activate" />
+      <MemberSignature Language="VB.NET" Value="Event Activate As ExplorerEvents_10_ActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_ActivateEventHandler ^ Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-105">ユーザーの操作またはプログラムのコードによって、エクスプローラーがアクティブ ウィンドウになると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-105">Occurs when an explorer becomes the active window, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelectionChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.AttachmentSelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentSelectionChange As ExplorerEvents_10_AttachmentSelectionChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_AttachmentSelectionChangeEventHandler ^ AttachmentSelectionChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-106">ユーザー インターフェイスまたはプログラムを通じて、ユーザーがアクティブなエクスプローラーで別の添付ファイルを選択すると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-106">Occurs when the user selects a different or additional attachment in the active explorer programmatically or by interacting with the user interface.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-107">
+            <para>アクティブなエクスプ ローラーで任意の項目の変更または追加の添付ファイルが選択されている場合は、 <b>AttachmentSelectionChange</b>イベントが発生します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-107">
+              <para>The <b>AttachmentSelectionChange</b> event fires when a different or additional attachment of any item is selected in the active explorer.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeFolderSwitch">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler BeforeFolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler BeforeFolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeFolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderSwitch As ExplorerEvents_10_BeforeFolderSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeFolderSwitchEventHandler ^ BeforeFolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-108">ユーザーの操作またはプログラムのコードによって、エクスプローラーが新しいフォルダーに移動する前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-108">Occurs before the explorer goes to a new folder, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-109">
+            <para>(ファイル システムなど)、オートメーションでサポートされていない名前空間には、フォルダーに切り替わる場合は、<paramref name="NewFolder" />は<b>ありません</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-109">
+              <para>If the folder being switched to is in a namespace that doesn’t support automation (such as the file system), <paramref name="NewFolder" /> is <b>Nothing</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemCopy">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler BeforeItemCopy;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler BeforeItemCopy" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemCopy" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemCopy As ExplorerEvents_10_BeforeItemCopyEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemCopyEventHandler ^ BeforeItemCopy;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-110">Outlook アイテムがコピーされると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-110">Occurs when an Outlook item is copied.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-111">
+            <para>開始された後、このイベントをキャンセルできます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-111">
+              <para>This event can be cancelled after it has started.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemCut">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler BeforeItemCut;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler BeforeItemCut" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemCut" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemCut As ExplorerEvents_10_BeforeItemCutEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemCutEventHandler ^ BeforeItemCut;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-112">Outlook アイテムがフォルダーから切り取られるときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-112">Occurs when an Outlook item is cut from a folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-113">
+            <para>開始された後、このイベントをキャンセルできます。イベントをキャンセルすると、アイテムは削除されません。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-113">
+              <para>This event can be cancelled after it has started. If the event is cancelled, then the item will not be removed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemPaste">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler BeforeItemPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler BeforeItemPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemPaste" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemPaste As ExplorerEvents_10_BeforeItemPasteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemPasteEventHandler ^ BeforeItemPaste;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-114">Outlook アイテムが貼り付けられるときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-114">Occurs when an Outlook item is pasted.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-115">
+            <para>開始された後、このイベントをキャンセルできます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-115">
+              <para>This event can be cancelled after it has started.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMaximize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler BeforeMaximize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler BeforeMaximize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMaximize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMaximize As ExplorerEvents_10_BeforeMaximizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMaximizeEventHandler ^ BeforeMaximize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-116">エクスプローラーがユーザーによって最大化されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-116">Occurs when an explorer is maximized by the user.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-117">
+            <para>開始された後、このイベントをキャンセルできます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-117">
+              <para>This event can be cancelled after it has started.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMinimize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler BeforeMinimize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler BeforeMinimize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMinimize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMinimize As ExplorerEvents_10_BeforeMinimizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMinimizeEventHandler ^ BeforeMinimize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-118">アクティブなエクスプローラーがユーザーによって最小化されるときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-118">Occurs when the active explorer is minimized by the user.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-119">
+            <para>開始された後、このイベントをキャンセルできます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-119">
+              <para>This event can be cancelled after it has started.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler BeforeMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler BeforeMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMove As ExplorerEvents_10_BeforeMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMoveEventHandler ^ BeforeMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-120">発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />がユーザーによって移動します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-120">Occurs when the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> is moved by the user.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-121">
+            <para>開始された後、このイベントをキャンセルできます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-121">
+              <para>This event can be cancelled after it has started.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeSize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler BeforeSize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler BeforeSize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeSize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeSize As ExplorerEvents_10_BeforeSizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeSizeEventHandler ^ BeforeSize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-122">ユーザーの現在のサイズを設定するときに発生する<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-122">Occurs when the user sizes the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-123">
+            <para>開始された後、このイベントをキャンセルできます。イベントをキャンセルすると、ウィンドウのサイズは変更されません。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-123">
+              <para>This event can be cancelled after it has started. If the event is cancelled, the window is not sized.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeViewSwitch">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler BeforeViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler BeforeViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeViewSwitch As ExplorerEvents_10_BeforeViewSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeViewSwitchEventHandler ^ BeforeViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-124">ユーザーの操作またはプログラムのコードによってエクスプローラーが新しいビューに切り替わる前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-124">Occurs before the explorer changes to a new view, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close" />
+      <MemberSignature Language="VB.NET" Value="Event Close As ExplorerEvents_10_CloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_CloseEventHandler ^ Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-125">エクスプローラーが閉じるときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-125">Occurs when an explorer is being closed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-126">
+            <para>使用する場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> 、このイベントを発生させるメソッドに取り消すことができます<b>Close</b>メソッドが<b>呼び出すことにより</b>使用されている場合。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-126">
+              <para>If you use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Event Deactivate As ExplorerEvents_10_DeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_DeactivateEventHandler ^ Deactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-127">ユーザーの操作またはプログラムのコードによって、エクスプローラーがアクティブ ウィンドウではなくなると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-127">Occurs when an explorer stops being the active window, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSwitch">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler FolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler FolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.FolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Event FolderSwitch As ExplorerEvents_10_FolderSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_FolderSwitchEventHandler ^ FolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-128">ユーザーの操作またはプログラムのコードによってエクスプローラーが新しいフォルダーに移動するときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-128">Occurs when the explorer goes to a new folder, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineResponse">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler InlineResponse;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler InlineResponse" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.InlineResponse" />
+      <MemberSignature Language="VB.NET" Value="Event InlineResponse As ExplorerEvents_10_InlineResponseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_InlineResponseEventHandler ^ InlineResponse;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-129">閲覧ウィンドウにインライン返信が表示されるアクションをユーザーが実行したときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-129">Occurs when the user performs an action that causes an inline response to appear in the Reading Pane.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-130">
+            <para>このイベントは、インラインの応答の項目を表す項目オブジェクトを返します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-130">
+              <para>This event returns an item object representing the inline response item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineResponseClose">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler InlineResponseClose;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler InlineResponseClose" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.InlineResponseClose" />
+      <MemberSignature Language="VB.NET" Value="Event InlineResponseClose As ExplorerEvents_10_InlineResponseCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_InlineResponseCloseEventHandler ^ InlineResponseClose;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-131">ユーザーは、閲覧ウィンドウを閉じる作業中のインライン応答の原因となる操作を実行するときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-131">Occurs when the user performs an action that causes the active inline response to close in the Reading Pane.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-132">
+            <para>新しいインライン応答するときにこのイベントが発生するか、ドラフト インライン応答は次の理由で終了:</para>
+            <list type="bullet">
+              <item>
+                <para>ユーザーは、<b>ポップ アウト</b>] コマンドを選択します</para>
+              </item>。
+            <item><para>ユーザーは、[<b>破棄</b>] コマンドを選択します</para></item>。
+            <item><para>ユーザーは、インラインの応答を送信します</para></item>。
+            <item><para>ユーザーがメッセージの一覧で別のメッセージに移動します</para></item>。
+            <item><para>ユーザーが別のフォルダーに移動します</para></item>。
+            <item><para>ユーザーは、たとえば予定表モジュールに [メール] モジュールから、モジュールを切り替える</para></item>。
+          </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-132">
+              <para>This event fires when a new inline response or draft inline response is closed for the following reasons:</para>
+              <list type="bullet">
+                <item>
+                  <para>The user selects the <b>Pop Out</b> command.</para>
+                </item>
+                <item>
+                  <para>The user selects the <b>Discard</b> command.</para>
+                </item>
+                <item>
+                  <para>The user sends the inline response.</para>
+                </item>
+                <item>
+                  <para>The user navigates to a different message in the message list.</para>
+                </item>
+                <item>
+                  <para>The user navigates to a different folder.</para>
+                </item>
+                <item>
+                  <para>The user switches modules, for example from the mail module to the Calendar module.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler SelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler SelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Event SelectionChange As ExplorerEvents_10_SelectionChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_SelectionChangeEventHandler ^ SelectionChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-133">ユーザーがユーザー インターフェイス (UI) を使用してフォルダー内の別のアイテムに切り替えた場合に発生またはプログラムを使用しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-133">Occurs when the user switches to a different item in a folder using the user interface (UI) or programmatically.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ed0a5-134">
+            <para>このイベントが発生したときにユーザーか、プログラムを使用してユーザーへ切り替えたを使用してをクリックするか、Outlook はそのフォルダー内の最初の項目を自動的に選択項目を含む別のフォルダーに切り替えますか。ただし、ファイル システム フォルダーの場合、または現在の Web ビューの任意のフォルダーが表示されている場合、このイベントは発生しません。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-134">
+              <para>This event also occurs when the user, either programmatically or using the user inerface, clicks or switches to a different folder that contains items as Outlook automatically selects the first item in that folder. However, this event does not occur if the folder is a file-system folder or if any folder with a current Web view is displayed. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewSwitch">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler ViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler ViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Event ViewSwitch As ExplorerEvents_10_ViewSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_ViewSwitchEventHandler ^ ViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed0a5-135">ユーザーの操作またはプログラムのコードによって、エクスプローラーのビューが変更されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed0a5-135">Occurs when the view in the explorer changes, either as a result of user action or through program code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

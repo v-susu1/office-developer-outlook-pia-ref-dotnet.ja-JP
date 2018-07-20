@@ -1,0 +1,648 @@
+<Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637991" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _OlkCommandButton" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672DB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e97cb-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e97cb-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="e97cb-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e97cb-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="e97cb-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e97cb-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="e97cb-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e97cb-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accelerator">
+      <MemberSignature Language="C#" Value="public string Accelerator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Accelerator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.Accelerator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accelerator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Accelerator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-105">アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-105">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the accelerator or hot key for the control.</span>
+          </span>
+          <span data-ttu-id="e97cb-106">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-106">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-107">
+            <para>既定値は、空の文字列、つまり、ホット キーがありません。 1 つ以上の文字の文字列を使用してプロパティを設定すると、値は最初の文字に切り捨てられます。 </para>
+            <para>アクセス キーに数字は使用できません</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-107">
+              <para>The default value is an empty string, meaning there is no hot key.  If the property is set with a string of more than one character, the value will  be truncated to the first character.  </para>
+              <para>You cannot use digits in an accelerator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public bool AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoSize As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoSize { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-108">
+            <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span>
+          </span>
+          <span data-ttu-id="e97cb-109">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-109">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-110">
+            <para>このプロパティの既定値は<b>false を指定</b>します</para>。
+          <para>キャプション値全体を表示するコントロールが自動的に調整するかどうかがこのプロパティの button コントロールに指定します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-110">
+              <para>  The default value for this property is <b>False</b>.</para>
+              <para>For a button control, this property specifies whether the control automatically adjusts to display the entire caption value.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-111">取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-111">Returns or sets a <b>String</b> (<b>string</b> in C#) that appears on an object to identify or describe it.</span>
+          </span>
+          <span data-ttu-id="e97cb-112">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-113">
+            <para>既定値は、空の文字列です。フォーム デザイナーは、コントロールの既定の名前にこのプロパティを設定します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-113">
+              <para>The default value is an empty string. The Forms Designer sets this property to the control's default name.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayDropArrow">
+      <MemberSignature Language="C#" Value="public bool DisplayDropArrow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayDropArrow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.DisplayDropArrow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayDropArrow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayDropArrow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64544)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-114">
+            <b>ブール型</b>(C# では<b>bool</b> ) のボタンの下向きの矢印を描画することを設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables the rendering of a downward-pointing arrow on the button.</span>
+          </span>
+          <span data-ttu-id="e97cb-115">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-115">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-116">
+            <para>右から左に、右側のボタンの左から右に位置し、位置の左側のこの矢印が表示されます。<b>True</b><b>False</b>レンダリングを無効にする] ボタンの矢印を表示します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-116">
+              <para>This arrow is rendered on the right on the button in langauges written left-to-right and on the left in langauges written right-to-left. <b>True</b> to render the arrow on the button, <b>False</b> to disable the rendering.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-117">
+            <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
+          </span>
+          <span data-ttu-id="e97cb-118">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-118">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-119">
+            <para>既定値は<b>false を指定</b>します</para>。
+          <para>コントロールを無効にすると、コントロールの内容淡色表示されます</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-119">
+              <para>The default value is <b>False</b>.</para>
+              <para>When the control is disabled, the contents of the control appear dimmed. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-120">コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-120">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span>
+          </span>
+          <span data-ttu-id="e97cb-121">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-122">このコントロールのマウス カーソルのカスタム画像を表す<b>StdPicture</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-122">Returns or sets an <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control.</span>
+          </span>
+          <span data-ttu-id="e97cb-123">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-123">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-124">
+            <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-124">
+              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-125">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-125">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
+          </span>
+          <span data-ttu-id="e97cb-126">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-126">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-127">
+            <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-127">
+              <para>The default value is <b>olMousePointerDefault</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Picture">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture Picture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture Picture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.Picture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Picture As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ Picture { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-523)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-523)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-523)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-128">コントロールに表示される画像を表す<b>StdPicture</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-128">Returns or sets an <b>StdPicture</b> that represents the picture that is displayed on the control.</span>
+          </span>
+          <span data-ttu-id="e97cb-129">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-129">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-130">
+            <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です</para>。
+          <para>コントロールで、同時に画像とテキストを表示することはできませんので、[ピクチャ] プロパティを設定すると、text プロパティは無視されます</para>。
+          <para>画像は常にボタン コントロールの中央に表示されます。 使用可能な領域に収まるように必要に応じて、画像が切り抜かれます</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-130">
+              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+              <para>A picture and text cannot be displayed at the same time on the control, so when the picture property is set, the text property is ignored.</para>
+              <para>The picture is always displayed in the center of the button control.  The picture will be clipped as necessary to fit in the available space.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureAlignment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlPictureAlignment PictureAlignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlPictureAlignment PictureAlignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.PictureAlignment" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureAlignment As OlPictureAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlPictureAlignment PictureAlignment { Microsoft::Office::Interop::Outlook::OlPictureAlignment get(); void set(Microsoft::Office::Interop::Outlook::OlPictureAlignment value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlPictureAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-131">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" />ボタンにイメージとテキストの配置を表す定数を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> constant that specifies the alignment of the image and the text on the button.</span>
+          </span>
+          <span data-ttu-id="e97cb-132">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-132">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextAlign">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.TextAlign" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextAlign As OlTextAlign" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlTextAlign TextAlign { Microsoft::Office::Interop::Outlook::OlTextAlign get(); void set(Microsoft::Office::Interop::Outlook::OlTextAlign value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-133">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-133">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span>
+          </span>
+          <span data-ttu-id="e97cb-134">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-134">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-135">
+            <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です</para>。
+          <para>コマンド ボタン コントロールの<b>olTextAlignLeft</b>、<b>文字配置</b>に設定すると左の余白は、コントロールの境界線のピクセルを 1 つだけ</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-135">
+              <para>The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</para>
+              <para>For the Command Button control, when <b>TextAlign</b> is set to <b>olTextAlignLeft</b>, the left margin is only one pixel from the border of the control.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public bool WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCommandButton.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e97cb-136">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-136">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the contents of a control automatically wrap at the end of a line.</span>
+          </span>
+          <span data-ttu-id="e97cb-137">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-137">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e97cb-138">
+            <para>既定値は、 <b>true を指定</b>します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e97cb-138">
+              <para>The default value is <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

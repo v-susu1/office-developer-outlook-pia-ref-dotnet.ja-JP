@@ -1,0 +1,58 @@
+<Type Name="RuleActions" FullName="Microsoft.Office.Interop.Outlook.RuleActions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1c9dcd938b096bfbf64c19b0467f098f31267e47" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637890" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RuleActions : Microsoft.Office.Interop.Outlook._RuleActions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleActions implements class Microsoft.Office.Interop.Outlook._RuleActions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleActions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RuleActions&#xA;Implements _RuleActions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RuleActions : Microsoft::Office::Interop::Outlook::_RuleActions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RuleActions</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleActionsClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CE-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4a0cc-101">
+        <b>RuleActions</b>オブジェクトは、一連の<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクト、またはオブジェクトは、 <b>ruleaction オブジェクト</b>で実行されるアクションを表すから派生した、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4a0cc-101">The <b>RuleActions</b> object contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objects or objects derived from <b>RuleAction</b>, representing the actions that are executed on a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4a0cc-102">
+        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />。</para>
+        <para>
+          <b>RuleActions</b>オブジェクトは、固定のコレクションです。<b>取得した RuleAction</b>オブジェクト、または<b>取得した RuleAction</b>オブジェクトから派生した型に追加または<b>RuleActions</b>オブジェクトから削除できません</para>。
+      <para>、ルール オブジェクト モデルでは、ルールと通知ウィザードが Outlook のユーザー インターフェイスを使用して、部分的にしか同等を提供します。最もよく使用されるルールのアクションと条件がサポートされています。サポートするわけではありませんが、ルールの処理またはウィザードがサポートするルールの条件によるルールの作成も列挙し、これらのルールの処理と既存のルールの条件を有効にします。</para><para>ルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4a0cc-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />. </para>
+          <para>The <b>RuleActions</b> object is a fixed collection. <b>RuleAction</b> objects or types that derive from the <b>RuleAction</b> object cannot be added to or removed from the <b>RuleActions</b> object.</para>
+          <para>The Rules object model provides partial parity with the Rules and Alerts Wizard in the Outlook user interface. It  supports the most commonly used rule actions and conditions. Although it does not support creating rules with any rule action or rule condition that  the Wizard supports, you can still enumerate and enable these rule actions and conditions in existing rules. </para>
+          <para>For more information on rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">How to: Create a Rule to Move Specific E-mails to a Folder</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

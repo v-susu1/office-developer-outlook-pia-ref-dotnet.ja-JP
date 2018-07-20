@@ -1,0 +1,1169 @@
+<Type Name="RuleActionsClass" FullName="Microsoft.Office.Interop.Outlook.RuleActionsClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d37fe1c7de5294f00e0733967b096ccaf44c628" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638695" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RuleActionsClass : Microsoft.Office.Interop.Outlook.RuleActions, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi RuleActionsClass extends System.Object implements class Microsoft.Office.Interop.Outlook._RuleActions, class Microsoft.Office.Interop.Outlook.RuleActions, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleActionsClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class RuleActionsClass&#xA;Implements IEnumerable, RuleActions" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleActionsClass : Microsoft::Office::Interop::Outlook::RuleActions, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.RuleActions</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000610CE-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d6e51-101">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d6e51-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="d6e51-102">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d6e51-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="d6e51-103">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d6e51-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="d6e51-104">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d6e51-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-105">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-106">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-107">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-108">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignToCategory">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction AssignToCategory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction AssignToCategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.AssignToCategory" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AssignToCategory As AssignToCategoryRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AssignToCategoryRuleAction ^ AssignToCategory { Microsoft::Office::Interop::Outlook::AssignToCategoryRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64290)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-109">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-110">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-111">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-112">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CC">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SendRuleAction CC { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction CC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.CC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CC As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::SendRuleAction ^ CC { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.CC</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64281)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64281)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-113">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-114">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-115">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-116">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-117">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-118">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-119">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-120">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearCategories">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction ClearCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction ClearCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.ClearCategories" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ClearCategories As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ ClearCategories { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.ClearCategories</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64530)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64530)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-121">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-122">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-123">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-124">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToFolder">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction CopyToFolder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction CopyToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.CopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CopyToFolder As MoveOrCopyRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ CopyToFolder { Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.CopyToFolder</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64274)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64274)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-125">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-126">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-127">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-128">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-129">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-130">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-131">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-132">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction Delete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Delete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Delete As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ Delete { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Delete</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-133">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-134">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-135">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-136">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletePermanently">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction DeletePermanently { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction DeletePermanently" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.DeletePermanently" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DeletePermanently As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ DeletePermanently { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.DeletePermanently</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64275)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64275)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-137">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-138">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-139">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-140">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DesktopAlert">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction DesktopAlert { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction DesktopAlert" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.DesktopAlert" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DesktopAlert As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ DesktopAlert { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.DesktopAlert</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64279)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64279)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-141">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-142">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-143">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-144">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SendRuleAction Forward { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction Forward" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Forward" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Forward As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::SendRuleAction ^ Forward { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Forward</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64282)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64282)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-145">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-146">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-147">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-148">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsAttachment">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SendRuleAction ForwardAsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction ForwardAsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.ForwardAsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ForwardAsAttachment As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::SendRuleAction ^ ForwardAsAttachment { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.ForwardAsAttachment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64283)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64283)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-149">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-150">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-151">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-152">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Integer) As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ default[int] { Microsoft::Office::Interop::Outlook::RuleAction ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Item(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="d6e51-153">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-154">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-155">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-156">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsTask">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction MarkAsTask { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction MarkAsTask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.MarkAsTask" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MarkAsTask As MarkAsTaskRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::MarkAsTaskRuleAction ^ MarkAsTask { Microsoft::Office::Interop::Outlook::MarkAsTaskRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.MarkAsTask</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64294)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-157">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-158">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-159">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-160">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction MoveToFolder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction MoveToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MoveToFolder As MoveOrCopyRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ MoveToFolder { Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.MoveToFolder</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64280)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64280)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-161">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-162">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-163">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-164">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewItemAlert">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction NewItemAlert { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction NewItemAlert" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.NewItemAlert" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NewItemAlert As NewItemAlertRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NewItemAlertRuleAction ^ NewItemAlert { Microsoft::Office::Interop::Outlook::NewItemAlertRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.NewItemAlert</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-165">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-166">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-167">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-168">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyDelivery">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction NotifyDelivery { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction NotifyDelivery" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.NotifyDelivery" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NotifyDelivery As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ NotifyDelivery { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.NotifyDelivery</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64278)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64278)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-169">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-170">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-171">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-172">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyRead">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction NotifyRead { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction NotifyRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.NotifyRead" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NotifyRead As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ NotifyRead { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.NotifyRead</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64277)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64277)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-173">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-173">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-174">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-174">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-175">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-175">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-176">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-176">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-177">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-177">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-178">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-178">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-179">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-179">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-180">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-180">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlaySound">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.PlaySoundRuleAction PlaySound { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PlaySoundRuleAction PlaySound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.PlaySound" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property PlaySound As PlaySoundRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::PlaySoundRuleAction ^ PlaySound { Microsoft::Office::Interop::Outlook::PlaySoundRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.PlaySound</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64291)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64291)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PlaySoundRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-181">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-181">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-182">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-182">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-183">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-183">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-184">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-184">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Redirect">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SendRuleAction Redirect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction Redirect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Redirect" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Redirect As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::SendRuleAction ^ Redirect { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Redirect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64284)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64284)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-185">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-185">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-186">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-186">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-187">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-187">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-188">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-188">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-189">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-189">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-190">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-190">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-191">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-191">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-192">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-192">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleAction Stop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Stop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleActionsClass.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Stop As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleAction ^ Stop { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleActions.Stop</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64276)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64276)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d6e51-193">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-193">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="d6e51-194">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-194">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="d6e51-195">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-195">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="d6e51-196">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d6e51-196">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

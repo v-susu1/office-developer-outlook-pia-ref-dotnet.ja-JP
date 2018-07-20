@@ -1,0 +1,794 @@
+<Type Name="FoldersClass" FullName="Microsoft.Office.Interop.Outlook.FoldersClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d2cee457cef3f7ce025d6c2b37e4f4206fe6b7d6" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638844" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FoldersClass : Microsoft.Office.Interop.Outlook.Folders, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi FoldersClass extends System.Object implements class Microsoft.Office.Interop.Outlook._Folders, class Microsoft.Office.Interop.Outlook.Folders, class Microsoft.Office.Interop.Outlook.FoldersEvents_Event, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FoldersClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class FoldersClass&#xA;Implements Folders, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FoldersClass : Microsoft::Office::Interop::Outlook::Folders, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.Folders</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Interop.Outlook.FoldersEvents\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063051-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="80b7a-101">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80b7a-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="80b7a-102">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80b7a-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="80b7a-103">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80b7a-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="80b7a-104">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80b7a-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder Add (string Name, object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder Add([in]string Name, [in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.Add(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (Name As String, Optional Type As Object) As MAPIFolder" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.Add(System.String,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Type">To be added.</param>
+        <summary>
+          <span data-ttu-id="80b7a-105">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-106">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-107">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-108">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-109">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-110">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-111">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-112">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-113">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-114">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-115">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-116">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-117">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-118">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-119">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-120">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderAdd">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersClass.FolderAdd" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event FolderAdd As FoldersEvents_FolderAddEventHandler Implements FolderAdd" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderAddEventHandler ^ FolderAdd;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderAdd</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-121">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-122">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-123">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-124">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersClass.FolderChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event FolderChange As FoldersEvents_FolderChangeEventHandler Implements FolderChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderChangeEventHandler ^ FolderChange;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderChange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-125">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-126">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-127">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-128">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderRemove">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersClass.FolderRemove" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event FolderRemove As FoldersEvents_FolderRemoveEventHandler Implements FolderRemove" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderRemoveEventHandler ^ FolderRemove;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderRemove</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-129">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-130">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-131">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-132">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFirst () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetFirst() = Microsoft::Office::Interop::Outlook::_Folders::GetFirst;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.GetFirst</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-133">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-134">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-135">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-136">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLast () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetLast() = Microsoft::Office::Interop::Outlook::_Folders::GetLast;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.GetLast</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-137">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-138">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-139">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-140">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNext () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetNext() = Microsoft::Office::Interop::Outlook::_Folders::GetNext;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.GetNext</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-141">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-142">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-143">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-144">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrevious () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetPrevious() = Microsoft::Office::Interop::Outlook::_Folders::GetPrevious;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-145">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-146">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-147">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-148">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MAPIFolder Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Object) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::MAPIFolder ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::MAPIFolder ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="80b7a-149">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-150">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-151">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-152">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-153">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-154">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-155">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-156">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public virtual object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.RawTable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-157">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-157">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public virtual void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FoldersClass.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Remove(int Index) = Microsoft::Office::Interop::Outlook::_Folders::Remove;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Folders.Remove(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="80b7a-158">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-158">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-159">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-159">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-160">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-160">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-161">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-161">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.FoldersClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Folders.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80b7a-162">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-162">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="80b7a-163">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-163">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="80b7a-164">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-164">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="80b7a-165">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80b7a-165">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

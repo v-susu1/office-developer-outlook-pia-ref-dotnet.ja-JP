@@ -1,0 +1,926 @@
+<Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638293" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ItemEvents_10), typeof(Microsoft.Office.Interop.Outlook.ItemEvents_10_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1eb12-p101">これは、対応する COM オブジェクトとの相互互換性のためマネージ コードで必要な COM コクラスの処理中に作成された .NET インターフェイスです。このインターフェイスは以前のインターフェイスの全イベントと追加の新しいイベントを実装します。使用するイベントが COM オブジェクトのメソッドと同じ名前を共有している場合にのみ、このインターフェイスを使用します。この場合、イベントに接続するにはこのインターフェイスにキャストし、メソッドを呼び出すにはプライマリ インターフェイスにキャストします。それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1eb12-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterWrite">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler AfterWrite;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler AfterWrite" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AfterWrite" />
+      <MemberSignature Language="VB.NET" Value="Event AfterWrite As ItemEvents_10_AfterWriteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AfterWriteEventHandler ^ AfterWrite;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-105">Microsoft Outlook がアイテムを保存した後で発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-105">Occurs after Microsoft Outlook has saved the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-106">
+            <para>
+              <b>AfterWrite</b>イベントが発生した後、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />イベントです。このイベントはキャンセル可能ではありません。アイテムがメモリから読み込まれている場合を確認するに、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />イベントです。</para>
+            <para>
+              <b>AfterWrite</b>イベントは、Exchange クライアント拡張機能 (ECE) イベントの<b>IExchExtMessageEvents::OnWriteComplete</b>に対応します</para>。
+          <para>項目オブジェクトの次のメンバーだけは<b>AfterWrite</b>イベントにアクセスできます:</para><list type="bullet"><item><para><b>クラス</b></para></item>の
+            <item><para><b>MessageClass</b></para></item><item><para><b>MAPIOBJECT</b></para></item></list><para><b>MAPIOBJECT</b>プロパティは、Outlook オブジェクト モデルでは、非表示のプロパティです。このプロパティは、基になる MAPI IMessage オブジェクトへのアクセスを提供し、IUnknown インターフェイスを介してのみ呼び出すことができます。プロパティは、 <b>IUnknown</b>をサポートする C または C++ などの言語で記述されたプログラムにアクセスできます。<b>MAPIOBJECT</b>は、IDispatch インターフェイスから利用可能ではありません。(VBA)、Visual C#、および Visual Basic、Visual Basic for Applications などの開発言語をサポートして、 <b>IDispatch</b>インターフェイスとしない<b>IUnknown</b>、およびそのため、 <b>MAPIOBJECT</b>にアクセスすることはできません。他のプロパティまたはメソッドの親アイテムは、このイベントでは、Outlook はエラーを発生させます。</para><para>このイベントでは、 <b>MAPIOBJECT</b>プロパティから取得したオブジェクトする必要がありますが含まれているすべての変更が Outlook に保存しています。実装側は、 <b>MAPIOBJECT</b>、によって表される基になる<b>IMessage</b>オブジェクトへの変更を保持する<b>IMessage</b>オブジェクトの SaveChanges メソッドを呼び出すことができ、Outlook には、これらの変更は戻りません。</para><para>の実装は、イベント、イベントが完了する前に、 <b>MAPIOBJECT</b>プロパティから取得したオブジェクトを解放する必要があります。サポートされていないと、予期しない動作につながるイベントのコンテキストの外部には、そのオブジェクトを使用しようとしています</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-106">
+              <para>The <b>AfterWrite</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> event. This event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
+              <para>The <b>AfterWrite</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnWriteComplete</b>. </para>
+              <para>Only the following members of the item object can be accessed in the <b>AfterWrite</b> event: </para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <b>Class</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>MessageClass</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>MAPIOBJECT</b>
+                  </para>
+                </item>
+              </list>
+              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
+              <para>The object obtained from the <b>MAPIOBJECT</b> property in this event must contain all the changes persisted by Outlook. The implementer can call the SaveChanges method on the <b>IMessage</b> object to persist changes to the underlying <b>IMessage</b> object represented by <b>MAPIOBJECT</b>, and Outlook will not revert those changes. </para>
+              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler AttachmentAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler AttachmentAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentAdd" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentAdd As ItemEvents_10_AttachmentAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentAddEventHandler ^ AttachmentAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-107">親オブジェクトのインスタンスに添付ファイルが追加されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-107">Occurs when an attachment has been added to an instance of the parent object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler AttachmentRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler AttachmentRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentRead" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentRead As ItemEvents_10_AttachmentReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentReadEventHandler ^ AttachmentRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-108">親オブジェクトのインスタンスの添付ファイルが読み取り用に開かれると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-108">Occurs when an attachment in  an instance of the parent object has been opened for reading.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler AttachmentRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler AttachmentRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentRemove" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentRemove As ItemEvents_10_AttachmentRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentRemoveEventHandler ^ AttachmentRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-109">親オブジェクトのインスタンスから添付ファイルが削除されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-109">Occurs when an attachment has been removed from an instance of the parent object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler BeforeAttachmentAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler BeforeAttachmentAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentAdd" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentAdd As ItemEvents_10_BeforeAttachmentAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentAddEventHandler ^ BeforeAttachmentAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-110">親オブジェクトのインスタンスに添付ファイルが追加される前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-110">Occurs before an attachment is added to an instance of the parent object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentPreview">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler BeforeAttachmentPreview;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler BeforeAttachmentPreview" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentPreview" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentPreview As ItemEvents_10_BeforeAttachmentPreviewEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentPreviewEventHandler ^ BeforeAttachmentPreview;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-111">親オブジェクトのインスタンスに関連付けられた添付ファイルがプレビューされる前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-111">Occurs before an attachment associated with an instance of the parent object is previewed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-112">
+            <para>このイベントは、アクティブなエクスプ ローラーの閲覧ウィンドウで添付ファイル ストリップとは、アクティブなインスペクターから、添付ファイルがプレビューされる前に発生します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-112">
+              <para>This event occurs before an attachment is previewed, either from the attachment strip in the Reading Pane of the active explorer or from the active inspector.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler BeforeAttachmentRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler BeforeAttachmentRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentRead" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentRead As ItemEvents_10_BeforeAttachmentReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentReadEventHandler ^ BeforeAttachmentRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-113">添付ファイル ストリーム、ファイル ・ システムに、親オブジェクトのインスタンスに関連付けられている添付ファイルが読み取られる前に発生する、または<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-113">Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentSave">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler BeforeAttachmentSave;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler BeforeAttachmentSave" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentSave" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentSave As ItemEvents_10_BeforeAttachmentSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentSaveEventHandler ^ BeforeAttachmentSave;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-114">添付ファイルが保存される直前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-114">Occurs just before an attachment is saved.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-115">
+            <para>このイベントは、添付ファイルは、メッセージ ストアに保存するときに対応します。<b>BeforeAttachmentSave</b>イベントは、アイテムが保存されるとき、添付ファイルが保存される直前に発生します。ユーザは、添付ファイルを編集し、それらの変更を保存し場合、 <b>BeforeAttachmentSave</b>イベントはその時点では発生しません代わりにアイテム自体を後で保存するときに発生します。行われなかった、 <b>SaveAsFile</b>メソッドを使用してハード ディスクに添付ファイルを保存するとします。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-115">
+              <para>This event corresponds to when attachments are saved to the messaging store. The <b>BeforeAttachmentSave</b> event occurs just before an attachment is saved when an item is saved. If a user edits an attachment and then saves those changes, the <b>BeforeAttachmentSave</b> event will not occur at that time; instead it will occur  when the item itself is later saved. It also does not occur when the attachment is saved on the hard disk using the <b>SaveAsFile</b> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentWriteToTempFile">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler BeforeAttachmentWriteToTempFile;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler BeforeAttachmentWriteToTempFile" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentWriteToTempFile" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentWriteToTempFile As ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler ^ BeforeAttachmentWriteToTempFile;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-116">親オブジェクトのインスタンスに関連付けられた添付ファイルが一時ファイルに書き込まれる前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-116">Occurs before an attachment associated with an instance of the parent object is written to a temporary file.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAutoSave">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler BeforeAutoSave;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler BeforeAutoSave" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAutoSave" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAutoSave As ItemEvents_10_BeforeAutoSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAutoSaveEventHandler ^ BeforeAutoSave;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-117">Outlook によってアイテムが自動的に保存される前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-117">Occurs before the item is automatically saved by Outlook.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeCheckNames">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler BeforeCheckNames;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler BeforeCheckNames" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeCheckNames" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeCheckNames As ItemEvents_10_BeforeCheckNamesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeCheckNamesEventHandler ^ BeforeCheckNames;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-118">Microsoft Outlook がアイテム (親オブジェクトのインスタンス) の受信者コレクションの名前解決を開始する直前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-118">Occurs just before Microsoft Outlook starts resolving names in the recipient collection for an item (which is an instance of the parent object).</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-119">
+            <para>イベントは、次の状況では発生しません:</para>
+            <list type="bullet">
+              <item>
+                <para>仕訳帳のエントリ フォームをカスタマイズし、[連絡先] フィールドで連絡先を解決します</para>
+              </item>。
+            <item><para>取引先担当者フォームをカスタマイズし、[連絡先] フィールドで連絡先を解決します</para></item>。
+            <item><para>あらゆるタイプのフォームをカスタマイズして、Outlook が自動的にバック グラウンドで名前を解決します</para></item>。
+            <item><para>プログラムを使用して作成し、受信者を解決します</para></item>。
+          </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-119">
+              <para>The event does not fire under the following circumstances:  </para>
+              <list type="bullet">
+                <item>
+                  <para>You customized a Journal Entry form and then resolved a contact in the Contacts field. </para>
+                </item>
+                <item>
+                  <para>You customized a Contact form and then resolved a contact in the Contacts field. </para>
+                </item>
+                <item>
+                  <para>You customized any type of form and Outlook automatically resolved the name in the background. </para>
+                </item>
+                <item>
+                  <para>You programmatically created and resolved a recipient.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDelete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler BeforeDelete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler BeforeDelete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeDelete" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDelete As ItemEvents_10_BeforeDeleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeDeleteEventHandler ^ BeforeDelete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-120">アイテム (親オブジェクトのインスタンス) が削除される前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-120">Occurs before an item (which is an instance of the parent object) is deleted.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-121">
+            <para>で注文されたときに起動するには、このイベントの電子メール メッセージ、配布リスト、履歴項目、タスク、連絡先、または投稿が削除アクションによって、インスペクターを開く必要があります</para>。
+          <para>の項目が削除されるたびに発生します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-121">
+              <para>In order for this event to fire when an e-mail message, distribution list, journal entry, task, contact, or post  are deleted through an action, an inspector must be open.</para>
+              <para>The event occurs each time an item is deleted.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler BeforeRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler BeforeRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeRead As ItemEvents_10_BeforeReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeReadEventHandler ^ BeforeRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-122">Microsoft Outlook がアイテムのプロパティの読み込みを開始する前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-122">Occurs before Microsoft Outlook begins to read the properties for the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-123">
+            <para>
+              <b>BeforeRead</b>イベントが発生した後、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />イベントです。他のイベントの<b>前に</b>プレフィックスを持つとは異なりは、このイベントはキャンセル可能ではありません。アイテムがメモリから読み込まれている場合を確認するに、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />イベントです。</para>
+            <para>
+              <b>BeforeRead</b>イベントは、Exchange クライアント拡張機能 (ECE) イベントの<b>IExchExtMessageEvents::OnRead</b>に対応します</para>。
+          <para>項目オブジェクトの次のメンバーだけは<b>BeforeRead</b>イベントにアクセスできます:</para><list type="bullet"><item><para><b>クラス</b></para></item>の
+            <item><para><b>MessageClass</b></para></item><item><para><b>MAPIOBJECT</b></para></item></list><para><b>MAPIOBJECT</b>プロパティは、Outlook オブジェクト モデルでは、非表示のプロパティです。このプロパティは、基になる MAPI IMessage オブジェクトへのアクセスを提供し、IUnknown インターフェイスを介してのみ呼び出すことができます。プロパティは、 <b>IUnknown</b>をサポートする C または C++ などの言語で記述されたプログラムにアクセスできます。<b>MAPIOBJECT</b>は、IDispatch インターフェイスから利用可能ではありません。(VBA)、Visual C#、および Visual Basic、Visual Basic for Applications などの開発言語をサポートして、 <b>IDispatch</b>インターフェイスとしない<b>IUnknown</b>、およびそのため、 <b>MAPIOBJECT</b>にアクセスすることはできません。他のプロパティまたはメソッドの親アイテムは、このイベントでは、Outlook はエラーを発生させます。</para><para>場合は、実装側は基になっている<b>IMessage</b>オブジェクトにアクセスして、Outlook は、そのオブジェクトのプロパティを変更しますが<b>IMessage</b>オブジェクトへの変更を反映してその項目をレンダリングします。実装側は、 <b>IMessage</b>オブジェクトが Outlook に反映する変更が発生するの SaveChanges を呼び出すことはありません。</para><para>の実装は、イベント、イベントが完了する前に、 <b>MAPIOBJECT</b>プロパティから取得したオブジェクトを解放する必要があります。サポートされていないと、予期しない動作につながるイベントのコンテキストの外部には、そのオブジェクトを使用しようとしています</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-123">
+              <para>The <b>BeforeRead</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event. Unlike other events with the <b>Before</b> prefix, this event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
+              <para>The <b>BeforeRead</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnRead</b>. </para>
+              <para>Only the following members of the item object can be accessed in the <b>BeforeRead</b> event: </para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <b>Class</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>MessageClass</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>MAPIOBJECT</b>
+                  </para>
+                </item>
+              </list>
+              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
+              <para>If the implementer accesses the underlying <b>IMessage</b> object and changes properties on that object, Outlook will render that item reflecting the changes to the <b>IMessage</b> object. The implementer does not have to call SaveChanges on the <b>IMessage</b> object to cause the changes to be reflected in Outlook. </para>
+              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Close" />
+      <MemberSignature Language="VB.NET" Value="Event Close As ItemEvents_10_CloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CloseEventHandler ^ Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-124">アイテム (親オブジェクトのインスタンス) に関連付けられたインスペクターが閉じるときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-124">Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-125">
+            <para>
+              <b>Close</b>メソッドを使用して、このイベントが発生する場合、取り消すことができます<b>Close</b>メソッドが<b>呼び出すことにより</b>使用されている場合。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-125">
+              <para>If you use the <b>Close</b> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomAction">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler CustomAction;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler CustomAction" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.CustomAction" />
+      <MemberSignature Language="VB.NET" Value="Event CustomAction As ItemEvents_10_CustomActionEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CustomActionEventHandler ^ CustomAction;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-126">アイテム (親オブジェクトのインスタンス) のカスタム アクションが実行されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-126">Occurs when a custom action of an item (which is an instance of the parent object) executes.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-127">
+            <para>
+              <b>Action</b>オブジェクトと、カスタム アクションによって新しく作成されたアイテムは、イベントに渡されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-127">
+              <para>The <b>Action</b> object and the newly created item resulting from the custom action are passed to the event.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomPropertyChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler CustomPropertyChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler CustomPropertyChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.CustomPropertyChange" />
+      <MemberSignature Language="VB.NET" Value="Event CustomPropertyChange As ItemEvents_10_CustomPropertyChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CustomPropertyChangeEventHandler ^ CustomPropertyChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-128">アイテム (親オブジェクトのインスタンス) のカスタム プロパティが変更されると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-128">Occurs when a custom property of an item (which is an instance of the parent object) is changed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-129">
+            <para>変更されたカスタム プロパティを指定できますように、プロパティ名がプロシージャに渡されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-129">
+              <para>The property name is passed to the procedure so that you can determine which custom property changed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler Forward;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler Forward" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Forward" />
+      <MemberSignature Language="VB.NET" Value="Event Forward As ItemEvents_10_ForwardEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ForwardEventHandler ^ Forward;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-130">ユーザーがアイテム (親オブジェクトのインスタンス) に対して [転送] アクションを選択すると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-130">Occurs when the user selects the Forward action for an item (which is an instance of the parent object).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler Open;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler Open" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />
+      <MemberSignature Language="VB.NET" Value="Event Open As ItemEvents_10_OpenEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_OpenEventHandler ^ Open;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-131">親オブジェクトのインスタンスが開かれるときに発生、 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-131">Occurs when an instance of the parent object is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-132">
+            <para>このイベントが発生すると、 <b>Inspector</b>オブジェクトが初期化されていますが表示されていません。<b>開いている</b>イベントとは異なり、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />ユーザーが直接対応しているで、インスペクターでアイテムが開かれるとき、編集ビューでアイテムを選択するたびに、<b>読み取り</b>イベントが発生します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-132">
+              <para>When this event occurs, the <b>Inspector</b> object is initialized but not yet displayed. The <b>Open</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an inspector.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler PropertyChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler PropertyChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.PropertyChange" />
+      <MemberSignature Language="VB.NET" Value="Event PropertyChange As ItemEvents_10_PropertyChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_PropertyChangeEventHandler ^ PropertyChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-133">親オブジェクトのインスタンスの明示的な組み込みプロパティが変更されたときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-133">Occurs when an explicit built-in property of an instance of the parent object is changed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-134">
+            <para>プロパティ名は、どのプロパティが変更されたかを判断できますように、イベントに渡されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-134">
+              <para>The property name is passed to the event so that you can determine which property was changed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler Read;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler Read" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />
+      <MemberSignature Language="VB.NET" Value="Event Read As ItemEvents_10_ReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReadEventHandler ^ Read;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-135">ユーザーによって親オブジェクトのインスタンスが編集のために開かれると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-135">Occurs when an instance of the parent object is opened for editing by the user.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-136">
+            <para>
+              <b>読み取り</b>イベントとは異なり、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />でアイテムが開かれるとき、セル内の編集をサポートしているビューでユーザーがアイテムを選択するたびに、<b>読み取り</b>イベントが発生する、 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-136">
+              <para>The <b>Read</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler ReadComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler ReadComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.ReadComplete" />
+      <MemberSignature Language="VB.NET" Value="Event ReadComplete As ItemEvents_10_ReadCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReadCompleteEventHandler ^ ReadComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-137">Outlook がアイテムのプロパティの読み取りを完了したときに発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-137">Occurs when Outlook has completed reading the properties of the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-138">
+            <para>
+              <b>ReadComplete</b>イベントが発生した後、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />イベントの前に、 <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> 、アイテムのイベントです。</para>
+            <para>アイテムがメモリから読み込まれている場合を確認するに、<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />イベントです</para>。
+          <para><b>ReadComplete</b>イベントは、Exchange クライアント拡張機能 (ECE) イベントの<b>IExchExtMessageEvents::OnReadComplete</b>に対応します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-138">
+              <para>The <b>ReadComplete</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> event and before the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event for the item. </para>
+              <para>To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</para>
+              <para>The <b>ReadComplete</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler Reply;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler Reply" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Reply" />
+      <MemberSignature Language="VB.NET" Value="Event Reply As ItemEvents_10_ReplyEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReplyEventHandler ^ Reply;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-139">ユーザーがアイテム (親オブジェクトのインスタンス) に対して [返信] アクションを選択すると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-139">Occurs when the user selects the Reply action for an item (which is an instance of the parent object).</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-140">
+            <para>として応答が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-140">
+              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAll">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler ReplyAll;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler ReplyAll" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.ReplyAll" />
+      <MemberSignature Language="VB.NET" Value="Event ReplyAll As ItemEvents_10_ReplyAllEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReplyAllEventHandler ^ ReplyAll;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-141">ユーザーがアイテム (親オブジェクトのインスタンス) に対して [全員に返信] アクションを選択すると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-141">Occurs when the user selects the ReplyAll action for an item (which is an instance of the parent object).</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-142">
+            <para>として応答が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-142">
+              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler Send;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler Send" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Send" />
+      <MemberSignature Language="VB.NET" Value="Event Send As ItemEvents_10_SendEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_SendEventHandler ^ Send;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-143">ユーザーがアイテム (親オブジェクトのインスタンス) に対して [送信] アクションを選択すると発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-143">Occurs when the user selects the Send action for an item (which is an instance of the parent object).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unload">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler Unload;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler Unload" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />
+      <MemberSignature Language="VB.NET" Value="Event Unload As ItemEvents_10_UnloadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_UnloadEventHandler ^ Unload;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-144">プログラム上またはユーザー操作により、Outlook アイテムがメモリからアンロードされる前に発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-144">Occurs before an Outlook item is unloaded from memory, either programmatically or by user action.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="1eb12-145">
+            <para>このイベントは、Outlook アイテムの<b>Close</b>イベントが発生すると、Outlook の前に項目は、オブジェクトに関連するリソースを解放するを許可する、メモリからアンロードした後に発生します。 Outlook アイテムがメモリからアンロードされる前にイベントが発生しますが、このイベントはキャンセルできません</para>。
+          <para><b>注</b>: このイベントは、通知イベントとしてのみ追加のオブジェクトを逆参照できるようにします。 <b>Unload</b>イベント内で任意のプロパティまたはこのオブジェクトのメソッドが呼び出された場合にエラーが発生します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-145">
+              <para>This event occurs after the <b>Close</b> event for the Outlook item occurs, but before the Outlook item is unloaded from memory, allowing an add-in to release any resources related to the object.  Although the event occurs before the Outlook item is unloaded from memory, this event cannot be canceled.</para>
+              <para>
+                <b>Note</b>: This event is meant only as a notification event, so that an add-in can dereference the object.  An error occurs if any property or method for this object is called within the <b>Unload</b> event.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler Write;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler Write" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />
+      <MemberSignature Language="VB.NET" Value="Event Write As ItemEvents_10_WriteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_WriteEventHandler ^ Write;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1eb12-146">親オブジェクトのインスタンスを保存すると、明示的または暗黙的に (たとえば、アイテムのインスペクターを閉じるときにプロンプトへの応答) で発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1eb12-146">Occurs when an instance of the parent object is saved, either explicitly or implicitly (for example, in response to a prompt when closing the item's inspector).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

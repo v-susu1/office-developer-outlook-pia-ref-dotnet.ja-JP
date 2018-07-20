@@ -1,0 +1,1371 @@
+<Type Name="CardViewClass" FullName="Microsoft.Office.Interop.Outlook.CardViewClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5540d9be6f742aa206970fa405f6b569010cd3f1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638484" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CardViewClass : Microsoft.Office.Interop.Outlook.CardView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi CardViewClass extends System.Object implements class Microsoft.Office.Interop.Outlook._CardView, class Microsoft.Office.Interop.Outlook.CardView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CardViewClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CardViewClass&#xA;Implements CardView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CardViewClass : Microsoft::Office::Interop::Outlook::CardView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.CardView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00062002-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a0dda-101">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a0dda-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="a0dda-102">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a0dda-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="a0dda-103">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a0dda-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="a0dda-104">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a0dda-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowInCellEditing">
+      <MemberSignature Language="C#" Value="public virtual bool AllowInCellEditing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInCellEditing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.AllowInCellEditing" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AllowInCellEditing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AllowInCellEditing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-105">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-106">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-107">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-108">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-109">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-110">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-111">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-112">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public virtual void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Apply() = Microsoft::Office::Interop::Outlook::_CardView::Apply;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.Apply</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-113">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-114">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-115">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-116">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatRules">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.AutoFormatRules" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoFormatRules As AutoFormatRules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AutoFormatRules ^ AutoFormatRules { Microsoft::Office::Interop::Outlook::AutoFormatRules ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.AutoFormatRules</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-117">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-118">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-119">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-120">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyFont">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFont BodyFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont BodyFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.BodyFont" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property BodyFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFont ^ BodyFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.BodyFont</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64378)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64378)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-121">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-122">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-123">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-124">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-125">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-126">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-127">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-128">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="SaveOption">To be added.</param>
+        <summary>
+          <span data-ttu-id="a0dda-129">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-130">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-131">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-132">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Interop::Outlook::_CardView::Delete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.Delete</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-133">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-134">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-135">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-136">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public virtual string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Filter</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-137">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-138">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-139">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-140">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public virtual void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoToDate(DateTime Date) = Microsoft::Office::Interop::Outlook::_CardView::GoToDate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.GoToDate(System.DateTime)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">To be added.</param>
+        <summary>
+          <span data-ttu-id="a0dda-141">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-142">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-143">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-144">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeadingsFont">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFont HeadingsFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont HeadingsFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.HeadingsFont" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HeadingsFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFont ^ HeadingsFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.HeadingsFont</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64377)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64377)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-145">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-146">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-147">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-148">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public virtual string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Language</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-149">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-150">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-151">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-152">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public virtual bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.LockUserChanges</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-153">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-154">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-155">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-156">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLineFieldHeight">
+      <MemberSignature Language="C#" Value="public virtual int MultiLineFieldHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultiLineFieldHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.MultiLineFieldHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MultiLineFieldHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int MultiLineFieldHeight { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.MultiLineFieldHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64364)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64364)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64364)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-157">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-158">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-159">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-160">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-161">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-162">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-163">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-164">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-165">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-166">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-167">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-168">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public virtual void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Reset() = Microsoft::Office::Interop::Outlook::_CardView::Reset;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.Reset</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-169">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-170">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-171">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-172">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public virtual void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.CardViewClass.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Save() = Microsoft::Office::Interop::Outlook::_CardView::Save;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._CardView.Save</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-173">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-173">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-174">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-174">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-175">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-175">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-176">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-176">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.SaveOption</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-177">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-177">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-178">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-178">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-179">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-179">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-180">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-180">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-181">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-181">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-182">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-182">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-183">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-183">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-184">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-184">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowEmptyFields">
+      <MemberSignature Language="C#" Value="public virtual bool ShowEmptyFields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowEmptyFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.ShowEmptyFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowEmptyFields As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowEmptyFields { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.ShowEmptyFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64374)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64374)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64374)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-185">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-185">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-186">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-186">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-187">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-187">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-188">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-188">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortFields">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OrderFields SortFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields SortFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.SortFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SortFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OrderFields ^ SortFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.SortFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-189">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-189">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-190">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-190">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-191">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-191">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-192">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-192">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public virtual bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Standard</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-193">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-193">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-194">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-194">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-195">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-195">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-196">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-196">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewFields">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFields ViewFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFields ViewFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.ViewFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ViewFields As ViewFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFields ^ ViewFields { Microsoft::Office::Interop::Outlook::ViewFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.ViewFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-197">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-197">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-198">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-198">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-199">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-199">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-200">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-200">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.ViewType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-201">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-201">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-202">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-202">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-203">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-203">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-204">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-204">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public virtual int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.Width</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-205">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-205">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-206">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-206">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-207">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-207">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-208">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-208">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public virtual string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.CardViewClass.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._CardView.XML</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a0dda-209">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-209">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a0dda-210">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-210">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a0dda-211">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-211">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a0dda-212">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a0dda-212">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

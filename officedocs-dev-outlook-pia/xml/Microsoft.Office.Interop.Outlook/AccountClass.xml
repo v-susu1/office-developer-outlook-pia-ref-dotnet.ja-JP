@@ -1,0 +1,910 @@
+<Type Name="AccountClass" FullName="Microsoft.Office.Interop.Outlook.AccountClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="77b36327e7bb3c3a85b144911c108701430fc455" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638504" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AccountClass : Microsoft.Office.Interop.Outlook.Account" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi AccountClass extends System.Object implements class Microsoft.Office.Interop.Outlook._Account, class Microsoft.Office.Interop.Outlook.Account" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AccountClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class AccountClass&#xA;Implements Account" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AccountClass : Microsoft::Office::Interop::Outlook::Account" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.Account</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000610C5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bc7fa-101">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bc7fa-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="bc7fa-102">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bc7fa-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="bc7fa-103">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bc7fa-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="bc7fa-104">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bc7fa-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccountType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlAccountType AccountType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAccountType AccountType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.AccountType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AccountType As OlAccountType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlAccountType AccountType { Microsoft::Office::Interop::Outlook::OlAccountType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.AccountType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64210)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64210)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-105">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-106">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-107">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-108">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-109">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-110">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-111">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-112">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverConnectionMode">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.AutoDiscoverConnectionMode" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoDiscoverConnectionMode As OlAutoDiscoverConnectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode { Microsoft::Office::Interop::Outlook::OlAutoDiscoverConnectionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverConnectionMode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64623)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64623)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-113">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-114">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-115">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-116">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverXml">
+      <MemberSignature Language="C#" Value="public virtual string AutoDiscoverXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoDiscoverXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.AutoDiscoverXml" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoDiscoverXml As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ AutoDiscoverXml { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64624)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64624)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-117">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-118">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-119">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-120">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-121">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-122">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-123">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-124">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentUser">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Recipient CurrentUser { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipient CurrentUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.CurrentUser" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CurrentUser As Recipient" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Recipient ^ CurrentUser { Microsoft::Office::Interop::Outlook::Recipient ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.CurrentUser</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64622)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64622)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-125">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-126">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-127">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-128">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryStore">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Store DeliveryStore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Store DeliveryStore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.DeliveryStore" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DeliveryStore As Store" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Store ^ DeliveryStore { Microsoft::Office::Interop::Outlook::Store ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64614)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64614)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-129">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-130">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-131">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-132">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public virtual string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.DisplayName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-133">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-134">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-135">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-136">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeConnectionMode">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode ExchangeConnectionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode ExchangeConnectionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.ExchangeConnectionMode" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ExchangeConnectionMode As OlExchangeConnectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlExchangeConnectionMode ExchangeConnectionMode { Microsoft::Office::Interop::Outlook::OlExchangeConnectionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.ExchangeConnectionMode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64615)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64615)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-137">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-138">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-139">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-140">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeMailboxServerName">
+      <MemberSignature Language="C#" Value="public virtual string ExchangeMailboxServerName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExchangeMailboxServerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.ExchangeMailboxServerName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ExchangeMailboxServerName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ExchangeMailboxServerName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.ExchangeMailboxServerName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64616)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64616)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-141">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-142">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-143">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-144">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeMailboxServerVersion">
+      <MemberSignature Language="C#" Value="public virtual string ExchangeMailboxServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExchangeMailboxServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.ExchangeMailboxServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ExchangeMailboxServerVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ExchangeMailboxServerVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.ExchangeMailboxServerVersion</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64617)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64617)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-145">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-146">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-147">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-148">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAddressEntryFromID">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AddressEntry GetAddressEntryFromID (string ID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AddressEntry GetAddressEntryFromID([in]string ID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.AccountClass.GetAddressEntryFromID(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAddressEntryFromID (ID As String) As AddressEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::AddressEntry ^ GetAddressEntryFromID(System::String ^ ID) = Microsoft::Office::Interop::Outlook::_Account::GetAddressEntryFromID;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Account.GetAddressEntryFromID(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64618)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ID">To be added.</param>
+        <summary>
+          <span data-ttu-id="bc7fa-149">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-150">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-151">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-152">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecipientFromID">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Recipient GetRecipientFromID (string EntryID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Recipient GetRecipientFromID([in]string EntryID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.AccountClass.GetRecipientFromID(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecipientFromID (EntryID As String) As Recipient" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::Recipient ^ GetRecipientFromID(System::String ^ EntryID) = Microsoft::Office::Interop::Outlook::_Account::GetRecipientFromID;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Account.GetRecipientFromID(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64619)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="EntryID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="EntryID">To be added.</param>
+        <summary>
+          <span data-ttu-id="bc7fa-153">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-154">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-155">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-156">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IOlkAccount">
+      <MemberSignature Language="C#" Value="public virtual object IOlkAccount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object IOlkAccount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.IOlkAccount" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IOlkAccount As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ IOlkAccount { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.IOlkAccount</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-157">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-158">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-159">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-160">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-161">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-162">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-163">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-164">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public virtual string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64212)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64212)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-165">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-166">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-167">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-168">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public virtual string UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AccountClass.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property UserName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ UserName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Account.UserName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64211)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64211)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bc7fa-169">.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bc7fa-170">後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bc7fa-171">それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bc7fa-172">.NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bc7fa-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

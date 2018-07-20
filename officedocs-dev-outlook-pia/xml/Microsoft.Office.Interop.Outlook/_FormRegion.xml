@@ -1,0 +1,920 @@
+<Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637995" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _FormRegion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006305A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7b108-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7b108-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="7b108-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7b108-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="7b108-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7b108-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="7b108-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7b108-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-105">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="7b108-106">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-107">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="7b108-108">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Detail">
+      <MemberSignature Language="C#" Value="public string Detail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Detail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Detail" />
+      <MemberSignature Language="VB.NET" Value="Public Property Detail As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Detail { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-109">
+            <b>文字列</b>(C# では<b>文字列</b>) を取得または隣接するフォーム領域の表示名の後のヘッダーに実行時に表示されるテキストを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-109">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text displayed at runtime in the header after the display name of an adjoining form region.</span>
+          </span>
+          <span data-ttu-id="7b108-110">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-110">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-111">
+            <para>
+              <b>Detail</b>プロパティは、付加フォーム領域のみに表示されます。個別フォーム領域では無視されます</para>。
+          <para><b>Detail</b>プロパティは、付加フォーム領域では省略可能です</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-111">
+              <para>The <b>Detail</b> property is displayed for adjoining form regions only. It is ignored for separate form regions.</para>
+              <para>The <b>Detail</b> property is optional for an adjoining form region. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-112">
+            <b>文字列</b>(C# では<b>文字列</b>) を返します。 フォーム領域の名前を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-112">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the form region.</span>
+          </span>
+          <span data-ttu-id="7b108-113">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-114">
+            <para>表示名は、フォーム領域では省略可能です。値を定義している場合、 &lt;formRegionName&gt;タグに対応するフォーム領域マニフェスト XML ファイルでこの値は<b>DisplayName</b>プロパティの値にマップされます。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
+            <para>、 <b>DisplayName</b>プロパティの値が Microsoft Office Fluent の [表示] タブの実行時に表示されますリボンの個別フォーム領域、または隣接するフォーム領域のヘッダーにします。 既定のロケールの使用され、設定が可能で、 &lt;stringOverride&gt;に対応するフォーム領域マニフェスト XML ファイルのタグです。文字列は、大文字とその最大の長さは、256 文字です</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-114">
+              <para>The display name is optional for a form region. If you have defined a value for the &lt;formRegionName&gt; tag in the corresponding form region manifest XML file, this value will map to the value of the <b>DisplayName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
+              <para>The value of the <b>DisplayName</b> property is displayed at runtime in the Show tab of the Microsoft Office Fluent ribbon for a separate form region, or in the header of an adjoining form region.  It is used for the default locale, and can be overridden by the &lt;stringOverride&gt; tag in the corresponding form region manifest XML file. The string is case-insensitive, and its maximum length is 256 characters.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-115">取得または設定する<b>ブール型</b>(C# では<b>bool</b> )、フォーム デザイナーでフォーム領域をデザインするときにサイズ変更機能、自動レイアウトを使用するかどうかを指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-115">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether to use the automatic layout resizing feature when designing form regions in the forms designer.</span>
+          </span>
+          <span data-ttu-id="7b108-116">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-116">Read/write</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-117">
+            <para>自動レイアウト サイズ変更機能は、フォーム デザイナーでは、フォームのサイズが変更されると動的に、フォームのレイアウトが再計算します。この機能は、フォーム デザイナーでフォーム領域を使用できるだけです</para>。
+          <para>このプロパティが<b>True</b>の場合は、フォーム デザイナーは、レイアウトの自動サイズ変更を実行します。 このプロパティが<b>False</b>の場合、フォーム デザイナーは実行されませんレイアウトの自動サイズ変更。 既定値は<b>true を指定</b>します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-117">
+              <para>The automatic layout resizing feature in the forms designer recalculates the form layout dynamically as the form is resized. This feature is only available to form regions in the forms designer.</para>
+              <para>When this property is <b>True</b>, the forms designer performs automatic layout resizing.  When this property is <b>False</b>, the forms designer does not perform automatic layout resizing.  The default value is <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Form">
+      <MemberSignature Language="C#" Value="public object Form { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Form" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Form" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Form As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Form { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-p107">
+            <b>MSForms.UserForm</b> オブジェクトを表す <b>オブジェクト</b> を返します。読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-p107">Returns an <b>Object</b> representing the <b>MSForms.UserForm</b> object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormRegionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.FormRegionMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormRegionMode As OlFormRegionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlFormRegionMode FormRegionMode { Microsoft::Office::Interop::Outlook::OlFormRegionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-p108">フォーム領域が開封ページかどうかを示す <b>OlFormRegionMode</b> の定数を取得、作成ページ、または閲覧ウィンドウです。読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-p108">Returns an <b>OlFormRegionMode</b> constant that indicates whether the form region is in a read page, compose page, or Reading Pane. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-122">
+            <para>ユーザーには、閲覧ウィンドウでメール アイテムがあるを使って、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" />さらに、ユーザーが編集モードまたは閲覧ウィンドウのモードを決定するプロパティです。場合と閲覧モード (メール アイテムが受信トレイや送信済みアイテム フォルダーにある) は編集モード (メール アイテムが下書きと同じフォルダーにある) である場合とは異なるメール アイテムを表示し、閲覧ウィンドウでは。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-122">
+              <para>If the user has a mail item in the Reading Pane, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> property to further determine if the user is in the edit mode or the read mode of the Reading Pane. A mail item is displayed differently in the Reading Pane if it is in the edit mode (the mail item is in the Draft folder) than if it is in the read mode (the mail item is in the Inbox or Sent folder).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector Inspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector Inspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Inspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Inspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ Inspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-123">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />フォーム領域をホスティングするインスペクターを表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object representing the Inspector that hosts the form region.</span>
+          </span>
+          <span data-ttu-id="7b108-124">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-125">
+            <para>フォーム領域が閲覧ウィンドウに表示されている場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-125">
+              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the form region is displayed in the Reading Pane.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalName">
+      <MemberSignature Language="C#" Value="public string InternalName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-126">
+            <b>文字列</b>(C# では<b>文字列</b>) をフォーム領域のマニフェストで定義されているフォーム領域の内部プログラム名を表すを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-126">Returns a <b>String</b> (<b>string</b> in C#) that represents the internal programmatic name of the form region as defined in the manifest for the form region.</span>
+          </span>
+          <span data-ttu-id="7b108-127">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-127">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-128">
+            <para>内部名は、フォーム領域の必要があります。&lt;名&gt;対応するフォーム領域マニフェスト XML ファイル内のタグは、 <b>InternalName</b>プロパティの値にマップします。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
+            <para>
+              <b>InternalName</b>プロパティの値が、フォーム領域を参照するアドインまたは Outlook で使用されます。たとえば、フォーム領域が読み込まれているかを決定するか、ローカライズされた文字列リソースから文字列をロードします。<b>InternalName</b>プロパティには、ASCII 文字のみがサポートされています。文字列は、大文字とその最大の長さは、256 文字です</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-128">
+              <para>The internal name is required for a form region. The &lt;name&gt; tag in the corresponding form region manifest XML file maps to the value of the <b>InternalName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
+              <para>The value of the <b>InternalName</b> property is used by the add-in or Microsoft Outlook to refer to the form region, for example, to determine which form region is being loaded or to load strings from the localized string resources. The <b>InternalName</b> property supports only ASCII characters. The string is case-insensitive, and its maximum length is 256 characters.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-129">
+            <b>ブール型</b>(C# では<b>bool</b> ) をフォーム領域が展開されているかどうかを示す値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-129">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the form region is expanded.</span>
+          </span>
+          <span data-ttu-id="7b108-130">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-130">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-131">
+            <para>このプロパティは、隣接するフォーム領域にのみに適用され、個別フォーム領域は無視されます</para>。
+          <para>Outlook は最初に常に展開した状態でフォーム領域を読み込むし、 <b>IsExpanded</b>を<b>True</b>に設定します。折りたたむには、フォーム領域の初期状態があるかどうかは、Outlook が起動、フォーム領域をすぐに終了、<see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" />でのイベント、<paramref name="Expand" />パラメーターが<b>False</b>と設定を<b>False</b>には、 <b>IsExpanded</b> 。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-131">
+              <para>This property applies to adjoining form regions only and is ignored for separate form regions.</para>
+              <para>Outlook always first loads a form region in an expanded state and sets <b>IsExpanded</b> to <b>True</b>. If the initial state of the form region is to be collapsed, then Outlook immediately closes the form region, fires the <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> event with the <paramref name="Expand" /> parameter being <b>False</b>, and sets  <b>IsExpanded</b> to <b>False</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-p112">フォーム領域に連結されている Outlook アイテムに対応する <b>オブジェクト</b> を返します。読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-p112">Returns an <b>Object</b> corresponding to the Outlook item bound to the form region. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public int Language { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Language" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Language As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Language { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-134">現在の言語の LCID を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-134">Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the LCID for the current language.</span>
+          </span>
+          <span data-ttu-id="7b108-135">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-135">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-p114">フォーム領域の <b>オブジェクト</b> の親を返します。読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-p114">Returns the parent <b>Object</b> of the form region. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reflow">
+      <MemberSignature Language="C#" Value="public void Reflow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reflow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Reflow" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reflow ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reflow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-138">Outlook によって付加フォーム領域の高さが自動的に再計算され、フォーム領域に表示可能なコントロールがすべて表示されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-138">Causes Outlook to recalculate the height of an adjoining form region to display all  the visible controls in the form region.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="7b108-139">
+            <para>
+              <b>リフロー処理</b>メソッドは、付加フォーム領域にのみ適用されます。個別フォーム領域の場合は、アクションは実行されません。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-139">
+              <para>The <b>Reflow</b> method only applies to adjoining form regions. No action occurs for separate form regions.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-140">フォーム領域をアクティブなフォーム領域にして、そのフォーム領域が表示されるようにします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-140">Makes the form region the active form region such that it becomes visible.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="7b108-141">
+            <para>フォーム領域が付加フォーム領域の場合は、<b>選択</b>は (まだ展開されていない) 場合は、フォーム領域を展開し、そのページの先頭のコントロールにフォーカスを設定します。<b>フォーム領域に切り替える</b>かどうかは、フォーム領域が個別フォーム領域しなっていない作業中のページでは、ページし、そのページの先頭のコントロールにフォーカスを設定します。フォーム領域が個別フォーム領域は、作業中のページは、既に場合、何も起こりません。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-141">
+              <para>If the form region is an adjoining form region, then <b>Select</b> will expand the form region (if it is not already expanded) and set focus on the first control on that page. If the form region is a separate form region and is not already the active page, then <b>Select</b> will swtich to the form region page and set focus on the first control on that page. If the form region is a separate form region and is already the active page, then nothing happens.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-142">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-142">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="7b108-143">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-143">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-144">
+            <para>
+              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-144">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetControlItemProperty">
+      <MemberSignature Language="C#" Value="public void SetControlItemProperty (object Control, string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetControlItemProperty([in]object Control, [in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.SetControlItemProperty(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetControlItemProperty (Control As Object, PropertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetControlItemProperty(System::Object ^ Control, System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="System.Object" />
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Control">
+          <span data-ttu-id="7b108-145">指定されるプロパティをフォーム領域内のコントロール<paramref name="PropertyName" />バインドされます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-145">A control in the form region to which the property specified by <paramref name="PropertyName" /> will be bound.</span>
+          </span>
+        </param>
+        <param name="PropertyName">
+          <span data-ttu-id="7b108-146">コントロールに連結されるプロパティの名前を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-146">The name of the property that will be bound to the control.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7b108-147">明示的な組み込みプロパティまたはカスタム プロパティを、フォーム領域内のコントロールに連結します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-147">Binds an explicit  built-in property or a custom property to a control in the form region.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="7b108-148">
+            <para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。必要がありますプロパティを参照する、文字列名、たとえば、<b>件名</b>、および名前空間ではなく、http://schemas.microsoft.com/mapi/proptag/0x0037001Eです</para>。
+          <para>、<paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。<b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ</para>。
+          <para>の<b>SetControlItemProperty</b>メソッドを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /><b>件名</b>プロパティなどのプロパティをコントロールにバインドするのには次のようなコードを使用することも、object:</para><code>myPage.Controls("bar").ItemProperty = "subject"</code><code>myPage.Controls("bar").ItemProperty = "subject";</code><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-148">
+              <para>You can use this method to bind an explicit built-in property or a custom property to a control. You must reference the property by its string name, for example, <b>Subject</b>, and not by namespace, for example, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+              <para>The <paramref name="PropertyName" /> parameter is not case-sensitive. For example, <b>SetControlItemProperty</b> interprets an argument, <b>CustomerId</b>, to be the same as <b>CustomerID</b> and binds the specified control to the built-in <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> property.</para>
+              <para>Other than using the <b>SetControlItemProperty</b> method of a <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> object, you can also use code similar to the following to bind a property such as the  <b>Subject</b> property to a control:</para>
+              <code>myPage.Controls("bar").ItemProperty = "subject"</code>
+              <code>myPage.Controls("bar").ItemProperty = "subject";</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressControlReplacement">
+      <MemberSignature Language="C#" Value="public bool SuppressControlReplacement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuppressControlReplacement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.SuppressControlReplacement" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressControlReplacement As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SuppressControlReplacement { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-149">
+            <b>ブール型</b>(C# では<b>bool</b> ) のデザイン時および実行時に Forms 2.0 コントロール、テーマ付きの Outlook コントロールを自動的に置き換える Outlook を無効にする設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-149">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that disables Outlook from automatically replacing  a Forms 2.0 control by  a themed Outlook control at design time and runtime.</span>
+          </span>
+          <span data-ttu-id="7b108-150">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-150">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-151">
+            <para>テーマ付きの Outlook の対応するコントロールで、Forms 2.0 コントロールを自動的に置き換える Outlook の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87823">ユーザー設定フォーム内のコントロール</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-151">
+              <para>For more information on Outlook automatically replacing a Forms 2.0 control by  a themed Outlook counterpart control, see <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Controls in a Custom Form</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7b108-152">値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値、フォーム領域が表示または非表示かどうかを示す。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-152">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the form region is visible or hidden.</span>
+          </span>
+          <span data-ttu-id="7b108-153">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-153">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7b108-154">
+            <para>
+              <b>True の</b>場合、フォーム領域が表示されます。場合は<b>false</b>非表示には。既定では<b>True です</b>。</para>
+            <para>フォーム領域に表示することのない情報へのアクセスを制御するのには<b>Visible</b>プロパティを使用します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7b108-154">
+              <para>
+                <b>True</b> if the form region is visible; <b>False</b> if it is hidden. The default is <b>True</b>. </para>
+              <para>Use the <b>Visible</b> property to control access to information without displaying it in a form region.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

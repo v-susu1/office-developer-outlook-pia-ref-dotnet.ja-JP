@@ -1,0 +1,1055 @@
+<Type Name="View" FullName="Microsoft.Office.Interop.Outlook.View">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b10e73e5691c861b2adb03a1f9002fa391a33274" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638460" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface View" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract View" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.View" />
+  <TypeSignature Language="VB.NET" Value="Public Interface View" />
+  <TypeSignature Language="C++ CLI" Value="public interface class View" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063095-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="08680-101">データの並べ替え、グループ化、および表示に使用できるカスタマイズ可能なビューを表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="08680-101">Represents a customizable view used to sort, group, and view data.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="08680-102">
+        <para>
+          <b>View</b>オブジェクトを使用すると、並べ替え、グループ化、および最終的にすべての種類のデータを表示することができるカスタマイズ可能なビューを作成できます。さまざまな種類のビューを作成し、重要なデータを管理するために必要な柔軟性を提供することがあります</para>。
+      <list type="bullet"><item><para>テーブル ビューの種類 (olTableView) を使用すると、単純なフィールド ベースのテーブルのデータを表示します</para></item>。
+        <item><para>[カレンダー ビューの種類 (olCalendarView) を使用すると、予定表形式でデータを表示します</para></item>。
+        <item><para>カードのビューの種類 (olCardView) を使用すると、一連のカードのデータを表示できます。各カードでは、アイテムに含まれる情報を表示し、並べ替えることができます。</para></item><item><para>アイコン ビュー (olIconView) することができますアイコン、Windows フォルダーやエクスプ ローラーのようにデータを表示します。 </para></item><item><para>、時間帯形式ビュー (olTimelineView) では、カスタマイズ可能な線形のタイムラインで、受信したデータを表示することができます</para></item></list>。
+      <para>ビューが定義されている使用およびカスタマイズする<b>ビュー</b>オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />プロパティ。<b>XML</b>プロパティを使用するを作成し、ビューのさまざまな機能を定義するカスタマイズされた XML スキーマを設定します</para>。
+      <para><b>ビュー</b>を使用 (<paramref name="index" />)、<paramref name="index" />は、 <b>View</b>オブジェクトまたは 1 つの<b>ビュー</b>オブジェクトを取得する、序数値の名前</para>。
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> 、 <b>Views</b>コレクションに新しいビューを作成する方法です</para>。
+      <para>常に使用<see cref="M:Microsoft.Office.Interop.Outlook.View.Save" />ビューのプロパティを変更した後にビューを保存します</para>。
+      <para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="08680-102">
+          <para>The <b>View</b> object allows you to create customizable views that allow you to better sort, group and ultimately view data of all different types. There are a variety of different view types that provide the flexibility needed to create and maintain your important data.</para>
+          <list type="bullet">
+            <item>
+              <para>The table view type (olTableView) allows you to view data in a simple field-based table. </para>
+            </item>
+            <item>
+              <para> The Calendar view type (olCalendarView) allows you to view data in a calendar format. </para>
+            </item>
+            <item>
+              <para> The card view type (olCardView) allows you to view data in a series of cards. Each card displays the information contained by the item and can be sorted. </para>
+            </item>
+            <item>
+              <para> The icon view type (olIconView) allows you to view data as icons, similar to a Windows folder or explorer.  </para>
+            </item>
+            <item>
+              <para> The timeline view type (olTimelineView) allows you to view data as it is received in a customizable linear time line. </para>
+            </item>
+          </list>
+          <para>Views are defined and customized using the <b>View</b> object's <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />  property. The <b>XML</b> property allows you to create and set a customized XML schema that defines the various features of a view.</para>
+          <para>Use <b>Views</b>(<paramref name="index" />), where <paramref name="index" /> is the name of the <b>View</b> object or its ordinal value, to return a single <b>View</b> object.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method of the <b>Views</b> collection to create a new view. </para>
+          <para>Always use <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> to save a view after you change any property of the view.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-103">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="08680-104">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-105">Microsoft Outlookのユーザー インターフェイスにビューを適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-105">Applies the view to the Microsoft Outlook user interface.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="08680-106">
+            <para>現在のビューが正しく再設定を行う必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />とし、 <b>View.Apply</b>。次のコード例は、呼び出しの順序を示しています。</para>
+            <code>Sub ResetView()
+    Dim v As Outlook.View
+    ' Save a reference to the current view object
+    v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset()
+    v.Apply()
+End Sub</code>
+            <code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-106">
+              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <b>View.Apply</b>. The code sample below illustrates the order of the calls:</para>
+              <code>Sub ResetView()
+    Dim v As Outlook.View
+    ' Save a reference to the current view object
+    v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset()
+    v.Apply()
+End Sub</code>
+              <code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-107">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="08680-108">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">
+          <span data-ttu-id="08680-109">新しい <b>View</b> オブジェクトの名前を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-109">Represents the name of the new <b>View</b> object.</span>
+          </span>
+        </param>
+        <param name="SaveOption">
+          <span data-ttu-id="08680-110">保存 <b>ビュー</b> オブジェクトのアクセス許可を定義するオプションです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-110">The save option that defines the permissions of the <b>View</b> object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="08680-111">新しいインスタンスを作成、<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-111">Creates a new instance of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-112">コレクションからオブジェクトを削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-112">Deletes an object from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-113">返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-113">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
+          </span>
+          <span data-ttu-id="08680-114">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-114">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-115">
+            <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-115">
+              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToDate(DateTime Date);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">
+          <span data-ttu-id="08680-116">ビューで変更する日付を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-116">The date to which the view should be changed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="08680-117">現在のビューで情報の表示に使用される日付を変更します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-117">Changes the date used by the current view to display information.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="08680-118">
+            <para>現在のビューのように移動する日付を指定するのには、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトの場合、最初に取得する必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用して現在のビューのオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />の代わりに<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />。次のコード サンプルでは、この操作を実行する方法を示します。</para>
+            <code>Sub TestGoToDate()
+    Dim oCV As Outlook.CalendarView
+    Dim oExpl As Outlook.Explorer
+    Dim datGoTo As Date
+
+    datGoTo = "11/7/2005"
+
+    ' Display the contents of the Calendar default folder.
+    oExpl = Application.Explorers.Add( _
+        Application.Session.GetDefaultFolder( -
+        Outlook.OlDefaultFolders.olFolderCalendar), _
+        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly)
+    oExpl.Display()
+
+    ' Retrieve the current view by calling the 
+    ' CurrentView property of the Explorer object.
+    oCV = oExpl.CurrentView
+
+    ' Set the CalendarViewMode property of the 
+    ' current view to display items by day.
+    oCV.CalendarViewMode = Outlook.OlCalendarViewMode.olCalendarViewDay
+
+    ' Call the GoToDate method to set the date
+    ' for which information is displayed in the view.
+    oCV.GoToDate(datGoTo)
+End Sub</code>
+            <code>private void TestGoToDate()
+{
+    Outlook.CalendarView oCV;
+    Outlook.Explorer oExpl;
+    System.DateTime datGoTo;
+
+    datGoTo = DateTime.Parse("11/7/2005");
+
+    // Display the contents of the Calendar default folder.
+    oExpl = Application.Explorers.Add(
+        Application.Session.GetDefaultFolder(
+        Outlook.OlDefaultFolders.olFolderCalendar),
+        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly);
+    oExpl.Display();
+
+    // Retrieve the current view by calling the 
+    // CurrentView property of the Explorer object.
+    oCV = (Outlook.CalendarView)(oExpl.CurrentView);
+
+    // Set the CalendarViewMode property of the 
+    // current view to display items by day.
+    oCV.CalendarViewMode = 
+        Outlook.OlCalendarViewMode.olCalendarViewDay;
+
+    // Call the GoToDate method to set the date
+    // for which information is displayed in the view.
+    oCV.GoToDate(datGoTo);
+}</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-118">
+              <para>To specify a date to go to in a current view, such as a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object, you should first obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the current view by using <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> instead of <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />. The following code sample demonstrates how to perform this action. </para>
+              <code>Sub TestGoToDate()
+    Dim oCV As Outlook.CalendarView
+    Dim oExpl As Outlook.Explorer
+    Dim datGoTo As Date
+
+    datGoTo = "11/7/2005"
+
+    ' Display the contents of the Calendar default folder.
+    oExpl = Application.Explorers.Add( _
+        Application.Session.GetDefaultFolder( -
+        Outlook.OlDefaultFolders.olFolderCalendar), _
+        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly)
+    oExpl.Display()
+
+    ' Retrieve the current view by calling the 
+    ' CurrentView property of the Explorer object.
+    oCV = oExpl.CurrentView
+
+    ' Set the CalendarViewMode property of the 
+    ' current view to display items by day.
+    oCV.CalendarViewMode = Outlook.OlCalendarViewMode.olCalendarViewDay
+
+    ' Call the GoToDate method to set the date
+    ' for which information is displayed in the view.
+    oCV.GoToDate(datGoTo)
+End Sub</code>
+              <code>private void TestGoToDate()
+{
+    Outlook.CalendarView oCV;
+    Outlook.Explorer oExpl;
+    System.DateTime datGoTo;
+
+    datGoTo = DateTime.Parse("11/7/2005");
+
+    // Display the contents of the Calendar default folder.
+    oExpl = Application.Explorers.Add(
+        Application.Session.GetDefaultFolder(
+        Outlook.OlDefaultFolders.olFolderCalendar),
+        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly);
+    oExpl.Display();
+
+    // Retrieve the current view by calling the 
+    // CurrentView property of the Explorer object.
+    oCV = (Outlook.CalendarView)(oExpl.CurrentView);
+
+    // Set the CalendarViewMode property of the 
+    // current view to display items by day.
+    oCV.CalendarViewMode = 
+        Outlook.OlCalendarViewMode.olCalendarViewDay;
+
+    // Call the GoToDate method to set the date
+    // for which information is displayed in the view.
+    oCV.GoToDate(datGoTo);
+}</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-119">メニューで使用する言語を定義するオブジェクトの言語の設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-119">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the object that defines the language used in the menu.</span>
+          </span>
+          <span data-ttu-id="08680-120">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-120">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-121">
+            <para>
+              <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
+          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-121">
+              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
+              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-122">返すまたは、ユーザーが現在のビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the current view.</span>
+          </span>
+          <span data-ttu-id="08680-123">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-123">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-124">
+            <para>かどうか<b>は True</b>、ユーザー設定を変更できます、現在のビューのです。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-124">
+              <para>If <b>True</b>, the user can modify the settings of the current view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-125">取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-125">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
+          </span>
+          <span data-ttu-id="08680-126">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-126">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-p107">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-129">組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-129">Resets a built-in Microsoft Outlook view to its original settings.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="08680-130">
+            <para>このメソッドは、組み込みの Outlook ビューでのみ機能します</para>。
+          <para>現在のビューを正しくリセットするのには、 <b>View.Reset</b>を行う必要があり、 <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。次のコード例は、呼び出しの順序を示しています:</para><code>Sub ResetView()
+    Dim v as Outlook.View
+    ' Save a reference to the current view object
+    Set v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset
+    v.Apply
+End Sub</code><code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-130">
+              <para>This method works only on built-in Outlook views.</para>
+              <para>To properly reset the current view, you must do a <b>View.Reset</b> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
+              <code>Sub ResetView()
+    Dim v as Outlook.View
+    ' Save a reference to the current view object
+    Set v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset
+    v.Apply
+End Sub</code>
+              <code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.View.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-131">ビューまたはビューの変更内容を保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-131">Saves the view, or saves the changes to a view.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="08680-132">
+            <para>常にビューのプロパティを変更した後にビューを保存するのに<b>保存</b>を使用します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-132">
+              <para>Always use <b>Save</b> to save a view after you change any property of the view.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-133">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-133">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />  constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
+          </span>
+          <span data-ttu-id="08680-134">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-135">
+            <para>
+              <b>SaveOption</b>プロパティを設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />メソッドです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-135">
+              <para>The <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-136">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-136">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="08680-137">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-137">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-138">
+            <para>
+              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-138">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-139">
+            <b>ブール型</b>(C# では<b>bool</b> ) ビューが組み込みの Outlook ビューかどうかを指定する値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-139">Returns a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the view is a built-in Outlook view.</span>
+          </span>
+          <span data-ttu-id="08680-140">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-140">Read-only</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-141">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />のビューを表す定数を入力する<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-141">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />  constant representing the view type of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span>
+          </span>
+          <span data-ttu-id="08680-142">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-142">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-143">
+            <para>このプロパティには、[ショートカット] ウィンドウに表示されるアイコンには影響はありません。大きいアイコンが削除されているし、このプロパティが<b>olLargeIcon</b>に設定されている場合に、効果のいずれかです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-143">
+              <para>This property does not have any effect on the icons displayed in the Shortcuts pane. Large icons have been removed and if this property is set to <b>olLargeIcon</b>, it will not have any effect.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.View.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08680-144">取得または現在のビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-144">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the current view.</span>
+          </span>
+          <span data-ttu-id="08680-145">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-145">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="08680-146">
+            <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。
+          <para>ビューを作成するには、ビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの XML プロパティを取得することができますし、ときに、XML の構造方法を決定します</para>。プログラムを使用してビューを使用するユーザー設定フィールドを追加するのには
+          <para>、<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />メソッドです。<b>View.XML</b>プロパティを設定する上では、ビューを動的に変更するのには推奨される方法です</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08680-146">
+              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
+              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the XML property for that view.</para>
+              <para>To programmatically add a custom field to a view, use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method. This is the recommended way to dynamically change the view over setting the <b>View.XML</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

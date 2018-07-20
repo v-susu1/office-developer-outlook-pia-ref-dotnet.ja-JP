@@ -1,0 +1,57 @@
+<Type Name="FormNameRuleCondition" FullName="Microsoft.Office.Interop.Outlook.FormNameRuleCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b8bb962e17eb448bd510f4efd5e78fe9f202360c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638769" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FormNameRuleCondition : Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormNameRuleCondition implements class Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FormNameRuleCondition&#xA;Implements _FormNameRuleCondition" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FormNameRuleCondition : Microsoft::Office::Interop::Outlook::_FormNameRuleCondition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._FormNameRuleCondition</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FormNameRuleConditionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630DD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e3983-101">アイテムの送受信にフォーム名が使用されたかどうかを評価するルールの条件を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e3983-101">Represents a rule condition that evaluates whether a form name was used to send or receive an item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="e3983-102">
+        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />。</para>
+        <para>
+          <b>FormNameRuleCondition</b>から派生したが、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。各ルールに関連付けられて、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />を持つオブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.FormName" />プロパティ。<b>FormName</b>プロパティは、常に<b>FormNameRuleCondition</b>オブジェクトを返します。これらのいずれかのルールを有効にし、条件のルールがある場合<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /><b>は True</b>になります</para>。
+      <para>ルールの処理を指定する方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e3983-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />. </para>
+          <para>
+            <b>FormNameRuleCondition</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object. Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object which has a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.FormName" /> property. The  <b>FormName</b> property always returns a <b>FormNameRuleCondition</b> object. If the rule has any of these rule conditions enabled, then <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> would be <b>True</b>.</para>
+          <para>For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

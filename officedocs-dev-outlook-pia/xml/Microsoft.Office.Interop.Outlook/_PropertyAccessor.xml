@@ -1,0 +1,928 @@
+<Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637804" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _PropertyAccessor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006302D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="93a0f-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="93a0f-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="93a0f-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="93a0f-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="93a0f-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="93a0f-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="93a0f-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="93a0f-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="93a0f-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
+          </span>
+          <span data-ttu-id="93a0f-106">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryToString">
+      <MemberSignature Language="C#" Value="public string BinaryToString (object Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string BinaryToString([in]object Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BinaryToString (Value As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ BinaryToString(System::Object ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64259)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Value">
+          <span data-ttu-id="93a0f-107">変換するバイト配列を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-107">Represents the array of bytes to be converted.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-108">指定されたバイトの配列に変換する<paramref name="Value" /><b>の文字列</b>(C# では<b>文字列</b>) にします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-108">Converts the array of bytes specified by <paramref name="Value" /> to a <b>String</b> (<b>string</b> in C#).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-109">16 進<b>文字列</b>(C# では<b>文字列</b>) を変換後の値を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-109">A hexadecimal <b>String</b> (<b>string</b> in C#) that represents the converted value.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-110">
+            <para>
+              <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-110">
+              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="93a0f-111">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-111">Returns a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
+          </span>
+          <span data-ttu-id="93a0f-112">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteProperties">
+      <MemberSignature Language="C#" Value="public object DeleteProperties (ref object SchemaNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DeleteProperties([in]object&amp; SchemaNames) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.DeleteProperties(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteProperties (ByRef SchemaNames As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ DeleteProperties(System::Object ^ % SchemaNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64402)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">
+          <span data-ttu-id="93a0f-113">オブジェクトの親オブジェクトを削除するのにはプロパティの名前を格納している配列の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-113">An array that contains the names of the properties that are to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
+          </span>
+          <span data-ttu-id="93a0f-114">これらのプロパティは、名前空間によって参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-114">These properties are referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-115">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-115">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-116">配列で指定されたプロパティを削除<paramref name="SchemaNames" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-116">Deletes the properties specified in the array <paramref name="SchemaNames" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-117">操作が成功するか、エラーが発生した場合は、 <b>Err</b>オブジェクトの配列の場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の)<b>オブジェクト</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-117">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful, or is an array of <b>Err</b> objects if an error occurs.</span>
+          </span>
+          <span data-ttu-id="93a0f-118">戻り値が配列の場合は、この配列のサイズは SchemaNames配列と同じです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-118">If the return value is an array, the size of this array is the same as that of the SchemaNames array.</span>
+          </span>
+          <span data-ttu-id="93a0f-119">配列内の <b>Err</b> 値は、エラーの結果、 SchemaNamesパラメーターに対応するプロパティを削除するのにマップされます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-119">An <b>Err</b> value in the array is mapped to the error result of deleting the corresponding property in the SchemaNames parameter.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-120">
+            <para>呼び出し元のプロパティを削除する権限が必要です。<b>DeleteProperties</b>メソッドは、存在するカスタム プロパティのみを削除します。任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-120">
+              <para>The caller must have the permission to delete properties. The <b>DeleteProperties</b> method only deletes custom properties that exist. It does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteProperty">
+      <MemberSignature Language="C#" Value="public void DeleteProperty (string SchemaName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteProperty([in]string SchemaName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.DeleteProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteProperty (SchemaName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteProperty(System::String ^ SchemaName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64401)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">
+          <span data-ttu-id="93a0f-121">オブジェクトの親オブジェクトを削除するのにはプロパティの名前、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-121">The name of the property that is to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
+          </span>
+          <span data-ttu-id="93a0f-122">プロパティは名前空間によって参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-122">The property is referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-123">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-123">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-124">指定されたプロパティを削除<paramref name="SchemaName" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-124">Deletes the property specified by <paramref name="SchemaName" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="93a0f-125">
+            <para>呼び出し元のプロパティを削除する権限が必要です。<b>DeleteProperty</b>メソッドは、カスタム プロパティのみを削除します。任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-125">
+              <para>The caller must have the permission to delete properties. The <b>DeleteProperty</b> method deletes only custom properties; it does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperties">
+      <MemberSignature Language="C#" Value="public object GetProperties (object SchemaNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProperties([in]object SchemaNames) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.GetProperties(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProperties (SchemaNames As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProperties(System::Object ^ SchemaNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64254)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">
+          <span data-ttu-id="93a0f-126">値を取得するプロパティの名前が含まれる配列を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-126">An array that contains the names of the properties whose values are to be returned.</span>
+          </span>
+          <span data-ttu-id="93a0f-127">これらのプロパティは名前空間で参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-127">These properties are referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-128">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-128">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-129">1 次元の配列で指定されたプロパティの値を取得する<paramref name="SchemaNames" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-129">Obtains the values of the properties specified by the one-dimensional array <paramref name="SchemaNames" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-130">パラメーターで指定されたプロパティの値の配列を表す<b>オブジェクト</b><paramref name="SchemaNames" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-130">An <b>Object</b> that represents an array of values of the properties specified in the parameter <paramref name="SchemaNames" />.</span>
+          </span>
+          <span data-ttu-id="93a0f-131">返される配列内の要素の数の要素の数に等しい、<paramref name="SchemaNames" />の配列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-131">The number of elements in the returned array equals the number of elements in the <paramref name="SchemaNames" /> array.</span>
+          </span>
+          <span data-ttu-id="93a0f-132">特定のプロパティを取得するためにエラーが発生する場合は、 <b>Err</b> の値に表示されます、返される配列の対応する位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-132">If an error occurs for getting a specific property, the <b>Err</b> value will be returned in the corresponding location in the returned array.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-133">
+            <para>
+              <b>GetProperties</b>によって返される配列は、要求されたプロパティの種類に応じて、さまざまな種類の要素を含めることができます。<b>GetProperties</b>によって返される配列要素の型は、基になるプロパティの型と同じになります。<b>PT_OBJECT</b>などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
+            <para>、 <b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-133">
+              <para>The array returned by <b>GetProperties</b> can contain elements of different types, depending on the type of the property requested. The type of the array element returned by <b>GetProperties</b> will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to  a local time, use the helper methods  <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperty">
+      <MemberSignature Language="C#" Value="public object GetProperty (string SchemaName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProperty([in]string SchemaName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.GetProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProperty (SchemaName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProperty(System::String ^ SchemaName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64251)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">
+          <span data-ttu-id="93a0f-134">値を返すプロパティの名前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-134">The name of the property whose value is to be returned.</span>
+          </span>
+          <span data-ttu-id="93a0f-135">プロパティは名前空間によって参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-135">The property is referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-136">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-136">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-137">指定されたプロパティの値を表す<b>オブジェクト</b>を返します。 <paramref name="SchemaName" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-137">Returns an <b>Object</b> that represents the value of the property specified by <paramref name="SchemaName" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-138">
+            <b>オブジェクト</b>の値で指定されている要求されたプロパティの値を表す<paramref name="SchemaName" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-138">An <b>Object</b> value that represents the value of the requested property as specified by <paramref name="SchemaName" />.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-139">
+            <para>戻り値の型は、基になるプロパティの型と同じになります。<b>PT_OBJECT</b>などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
+            <para>、 <b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-139">
+              <para>The type of the return value will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to a local time, use the helper methods <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalTimeToUTC">
+      <MemberSignature Language="C#" Value="public DateTime LocalTimeToUTC (DateTime Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime LocalTimeToUTC([in]valuetype System.DateTime Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.LocalTimeToUTC(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LocalTimeToUTC (Value As DateTime) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime LocalTimeToUTC(DateTime Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64257)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Value">
+          <span data-ttu-id="93a0f-140">現地時刻から UTC に変換する日時の値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-140">The DateTime value to be converted from local time to UTC.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-141">指定された日時の値を変換する<paramref name="Value" />を世界協定時刻 (UTC) 形式のローカル時刻の形式から。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-141">Converts a DateTime value specified by <paramref name="Value" /> from the  local time format to Coordinated Universal Time (UTC) format.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-142">日時の値を表す<paramref name="Value" />後、現地時刻から UTC に変換します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-142">A DateTime value that represents <paramref name="Value" /> after being converted from local time to UTC.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-143">
+            <para>
+              <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-143">
+              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="93a0f-144">親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-144">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
+          </span>
+          <span data-ttu-id="93a0f-145">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-145">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="93a0f-146">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
+          </span>
+          <span data-ttu-id="93a0f-147">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-147">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="93a0f-148">
+            <para>
+              <b>セッション</b>のプロパティと、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />を取得するメソッドは同じ意味で使用できます、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-148">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperties">
+      <MemberSignature Language="C#" Value="public object SetProperties (object SchemaNames, object Values);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object SetProperties([in]object SchemaNames, [in]object Values) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetProperties (SchemaNames As Object, Values As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ SetProperties(System::Object ^ SchemaNames, System::Object ^ Values);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64255)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object" />
+        <Parameter Name="Values" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">
+          <span data-ttu-id="93a0f-149">設定するのには、値がプロパティの名前の配列の値のパラメーターで指定されました。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-149">An array of names of properties whose values are to be set as specified by the Values parameter.</span>
+          </span>
+          <span data-ttu-id="93a0f-150">これらのプロパティは、名前空間によって参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-150">These properties are referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-151">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-151">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <param name="Values">
+          <span data-ttu-id="93a0f-152">SchemaNames パラメーターで指定したプロパティに対して設定する値の配列を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-152">An array of values that are to be set for the properties specified by the SchemaNames parameter.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-153">配列で指定されたプロパティを設定する<paramref name="SchemaNames" />の配列で指定された値を<paramref name="Values" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-153">Sets the properties specified by the array <paramref name="SchemaNames" /> to the values specified by the array <paramref name="Values" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-154">操作が成功した場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の)<b>オブジェクト</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-154">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful.</span>
+          </span>
+          <span data-ttu-id="93a0f-155">任意のプロパティを設定する前にエラーがある場合はたとえば、  SchemaNames配列内の要素の数と一致しません、  Values配列の、 <b>Err</b> の値が返されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-155">If there is an error before any properties are set, for example, the number of elements in the SchemaNames array does not match that in the Values array, and an <b>Err</b> value will be returned.</span>
+          </span>
+          <span data-ttu-id="93a0f-156">プロパティの設定中にエラーがある場合は、同じ SchemaNames 配列の配列の要素の数と、 <b>Err</b>オブジェクトの配列を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-156">If there is an error during the setting of the properties, the return value is an array of <b>Err</b> objects, with the number  of elements in this array being the same as that of the SchemaNames array.</span>
+          </span>
+          <span data-ttu-id="93a0f-157">配列内の <b>Err</b> 値は、 SchemaNamesパラメーターに対応するプロパティの設定のエラーの結果にマップされます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-157">An <b>Err</b> value in the array is mapped to the error result of setting the corresponding property in the SchemaNames parameter.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-158">
+            <para>プロパティが存在しない場合、および<paramref name="SchemaNames" />要素には有効なプロパティの指定子が含まれている場合、 <b>SetProperties</b>はプロパティを作成しで指定された値を持つプロパティが割り当てられます<paramref name="Values" />。プロパティの型が渡される要素の種類になります<paramref name="Values" />。プロパティが存在する場合、 <b>SetProperties</b>はプロパティで指定された値を割り当てます<paramref name="Values" />です</para>。
+          <para><b>PropertyAccessor</b>を使用して作成されたカスタム プロパティがカスタム ビューでサポートされていないことをメモします。アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです</para>。
+          <para>場合の親オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />明示的なサポートにオブジェクトを<b>保存</b>するの明示的な<b>Save</b>操作では、[プロパティを保存するメソッドの呼び出しです。オブジェクトがサポートしていない場合、明示的な<b>Save</b>操作では、[プロパティが<b>SetProperties</b>が呼び出されたときにオブジェクトに保存されます。</para><para>は、十分注意を使用して、すべての例外が正しく処理されることを確認します。条件の設定のプロパティが失敗した場合が含まれます:</para><list type="bullet"><item><para>プロパティが読み取り専用には、いくつかの Outlook と MAPI プロパティは読み取り専用</para></item>。
+            <item><para>指定した名前空間によって参照されるプロパティが見つかりません</para></item>。
+            <item><para>プロパティが無効な形式で指定されており、解析できません</para></item>。
+            <item><para>プロパティが存在しないと作成できません</para></item>。
+            <item><para>プロパティが存在しますが、誤った型の値が渡されます</para></item>。
+            <item><para>クライアントがオフラインであるために、プロパティを開くことができません</para></item>。
+            <item><para>プロパティの作成の<b>Add</b>メソッドを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /><b>SetProperties</b>の代わりに、オブジェクトまたは<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /><b>PropertyAccessor</b>オブジェクトのメソッドです</para></item></list>。
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-158">
+              <para>If the property does not exist and the <paramref name="SchemaNames" /> element contains a valid property specifier, then <b>SetProperties</b> creates the property and assigns the property with  the value specified by <paramref name="Values" />. The type of the property will be the type of the element passed in <paramref name="Values" />. If the property does exist, then <b>SetProperties</b> assigns the property the value as specified by <paramref name="Values" />.</para>
+              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
+              <para>If the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
+              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
+              <list type="bullet">
+                <item>
+                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
+                </item>
+                <item>
+                  <para>The property referenced by the specified namespace is not found.</para>
+                </item>
+                <item>
+                  <para>The property is specified in an invalid format and cannot be parsed.</para>
+                </item>
+                <item>
+                  <para>The property does not exist and cannot be created.</para>
+                </item>
+                <item>
+                  <para>The property exists but is passed a value of an incorrect type.</para>
+                </item>
+                <item>
+                  <para>Cannot open the property because the client is offline.</para>
+                </item>
+                <item>
+                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <b>SetProperties</b> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <b>PropertyAccessor</b> object.</para>
+                </item>
+              </list>
+              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperty">
+      <MemberSignature Language="C#" Value="public void SetProperty (string SchemaName, object Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProperty([in]string SchemaName, [in]object Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProperty (SchemaName As String, Value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetProperty(System::String ^ SchemaName, System::Object ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64252)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+        <Parameter Name="Value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">
+          <span data-ttu-id="93a0f-159">値を設定するプロパティの名前で指定された<paramref name="Value" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-159">The name of a property whose value is to be set as specified by <paramref name="Value" />.</span>
+          </span>
+          <span data-ttu-id="93a0f-160">プロパティは名前空間によって参照されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-160">The property is referenced by namespace.</span>
+          </span>
+          <span data-ttu-id="93a0f-161">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-161">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
+          </span>
+        </param>
+        <param name="Value">
+          <span data-ttu-id="93a0f-162">値で指定されたプロパティを設定するのには<paramref name="SchemaName" />です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-162">The value that is to be set for the property specified by <paramref name="SchemaName" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-163">指定されたプロパティの設定<paramref name="SchemaName" />によって指定された値を<paramref name="Value" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-163">Sets the property specified by <paramref name="SchemaName" /> to the value specified by <paramref name="Value" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="93a0f-164">
+            <para>プロパティが存在しない場合、および<paramref name="SchemaName" />が含まれている有効なプロパティの指定子では、 <b>SetProperty</b>はプロパティを作成しで指定された値が割り当てられます<paramref name="Value" />。プロパティが存在する場合、<paramref name="SchemaName" />が正しく、 <b>SetProperty</b>によって指定された値をプロパティに代入し、<paramref name="Value" />です</para>。
+          <para><b>PropertyAccessor</b>を使用して作成されたカスタム プロパティがカスタム ビューでサポートされていないことをメモします。アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです</para>。
+          <para><b>PropertyAccessor</b>の親オブジェクトが明示的なサポートしている場合にオブジェクトを<b>保存</b>するの明示的な<b>Save</b>操作では、[プロパティを保存するメソッドの呼び出しです。オブジェクトがサポートしていない場合、明示的な<b>Save</b>操作では、[プロパティが<b>SetProperties</b>が呼び出されたときにオブジェクトに保存されます。</para><para>は、十分注意を使用して、すべての例外が正しく処理されることを確認します。条件の設定のプロパティが失敗した場合が含まれます:</para><list type="bullet"><item><para>プロパティが読み取り専用には、いくつかの Outlook と MAPI プロパティは読み取り専用</para></item>。
+            <item><para>指定した名前空間によって参照されるプロパティが見つかりません</para></item>。
+            <item><para>プロパティが無効な形式で指定されており、解析できません</para></item>。
+            <item><para>プロパティが存在しないと作成できません</para></item>。
+            <item><para>プロパティが存在しますが、誤った型の値が渡されます</para></item>。
+            <item><para>クライアントがオフラインであるために、プロパティを開くことができません</para></item>。
+            <item><para>プロパティの作成の<b>Add</b>メソッドを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />オブジェクトの代わりに、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<b>PropertyAccessor</b>オブジェクトの<b>SetProperty</b>メソッド</para></item></list>。
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-164">
+              <para>If the property does not exist and the <paramref name="SchemaName" /> contains a valid property specifier, then <b>SetProperty</b> creates the property and assigns the value specified by <paramref name="Value" />. If the property does exist and <paramref name="SchemaName" /> is valid, then <b>SetProperty</b> assigns the property with the value specified by <paramref name="Value" />.</para>
+              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
+              <para>If the parent object of the <b>PropertyAccessor</b> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
+              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
+              <list type="bullet">
+                <item>
+                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
+                </item>
+                <item>
+                  <para>The property referenced by the specified namespace is not found.</para>
+                </item>
+                <item>
+                  <para>The property is specified in an invalid format and cannot be parsed.</para>
+                </item>
+                <item>
+                  <para>The property does not exist and cannot be created.</para>
+                </item>
+                <item>
+                  <para>The property exists but is passed a value of an incorrect type.</para>
+                </item>
+                <item>
+                  <para>Cannot open the property because the client is offline.</para>
+                </item>
+                <item>
+                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <b>SetProperty</b> method of the <b>PropertyAccessor</b> object.</para>
+                </item>
+              </list>
+              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringToBinary">
+      <MemberSignature Language="C#" Value="public object StringToBinary (string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object StringToBinary([in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.StringToBinary(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StringToBinary (Value As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ StringToBinary(System::String ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64258)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Value">
+          <span data-ttu-id="93a0f-165">バイト配列に変換する 16 進数の文字列型 (String) の値を指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-165">A hexadecimal string value that is to be converted to an array of bytes.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-166">指定された文字列に変換する<paramref name="Value" />のバイト配列にします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-166">Converts a string specified by <paramref name="Value" /> to an  array of bytes.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-167">変換から返されるバイトの配列を表す<b>オブジェクト</b>の値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-167">An <b>Object</b> value that represents an array of bytes returned from the conversion.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-168">
+            <para>
+              <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-168">
+              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UTCToLocalTime">
+      <MemberSignature Language="C#" Value="public DateTime UTCToLocalTime (DateTime Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime UTCToLocalTime([in]valuetype System.DateTime Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UTCToLocalTime (Value As DateTime) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime UTCToLocalTime(DateTime Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Value">
+          <span data-ttu-id="93a0f-169">UTC から現地時刻に変換する日時の値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-169">The DateTime value to be converted from UTC to local time.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="93a0f-170">指定された DateTime 値に変換<paramref name="Value" />し、現地時刻の値を世界協定時刻 (UTC) を表現します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-170">Converts the DateTime value that is specified by <paramref name="Value" /> and expressed in Coordinated Universal Time (UTC) to a value in local time.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="93a0f-171">日時の値を表す<paramref name="Value" />UTC から現地時刻に変換した後です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-171">A DateTime value that represents <paramref name="Value" /> after being converted from UTC to local time.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="93a0f-172">
+            <para>使用する場合、型変換の詳細については、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクト、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">プロパティの設定の取得とのベスト ・ プラクティス</a>を参照してください。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="93a0f-172">
+              <para>For more information on type conversion when using the  <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,66 @@
+<Type Name="TableView" FullName="Microsoft.Office.Interop.Outlook.TableView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="71115d371c1db6bd8ebfa5a46c3be4b25e7e47eb" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638005" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TableView : Microsoft.Office.Interop.Outlook._TableView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TableView implements class Microsoft.Office.Interop.Outlook._TableView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TableView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TableView&#xA;Implements _TableView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TableView : Microsoft::Office::Interop::Outlook::_TableView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TableView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TableViewClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063096-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="79a0b-101">Outlook アイテムを表で表示するビューを表します。各行には項目が、各列には項目の詳細が示されます。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="79a0b-101">Represents a view that displays Outlook items in a table, with each item in a row and the details of the item in the columns.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="79a0b-102">
+        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._TableView" />。</para>
+        <para>から派生した、 <b>TableView</b>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトでは、テーブル内の Outlook アイテムを表示することができるカスタマイズ可能なビューを作成できます</para>。
+      <para>Outlook にはいくつかの組み込みの<b>TableView</b>オブジェクトが用意されていて、カスタムの<b>TableView</b>オブジェクトを作成することもできます。使用、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />への新しい<b>テーブル</b>を追加するコレクションの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト。<b>標準</b>プロパティを使用して、既存の<b>TableView</b>オブジェクトが組み込みまたはユーザー設定を判断します</para>。
+      <para>の外観と機能の<b>TableView</b>オブジェクトを構成することができます。使用、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />ビューが自動的に列をサイズ変更するかどうかを決定するプロパティと<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" />プロパティのかどうかで、ビューの Outlook アイテムが自動的にグループ化します。使用、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" /> 、ビュー内の Outlook アイテムの行内にあるプレビュー情報が表示されるかどうかを決定するプロパティと<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />プレビュー情報の表示に使用するフォントを指定するプロパティです。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、マルチライン モードで Outlook アイテムを表示するかどうかを決定するプロパティ</para>。
+      <para><b>TableView</b>オブジェクト内の Outlook アイテムの表示方法を構成することもできます。使用、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />の列ヘッダーを使用するフォントを指定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />ビュー内の Outlook アイテムに使用するフォントを指定するプロパティです。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />ビューで Outlook アイテムのプロパティ値の編集を有効にするプロパティです。使用、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> Outlook のビューに表示する項目を決定するためのプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" />の各 Outlook アイテムを表示する Outlook アイテムのプロパティを指定するコレクション。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> outlook アイテムがグループ化されている Outlook アイテムのプロパティを指定して、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" /> 、Outlook を指定するコレクション項目のプロパティのビューで outlook アイテムが並べ替えられます</para>。
+      <para>各<b>TableView</b>オブジェクトの定義は、拡張マークアップ言語 (XML) 形式で格納されます。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.XML" /> 、 <b>TableView</b>オブジェクトの XML 定義を操作するプロパティ</para>。使用の
+      <para>、<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />を現在のビューに<b>TableView</b>オブジェクトに加えられた変更を適用する方法です。使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Save" /> 、 <b>TableView</b>オブジェクトに加えられた変更を永続化する方法です。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" />プロパティを許可またはビューのユーザー インターフェイスが変更されないようにします</para>。
+      <para>、組み込みの<b>TableView</b>オブジェクトを変更することができますが、それらを削除することはできません。使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Delete" /> 、カスタムの<b>TableView</b>オブジェクトを削除する方法です。使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Reset" /> 、組み込みの<b>TableView</b>オブジェクトのプロパティを既定値にリセットします</para>。
+      <para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="79a0b-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._TableView" />. </para>
+          <para>The <b>TableView</b> object, derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object, allows you to create customizable views that allow you to display Outlook items in a table.</para>
+          <para>Outlook provides several built-in <b>TableView</b> objects, and you can also create custom <b>TableView</b> objects. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection to add a new <b>TableView</b> to a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object. Use the <b>Standard</b> property to determine if an existing <b>TableView</b> object is built-in or custom.</para>
+          <para>You can configure the appearance and functionality of the <b>TableView</b> object. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> property to determine whether the view automatically resizes columns and the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" /> property to determine if the view automatically groups Outlook items. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" /> property to determine whether preview information is displayed within the row for an Outlook item in the view, and the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" /> property to specify the font used to display preview information. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property to determine whether to show Outlook items in multiline mode.</para>
+          <para>You can also configure how Outlook items appear within the <b>TableView</b> object. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" /> property to specify the font used for column headers and the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" /> property to specify the font used for Outlook items in the view. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property to allow editing of Outlook item property values in the view. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> property to determine which Outlook items to display in the view and the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" /> collection to specify the Outlook item properties to display for each Outlook item. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> to specify the Outlook item properties by which Outlook items are grouped, and the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" /> collection to specify the Outlook item properties by which Outlook items are sorted in the view.</para>
+          <para>The definition for each <b>TableView</b> object is stored in Extensible Markup Language (XML) format. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.XML" /> property to work with the XML definition for the <b>TableView</b> object.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> method to apply any changes made to the <b>TableView</b> object to the current view. Use the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Save" /> method to persist any changes made to the <b>TableView</b> object. Use the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" /> property to allow or prevent changes to the user interface for the view.</para>
+          <para>You can change built-in <b>TableView</b> objects, but you cannot delete them. Use the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Delete" /> method to delete a custom <b>TableView</b> object. Use the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Reset" /> method to reset the properties of a built-in <b>TableView</b> object to their default values.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

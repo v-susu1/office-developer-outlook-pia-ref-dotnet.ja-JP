@@ -1,0 +1,3612 @@
+<Type Name="_MeetingItem" FullName="Microsoft.Office.Interop.Outlook._MeetingItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="314ae8121c6e79370d2fc992654c5f764eed39fa" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638508" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _MeetingItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MeetingItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MeetingItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _MeetingItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _MeetingItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063062-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="92b43-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="92b43-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="92b43-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="92b43-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="92b43-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="92b43-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="92b43-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="92b43-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Actions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Actions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As Actions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Actions ^ Actions { Microsoft::Office::Interop::Outlook::Actions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection that represents all the available actions for the item.</span>
+          </span>
+          <span data-ttu-id="92b43-106">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="92b43-108">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachments Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Attachments Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As Attachments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Attachments ^ Attachments { Microsoft::Office::Interop::Outlook::Attachments ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span>
+          </span>
+          <span data-ttu-id="92b43-110">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoForwarded">
+      <MemberSignature Language="C#" Value="public bool AutoForwarded { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoForwarded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.AutoForwarded" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoForwarded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoForwarded { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-111">アイテムが自動的に転送された場合<b>は True</b>を返します。<b>ブール型</b>(C# では<b>bool</b> ) の値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-111">A <b>Boolean</b> (<b>bool</b> in C#) value that returns <b>True</b> if the item was automatically forwarded.</span>
+          </span>
+          <span data-ttu-id="92b43-112">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolvedWinner">
+      <MemberSignature Language="C#" Value="public bool AutoResolvedWinner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoResolvedWinner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.AutoResolvedWinner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoResolvedWinner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoResolvedWinner { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-113">
+            <b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-113">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span>
+          </span>
+          <span data-ttu-id="92b43-114">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-115">
+            <para>値が<b>False</b>の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。別のアイテムと競合していない項目がある可能性があります</para>。
+          <para>の項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。その一方で、項目が競合している<b>が必要</b>プロパティは<b>False</b>として場合、は、競合の自動解決で優先されなかったデータ</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-115">
+              <para>A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</para>
+              <para>If an item has <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution. On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public string BillingInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingInformation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BillingInformation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-116">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-116">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the billing information associated with the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-117">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-117">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-118">
+            <para>これは、自由形式のテキスト フィールドです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-118">
+              <para>This is a free-form text field.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public string Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Body { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-119">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-119">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-120">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-120">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public string Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Categories { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-121">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-121">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-122">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-122">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-123">
+            <para>
+              <b>カテゴリ</b>は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数<b>Split</b>を使用します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-123">
+              <para>
+                <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item. This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values. To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-124">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="92b43-125">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-125">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]valuetype Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (SaveMode As OlInspectorClose)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(Microsoft::Office::Interop::Outlook::OlInspectorClose SaveMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61475)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
+      </Parameters>
+      <Docs>
+        <param name="SaveMode">
+          <span data-ttu-id="92b43-p111">閉じる際の動作を指定します。インスペクターで表示されたアイテムが変更されなかった場合、この引数は動作に影響を与えません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p111">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="92b43-128">Outlook アイテムを閉じ、Outlook アイテムへの変更を保存するかどうかを選択できます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-128">Closes and optionally saves changes to the Outlook item.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public string Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Companies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Companies { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-129">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-129">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the names of the companies associated with the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-130">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-130">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-131">
+            <para>これは、自由形式のテキスト フィールドです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-131">
+              <para>This is a free-form text field. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Conflicts Conflicts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Conflicts Conflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Conflicts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Conflicts ^ Conflicts { Microsoft::Office::Interop::Outlook::Conflicts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-132">返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-132">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span>
+          </span>
+          <span data-ttu-id="92b43-133">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-133">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationID">
+      <MemberSignature Language="C#" Value="public string ConversationID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-134">を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクトに属しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-134">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that the <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object belongs to.</span>
+          </span>
+          <span data-ttu-id="92b43-135">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-135">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-136">
+            <para>このプロパティでは、会話に項目を関連付けます。これらの項目との会話をすべての<b>ConversationID</b>プロパティに同じ値がある</para>。
+          <para>このプロパティは、MAPI プロパティの<b>PidTagConversationId</b>に対応します</para>。
+          <para><b>MeetingItem</b>オブジェクトは、Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、または Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server をオンライン モードで Outlook が実行されている場合このプロパティと同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationTopic" />プロパティ</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-136">
+              <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
+              <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
+              <para>If the <b>MeetingItem</b> object is created in a version of Microsoft Outlook earlier than Microsoft Outlook 2010, or if Outlook is running in online mode against a version of Microsoft Exchange Server earlier than Microsoft Exchange Server 2010, this property returns the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationTopic" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public string ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationIndex { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-137">
+            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-137">Returns a <b>String</b> (<b>string</b> in C#) representing the index of the conversation thread of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-138">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-138">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-139">
+            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-139">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-140">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-140">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public object Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-141">オブジェクトの別のインスタンスを作成します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-141">Creates another instance of an object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-142">返します、<see cref="T:System.Object" />親会議アイテムのコピーができます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-142">Returns an <see cref="T:System.Object" /> that is a copy of the parent meeting item.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-143">Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-143">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-144">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-144">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-145">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagCreationTime</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-145">
+              <para>This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeferredDeliveryTime">
+      <MemberSignature Language="C#" Value="public DateTime DeferredDeliveryTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DeferredDeliveryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.DeferredDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeferredDeliveryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DeferredDeliveryTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-146">メール メッセージは、配信する日時を示す<b>DateTime</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-146">Returns or sets a <b>DateTime</b> indicating the date and time the mail message is to be delivered.</span>
+          </span>
+          <span data-ttu-id="92b43-147">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-147">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-148">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagDeferredDeliveryTime</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-148">
+              <para>This property corresponds to the MAPI property <b>PidTagDeferredDeliveryTime</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-149">アイテムを含むフォルダーからアイテムを削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-149">Removes the item from the folder that contains the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="92b43-150">
+            <para>
+              <b>Delete</b>メソッドは、コレクション内の 1 つの項目を削除します。すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作の項目を削除します</para>。
+          <para>は、削除メソッドは、親フォルダーからアイテムを削除済みアイテム フォルダーに移動します。<b>Delete</b>メソッドが項目を完全に削除され、含まれているフォルダーが削除済みアイテム フォルダーの場合は、.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-150">
+              <para>The <b>Delete</b> method deletes a single item in a collection. To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder. For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</para>
+              <para>The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAfterSubmit">
+      <MemberSignature Language="C#" Value="public bool DeleteAfterSubmit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeleteAfterSubmit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.DeleteAfterSubmit" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteAfterSubmit As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeleteAfterSubmit { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3585)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3585)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3585)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-151">取得またはが送信され、 <b>False</b>のときに、コピーが保存されている場合、メール メッセージのコピーを保存しない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-151">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if a copy of the mail message is not saved upon being sent, and <b>False</b> if a copy is saved.</span>
+          </span>
+          <span data-ttu-id="92b43-152">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-152">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display (object Modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display([in]object Modal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Display(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display (Optional Modal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Modal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Modal">
+          <span data-ttu-id="92b43-p120">
+            <b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p120">
+              <b>True</b> to make the window modal. The default value is <b>False</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="92b43-155">新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-155">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="92b43-156">
+            <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
+          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-156">
+              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
+              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.DownloadState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DownloadState As OlDownloadState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDownloadState DownloadState { Microsoft::Office::Interop::Outlook::OlDownloadState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-157">属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-157">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span>
+          </span>
+          <span data-ttu-id="92b43-158">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-158">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryID">
+      <MemberSignature Language="C#" Value="public string EntryID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntryID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.EntryID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EntryID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-159">
+            <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-159">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
+          </span>
+          <span data-ttu-id="92b43-160">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-160">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-161">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagEntryId</b>に対応します</para>。
+          <para>MAPI ストア プロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b>プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b>プロパティが一意になるアイテムが移動しない限りに依存する必要があります。<b>EntryID</b>プロパティは MAPI 長期エントリ ID を返します。詳細についての時間の長いのおよび short 的なエントリ Id、 http://msdn.microsoft.com <b>PidTagEntryId</b>のです。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-161">
+              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
+              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpiryTime">
+      <MemberSignature Language="C#" Value="public DateTime ExpiryTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ExpiryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ExpiryTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpiryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ExpiryTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-162">日付と時刻項目は無効になります削除することができますを示す<b>日付時刻</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-162">Returns or sets a <b>DateTime</b> indicating the date and time at which the item becomes invalid and can be deleted.</span>
+          </span>
+          <span data-ttu-id="92b43-163">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-163">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagDueBy">
+      <MemberSignature Language="C#" Value="public DateTime FlagDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime FlagDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.FlagDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlagDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime FlagDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(48)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(48)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(48)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-164">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-164">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagIcon">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlFlagIcon FlagIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlFlagIcon FlagIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.FlagIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlagIcon As OlFlagIcon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlFlagIcon FlagIcon { Microsoft::Office::Interop::Outlook::OlFlagIcon get(); void set(Microsoft::Office::Interop::Outlook::OlFlagIcon value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFlagIcon</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-165">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-165">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagRequest">
+      <MemberSignature Language="C#" Value="public string FlagRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FlagRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.FlagRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlagRequest As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FlagRequest { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-166">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-166">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlFlagStatus FlagStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlFlagStatus FlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.FlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlagStatus As OlFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlFlagStatus FlagStatus { Microsoft::Office::Interop::Outlook::OlFlagStatus get(); void set(Microsoft::Office::Interop::Outlook::OlFlagStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4240)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4240)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4240)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-167">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-167">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormDescription">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.FormDescription FormDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.FormDescription FormDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.FormDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormDescription As FormDescription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::FormDescription ^ FormDescription { Microsoft::Office::Interop::Outlook::FormDescription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-168">返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-168">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object that represents the form description for the specified Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-169">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-169">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MeetingItem Forward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MeetingItem Forward() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Forward" />
+      <MemberSignature Language="VB.NET" Value="Public Function Forward () As MeetingItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MeetingItem ^ Forward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63507)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MeetingItem</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-170">アイテムに対して転送アクションを実行し、として結果のコピーが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-170">Executes the Forward action for an item and returns the resulting copy as a <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-171">新しい会議アイテムを表す <b>MeetingItem</b> オブジェクトを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-171">A <b>MeetingItem</b> object that represents the new meeting item.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAssociatedAppointment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AppointmentItem GetAssociatedAppointment (bool AddToCalendar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AppointmentItem GetAssociatedAppointment([in]bool AddToCalendar) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAssociatedAppointment (AddToCalendar As Boolean) As AppointmentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AppointmentItem ^ GetAssociatedAppointment(bool AddToCalendar);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63328)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AppointmentItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="AddToCalendar" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="AddToCalendar">
+          <span data-ttu-id="92b43-172">
+            <b>True の</b> 既定の 予定表フォルダーに会議を追加します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-172">
+              <b>True</b> to add the meeting to the default Calendar folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="92b43-173">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 、会議出席依頼に関連付けられている予定を表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-173">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object that represents the appointment associated with the meeting request.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-174">関連付けられた予定を表す <b>AppointmentItem</b> オブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-174">An <b>AppointmentItem</b> object that represents the associated appointment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Conversation GetConversation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Conversation GetConversation() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetConversation" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConversation () As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Conversation ^ GetConversation();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64596)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Conversation</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-175">取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-175">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this item belongs.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-176">
+            <b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-176">Returns a <b>Conversation</b> object that represents the conversation to which this item belongs.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="92b43-177">
+            <para>
+              <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。次のシナリオ内の項目の会話がありません:</para>
+            <list type="bullet">
+              <item>
+                <para>アイテムが保存されていません。自動保存、ユーザーの操作によって、項目をプログラムでは、保存できます</para>
+              </item>。
+            <item><para>(たとえば、メール アイテム、予定アイテムや連絡先アイテム) の送信可能なアイテム、アイテムが送信されていません</para></item>。
+            <item><para>の会話は、Windows レジストリを使用して無効になっています</para></item>。
+            <item><para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです</para></item></list>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-177">
+              <para>
+                <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item. No conversation exists for an item in the following scenarios:</para>
+              <list type="bullet">
+                <item>
+                  <para>The item has not been saved. An item can be saved programmatically, by user action, or by auto-save.</para>
+                </item>
+                <item>
+                  <para>For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</para>
+                </item>
+                <item>
+                  <para>Conversations have been disabled through the Windows registry.</para>
+                </item>
+                <item>
+                  <para>The store does not support the conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the conversation view.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector GetInspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector GetInspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.GetInspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GetInspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ GetInspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-178">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-178">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span>
+          </span>
+          <span data-ttu-id="92b43-179">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-179">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-180">
+            <para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。アイテムの<b>Inspector</b>オブジェクトが既に存在する場合、 <b>GetInspector</b>プロパティは新規に作成するのではなく場合は、その<b>Inspector</b>オブジェクトを返します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-180">
+              <para>This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> property. If an <b>Inspector</b> object already exists for the item, the <b>GetInspector</b> property will return that <b>Inspector</b> object instead of creating a new one.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlImportance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlImportance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As OlImportance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlImportance Importance { Microsoft::Office::Interop::Outlook::OlImportance get(); void set(Microsoft::Office::Interop::Outlook::OlImportance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-181">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-181">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constant indicating the relative importance level for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-182">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-182">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-183">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagImportance</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-183">
+              <para>This property corresponds to the MAPI property <b>PidTagImportance</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConflict">
+      <MemberSignature Language="C#" Value="public bool IsConflict { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsConflict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.IsConflict" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConflict As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConflict { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-184">
+            <b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-184">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span>
+          </span>
+          <span data-ttu-id="92b43-185">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-185">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-186">
+            <para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b>プロパティは<b>True</b>を返します</para>。
+          <para>かどうか<b>は True</b>、指定した項目が競合している</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-186">
+              <para>Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</para>
+              <para>If <b>True</b>, the specified item is in conflict.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLatestVersion">
+      <MemberSignature Language="C#" Value="public bool IsLatestVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLatestVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.IsLatestVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLatestVersion As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLatestVersion { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64642)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64642)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-187">示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクトでは、開催者の予定表の項目の最新バージョンを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-187">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object represents the latest version of the item on the organizer’s calendar.</span>
+          </span>
+          <span data-ttu-id="92b43-188">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-188">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-189">
+            <para>会議出席依頼、会議の更新情報、および会議のキャンセル通知を含むすべての<b>MeetingItem</b>オブジェクトにこのプロパティが適用されます</para>。
+          <para>が
+            <b>true</b>では、開催者の予定表で会議アイテムの最新バージョンであることを示します。予定表で会議アイテムが最新のバージョンではないことや、予定表で会議出席依頼と予定の別の項目間に競合があることに<b>false</b>を指定します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-189">
+              <para>This property applies to all <b>MeetingItem</b> objects including meeting requests, meeting updates, and meeting cancellation.</para>
+              <para>
+                <b>True</b> indicates that the latest version of the meeting item is on the organizer’s calendar. <b>False</b> indicates that the meeting item on the calendar is not the latest version, or that there is a conflict between the meeting request and another appointment item on the calendar.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ItemProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemProperties As ItemProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ItemProperties ^ ItemProperties { Microsoft::Office::Interop::Outlook::ItemProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-190">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-190">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-191">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-191">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-192">
+            <para>
+              <b>名前</b>またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-192">
+              <para>The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModificationTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModificationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModificationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.LastModificationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModificationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModificationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-193">Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-193">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span>
+          </span>
+          <span data-ttu-id="92b43-194">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-194">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-195">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagLastModificationTime</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-195">
+              <para>This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Links">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Links Links { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Links Links" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Links" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As Links" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Links ^ Links { Microsoft::Office::Interop::Outlook::Links ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-196">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-196">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-197">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-197">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkForDownload">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.MarkForDownload" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkForDownload As OlRemoteStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRemoteStatus MarkForDownload { Microsoft::Office::Interop::Outlook::OlRemoteStatus get(); void set(Microsoft::Office::Interop::Outlook::OlRemoteStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-198">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-198">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span>
+          </span>
+          <span data-ttu-id="92b43-199">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-199">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-200">
+            <para>このプロパティは、あまり理想的データ転送機能メッセージングの柔軟性が向上のリモート ユーザーを示します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-200">
+              <para>This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceURL">
+      <MemberSignature Language="C#" Value="public string MeetingWorkspaceURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingWorkspaceURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.MeetingWorkspaceURL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingWorkspaceURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingWorkspaceURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-201">会議アイテムがリンクされている会議ワークスペースの URL を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-201">Returns a <b>String</b> (<b>string</b> in C#) value that represents the URL for the Meeting Workspace that the meeting item is linked to.</span>
+          </span>
+          <span data-ttu-id="92b43-202">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-202">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-203">
+            <para>会議ワークスペースは、共有の Web サイトの会議を計画し、結果を追跡します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-203">
+              <para>A Meeting Workspace is a shared Web site for planning the meeting and tracking the results.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClass">
+      <MemberSignature Language="C#" Value="public string MessageClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.MessageClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-204">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-204">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-205">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-205">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-206">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-206">
+              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-207">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-207">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the mileage for an item.</span>
+          </span>
+          <span data-ttu-id="92b43-208">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-208">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-209">
+            <para>これは自由形式の文字列フィールドで、払い戻しの目的の項目 (たとえば、100 マイル、予定、連絡先、またはタスクの説明) に関連付けられた経費情報を保存するのには使用することができます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-209">
+              <para>This is a free-form string field and can be used to store mileage information associated with the item (for example, 100 miles documented for an appointment, contact, or task) for purposes of reimbursement. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public object Move (Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Move([in]class Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (DestFldr As MAPIFolder) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Move(Microsoft::Office::Interop::Outlook::MAPIFolder ^ DestFldr);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61492)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="DestFldr">
+          <span data-ttu-id="92b43-p135">
+            <b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p135">An expression that returns a <b>Folder</b> object. The destination folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="92b43-212">Microsoft Outlook アイテムを別のフォルダーへ移動します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-212">Moves a Microsoft Outlook item to a new folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-213">
+            <see cref="T:System.Object" /> 、指定フォルダーに移動したアイテムを表す値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-213">An <see cref="T:System.Object" /> value that represents the item which has been moved to the designated folder.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoAging">
+      <MemberSignature Language="C#" Value="public bool NoAging { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoAging" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.NoAging" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoAging As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoAging { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-214">取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-214">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> to not age the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-215">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-215">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginatorDeliveryReportRequested">
+      <MemberSignature Language="C#" Value="public bool OriginatorDeliveryReportRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OriginatorDeliveryReportRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.OriginatorDeliveryReportRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginatorDeliveryReportRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OriginatorDeliveryReportRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-216">取得または設定を決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定するかどうか、会議やメールのメッセージが配信レポートを受信します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-216">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether the originator of the meeting item or mail message will receive a delivery report.</span>
+          </span>
+          <span data-ttu-id="92b43-217">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-217">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-218">
+            <para>メッセージを処理するトランスポート プロバイダーに送信する配信ごとに、受信者の名前とアドレスが含まれている 1 つの配信通知します。配信では、メッセージが開封されたことを意味しません。True を設定すると、メッセージの配信確認を要求していた。</para>
+            <para>
+              <b>OriginatorDeliveryReportRequested</b>プロパティは、MAPI プロパティの<b>PidTagOriginatorDeliveryReportRequested</b>に対応します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-218">
+              <para>Each transport provider that handles your message sends you a single delivery notification containing the names and addresses of each recipient to whom it was delivered. Delivery does not imply that the message has been read. True if the originator requested a delivery receipt on the message. </para>
+              <para>The <b>OriginatorDeliveryReportRequested</b> property corresponds to the MAPI property <b>PidTagOriginatorDeliveryReportRequested</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookInternalVersion">
+      <MemberSignature Language="C#" Value="public int OutlookInternalVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OutlookInternalVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.OutlookInternalVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookInternalVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OutlookInternalVersion { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-219">Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-219">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the build number of the Outlook application for an Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-220">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-220">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookVersion">
+      <MemberSignature Language="C#" Value="public string OutlookVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OutlookVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.OutlookVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutlookVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-221">
+            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-221">Returns a <b>String</b> (<b>string</b> in C#) indicating the major and minor version number of the Outlook application for an Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-222">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-222">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-p140">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p140">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOut">
+      <MemberSignature Language="C#" Value="public void PrintOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.PrintOut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PrintOut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61491)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-p141">すべての既定設定を使用して Outlook アイテムを印刷します。 <b>PrintOut</b> メソッドは、印刷のために使用できる唯一の Outlook 方法です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p141">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-227">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-227">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object.</span>
+          </span>
+          <span data-ttu-id="92b43-228">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-228">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedTime">
+      <MemberSignature Language="C#" Value="public DateTime ReceivedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReceivedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReceivedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReceivedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3590)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3590)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3590)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-229">アイテムが受信された日時を示す<b>DateTime</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-229">Returns or sets a <b>DateTime</b> indicating the date and time at which the item was received.</span>
+          </span>
+          <span data-ttu-id="92b43-230">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-230">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients Recipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients Recipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Recipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ Recipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-231">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての受信者を表すコレクション。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-231">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection that represents all the recipients for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-232">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-232">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-233">
+            <para>受信者は、受信者の表示名、エイリアス、または完全な SMTP 電子メール アドレスを表す文字列で指定できます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-233">
+              <para>A recipient can be specified by a string representing the recipient's display name, alias, or full SMTP e-mail address.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderSet">
+      <MemberSignature Language="C#" Value="public bool ReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-234">このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-234">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if a reminder has been set for this item.</span>
+          </span>
+          <span data-ttu-id="92b43-235">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-235">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderTime">
+      <MemberSignature Language="C#" Value="public DateTime ReminderTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReminderTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34050)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34050)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34050)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-236">指定したアイテムについてアラームが発生する日時を示す<b>DateTime</b>を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-236">Returns or sets a <b>DateTime</b> indicating the date and time at which the reminder should occur for the specified item.</span>
+          </span>
+          <span data-ttu-id="92b43-237">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-237">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MailItem Reply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MailItem Reply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Reply" />
+      <MemberSignature Language="VB.NET" Value="Public Function Reply () As MailItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MailItem ^ Reply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MailItem</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-238">元のメッセージから、元の送信者に対する返信を作成します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-238">Creates a reply, pre-addressed to the original sender, from the original message.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-239">A<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />応答を表すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-239">A <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object that represents the reply.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAll">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MailItem ReplyAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MailItem ReplyAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.ReplyAll" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReplyAll () As MailItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MailItem ^ ReplyAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63505)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MailItem</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-240">元のメッセージから、元のすべての受信者に対する返信を作成します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-240">Creates a reply to all original recipients from the original message.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="92b43-241">A<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />の応答を表します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-241">A <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> that represents the reply.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients ReplyRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients ReplyRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReplyRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplyRecipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ ReplyRecipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61459)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61459)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-242">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての返信受信者オブジェクトを表すコレクション。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-242">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection that represents all the reply recipient objects for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-243">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-243">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionExpirationDate">
+      <MemberSignature Language="C#" Value="public DateTime RetentionExpirationDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime RetentionExpirationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.RetentionExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionExpirationDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime RetentionExpirationDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64650)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64650)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-244">返します、<see cref="T:System.DateTime" />日付を指定する値と、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />有効期限が切れる、メッセージング レコード管理 (MRM) のアシスタントになるアイテムが削除されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-244">Returns a <see cref="T:System.DateTime" /> value that specifies the date when the <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object expires, after which the Messaging Records Management (MRM) Assistant will delete the item.</span>
+          </span>
+          <span data-ttu-id="92b43-245">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-245">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-246">
+            <para>A の保持ポリシーが有効になり、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になります。この機能は、利用可能な Exchange Server 2010 のメールボックスにのみ MRM 2.0 が有効になっているとします。</para>
+            <para>Microsoft Outlook が Outlook がキャッシュ モードまたはオフライン モードである場合、アイテムの保存期間の開始日と保存期間に基づいて、このプロパティの値を計算します。Outlook がオンライン モードである場合、Exchange Server が値を指定します</para>。
+          <para>一般的に、保存期間の開始日項目は次のように特定:</para><list type="bullet"><item><para>受信または送信済みアイテム: 保存期間の開始日は、受信した日付です</para></item>。
+            <item><para>臨時の予定表アイテム: 保存期間の開始日は、予定の終了日</para></item>。
+            <item><para>の定期的な予定表アイテム: 最後の定期的なアイテムの終了日は、保存期間の開始日。終了日がない場合は、アイテムを無期限します</para></item></list>。
+          <para /><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-246">
+              <para>A retention policy is enabled and disabled by an administrator for a Microsoft Exchange Server on a mailbox level. This feature is available only on an Exchange Server 2010 mailbox with MRM 2.0 enabled. </para>
+              <para>Microsoft Outlook calculates the value of this property based on the item retention start date and the retention period, if Outlook is in cache or offline mode. The Exchange Server specifies the value if Outlook is in online mode.</para>
+              <para>In general, the retention start date for the item is determined as follows:</para>
+              <list type="bullet">
+                <item>
+                  <para>Received or sent items: the retention start date is the received date.</para>
+                </item>
+                <item>
+                  <para>Nonrecurring calendar items: the retention start date is the appointment end date.</para>
+                </item>
+                <item>
+                  <para>Recurring calendar items: the retention start date is the end date of last recurrence. If there is no end date, the item never expires.</para>
+                </item>
+              </list>
+              <para />
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPolicyName">
+      <MemberSignature Language="C#" Value="public string RetentionPolicyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RetentionPolicyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.RetentionPolicyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionPolicyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RetentionPolicyName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-247">
+            <b>文字列</b>(C# では<b>文字列</b>) を指定する保持ポリシーの名前を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-247">Returns a <b>String</b> (<b>string</b> in C#) that specifies the name of the retention policy.</span>
+          </span>
+          <span data-ttu-id="92b43-248">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-248">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-249">
+            <para>保存が有効になっているし、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になっています。機能は、Exchange Server 2010 のメールボックスのメッセージング レコード管理 (MRM) 2.0 が有効になっている上でのみ使用します。保持ポリシー名の例は、「クイック検索の有効期限を定義する時間の間隔」です。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-249">
+              <para>Retention is enabled and disabled by an administrator for a Microsoft Exchange Server on a mailbox level. The feature is available only on an Exchange Server 2010 mailbox with Messaging Records Management (MRM) 2.0 enabled. An example of a retention policy name is "Define time interval for expiration Quick Searches".</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RTFBody">
+      <MemberSignature Language="C#" Value="public object RTFBody { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RTFBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.RTFBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property RTFBody As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RTFBody { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-250">リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-250">Returns or sets a byte array that represents the body of the Microsoft Outlook item in Rich Text Format.</span>
+          </span>
+          <span data-ttu-id="92b43-251">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-251">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-252">
+            <para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-252">
+              <para>You can use the System.Text.Encoding.AsciiEncoding.GetString() method in C# or Visual Basic to convert an array of bytes to a string.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-253">Microsoft Outlook アイテムを現在のフォルダーに保存し、新しいアイテムの場合は、アイテムの種類に対応した Outlook の既定フォルダーに保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-253">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAs">
+      <MemberSignature Language="C#" Value="public void SaveAs (string Path, object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAs([in]string Path, [in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.SaveAs(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAs (Path As String, Optional Type As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Path">
+          <span data-ttu-id="92b43-254">アイテムを保存するパスを指定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-254">The path in which to save the item.</span>
+          </span>
+        </param>
+        <param name="Type">
+          <span data-ttu-id="92b43-255">保存するファイルの種類です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-255">The file type to save.</span>
+          </span>
+          <span data-ttu-id="92b43-256">
+            <b>OlSaveAsType</b>定数は、次のいずれか: <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、または<b>olMSGUnicode</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-256">Can be one of the following <b>OlSaveAsType</b> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="92b43-p152">Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p152">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="92b43-259">
+            <para>ことに注意して<b>olDoc</b>は、有効な<b>OlSaveAsType</b>定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-259">
+              <para>Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved  in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Saved">
+      <MemberSignature Language="C#" Value="public bool Saved { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Saved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Saved" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Saved As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Saved { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-260">Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-260">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span>
+          </span>
+          <span data-ttu-id="92b43-261">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-261">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveSentMessageFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder SaveSentMessageFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MAPIFolder SaveSentMessageFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SaveSentMessageFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property SaveSentMessageFolder As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MAPIFolder ^ SaveSentMessageFolder { Microsoft::Office::Interop::Outlook::MAPIFolder ^ get(); void set(Microsoft::Office::Interop::Outlook::MAPIFolder ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(62465)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-p154">設定またはこのプロパティを取得するには、目立った効果はありません。このプロパティを使用しません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-p154">Setting or getting this property has no noticeable effect. Do not use this property.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Send() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61557)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-264">会議のアイテムを送信します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-264">Sends the meeting item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="92b43-265">
+            <para>プログラムから会議出席依頼を作成するときに最初に作成する、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />の代わりにオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクトです。予定が会議であることを示す、設定、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> olMeeting に<b>AppointmentItem</b>オブジェクトのプロパティです。会議出席依頼を送信するには、適用、<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Send" />メソッドを<b>AppointmentItem</b>オブジェクト。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-265">
+              <para>When you create a meeting request programmatically, you first create an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object instead of a <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> object. To indicate the appointment is a meeting, set the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> property of the <b>AppointmentItem</b> object to olMeeting. To send the meeting request, apply the <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Send" /> method to that <b>AppointmentItem</b> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderEmailAddress">
+      <MemberSignature Language="C#" Value="public string SenderEmailAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SenderEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SenderEmailAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-266">
+            <b>文字列</b>(C# では<b>文字列</b>) を表す、Outlook アイテムの送信者の電子メール アドレスを返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-266">Returns a <b>String</b> (<b>string</b> in C#) that represents the e-mail address of the sender of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-267">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-267">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-268">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagSenderEmailAddress</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-268">
+              <para>This property corresponds to the MAPI property <b>PidTagSenderEmailAddress</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderEmailType">
+      <MemberSignature Language="C#" Value="public string SenderEmailType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderEmailType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SenderEmailType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SenderEmailType { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-269">
+            <b>文字列</b>(C# では<b>文字列</b>) を表す 'SMTP' がインターネット アドレスを Microsoft Exchange サーバーのアドレスなどの ' EX' などの Outlook アイテムの送信者の電子メール アドレスのエントリの種類を返します。読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-269">Returns a <b>String</b> (<b>string</b> in C#) that represents the type of entry for the e-mail address of the sender of the Outlook item, such as 'SMTP' for Internet address, 'EX' for a Microsoft Exchange server address, etc. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderName">
+      <MemberSignature Language="C#" Value="public string SenderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SenderName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SenderName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3098)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3098)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-270">
+            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの送信者の表示名を示します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-270">Returns a <b>String</b> (<b>string</b> in C#) indicating the display name of the sender for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-271">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-271">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-272">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagSenderName</b>に対応します</para>。
+          <para>送信者の完全修飾の電子メール アドレスを取得する場合を使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailAddress" />プロパティ</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-272">
+              <para>This property corresponds to the MAPI property <b>PidTagSenderName</b>.</para>
+              <para>If you wish to retrieve the fully qualified e-mail address of the sender, use the <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailAddress" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendUsingAccount">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Account SendUsingAccount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Account SendUsingAccount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SendUsingAccount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendUsingAccount As Account" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Account ^ SendUsingAccount { Microsoft::Office::Interop::Outlook::Account ^ get(); void set(Microsoft::Office::Interop::Outlook::Account ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-273">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />を使用して送信するアカウントを表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-273">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object that represents the account to use to send the <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />.</span>
+          </span>
+          <span data-ttu-id="92b43-274">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-274">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-275">
+            <para>
+              <b>SendUsingAccount</b>プロパティを使用するには、アカウントを指定するのにを<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.Send" />メソッドを使用して、 <b>MeetingItem</b>を送信します。<b>MeetingItem</b>に対して指定されたアカウントが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+            <para>
+              <b>MeetingItem</b>が、受信したアイテムの場合、または<b>MeetingItem</b>は既に送信されている場合このプロパティは読み取り専用 (つまり、<see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sent" />オブジェクトのプロパティが<b>True</b>に設定) します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-275">
+              <para>You can use the <b>SendUsingAccount</b> property to specify the account that the <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.Send" /> method uses to send the <b>MeetingItem</b>. This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account specified for the <b>MeetingItem</b> no longer exists. </para>
+              <para>This property is read-only if the <b>MeetingItem</b> is a received item, or if the <b>MeetingItem</b> has already been sent (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sent" /> property of the object is set to <b>True</b>). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As OlSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlSensitivity Sensitivity { Microsoft::Office::Interop::Outlook::OlSensitivity get(); void set(Microsoft::Office::Interop::Outlook::OlSensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-276">定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-276">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeration indicating the sensitivity for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-277">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-277">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-278">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagSensitivity</b>に対応します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-278">
+              <para>This property corresponds to the MAPI property <b>PidTagSensitivity</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sent">
+      <MemberSignature Language="C#" Value="public bool Sent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Sent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Sent { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62466)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-279">メッセージが送信されたかどうかであることを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-279">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates if a message has been sent.</span>
+          </span>
+          <span data-ttu-id="92b43-280">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-280">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-281">
+            <para>一般に、3 つの異なる種類のメッセージがある: 送信、投稿、および保存します。送信済みメッセージは、受信者またはパブリック フォルダーに送信されたアイテムです。投稿されたメッセージは、パブリック フォルダーに作成されます。保存されたメッセージが作成され、送信または投稿せずに保存されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-281">
+              <para>In general, there are three different kinds of messages: sent, posted, and saved. Sent messages are items sent to a recipient or public folder. Posted messages are created in a public folder. Saved messages are created and saved without either sending or posting.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentOn">
+      <MemberSignature Language="C#" Value="public DateTime SentOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SentOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.SentOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SentOn As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SentOn { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(57)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(57)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-282">Outlook アイテムが送信された日時を示す<b>DateTime</b>を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-282">Returns a <b>DateTime</b> indicating the date and time on which the Outlook item was sent.</span>
+          </span>
+          <span data-ttu-id="92b43-283">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-283">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-284">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagClientSubmitTime</b>に対応します。オブジェクトの項目を使用して会議出席依頼を送信するとき<see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReceivedTime" />メソッドでは、トランスポート プロバイダーの設定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" />との<b>SentOn</b>プロパティです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-284">
+              <para>This property corresponds to the MAPI property <b>PidTagClientSubmitTime</b>. When you send a meeting request item using the object's <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReceivedTime" />  method, the transport provider sets the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" />  and <b>SentOn</b> properties for you. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-285">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-285">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="92b43-286">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-286">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-287">
+            <para>
+              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-287">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowCategoriesDialog">
+      <MemberSignature Language="C#" Value="public void ShowCategoriesDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowCategoriesDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._MeetingItem.ShowCategoriesDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowCategoriesDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowCategoriesDialog();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64011)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-288">[分類の表示] ダイアログ ボックスを表示し、ユーザーがアイテムの件名に対応する分類項目を表示できるようにします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-288">Displays the Show Categories dialog box, which allows you to select categories that correspond to the subject of the item.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-289">Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-289">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-290">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-290">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-291">
+            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-291">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-292">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-292">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-293">
+            <para>このプロパティは、MAPI プロパティの<b>PidTagSubject</b>に対応します。<b>Subject</b>プロパティは、Outlook アイテムの既定のプロパティです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-293">
+              <para>This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Submitted">
+      <MemberSignature Language="C#" Value="public bool Submitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Submitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.Submitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Submitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Submitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62467)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62467)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-294">アイテムが送信された場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-294">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the item has been submitted.</span>
+          </span>
+          <span data-ttu-id="92b43-295">値の取得のみ可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-295">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="92b43-296">
+            <para>常にメッセージが作成され、通常、[送信トレイ] フォルダーに送信します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-296">
+              <para>A message is always created and submitted in a folder, usually the Outbox. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRead">
+      <MemberSignature Language="C#" Value="public bool UnRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UnRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.UnRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UnRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-297">取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-297">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been opened (read).</span>
+          </span>
+          <span data-ttu-id="92b43-298">値の取得および設定が可能です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-298">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperties UserProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserProperties UserProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._MeetingItem.UserProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserProperties As UserProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::UserProperties ^ UserProperties { Microsoft::Office::Interop::Outlook::UserProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="92b43-299">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-299">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="92b43-300">読み取り専用です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="92b43-300">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

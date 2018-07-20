@@ -1,0 +1,61 @@
+<Type Name="Inspector" FullName="Microsoft.Office.Interop.Outlook.Inspector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f647e0f5031d038c140991957ec784afba485301" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638268" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Inspector : Microsoft.Office.Interop.Outlook._Inspector, Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Inspector implements class Microsoft.Office.Interop.Outlook._Inspector, class Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Inspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Inspector&#xA;Implements _Inspector, InspectorEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Inspector : Microsoft::Office::Interop::Outlook::_Inspector, Microsoft::Office::Interop::Outlook::InspectorEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Inspector</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.InspectorClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063005-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b4fa5-101">Outlook アイテムが表示されるウィンドウを表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b4fa5-101">Represents the window in which an Outlook item is displayed.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b4fa5-102">
+        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />です</para>。
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> (存在する場合) は、現在アクティブなインスペクターを表すオブジェクトを返します</para>。
+      <para>項目に関連付けられているインスペクター オブジェクトを取得するアイテムの GetInspector プロパティを使用します</para>。
+      <para>関連するインスペクターでアイテムを表示する表示方法を使用します</para>。
+      <para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b4fa5-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> method to return the object representing the currently active inspector (if there is one). </para>
+          <para>Use the GetInspector property of an item to return the Inspector object associated with an item. </para>
+          <para>Use the Display method to display an item in its associated inspector.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

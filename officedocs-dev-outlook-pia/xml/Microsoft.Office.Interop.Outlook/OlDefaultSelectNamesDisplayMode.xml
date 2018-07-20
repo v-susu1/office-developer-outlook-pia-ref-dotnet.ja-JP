@@ -1,0 +1,288 @@
+<Type Name="OlDefaultSelectNamesDisplayMode" FullName="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="058cc9a2f396bc8ecda0d309b46f8d4981756678" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638852" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlDefaultSelectNamesDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlDefaultSelectNamesDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d9bfb-101">[宛先の選択] ダイアログ ボックスに表示するキャプション、ボタンの数、ボタン ラベル、アドレス一覧の既定値を指定します。ローカライズされたキャプションやラベルを定義する、リソース ファイルがない場合に適用されます。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d9bfb-101">Specifies the default caption, the number of buttons, the button labels, and the address lists to display in the Select Names dialog box without requiring a resource file for any localized caption and labels.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultDelegates">
+      <MemberSignature Language="C#" Value="olDefaultDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultDelegates = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultDelegates" />
+      <MemberSignature Language="VB.NET" Value="olDefaultDelegates" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-102">表示ボックスに受信者を編集する、使用の [宛先] ボタン、[追加] を表す文字列をローカライズし、キャプションの [ユーザーの追加] を表す文字列をローカライズします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-102">Displays one edit box for To recipients, uses localized string representing "Add" for the To button, and localized string representing "Add Users" for the caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-103">CcLabel および BccLabel は、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-103">CcLabel and BccLabel are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-104">セット<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />を True にし、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> olTo にします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-104">Sets <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> to  True and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to olTo.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMail">
+      <MemberSignature Language="C#" Value="olDefaultMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMail" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMail" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-105">[編集を表示するためのボックス、[cc]、および [bcc] 受信者、] に示さ、"Cc"、および [Bcc] の宛先、Cc、Bcc ボタン、およびキャプションの [名前の選択"を表すローカライズされた文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-105">Displays three edit boxes for To, Cc, and Bcc recipients, uses localized strings representing "To", "Cc", and "Bcc" for To, Cc, and Bcc buttons, and localized string representing "Select Names" for the caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-106">True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>をそれぞれに設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-106">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olToCcBcc.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMeeting">
+      <MemberSignature Language="C#" Value="olDefaultMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMeeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMeeting" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-107">必須、オプション、編集ボックスを表示し、リソースの受信者を使用して、宛先、Cc の「必要な」、「オプション」および「リソース」を表す文字列をローカライズすると [bcc] ボタン、との"出席者とリソースの選択"を表すローカライズされた文字列、キャプションです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-107">Displays three edit boxes for Required, Optional, and Resource recipients, uses localized strings representing "Required", "Optional", and "Resources" for the To, Cc, and Bcc buttons, and localized string representing "Select Attendees and Resources" for the caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-108">True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>をそれぞれに設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-108">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olToCcBcc.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMembers">
+      <MemberSignature Language="C#" Value="olDefaultMembers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMembers = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMembers" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMembers" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMembers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-109">人の受信者の 1 つのエディット ボックスを表示する] ボタンは、"To"を表すと、キャプションの [メンバーの選択] を表す文字列をローカライズされた文字列をローカライズされたを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-109">Displays one edit box for To recipients, uses localized string representing "To" for the To button, and localized string representing "Select Members" for caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-110">CcLabel および BccLabel は、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-110">CcLabel and BccLabel are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-111">True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-111">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultPickRooms">
+      <MemberSignature Language="C#" Value="olDefaultPickRooms" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultPickRooms = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultPickRooms" />
+      <MemberSignature Language="VB.NET" Value="olDefaultPickRooms" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultPickRooms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-112">リソースの受信者に対する 1 つのエディット ボックスを表示するボタン、およびキャプションの「ルームを選択」を表すローカライズされた文字列の"ルーム"を表すローカライズされた文字列を使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-112">Displays one edit box for Resource recipients, uses localized string representing "Rooms" for To button, and localized string representing "Select Rooms" for caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-113">CcLabel および BccLabel は、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-113">CcLabel and BccLabel are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-114">OlShowTo を True に設定する、<b>また</b>、 <b>NumberOfRecipientSelectors</b>を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-114">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olShowTo.</span>
+          </span>
+          <span data-ttu-id="d9bfb-115">
+            <b>InitialDisplayList</b>は、グローバル アドレス一覧に設定されています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-115">
+              <b>InitialDisplayList</b> is set to the Global Address List.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSharingRequest">
+      <MemberSignature Language="C#" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSharingRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSharingRequest" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSharingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-116">表示ボックスに受信者を編集する、使用のボタンに"To"を表すと、宛先のキャプションを表す文字列をローカライズされた文字列をローカライズします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-116">Displays one edit box for To recipients, uses localized string representing "To" for To button, and localized string representing "Select Names" for caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-117">CcLabel および BccLabel は、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-117">CcLabel and BccLabel are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-118">True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-118">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSingleName">
+      <MemberSignature Language="C#" Value="olDefaultSingleName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSingleName = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSingleName" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSingleName" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSingleName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-119">受信者を編集するためのボックスは表示せず、キャプションとして「宛先の選択」を表すローカライズされた文字列を適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-119">Displays no edit boxes for recipients, uses localized string representing "Select Name" for caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-120">ToLabel、CcLabel、[bcc] フィールドのラベルは、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-120">ToLabel, CcLabel, and Bcc label are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-121">
+            <b>また</b>を False、 <b>NumberOfRecipientSelectors</b>を olNone に設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-121">Sets <b>AllowMultipleSelection</b> to False and <b>NumberOfRecipientSelectors</b> to olNone.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultTask">
+      <MemberSignature Language="C#" Value="olDefaultTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultTask = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultTask" />
+      <MemberSignature Language="VB.NET" Value="olDefaultTask" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d9bfb-122">表示ボックスに受信者を編集する、使用のボタンに"To"を表すと、キャプションの「タスクの受信者を選択」を表す文字列をローカライズされた文字列をローカライズします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-122">Displays one edit box for To recipients, uses localized string representing "To" for To button, and localized string representing "Select Task Recipient" for caption.</span>
+          </span>
+          <span data-ttu-id="d9bfb-123">CcLabel および BccLabel は、空の文字列に設定されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-123">CcLabel and BccLabel are set to an empty string.</span>
+          </span>
+          <span data-ttu-id="d9bfb-124">True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d9bfb-124">Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
