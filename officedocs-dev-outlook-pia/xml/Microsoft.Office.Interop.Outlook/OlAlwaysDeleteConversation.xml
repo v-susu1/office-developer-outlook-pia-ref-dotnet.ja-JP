@@ -1,0 +1,89 @@
+<Type Name="OlAlwaysDeleteConversation" FullName="Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="33a2ab3118bc2bf01ffe01cbf8c89cab8f83de19" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637638" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlAlwaysDeleteConversation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAlwaysDeleteConversation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlAlwaysDeleteConversation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlAlwaysDeleteConversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>スレッドのすべての新規アイテムを、指定された配信ストアの [削除済みアイテム] フォルダーに常に移動するかどうかを指定します。
+</summary>
+    <remarks>
+      <para>この列挙体を使って、<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクト。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olAlwaysDelete">
+      <MemberSignature Language="C#" Value="olAlwaysDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation olAlwaysDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation.olAlwaysDelete" />
+      <MemberSignature Language="VB.NET" Value="olAlwaysDelete" />
+      <MemberSignature Language="C++ CLI" Value="olAlwaysDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>スレッドの新規アイテムは、常にそのアイテムを含むストアの [削除済みアイテム] フォルダーに移動します</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olAlwaysDeleteUnsupported">
+      <MemberSignature Language="C#" Value="olAlwaysDeleteUnsupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation olAlwaysDeleteUnsupported = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation.olAlwaysDeleteUnsupported" />
+      <MemberSignature Language="VB.NET" Value="olAlwaysDeleteUnsupported" />
+      <MemberSignature Language="C++ CLI" Value="olAlwaysDeleteUnsupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定されたストアは、そのストアの [削除済みアイテム] フォルダーに常に移動する動作をサポートしていません。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDoNotDelete">
+      <MemberSignature Language="C#" Value="olDoNotDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation olDoNotDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation.olDoNotDelete" />
+      <MemberSignature Language="VB.NET" Value="olDoNotDelete" />
+      <MemberSignature Language="C++ CLI" Value="olDoNotDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>スレッドの新規アイテムは、指定された配信ストアの [削除済みアイテム] フォルダーに移動せず、[削除済みアイテム] フォルダーの既存のスレッド アイテムは、受信トレイに移動します。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

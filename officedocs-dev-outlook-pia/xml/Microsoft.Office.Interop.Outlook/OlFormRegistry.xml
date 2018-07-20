@@ -1,0 +1,108 @@
+<Type Name="OlFormRegistry" FullName="Microsoft.Office.Interop.Outlook.OlFormRegistry">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ac81cd5c47029cfe3242572e7ee1281f64bbe84" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlFormRegistry" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlFormRegistry extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlFormRegistry" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlFormRegistry" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlFormRegistry" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <b>フォーム</b> が保存されているフォーム レジストリ (ライブラリ) を示します。</summary>
+    <remarks>
+      <para>パラメーターとして使用される、 <see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" /><b>フォーム</b>を登録するためのフォーム レジストリ (ライブラリ) を指定します。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultRegistry">
+      <MemberSignature Language="C#" Value="olDefaultRegistry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormRegistry olDefaultRegistry = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormRegistry.olDefaultRegistry" />
+      <MemberSignature Language="VB.NET" Value="olDefaultRegistry" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultRegistry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegistry</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Form をユーザーの既定のフォーム レジストリに登録。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olFolderRegistry">
+      <MemberSignature Language="C#" Value="olFolderRegistry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormRegistry olFolderRegistry = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormRegistry.olFolderRegistry" />
+      <MemberSignature Language="VB.NET" Value="olFolderRegistry" />
+      <MemberSignature Language="C++ CLI" Value="olFolderRegistry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegistry</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Form を特定のフォルダー用のフォーム レジストリに登録。そのフォルダー以外からはアクセス不可。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOrganizationRegistry">
+      <MemberSignature Language="C#" Value="olOrganizationRegistry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormRegistry olOrganizationRegistry = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormRegistry.olOrganizationRegistry" />
+      <MemberSignature Language="VB.NET" Value="olOrganizationRegistry" />
+      <MemberSignature Language="C++ CLI" Value="olOrganizationRegistry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegistry</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Form を組織フォーム レジストリに登録。すべてのユーザーがアクセス可能。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olPersonalRegistry">
+      <MemberSignature Language="C#" Value="olPersonalRegistry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormRegistry olPersonalRegistry = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormRegistry.olPersonalRegistry" />
+      <MemberSignature Language="VB.NET" Value="olPersonalRegistry" />
+      <MemberSignature Language="C++ CLI" Value="olPersonalRegistry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegistry</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Form をユーザーの個人レジストリに登録。そのユーザー以外はアクセスで不可。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

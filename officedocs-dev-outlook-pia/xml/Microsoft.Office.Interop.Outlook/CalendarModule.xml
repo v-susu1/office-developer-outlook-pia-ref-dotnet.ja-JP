@@ -1,0 +1,40 @@
+<Type Name="CalendarModule" FullName="Microsoft.Office.Interop.Outlook.CalendarModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9a3d15cfa73586cd3f386ded09d5d37fa3c49cdf" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637642" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CalendarModule : Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarModule implements class Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalendarModule&#xA;Implements _CalendarModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalendarModule : Microsoft::Office::Interop::Outlook::_CalendarModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CalendarModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CalendarModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630EA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>エクスプローラーのナビゲーション ウィンドウの [予定表] ナビゲーション モジュールを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._CalendarModule" />です</para>。
+      <para><b>CalendarModule</b>オブジェクトから派生した、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトのエクスプ ローラーのナビゲーション ウィンドウの [予定表] ナビゲーション モジュールに含まれるナビゲーション グループにアクセスを提供します。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />メソッドまたは<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />のプロパティ (<b>この</b>C# で)、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> 、親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />を使用して、 <b>NavigationModule</b>オブジェクトを取得する対象のオブジェクト、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /><b>NavigationModule</b>オブジェクトのプロパティナビゲーション モジュールの種類を取得します。<b>CalendarModule</b>オブジェクトにアクセスするためとして<b>NavigationModule</b>オブジェクト参照にキャストできますし、 <b>NavigationModuleType</b>プロパティを<b>olModuleCalendar</b>に設定すると場合、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" />そのナビゲーション モジュールのプロパティ.</para><para>を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Visible" />のナビゲーション モジュールが表示されているかどうかを決定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Position" />プロパティを取得またはナビゲーション ウィンドウ内のナビゲーション モジュールの表示位置を設定します。使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Name" />プロパティをナビゲーション ウィンドウ内の予定表ナビゲーション モジュールの表示名を取得します</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>
