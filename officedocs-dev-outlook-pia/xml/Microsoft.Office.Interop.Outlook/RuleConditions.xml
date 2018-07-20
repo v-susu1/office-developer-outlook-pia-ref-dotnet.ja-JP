@@ -1,0 +1,59 @@
+<Type Name="RuleConditions" FullName="Microsoft.Office.Interop.Outlook.RuleConditions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="090e2fb2c58b7ce3e2eadffe19cd6c02d655882f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637616" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleConditions implements class Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleConditions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RuleConditions&#xA;Implements _RuleConditions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RuleConditions : Microsoft::Office::Interop::Outlook::_RuleConditions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RuleConditions</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleConditionsClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="677d3-101">セットが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /><b>取得した RuleCondition</b>、条件または例外条件の順序で満たされる必要がありますを表すから派生したオブジェクトまたはオブジェクトを<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />を実行します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d3-101">Contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objects or objects derived from  <b>RuleCondition</b>, representing the conditions or exception conditions that must be satisfied in order for the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> to execute.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="677d3-102">
+        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />。</para>
+        <para>
+          <b>RuleConditions</b>オブジェクトには、ルールの条件およびルールの例外の両方が含まれています。<b>RuleConditions</b>コレクションに追加できるルールの条件の種類によって異なります、<see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />です</para>。
+      <para><b>RuleConditions</b>オブジェクトは、固定のコレクションです。<b>取得した RuleCondition</b>オブジェクトまたは<b>RuleCondition</b>オブジェクトから派生した型を追加または<b>RuleConditions</b>オブジェクトから削除できません</para>。
+      <para>、ルール オブジェクト モデルでは、ルールと通知ウィザードが Outlook のユーザー インターフェイスを使用して、部分的にしか同等を提供します。最もよく使用されるルールのアクションと条件がサポートされています。サポートするわけではありませんが、ルールの処理またはウィザードがサポートするルールの条件によるルールの作成も列挙し、これらのルールの処理と既存のルールの条件を有効にします。</para><para>ルールの条件の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d3-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>
+          <para>The <b>RuleConditions</b> object include both rule conditions and rule exceptions. The type of rule condition that can be added to a <b>RuleConditions</b> collection depends upon the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para>
+          <para>The <b>RuleConditions</b> object is a fixed collection. A <b>RuleCondition</b> object or a type that is derived from the <b>RuleCondition</b> object cannot be added or removed from the <b>RuleConditions</b> object.</para>
+          <para>The Rules object model provides partial parity with the Rules and Alerts Wizard in the Outlook user interface. It  supports the most commonly used rule actions and conditions. Although it does not support creating rules with any rule action or rule condition that  the Wizard supports, you can still enumerate and enable these rule actions and conditions in existing rules. </para>
+          <para>For more information on rule conditions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">How to: Create a Rule to Move Specific E-mails to a Folder</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>
