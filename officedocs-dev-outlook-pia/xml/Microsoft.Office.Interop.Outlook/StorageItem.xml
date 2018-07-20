@@ -1,0 +1,46 @@
+<Type Name="StorageItem" FullName="Microsoft.Office.Interop.Outlook.StorageItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="64f3b31b5fb2ef6128f00acedda29ebf7479b98f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637979" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface StorageItem : Microsoft.Office.Interop.Outlook._StorageItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StorageItem implements class Microsoft.Office.Interop.Outlook._StorageItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StorageItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface StorageItem&#xA;Implements _StorageItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class StorageItem : Microsoft::Office::Interop::Outlook::_StorageItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._StorageItem</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.StorageItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>常に隠しアイテムとして親フォルダーに保存され、Outlook ソリューションの個人用データを格納する MAPI のメッセージ オブジェクトです。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._StorageItem" />。</para>
+      <para>
+        <b>StorageItem</b>オブジェクトは、アカウントと共に移動し、オンラインまたはオフラインで使用できるように、フォルダー レベルで格納します</para>。
+      <para>、Outlook オブジェクト モデルでは、 <b>StorageItem</b>オブジェクトの任意のコレクション オブジェクトは提供されません。ただし、使用することができます<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />を取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />内のすべての隠しアイテムで、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を指定すると、 <paramref name="TableContents" /><b>olHiddenItems</b>としてパラメーター。データの秘密保持がきわめて重要なの場合は、それを保存する前にデータを暗号化する必要があります</para><para><b>StorageItem</b>オブジェクトを取得すると、ソリューション データを保存するのには、次を行うことができます:</para><list type="bullet"><item><para>ストレージ アイテムに添付ファイルを追加します</para></item>。
+        <item><para>アイテムの明示的な組み込みのプロパティを使用して、次のように<see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Body" />にカスタム データを格納します</para></item>。
+        <item><para>追加のカスタム プロパティを使用して項目を<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです。ここでは、省略可能なことに注意してください<paramref name="AddToFolderFields" />と<paramref name="DisplayFormat" />、 <b>UserProperties.Add</b>メソッドの引数は無視されます</para></item>。
+        <item><para>使用の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトを取得またはカスタム プロパティを設定します</para></item></list>。
+      <para>新しい<b>StorageItem</b>のデフォルトのメッセージ クラスは、IPM の<b>です。ストレージ ・</b>です。バージョンの Microsoft Office Outlook 2007 より前の Outlook で非表示のメッセージとしての<b>StorageItem</b>が存在していた場合、メッセージ クラスは変更されません。メッセージ クラスの変更を防ぐために<b>StorageItem</b>公開しないように、明示的な<b>MessageClass</b>プロパティ</para>。
+      <para><b>StorageItem</b>オブジェクトを使用してソリューションのデータを格納する方法についての詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87931">ソリューションのデータを格納する</a>を参照してください。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

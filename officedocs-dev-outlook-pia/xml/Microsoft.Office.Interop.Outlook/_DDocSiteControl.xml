@@ -1,0 +1,108 @@
+<Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638977" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _DDocSiteControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006F026-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Outlook アイテムの本文を表示するコントロールです。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。このインターフェイスを使用して、オブジェクトとそのメンバーにアクセスするのにはインタ フェースについての情報を参照してください。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public sbyte ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadOnly As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte ReadOnly { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはコントロールに表示される本文がのみ表示できるし、変更することはできないかどうかを指定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True</b>を示すコントロールのみ、本文が表示されます、その修正をサポートしていません<b>False</b>を示すコントロールを表示して、アイテムの本文の変更の両方をサポートしています。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressAttachments">
+      <MemberSignature Language="C#" Value="public sbyte SuppressAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 SuppressAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.SuppressAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressAttachments As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte SuppressAttachments { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、コントロールに Outlook アイテムの添付ファイルを表示しないかどうかを指定する<b>ブール</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティは、[添付ファイル] ボックスの Outlook アイテムに添付されているファイルにのみ適用され、インラインの添付ファイルに、Outlook アイテム内に埋め込まれる項目としては適用されません</para>。コントロールでは、アイテムの添付ファイルは表示されないことを示す
+            <b>true</b><para><b>False</b>を示す項目の添付ファイルを表示するコントロールをサポートしています。</para><para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1118 @@
+<Type Name="_Application" FullName="Microsoft.Office.Interop.Outlook._Application">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637805" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Application" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Application" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Application" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Application" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Application" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063001-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Application" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveExplorer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Explorer ActiveExplorer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Explorer ActiveExplorer() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />
+      <MemberSignature Language="VB.NET" Value="Public Function ActiveExplorer () As Explorer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Explorer ^ ActiveExplorer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(273)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Explorer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>最上位を返します<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />デスクトップ上のオブジェクトです。</summary>
+        <returns>デスクトップの一番上のエクスプ ローラーを表すオブジェクト<b>エクスプ ローラー</b> 。 アクティブなエクスプ ローラーがない場合は、 <b>Nothing</b>を返します。</returns>
+        <remarks>
+          <para>ユーザーがほとんどの場合に表示される<b>エクスプ ローラー</b>オブジェクトを取得するのにには、このメソッドを使用します。このメソッドもがない場合にアクティブなエクスプ ローラー、新しいものを開くことができるように決定するために役立ちます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveInspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector ActiveInspector ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Inspector ActiveInspector() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />
+      <MemberSignature Language="VB.NET" Value="Public Function ActiveInspector () As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Inspector ^ ActiveInspector();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(274)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>最上位を返します<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />デスクトップ上のオブジェクトです。</summary>
+        <returns>デスクトップの最上位のインスペクターを表す<b>Inspector</b> 。</returns>
+        <remarks>
+          <para>このメソッドを使用してユーザーに表示している可能性があります<b>Inspector</b>オブジェクトにアクセスします</para>。
+          <para>アクティブなインスペクターがない場合は、 <b>Nothing</b>を返します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveWindow">
+      <MemberSignature Language="C#" Value="public object ActiveWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ActiveWindow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Function ActiveWindow () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ActiveWindow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(287)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>か、デスクトップで、一番上の Outlook ウィンドウを表すオブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />または<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトです。</summary>
+        <returns>デスクトップの一番上の Outlook ウィンドウを表すオブジェクト。 Outlook エクスプ ローラーまたはインスペクターが開いていない場合は、 <b>Nothing</b>を返します。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdvancedSearch">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Search AdvancedSearch (string Scope, object Filter, object SearchSubFolders, object Tag);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Search AdvancedSearch([in]string Scope, [in]object Filter, [in]object SearchSubFolders, [in]object Tag) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AdvancedSearch (Scope As String, Optional Filter As Object, Optional SearchSubFolders As Object, Optional Tag As Object) As Search" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Search</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Scope" Type="System.String" />
+        <Parameter Name="Filter" Type="System.Object" />
+        <Parameter Name="SearchSubFolders" Type="System.Object" />
+        <Parameter Name="Tag" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Scope">検索範囲を指定します。たとえば、フォルダー パスなどを指定します。フォルダー パスは単一引用符で囲むことをお勧めします。単一引用符で囲まなかった場合、フォルダー パスに Unicode の文字が含まれていると、正しい結果を取得できないことがあります。複数のフォルダー パスを指定するには、各フォルダー パスを単一引用符で囲み、コンマで区切ります。</param>
+        <param name="Filter">検索のパラメーターを定義する DASL 検索フィルターを指定します。</param>
+        <param name="SearchSubFolders">フォルダー内のサブフォルダーを検索するかどうかを指定します。</param>
+        <param name="Tag">検索の識別子として指定する名前です。</param>
+        <summary>指定された DAV Searching and Locating (DASL) 検索文字列に基づいて検索を実行します。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Search" />の検索結果を表すオブジェクト。</returns>
+        <remarks>
+          <para>メソッドを呼び出して、<b>たとえば</b>連続する行のコードで同時に複数の検索を実行できます。ただし、する必要がありますプログラムを使用して多数の検索フォルダーを作成することが生じる可能性がある、Outlook のパフォーマンスに影響を及ぼす重要な同時検索アクティビティで Outlook は、Exchange のオンライン モードで検索を行う場合に特に注意してくださかった</para>。
+          <para><b>たとえば</b>メソッド、および Outlook オブジェクト モデルに関連する機能では、Outlook のユーザー インターフェイスに表示される検索フォルダーは作成できません。ただし、使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> Outlook のユーザー インターフェイスの検索フォルダーの一覧に表示される検索フォルダーを作成するのには返された Search オブジェクトのメソッドです</para>。
+          <para>を使用する、<paramref name="Scope" />パラメーターを同じストアに 1 つまたは複数のフォルダーを指定することができますが、複数のストアに複数のフォルダーを指定することはできません。複数のフォルダーを指定するのには、<paramref name="Scope" />パラメーターでは、各フォルダーのパスの間にコンマ文字を使用し、各フォルダーのパスを単一引用符で囲みます。受信トレイや送信済みアイテムなどの既定のフォルダーの完全なフォルダー パスではなく、単純なフォルダー名を使用できます。たとえば、次のコード行を表す有効な<paramref name="Scope" />のパラメーター:</para><code>Dim Scope As String = "'Inbox', 'Sent Items'"</code><code>string Scope = "'Inbox', 'Sent Items'";</code><code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
+    Outlook.OlDefaultFolders.olFolderInbox).FolderPath &amp;amp; _
+    "','" &amp;amp; Application.Session.GetDefaultFolder( _
+    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath</code><code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
+    Outlook.OlDefaultFolders.olFolderInbox).FolderPath + 
+    "','" + Application.Session.GetDefaultFolder( 
+    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code><para>、<paramref name="Filter" />パラメーターは、有効な DASL クエリを指定できます。DASL クエリの詳細については、アイテムをフィルターし、Namespace プロパティを参照するを参照してください。JET クエリを使用できないことに注意してください、<paramref name="Filter" />の高度な検索パラメーター。指定したフォルダーが含まれるストアでクイック検索が有効になっているかどうか、<paramref name="Scope" />パラメーター、検索のパフォーマンスを向上させるためにクイック検索キーワードを使用することができます。クイック検索キーワードを使用して、クイック検索が有効になっていない場合は、Outlook はエラーと、検索は失敗しますを返します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnswerWizard">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.AnswerWizard AnswerWizard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.AnswerWizard AnswerWizard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.AnswerWizard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnswerWizard As AnswerWizard" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::AnswerWizard ^ AnswerWizard { Microsoft::Office::Core::AnswerWizard ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(285)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(285)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.AnswerWizard</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Assistance">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IAssistance Assistance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IAssistance Assistance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Assistance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Assistance As IAssistance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IAssistance ^ Assistance { Microsoft::Office::Core::IAssistance ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64520)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64520)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IAssistance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a>を返します</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>IAssistance</b>の詳細については、2007 Microsoft Office system オブジェクト ライブラリ リファレンスを参照してください。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Assistant">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Assistant Assistant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Assistant Assistant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Assistant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Assistant As Assistant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Assistant ^ Assistant { Microsoft::Office::Core::Assistant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(276)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(276)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Assistant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="COMAddIns">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.COMAddIns COMAddIns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.COMAddIns COMAddIns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.COMAddIns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property COMAddIns As COMAddIns" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::COMAddIns ^ COMAddIns { Microsoft::Office::Core::COMAddIns ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(280)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(280)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.COMAddIns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>すべてのコンポーネント オブジェクト モデル (COM) アドインMicrosoft Outlookに現在読み込まれているを表す <b>COMAddIns</b> コレクションを取得します。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFile">
+      <MemberSignature Language="C#" Value="public object CopyFile (string FilePath, string DestFolderPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CopyFile([in]string FilePath, [in]string DestFolderPath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.CopyFile(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CopyFile (FilePath As String, DestFolderPath As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CopyFile(System::String ^ FilePath, System::String ^ DestFolderPath);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64098)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FilePath" Type="System.String" />
+        <Parameter Name="DestFolderPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FilePath">コピーするオブジェクトのパス名を指定します。</param>
+        <param name="DestFolderPath">ファイルのコピー先の場所を指定します。</param>
+        <summary>指定された場所から Microsoft Outlook の保存場所にファイルをコピーします。</summary>
+        <returns>コピーされたファイルを表す <b>オブジェクト</b> の値です。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateItem">
+      <MemberSignature Language="C#" Value="public object CreateItem (Microsoft.Office.Interop.Outlook.OlItemType ItemType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CreateItem([in]valuetype Microsoft.Office.Interop.Outlook.OlItemType ItemType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateItem (ItemType As OlItemType) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateItem(Microsoft::Office::Interop::Outlook::OlItemType ItemType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(266)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ItemType" Type="Microsoft.Office.Interop.Outlook.OlItemType" />
+      </Parameters>
+      <Docs>
+        <param name="ItemType">新しい項目の Outlook アイテムの種類です。</param>
+        <summary>新しい Microsoft Outlook アイテムを作成して返します。</summary>
+        <returns>新しい Microsoft Outlook アイテムを表すオブジェクト型 ( <b>Object</b>) の値。</returns>
+        <remarks>
+          <para>
+            <b>CreateItem</b>メソッドは既定の Outlook アイテムを作成のみできます。ユーザー設定フォームを使って新しいアイテムを作成するを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクション。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateItemFromTemplate">
+      <MemberSignature Language="C#" Value="public object CreateItemFromTemplate (string TemplatePath, object InFolder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CreateItemFromTemplate([in]string TemplatePath, [in]object InFolder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.CreateItemFromTemplate(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateItemFromTemplate (TemplatePath As String, Optional InFolder As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(267)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TemplatePath" Type="System.String" />
+        <Parameter Name="InFolder" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="TemplatePath">新しいアイテムの作成に使用する Outlook テンプレートのパスとファイル名を指定します。</param>
+        <param name="InFolder">アイテムを作成するフォルダーを指定します。この引数を省略すると、アイテムの標準のフォルダーにアイテムが作成されます。</param>
+        <summary>Outlook テンプレート (.oft) から新しい Microsoft Outlook アイテムを作成し、そのアイテムを返します。</summary>
+        <returns>新しい Microsoft Outlook アイテムを表す<b>オブジェクト</b>の値です。</returns>
+        <remarks>
+          <para>常に新しいアイテムが開かれます作成モードの項目が保存されているモードに関係なく、読み取りモードではなく、ディスクにします。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateObject">
+      <MemberSignature Language="C#" Value="public object CreateObject (string ObjectName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CreateObject([in]string ObjectName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.CreateObject(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateObject (ObjectName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateObject(System::String ^ ObjectName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(277)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ObjectName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ObjectName">作成するオブジェクトのクラス名です。 有効なクラス名の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87946">OLE プログラム Id</a>を参照してください。</param>
+        <summary>指定したクラスのオートメーション オブジェクトを作成します。</summary>
+        <returns>新しいオートメーション オブジェクトのインスタンスを表す<b>オブジェクト</b>の値です。 アプリケーションが既に実行されている場合、 <b>CreateObject</b>は、新しいインスタンスを作成します。</returns>
+        <remarks>
+          <para>Microsoft Visual Basic スクリプト版 (VBScript の) 1.0 では、 <b>CreateObject</b>メソッドが含まれていませんが、他のアプリケーションを自動化することができるように、このメソッドが用意されています。VBScript 2.0 以降のバージョンでは、 <b>CreateObject</b>が入っています。VBScript から Microsoft Outlook を自動化するのには、このメソッドを使用しない必要があります</para>。
+          <para><b>注</b>: <b>CreateObject</b>メソッド (「例」をクリックすると使用可能)、このヘルプ ファイル内のコード例で一般的に使用できる Microsoft Visual Basic または Microsoft Visual Basic for Applications (VBA)。これらの例は<paramref name="not" />では、Outlook オブジェクト モデルの一部として実装されている同じ<b>CreateObject</b>メソッドを使用します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultProfileName">
+      <MemberSignature Language="C#" Value="public string DefaultProfileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultProfileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.DefaultProfileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultProfileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultProfileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64214)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64214)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を返します。 既定のプロファイル名の名前を表します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>プロファイルが構成されていない場合、または Outlook の既定のプロファイルがない場合は、空の文字列を返します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Explorers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Explorers Explorers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Explorers Explorers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Explorers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Explorers As Explorers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Explorers ^ Explorers { Microsoft::Office::Interop::Outlook::Explorers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(281)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(281)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Explorers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />を格納するコレクション オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />すべての開いているエクスプ ローラーを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FeatureInstall">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFeatureInstall FeatureInstall { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFeatureInstall FeatureInstall" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.FeatureInstall" />
+      <MemberSignature Language="VB.NET" Value="Public Property FeatureInstall As MsoFeatureInstall" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFeatureInstall FeatureInstall { Microsoft::Office::Core::MsoFeatureInstall get(); void set(Microsoft::Office::Core::MsoFeatureInstall value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(286)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(286)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(286)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFeatureInstall</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNamespace">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace GetNamespace (string Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.NameSpace GetNamespace([in]string Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNamespace (Type As String) As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::NameSpace ^ GetNamespace(System::String ^ Type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(272)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Type">返される名前空間の型です。</param>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、指定した型のオブジェクト。</summary>
+        <returns>指定された名前空間を表す <b>NameSpace</b> オブジェクトです。</returns>
+        <remarks>
+          <para>サポートされる唯一の名前空間の種類は、"MAPI"です。<b>GetNameSpace</b>メソッドは、<b>セッション</b>のプロパティ、Microsoft Outlook 98 で導入された機能と同じです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewNickNames">
+      <MemberSignature Language="C#" Value="public void GetNewNickNames (ref object pvar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetNewNickNames([in]object&amp; pvar) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.GetNewNickNames(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetNewNickNames (ByRef pvar As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetNewNickNames(System::Object ^ % pvar);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64072)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pvar" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="pvar">To be added.</param>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectReference">
+      <MemberSignature Language="C#" Value="public object GetObjectReference (object Item, Microsoft.Office.Interop.Outlook.OlReferenceType ReferenceType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetObjectReference([in]object Item, [in]valuetype Microsoft.Office.Interop.Outlook.OlReferenceType ReferenceType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetObjectReference (Item As Object, ReferenceType As OlReferenceType) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetObjectReference(System::Object ^ Item, Microsoft::Office::Interop::Outlook::OlReferenceType ReferenceType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+        <Parameter Name="ReferenceType" Type="Microsoft.Office.Interop.Outlook.OlReferenceType" />
+      </Parameters>
+      <Docs>
+        <param name="Item">強オブジェクト参照または弱オブジェクト参照の参照先オブジェクトを指定します。</param>
+        <param name="ReferenceType">オブジェクト参照の種類を指定します。</param>
+        <summary>指定された Outlook オブジェクトへの強オブジェクト参照または弱オブジェクト参照を作成します。</summary>
+        <returns>
+          <b>オブジェクト</b> を表す、厳密なまたは弱オブジェクト参照を指定したオブジェクトを指定します。</returns>
+        <remarks>
+          <para>このメソッドで指定されたオブジェクトへの強いのか弱いオブジェクト参照を返します<paramref name="Item" />です。</para> 。
+          <para><b>注</b>: Outlook は、アドインで強オブジェクト参照を保持している場合、正常に終了するのには失敗することができます。常に、アドインによって、不要になった後に強力なオブジェクトの参照を逆参照</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspectors">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspectors Inspectors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspectors Inspectors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Inspectors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Inspectors As Inspectors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspectors ^ Inspectors { Microsoft::Office::Interop::Outlook::Inspectors ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(282)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(282)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspectors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />を格納するコレクション オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトが開いているすべてのインスペクターを表します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSearchSynchronous">
+      <MemberSignature Language="C#" Value="public bool IsSearchSynchronous (string LookInFolders);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsSearchSynchronous([in]string LookInFolders) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.IsSearchSynchronous(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsSearchSynchronous (LookInFolders As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSearchSynchronous(System::String ^ LookInFolders);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="LookInFolders" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="LookInFolders">検索するフォルダーのパス名を指定します。フォルダー パスは単一引用符で囲む必要があります。</param>
+        <summary>検索が同期または非同期になる場合を示す<b>ブール型</b>(C# では<b>bool</b> ) を返します。</summary>
+        <returns>
+          <b>True の</b> 場合、検索が同期化されます。それ以外の場合、 <b>false を指定</b> します。</returns>
+        <remarks>
+          <para>検索が同期の場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> 、検索が完了するまで、メソッドは返されません。逆に、検索が非同期の場合は、<b>ここ</b>に戻ります。非同期検索から意味のある結果を得るために使用して、 <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> 、検索が完了した場合に通知するイベントです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTrusted">
+      <MemberSignature Language="C#" Value="public bool IsTrusted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTrusted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.IsTrusted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTrusted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTrusted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64499)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64499)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>かどうか、アドインまたは外部の呼び出し元が Outlook で信頼できると見なされることを示す、<b>ブール型</b>(C# では<b>bool</b> ) を返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>アウト プロセスの呼び出しをインスタンス化するための<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトの場合、 <b>IsTrusted</b>は常に<b>False</b>を返します。  <b>Outlook アドインが、 <b>IsTrusted</b>は True</b>を返しますアドインは Outlook で信頼できる場合にのみです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.LanguageSettings LanguageSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.LanguageSettings LanguageSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageSettings As LanguageSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::LanguageSettings ^ LanguageSettings { Microsoft::Office::Core::LanguageSettings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(283)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(283)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.LanguageSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>の<a href="http://go.microsoft.com/fwlink/?LinkId=87945">LanguageSettings</a>を返します。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickerDialog">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerDialog PickerDialog { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.PickerDialog PickerDialog" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.PickerDialog" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PickerDialog As PickerDialog" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::PickerDialog ^ PickerDialog { Microsoft::Office::Core::PickerDialog ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64613)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64613)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerDialog</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Core.PickerDialog" /> ] ダイアログ ボックスで、ユーザーまたはデータを選択するための機能を提供するオブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>、 <b>PickerDialog</b>オブジェクトは、Microsoft Office のタイプ ライブラリで使用します。詳細については、次のオブジェクトとそのメンバーを参照してください:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>PickerDialog</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerField" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerFields" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerProperties" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerProperty" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerResult" />
+              </para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductCode">
+      <MemberSignature Language="C#" Value="public string ProductCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProductCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.ProductCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProductCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProductCode { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(284)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(284)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を返します Microsoft Outlook の<a href="http://go.microsoft.com/fwlink/?LinkId=87946">グローバル一意識別子 (GUID)</a>を指定する。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="public void Quit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Quit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.Quit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(275)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>現在開いているウィンドウをすべて閉じます。</summary>
+        <remarks>
+          <para>関連付けられている Outlook セッションが完全に終了します。ユーザーはメッセージング システムからログオフされ、保存されていないアイテムへの変更が破棄されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshFormRegionDefinition">
+      <MemberSignature Language="C#" Value="public void RefreshFormRegionDefinition (string RegionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshFormRegionDefinition([in]string RegionName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Application.RefreshFormRegionDefinition(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshFormRegionDefinition (RegionName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshFormRegionDefinition(System::String ^ RegionName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64639)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RegionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="RegionName">キャッシュの定義を更新するフォーム領域の内部的な名前です。すべてのフォーム領域の定義を更新するには、空の文字列を指定します。</param>
+        <summary>ローカル コンピューターおよび現在のユーザーに対して定義された 1 つまたはすべてのフォーム領域の Windows レジストリから現在の定義を取得することにより、キャッシュを更新します。</summary>
+        <remarks>
+          <para>Microsoft Outlook を起動するときにフォーム領域の一覧とその定義を取得するのには Windows レジストリを読み取りし、し、データをキャッシュします。定義は、レジストリ、ローカル コンピューターとキーの下 (HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) と (HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) としての現在のユーザー キーの下に格納されます。定義では、レイアウト、動作、および各フォーム領域の他の特性について説明します。更新された情報を得るために Outlook に指示するため、 <b>RefreshFormRegionDefinition</b>メソッドを使用するにはフォーム領域を登録するか、Outlook が起動した後、フォーム領域の定義を変更した場合です</para>。
+          <para>、<paramref name="RegionName" />の引数に一致する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の定義を更新するフォーム領域のプロパティです。フォーム領域の内部名は、ASCII 文字のみをサポートします。Outlook がローカル コンピューターと現在のユーザーに対して定義されているフォーム領域のすべての定義を取得するのには Windows のレジストリを読み取る場合は空の文字列を指定すると、します</para>。
+          <para>フォーム領域の登録の詳細については、Windows レジストリでフォーム領域を指定するを参照してください</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reminders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Reminders Reminders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Reminders Reminders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Reminders As Reminders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Reminders ^ Reminders { Microsoft::Office::Interop::Outlook::Reminders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64153)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64153)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Reminders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Reminders" />現在のすべてのアラームを表すコレクション。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZones">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.TimeZones TimeZones { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TimeZones TimeZones" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeZones As TimeZones" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::TimeZones ^ TimeZones { Microsoft::Office::Interop::Outlook::TimeZones ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64553)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64553)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TimeZones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" />を Outlook でサポートされているタイム ゾーンのセットを表すコレクション。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Outlook でサポートされているタイム ゾーンの設定は、Windows のレジストリ キーを NT\CurrentVersion\Time のゾーンに格納されたデータに基づいています。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Application.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(278)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(278)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を設定、バージョンの数を示します。 読み取り専用です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

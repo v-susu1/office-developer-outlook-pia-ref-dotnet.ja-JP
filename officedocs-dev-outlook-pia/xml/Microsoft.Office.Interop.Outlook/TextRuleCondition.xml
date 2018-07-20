@@ -1,0 +1,41 @@
+<Type Name="TextRuleCondition" FullName="Microsoft.Office.Interop.Outlook.TextRuleCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eea24f05937aa92de1ab3303d709f26cd651c89d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638452" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TextRuleCondition : Microsoft.Office.Interop.Outlook._TextRuleCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRuleCondition implements class Microsoft.Office.Interop.Outlook._TextRuleCondition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextRuleCondition&#xA;Implements _TextRuleCondition" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextRuleCondition : Microsoft::Office::Interop::Outlook::_TextRuleCondition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TextRuleCondition</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TextRuleConditionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>条件のルールを表します、メッセージを指定できますが、本文、ヘッダー、または件名の一部で指定された<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" />、指定した単語が含まれています<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._TextRuleCondition" />。</para>から派生して
+        <b>取得した TextRuleCondition</b>を
+      <para>、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。各ルールに関連付けられて、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> 、次のプロパティを持つオブジェクト: <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Body" />、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.BodyOrSubject" />、<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.MessageHeader" />と<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Subject" />。これらの各プロパティは常に<b>取得した TextRuleCondition</b>オブジェクトを返します。<b>TextRuleCondition.ConditionType</b>では、これらのルールの条件の間で区別します。これらのいずれかのルールを有効にし、条件のルールがある場合<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります</para>。
+      <para>ルールの条件を指定する方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

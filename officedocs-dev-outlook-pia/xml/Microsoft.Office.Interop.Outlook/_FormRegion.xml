@@ -1,0 +1,629 @@
+<Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637995" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _FormRegion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006305A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Detail">
+      <MemberSignature Language="C#" Value="public string Detail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Detail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Detail" />
+      <MemberSignature Language="VB.NET" Value="Public Property Detail As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Detail { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を取得または隣接するフォーム領域の表示名の後のヘッダーに実行時に表示されるテキストを表します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Detail</b>プロパティは、付加フォーム領域のみに表示されます。個別フォーム領域では無視されます</para>。
+          <para><b>Detail</b>プロパティは、付加フォーム領域では省略可能です</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を返します。 フォーム領域の名前を表します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>表示名は、フォーム領域では省略可能です。値を定義している場合、 &lt;formRegionName&gt;タグに対応するフォーム領域マニフェスト XML ファイルでこの値は<b>DisplayName</b>プロパティの値にマップされます。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
+          <para>、 <b>DisplayName</b>プロパティの値が Microsoft Office Fluent の [表示] タブの実行時に表示されますリボンの個別フォーム領域、または隣接するフォーム領域のヘッダーにします。 既定のロケールの使用され、設定が可能で、 &lt;stringOverride&gt;に対応するフォーム領域マニフェスト XML ファイルのタグです。文字列は、大文字とその最大の長さは、256 文字です</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> )、フォーム デザイナーでフォーム領域をデザインするときにサイズ変更機能、自動レイアウトを使用するかどうかを指定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>自動レイアウト サイズ変更機能は、フォーム デザイナーでは、フォームのサイズが変更されると動的に、フォームのレイアウトが再計算します。この機能は、フォーム デザイナーでフォーム領域を使用できるだけです</para>。
+          <para>このプロパティが<b>True</b>の場合は、フォーム デザイナーは、レイアウトの自動サイズ変更を実行します。 このプロパティが<b>False</b>の場合、フォーム デザイナーは実行されませんレイアウトの自動サイズ変更。 既定値は<b>true を指定</b>します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Form">
+      <MemberSignature Language="C#" Value="public object Form { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Form" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Form" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Form As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Form { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>MSForms.UserForm</b> オブジェクトを表す <b>オブジェクト</b> を返します。読み取り専用です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormRegionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.FormRegionMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormRegionMode As OlFormRegionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlFormRegionMode FormRegionMode { Microsoft::Office::Interop::Outlook::OlFormRegionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォーム領域が開封ページかどうかを示す <b>OlFormRegionMode</b> の定数を取得、作成ページ、または閲覧ウィンドウです。読み取り専用です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>ユーザーには、閲覧ウィンドウでメール アイテムがあるを使って、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" />さらに、ユーザーが編集モードまたは閲覧ウィンドウのモードを決定するプロパティです。場合と閲覧モード (メール アイテムが受信トレイや送信済みアイテム フォルダーにある) は編集モード (メール アイテムが下書きと同じフォルダーにある) である場合とは異なるメール アイテムを表示し、閲覧ウィンドウでは。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector Inspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector Inspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Inspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Inspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ Inspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />フォーム領域をホスティングするインスペクターを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>フォーム領域が閲覧ウィンドウに表示されている場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalName">
+      <MemberSignature Language="C#" Value="public string InternalName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) をフォーム領域のマニフェストで定義されているフォーム領域の内部プログラム名を表すを返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>内部名は、フォーム領域の必要があります。&lt;名&gt;対応するフォーム領域マニフェスト XML ファイル内のタグは、 <b>InternalName</b>プロパティの値にマップします。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
+          <para>
+            <b>InternalName</b>プロパティの値が、フォーム領域を参照するアドインまたは Outlook で使用されます。たとえば、フォーム領域が読み込まれているかを決定するか、ローカライズされた文字列リソースから文字列をロードします。<b>InternalName</b>プロパティには、ASCII 文字のみがサポートされています。文字列は、大文字とその最大の長さは、256 文字です</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>ブール型</b>(C# では<b>bool</b> ) をフォーム領域が展開されているかどうかを示す値を返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティは、隣接するフォーム領域にのみに適用され、個別フォーム領域は無視されます</para>。
+          <para>Outlook は最初に常に展開した状態でフォーム領域を読み込むし、 <b>IsExpanded</b>を<b>True</b>に設定します。折りたたむには、フォーム領域の初期状態があるかどうかは、Outlook が起動、フォーム領域をすぐに終了、<see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" />でのイベント、<paramref name="Expand" />パラメーターが<b>False</b>と設定を<b>False</b>には、 <b>IsExpanded</b> 。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォーム領域に連結されている Outlook アイテムに対応する <b>オブジェクト</b> を返します。読み取り専用です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public int Language { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Language" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Language As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Language { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>現在の言語の LCID を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォーム領域の <b>オブジェクト</b> の親を返します。読み取り専用です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reflow">
+      <MemberSignature Language="C#" Value="public void Reflow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reflow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Reflow" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reflow ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reflow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Outlook によって付加フォーム領域の高さが自動的に再計算され、フォーム領域に表示可能なコントロールがすべて表示されます。</summary>
+        <remarks>
+          <para>
+            <b>リフロー処理</b>メソッドは、付加フォーム領域にのみ適用されます。個別フォーム領域の場合は、アクションは実行されません。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>フォーム領域をアクティブなフォーム領域にして、そのフォーム領域が表示されるようにします。</summary>
+        <remarks>
+          <para>フォーム領域が付加フォーム領域の場合は、<b>選択</b>は (まだ展開されていない) 場合は、フォーム領域を展開し、そのページの先頭のコントロールにフォーカスを設定します。<b>フォーム領域に切り替える</b>かどうかは、フォーム領域が個別フォーム領域しなっていない作業中のページでは、ページし、そのページの先頭のコントロールにフォーカスを設定します。フォーム領域が個別フォーム領域は、作業中のページは、既に場合、何も起こりません。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetControlItemProperty">
+      <MemberSignature Language="C#" Value="public void SetControlItemProperty (object Control, string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetControlItemProperty([in]object Control, [in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.SetControlItemProperty(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetControlItemProperty (Control As Object, PropertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetControlItemProperty(System::Object ^ Control, System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="System.Object" />
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Control">指定されるプロパティをフォーム領域内のコントロール<paramref name="PropertyName" />バインドされます。</param>
+        <param name="PropertyName">コントロールに連結されるプロパティの名前を指定します。</param>
+        <summary>明示的な組み込みプロパティまたはカスタム プロパティを、フォーム領域内のコントロールに連結します。</summary>
+        <remarks>
+          <para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。必要がありますプロパティを参照する、文字列名、たとえば、<b>件名</b>、および名前空間ではなく、http://schemas.microsoft.com/mapi/proptag/0x0037001Eです</para>。
+          <para>、<paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。<b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ</para>。
+          <para>の<b>SetControlItemProperty</b>メソッドを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /><b>件名</b>プロパティなどのプロパティをコントロールにバインドするのには次のようなコードを使用することも、object:</para><code>myPage.Controls("bar").ItemProperty = "subject"</code><code>myPage.Controls("bar").ItemProperty = "subject";</code><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressControlReplacement">
+      <MemberSignature Language="C#" Value="public bool SuppressControlReplacement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuppressControlReplacement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.SuppressControlReplacement" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressControlReplacement As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SuppressControlReplacement { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>ブール型</b>(C# では<b>bool</b> ) のデザイン時および実行時に Forms 2.0 コントロール、テーマ付きの Outlook コントロールを自動的に置き換える Outlook を無効にする設定または返します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>テーマ付きの Outlook の対応するコントロールで、Forms 2.0 コントロールを自動的に置き換える Outlook の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87823">ユーザー設定フォーム内のコントロール</a>を参照してください。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値、フォーム領域が表示または非表示かどうかを示す。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True の</b>場合、フォーム領域が表示されます。場合は<b>false</b>非表示には。既定では<b>True です</b>。</para>
+          <para>フォーム領域に表示することのない情報へのアクセスを制御するのには<b>Visible</b>プロパティを使用します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

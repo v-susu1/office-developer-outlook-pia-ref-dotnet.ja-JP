@@ -1,0 +1,43 @@
+<Type Name="Reminder" FullName="Microsoft.Office.Interop.Outlook.Reminder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="43522c46b044288a474f0a6e6c16b40b4278d74a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638943" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Reminder : Microsoft.Office.Interop.Outlook._Reminder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminder implements class Microsoft.Office.Interop.Outlook._Reminder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Reminder&#xA;Implements _Reminder" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Reminder : Microsoft::Office::Interop::Outlook::_Reminder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Reminder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ReminderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630B0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Outlook のアラームを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Reminder" />。</para>
+      <para>通知を許可するユーザーを追跡する今後の予定スケジュールに特定の時点で表示されるポップアップ ダイアログ ボックスでします。予定だけでなくアラームが発生するタスク、連絡先、および電子メール メッセージです</para>。
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>通知</b>オブジェクトを取得する、アラームの</para>。
+      <para>のアラームは、プログラムによって作成された Microsoft Outlook の新しいアイテムの次のように、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトは、作成とアイテムの<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />プロパティが<b>True</b>に設定します</para>。
+      <para><b>のアラーム</b>を使用してコレクションの<see cref="M:Microsoft.Office.Interop.Outlook._Reminders.Remove(System.Object)" />コレクションから<b>Reminder</b>オブジェクトを削除する方法です。関連付けられたアイテムからアラームを削除すると、 <b>AppointmentItem</b>オブジェクトの<b>ReminderSet</b>プロパティが<b>False</b>に設定されています</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

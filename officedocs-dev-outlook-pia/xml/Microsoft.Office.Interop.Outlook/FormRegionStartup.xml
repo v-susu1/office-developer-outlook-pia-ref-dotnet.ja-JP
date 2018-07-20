@@ -1,0 +1,45 @@
+<Type Name="FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook.FormRegionStartup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="75a9b2ad694849b28efb9d70e2610a95ab5912e0" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638567" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FormRegionStartup : Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegionStartup implements class Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FormRegionStartup&#xA;Implements _FormRegionStartup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FormRegionStartup : Microsoft::Office::Interop::Outlook::_FormRegionStartup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._FormRegionStartup</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FormRegionStartupClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063059-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>アドインがフォーム領域の記憶域とユーザー インターフェイスを指定し、そのフォーム領域のオブジェクトを取得し、フォーム領域がフォームまたは閲覧ウィンドウに表示される直前にそのことを確認できるようにするインターフェイスを定義します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />。</para>
+      <para>
+        <b>FormRegionStartup</b>インターフェイスは、抽象クラスを直接インスタンス化できないことを意味します。Visual Basic では、次のように、アドイン クラスで<b>FormRegionStartup</b>のメソッドを提供する<b>Implements</b>キーワードを使用できます:</para>
+      <code>Implements Outlook._FormRegionStartup.BeforeFormRegionShow</code>
+      <para>クライアントの Outlook フォームのフォーム領域を展開するアドインをコンピューターに、<b>を実装する必要がFormRegionStartup</b>インターフェイスの 2 つの方法で構成される<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" />と<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />。Outlook アドインが読み込まれると、Outlook は、 <b>FormRegionStartup</b>の<b>IDTExtensibility2</b>インターフェイスを照会します。</para>アドインを
+      <para>は、 <b>GetFormRegionStorage</b>でフォーム領域の記憶域とレイアウト ファイルを示します。<b>GetFormRegionStorage</b>を呼び出して、Outlook ストレージを割り当てるとフォーム領域のレイアウトを計算、フォーム領域のオブジェクトをインスタンス化、アドインに割り当てられているストレージを表す値を返します。<b>GetFormRegionStorage</b>が正常終了した場合は、インスペクター ウィンドウまたは閲覧ウィンドウでフォーム領域が表示される直前に Outlook が<b>BeforeFormRegionShow</b>を呼び出し、渡す、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />で、追加するフォーム領域のオブジェクトです。アドインには、フォーム領域内のコントロールを更新するフォーム領域が表示される前にこの機会を使用します。</para><para>アドインでフォーム領域のフレームを終了するとき、アドインする必要がありますリリース フォーム領域のオブジェクトです</para>。
+      <para>フォーム領域のアドインの作成方法の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87930">、フォーム領域を拡張するアドインに</a><b>FormRegionStartup</b>を参照してください、MSDN のコード サンプルのダウンロードを参照してください</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

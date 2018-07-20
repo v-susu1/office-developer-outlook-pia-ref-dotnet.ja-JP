@@ -1,0 +1,46 @@
+<Type Name="MAPIFolderEvents_12_BeforeItemMoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3c199f33af7511d3189ab7cf2b20a3d55944c4c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639341" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(object Item, MAPIFolder MoveTo, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MAPIFolderEvents_12_BeforeItemMoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MAPIFolderEvents_12_BeforeItemMoveEventHandler(Item As Object, MoveTo As MAPIFolder, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(System::Object ^ Item, MAPIFolder ^ MoveTo, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Item" Type="System.Object" />
+    <Parameter Name="MoveTo" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Item">移動または削除される Outlook アイテムを表します。</param>
+    <param name="MoveTo">アイテムの移動先のフォルダーを表します。</param>
+    <param name="Cancel">
+      <b>True</b> に移動をキャンセルまたは削除のアクションは、これを設定します。</param>
+    <summary>これは、対応するオブジェクトのイベントのデリゲートです。イベントのコールバック メソッドを実装した後、このデリゲートを使用してコールバック メソッドをイベントに接続します。複数のバージョンのイベント インターフェイスがある場合、このデリゲートは Outlook の指定バージョンのイベントのコールバック メソッドを接続します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

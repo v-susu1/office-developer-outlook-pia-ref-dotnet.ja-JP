@@ -1,0 +1,338 @@
+<Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5775f16b4f47ab029314c22c5ef7bfb307c13e1f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637671" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00067366-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>いくつかの Microsoft Outlook コントロールに共通のプロパティの集合を定義します。</summary>
+    <remarks>
+      <para>
+        <b>OlkControl</b>で提供されているメンバーは、ほとんどの Outlook コントロールに適用できます。 <b>OlkControl</b>を簡単にキャストできます Outlook コントロールは、リフレクションを使用しなくてもクラスを提供します。<b>OlkControl</b>は、Microsoft Forms 2.0 のコントロールには適用されません、類似したプロパティは Forms 2.0 のコントロールを使用します。詳細についてを参照してください<a href="http://go.microsoft.com/fwlink/?LinkID=87937">[ol98]: 追加コントロールのプロパティに使用できるプログラミング</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ControlProperty">
+      <MemberSignature Language="C#" Value="public string ControlProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ControlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ControlProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ControlProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す、データ バインドが発生するコントロールのプロパティを設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>ブール型</b>(C# では<b>bool</b> ) フォームの他の部分に対して、コントロールのレイアウトの自動調整を有効にする設定または返します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>コントロールのレイアウトの自動調整には、垂直方向または水平方向に他のコントロールを揃えることと、高さまたは長さのコントロールの幅] または [フォームの幅にサイズ変更が含まれます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public int Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Format { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または値をコントロールに表示する方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>"書式</b>"プロパティは、値を表示する方法について説明する列挙体の定数を設定できます。定義されている定数<b>olFormatCurrencyDecimal</b>として<b>形式</b>を指定するなど、 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> 、通貨値を表示する列挙体、<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />コントロールです</para>。
+          <para><b>形式</b>のプロパティは、コントロールにバインドしている Outlook オブジェクト モデルのプロパティに固有です。後者はで示された<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。任意のプロパティに、コントロールがバインドされていないかどうかは、<b>書式設定</b>にアクセスすると、エラーが返されます</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.HorizontalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalLayout As OlHorizontalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlHorizontalLayout HorizontalLayout { Microsoft::Office::Interop::Outlook::OlHorizontalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlHorizontalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />その他の選択したコントロールをフォーム上でこのコントロールの水平方向の配置を指定する定数かどうかコントロールが水平方向に自動的に調整、フォームの幅が変更されたときまたは。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperty">
+      <MemberSignature Language="C#" Value="public string ItemProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) に、コントロールがバインドされている Outlook オブジェクト モデルのプロパティの名前を指定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumHeight">
+      <MemberSignature Language="C#" Value="public int MinimumHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumHeight { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、コントロールが自動的に縮小する際の最小の高さを指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
+            <b>MinimumLength</b>を有効にするために<b>True</b>に設定する必要があります。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumWidth">
+      <MemberSignature Language="C#" Value="public int MinimumWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、コントロールが自動的に縮小する際の最小の幅を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
+            <b>MinimumWidth</b>を有効にするために<b>True</b>に設定する必要があります。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PossibleValues">
+      <MemberSignature Language="C#" Value="public string PossibleValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PossibleValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.PossibleValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property PossibleValues As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PossibleValues { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) をセミコロンで区切った、コントロールのドロップダウン リストに指定できる値の一覧を表します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>」ドロップ ダウン リストをサポートしていないコントロールに対してこのプロパティの値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.VerticalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalLayout As OlVerticalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlVerticalLayout VerticalLayout { Microsoft::Office::Interop::Outlook::OlVerticalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlVerticalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" />の他の選択したコントロールをフォーム上でこのコントロールの垂直方向の配置を指定する定数かどうかコントロールが垂直方向に自動的に調整、フォームの長さが変更されたときまたは。 値の取得と設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

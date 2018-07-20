@@ -1,0 +1,44 @@
+<Type Name="Conversation" FullName="Microsoft.Office.Interop.Outlook.Conversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0025327e68611f20324db4c8310969d994238428" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639297" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Conversation : Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conversation implements class Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Conversation&#xA;Implements _Conversation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Conversation : Microsoft::Office::Interop::Outlook::_Conversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Conversation</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ConversationClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>1 つ以上のフォルダーやストアに保存されている 1 つ以上のアイテムが含まれているスレッドを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Conversation" />です</para>。<b>会話</b>の
+      <para>オブジェクトは、抽象、集約されたオブジェクトです。特定の MAPI IMessage の基になる<b>スレッド</b>オブジェクトが対応していませんが、会話には、さまざまな種類のアイテムを含めることができます、: IMAPIProp オブジェクトです</para>。
+      <para>A の会話では、1 つまたは複数のフォルダーやストアに 1 つまたは複数の項目を表します。会話でアイテムを削除済みアイテム フォルダーに移動し、会話を使用して後で列挙するかどうかは、 <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" />メソッドでは、返されるオブジェクト内の項目は含まれません</para>。
+      <para>既存の対話の<b>スレッド</b>オブジェクトを取得するには、アイテムの<b>GetConversation</b>メソッドを使用します</para>。
+      <para>を呼び出すことによって、会話内のアイテムに適用できるアクションがある、 <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />メソッドです。これらのアクションの各スレッドのすべてのアイテムに自動的に適用されますメソッドが呼び出されるとします。アクションは、アクションが会話にも適用可能な限りスレッドの将来のアイテムにも適用されます。明示的な<b>スレッド</b>オブジェクトのメソッドを保存します</para>。
+      <para>も、会話内のアイテムにアクションを適用すると、対応するイベントが発生します。などの<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />のイベント、 <see cref="T:Microsoft.Office.Interop.Outlook.Items" /><b>SetAlwaysAssignCategories</b>を呼び出すと、オブジェクトが発生して<see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />のイベント、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトは、 <b>SetAlwaysMoveToFolder</b>を呼び出すときに発生します</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,56 @@
+<Type Name="NavigationPaneEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2eb102ae3dfb7dcbbad86ca0a84218456e4aeec9" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638569" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationPaneEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12), typeof(Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトとの相互互換性のためマネージ コードで必要な COM コクラスの処理中に作成された .NET インターフェイスです。このインターフェイスは以前のインターフェイスの全イベントと追加の新しいイベントを実装します。使用するイベントが COM オブジェクトのメソッドと同じ名前を共有している場合にのみ、このインターフェイスを使用します。この場合、イベントに接続するにはこのインターフェイスにキャストし、メソッドを呼び出すにはプライマリ インターフェイスにキャストします。それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ModuleSwitch">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_ModuleSwitchEventHandler ModuleSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_ModuleSwitchEventHandler ModuleSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event.ModuleSwitch" />
+      <MemberSignature Language="VB.NET" Value="Event ModuleSwitch As NavigationPaneEvents_12_ModuleSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NavigationPaneEvents_12_ModuleSwitchEventHandler ^ ModuleSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_ModuleSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ナビゲーション モジュールの選択が変更された後に発生します<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />のコレクションの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

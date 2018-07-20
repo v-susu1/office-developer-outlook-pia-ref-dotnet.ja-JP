@@ -1,0 +1,98 @@
+<Type Name="FoldersEvents_Event" FullName="Microsoft.Office.Interop.Outlook.FoldersEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8712690eb460563beab04c8826e629a5eefa9363" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639496" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FoldersEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FoldersEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FoldersEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FoldersEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.FoldersEvents), typeof(Microsoft.Office.Interop.Outlook.FoldersEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトとの相互互換性のためマネージ コードで必要な COM コクラスの処理中に作成された .NET インターフェイスです。このインターフェイスは以前のインターフェイスの全イベントと追加の新しいイベントを実装します。使用するイベントが COM オブジェクトのメソッドと同じ名前を共有している場合にのみ、このインターフェイスを使用します。この場合、イベントに接続するにはこのインターフェイスにキャストし、メソッドを呼び出すにはプライマリ インターフェイスにキャストします。それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FolderAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderAdd" />
+      <MemberSignature Language="VB.NET" Value="Event FolderAdd As FoldersEvents_FolderAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderAddEventHandler ^ FolderAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォルダーが追加されると発生する、指定された<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderChange" />
+      <MemberSignature Language="VB.NET" Value="Event FolderChange As FoldersEvents_FolderChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderChangeEventHandler ^ FolderChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォルダーが指定されたときに発生<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションを変更します。</summary>
+        <remarks>
+          <para>
+            <b>FolderChange</b>イベントは、ユーザーによる操作やプログラム コードを使用するか、<b>フォルダー</b>のコレクション オブジェクト内のフォルダーが変更されたときを発生します。変更には、ユーザーまたはプログラムのコードをフォルダー名の変更または追加、変更、またはフォルダーにアイテムを削除することができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderRemove" />
+      <MemberSignature Language="VB.NET" Value="Event FolderRemove As FoldersEvents_FolderRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderRemoveEventHandler ^ FolderRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォルダーが削除されると発生します<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

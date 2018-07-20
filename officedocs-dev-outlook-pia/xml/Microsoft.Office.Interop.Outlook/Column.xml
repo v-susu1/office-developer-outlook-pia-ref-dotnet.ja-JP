@@ -1,0 +1,41 @@
+<Type Name="Column" FullName="Microsoft.Office.Interop.Outlook.Column">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="46ea2650432468cf516946b92fbae341d0c68957" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637658" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Column implements class Microsoft.Office.Interop.Outlook._Column" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Column" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Column&#xA;Implements _Column" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Column : Microsoft::Office::Interop::Outlook::_Column" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Column</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ColumnClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>内のデータの列を表す、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />オブジェクトです。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Column" />です</para>。
+      <para><b>テーブル</b>は、行と列で構成されます。読み取り専用動的な行セット内のデータを表す、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />または<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトです。<b>テーブル</b>の各行をフォルダー、アイテムのプロパティとしては、各列内の項目と見なすことができます。既定では、<b>テーブル</b>には、フォルダー内のアイテムのプロパティのサブセットのみが含まれています。これは、ため、<b>テーブル</b>のインメモリの軽量な行セットとなり、フォルダー内のアイテムの高速な列挙とフィルターを使用します</para>。
+      <para><b>テーブル</b>内の特定の項目 (行) のプロパティ (列) の値を取得するいずれかを使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" />メソッドおよびインデックスが返される配列、または使用に、 <see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /><b />(<b>この</b>C# で)、プロパティ、<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />の列です</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

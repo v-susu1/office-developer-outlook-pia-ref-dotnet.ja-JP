@@ -1,0 +1,458 @@
+<Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637799" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Rule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleActions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleActions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As RuleActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleActions ^ Actions { Microsoft::Office::Interop::Outlook::RuleActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64272)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64272)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> 、使用可能なルールの処理ルールを表すコレクション オブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>を列挙して、ルールと通知ウィザードがサポートするルールの処理ルールを有効にするが、最もよく使用されるルールのアクションと、仕分けルールと通知ウィザードがサポートするルールの処理ルールをプログラムで作成できます。ルール処理のサポートの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください</para>
+          <para>各ルールの<b>RuleActions</b>オブジェクトに関連付けられているが、<b>アクション</b>のプロパティを使用します。<b>RuleActions</b>コレクションは固定オブジェクトを - を追加またはこのコレクションから項目を削除することはできません。ルールで有効になっているルールの処理は、 <b>RuleActions</b>コレクションに有効なルールのアクションがあります。ルールがルールで有効でないアクションがこのコレクションでのルールの処理が、<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />プロパティを<b>False</b>に設定します。プログラムによるルールの作成時にサポートされていないルールの処理は、既存のルールの<b>RuleActions</b>コレクションにのみ列挙することができますが、 <b>RuleActions</b>コレクションは固定であるためは、ルールを作成し、このようなアクションを追加することはできません。関連付けられている<b>RuleActions</b>コレクションです</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleConditions Conditions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleConditions Conditions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As RuleConditions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleConditions ^ Conditions { Microsoft::Office::Interop::Outlook::RuleConditions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64297)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64297)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> 、利用可能な条件がすべてのルールを表すコレクション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>ルールの条件は、規則を適用するときの条件を示しています。両方の<b>条件</b>と<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />プロパティは、条件の同じプールを共有して、対応する<b>RuleConditions</b>コレクション オブジェクトを取得します</para>。
+          <para>プログラムを使用して列挙し、ルールと通知ウィザードがサポートするルールの条件を含むルールを有効にしていますが、最も一般的に使用されるルールの条件としないすべてのルールの条件のみを持つルールを作成するには、仕分けルールと通知ウィザードサポートします。ルールの条件のサポートの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください</para><para>各ルールが<b>RuleConditions</b>オブジェクトに関連付けられているが<b>条件</b>のプロパティを使用します。<b>RuleConditions</b>コレクションは固定オブジェクト - を追加またはこのコレクションから項目を削除することはできません。ルールで有効になっているルールの条件は、 <b>RuleConditions</b>コレクション内の有効なルールの条件があります。ルールがルールで有効でない条件を持つこのコレクション内のルールの条件が、<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />プロパティを<b>False</b>に設定します。プログラムによるルールの作成時にサポートされていないルールの条件は、既存のルールの<b>RuleConditions</b>コレクションでのみ列挙するが、 <b>RuleConditions</b>コレクションは固定であるため、ルールを作成し、追加することはできません。このような条件は、関連する<b>RuleConditions</b>コレクションにします</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返すまたは、ルールを適用するかどうかを決定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>ルールの<b>Enabled</b>プロパティを設定しても、ルールが有効になっているとは限りません。ルールは後でだけ有効になっている<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />が正常に実行します</para>。
+          <para>を使用する<b>Rule.Enabled</b>と<b>Rules.Save</b>ルールを一貫して適用される現在のセッション以降のルールが引き続き発生します。(正常に保存されている) するルールを有効にすることにより、ルールが適用されることです。ローカル クライアント ルールの場合は、Outlook が実行されていると Outlook が実行されているかどうかに関係なく適用するルールがサーバー ベースのルールの場合は、ルールが適用されます。ルールを無効にすると、ルールを定義しが、それは適用されません。ただし、使用することができます<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />ルールが有効になっているかどうかに関係なく 1 回限りの操作としてルールを適用します。 </para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleConditions Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleConditions Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As RuleConditions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleConditions ^ Exceptions { Microsoft::Office::Interop::Outlook::RuleConditions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64307)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64307)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> 、ルールの使用可能なルールの例外条件をすべてを表すコレクション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>ルールの例外条件は、[ルールを適用しない条件を示しています。両方の<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />と、<b>例外</b>のプロパティ条件の同じプールを共有し、対応する<b>RuleConditions</b>コレクション オブジェクトを取得します</para>。だけで最も一般的に使用されるルールの例外条件と、ルールの例外条件を持つルールを作成するプログラムを使用していますが、
+          <para>を列挙し、仕分けルールと通知ウィザードがサポートするいずれかのルールの例外条件を持つルールを有効にします。仕分けルールと通知ウィザードがサポートされています。ルールの条件のサポートの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください</para><para>各ルールが<b>RuleConditions</b>オブジェクトに関連付けられているが<b>条件</b>のプロパティを使用します。<b>RuleConditions</b>コレクションは固定オブジェクト - を追加またはこのコレクションから項目を削除することはできません。ルールの例外条件がルールで有効になっているは、 <b>RuleConditions</b>コレクション内の有効なルールの例外条件があります。ルールの例外条件がルールで有効になっていないことがこのコレクション内のルールの例外条件があります、<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />プロパティを<b>False</b>に設定します。プログラムによるルールの作成時にサポートされていないルールの例外条件は、既存のルールの<b>RuleConditions</b>コレクションでのみ列挙するが、 <b>RuleConditions</b>コレクションは固定であるために、ルールを作成することはできません。関連する<b>RuleConditions</b>コレクションにそのような例外条件を追加します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute (object ShowProgress, object Folder, object IncludeSubfolders, object RuleExecuteOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute([in]object ShowProgress, [in]object Folder, [in]object IncludeSubfolders, [in]object RuleExecuteOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute (Optional ShowProgress As Object, Optional Folder As Object, Optional IncludeSubfolders As Object, Optional RuleExecuteOption As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64270)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ShowProgress" Type="System.Object" />
+        <Parameter Name="Folder" Type="System.Object" />
+        <Parameter Name="IncludeSubfolders" Type="System.Object" />
+        <Parameter Name="RuleExecuteOption" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ShowProgress">
+          <b>True</b> のルールが実行されると、[進行状況] ダイアログ ボックスを表示するのには <b>false を指定</b> ] ダイアログ ボックスを表示せずにルールを実行します。</param>
+        <param name="Folder">ルールを適用するフォルダーを表します。</param>
+        <param name="IncludeSubfolders">
+          <b>True</b> Folderパラメーターで指定されたフォルダーのサブフォルダーにルールを適用するには <b>False</b> が、そのフォルダー、サブフォルダーではなくにのみルールを適用します。</param>
+        <param name="RuleExecuteOption">Folder パラメーターと IncludeSubfolders パラメーターで指定されたフォルダーやサブフォルダーに含まれる、開封済み、未読、またはすべてのメッセージのいずれにルールを適用するかを指定します。</param>
+        <summary>一時的な操作としてルールを適用します。</summary>
+        <remarks>
+          <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />かどうかに関係なく 1 回限りの操作としてルールを適用するのには<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />が<b>true を指定</b>します。<b>Rule.Enabled</b>を使用し、 <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> 、ルールを一貫して適用し、現在のセッション以降のルールを保持するかどうか</para>。
+          <para><b>Execute</b>メソッドのパラメーターはオプションです。任意のパラメーターを指定しない場合は、受信トレイのサブフォルダーではなく、受信トレイ内のすべてのメッセージにルールが適用されます。省略可能な引数の既定値は次のとおり: </para><list type="table"><item><description>パラメーター</description>の
+              <description>既定値</description></item><item><description>ShowProgress</description><description>False</description></item><item><description>フォルダー</description>の
+              <description>[受信トレイ]</description></item><item><description>IncludeSubfolders</description><description>偽</description></item><item><description>RuleExecuteOption</description><description><b>OlRuleExecuteOption.olRuleExecuteAllMessages</b></description></item></list><para>場合<paramref name="ShowProgress" />が<b>True</b>で、ユーザーが、[進行状況] ダイアログ ボックスをキャンセル ルール実行は、ユーザーが仕分けルールと通知ウィザードでルールの実行をキャンセルした場合と同じ方法でキャンセルされます。実行の進行状況ダイアログ ボックスをキャンセルするとエラーが返されます</para>。
+          <para>、[進行状況] ダイアログ ボックスを使用する代わりにカスタム進行状況のユーザー インターフェイスを表示する場合は、する必要がありますルールの実行を開始するときを示すイベントと停止されていないことに注意してくださかった</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionOrder">
+      <MemberSignature Language="C#" Value="public int ExecutionOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExecutionOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExecutionOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ExecutionOrder { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>他のルールの間でルールの実行の順序を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />コレクションです。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExecutionOrder</b>は直接の数値にマップされている<paramref name="Index" />の<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />。などの Rules.Item(1) は<b>ExecutionOrder</b>が 1 のルールを表します、Rules.Item(2) は<b>ExecutionOrder</b>が第 2 の中で規則を表し、Rules.Item(Rules.Count) は<b>ExecutionOrder</b>の中でルールを表す<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLocalRule">
+      <MemberSignature Language="C#" Value="public bool IsLocalRule { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLocalRule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.IsLocalRule" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLocalRule As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLocalRule { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64269)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64269)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>ブール型</b>(C# では<b>bool</b> ) を示すクライアント側のルールとして、ルールを実行するかどうかを返します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>クライアント側のルールは、Outlook を実行するときにのみを実行します。<b>IsLocalRule</b>が<b>False</b>かどうかは、サーバー側のルールとして、ルールを実行します</para>。
+          <para>、Microsoft Exchange Server 電子メール アカウントがある場合、サーバーは必要場合でも、Outlook を起動する必要はありません、メッセージをサーバー側のルールを適用できます。サーバー上の受信トレイに配信されると、ルールはサーバー上で完全に実行できる必要がある場合にメッセージに適用するルールを設定しなければなりません。などのルールを実行できません完了するまでサーバーのアクションは、メッセージを印刷することを指定した場合。Outlook を起動すると適用、サーバー上でルールを適用できない場合</para>。
+          <para>場合は、ストアのルール コレクションには、サーバーとクライアント側のルールの両方が含まれています、サーバー側規則が適用されます最初に、クライアント側のルールの後にします</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>文字列</b>(C# では<b>文字列</b>) を設定、ルールの名前を表します。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>名</b>は、既定のプロパティとインデクサーの規則に対して、<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />オブジェクトのコレクションです。<b>PidTagRuleMsgName</b> (0x65EC001E) に対応しています</para>。
+          <para>ルール名は同じコレクション内のルールの中で一意ではありません</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />オブジェクトです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRuleType RuleType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRuleType RuleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuleType As OlRuleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRuleType RuleType { Microsoft::Office::Interop::Outlook::OlRuleType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64268)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定数を返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" />されているメッセージに規則を適用するかどうかを表す列挙型を送信または受信します。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

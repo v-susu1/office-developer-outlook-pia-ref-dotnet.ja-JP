@@ -1,0 +1,41 @@
+<Type Name="Store" FullName="Microsoft.Office.Interop.Outlook.Store">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6445374782d0b4add1312b6169f01fab8b0ba475" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638932" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Store implements class Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Store" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Store&#xA;Implements _Store" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Store : Microsoft::Office::Interop::Outlook::_Store" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Store</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.StoreClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>現在のプロファイルのアカウントの電子メール メッセージやその他のアイテムが保存される、ローカル コンピューターまたはネットワーク ドライブ上のファイルを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Store" />。</para>
+      <para>A のプロファイルは、1 つまたは複数の電子メール アカウントを定義し、各電子メール アカウントは特定の種類のサーバーに関連付けられています。Exchange サーバーでは、ストアが Exchange パブリック フォルダー、またはローカルの個人用フォルダー ファイル (.pst) またはオフライン フォルダー ファイル (.ost) では、サーバー上でできます。POP3、IMAP、または HTTP の電子メール サーバーでは、ストアが .pst ファイルです</para>。使用することができます
+      <para>、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />とすべてのフォルダーを列挙し、現在のセッションですべてのストアのフォルダーを検索するオブジェクトを<b>保存</b>します。 ストア内の検索フォルダーまたはルート フォルダーを取得する必要がありますストアを開くと、チェックすることができます、パフォーマンス上のオーバーヘッドが発生ストアを開くため、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" />プロパティは、操作を追求することを決定する前にします。</para><para>その他の明示的な組み込みにアクセスするには Exchange サーバーを使用する場合は、<b>ストア</b>のプロパティの特性を次のように格納する<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />と<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />。使用、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />によって返されるオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" />は、Outlook オブジェクト モデルで公開されないその他のストアのプロパティにアクセスするためです</para>。
+      <para>フォルダーと、ストア内の Outlook アイテムの保存の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87932">Outlook アイテムを保存する</a>を参照してください。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

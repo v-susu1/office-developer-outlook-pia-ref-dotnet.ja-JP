@@ -1,0 +1,44 @@
+<Type Name="TaskRequestUpdateItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestUpdateItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d711503e56b1e8de3cd9395c1371e37a6aab78f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638097" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TaskRequestUpdateItem : Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestUpdateItem implements class Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestUpdateItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestUpdateItem&#xA;Implements _TaskRequestUpdateItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TaskRequestUpdateItem : Microsoft::Office::Interop::Outlook::_TaskRequestUpdateItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TaskRequestUpdateItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063037-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>応答を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> 、呼び出し元のユーザーによって送信されました。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestUpdateItemClass" />です</para>。
+      <para>委任されたユーザーは、次のようにプロパティを変更することでタスクを更新する場合、<see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DueDate" />または<see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Status" />、し、送信すること、それに関連付けられた<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /><b>TaskRequestUpdateItem</b>オブジェクトと代理人が受信します</para>。
+      <para>、他の Outlook オブジェクトとは異なり、このオブジェクトを作成できません</para>。使用の
+      <para>、<see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem.GetAssociatedTask(System.Boolean)" />この<b>TaskRequestUpdateItem</b>に関連付けられている<b>TaskItem</b>オブジェクトを取得するメソッドです。<b>TaskItem</b>オブジェクトを直接操作</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

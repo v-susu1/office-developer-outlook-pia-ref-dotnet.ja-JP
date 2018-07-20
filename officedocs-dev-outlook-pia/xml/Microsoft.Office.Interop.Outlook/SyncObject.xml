@@ -1,0 +1,45 @@
+<Type Name="SyncObject" FullName="Microsoft.Office.Interop.Outlook.SyncObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c7b5b6d9c05205c5c73153590c2ceeaf12468c51" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638372" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SyncObject : Microsoft.Office.Interop.Outlook._SyncObject, Microsoft.Office.Interop.Outlook.SyncObjectEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SyncObject implements class Microsoft.Office.Interop.Outlook._SyncObject, class Microsoft.Office.Interop.Outlook.SyncObjectEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SyncObject&#xA;Implements _SyncObject, SyncObjectEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SyncObject : Microsoft::Office::Interop::Outlook::_SyncObject, Microsoft::Office::Interop::Outlook::SyncObjectEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._SyncObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.SyncObjectEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.SyncObjectClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063083-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>ユーザーの送受信グループを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._SyncObject" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjectEvents_Event" />です</para>。
+      <para>A の送受信グループでは、ユーザーは、さまざまな同期シナリオを構成するフォルダーおよび適用するフィルターを選択するとします</para>。使用の
+      <para>、 <see cref="P:Microsoft.Office.Interop.Outlook.SyncObjects.Item(System.Object)" /> (<b>この</b>C# の) プロパティから<b>SyncObject</b>オブジェクトを取得するために、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />オブジェクト。<see cref="P:Microsoft.Office.Interop.Outlook._SyncObject.Name" /><b>SyncObject</b>オブジェクトの既定のプロパティをプロパティでは、名前でグループを識別することができます</para>。
+      <para><b>SyncObject</b>オブジェクトは読み取り専用; そのプロパティを変更または新規作成することはできません。ただし、1 つと、送受信グループの使用を追加することができます、<see cref="P:Microsoft.Office.Interop.Outlook.SyncObjects.AppFolders" />は、アプリケーション フォルダーと呼ばれる送受信グループを作成するプロパティ</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

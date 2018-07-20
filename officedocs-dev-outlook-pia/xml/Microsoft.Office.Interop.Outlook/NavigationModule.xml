@@ -1,0 +1,71 @@
+<Type Name="NavigationModule" FullName="Microsoft.Office.Interop.Outlook.NavigationModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e015b6347e2c958056f13943b0fe4e39346e4cb3" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638680" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationModule : Microsoft.Office.Interop.Outlook._NavigationModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationModule implements class Microsoft.Office.Interop.Outlook._NavigationModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationModule&#xA;Implements _NavigationModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationModule : Microsoft::Office::Interop::Outlook::_NavigationModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>エクスプ ローラーのナビゲーション ウィンドウのナビゲーション モジュールを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationModule" />。</para>
+      <para>
+        <b>NavigationModule</b>オブジェクトは、Microsoft Outlook のナビゲーション ウィンドウに表示されるさまざまなナビゲーション モジュールにアクセスを提供します。次のオブジェクトは、 <b>NavigationModule</b>オブジェクトから派生します</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.ContactsModule" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />
+          </para>
+        </item>
+      </list>
+      <para>使用、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />メソッドまたは<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />のプロパティ (<b>この</b>C# の)、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 。親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />を使用して、 <b>NavigationModule</b>オブジェクトを取得する対象のオブジェクト、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" />モジュールの種類を取得する<b>NavigationModule</b>オブジェクトのプロパティです。<b>NavigationModuleType</b>プロパティの値をキャストすること、 <b>NavigationModule</b>オブジェクト参照にアクセスするのには上記のオブジェクトの 1 つとして、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" /> 、 <b>CalendarModule など、そのオブジェクトのプロパティ</b>オブジェクトです</para>。
+      <para>のショートカットとフォルダー] ボックスの一覧のナビゲーション モジュールは、ナビゲーション グループまたはナビゲーション フォルダーへのプログラムによるアクセスをサポートしていないため、 <b>MailModule</b>などの対応するオブジェクトがありません。<b>NavigationModule</b>オブジェクトを使用するには、ショートカットやフォルダー] ボックスの一覧のプロパティにアクセスするためのモジュールです</para>。
+      <para>を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Visible" />のナビゲーション モジュールが表示されているかどうかを決定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Position" />プロパティを取得またはナビゲーション ウィンドウ内のナビゲーション モジュールの表示位置を設定します。使用することも、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Name" />プロパティをナビゲーション ウィンドウ内のナビゲーション モジュールの表示名を取得します</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

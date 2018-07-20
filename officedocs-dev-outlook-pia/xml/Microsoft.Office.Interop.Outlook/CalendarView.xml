@@ -1,0 +1,47 @@
+<Type Name="CalendarView" FullName="Microsoft.Office.Interop.Outlook.CalendarView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12ed0a14ddc65370b41ab256c1e4929bc224c9a8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639293" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CalendarView : Microsoft.Office.Interop.Outlook._CalendarView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarView implements class Microsoft.Office.Interop.Outlook._CalendarView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalendarView&#xA;Implements _CalendarView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalendarView : Microsoft::Office::Interop::Outlook::_CalendarView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CalendarView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CalendarViewClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063099-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Outlook アイテムを予定表形式で表示するビューを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._CalendarView" />です</para>。
+      <para>から派生した、 <b>CalendarView</b>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクト、いくつかの異なるモードのいずれかで、カレンダー内の Outlook アイテムを表示することができるカスタマイズ可能なビューを作成できます</para>。
+      <para>Outlook にはいくつかの組み込みの<b>CalendarView</b>オブジェクトが用意されていて、ユーザー設定の<b>CalendarView</b>オブジェクトを作成することもできます。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションには、新しい<b>予定表ビュー</b>を追加するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトです。使用、<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.Standard" />プロパティを既存の<b>CalendarView</b>オブジェクトが組み込みまたはユーザー設定を判断します</para>。
+      <para><b>CalendarView</b>オブジェクトには、目的のレイアウトおよび Outlook アイテムを表示するための期間によって、いくつかのさまざまな表示モードがサポートされています。使用、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> 、ビュー モードを設定するプロパティ、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> 、開始日が含まれている Outlook アイテムのプロパティを指定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />する Outlook アイテムの終了日が含まれている Outlook アイテムのプロパティを指定するプロパティ表示されます</para>。<b>CalendarViewMode</b>プロパティを<b>olCalendarViewMonth</b>以外の値に設定する場合は、
+      <para>を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />、曜日、日付、および時間のラベルをビューに表示するために使用するフォントを設定するプロパティです。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeScale" /> 、ビュー内の Outlook アイテムを表示するために使用するタイム スケールを構成します。<b>CalendarViewMode</b>を<b>olCalendarViewMultiDay</b>に設定する場合を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DaysInMultiDayMode" />のビューに表示する日数を決定するプロパティ</para>。<b>CalendarViewMode</b>を<b>olCalendarViewMonth</b>に設定する場合は、
+      <para>を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" />月と日付のラベルを表示するために使用するフォントを設定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthShowEndTime" />での終了時刻が表示されるかどうかを示すために、表示します</para>。
+      <para><b>CalendarView</b>オブジェクト内の Outlook アイテムの表示方法を構成することもできます。使用、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldSubjects" />の Outlook アイテムの件名が太字で表示するかどうかを示すプロパティと、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldDatesWithItems" /> Outlook アイテムを含むカレンダー ナビゲーター内の日付が太字で表示するかどうかを示すプロパティ。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.Filter" /> Outlook のビューに表示する項目を決定するためのプロパティです。</para><para>各<b>CalendarView</b>オブジェクトの定義は、拡張マークアップ言語 (XML) 形式で格納されます。使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.XML" /> 、CalendarView オブジェクトの XML 定義を操作するプロパティ</para>。使用の
+      <para>、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Apply" />を現在のビューを<b>CalendarView</b>オブジェクトに加えられた変更を適用する方法です。使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Save" /> 、<b>予定表ビュー</b>のオブジェクトに加えられた変更を永続化する方法です。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.LockUserChanges" />プロパティを許可またはビューのユーザー インターフェイスが変更されないようにします</para>。
+      <para>、組み込みの<b>CalendarView</b>オブジェクトを変更することができますが、それらを削除することはできません。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Delete" />メソッドは、カスタムの<b>予定表ビュー</b>のオブジェクトを削除します。使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Reset" /> 、組み込みの<b>CalendarView</b>オブジェクトのプロパティを既定値にリセットします</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

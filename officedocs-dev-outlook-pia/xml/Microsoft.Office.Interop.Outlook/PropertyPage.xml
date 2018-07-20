@@ -1,0 +1,113 @@
+<Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638103" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PropertyPage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006307E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>[オプション] ダイアログ ボックスまたは、フォルダーの [プロパティ] ダイアログ ボックス内のカスタム プロパティ ページを表します。</summary>
+    <remarks>
+      <para>Outlook では、このオブジェクトを使用して、ダイアログ ボックスで [適用] ボタンとやり取りするカスタム プロパティ ページを使用します</para>。
+      <para><b>PropertyPage</b>オブジェクトは、抽象オブジェクトです。この Microsoft Outlook オブジェクト ライブラリに<b>PropertyPage</b>オブジェクトには実装コードが含まれていません。代わりに、Microsoft Visual Basic でオブジェクトを実装するためにテンプレートとして提供されます。これには、カスタム プロパティ ページが変更されたかどうかを判断し、ユーザーが [適用] または [ok] ボタンをクリックしたことをプログラムに通知する Outlook を使用できるインタ フェースの定義済みのセットが用意されています。(カスタム プロパティ ページは、[適用] ボタンには依存しないかどうかは、 <b>PropertyPage</b>オブジェクトを実装する必要はありません)</para> 。
+      <para>A のカスタム プロパティ ページは、ユーザーがカスタム プロパティ ページのタブをクリックすると、Outlook で、[オプション] ダイアログ ボックスまたはフォルダーのプロパティ] ダイアログ ボックスで、表示されている ActiveX コントロールです。Visual Basic .NET では、 <b>PropertyPage</b>オブジェクトを実装するには、実装コードを含むモジュールが次の Implements ステートメントを含める必要があります</para>。
+      <code>Implements Outlook.PropertyPage</code><para>モジュールは、 <b>PropertyPage</b>オブジェクトのメソッドとプロパティを実装するプロシージャも記述する必要があります</para>。
+      <para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>カスタム プロパティ ページで行われた変更を適用します。</summary>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />は、抽象オブジェクトを実装するアプリケーション内ではなく、Outlook 自体によって)、実装メソッドの<b>適用</b>プログラム コードのイベント プロシージャに似ています。つまり、イベント プロシージャを記述すると同じようにメソッドを実装するコードを記述します。つまり、Outlook では、ユーザーはユーザーによって変更されたプロパティ値を適用するプログラムを必要とするカスタム プロパティ ページを表示する] ダイアログ ボックスで、アクションを実行するには、プログラムを通知するために<b>適用</b>メソッドを呼び出します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dirty">
+      <MemberSignature Language="C#" Value="public bool Dirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.PropertyPage.Dirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>カスタム プロパティ ページの内容が変更されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 実装する ActiveX コントロールの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />オブジェクトは、このプロパティの値を設定して、Microsoft Outlook では、これをクエリへの応答として、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPageInfo">
+      <MemberSignature Language="C#" Value="public void GetPageInfo (out string HelpFile, out int HelpContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetPageInfo([out] string&amp; HelpFile, [out] int32&amp; HelpContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.GetPageInfo(System.String@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetPageInfo (ByRef HelpFile As String, ByRef HelpContext As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetPageInfo([Runtime::InteropServices::Out] System::String ^ % HelpFile, [Runtime::InteropServices::Out] int % HelpContext);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpFile" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="HelpContext" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="HelpFile">プロパティ ページに関連付けられているヘルプ ファイルを指定します。</param>
+        <param name="HelpContext">プロパティ ページに関連付けられているヘルプ トピックのコンテキスト ID を指定します。</param>
+        <summary>カスタム プロパティ ページのヘルプ情報を返します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

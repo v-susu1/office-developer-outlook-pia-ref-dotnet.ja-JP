@@ -1,0 +1,45 @@
+<Type Name="TaskRequestAcceptItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestAcceptItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="255d21cb0ed46abe0a333217c5cd4e04e94b7415" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638362" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TaskRequestAcceptItem : Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestAcceptItem implements class Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestAcceptItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestAcceptItem&#xA;Implements _TaskRequestAcceptItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TaskRequestAcceptItem : Microsoft::Office::Interop::Outlook::_TaskRequestAcceptItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TaskRequestAcceptItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063038-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>応答を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> 、呼び出し元のユーザーによって送信されました。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestAcceptItemClass" />です</para>。委任されたユーザーがタスクを受け入れた場合、 
+      <para>、<see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />プロパティが<b>olTaskAccept</b>に設定します。関連付けられている<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />、 <b>TaskRequestAcceptItem</b>オブジェクトとして代理人が受信します</para>。
+      <para>、他の Outlook オブジェクトとは異なり、このオブジェクトを作成できません</para>。使用の
+      <para>、<see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem.GetAssociatedTask(System.Boolean)" />この<b>TaskRequestAcceptItem</b>に関連付けられている<b>TaskItem</b>オブジェクトを取得するメソッドです。<b>TaskItem</b>オブジェクトを直接操作します</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

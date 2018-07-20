@@ -1,0 +1,69 @@
+<Type Name="OlCalendarMailFormat" FullName="Microsoft.Office.Interop.Outlook.OlCalendarMailFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ba14da78dfd7a5bc8f84a984665153fc6b5dfbfa" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638834" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlCalendarMailFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlCalendarMailFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlCalendarMailFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlCalendarMailFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>本文で予定表の情報の形式を指定します<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />によって作成された、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />メソッドです。</summary>
+    <remarks>
+      <para>詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87575">共有の予定表</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87589">の使い方: ペイロード共有を使用して予定表をエクスポート</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCalendarMailFormatDailySchedule">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatDailySchedule = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatDailySchedule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>予定表情報を、1 日の予定の形式で表示します。  勤務時間のうち空いている時間枠と予定が入っている時間枠が時間単位で表示されるので、受け取った相手は空き時間を簡単に把握できます。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCalendarMailFormatEventList">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatEventList = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatEventList" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatEventList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>予定表情報を、イベント一覧の形式で表示します。予定表の予定一覧が時間枠なしで表示されるので、受け取った相手は特定期間に予定されているイベントを簡単に把握できます。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

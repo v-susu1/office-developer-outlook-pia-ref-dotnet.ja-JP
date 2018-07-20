@@ -1,0 +1,42 @@
+<Type Name="ExchangeDistributionList" FullName="Microsoft.Office.Interop.Outlook.ExchangeDistributionList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ebf12affddd051d674e3d01da3f8d2217bd29299" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638028" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExchangeDistributionList implements class Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ExchangeDistributionList&#xA;Implements _ExchangeDistributionList" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ExchangeDistributionList : Microsoft::Office::Interop::Outlook::_ExchangeDistributionList" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ExchangeDistributionList</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ExchangeDistributionListClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <b>ExchangeDistributionList</b>オブジェクトに関する詳細情報を提供する、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Exchange の配布リストを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />です</para>。
+      <para><b>ExchangeDistributionList</b>は<b>AddressEntry</b>の派生クラスであり、呼び出し元が<b>AddressEntry</b>の<b>QueryInterface</b>を実行すると、 <b>AddressEntry</b>の代わりに返されます</para>。
+      <para>、AddressEntry.Members プロパティは、配布リストのメンバーを列挙をサポートしています。<b>ExchangeDistributionList</b>のファースト クラスのプロパティを追加する<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />と<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />。固有のプロパティを Exchange の配布リストを使用して、オブジェクト モデルで公開されているではないをアクセスすることも、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです</para>。
+      <para><b>コメント</b>など一部のプロパティは、読み取り/書き込みプロパティです。これらのプロパティを設定するには、適切な Exchange 管理者アカウントで実行されているコードが必要です。呼び出すための十分な権限がない場合、<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />メソッドは「アクセス許可が拒否されました」エラーが発生します。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

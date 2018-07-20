@@ -1,0 +1,47 @@
+<Type Name="Folder" FullName="Microsoft.Office.Interop.Outlook.Folder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6c625d85c01ec31ae74570f0ecc93846b7a7fb1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20639547" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Folder : Microsoft.Office.Interop.Outlook.MAPIFolder, Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Folder implements class Microsoft.Office.Interop.Outlook.MAPIFolder, class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Folder&#xA;Implements MAPIFolder, MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Folder : Microsoft::Office::Interop::Outlook::MAPIFolder, Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolder</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063006-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Outlook フォルダーを表します。</summary>
+    <remarks>
+      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクト<b>のフォルダー</b>のすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、このインターフェイスを使用します。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />です</para>。
+      <para><b>Folder</b>オブジェクトには、他の<b>フォルダー</b>のオブジェクトと同様に Outlook アイテムを含めることができます。<b>フォルダー</b>のプロパティを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトまたは別の<b>フォルダー</b>オブジェクトの<b>名前空間</b>またはフォルダーの下のフォルダーのセットを返します。入れ子になったフォルダーを移動するには、最上位のフォルダーから起動することによって、受信トレイを言うし、の組み合わせを使用して、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />プロパティは、階層の<b>フォルダー</b>オブジェクトの下にあるフォルダーのセットを返すと<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<b>のプロパティこの</b>C# で)、内のフォルダーを返しますが、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです</para>。
+      <para>の存在は、Outlook の既定の機能をサポートしている Outlook データ ストア内のフォルダーのセットです。使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />、指定する、<paramref name="index" />の定数の 1 つは、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> Outlook<b>名前空間</b>オブジェクトの既定の Outlook フォルダーのいずれかを取得する列挙体です</para>。
+      <para>の同じフォルダーに同じ機能を提供するアイテムを配置することをお勧めは一般に、フォルダーは、さまざまな種類のアイテムを含めることができます。たとえば、既定では、予定表フォルダー含めることができます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />と<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />オブジェクト、および連絡先のフォルダーを含めることができます<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />と<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />のオブジェクトです。一般に、フォルダー内のアイテムを列挙する場合と想定しないで、フォルダー内のアイテムの種類アイテムに適用できるプロパティにアクセスする前に、アイテムのメッセージ クラスを確認します</para>。使用の
+      <para>、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.Add(System.String,System.Object)" /><b>フォルダー</b>オブジェクトのフォルダーを追加する方法です。<b>Add</b>メソッドでは、そのフォルダーに格納できる項目の種類を指定するために使用する引数があります。既定では、別のフォルダー内に作成されたフォルダーは親フォルダーの種類を継承します</para>。
+      <para>ノートの特定の種類のアイテムを保存すると、対応する既定のフォルダーに直接保存されます。たとえば、すると、<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />メソッドを適用する [受信トレイ] フォルダー内の<b>MeetingItem</b>を返される予定は、既定の予定表フォルダーに保存されます</para>。
+      <para /></remarks>
+  </Docs>
+  <Members />
+</Type>

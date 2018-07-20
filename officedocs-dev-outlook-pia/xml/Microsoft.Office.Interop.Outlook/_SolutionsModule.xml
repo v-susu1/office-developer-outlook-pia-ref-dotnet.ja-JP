@@ -1,0 +1,331 @@
+<Type Name="_SolutionsModule" FullName="Microsoft.Office.Interop.Outlook._SolutionsModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637848" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _SolutionsModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SolutionsModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _SolutionsModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _SolutionsModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630FF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddSolution">
+      <MemberSignature Language="C#" Value="public void AddSolution (Microsoft.Office.Interop.Outlook.MAPIFolder Solution, Microsoft.Office.Interop.Outlook.OlSolutionScope Scope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddSolution([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Solution, [in]valuetype Microsoft.Office.Interop.Outlook.OlSolutionScope Scope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddSolution (Solution As MAPIFolder, Scope As OlSolutionScope)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSolution(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Solution, Microsoft::Office::Interop::Outlook::OlSolutionScope Scope);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64574)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Solution" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="Scope" Type="Microsoft.Office.Interop.Outlook.OlSolutionScope" />
+      </Parameters>
+      <Docs>
+        <param name="Solution">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /><b>SolutionsModule</b>を追加するのには、ソリューション ルート フォルダーを表すオブジェクト。</param>
+        <param name="Scope">
+          <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" />
+          <b>ソリューション</b>モジュールおよび<b>[フォルダー</b>一覧] でのみのソリューションに含まれるフォルダーを表示するか、それぞれの既定のモジュール内に表示するかどうかを指定する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />も同様です。</param>
+        <summary>ソリューション ルート フォルダーとそのサブフォルダーを追加します<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />モジュールです。</summary>
+        <remarks>
+          <para>
+            <b>AddSolution</b>メソッドが成功すると、以前、<b>ソリューション</b>モジュールでは、ソリューション ルート フォルダーが存在しない場合は、ナビゲーション ウィンドウの<b>ソリューション</b>モジュールが表示されます</para>。
+          <para>ソリューション ルート フォルダーとして、<b>ソリューション</b>モジュールに次のフォルダーを追加することはできません:</para><list type="bullet"><item><para>で定義されているナビゲーション ウィンドウで Outlook を表示するフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />列挙します</para></item>。
+            <item><para>で定義されている、特別なフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />列挙します</para></item>。
+            <item><para>Microsoft Exchange Server パブリック フォルダーの任意のフォルダーに格納します。<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトのこのフォルダーには<b>olExchangePublicFolder</b></para></item> 。
+            <item><para>A が非表示のフォルダーです。隠しフォルダーは、1 つの MAPI プロパティが、 <b>PR_ATTR_HIDDEN</b>、 <b>True</b>または IPM サブツリーに含まれていない 1 つです</para></item></list>。
+          <para>このメソッドは、ルート フォルダーまたはモジュールでは、<b>ソリューション</b>、サブフォルダーとして既に指定したフォルダーが存在する場合、またはフォルダーが<b>ソリューション</b>モジュール内のフォルダーの親フォルダーである場合もエラーを返します</para>。
+          <para>場合、 <paramref name="Scope" /><b>OlSolutionScope</b>列挙体の<b>olShowInDefaultModules</b>パラメーターを設定、<b>ソリューション</b>モジュールと同様に、それぞれの既定のモジュールで、ソリューションのルートとサブフォルダーが表示されます。場合、 <paramref name="Scope" /><b>olHideInDefaultModules</b>パラメーターを設定、ソリューション ルートとサブフォルダーが、<b>ソリューション</b>モジュールに表示されます</para>。
+          <para><b>ソリューション</b>フォルダーが<b>フォルダー一覧</b>モジュールでは常に表示されます</para>。
+          <para>既定では、Outlook モジュールが表示されます、<b>ソリューション</b>、<b>タスク</b>モジュールの後ナビゲーション モジュールは、メール、予定表、連絡先、およびタスクの既定の順序 – でいます。ナビゲーション ウィンドウを展開すると、<b>ソリューション</b>モジュールも最初に、拡張モジュールとして表示されます。<b>ソリューション</b>モジュールがナビゲーション ウィンドウで、最後の拡張モジュールの後表示される<b>タスク</b>モジュールが表示されていない場合です</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:System.String" />のローカライズされた表示名を表す値 (C# では<b>文字列</b>)、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ソリューション</b>モジュール] の下の 1 つだけのソリューション ルート フォルダーがある場合は、<b>ソリューション</b>モジュールの表示名をカスタマイズできます。ソリューション ルート フォルダーが複数ある場合は、名前は、<b>ソリューション</b>に戻ります。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationModuleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlNavigationModuleType NavigationModuleType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType NavigationModuleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.NavigationModuleType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationModuleType As OlNavigationModuleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlNavigationModuleType NavigationModuleType { Microsoft::Office::Interop::Outlook::OlNavigationModuleType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />のナビゲーション モジュールの種類を表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SolutionsModule</b>オブジェクトの場合は、このプロパティは、値<b>olModuleSolutions</b>を返します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>親を返します<see cref="T:System.Object" />(C# での<b>オブジェクト</b>) の指定された<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SolutionsModule</b>オブジェクトの親オブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<b>整数値</b>(C# では<b>int</b> ) の序数位置を表す、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />で表示されると、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>このプロパティは、1 から 9 までの値にのみ設定できます。範囲外の値にこのプロパティを設定しようとすると、エラーが発生します。ソリューションが<b>ソリューション</b>モジュールに存在しない場合の設定や<b>位置</b>のプロパティを取得するも、エラーが発生します</para>。
+          <para>指定した<b>SolutionsModule</b>オブジェクトでは、他のナビゲーション モジュールの<b>位置</b>の値を変更するは、このプロパティの値を変更する、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、新しい値と元の値の間の相対的な変化に応じて、コレクションです</para>。
+          <list type="bullet"><item><para>の新しい位置とその新しい位置以下では、既に他のナビゲーション モジュールを下に移動、新しい値が小さい場合、元の値よりも指定した<b>SolutionsModule</b>オブジェクトまで移動します</para></item>。
+            <item><para>新しい値が元の値より大きい場合は、指定した<b>SolutionsModule</b>オブジェクト新しい位置に移動し、元の位置上、古い位置と新しい位置の間では、他のナビゲーション モジュールに移動します</para></item></list>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します</para>。
+          <para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーが同じ目的を提供します</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>値を取得または設定、<see cref="T:System.Boolean" />を<b>ソリューション</b>モジュールがナビゲーション ウィンドウで表示されるかどうかを示す (C# では<b>bool</b> ) の値です。 値の取得および設定が可能です。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ソリューション</b>モジュール] の下のソリューションがない場合、設定、または [<b>可視</b>] プロパティを取得するには、エラーが発生します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

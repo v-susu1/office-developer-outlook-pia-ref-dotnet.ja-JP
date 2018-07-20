@@ -1,0 +1,432 @@
+<Type Name="ApplicationEvents_11_Event" FullName="Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c3817e72f684595f4f26217d161e8043fe66e25" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638849" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ApplicationEvents_11_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents_11_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents_11_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ApplicationEvents_11_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ApplicationEvents_11), typeof(Microsoft.Office.Interop.Outlook.ApplicationEvents_11_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>これは、対応する COM オブジェクトとの相互互換性のためマネージ コードで必要な COM コクラスの処理中に作成された .NET インターフェイスです。このインターフェイスは以前のインターフェイスの全イベントと追加の新しいイベントを実装します。使用するイベントが COM オブジェクトのメソッドと同じ名前を共有している場合にのみ、このインターフェイスを使用します。この場合、イベントに接続するにはこのインターフェイスにキャストし、メソッドを呼び出すにはプライマリ インターフェイスにキャストします。それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdvancedSearchComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler AdvancedSearchComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler AdvancedSearchComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />
+      <MemberSignature Language="VB.NET" Value="Event AdvancedSearchComplete As ApplicationEvents_11_AdvancedSearchCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AdvancedSearchCompleteEventHandler ^ AdvancedSearchComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>発生した場合、<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />メソッドが完了します。</summary>
+        <remarks>
+          <para>
+            <b>AdvancedSearchComplete</b>イベントを使用して、<b>ここ</b>で作成されたオブジェクトを取得します。このイベントは、<b>ここ</b>がプログラムによって実行されたときにのみ発生します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdvancedSearchStopped">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler AdvancedSearchStopped;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler AdvancedSearchStopped" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchStopped" />
+      <MemberSignature Language="VB.NET" Value="Event AdvancedSearchStopped As ApplicationEvents_11_AdvancedSearchStoppedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AdvancedSearchStoppedEventHandler ^ AdvancedSearchStopped;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指定した場合に発生<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトの<see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />メソッドが実行されています。</summary>
+        <remarks>
+          <para>このイベントが呼び出された後、<b>検索</b>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Results" />コレクションは更新されません。このイベントは、プログラムでのみ発生させることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler AttachmentContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler AttachmentContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AttachmentContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentContextMenuDisplay As ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler ^ AttachmentContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeFolderSharingDialog">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler BeforeFolderSharingDialog;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler BeforeFolderSharingDialog" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.BeforeFolderSharingDialog" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderSharingDialog As ApplicationEvents_11_BeforeFolderSharingDialogEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_BeforeFolderSharingDialogEventHandler ^ BeforeFolderSharingDialog;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>[共有] ダイアログ ボックスが表示される前に発生した<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトです。</summary>
+        <remarks>
+          <para>このイベントは、カスタム ユーザー インターフェイスを使用して Outlook に用意された共有ユーザー インターフェイスを置き換える機能を持つアドインを提供します。 共有メッセージがプログラムで作成され、表示される場合、このイベントは発生しません。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextMenuClose">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler ContextMenuClose;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler ContextMenuClose" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ContextMenuClose" />
+      <MemberSignature Language="VB.NET" Value="Event ContextMenuClose As ApplicationEvents_11_ContextMenuCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ContextMenuCloseEventHandler ^ ContextMenuClose;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler FolderContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler FolderContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.FolderContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event FolderContextMenuDisplay As ApplicationEvents_11_FolderContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_FolderContextMenuDisplayEventHandler ^ FolderContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler ItemContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler ItemContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ItemContextMenuDisplay As ApplicationEvents_11_ItemContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemContextMenuDisplayEventHandler ^ ItemContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemLoad">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler ItemLoad;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler ItemLoad" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemLoad" />
+      <MemberSignature Language="VB.NET" Value="Event ItemLoad As ApplicationEvents_11_ItemLoadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemLoadEventHandler ^ ItemLoad;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Outlook アイテムをメモリに読み込むときに発生します。</summary>
+        <remarks>
+          <para>このイベントは、Outlook アイテムがメモリにロードするのには開始時に発生します。項目のデータは未対応です、Outlook アイテムのプロパティの<b>クラス</b>と<b>MessageClass</b>プロパティの値以外の Outlook アイテムの<b>クラス</b>または<b>MessageClass</b>以外のプロパティを呼び出すときにエラーが発生したため返される<paramref name="Item" />。呼び出す場合や、Outlook アイテムから任意のメソッドを呼び出そうとする場合、同様に、エラーが発生、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトで返されるアイテムの<paramref name="Item" />です</para>。
+          <para><b>ItemLoad</b>イベントは、 <b>BeforeRead</b>、<b>開く</b>、<b>送信</b>、および<b>書き込み</b>などのアイテム レベルのイベント ハンドラーをフックするための手段として通常実装する必要があります</para>。
+          <para>次の条件が発生したときにこのイベントが発生しません</para>。
+          <list type="bullet"><item><para>する Outlook アイテムをフォルダーと同期します</para></item>。
+            <item><para>Outlook アイテムのサーバー側ルールをトリガーします</para></item>。
+            <item><para>Outlook アイテムにアラームが発生します</para></item>。
+            <item><para>Outlook アイテムの A のデスクトップ通知が表示されます</para></item></list>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemSend">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler ItemSend;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler ItemSend" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemSend" />
+      <MemberSignature Language="VB.NET" Value="Event ItemSend As ApplicationEvents_11_ItemSendEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemSendEventHandler ^ ItemSend;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>を通じてユーザーがいずれかの Outlook アイテムを送信するたびに発生、 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> (インスペクターが閉じられると、前に、ユーザーが [送信] ボタンをクリックした後など) 場合、または、<see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッドは、Outlook のアイテムの次のように<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、プログラムで使用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPILogonComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler MAPILogonComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler MAPILogonComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.MAPILogonComplete" />
+      <MemberSignature Language="VB.NET" Value="Event MAPILogonComplete As ApplicationEvents_11_MAPILogonCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_MAPILogonCompleteEventHandler ^ MAPILogonComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ユーザーがシステムにログオンした後に発生します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMail">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler NewMail;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler NewMail" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.NewMail" />
+      <MemberSignature Language="VB.NET" Value="Event NewMail As ApplicationEvents_11_NewMailEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_NewMailEventHandler ^ NewMail;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>[受信トレイ] に新しい電子メール メッセージを 1 通以上受信すると発生します。</summary>
+        <remarks>
+          <para>
+            <b>NewMail</b>イベントは、受信トレイに新しいメッセージが届いたし、クライアントの前に、ルールの処理が行われるときに発生します。受信トレイに受信したアイテムを処理する場合は、使用を検討して、<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" />イベントの受信トレイ内のアイテムのコレクションです。<b>ItemAdd</b>イベントは、フォルダーに追加される各アイテムへの参照を渡します</para>。
+          <para><b>NewMail</b>イベントでは、ユーザーがオフライン モードのときは発生しません</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMailEx">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler NewMailEx;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler NewMailEx" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.NewMailEx" />
+      <MemberSignature Language="VB.NET" Value="Event NewMailEx As ApplicationEvents_11_NewMailExEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_NewMailExEventHandler ^ NewMailEx;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>受信トレイに新しいアイテムを受信すると発生します。</summary>
+        <remarks>
+          <para>Outlook で受信したすべての項目に対して処理されると、このイベントが発生します。項目は、いくつかのアイテムの種類のいずれかたとえば、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。<paramref name="EntryIDsCollection" />の文字列にその項目に対応するエントリ ID が含まれています。注この現象は、イベントの以前のバージョンから変更されたとき、<paramref name="EntryIDCollection" />の前回のイベント後に、受信トレイに受信したアイテムが発生したすべてのエントリ Id のカンマ区切りのリストに含まれている</para>。
+          <para>受信したメッセージは、Microsoft Exchange Server と POP3 アカウントなどの通知を提供する電子メール アカウントに対してこのイベントが発生します</para>。
+          <para><b>NewMailEx</b>イベントは、受信トレイに新しいメッセージが到着して、クライアント ルールの前に処理が行われるときに発生します。返されるエントリ ID を使用することができます、<paramref name="EntryIDCollection" />を呼び出すための配列、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />メソッドや、項目を処理します。Outlook のパフォーマンスに与える影響を最小限に抑えるため注意してこのメソッドを使用します。ただし、クライアントの設定によって、受信トレイで、新しいメッセージを受信した後処理スパムのフィルタ リングのように、新しいメッセージを受信トレイから別のフォルダーに移動するクライアント ルールを非同期的に発生することが。これらのイベントが発生した後は常になる 1 項目が大きくなる、受信トレイ内のアイテムの数を想定してくださいできません</para>。
+          <para>Outlook が開始した後に、サーバーに到着したメッセージに対してのみ、Exchange Server アカウント以外の Exchange キャッシュ モードまたは Exchange キャッシュ モード) を使用してユーザーのイベントが発生します。Outlook を起動した直後に、Exchange キャッシュ モードでは、同期のメッセージまたは Outlook で非キャッシュ Exchange モードを起動するときに、サーバー上でされているメッセージのイベントは発生しません</para>。
+          <para>ユーザーは Exchange キャッシュ モードを使用して、すべての設定で、イベントが発生提供されたメッセージを受信したときに、Outlook が実行中である: アイテムを完全にダウンロード、ヘッダーをダウンロードし、ヘッダーをダウンロードし、アイテムを完全にします</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionsPagesAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler OptionsPagesAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler OptionsPagesAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.OptionsPagesAdd" />
+      <MemberSignature Language="VB.NET" Value="Event OptionsPagesAdd As ApplicationEvents_11_OptionsPagesAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_OptionsPagesAddEventHandler ^ OptionsPagesAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ユーザーが Outlook の [オプション] ダイアログ ボックスの [アドイン] タブで [アドイン オプション] をクリックすると発生します。</summary>
+        <remarks>
+          <para>プログラムでは、カスタム プロパティ ページを追加するには、このイベントを処理します。プロパティ ページは、[オプション] ダイアログ ボックスに追加します。<b>PropertyPages</b>コレクション オブジェクトがで識別されるイベントが発生したとき<paramref name="Pages" />イベント ハンドラーが呼び出される前に追加されたプロパティ ページが含まれています。プロパティ ページをコレクションに追加するを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> 、イベント ハンドラーを終了する前に<b>PropertyPages</b>コレクションのメソッド。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler Quit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler Quit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit" />
+      <MemberSignature Language="VB.NET" Value="Event Quit As ApplicationEvents_11_QuitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_QuitEventHandler ^ Quit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>終了するのには Outlook が開始されるときに発生します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reminder">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler Reminder;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler Reminder" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Reminder" />
+      <MemberSignature Language="VB.NET" Value="Event Reminder As ApplicationEvents_11_ReminderEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ReminderEventHandler ^ Reminder;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>アラームが表示される直前に発生します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShortcutContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ShortcutContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ShortcutContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ShortcutContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ShortcutContextMenuDisplay As ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ^ ShortcutContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Startup">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler Startup;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler Startup" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Startup" />
+      <MemberSignature Language="VB.NET" Value="Event Startup As ApplicationEvents_11_StartupEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_StartupEventHandler ^ Startup;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Microsoft Outlook の起動中、すべてのアドイン プログラムが読み込まれた後に発生します。</summary>
+        <remarks>
+          <para>Outlook の Visual Basic for Applications (VBA) マクロは、Outlook の起動時に自身を初期化するために、このイベント プロシージャを使用できます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler StoreContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler StoreContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.StoreContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event StoreContextMenuDisplay As ApplicationEvents_11_StoreContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_StoreContextMenuDisplayEventHandler ^ StoreContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler ViewContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler ViewContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ViewContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ViewContextMenuDisplay As ApplicationEvents_11_ViewContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ViewContextMenuDisplayEventHandler ^ ViewContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

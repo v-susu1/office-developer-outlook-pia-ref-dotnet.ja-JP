@@ -1,0 +1,180 @@
+<Type Name="OlDefaultSelectNamesDisplayMode" FullName="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="058cc9a2f396bc8ecda0d309b46f8d4981756678" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20638852" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlDefaultSelectNamesDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlDefaultSelectNamesDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>[宛先の選択] ダイアログ ボックスに表示するキャプション、ボタンの数、ボタン ラベル、アドレス一覧の既定値を指定します。ローカライズされたキャプションやラベルを定義する、リソース ファイルがない場合に適用されます。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultDelegates">
+      <MemberSignature Language="C#" Value="olDefaultDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultDelegates = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultDelegates" />
+      <MemberSignature Language="VB.NET" Value="olDefaultDelegates" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>表示ボックスに受信者を編集する、使用の [宛先] ボタン、[追加] を表す文字列をローカライズし、キャプションの [ユーザーの追加] を表す文字列をローカライズします。 CcLabel および BccLabel は、空の文字列に設定されます。 セット<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />を True にし、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> olTo にします。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMail">
+      <MemberSignature Language="C#" Value="olDefaultMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMail" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMail" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>[編集を表示するためのボックス、[cc]、および [bcc] 受信者、] に示さ、"Cc"、および [Bcc] の宛先、Cc、Bcc ボタン、およびキャプションの [名前の選択"を表すローカライズされた文字列です。 True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>をそれぞれに設定します。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMeeting">
+      <MemberSignature Language="C#" Value="olDefaultMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMeeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMeeting" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>必須、オプション、編集ボックスを表示し、リソースの受信者を使用して、宛先、Cc の「必要な」、「オプション」および「リソース」を表す文字列をローカライズすると [bcc] ボタン、との"出席者とリソースの選択"を表すローカライズされた文字列、キャプションです。 True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>をそれぞれに設定します。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMembers">
+      <MemberSignature Language="C#" Value="olDefaultMembers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMembers = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMembers" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMembers" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMembers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>人の受信者の 1 つのエディット ボックスを表示する] ボタンは、"To"を表すと、キャプションの [メンバーの選択] を表す文字列をローカライズされた文字列をローカライズされたを使用します。 CcLabel および BccLabel は、空の文字列に設定されます。 True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultPickRooms">
+      <MemberSignature Language="C#" Value="olDefaultPickRooms" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultPickRooms = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultPickRooms" />
+      <MemberSignature Language="VB.NET" Value="olDefaultPickRooms" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultPickRooms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>リソースの受信者に対する 1 つのエディット ボックスを表示するボタン、およびキャプションの「ルームを選択」を表すローカライズされた文字列の"ルーム"を表すローカライズされた文字列を使用します。 CcLabel および BccLabel は、空の文字列に設定されます。 OlShowTo を True に設定する、<b>また</b>、 <b>NumberOfRecipientSelectors</b>を設定します。 <b>InitialDisplayList</b>は、グローバル アドレス一覧に設定されています。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSharingRequest">
+      <MemberSignature Language="C#" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSharingRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSharingRequest" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSharingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>表示ボックスに受信者を編集する、使用のボタンに"To"を表すと、宛先のキャプションを表す文字列をローカライズされた文字列をローカライズします。 CcLabel および BccLabel は、空の文字列に設定されます。 True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSingleName">
+      <MemberSignature Language="C#" Value="olDefaultSingleName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSingleName = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSingleName" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSingleName" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSingleName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>受信者を編集するためのボックスは表示せず、キャプションとして「宛先の選択」を表すローカライズされた文字列を適用します。 ToLabel、CcLabel、[bcc] フィールドのラベルは、空の文字列に設定されます。 <b>また</b>を False、 <b>NumberOfRecipientSelectors</b>を olNone に設定します。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultTask">
+      <MemberSignature Language="C#" Value="olDefaultTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultTask = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultTask" />
+      <MemberSignature Language="VB.NET" Value="olDefaultTask" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>表示ボックスに受信者を編集する、使用のボタンに"To"を表すと、キャプションの「タスクの受信者を選択」を表す文字列をローカライズされた文字列をローカライズします。 CcLabel および BccLabel は、空の文字列に設定されます。 True を<b>表す</b>、 <b>NumberOfRecipientSelectors</b>を olTo に設定します。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
