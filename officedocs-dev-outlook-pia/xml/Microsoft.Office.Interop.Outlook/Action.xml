@@ -1,13 +1,5 @@
 <Type Name="Action" FullName="Microsoft.Office.Interop.Outlook.Action">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="17596c00726166fb08d75936fec79e91f1a60b4f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639459" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Action" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6062d8975646fc20d49a63e5b13512f4b7f4c11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897368" /></Metadata><TypeSignature Language="C#" Value="public interface Action" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Action" />
   <TypeSignature Language="VB.NET" Value="Public Interface Action" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Outlook アイテムで実行できる特殊なアクション (返信ボタンの応答など) を表します。</summary>
-    <remarks>
-      <para>
-        <b>アクション</b>オブジェクトのメンバーである、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />コレクションです</para>。
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />(<paramref name="index" />)、<paramref name="index" />オブジェクトを取得する 1 つ<b>のアクション</b>の Outlook のアイテムの<b>アクション</b>のコレクションのオブジェクトから次のようにするには、使用可能なアクションの名前は、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />です</para>。
-      <para /></remarks>
+    <remarks><para><b>アクション</b>オブジェクトのメンバーである、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />コレクションです。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />(<paramref name="index" />)、<paramref name="index" />オブジェクトを取得する 1 つ<b>のアクション</b>の Outlook のアイテムの<b>アクション</b>のコレクションのオブジェクトから次のようにするには、使用可能なアクションの名前は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,12 +106,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />のアクションを使用するプロパティの継承スタイルを示す定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />のアクションを使用するプロパティの継承スタイルを示す定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>継承スタイルは、アクションによって作成された新しいアイテムにプロパティをコピーする方法を制御するアクションが実行されたときに使用されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>継承スタイルは、アクションの実行時に使用されます。アクションによって作成された新しいアイテムに、プロパティがどのようにコピーされるかを制御します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -175,8 +163,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) アプリケーションで、アクションが有効になっている場合は<b>True</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) アプリケーションで、アクションが有効になっている場合は<b>True</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,13 +220,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定のメッセージ クラスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Action" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定のメッセージ クラスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Action" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -268,7 +252,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>オブジェクト</b>の表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>オブジェクト</b>の表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,13 +311,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得またはアクションが実行されると、アイテムの件名に使用するプレフィックス (たとえば、"Re"など) を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得またはアクションが実行されると、アイテムの件名に使用するプレフィックス (たとえば、"Re"など) を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>自動的に追加コロン (:)、 <b>Prefix</b>プロパティの値、アイテムの件名を設定するときです。</para>
-          <para />
-        </remarks>
+        <remarks><para>自動的に追加コロン (:)、 <b>Prefix</b> プロパティの値、アイテムの件名を設定するときです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyStyle">
@@ -362,7 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionReplyStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> 、指定されたアクションのスタイルを書式設定するテキストを示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> 、指定されたアクションのスタイルを書式設定するテキストを示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,7 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionResponseStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> 、指定されたアクションが実行されたときに使用される応答のスタイルを示す定数をします。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> 、指定されたアクションが実行されたときに使用される応答のスタイルを示す定数をします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -421,19 +402,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOn">

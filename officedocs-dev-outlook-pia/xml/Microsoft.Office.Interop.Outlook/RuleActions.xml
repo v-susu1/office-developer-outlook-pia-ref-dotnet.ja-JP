@@ -1,13 +1,5 @@
 <Type Name="RuleActions" FullName="Microsoft.Office.Interop.Outlook.RuleActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1c9dcd938b096bfbf64c19b0467f098f31267e47" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637890" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleActions : Microsoft.Office.Interop.Outlook._RuleActions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="179d0d3e95cdc9402409978be77550cf35aa5d70" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897487" /></Metadata><TypeSignature Language="C#" Value="public interface RuleActions : Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleActions implements class Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleActions&#xA;Implements _RuleActions" />
@@ -30,13 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <b>RuleActions</b>オブジェクトは、一連の<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクト、またはオブジェクトは、 <b>ruleaction オブジェクト</b>で実行されるアクションを表すから派生した、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />。</para>
-      <para>
-        <b>RuleActions</b>オブジェクトは、固定のコレクションです。<b>取得した RuleAction</b>オブジェクト、または<b>取得した RuleAction</b>オブジェクトから派生した型に追加または<b>RuleActions</b>オブジェクトから削除できません</para>。
-      <para>、ルール オブジェクト モデルでは、ルールと通知ウィザードが Outlook のユーザー インターフェイスを使用して、部分的にしか同等を提供します。最もよく使用されるルールのアクションと条件がサポートされています。サポートするわけではありませんが、ルールの処理またはウィザードがサポートするルールの条件によるルールの作成も列挙し、これらのルールの処理と既存のルールの条件を有効にします。</para><para>ルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para><para /></remarks>
+    <summary><b>RuleActions</b>オブジェクトは、一連の<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクト、またはオブジェクトは、 <b>ruleaction オブジェクト</b>で実行されるアクションを表すから派生した、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</summary>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />。 </para>
+      <para><b>RuleActions</b> オブジェクトは、固定のコレクションです。 <b>取得した RuleAction</b> オブジェクト、または <b>取得した RuleAction</b> オブジェクトから派生する型を追加または、 <b>RuleActions</b> オブジェクトから削除することはできません。</para>
+      <para>Rules オブジェクト モデルは、Outlook のユーザー インターフェイスの仕分けルールと通知ウィザードと部分的に同等の機能を提供します。このオブジェクト モデルは、最もよく使用されるルールの処理と条件をサポートしています。このオブジェクト モデルは、ウィザードがサポートする個々のルールの処理またはルールの条件によるルールの作成をサポートするわけではありませんが、既存のルールでこれらのルールの処理と条件を列挙して有効化することはできます。</para>
+      <para>ルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

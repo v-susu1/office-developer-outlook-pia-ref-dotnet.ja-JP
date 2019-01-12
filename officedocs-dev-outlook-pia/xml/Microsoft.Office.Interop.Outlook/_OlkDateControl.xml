@@ -1,13 +1,5 @@
 <Type Name="_OlkDateControl" FullName="Microsoft.Office.Interop.Outlook._OlkDateControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f064fabf18e8108fe4dbcd30b73c9f5f5a2fb068" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638785" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkDateControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f064fabf18e8108fe4dbcd30b73c9f5f5a2fb068" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896969" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkDateControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkDateControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkDateControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkDateControl" />
@@ -56,13 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -91,13 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -129,12 +115,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000005、ウィンドウです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000005、ウィンドウ] です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -163,12 +147,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olBackStyleOpaque</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olBackStyleOpaque</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Date">
@@ -197,12 +179,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>12時 00分 AM に設定された時間で現在選択されている<b>日時</b>の値を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary>12時 00分 AM に設定された時間で現在選択されている<b>日時</b>の値を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを取得するには、既定値は 12時 00分 AM に設定された時刻での現在の日付にします。 このプロパティを設定する場合、時刻の情報は無視されます。時刻は 12時 00分 AM に設定されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを取得する場合、既定値は現在の日付で、時刻は 12:00 AM に設定されます。このプロパティを設定する場合、時刻の情報はすべて無視され、12:00 AM に設定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -256,13 +236,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -291,12 +268,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olEnterFieldBehaviorSelectAll</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olEnterFieldBehaviorSelectAll</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -322,7 +297,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストをレンダリングするために使用フォントは、<b>上位</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>コントロール内のテキストをレンダリングするために使用フォントは、<b>上位</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,12 +331,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -390,12 +363,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -424,11 +395,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para>コントロールがロックされている場合は、コントロールは「無効」の外観では、ありませんが、ユーザーがコントロールの内容を編集できません。 </para><para /></remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -457,12 +428,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -491,12 +460,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowNoneButton">
@@ -525,12 +492,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうかを表示するのには [なし] ボタンをクリックして日付コントロールで指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうかを表示するのには [なし] ボタンをクリックして日付コントロールで指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -559,13 +524,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>プロパティの既定値は、空の文字列です</para>。
-          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です</para>。
-          <para /></remarks>
+        <remarks><para><b>Text</b> プロパティの既定値は、空の文字列です。</para>
+          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -594,12 +557,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -628,12 +589,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。</para>
-          <para />
-        </remarks>
+        <remarks><para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

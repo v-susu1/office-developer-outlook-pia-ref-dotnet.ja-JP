@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperties" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637791" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900076" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperties&#xA;Implements IEnumerable" />
@@ -62,13 +54,11 @@
         <param name="Name">ユーザー定義プロパティの名前。</param>
         <param name="Type">新しいユーザー定義プロパティの種類を指定します。</param>
         <param name="DisplayFormat">新しいユーザー定義プロパティの表示形式です。 指定されたプロパティの型によって決定されるいくつかの異なる列挙のいずれかの値にこのパラメーターを設定することができます、<paramref name="Type" />のパラメーターです。 方法の詳細については<paramref name="Type" />と<paramref name="DisplayFormat" />の対話は、「 <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />.</param>
-        <param name="Formula">新しいユーザー定義プロパティの値を計算するために使用する数式です。 場合、このパラメーターは無視されます、 <paramref name="Type" /><b>olCombination</b>または<b>olFormula</b>以外の値にパラメーターを設定します。</param>
+        <param name="Formula">新しいユーザー定義プロパティの値を計算するために使用する数式です。 場合、このパラメーターは無視されます、 <paramref name="Type" /> <b>olCombination</b>または<b>olFormula</b>以外の値にパラメーターを設定します。</param>
         <summary>新しい<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />オブジェクトおよびコレクションに追加します。</summary>
         <returns>新しいユーザー定義のプロパティを表す <b>UserDefinedProperty</b> オブジェクトを指定します。</returns>
-        <remarks>
-          <para>定義されている型のプロパティを作成することができます、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />列挙型の場合は、次のタイプを除いて、: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />、<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />と<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>定義されている型のプロパティを作成することができます、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />列挙型の場合は、次のタイプを除いて、: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />、<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />と<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -94,7 +84,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -122,7 +112,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -150,7 +140,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,8 +168,7 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />コレクション内で検索する<b>UserDefinedProperty</b>オブジェクトのプロパティの値です。</param>
+        <param name="Name"><see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />コレクション内で検索する<b>UserDefinedProperty</b>オブジェクトのプロパティの値です。</param>
         <summary>検索、<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />コレクションに含まれています。</summary>
         <returns>成功した場合のあるオブジェクトを表す<b>UserDefinedProperty</b>オブジェクトそれ以外の場合、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)。</returns>
         <remarks>To be added.</remarks>
@@ -321,19 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

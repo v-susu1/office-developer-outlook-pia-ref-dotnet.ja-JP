@@ -1,13 +1,5 @@
 <Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637995" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902272" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegion" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,14 +104,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または隣接するフォーム領域の表示名の後のヘッダーに実行時に表示されるテキストを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または隣接するフォーム領域の表示名の後のヘッダーに実行時に表示されるテキストを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Detail</b>プロパティは、付加フォーム領域のみに表示されます。個別フォーム領域では無視されます</para>。
-          <para><b>Detail</b>プロパティは、付加フォーム領域では省略可能です</para>。
-          <para /></remarks>
+        <remarks><para><b>Detail</b> プロパティは、付加フォーム領域のみに表示されます。個別フォーム領域では無視されます。</para>
+          <para><b>Detail</b> プロパティは、付加フォーム領域では省略可能です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -145,13 +134,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 フォーム領域の名前を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 フォーム領域の名前を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>表示名は、フォーム領域では省略可能です。値を定義している場合、 &lt;formRegionName&gt;タグに対応するフォーム領域マニフェスト XML ファイルでこの値は<b>DisplayName</b>プロパティの値にマップされます。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
-          <para>、 <b>DisplayName</b>プロパティの値が Microsoft Office Fluent の [表示] タブの実行時に表示されますリボンの個別フォーム領域、または隣接するフォーム領域のヘッダーにします。 既定のロケールの使用され、設定が可能で、 &lt;stringOverride&gt;に対応するフォーム領域マニフェスト XML ファイルのタグです。文字列は、大文字とその最大の長さは、256 文字です</para>。
-          <para /></remarks>
+        <remarks><para>表示名は、フォーム領域では省略可能です。 値を定義している場合、 &lt;formRegionName&gt;タグに対応するフォーム領域マニフェスト XML ファイルでこの値は<b>DisplayName</b>プロパティの値にマップされます。 フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</para>
+          <para><b>DisplayName</b>プロパティの値が実行時に別のフォーム領域の場合は、Microsoft Office Fluent リボンの [表示] タブ、または隣接するフォーム領域のヘッダーに表示されます。  既定のロケールの使用され、設定が可能で、 &lt;stringOverride&gt;に対応するフォーム領域マニフェスト XML ファイルのタグです。 文字列は、大文字とその最大の長さは、256 文字です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAutoLayout">
@@ -180,12 +167,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> )、フォーム デザイナーでフォーム領域をデザインするときにサイズ変更機能、自動レイアウトを使用するかどうかを指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> )、フォーム デザイナーでフォーム領域をデザインするときにサイズ変更機能、自動レイアウトを使用するかどうかを指定します。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>自動レイアウト サイズ変更機能は、フォーム デザイナーでは、フォームのサイズが変更されると動的に、フォームのレイアウトが再計算します。この機能は、フォーム デザイナーでフォーム領域を使用できるだけです</para>。
-          <para>このプロパティが<b>True</b>の場合は、フォーム デザイナーは、レイアウトの自動サイズ変更を実行します。 このプロパティが<b>False</b>の場合、フォーム デザイナーは実行されませんレイアウトの自動サイズ変更。 既定値は<b>true を指定</b>します</para>。
-          <para /></remarks>
+        <remarks><para>フォーム デザイナーのレイアウトの自動サイズ変更機能では、フォームのサイズ変更に合わせてフォームのレイアウトが動的に再計算されます。この機能はフォーム デザイナーのフォーム領域でのみ使用できます。</para>
+          <para>このプロパティが <b>True</b> の場合は、フォーム デザイナーは、レイアウトの自動サイズ変更を実行します。  このプロパティが <b>False</b> の場合、フォーム デザイナーは実行されませんレイアウトの自動サイズ変更。  既定値は、 <b>true を指定</b> します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Form">
@@ -211,8 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>MSForms.UserForm</b> オブジェクトを表す <b>オブジェクト</b> を返します。読み取り専用です。</summary>
+        <summary><b>MSForms.UserForm</b> オブジェクトを表す <b>オブジェクト</b> を返します。読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,10 +227,8 @@
       <Docs>
         <summary>フォーム領域が開封ページかどうかを示す <b>OlFormRegionMode</b> の定数を取得、作成ページ、または閲覧ウィンドウです。読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ユーザーには、閲覧ウィンドウでメール アイテムがあるを使って、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" />さらに、ユーザーが編集モードまたは閲覧ウィンドウのモードを決定するプロパティです。場合と閲覧モード (メール アイテムが受信トレイや送信済みアイテム フォルダーにある) は編集モード (メール アイテムが下書きと同じフォルダーにある) である場合とは異なるメール アイテムを表示し、閲覧ウィンドウでは。</para>
-          <para />
-        </remarks>
+        <remarks><para>ユーザーには、閲覧ウィンドウでメール アイテムがあるを使って、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" />さらに、ユーザーが編集モードまたは閲覧ウィンドウのモードを決定するプロパティです。 閲覧ウィンドウでのメール アイテムの表示は、編集モード (メール アイテムが下書きフォルダーにある) の場合と閲覧モード (メール アイテムが受信トレイ フォルダーまたは送信フォルダーにある) の場合とで異なります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspector">
@@ -271,12 +254,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />フォーム領域をホスティングするインスペクターを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />フォーム領域をホスティングするインスペクターを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>フォーム領域が閲覧ウィンドウに表示されている場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>フォーム領域が閲覧ウィンドウに表示されている場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternalName">
@@ -302,14 +283,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) をフォーム領域のマニフェストで定義されているフォーム領域の内部プログラム名を表すを返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) をフォーム領域のマニフェストで定義されているフォーム領域の内部プログラム名を表すを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>内部名は、フォーム領域の必要があります。&lt;名&gt;対応するフォーム領域マニフェスト XML ファイル内のタグは、 <b>InternalName</b>プロパティの値にマップします。フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください</para>
-          <para>
-            <b>InternalName</b>プロパティの値が、フォーム領域を参照するアドインまたは Outlook で使用されます。たとえば、フォーム領域が読み込まれているかを決定するか、ローカライズされた文字列リソースから文字列をロードします。<b>InternalName</b>プロパティには、ASCII 文字のみがサポートされています。文字列は、大文字とその最大の長さは、256 文字です</para>。
-          <para /></remarks>
+        <remarks><para>内部名は、フォーム領域の必要があります。 &lt;名&gt;対応するフォーム領域マニフェスト XML ファイル内のタグは、 <b>InternalName</b>プロパティの値にマップします。 フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</para>
+          <para>たとえば、フォーム領域を参照してください、フォーム領域が読み込まれているかを判断したり、ローカライズされた文字列リソースから文字列を読み込むアドインまたはMicrosoft Outlookで <b>InternalName</b> プロパティの値が使用されます。 <b>InternalName</b> プロパティには、ASCII 文字のみがサポートされています。文字列は、大文字とその最大の長さは、256 文字です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsExpanded">
@@ -335,12 +313,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) をフォーム領域が展開されているかどうかを示す値を返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) をフォーム領域が展開されているかどうかを示す値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、隣接するフォーム領域にのみに適用され、個別フォーム領域は無視されます</para>。
-          <para>Outlook は最初に常に展開した状態でフォーム領域を読み込むし、 <b>IsExpanded</b>を<b>True</b>に設定します。折りたたむには、フォーム領域の初期状態があるかどうかは、Outlook が起動、フォーム領域をすぐに終了、<see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" />でのイベント、<paramref name="Expand" />パラメーターが<b>False</b>と設定を<b>False</b>には、 <b>IsExpanded</b> 。</para><para /></remarks>
+        <remarks><para>このプロパティは、隣接するフォーム領域にのみ適用され、別のフォーム領域では無視されます。</para>
+          <para>最初に常に、outlook は、展開した状態でフォーム領域を読み込むし、 <b>IsExpanded</b> を <b>True</b> に設定します。 折りたたむには、フォーム領域の初期状態があるかどうかは、Outlook が起動、フォーム領域をすぐに終了、<see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" />でのイベント、<paramref name="Expand" />パラメーターが<b>False</b>と設定を<b>False</b>には、 <b>IsExpanded</b> 。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -394,7 +371,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>現在の言語の LCID を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>現在の言語の LCID を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -449,11 +426,8 @@
       <Parameters />
       <Docs>
         <summary>Outlook によって付加フォーム領域の高さが自動的に再計算され、フォーム領域に表示可能なコントロールがすべて表示されます。</summary>
-        <remarks>
-          <para>
-            <b>リフロー処理</b>メソッドは、付加フォーム領域にのみ適用されます。個別フォーム領域の場合は、アクションは実行されません。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>リフロー処理</b> メソッドは、付加フォーム領域にのみ適用されます。個別フォーム領域の場合は、アクションは実行されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Select">
@@ -478,10 +452,8 @@
       <Parameters />
       <Docs>
         <summary>フォーム領域をアクティブなフォーム領域にして、そのフォーム領域が表示されるようにします。</summary>
-        <remarks>
-          <para>フォーム領域が付加フォーム領域の場合は、<b>選択</b>は (まだ展開されていない) 場合は、フォーム領域を展開し、そのページの先頭のコントロールにフォーカスを設定します。<b>フォーム領域に切り替える</b>かどうかは、フォーム領域が個別フォーム領域しなっていない作業中のページでは、ページし、そのページの先頭のコントロールにフォーカスを設定します。フォーム領域が個別フォーム領域は、作業中のページは、既に場合、何も起こりません。</para>
-          <para />
-        </remarks>
+        <remarks><para>フォーム領域が付加フォーム領域の場合は、 <b>選択</b> は (まだ展開されていない) 場合は、フォーム領域を展開し、そのページの先頭のコントロールにフォーカスを設定します。 <b>フォーム領域に切り替える</b> かどうかは、フォーム領域が個別フォーム領域しなっていない作業中のページでは、ページし、そのページの先頭のコントロールにフォーカスを設定します。フォーム領域が個別フォーム領域は、作業中のページは、既に場合、何も起こりません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -507,19 +479,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -549,10 +518,12 @@
         <param name="Control">指定されるプロパティをフォーム領域内のコントロール<paramref name="PropertyName" />バインドされます。</param>
         <param name="PropertyName">コントロールに連結されるプロパティの名前を指定します。</param>
         <summary>明示的な組み込みプロパティまたはカスタム プロパティを、フォーム領域内のコントロールに連結します。</summary>
-        <remarks>
-          <para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。必要がありますプロパティを参照する、文字列名、たとえば、<b>件名</b>、および名前空間ではなく、http://schemas.microsoft.com/mapi/proptag/0x0037001Eです</para>。
-          <para>、<paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。<b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ</para>。
-          <para>の<b>SetControlItemProperty</b>メソッドを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /><b>件名</b>プロパティなどのプロパティをコントロールにバインドするのには次のようなコードを使用することも、object:</para><code>myPage.Controls("bar").ItemProperty = "subject"</code><code>myPage.Controls("bar").ItemProperty = "subject";</code><para /></remarks>
+        <remarks><para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。文字列名、たとえば、 <b>件名</b> 、および、http://schemas.microsoft.com/mapi/proptag/0x0037001E などの名前空間ではなく、プロパティを参照する必要があります。</para>
+          <para><paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。 <b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ。</para>
+          <para>以外の<b>SetControlItemProperty</b>メソッドを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />オブジェクト、プロパティの<b>タイトル</b>などのプロパティをコントロールにバインドするのには次のようなコードを使用することも。</para>
+          <code>myPage.Controls("bar").ItemProperty = "subject"</code>
+          <code>myPage.Controls("bar").ItemProperty = "subject";</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressControlReplacement">
@@ -581,13 +552,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) のデザイン時および実行時に Forms 2.0 コントロール、テーマ付きの Outlook コントロールを自動的に置き換える Outlook を無効にする設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) のデザイン時および実行時に Forms 2.0 コントロール、テーマ付きの Outlook コントロールを自動的に置き換える Outlook を無効にする設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>テーマ付きの Outlook の対応するコントロールで、Forms 2.0 コントロールを自動的に置き換える Outlook の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87823">ユーザー設定フォーム内のコントロール</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>テーマ付きの Outlook の対応するコントロールで、Forms 2.0 コントロールを自動的に置き換える Outlook の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87823">ユーザー設定フォーム内のコントロール</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -616,13 +584,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値、フォーム領域が表示または非表示かどうかを示す。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値、フォーム領域が表示または非表示かどうかを示す。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True の</b>場合、フォーム領域が表示されます。場合は<b>false</b>非表示には。既定では<b>True です</b>。</para>
-          <para>フォーム領域に表示することのない情報へのアクセスを制御するのには<b>Visible</b>プロパティを使用します</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>True の</b> 場合、フォーム領域が表示されます。場合は <b>false</b> 非表示には。既定では <b>True です</b> 。</para>
+          <para><b>Visible</b> プロパティを使用すると、フォーム領域に表示することのない情報へのアクセスを制御できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

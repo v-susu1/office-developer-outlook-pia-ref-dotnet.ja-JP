@@ -1,13 +1,5 @@
 <Type Name="DocumentItem" FullName="Microsoft.Office.Interop.Outlook.DocumentItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="721532dd62d340e509db090a0d82dda54ca85f23" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638512" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentItem : Microsoft.Office.Interop.Outlook._DocumentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="70642ffe932600890443c1386123052ee6da41d5" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901852" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentItem : Microsoft.Office.Interop.Outlook._DocumentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentItem implements class Microsoft.Office.Interop.Outlook._DocumentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.DocumentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentItem&#xA;Implements _DocumentItem, ItemEvents_10_Event" />
@@ -34,12 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Outlook フォルダー内のアイテムと、Outlook アイテム以外のすべてのドキュメントを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._DocumentItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>、 <b>DocumentItem</b>オブジェクトは、Outlook アイテム以外のすべてのドキュメントを Outlook フォルダー内のアイテムとは。共通の使用法では、この、Office ドキュメントがドキュメントまたは実行可能ファイルの任意の型があります</para>。
-      <para>、他の Outlook オブジェクトとは異なり、このオブジェクトを作成できません</para>。
-      <para><b>注</b>: プログラムを使用してユーザー定義のプロパティを<b>DocumentItem</b>オブジェクトに追加しようとすると、次のエラー メッセージが表示されます:「プロパティは読み取り専用」これは、Outlook オブジェクト モデルでは、この機能をサポートしていないためです</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._DocumentItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para><b>DocumentItem</b> オブジェクトは、Outlook アイテム以外のすべてのドキュメントを Outlook フォルダー内のアイテムとは。共通の使用法では、この、Office ドキュメントがドキュメントまたは実行可能ファイルの任意の型があります。</para>
+      <para>他の Microsoft Outlook オブジェクトと異なり、このオブジェクトを作成することはできません。</para>
+      <para>
+        <b>注</b>: プログラムを使用してユーザー定義のプロパティを<b>DocumentItem</b>オブジェクトに追加しようとすると、次のエラー メッセージが表示されます:「プロパティは読み取り専用」 これは、Outlook オブジェクト モデルでは、この機能をサポートしていないためにです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

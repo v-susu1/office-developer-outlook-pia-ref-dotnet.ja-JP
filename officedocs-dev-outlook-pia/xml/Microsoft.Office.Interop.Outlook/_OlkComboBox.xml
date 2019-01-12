@@ -1,13 +1,5 @@
 <Type Name="_OlkComboBox" FullName="Microsoft.Office.Interop.Outlook._OlkComboBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639391" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901432" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkComboBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">コンボ ボックスの一覧に追加する値です。</param>
         <param name="Index">一覧内での新しいアイテムの順番を示す値です。開始値は 0 です。</param>
         <summary>アイテムを一覧に追加します。さらに、一覧に追加する新しいアイテムのインデックスを指定することもできます。</summary>
-        <remarks>
-          <para>場合の値<paramref name="Index" />数以上は、リスト内の要素のリストの末尾に新規の項目が追加されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合の値<paramref name="Index" />数以上は、リスト内の要素のリストの末尾に新規の項目が追加されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -88,12 +78,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は<b>false を指定</b>します</para>。
-          <para>を<b>True</b>に設定の<b>自動サイズ調整</b>は自動的に、コンボ ボックスで、テキストの長さを表示領域の幅を設定します。この現象は、単一行テキスト ボックスに似ています。</para><para /></remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para><b>Autosize プロパティを <b>True</b> に自動的に</b> コンボ ボックス内のテキストの長さを表示領域の幅を設定します。この現象は、単一行テキスト ボックスに似ています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -122,12 +111,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうか、タブが自動的に挿入、コントロールが指定の最大長まで埋められたときを指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうか、タブが自動的に挿入、コントロールが指定の最大長まで埋められたときを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -156,13 +143,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -194,12 +178,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000005、ウィンドウです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000005、ウィンドウ] です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -228,12 +210,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olBorderStyleSingle</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olBorderStyleSingle</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -283,10 +263,9 @@
       <Parameters />
       <Docs>
         <summary>コントロールの内容をクリップボードにコピーします。</summary>
-        <remarks>
-          <para>データは、書式なしのテキスト形式でクリップボードの内容を上書きコピーします</para>。
-          <para>コントロールのスタイルが<b>olComboBoxStyleListBox</b>の場合がのかどうか、このメソッドは、ドロップダウン リストで現在の選択範囲をクリップボードにコピーします</para>。
-          <para /></remarks>
+        <remarks><para>データは書式なしのテキスト形式でコピーされ、クリップボードにある既存の内容は置き換えられます。</para>
+          <para>コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、この方法現在の選択範囲」ドロップ ダウン リストでクリップボードにコピーします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -311,10 +290,9 @@
       <Parameters />
       <Docs>
         <summary>コントロールの内容を切り取ってクリップボードにコピーします。</summary>
-        <remarks>
-          <para>データはクリップボードの内容を上書き、フォーマットされていないテキスト形式でクリップボードにコピーします</para>。
-          <para>コントロールのスタイルが<b>olComboBoxStyleListBox</b>の場合をあるかどうかは、このメソッドは何かをカットされていない</para>。
-          <para /></remarks>
+        <remarks><para>データは書式なしのテキスト形式でクリップボードにコピーされ、クリップボードにある既存の内容は置き換えられます。</para>
+          <para>コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、このメソッドはないカットは何もします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -343,12 +321,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 、システムがこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 、システムがこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olDragDropDisabled</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olDragDropDisabled</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -373,10 +349,8 @@
       <Parameters />
       <Docs>
         <summary>コンボ ボックスのドロップダウン部分を展開します。</summary>
-        <remarks>
-          <para>コントロール上のドロップ ボタンをクリックするユーザーをシミュレートします。このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" />イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ユーザーがコントロール上のドロップ ボタンをクリックする動作をシミュレートします。 このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" />イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -405,13 +379,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -440,12 +411,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olEnterFieldBehaviorSelectAll</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olEnterFieldBehaviorSelectAll</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -473,10 +442,8 @@
       <Docs>
         <summary>コントロール内のテキストのレンダリングに使用するフォントを表す <b>StdFont</b> を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>フォントは、Microsoft Windows の型の<b>上位</b>として表されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>フォントは、Microsoft Windows の型の<b>上位</b>として表されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -508,12 +475,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -540,13 +505,10 @@
       </Parameters>
       <Docs>
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックス コントロールの一覧で指定した位置に項目を取得します。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックス コントロールの一覧で指定した位置に項目を取得します。</summary>
         <returns>リスト内の指定位置にある項目を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</returns>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -575,12 +537,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -606,12 +566,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ボックス コントロール、コンボ ボックスの一覧で要素の数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>ボックス コントロール、コンボ ボックスの一覧で要素の数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、リストにアイテムがないことを示す、0 です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は 0 で、リストに要素がないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -640,13 +598,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Reurns またはセットをコンボ ボックスの一覧で現在選択されている要素の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を制御します。 値の取得および設定が可能です。</summary>
+        <summary>Reurns またはセットをコンボ ボックスの一覧で現在選択されている要素の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を制御します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ListIndex</b>は、リスト内の項目の配列のインデックス 0 から始まる値です。 既定値は、-1 で、項目が選択されていないことを示します。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ListIndex</b> は、リスト内の項目の配列のインデックス 0 から始まる値です。  既定値は、-1 で、項目が選択されていないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -675,11 +631,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para>コントロールがロックされている場合は、コントロールは「無効」の外観では、ありませんが、ユーザーがコントロールの内容を編集できません。 </para><para /></remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -708,12 +664,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>文字の最大数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />のこのコントロールです。  値の取得および設定が可能です。</summary>
+        <summary>文字の最大数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />のこのコントロールです。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、このコントロールの値の最大長が定義されていないことだけを意味する 0 です。最大の長さは、使用可能なメモリまたはその他の要因に基づいて場所の可能性があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は 0 で、コントロールに値の最大長が定義されていないことを示します。制限がないわけではなく、最大長は利用可能なメモリやその他の要因によって決定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -744,10 +698,8 @@
       <Docs>
         <summary>このコントロールのマウス カーソルのカスタム画像を表す <b>StdPicture</b> を設定または返します。読み取り/書き込み。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -776,12 +728,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -806,10 +756,9 @@
       <Parameters />
       <Docs>
         <summary>クリップボードの内容をコントロールに貼り付けます。</summary>
-        <remarks>
-          <para>でフォーマットされていないテキスト、クリップボードの内容が貼り付けられます</para>。
-          <para>このメソッドは何かを貼り付けられていませんと、コントロールの<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" />が<b>olComboBoxStyleListBox</b></para> 。
-          <para /></remarks>
+        <remarks><para>クリップボードの内容は、書式なしのテキストとして貼り付けられます。</para>
+          <para>このメソッドは何かを貼り付けられていませんと、コントロールの<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" />が<b>olComboBoxStyleListBox</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveItem">
@@ -837,10 +786,8 @@
       <Docs>
         <param name="Index">一覧内でのアイテムの配列に対するインデックスの値です。開始値は 0 です。</param>
         <summary>一覧から指定したアイテムを削除します。</summary>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -869,12 +816,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) テキストの左側に領域内をクリックして、ユーザーがテキストの行を選択できるかどうかを指定します。   値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) テキストの左側に領域内をクリックして、ユーザーがテキストの行を選択できるかどうかを指定します。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>の場合<b>は True</b>、マージンをクリックするとのテキストを選択します。 場合は<b>False</b>、このアクションは、任意のテキストは選択されません。既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>の場合 <b>は True</b> 、マージンをクリックするとのテキストを選択します。  場合は <b>False</b> 、このアクションは、任意のテキストは選択されません。 既定値は、 <b>false を指定</b> します。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -903,13 +848,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または現在の選択範囲の文字数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または現在の選択範囲の文字数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />です</para>。
-          <para>既定値は 0 で、テキストが選択されていないことを意味します</para>。
-          <para><b>SelLength</b>プロパティは、コントロールにフォーカスがあるないときでも有効ですが、常にします</para>。
-          <para>設定<b>SelLength</b>を 0 より小さい値にエラーが発生します。  <b>SelLength</b>を<b>maxlength プロパティ</b>を設定することで結果の<b>最大長</b>より大きい値を設定しようとしています。 </para><para /></remarks>
+        <remarks><para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</para>
+          <para>既定値は 0 で、現在テキストが選択されていないことを示します。</para>
+          <para>コントロールにフォーカスがあるないときでも、 <b>SelLength</b> プロパティは有効ですが、常にします。</para>
+          <para><b>SelLength</b> を 0 未満の原因のエラーが値に設定します。   <b>SelLength</b> を <b>maxlength プロパティ</b> を設定することで結果の <b>最大長</b> より大きい値を設定しようとしています。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -938,12 +883,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはテキストが選択されていない場合にいずれかの方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を選択したテキストの開始位置またはカーソル位置に設定します。    値の取得および設定が可能です。</summary>
+        <summary>取得またはテキストが選択されていない場合にいずれかの方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を選択したテキストの開始位置またはカーソル位置に設定します。    値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />です</para>。
-          <para>既定値は 0 で、テキストが選択されていないし、カーソル位置が先頭にあることを意味します</para>。
-          <para><b>SelStart</b>プロパティは、コントロールにフォーカスがあるないときでも有効ですが、常にします。 <b>SelStart</b>の値に設定すると、エラーが 0 未満の原因。 <b>SelStart</b>の<b>最大長</b>より大きい値に設定すると、 <b>SelStart</b>が<b>maxlength プロパティ</b>にリセットされます。 <b>SelStart</b>の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b>プロパティを 0 に設定します。</para><para /></remarks>
+        <remarks><para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</para>
+          <para>既定値は 0 で、テキストが選択されておらず、挿入位置が先頭にあることを示します。</para>
+          <para><b>SelStart</b> プロパティは、しますコントロールにフォーカスがあるないときでも常に有効ですが。  <b>SelStart</b> の値に設定すると、エラーが 0 未満の原因。  <b>SelStart</b> の <b>最大長</b> より大きい値に設定すると、 <b>SelStart</b> が <b>maxlength プロパティ</b> にリセットされます。  <b>SelStart</b> の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b> プロパティを 0 に設定します。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -969,14 +914,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックスの値の選択した部分を返します。    値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックスの値の選択した部分を返します。    読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Seltext プロパティ</b>のコントロールの一部は、現在の選択範囲を表す<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />です</para>。
-          <para>既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>Seltext プロパティ</b>は、一部のコントロールの現在の選択範囲を表す<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</para>
+          <para>既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -1006,10 +949,8 @@
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
         <param name="Item">一覧内の指定位置を更新するときに使用する値です。</param>
         <summary>コンボ ボックスの一覧内で指定した位置にあるアイテムを、指定した値に設定します。</summary>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -1038,12 +979,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlComboBoxStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" />ユーザーが選択したり、コントロールの値を設定する方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" />ユーザーが選択したり、コントロールの値を設定する方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olComboBoxStyleCombo</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olComboBoxStyleCombo</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1072,13 +1011,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>プロパティの既定値は、空の文字列です</para>。
-          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です</para>。
-          <para /></remarks>
+        <remarks><para><b>Text</b> プロパティの既定値は、空の文字列です。</para>
+          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1107,12 +1044,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -1141,12 +1076,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コンボ ボックスの一覧の表示部分の一番上にある項目のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コンボ ボックスの一覧の表示部分の一番上にある項目のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>一覧をスクロール、リストの上部にある項目を変更すると、リストの上部に表示されている項目を反映するようにこのプロパティの値が変更されます</para>。
-          <para>インデックスの値は 0 です。既定値は-1、特別な順序付けを設定しないことを示すします</para>。
-          <para /></remarks>
+        <remarks><para>一覧をスクロールすると先頭のアイテムは変わります。このプロパティの値も、一覧の先頭に現在表示されているアイテムに応じて変わります。</para>
+          <para>インデックスの開始値は 0 です。既定値は -1 で、特に順序を設定しないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1175,12 +1109,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールによって表示される一覧で選択した内容を表す<b>オブジェクト</b>を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールによって表示される一覧で選択した内容を表す<b>オブジェクト</b>を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。</para>
-          <para />
-        </remarks>
+        <remarks><para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

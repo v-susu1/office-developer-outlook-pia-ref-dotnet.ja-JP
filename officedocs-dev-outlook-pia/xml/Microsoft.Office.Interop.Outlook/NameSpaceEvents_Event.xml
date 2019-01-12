@@ -1,13 +1,5 @@
 <Type Name="NameSpaceEvents_Event" FullName="Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f045237185550e081b3a4867c8df470879b59be" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639092" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c005a7d21957144559d87eb958351e7789b49e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896864" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpaceEvents_Event" />
@@ -68,10 +60,9 @@
       </ReturnValue>
       <Docs>
         <summary>フォルダーの [プロパティ] ダイアログ ボックスが開かれるたびに発生します。</summary>
-        <remarks>
-          <para>フォルダーを右クリックし、プロパティを選択するフォルダーの [プロパティ] ダイアログ ボックスを開くことができます</para>。
-          <para>プログラムは、カスタム プロパティ ページを追加するには、このイベントを処理します。プロパティ ページは、指定したフォルダーのプロパティ] ダイアログ ボックスに適用されます。<b>PropertyPages</b>コレクション オブジェクトがで識別されるイベントが発生したとき<paramref name="Pages" />イベント ハンドラーが呼び出される前に追加されたプロパティ ページが含まれています。プロパティ ページをコレクションに追加するを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> 、イベント ハンドラーを終了する前に<b>PropertyPages</b>コレクションのメソッドです</para>。
-          <para /></remarks>
+        <remarks><para>フォルダーの [ プロパティ] ダイアログ ボックスを開くには、フォルダーを右クリックして [ プロパティ] をクリックします。</para>
+          <para>プログラムでは、カスタム プロパティ ページを追加するには、このイベントを処理します。 プロパティ ページは、指定したフォルダーの プロパティ] ダイアログ ボックスに適用されます。 <b>PropertyPages</b>コレクション オブジェクトがで識別されるイベントが発生したとき<paramref name="Pages" />イベント ハンドラーが呼び出される前に追加されたプロパティ ページが含まれています。 プロパティ ページをコレクションに追加するを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> 、イベント ハンドラーを終了する前に<b>PropertyPages</b>コレクションのメソッド。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

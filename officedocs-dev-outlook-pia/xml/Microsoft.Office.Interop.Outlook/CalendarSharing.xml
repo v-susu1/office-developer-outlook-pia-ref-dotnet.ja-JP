@@ -1,13 +1,5 @@
 <Type Name="CalendarSharing" FullName="Microsoft.Office.Interop.Outlook.CalendarSharing">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6027471b5e06809f023b16c35e56a905936e6b6d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638488" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CalendarSharing : Microsoft.Office.Interop.Outlook._CalendarSharing" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1f3f0d817f9013965f0326a6ab9e63c24f32ccb2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901901" /></Metadata><TypeSignature Language="C#" Value="public interface CalendarSharing : Microsoft.Office.Interop.Outlook._CalendarSharing" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarSharing implements class Microsoft.Office.Interop.Outlook._CalendarSharing" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />
   <TypeSignature Language="VB.NET" Value="Public Interface CalendarSharing&#xA;Implements _CalendarSharing" />
@@ -31,12 +23,12 @@
   </Attributes>
   <Docs>
     <summary>予定表の情報を共有するためのユーティリティの集合を表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />です</para>。使用することができます
-      <para>、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetCalendarExporter" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.Folder" /><b>エクスポート</b>オブジェクトを作成する予定表フォルダーを表すオブジェクト。<b>GetCalendarExporter</b>メソッドは、予定表フォルダーでのみ使用できます。その他の種類のフォルダーを表す<b>Folder</b>オブジェクトでメソッドを使用する場合にエラーが発生します</para>。
-      <para>を使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> iCalendar (.ics) ファイル、url でカレンダーを共有するために予定表の情報を保存または使用する方法、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />メソッドを作成する、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />のペイロードとして予定表を共有します</para>。
-      <para><b>注</b>: iCalendar 形式をエクスポートする<b>エクスポート</b>オブジェクトでのみサポートされます</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />。</para>
+      <para>使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetCalendarExporter" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.Folder" /><b>エクスポート</b>オブジェクトを作成する予定表フォルダーを表すオブジェクト。 <b>GetCalendarExporter</b> メソッドは、予定表フォルダーでのみ使用できます。 エラーは、他の種類のフォルダーを表す <b>Folder</b> オブジェクトでメソッドを使用する場合に発生します。</para>
+      <para>使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> 、iCalendar (.ics) ファイル、url でカレンダーを共有するために予定表の情報を保存または使用する方法、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />を作成する方法、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />ペイロードとして予定表を共有するため。</para>
+      <para>
+        <b>注</b>: iCalendar 形式をエクスポートする<b>エクスポート</b>オブジェクトでのみサポートされます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

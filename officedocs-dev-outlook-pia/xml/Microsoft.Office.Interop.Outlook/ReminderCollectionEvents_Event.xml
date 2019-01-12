@@ -1,13 +1,5 @@
 <Type Name="ReminderCollectionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f7e87f4a7c31c6fea7961afdea6e402f53ccb4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638736" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c046e68f17198ddfc2900cf348031dac0601e25f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898516" /></Metadata><TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>アラームが追加された後に発生します。</summary>
-        <remarks>
-          <para>アラームは、実際には、関連付けられた Outlook アイテムが保存されるまでは作成されません。したがって、関連付けられたアイテム オブジェクトが保存されるまで、このイベントは発生しません。</para>
-          <para />
-        </remarks>
+        <remarks><para>アラームは、関連付けられた Microsoft Outlook アイテムが保存されるまでは、実際に作成されるわけではありません。したがって、関連付けられたアイテム オブジェクトが保存されるまで、このイベントは発生しません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderChange">
@@ -128,17 +118,25 @@
       </ReturnValue>
       <Docs>
         <summary>発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />オブジェクトがコレクションから削除されました。</summary>
-        <remarks>
-          <para>アラームは、の次の方法で、 <b>Reminders</b>コレクションから削除できます:</para>
+        <remarks><para>アラームは、次の方法のいずれかが <b>アラーム</b> のコレクションから削除できます。</para>
           <list type="bullet">
             <item>
-              <para>、アラームのコレクションの Remove メソッドです</para>
-            </item>。
-            <item><para>オブジェクトのアラームのアラームを消す方法です</para></item>。
-            <item><para>ユーザーが、[アラームを消す] ボタンをクリックしたときです</para></item>。
-            <item><para>ユーザーが関連付けられたアイテムから会議のアラームをオフにします</para></item>。
-            <item><para>ユーザーがアラームを含むアイテムを削除するとします</para></item></list>。
-          <para /></remarks>
+              <para>Reminders コレクションの Remove メソッド。</para>
+            </item>
+            <item>
+              <para>Reminder オブジェクトの Dismiss メソッド。</para>
+            </item>
+            <item>
+              <para>ユーザーが [アラームを消す] をクリックしたとき。</para>
+            </item>
+            <item>
+              <para>ユーザーが関連付けられたアイテムから会議のアラームをオフにしたとき。</para>
+            </item>
+            <item>
+              <para>ユーザーがアラームを含むアイテムを削除したとき。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -157,10 +155,8 @@
       </ReturnValue>
       <Docs>
         <summary>[再通知] ボタンを使用してアラームが消されたときに発生します。</summary>
-        <remarks>
-          <para>このイベントが発生する場合、<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行される、またはユーザーが [再通知] をクリックしたとき。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントが発生する場合、<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行される、またはユーザーが [再通知] をクリックしたとき。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

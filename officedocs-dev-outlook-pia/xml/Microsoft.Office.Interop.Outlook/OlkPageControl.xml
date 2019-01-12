@@ -1,13 +1,5 @@
 <Type Name="OlkPageControl" FullName="Microsoft.Office.Interop.Outlook.OlkPageControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c9e83a3348fbeb5a4faf68fdf1fd955c45c1d4da" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639347" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkPageControl : Microsoft.Office.Interop.Outlook._OlkPageControl, Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="947acc3697e16f62d12e069d58a37837107a09a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900697" /></Metadata><TypeSignature Language="C#" Value="public interface OlkPageControl : Microsoft.Office.Interop.Outlook._OlkPageControl, Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkPageControl implements class Microsoft.Office.Interop.Outlook._OlkPageControl, class Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkPageControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkPageControl&#xA;Implements _OlkPageControl, OlkPageControlEvents_Event" />
@@ -34,12 +26,12 @@
   </Attributes>
   <Docs>
     <summary>ページの内容を表示するコントロール。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._OlkPageControl" />。</para>
-      <para>コントロール ツールボックスに Microsoft Outlook のページ コントロールを追加、フォーム デザイナーでは、最初にこのコントロールを使用する前にします。フォーム デザイナーを使用して Outlook フォームのフォーム領域にのみこのコントロールを追加できます。Visual Basic エディターの Visual Basic<b>ユーザー フォーム</b>オブジェクトには、このコントロールを追加できません。このコントロールは、Microsoft Windows テーマをサポートします。</para>
-      <para>現在このコントロールは 2 つの Outlook ページをサポートしています: 空き時間スケジュール設定ページと会議出席依頼の確認ページです。次は、実行時に空き時間のスケジュールを表示するページ コントロールの例です。</para>
-      <para>、次に、実行時にページを追跡する会議出席依頼を表示するページ コントロールの例です</para>。
-      <para>Outlook コントロールの詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87823">、カスタム フォームのコントロール</a>を参照してください。</para><para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._OlkPageControl" />。 </para>
+      <para>フォーム デザイナーで最初にこのコントロールを使用する前に Microsoft Outlook のページのコントロールをコントロール ツールボックスに追加します。 フォーム デザイナーを使用して Outlook フォームのフォーム領域にのみこのコントロールを追加できます。Visual Basic エディターの Visual Basic<b>ユーザー フォーム</b>オブジェクトには、このコントロールを追加できません。 このコントロールは Microsoft Windows テーマをサポートします。 </para>
+      <para>現在、このコントロールは、2 つの Outlook ページ (空き時間のスケジュール設定ページと会議出席依頼の追跡ページ) をサポートしています。実行時に空き時間のスケジュールを表示するページ コントロールの例を次に示します。</para>
+      <para>実行時に会議出席依頼の追跡ページを表示するページ コントロールの例を次に示します。</para>
+      <para>Outlook コントロールの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87823">ユーザー設定フォーム内のコントロール</a>を参照してください。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

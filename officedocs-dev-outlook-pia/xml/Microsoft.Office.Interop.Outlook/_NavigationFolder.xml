@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolder" FullName="Microsoft.Office.Interop.Outlook._NavigationFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639225" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897998" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolder" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,12 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返しますの<b>olNavigationFolder</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>返しますの<b>olNavigationFolder</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -112,13 +102,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますの表示名を表す、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますの表示名を表す、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>代わりに<b>NavigationFolder.DisplayName</b>を使用して<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />、共有フォルダーの名前を取得します。</para>
-          <para />
-        </remarks>
+        <remarks><para>代わりに<b>NavigationFolder.DisplayName</b>を使用して<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />、共有フォルダーの名前を取得します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -144,7 +131,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />のナビゲーション フォルダーに関連付けられている共有またはリンクされているフォルダーを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />のナビゲーション フォルダーに関連付けられている共有またはリンクされているフォルダーを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,12 +159,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>Boolean</b>値 (C# では<b>bool</b> ) を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />ナビゲーション ウィンドウからオブジェクトを削除することができます。 値の取得のみ可能です。</summary>
+        <summary>示す<b>Boolean</b>値 (C# では<b>bool</b> ) を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />ナビゲーション ウィンドウからオブジェクトを削除することができます。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>のみ共有フォルダーまたはリンク フォルダーをナビゲーション ウィンドウからプログラムを使用して削除できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>ナビゲーション ウィンドウからプログラムで削除できるのは、共有フォルダーまたはリンク フォルダーのみです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSelected">
@@ -206,13 +191,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すかを示す<b>ブール型</b>の変数 (C# では<b>bool</b> ) を設定するかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />表示のオブジェクトが選択されています。 値の取得および設定が可能です。</summary>
+        <summary>返すかを示す<b>ブール型</b>の変数 (C# では<b>bool</b> ) を設定するかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />表示のオブジェクトが選択されています。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ナビゲーション フォルダーが、[予定表] ナビゲーション モジュールに含まれる扱いが他のナビゲーション モジュールのナビゲーション フォルダーよりもします</para>。<b><para>、アクティブなエクスプ ローラーを使用する場合、日/週/月または日/週/月ビュー (プレビュー)] ビューで、[予定表] ナビゲーション モジュールのナビゲーション フォルダーを表示するのには、このプロパティは Trueを返しますのナビゲーション フォルダーがナビゲーション ウィンドウで、オンの場合 (およびしたがって、アクティブなエクスプ ローラーのサイド バイ サイドまたはオーバーレイ モードのいずれかが表示されます)。アクティブなエクスプ ローラーの表示からカレンダーを削除するこのプロパティを<b>False</b>に設定します。30 を超えるナビゲーション フォルダーでこのプロパティが<b>True</b>に設定するとエラーが発生します</para></b>。
-          <para>、アクティブなエクスプ ローラーでは、すべての予定] ビューなどの別のビューを使用して、予定表] ナビゲーション モジュールのナビゲーション フォルダーを表示する場合は、[予定表] ナビゲーション モジュール以外のナビゲーション モジュールでこのプロパティが True を返す場合、ナビゲーションフォルダーが選択され、アクティブなエクスプ ローラーに表示されています。それ以外の場合、このプロパティは False を返します。</para><para>場合は、親内のすべての<b>NavigationFolder</b>オブジェクトに対してこのプロパティの値が<b>False</b>に設定がいずれの場合も、エラーが発生した<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクション、 <b>NavigationFolder</b>オブジェクトが他のナビゲーション モジュールが含まれている場合またはナビゲーション モジュールがナビゲーション ウィンドウに現在表示されているとします</para>。
-          <para>、 <see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> 、親<b>NavigationFolders</b>コレクションのイベントは、[予定表] ナビゲーション モジュールの現在のビューに関係なくの<b>NavigationFolder</b>オブジェクトのこのプロパティの値が変更された場合</para>。
-          <para /></remarks>
+        <remarks><para>[ 予定表] ナビゲーション モジュールに含まれているナビゲーション フォルダーは、他のナビゲーション モジュールのナビゲーション フォルダーとは異なる方法で処理されます。</para>
+          <para>場合は、アクティブなエクスプ ローラーを使用して、日/週/月または日/週/月ビュー (プレビュー)] ビューで、[予定表] ナビゲーション モジュールのナビゲーション フォルダーを表示するのを返します<b>True</b>の場合は、ナビゲーション フォルダーがナビゲーション ウィンドウで、オンになって (とはしたがってサイド バイ サイドまたはオーバーレイ モードで、アクティブなエクスプ ローラーに表示します。)アクティブなエクスプ ローラーの表示からカレンダーを削除するこのプロパティを<b>False</b>に設定します。 30 を超えるナビゲーション フォルダーでこのプロパティが<b>True</b>に設定する場合、エラーが発生します。</para>
+          <para>アクティブなエクスプローラーが、[すべての予定] ビューなど別のビューを使用して、[予定表] ナビゲーション モジュール、または [予定表] ナビゲーション モジュール以外のナビゲーション モジュールのナビゲーション フォルダーを表示している場合、ナビゲーション フォルダーが選択され、アクティブなエクスプローラーに現在表示されていれば、このプロパティは True を返します。それ以外の場合、このプロパティは  False を返します。</para>
+          <para>親内のすべての<b>NavigationFolder</b>オブジェクトのこのプロパティの値が<b>False</b>に設定されて場合は、いずれの場合も、エラーが発生した<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクション、 <b>NavigationFolder</b>オブジェクトが以外のナビゲーション モジュールが含まれる場合や、ナビゲーション モジュールがナビゲーション ウィンドウに現在表示されています。</para>
+          <para><see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> 、親<b>NavigationFolders</b>コレクションのイベントは、[予定表] ナビゲーション モジュールの現在のビューに関係なくの<b>NavigationFolder</b>オブジェクトのこのプロパティの値が変更された場合。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSideBySide">
@@ -241,14 +227,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定を示す<b>Boolean</b>値 (C# では<b>bool</b> ) を設定するかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />サイド バイ サイドまたはオーバーレイ モードでオブジェクトが表示されます。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定を示す<b>Boolean</b>値 (C# では<b>bool</b> ) を設定するかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />サイド バイ サイドまたはオーバーレイ モードでオブジェクトが表示されます。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>NavigationFolder</b>をサイド バイ サイド モードで表示を<b>True</b>にこのプロパティを設定します。それ以外の場合、オーバーレイ モードを使用して、アクティブなエクスプ ローラーの現在のビューでのナビゲーション フォルダーを表示します。このプロパティの既定値は<b>True</b>です</para>。
-          <para>このプロパティを設定する影響を与えませんの予定表モジュールに関連付けられていない<b>NavigationFolder</b>オブジェクト。<b>NavigationFolder</b>オブジェクトが予定表モジュールに関連付けられている場合は、このプロパティの値は、次の条件に依存している:</para><para>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> 、 <b>NavigationFolder</b>オブジェクトのプロパティに<b>false を指定</b>し、この<b>IsSelected</b>プロパティが<b>True</b>に設定されるまでは、プロパティの値を指定しても効果はありません。<b>IsSelected</b>プロパティが<b>true を指定</b>するかどうかは、 <b>NavigationFolder</b>の表示時に、プロパティの値を適用します</para>。
-          <para>ただし、 <b>IsSideBySide</b>プロパティは自動的に設定を<b>True</b>にのみ 1 つの<b>NavigationFolder</b>の<b>IsSelected</b>プロパティが、親に関連付けられている場合は、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />オブジェクトが<b>True</b>に設定します。つまり、 <b>NavigationFolder</b>オブジェクトがアクティブなエクスプ ローラーの現在のビューに表示されるナビゲーション フォルダーだけの場合は、し、その 1 つの<b>NavigationFolder</b>オブジェクトの<b>IsSideBySide</b>プロパティは自動的に設定するには<b>True を指定</b>します</para>。
-          <para /></remarks>
+        <remarks><para><b>NavigationFolder</b> をサイド バイ サイド モードで表示を <b>True</b> にこのプロパティを設定します。それ以外の場合、オーバーレイ モードを使用して、アクティブなエクスプ ローラーの現在のビューでのナビゲーション フォルダーを表示します。このプロパティの既定値は、 <b>true を指定</b> します。</para>
+          <para>このプロパティを設定しても、[ <b>予定表</b>] モジュールに関連付けられていない NavigationFolder オブジェクトに対しての影響はありません。 <b>NavigationFolder</b> オブジェクトが 予定表モジュールに関連付けられている場合は、このプロパティの値は次の条件に依存します。</para>
+          <para>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> <b>NavigationFolder</b>オブジェクトのプロパティが<b>False</b>に設定し、このプロパティの値を持たない結果<b>IsSelected</b>プロパティが<b>True</b>に設定されるまでです。 <b>IsSelected</b> プロパティが <b>True</b> に設定されている場合は、 <b>NavigationFolder</b> の表示、プロパティの値は適用されます。</para>
+          <para>ただし、 <b>IsSideBySide</b>プロパティは自動的に設定を<b>True</b>にのみ 1 つの<b>NavigationFolder</b>の<b>IsSelected</b>プロパティが、親に関連付けられている場合は、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />オブジェクトが<b>True</b>に設定します。 つまり、 <b>NavigationFolder</b> オブジェクトがアクティブなエクスプ ローラーの現在のビューに表示されるナビゲーション フォルダーだけの場合は、し、その 1 つの <b>NavigationFolder</b> オブジェクトの <b>IsSideBySide</b> プロパティは自動的に設定を <b>True</b> にします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -305,14 +290,20 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>序数位置を表す<b>整数</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトのナビゲーション ウィンドウに表示するとします。 値の取得および設定が可能です。</summary>
+        <summary>序数位置を表す<b>整数</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />オブジェクトのナビゲーション ウィンドウに表示するとします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、値 1 と値の間にのみ設定できます、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> 、親の<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />オブジェクトです。範囲外の値にこのプロパティを設定しようとする場合にエラーが発生します</para>。
-          <para><b>NavigationFolder</b>オブジェクトが新しい値の間の相対的な変化に応じて、 <b>NavigationFolders</b>コレクションに含まれている他のナビゲーション フォルダーの<b>位置</b>の値を変更するには、このプロパティの値を変更して<b>NavigationFolder</b>オブジェクトの<b>Position</b>プロパティの元の値: </para><list type="bullet"><item><para>指定された<b>NavigationFolder</b>オブジェクトが新しい位置に移動し、プッシュし、新しい値が元の値より小さい場合、下の位置が新しい位置にその他のナビゲーション フォルダー</para></item> 。
-            <item><para>指定された<b>NavigationFolder</b>オブジェクトが新しい位置に移動すると、古い位置と新しい位置の間にあった他のナビゲーション フォルダーに新しい値が元の値より大きい場合は、古い位置を埋めます</para></item></list>。
-          <para>のナビゲーション フォルダーがナビゲーション ウィンドウから削除されたかどうかは、このプロパティは、ナビゲーション フォルダーがナビゲーション グループの一部ではないことを示す-1 を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、値 1 と値の間にのみ設定できます、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> 、親の<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />オブジェクトです。 このプロパティをこの範囲外の値に設定しようとすると、エラーが発生します。</para>
+          <para><b>NavigationFolder</b> オブジェクトが変更された新しい値とその <b>NavigationFolder</b> オブジェクトの <b>Position</b> プロパティの元の値との間の相対的な変化に応じて、 <b>NavigationFolders</b> コレクションに含まれている他のナビゲーション フォルダーの <b>位置</b> の値にこのプロパティの値を変更するには。 </para>
+          <list type="bullet">
+            <item>
+              <para>新しい値が元の値より小さい場合は、指定された <b>NavigationFolder</b> オブジェクトが新しい位置に移動し、他のナビゲーション フォルダーより下の位置が新しい位置にプッシュします。</para>
+            </item>
+            <item>
+              <para>新しい値が元の値より大きい場合は、指定された<b>NavigationFolder</b>オブジェクトは新しい位置に移動しての間にあった他のナビゲーション フォルダー、古い位置と新しい位置を古い位置を埋めます。</para>
+            </item>
+          </list>
+          <para>ナビゲーション フォルダーをナビゲーション ウィンドウから削除すると、このプロパティは -1 を返し、該当するナビゲーション フォルダーがナビゲーション グループの一員でなくなったことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -338,19 +329,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

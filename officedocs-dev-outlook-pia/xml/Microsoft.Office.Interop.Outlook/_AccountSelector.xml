@@ -1,13 +1,5 @@
 <Type Name="_AccountSelector" FullName="Microsoft.Office.Interop.Outlook._AccountSelector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637833" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AccountSelector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896745" /></Metadata><TypeSignature Language="C#" Value="public interface _AccountSelector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AccountSelector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AccountSelector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AccountSelector" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,11 +103,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AccountSelector</b>オブジェクトの親オブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>AccountSelector</b>オブジェクトの親オブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedAccount">
@@ -141,12 +130,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />を Microsoft Outlook で Microsoft Office Backstage ビューで選択したアカウントを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />を Microsoft Outlook で Microsoft Office Backstage ビューで選択したアカウントを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook のユーザー インターフェイスで、Backstage ビューの [情報] タブで明示的にアカウントを選択することができます。 または暗黙的にフォルダーの一覧でフォルダーを選択すると、勘定を選択することができます。Backstage ビューの特定のインスタンスで現在選択されているアカウントを表す<b>SelectedAccount</b><see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。暗黙的に選択されているアカウントを特定するには、<b>アカウント</b>のオブジェクトを識別する、<see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" />プロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> 、現在のフォルダーのプロパティ (で表されますが、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>エクスプ ローラー</b>オブジェクトのプロパティ).</para>
-          <para>セッションのプロファイルのアカウントが定義されていない場合は、このプロパティは<b>Null</b> (<b>Nothing</b>で Visual Basic) を返します; は、<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />は 0、現在のプロファイル内のすべてのアカウントを表すオブジェクト</para>。
-          <para /></remarks>
+        <remarks><para>Outlook のユーザー インターフェイスで、Backstage ビューの [情報] タブで明示的にアカウントを選択することができます。 または暗黙的にフォルダーの一覧でフォルダーを選択すると、勘定を選択することができます。 Backstage ビューの特定のインスタンスで現在選択されているアカウントを表す<b>SelectedAccount</b> <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。 暗黙的に選択されているアカウントを特定するには、<b>アカウント</b>のオブジェクトを識別する、<see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" />プロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> 、現在のフォルダーのプロパティ (で表されますが、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>エクスプ ローラー</b>オブジェクトのプロパティ)。</para>
+          <para>このプロパティを返します。 <b>Null</b> (Visual Basic では<b>何もしない</b>)、セッション内のアカウントが定義されていない場合のプロファイルです。<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />は 0、現在のプロファイル内のすべてのアカウントを表すオブジェクト。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -172,12 +160,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ログオン セッションが存在しない場合は、 <b>Null</b> (<b>Nothing</b>で Visual Basic) を返します</para>。
-          <para><b>セッション</b>のプロパティを使用することができ、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトを現在のセッションの<b>名前空間</b>のオブジェクトを取得するために同じ意味で</para>。
-          <para /></remarks>
+        <remarks><para>ログイン セッションがない場合は、<b>Null</b> (Visual Basic では <b>Nothing</b>) を返します。</para>
+          <para><b>セッション</b>のプロパティを使用することができ、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトを現在のセッションの<b>名前空間</b>のオブジェクトを取得するために同じ意味で。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

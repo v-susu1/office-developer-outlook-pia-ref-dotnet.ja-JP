@@ -1,13 +1,5 @@
 <Type Name="UserProperty" FullName="Microsoft.Office.Interop.Outlook.UserProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b01972ade23a15cfa40aaec742d199b4c5ab4d2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638691" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7fa9c65db165ff886aa519574a59d9d364a004cc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896759" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperty" />
@@ -27,11 +19,11 @@
   </Attributes>
   <Docs>
     <summary>Outlook アイテムのユーザー定義プロパティを表します。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を単一の<b>UserProperty</b>オブジェクトを取得する</para>。使用の
-      <para>、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />のアイテムの新しい<b>UserProperty</b>を作成しに追加する方法、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。<b>Add</b>メソッドを使用すると、新しいプロパティの型と名前を指定します</para>。
-      <para><b>注</b>: (プロパティと同じ名前を使用して) 項目を含むフォルダーに、フィールドを追加するカスタム プロパティを作成するとします。フォルダー ビュー内の列としてフィールドを使用することができます</para>。
-      <para /></remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を単一の<b>UserProperty</b>オブジェクトを取得します。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />のアイテムの新しい<b>UserProperty</b>を作成しに追加するにはメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。 <b>Add</b> メソッドを使用すると、新しいプロパティの型と名前を指定できます。</para>
+      <para>
+        <b>注</b>: (プロパティと同じ名前を使用して) 項目を含むフォルダーに、フィールドを追加するカスタム プロパティを作成するとします。 このフィールドは、プロパティと同じ名前になり、フォルダーのビューで列として使用できます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,8 +133,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー プロパティの式を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー プロパティの式を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -201,7 +192,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,19 +248,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -295,7 +283,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,13 +314,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー定義プロパティの検証式を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー定義プロパティの検証式を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>検証式のために使用されますを確認するのには、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />プロパティがアイテムを保存するとき。</para>
-          <para />
-        </remarks>
+        <remarks><para>検証式のために使用されますを確認するのには、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />プロパティがアイテムを保存するとき。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationText">
@@ -361,13 +346,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または指定したユーザー定義プロパティの検証テキストを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または指定したユーザー定義プロパティの検証テキストを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>検証テキストは、ユーザーが受信する場合、エラー メッセージ、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />で指定された条件を満たしていない<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>検証テキストは、ユーザーが受信する場合、エラー メッセージ、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />で指定された条件を満たしていない<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -396,11 +378,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したカスタム プロパティの値を示す<b>オブジェクト</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>指定したカスタム プロパティの値を示す<b>オブジェクト</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>によって作成されたプロパティを最初に設定するのには、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドでは、代わりに<b>Value</b>プロパティを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです</para>。
-          <para>Outlook では、プロパティへのアクセスの詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</para><para /></remarks>
+        <remarks><para>最初にによって作成されたプロパティを設定するのには、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドでは、代わりに<b>Value</b>プロパティを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクト。</para>
+          <para>Outlook のプロパティにアクセスする方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

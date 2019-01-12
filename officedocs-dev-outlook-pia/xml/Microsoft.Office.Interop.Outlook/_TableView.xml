@@ -1,13 +1,5 @@
 <Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637903" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897193" /></Metadata><TypeSignature Language="C#" Value="public interface _TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
@@ -56,12 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>セル内編集を許可するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>セル内編集を許可するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>True の</b>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>True の</b>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlwaysExpandConversation">
@@ -90,13 +80,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>会話がテーブル ビューに常に完全に展開されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>会話がテーブル ビューに常に完全に展開されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AlwaysExpandConversation</b>プロパティは、[会話] メニューの [Microsoft Office Fluent リボンの [表示] タブの配置のグループの会話を常に展開を選択することに似ています</para>。
-          <para><b>場合は true</b>を示すグループがテーブル ビューで、デフォルトでは完全に展開されて、その会話スレッド グループが部分的にのみ展開されている<b>場合は false</b>を示します</para>。
-          <para /></remarks>
+        <remarks><para><b>AlwaysExpandConversation</b>プロパティは、[会話] メニューの [Microsoft Office Fluent リボンの [表示] タブの配置のグループの会話を常に展開を選択することに似ています。</para>
+          <para>グループがテーブル ビューで、デフォルトでは完全に展開されて、その会話を 
+            <b>true</b> を指定します。 <b>False</b> では、グループが部分的にしか展開されている会話を示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -122,7 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -175,7 +164,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,13 +195,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定かどうかの列、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、Outlook によって自動的に縮小します。 値の取得および設定が可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定かどうかの列、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、Outlook によって自動的に縮小します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>False</b>にこのプロパティが設定されている場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>False</b>にこのプロパティが設定されている場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutomaticGrouping">
@@ -241,13 +227,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>自動グループ化でアクティブになっているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>自動グループ化でアクティブになっているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True</b>にこのプロパティが設定されている場合 Outlook のユーザー インターフェイスで指定された配置に従ってビュー内のアイテムが自動的にグループ化します。内容に従ってビューの項目をグループ化する場合は<b>このプロパティが</b>、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>True</b> にこのプロパティが設定されている場合 Outlook のユーザー インターフェイスで指定された配置に従ってビュー内のアイテムが自動的にグループ化します。 内容に従ってビューの項目をグループ化する場合は<b>このプロパティが</b>、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoPreview">
@@ -276,7 +259,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoPreview</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />の項目が自動的にプレビュー表示方法を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />の項目が自動的にプレビュー表示方法を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,7 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の項目を自動的に Outlook のプレビューに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の項目を自動的に Outlook のプレビューに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -332,7 +315,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,7 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の列ヘッダーを表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の列ヘッダーを表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -421,7 +404,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />のグループの既定の展開の設定を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />のグループの既定の展開の設定を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,12 +460,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値は、DAV Searching and Locating (DASL) 構文の文字列で、ビューの現在のフィルターを表します。 ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -508,15 +489,14 @@
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />に含まれる Outlook アイテムのすべてを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</summary>
         <returns>行が現在のテーブル ビュー内のアイテムを表す<b>Table</b>オブジェクトを返します。</returns>
-        <remarks>
+        <remarks><para><b>TableView</b> オブジェクトの <b>GetTable</b> メソッドは、同じストアまたは集約的なビューで、複数のストアにまたがる 1 つまたは複数のフォルダーからアイテムのテーブルを返します。 などの総合的なビュー クイック検索を使用してすべてのメール アイテムの間での検索を取得します。 この動作は、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトで、同じフォルダーから項目を格納するテーブル オブジェクトを取得します。</para>
+          <para><b>TableView</b>オブジェクトの親オブジェクトする必要がありますに基づいて、アクティブなエクスプ ローラーの現在のフォルダーによって示される、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />作業中の<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。 フォルダーが現在のフォルダー、エクスプ ローラーが表示されているのではない場合、または場合によって示されますが、そのフォルダーの表示、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティは、表形式ビューではありません、Outlook はエラーを返します。</para>
+          <para>作成されるテーブルのフィルターが設定されて、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> 、 <b>TableView</b>オブジェクトのプロパティです。 <b>TableView</b> オブジェクトの <b>Filter</b> プロパティが空でない場合、 <b>GetTable</b> は、ビューで使用できるアイテムのフィルター処理されたサブセットを表す行を持つ <b>テーブル</b> オブジェクトを返します。 場合は後で、<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />メソッドは結果の表に、<b>制限</b>を適用するメソッドは、論理 AND 演算で表されるフィルターを使用して<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />。</para>
           <para>
-            <b>TableView</b>オブジェクトの<b>GetTable</b>メソッドは、同じストアまたは集約的なビューで、複数のストアにまたがる 1 つまたは複数のフォルダーからアイテムのテーブルを返します。などの総合的なビュー クイック検索を使用してすべてのメール アイテムの間での検索を取得します。この動作は、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトで、同じフォルダーから項目を格納するテーブル オブジェクトを取得します</para>。
-          <para>親<b>TableView</b>オブジェクトする必要がありますに基づいて、アクティブなエクスプ ローラーの現在のフォルダーによって示される、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />作業中の<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。フォルダーが現在のフォルダー、エクスプ ローラーが表示されているのではない場合、または場合によって示されますが、そのフォルダーの表示、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティは、表形式ビューではありません、Outlook はエラーを返します</para>。
-          <para>で作成されるテーブルのフィルターが設定されて、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> 、 <b>TableView</b>オブジェクトのプロパティです。<b>TableView</b>オブジェクトの<b>Filter</b>プロパティが空でない場合、 <b>GetTable</b>は、ビューで使用できるアイテムのフィルター処理されたサブセットを表す行を持つ<b>テーブル</b>オブジェクトを返します。場合はその後、<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />で作成されるテーブルは、メソッドが呼び出される、<b>制限</b>を適用するメソッドは、論理 AND 演算で表されるフィルターを使用して<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />です</para>。
-          <para><b>GetTable</b>は、既定の列セットを持つ<b>テーブル</b>を返します。<b>GetTable</b>が内の各フィールドの列を含む<b>テーブル</b>を返さない、 <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> 、現在のビューのコレクションです。フォルダーの種類を基に、テーブルの既定の列セットの詳細については、Table オブジェクトに表示される既定のプロパティを参照してください。既定の列セットを変更するのにを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクション オブジェクトです。プロパティが Table オブジェクトまたは Table フィルターでサポートされていないプロパティに指定された列とテーブルに追加することはできません</para>。<b>GetTable</b>の基になっている現在のビュー内の項目の順序と同じにするのには、
-          <para>結果のテーブル内の行の順序は保証はありません。たとえば、 <b>GetTable</b>はビュー内のグループ化ヘッダーを表す行を持つテーブルを返しません。<b>GetTable</b>から返されるテーブル内の行を並べ替えるを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /><b>Table</b>オブジェクトのメソッドです</para>。
-          <para><b>GetTable</b>から返される<b>Table</b>オブジェクトの親オブジェクトは、 <b>TableView</b>オブジェクトです。<b>TableView</b>オブジェクトの親オブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> 、コレクションと<b>Views</b>コレクションの親オブジェクトは、 <b>Folder</b>オブジェクトです</para>。
-          <para /></remarks>
+            <b>GetTable</b> は、既定の列セットを持つ <b>テーブル</b> を返します。 <b>GetTable</b>が内の各フィールドの列を含む<b>テーブル</b>を返さない、 <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> 、現在のビューのコレクションです。 フォルダーの種類を基に、テーブルの既定の列セットの詳細については、Table オブジェクトに表示される既定のプロパティを参照してください。 既定の列セットを変更するのにを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクション オブジェクトです。 プロパティは Table オブジェクトまたは Table フィルターでサポートされていないプロパティに指定された列とテーブルに追加することはできません。</para>
+          <para>結果テーブルの行の順序は、 <b>GetTable</b> の基になっている現在のビュー内の項目の順序と同じにするのには限りません。 たとえば、 <b>GetTable</b> はビュー内のグループ化ヘッダーを表す行を持つテーブルを返しません。 <b>GetTable</b>から返されるテーブル内の行を並べ替えるを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> <b>Table</b>オブジェクトのメソッドです。</para>
+          <para><b>GetTable</b> から返される <b>Table</b> オブジェクトの親オブジェクトは、 <b>TableView</b> オブジェクトです。 <b>TableView</b>オブジェクトの親オブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> 、コレクションと<b>Views</b>コレクションの親オブジェクトは、 <b>Folder</b>オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -573,7 +553,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlGridLineStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />のグリッド線を使用する線のスタイルを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />のグリッド線を使用する線のスタイルを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -601,7 +581,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトがグループ化されます。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトがグループ化されます。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -632,7 +612,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>閲覧ウィンドウで、Outlook アイテムのヘッダーを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>閲覧ウィンドウで、Outlook アイテムのヘッダーを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -663,13 +643,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
-          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>[<b>言語</b>] プロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。 たとえば、文字列"EN-US"は「米国 - 英語」の ISO コードを表します</para>
+          <para>有効な言語コードが指定されている場合は、指定された言語の [ 表示] メニューでのみオブジェクトを使用できます。値が指定されていない場合は、すべての言語でオブジェクト アイテムを使用できます。このプロパティの既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -698,12 +676,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>かどうか<b>は True</b>ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>かどうか <b>は True</b> ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは <b>False</b> (既定値)、変更が保存されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLinesInMultiLineView">
@@ -732,12 +708,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>複数行モードで表示される行の最大数を決定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>複数行モードで表示される行の最大数を決定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>2 ~ 20 の値にこのプロパティを設定できます。2 より小さい値にこのプロパティが設定されている場合は、プロパティが 2 に設定されます。場合はこのプロパティを 20 より大きい値に設定すると、プロパティは 20 に設定します。このプロパティの既定値は、2 です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは 2 ～ 20 の値に設定できます。このプロパティに 2 未満の値を指定した場合、プロパティは 2 に設定されます。このプロパティに 20 より大きい値を指定した場合、プロパティは 20 に設定されます。このプロパティの既定値は 2 です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -766,12 +740,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiLine</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />に複数の明細行が表示されますを決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />に複数の明細行が表示されますを決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />プロパティが<b>False</b>に設定されて場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定されて、このプロパティの値が自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />プロパティが<b>False</b>に設定されて場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定されて、このプロパティの値が自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineWidth">
@@ -800,12 +772,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>テキストの幅 (文字) に複数行モードをトリガーするために必要なを表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>テキストの幅 (文字) に複数行モードをトリガーするために必要なを表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>1 から 999 までの値にこのプロパティを設定できます。このプロパティは、1 より小さい値に設定されている場合は、プロパティが 1 に設定されます。このプロパティが 999 を超える値に設定されている場合、プロパティは、999 に設定されます。このプロパティの既定値は 100 です</para>。
-          <para>このプロパティのみが適用される場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが<b>olWidthMultiLine</b>に設定します。このプロパティの値は、 <b>TableView</b>オブジェクトが複数行モードで Outlook アイテムのテキストを表示する位置を決定します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティには 1 から 999 までの範囲内の値を設定できます。1 未満の値に設定すると、このプロパティは 1 に設定されます。999 を超える値を設定すると 999 に設定されます。このプロパティの既定値は 100 です。</para>
+          <para>このプロパティは、場合にのみ適用されます、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが<b>olWidthMultiLine</b>に設定されています。 このプロパティの値は、 <b>TableView</b> オブジェクトが複数行モードで Outlook アイテムのテキストを表示する位置を決定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -834,7 +805,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -889,10 +860,8 @@
       <Parameters />
       <Docs>
         <summary>組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</summary>
-        <remarks>
-          <para>このメソッドは、組み込みの Outlook ビューでのみ機能します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドは、組み込みの Outlook ビューに対してのみ適用されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowFont">
@@ -918,7 +887,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の行を表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の行を表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -971,13 +940,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1003,19 +969,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationByDate">
@@ -1044,14 +1007,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、受信した日時と一番上に最新の項目では、垂直方向に左詰めされ、順序付けられたに会話内の項目かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、受信した日時と一番上に最新の項目では、垂直方向に左詰めされ、順序付けられたに会話内の項目かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>テーブル ビューが対話形式で整理されていない場合、 <b>ShowConversationByDate</b>プロパティを設定する再編成はしませんビュー内の任意の項目です。[会話のグループ、Microsoft Office Fluent リボンの [表示] タブで、対話形式でアイテムを表示するのには会話として表示を確認します</para>。
-          <para>会話の項目を左揃えし、順に、受信した日付と時刻、一番上に最新の項目を垂直方向に<b>true を指定</b>する<b>ShowConversationByDate</b>プロパティを設定します。テーマ別ビューでは、この組織は、リボンの [会話] グループで [会話の設定] メニューのクラシック インデント表示の使用] 設定をクリアすることと同じです</para>。
-          <para>会話の項目のインデントを設定し、受信した日付と時刻を一番上に最も古いアイテムを注文して、 <b>ShowConversationByDate</b>プロパティを<b>False</b>に設定します。会話の各スレッドのルートは、それぞれ左インデントされてから、そのスレッドに属する項目の後に最初に表示されます。テーマ別ビューでは、この組織は、リボンの [会話] グループで [会話の設定] メニューで、クラシックのインデントの表示を使用して設定を選択します</para>。呼び出し、 <b>ShowConversationByDate</b>プロパティに変更を適用するのには
-          <para>、<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />メソッドです。会話は、テーマ別ビューで折りたたまれたときに表示されます。会話を展開する場合が表示されます、会話内の項目の再編成し、 <b>ShowConversationByDate</b>プロパティを設定する方法が表示されます</para>。
-          <para /><para /></remarks>
+        <remarks><para>テーブル ビューがスレッドで編成されていない場合、 <b>ShowConversationByDate</b> プロパティを設定しても、ビュー内のアイテムは再編成されません。 [会話のグループ、Microsoft Office Fluent リボンの [表示] タブで、対話形式でアイテムを表示するには、会話として表示を確認します。</para>
+          <para><b>ShowConversationByDate</b> プロパティを <b>True</b> に設定すると、スレッド アイテムが縦に左揃えになり、受信日時順 (最新のアイテムが一番上) に並べられます。スレッド ビューのこの構成は、リボンの [ スレッド] グループの [ スレッドの設定] メニューの [ クラシック ビューを使用する] 設定を解除した場合の構成と同じです。</para>
+          <para><b>ShowConversationByDate</b>プロパティを<b>False</b>に設定する会話の項目のインデントを設定し、順にして、受信した日付と時刻を一番上に最も古い項目。 一番上に各スレッドのルートが表示され、その下にそのスレッドに属するアイテムが最も古いアイテムから順に左揃えになります。 このスレッド ビューの構成は、リボンの [ スレッド] グループの [ スレッドの設定] メニューの [ クラシック ビューを使用する] 設定を選択した場合の構成と同じです。</para>
+          <para><b>ShowConversationByDate</b>プロパティに変更を適用するには、呼び出し、<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />メソッドです。 すると、スレッド ビューにスレッドが折りたたまれた状態で表示されます。 スレッドを展開すると、 <b>ShowConversationByDate</b> プロパティで設定したようにスレッド内のアイテムが表示されます。</para>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationSendersAboveSubject">
@@ -1080,13 +1043,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはテーブル ビューでは、会話ヘッダー、またはその下に、参加している送信者、件名の行の上が表示されるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはテーブル ビューでは、会話ヘッダー、またはその下に、参加している送信者、件名の行の上が表示されるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True</b>は、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の上を表示を示します。<b>False の場合、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の下を表示します。</b></para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>True</b> は、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の上を表示を示します。 <b>False の場合、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の下を表示します。</b></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFullConversations">
@@ -1115,15 +1076,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、テーブルのビューでの会話の一部として、送信済みアイテム フォルダーなど、他のフォルダーから会話の項目を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、テーブルのビューでの会話の一部として、送信済みアイテム フォルダーなど、他のフォルダーから会話の項目を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para><b>ShowFullConversations</b> プロパティは、現在のテーブル ビューは、日付との会話でアイテムを表示する場合にのみ反映されます。</para>
           <para>
-            <b>ShowFullConversations</b>プロパティを現在のテーブル ビューは、日付との会話でアイテムを表示する場合にのみ反映されます</para>。
-          <para>が
-            <b>true</b>では、同じ会話の項目は、表形式のビューでの会話の一部として既定で表示されますを示します。テーブル ビューに現在のフォルダー内のアイテムは会話のみが表示される<b>場合は false</b>を示します</para>。
-          <para>、 <b>ShowFullConversations</b>プロパティは、Microsoft Office Fluent リボンの [表示] タブの配置のグループの [会話] メニューの [その他のフォルダーからメッセージを表示するを選択することに似ています</para>。
-          <para /></remarks>
+            <b>True</b> は、テーブル ビューでの会話の一部として、同じ会話の項目が既定で表示されることを示します。 <b>False の場合、テーブル ビューに現在のフォルダー内のアイテムは会話のみが表示されます。</b></para>
+          <para><b>ShowFullConversations</b>プロパティは、Microsoft Office Fluent リボンの [表示] タブの配置のグループの [会話] メニューの [その他のフォルダーからメッセージを表示するを選択することに似ています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemsInGroups">
@@ -1152,7 +1111,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>グループ内の Outlook アイテムを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>グループ内の Outlook アイテムを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1183,12 +1142,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>新しい項目の行が表示されるかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>新しい項目の行が表示されるかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>場合にのみ、このプロパティの値が適用される、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合にのみ、このプロパティの値が適用される、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowReadingPane">
@@ -1217,7 +1174,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>閲覧ウィンドウを表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>閲覧ウィンドウを表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1282,7 +1239,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトの順序がします。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトの順序がします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1310,13 +1267,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、組み込みの Outlook ビューです。 値の取得のみ可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、組み込みの Outlook ビューです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1342,7 +1296,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />でどの outlook アイテムが表示されているフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />でどの outlook アイテムが表示されているフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1370,7 +1324,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1401,11 +1355,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。ビューを作成するにはをビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの<b>XML</b>プロパティを取得することができますしをときにを XML の構造方法を決定するには、
-          <para>です。 </para><para /></remarks>
+        <remarks><para>XML 定義は、ビュー自体のさまざまなプロパティに対応する一連のタグおよびキーワードを使用して、ビューの種類を記述します。ビューを作成すると、XML 定義が構文解析され、新しいビューの設定がレンダリングされます。</para>
+          <para>ビューを作成するときの XML の構築方法を決定するには、Outlook ユーザー インターフェイスを使用してビューを作成することができ、そのビューの <b>XML</b> プロパティを取得することができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

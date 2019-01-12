@@ -1,13 +1,5 @@
 <Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638500" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901845" /></Metadata><TypeSignature Language="C#" Value="public interface _TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,15 +73,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタイム ゾーンのローカルと世界協定時刻 (UTC) との間の分の差を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>このタイム ゾーンのローカルと世界協定時刻 (UTC) との間の分の差を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Windows レジストリには、そのタイム ゾーンに関する、TZI この値を値の一部として格納ができます。TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされた</para>
+        <remarks><para>この値は、Windows レジストリには、そのタイム ゾーンの tzi 値の一部として格納は。 TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
           <para>
-            <b>バイアス</b>が考慮されない任意の時刻のオフセット、タイム ゾーンの標準時と夏時間の。夏時間のタイム オフセットを考慮するには<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />です。一般に、ローカル タイム ゾーンが夏時間を採用して、UTC 時刻はローカル時間に<b>Bias</b>と<b>DaylightBias</b>を加算した結果をします。標準時間オフセットを考慮するには<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />です。一般に、ローカル タイム ゾーンは、標準時を採用することは、UTC 時刻はローカル時間に<b>Bias</b>と<b>StandardBias</b>を加算した結果をします。</para>
-          <para>、太平洋タイム ゾーンで夏時間を採用することの状態で<b>バイアス</b>480 分、 <b>DaylightBias</b> ~ 60 分です。PST の 6 月 11 日の utc 時刻を確認するには、追加<b>Bias</b>の (480/60) 時間と<b>DaylightBias</b> 60/60 時間を現地時間 6 月 11 日午前 2 時Utc 時刻は、6 月 11 日午前 9 時</para>
-          <para />
-        </remarks>
+            <b>バイアス</b> 考慮されていないアカウントのタイム オフセット、タイム ゾーンの標準時と夏時間の。 夏時間のタイム オフセットを考慮するには<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />です。 一般に、ローカル タイム ゾーンが夏時間を採用して、UTC 時刻はローカル時間に <b>Bias</b> と <b>DaylightBias</b> を加算した結果をします。 標準時間オフセットを考慮するには<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />です。 一般に、ローカル タイム ゾーンは、標準時を採用することは、UTC 時刻はローカル時間に<b>Bias</b>と<b>StandardBias</b>を加算した結果をします。 </para>
+          <para>たとえば、太平洋タイム ゾーンで夏時間を採用することの状態で <b>バイアス</b> 480 分、 <b>DaylightBias</b> ~ 60 分です。 6 月 11 日午前 2 時の utc 時刻を確認するには PST を追加<b>Bias</b>の (480/60) 時間と<b>DaylightBias</b> 60/60 時間を現地時間 6 月 11 日午前 2 時 Utc 時刻は、6 月 11 日午前 9 時です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -115,7 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを表す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを表す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,13 +133,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>時間オフセット (分単位) を表す<b>整数値</b>(C# では<b>int</b> ) 値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />このタイム ゾーンの夏時間を考慮します。 値の取得のみ可能です。</summary>
+        <summary>時間オフセット (分単位) を表す<b>整数値</b>(C# では<b>int</b> ) 値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />このタイム ゾーンの夏時間を考慮します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Windows レジストリには、そのタイム ゾーンに関する、TZI この値を値の一部として格納ができます。TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます</para>
-          <para>UTC 時刻はローカル時間に<b>Bias</b>と<b>DaylightBias</b>を加算した結果、UTC 時刻とタイム ゾーンの現地時刻に関連しています。たとえば、太平洋タイム ゾーンで夏時間を採用することの状態で<b>バイアス</b>480 分、 <b>DaylightBias</b> ~ 60 分です。PST の 6 月 11 日の utc 時刻を確認するには、追加<b>Bias</b>の (480/60) 時間と<b>DaylightBias</b> 60/60 時間を現地時間 6 月 11 日午前 2 時Utc 時刻は、6 月 11 日午前 9 時</para>
-          <para />
-        </remarks>
+        <remarks><para>この値は、Windows レジストリには、そのタイム ゾーンの tzi値の一部として格納は。 TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
+          <para>UTC 時刻とタイム ゾーンの現地時刻に関連して UTC 時刻は、ローカル時間に <b>Bias</b> と <b>DaylightBias</b> を加算した結果です。 たとえば、太平洋タイム ゾーンで夏時間を採用することの状態で <b>バイアス</b> 480 分、 <b>DaylightBias</b> ~ 60 分です。 6 月 11 日午前 2 時の utc 時刻を確認するには PST を追加<b>Bias</b>の (480/60) 時間と<b>DaylightBias</b> 60/60 時間を現地時間 6 月 11 日午前 2 時 Utc 時刻は、6 月 11 日午前 9 時です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDate">
@@ -175,12 +163,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>経由で現在の年の夏時間の時間が変更されたときに、このタイム ゾーンの時刻と日付を表す<b>DateTime</b>値を返します。 値の取得のみ可能です。</summary>
+        <summary>経由で現在の年の夏時間の時間が変更されたときに、このタイム ゾーンの時刻と日付を表す<b>DateTime</b>値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>この値は、Windows レジストリ内のタイム ゾーンに関する、TZI 値の一部として格納されます。TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>この値は、Windows レジストリ内のタイム ゾーンに関する、 TZI値の一部として格納されます。 TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDesignation">
@@ -206,13 +192,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) 夏時間のタイム ゾーンを識別するを返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) 夏時間のタイム ゾーンを識別するを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、レジストリ内のタイム ゾーンの Dlt 値として格納されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、レジストリの該当するタイム ゾーンの、 Dlt 値として格納されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -238,13 +221,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>)、タイム ゾーンを一意に識別するを返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>)、タイム ゾーンを一意に識別するを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>タイム ゾーンの<b>ID</b>は、グローバルにそのタイム ゾーンに対して同じです。 それは、タイム ゾーン情報を格納する Windows レジストリ キーの名前です。異なり、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" />プロパティでは、 <b>ID</b>の値はローカライズされていません。</para>
-          <para />
-        </remarks>
+        <remarks><para>タイム ゾーンの<b>ID</b>は、グローバルにそのタイム ゾーンに対して同じです。  それは、タイム ゾーン情報を格納する Windows レジストリ キーの名前です。 異なり、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" />プロパティでは、 <b>ID</b>の値はローカライズされていません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -270,13 +250,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表すタイム ゾーンの識別子を返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表すタイム ゾーンの識別子を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>通常、<b>名前</b>には、世界協定時刻 (UTC) では、正式なタイム ゾーンの名前、およびタイム ゾーンが使用されている地域からのオフセット値が含まれています。タイム ゾーンのレジストリ キーの表示値として格納されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>通常、<b>名前</b>には、世界協定時刻 (UTC) では、正式なタイム ゾーンの名前、およびタイム ゾーンが使用されている地域からのオフセット値が含まれています。 タイム ゾーンのレジストリ キーの表示値として格納されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -330,19 +307,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardBias">
@@ -368,13 +342,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>時間オフセット (分単位) を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />では、このタイム ゾーンの標準時を考慮します。 値の取得のみ可能です。</summary>
+        <summary>時間オフセット (分単位) を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します、<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />では、このタイム ゾーンの標準時を考慮します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Windows レジストリ内のタイム ゾーンに関する、TZI この値を値の一部として格納ができます。TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます</para>
-          <para>UTC 時刻はローカル時間に<b>Bias</b>と<b>StandardBias</b>を加算した結果、UTC 時刻とタイム ゾーンの現地時刻に関連しています。たとえば、太平洋標準時ゾーンでは標準時を採用することの状態で<b>バイアス</b>480 分、 <b>StandardBias</b> 0 分。PST の 6 月 11 日の utc 時刻を確認するには、追加<b>Bias</b>の (480/60) 時間と<b>StandardBias</b> 0 時間のローカル時間を 6 月 11 日午前 2 時Utc 時刻は、6 月 11 日午前 10 時</para>
-          <para />
-        </remarks>
+        <remarks><para>この値は、Windows レジストリ内のタイム ゾーンの tzi 値の一部として格納は。 TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
+          <para>UTC 時刻とタイム ゾーンの現地時刻に関連して UTC 時刻は、ローカル時間に <b>Bias</b> と <b>StandardBias</b> を加算した結果です。 たとえば、太平洋標準時ゾーンでは標準時を採用することの状態で <b>バイアス</b> 480 分、 <b>StandardBias</b> 0 分。 6 月 11 日午前 2 時の utc 時刻を確認するには PST を追加<b>Bias</b>の (480/60) 時間と<b>StandardBias</b> 0 時間のローカル時間を 6 月 11 日午前 2 時 Utc 時刻は、6 月 11 日午前 10 時です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDate">
@@ -400,12 +372,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>時間の標準時に変化すると、このタイム ゾーンの時刻と日付を表す<b>DateTime</b>値を返します。 値の取得のみ可能です。</summary>
+        <summary>時間の標準時に変化すると、このタイム ゾーンの時刻と日付を表す<b>DateTime</b>値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>この値は、Windows レジストリ内のタイム ゾーンに関する、TZI 値の一部として格納されます。TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>この値は、Windows レジストリ内のタイム ゾーンに関する、 TZI値の一部として格納されます。 TZI 値は Windows の<a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>にマップされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDesignation">
@@ -431,13 +401,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を識別する標準時のタイム ゾーンを取得します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を識別する標準時のタイム ゾーンを取得します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、レジストリ内のタイム ゾーンの Std 値として格納されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、レジストリの該当するタイム ゾーンの、Std 値として格納されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

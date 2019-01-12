@@ -1,13 +1,5 @@
 <Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638531" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47943f3ce7b614b555767c32ad8d514efe3bf2b1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899986" /></Metadata><TypeSignature Language="C#" Value="public interface Exception" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
@@ -27,11 +19,12 @@
   </Attributes>
   <Docs>
     <summary>1 つのインスタンスに関する情報を表します、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />は、一連の定期的な例外オブジェクトです。</summary>
-    <remarks>
-      <para>他の Microsoft Outlook のオブジェクトのほとんどとは異なり、<b>例外</b>オブジェクトは、読み取り専用オブジェクトです。つまり、<b>例外</b>オブジェクトを作成することはできませんが、 <b>AppointmentItem</b>のプロパティが変更されたときにオブジェクトを作成する代わりに、します。変更する場合など、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /><b>AppointmentItem</b>の 1 つのプロパティは、作成した<b>例外</b><b>AppointmentItem.RecurrencePattern.Exceptions</b>にします</para>。
-      <para><b>注</b>:<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />上のオブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> 、 <b>AppointmentItem</b>オブジェクト自体ではありません</para>。定期的な予定アイテムを操作するときに
-      <para>、前にすべてを解放する必要がありますアクセスまたは、アイテムを変更してが終了し、保存すると、すぐにこれらの参照を解放する前に、参照が定期的な予定アイテムに新しい参照を取得します変更します。この実習は、定期的に適用されます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、および<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。Visual Basic で参照を解放するには、その既存のオブジェクトを<b>Nothing</b>に設定します。C# で明示的にそのオブジェクトのメモリを解放します。</para><para>、参照を解放しても別のアドインまたは Outlook で、上のオブジェクトのいずれかに保持されている、アクティブな参照がある場合、新しい参照を取得しようとした後も、新しい参照がまだポイントの最新のコピーに注意しますオブジェクトです。したがって、ことが定期的な予定が終了するとすぐに参照を解放することが重要です</para>。
-      <para /></remarks>
+    <remarks><para> 他の Microsoft Outlook のオブジェクトのほとんどとは異なり、<b>例外</b>オブジェクトは、読み取り専用オブジェクトです。 つまり、<b>例外</b>オブジェクトを作成することはできませんが、 <b>AppointmentItem</b>のプロパティが変更されたときにオブジェクトを作成する代わりに、します。 変更する場合など、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> <b>AppointmentItem</b>の 1 つのプロパティは、作成した<b>例外</b> <b>AppointmentItem.RecurrencePattern.Exceptions</b>にします。</para>
+      <para>
+        <b>注</b>:<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />上のオブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> 、 <b>AppointmentItem</b>オブジェクト自体ではありません。</para>
+      <para>定期的な予定アイテムの作業を行うときは、以前の参照を解放し、定期的な予定アイテムへの新しい参照を取得してからアイテムにアクセスしたりアイテムを変更したりした後、作業が終了して変更を保存したら直ちに参照を解放する必要があります。 この実習は、定期的に適用されます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、および<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。 Visual Basic で参照を解放するには、既存のオブジェクトを <b>Nothing</b> に設定します。 C# では、そのオブジェクトのメモリを明示的に解放します。 </para>
+      <para>参照を解放してから新しい参照を取得しようとしても、前記のいずれかのオブジェクトに対して、別のアドインまたは Outlook が保持するアクティブな参照がまだある場合、新しい参照はオブジェクトの古いコピーをまだ指していることに注意してください。したがって、定期的な予定の作業が終了したら速やかに参照を解放することが重要です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,8 +80,9 @@
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />は、例外オブジェクトです。 削除された予定に対しては無効です。 値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>定期的な予定アイテムを操作するときに<para>、前にすべてを解放する必要がありますアクセスまたは、アイテムを変更してが終了し、保存すると、すぐにこれらの参照を解放する前に、参照が定期的な予定アイテムに新しい参照を取得します変更します。この実習は、定期的に適用されます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、および<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。Visual Basic で参照を解放するには、その既存のオブジェクトを<b>Nothing</b>に設定します。C# で明示的にそのオブジェクトのメモリを解放します。</para><para>、参照を解放しても別のアドインまたは Outlook で、上のオブジェクトのいずれかに保持されている、アクティブな参照がある場合、新しい参照を取得しようとした後も、新しい参照がまだポイント オブジェクトの最新のコピーに注意.したがって、ことが定期的な予定が終了するとすぐに参照を解放することが重要です</para>。
-          <para /></remarks>
+        <remarks><para>定期的な予定アイテムの作業を行うときは、以前の参照を解放し、定期的な予定アイテムへの新しい参照を取得してからアイテムにアクセスしたりアイテムを変更したりした後、作業が終了して変更を保存したら直ちに参照を解放する必要があります。 この実習は、定期的に適用されます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、および<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。 Visual Basic で参照を解放するには、既存のオブジェクトを <b>Nothing</b> に設定します。 C# では、そのオブジェクトのメモリを明示的に解放します。 </para>
+          <para>参照を解放してから新しい参照を取得しようとしても、前記のいずれかのオブジェクトに対して、別のアドインまたは Outlook が保持するアクティブな参照がまだある場合、新しい参照はオブジェクトの古いコピーをまだ指していることに注意してください。したがって、定期的な予定の作業が終了したら速やかに参照を解放することが重要です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -114,7 +108,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,8 +136,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 場合は<b>True</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 、定期的なパターンから削除されました。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 場合は<b>True</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 、定期的なパターンから削除されました。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,19 +251,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

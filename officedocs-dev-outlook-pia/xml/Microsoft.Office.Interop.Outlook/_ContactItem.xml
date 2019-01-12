@@ -1,13 +1,5 @@
 <Type Name="_ContactItem" FullName="Microsoft.Office.Interop.Outlook._ContactItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f2c44daf638b39436b23bc1e53afb53a7577330" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637962" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ContactItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f2c44daf638b39436b23bc1e53afb53a7577330" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896584" /></Metadata><TypeSignature Language="C#" Value="public interface _ContactItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ContactItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ContactItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ContactItem" />
@@ -56,8 +48,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または連絡先のアカウントを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または連絡先のアカウントを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,10 +106,8 @@
       <Docs>
         <param name="Path">読み込む画像ファイルの完全パス。</param>
         <summary>連絡先アイテムの、現在の電子名刺に、ロゴ画像を追加します。</summary>
-        <remarks>
-          <para>電子名刺しか持つことが 1 つのロゴの図は、既存のロゴ画像が置き換えられます。 など、標準のグラフィック形式をサポートします。BMP をします。GIF、います。JPG とします。PNG です。</para>
-          <para />
-        </remarks>
+        <remarks><para>電子名刺にはロゴ画像を 1 つしか置けないので、既にロゴ画像があれば置き換えられます。  .BMP, .GIF, .JPG, .PNG など標準的な形式の画像が使用できます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddPicture">
@@ -146,10 +135,9 @@
       <Docs>
         <param name="Path">連絡先アイテムに追加する画像の絶対パスとファイル名を含む文字列です。</param>
         <summary>連絡先アイテムに画像を追加します。</summary>
-        <remarks>
-          <para>連絡先アイテムが既に接続して画像を使用して、このメソッドは既存の画像を上書きします</para>。
-          <para>画像は、アイコン、GIF、JPEG、BMP、TIFF、WMF、EMF、または PNG ファイルにできます。Microsoft Outlook の必要な画像のサイズを変更が自動的に実行します</para>。
-          <para /></remarks>
+        <remarks><para> 連絡先アイテムに既に画像が追加されている場合は、このメソッドによって既存の画像が上書きされます。</para>
+          <para>使用できる画像は、アイコン、GIF、JPEG、BMP、TIFF、WMF、EMF、PNG の各ファイルです。Microsoft Outlook では、必要に応じて画像のサイズ変更が自動的に実行されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Anniversary">
@@ -206,7 +194,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -237,8 +225,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の秘書をされている人物の名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の秘書をされている人物の名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -269,8 +256,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の秘書の担当者の電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の秘書の担当者の電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -298,7 +284,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,13 +312,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値が<b>False</b>の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。別のアイテムと競合していない項目がある可能性があります</para>。
-          <para>の項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。その一方で、項目が競合している<b>が必要</b>プロパティは<b>False</b>として場合、は、競合の自動解決で優先されなかったデータ</para>。
-          <para /></remarks>
+        <remarks><para>値が <b>False</b> の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。アイテムは、別のアイテムと競合していない可能性があります。</para>
+          <para>項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。 その一方で、アイテムが競合している <b>が必要</b> プロパティは <b>False</b> として、自動競合が解決で優先されなかったデータです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -361,13 +345,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは、自由形式のテキスト フィールドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Birthday">
@@ -396,7 +377,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>連絡先の誕生日を示す<b>日付時刻</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>連絡先の誕生日を示す<b>日付時刻</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -427,8 +408,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -459,8 +439,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の 2 番目の会社の電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の 2 番目の会社の電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -491,8 +470,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所、解析されず、全体を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所、解析されず、全体を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -523,13 +501,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の住所の市町村部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の住所の市町村部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessAddressCountry">
@@ -558,13 +533,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の国/地域コードの部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の国/地域コードの部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessAddressPostalCode">
@@ -593,13 +565,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の住所の郵便番号 (zip コード) の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の住所の郵便番号 (zip コード) の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessAddressPostOfficeBox">
@@ -628,13 +597,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の私書箱部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の私書箱部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessAddressState">
@@ -663,13 +629,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の都道府県部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の都道府県部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessAddressStreet">
@@ -698,13 +661,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の番地部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先住所の番地部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが、それ以降の変更も<b>かまいません</b>が上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.BusinessAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが、それ以降の変更も <b>かまいません</b> が上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessCardLayoutXml">
@@ -733,12 +693,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す電子名刺のレイアウトの XML マークアップを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す電子名刺のレイアウトの XML マークアップを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>詳細については、XML スキーマに電子名刺は、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>詳細については、XML スキーマに電子名刺は、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessCardType">
@@ -764,12 +722,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBusinessCardType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusinessCardType" />の電子名刺の連絡先で使用される型を指定する定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusinessCardType" />の電子名刺の連絡先で使用される型を指定する定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>電子名刺には、Microsoft Office InterConnect 形式または Outlook 形式のいずれかができます。InterConnect 形式の電子名刺は、Outlook オブジェクト モデルを通じて変更できません。</para>
-          <para />
-        </remarks>
+        <remarks><para>電子名刺は、Microsoft Office InterConnect 形式または Microsoft Office Outlook 形式となります。 InterConnect 形式の電子名刺は、Outlook オブジェクト モデルを通じて変更できません。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessFaxNumber">
@@ -798,8 +754,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の fax 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の fax 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -830,8 +785,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先の Web ページの URL を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の勤務先の Web ページの URL を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -862,8 +816,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の最初の会社の電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の最初の会社の電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -894,8 +847,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のコールバック電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のコールバック電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -926,8 +878,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自動車電話の番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自動車電話の番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -958,14 +909,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>カテゴリ</b>は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数<b>Split</b>を使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>カテゴリ</b> は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。 このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。 カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数 <b>Split</b> を使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Children">
@@ -994,8 +942,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の子供の名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の子供の名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1023,7 +970,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1050,10 +997,8 @@
       <Parameters />
       <Docs>
         <summary>クリア、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトに仕事です。</summary>
-        <remarks>
-          <para>このメソッドを呼び出し、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティを<b>False</b>にします。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドを呼び出し、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティを<b>False</b>にします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -1110,13 +1055,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは、自由形式のテキスト フィールドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyAndFullName">
@@ -1142,8 +1084,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、会社名と連絡先の完全名を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、会社名と連絡先の完全名を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1171,13 +1112,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 姓と名の間、姓、名、およびネーム スペースがないので後に、連絡先の会社名を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 姓と名の間、姓、名、およびネーム スペースがないので後に、連絡先の会社名を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyLastFirstSpaceOnly">
@@ -1203,13 +1141,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します最後、第 1、およびミドル ネームの間で姓、名、ミドル ネームの後に連絡先の会社名を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します最後、第 1、およびミドル ネームの間で姓、名、ミドル ネームの後に連絡先の会社名を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。プロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) が関連付けられているときにこのプロパティの値が入力のみアジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 プロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) が関連付けられているときにこのプロパティの値が入力のみアジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyMainTelephoneNumber">
@@ -1238,8 +1173,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の主要な電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社の主要な電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1270,8 +1204,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の会社名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1302,8 +1235,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のコンピューター ネットワークの名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のコンピューター ネットワークの名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1331,7 +1263,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。  値の取得のみ可能です。</summary>
+        <summary>返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1359,13 +1291,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトに属しています。 値の取得のみ可能です。</summary>
+        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトに属しています。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティでは、会話に項目を関連付けます。これらの項目との会話をすべての<b>ConversationID</b>プロパティに同じ値がある</para>。
-          <para>このプロパティは、MAPI プロパティの<b>PidTagConversationId</b>に対応します</para>。
-          <para><b>ContactItem</b>オブジェクトが Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、または Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server をオンライン モードで Outlook が実行されている場合このプロパティと同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ConversationTopic" />プロパティ</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、アイテムを会話に関連付けます。これらのアイテムと、会話の <b>ConversationID</b> プロパティで同じ値であります。</para>
+          <para>このプロパティが MAPI プロパティ <b>PidTagConversationId</b> に対応しています。</para>
+          <para><b>ContactItem</b>オブジェクトが Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、またはに対してこのプロパティの Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server のオンライン モードで Outlook が実行されている場合同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ConversationTopic" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -1391,8 +1322,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1420,8 +1350,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1475,12 +1404,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagCreationTime</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagCreationTime</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomerID">
@@ -1509,8 +1436,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の顧客 ID を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の顧客 ID を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1537,10 +1463,9 @@
       <Parameters />
       <Docs>
         <summary>アイテムを含むフォルダーからアイテムを削除します。</summary>
-        <remarks>
-          <para>
-            <b>Delete</b>メソッドは、コレクション内の 1 つの項目を削除します。すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作の項目を削除します</para>。
-          <para>は、削除メソッドは、親フォルダーからアイテムを削除済みアイテム フォルダーに移動します。<b>Delete</b>メソッドが項目を完全に削除され、含まれているフォルダーが削除済みアイテム フォルダーの場合は、.</para><para /></remarks>
+        <remarks><para><b>Delete</b> メソッドは、コレクション内の単一のアイテムを削除します。 すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。 などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作でアイテムを削除します。</para>
+          <para>Delete メソッドは、アイテムをそのフォルダーから [ 削除済みアイテム] フォルダーに移動します。アイテムを含むフォルダーが [ 削除済みアイテム] フォルダーである場合は、 <b>Delete</b> メソッドは、アイテムを完全に削除します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Department">
@@ -1569,8 +1494,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の部署名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の部署名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1597,13 +1521,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
+        <param name="Modal"><b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
         <summary>新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</summary>
-        <remarks>
-          <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
-          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
-          <para /></remarks>
+        <remarks><para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。 エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</para>
+          <para>Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -1629,7 +1551,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。 値の取得のみ可能です。</summary>
+        <summary>属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1660,8 +1582,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、最初の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、最初の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1692,13 +1613,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の最初の電子メール アドレスの。  値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の最初の電子メール アドレスの。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは自由形式のテキスト フィールドには、ですが、既存の電子メール トランスポートの実際の型を一致する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。既存の電子メール アドレス タイプと完全に一致させる必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email1DisplayName">
@@ -1727,13 +1645,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返す最初の電子メール アドレスの連絡先の表示名を表します。  値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返す最初の電子メール アドレスの連絡先の表示名を表します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email1EntryID">
@@ -1759,8 +1674,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、最初の電子メール アドレス、連絡先のエントリ ID を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、最初の電子メール アドレス、連絡先のエントリ ID を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1791,8 +1705,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、2 番目の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、2 番目の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1823,13 +1736,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の 2 番目の電子メール アドレスの。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の 2 番目の電子メール アドレスの。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは自由形式のテキスト フィールドには、ですが、既存の電子メール トランスポートの実際の型を一致する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。既存の電子メール アドレス タイプと完全に一致させる必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email2DisplayName">
@@ -1858,13 +1768,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、2 番目の電子メール アドレスの連絡先の表示名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、2 番目の電子メール アドレスの連絡先の表示名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email2EntryID">
@@ -1890,8 +1797,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、2 番目の電子メール アドレスの連絡先のエントリ ID を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、2 番目の電子メール アドレスの連絡先のエントリ ID を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1922,8 +1828,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、3 番目の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、3 番目の電子メール アドレスの連絡先の電子メール アドレスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1954,13 +1859,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の 3 番目の電子メール アドレスの。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアドレスの種類を表す (電子メールまたは SMTP) の連絡先の 3 番目の電子メール アドレスの。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは自由形式のテキスト フィールドには、ですが、既存の電子メール トランスポートの実際の型を一致する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。既存の電子メール アドレス タイプと完全に一致させる必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email3DisplayName">
@@ -1989,13 +1891,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 連絡先の 3 番目の電子メール アドレスの名前を表します。  値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 連絡先の 3 番目の電子メール アドレスの名前を表します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値を<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />既定のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Email3EntryID">
@@ -2021,8 +1920,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) が返されます、3 番目の電子メール アドレスの連絡先のエントリ ID を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) が返されます、3 番目の電子メール アドレスの連絡先のエントリ ID を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2050,12 +1948,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagEntryId</b>に対応します</para>。
-          <para>MAPI ストア プロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b>プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b>プロパティが一意になるアイテムが移動しない限りに依存する必要があります。<b>EntryID</b>プロパティは MAPI 長期エントリ ID を返します。詳細についての時間の長いのおよび short 的なエントリ Id、 http://msdn.microsoft.com <b>PidTagEntryId</b>のです。</para><para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの PR_CREATION_TIME に対応しています。 <b>PidTagEntryId</b></para>
+          <para>MAPI ストアのプロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b> プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、 受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b> プロパティが一意になるアイテムが移動しない限りに依存する必要があります。 <b>EntryID</b> プロパティは MAPI 長期エントリ ID を返します。詳細情報に関する長期的および short 的な entryid を代入、http://msdn.microsoft.com の <b>PidTagEntryId</b> を検索してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileAs">
@@ -2084,7 +1981,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>保存時の連絡先に割り当てられているキーワードの既定の文字列を示す<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>保存時の連絡先に割り当てられているキーワードの既定の文字列を示す<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2115,13 +2012,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の名を表しています。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の名を表しています。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリを<b>かまいません</b>のそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリを <b>かまいません</b> のそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormDescription">
@@ -2147,7 +2041,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2175,14 +2069,28 @@
       <Docs>
         <summary>新しい<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />連絡先情報と、必要に応じて、電子名刺 (EBC) イメージが含まれているオブジェクトに基づいて、指定された<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。</summary>
         <returns>電子名刺の情報を含む新しい電子メール アイテムを表す <b>MailItem</b> オブジェクト。</returns>
-        <remarks>
-          <para>このメソッドは、 <b>ContactItem</b>オブジェクトに格納されている情報に基づいて新しい Outlook メール アイテムを作成します。Outlook メール アイテムに含まれる情報の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> 、 <b>MailItem</b>オブジェクトのプロパティ:</para>vCard (.vcf) ファイルを作成する
-          <list type="table"><item><description>プロパティの値</description>の
-              <description>結果</description></item><item><description>olFormatPlain</description><description>とMailItem オブジェクトの Attachments コレクションに追加します</description></item>。
-            <item><description>olFormatRichText</description><description>vCard ファイルが作成され、MailItem オブジェクトの Attachments コレクションに追加します</description></item>。
-            <item><description>olFormatHTML</description><description>電子名刺の画像が生成され、MailItem オブジェクトの Body プロパティに含まれているし、vCard ファイルが作成され、MailItem オブジェクトの Attachments コレクションに追加します</description></item></list>。
-          <para><b>注</b>: 添付された vCard ファイルに含まれるで、電子名刺、 <b>ContactItem</b>オブジェクトに関連付けられている連絡先の情報のみが含まれています。電子名刺が表示されていない任意の連絡先情報が vCard ファイルから除外します</para>。
-          <para /></remarks>
+        <remarks><para>このメソッドは、 <b>ContactItem</b> オブジェクトに格納されている情報に基づいて新しい Outlook メール アイテムを作成します。 Outlook メール アイテムに含まれる情報の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> 、 <b>MailItem</b>オブジェクトのプロパティ。</para>
+          <list type="table">
+            <item>
+              <description>プロパティ値</description>
+              <description>結果</description>
+            </item>
+            <item>
+              <description>olFormatPlain</description>
+              <description>vCard (.vcf) ファイルが作成され、 MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+            <item>
+              <description>olFormatRichText</description>
+              <description>vCard ファイルが作成され、 MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+            <item>
+              <description>olFormatHTML</description>
+              <description>電子名刺のイメージが生成されて MailItem オブジェクトの Body プロパティに追加され、さらに vCard ファイルが作成されて MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+          </list>
+          <para>
+            <b>注</b>: 添付された vCard ファイルに含まれるで、電子名刺、 <b>ContactItem</b>オブジェクトに関連付けられている連絡先の情報のみが含まれています。 電子名刺が表示されていない連絡先情報が vCard ファイルから除外されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForwardAsVcard">
@@ -2208,10 +2116,8 @@
       <Docs>
         <summary>作成、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />し、vCard 形式で連絡先情報を添付します。</summary>
         <returns>連絡先の情報が関連付けられている新しい電子メール アイテムを表す <b>MailItem</b> オブジェクト。</returns>
-        <remarks>
-          <para>vCard は、作成および仮想ビジネス カードを共有するためのインターネット標準です。</para>
-          <para />
-        </remarks>
+        <remarks><para>vCard は、仮想的な名刺を作成して共有するためのインターネット標準です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FTPSite">
@@ -2240,8 +2146,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の FTP サイト エントリを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の FTP サイト エントリを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2272,13 +2177,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の氏名全体を区切らずにそのままを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の氏名全体を区切らずにそのままを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの構文解析に、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />のプロパティを変更または入力方法が独立しているが正しく解析されない場合があります。以降の変更でも<b>かまいません</b>が、変更や<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b>、または<b>プロパティ</b>へのエントリが上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの構文解析に、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />のプロパティを変更または入力方法が独立しているが正しく解析されない場合があります。 以降の変更でも <b>かまいません</b> が、変更や <b>姓</b> 、 <b>姓</b> 、 <b>ミドル ネーム</b> 、または <b>プロパティ</b> へのエントリが上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FullNameAndCompany">
@@ -2304,8 +2206,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すの値を連結することにより、完全な名前と連絡先の会社を表す、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />のプロパティ。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すの値を連結することにより、完全な名前と連絡先の会社を表す、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />のプロパティ。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2336,7 +2237,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlGender</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlGender" /> 、取引先担当者の性別を示します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlGender" /> 、取引先担当者の性別を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2364,17 +2265,23 @@
       <Docs>
         <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</summary>
         <returns>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。次のシナリオ内の項目の会話がありません:</para>
+        <remarks><para>
+            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。 次のシナリオ内の項目の会話は存在しません。</para>
           <list type="bullet">
             <item>
-              <para>アイテムが保存されていません。自動保存、ユーザーの操作によって、項目をプログラムでは、保存できます</para>
-            </item>。
-            <item><para>(たとえば、メール アイテム、予定アイテムや連絡先アイテム) の送信可能なアイテム、アイテムが送信されていません</para></item>。
-            <item><para>の会話は、Windows レジストリを使用して無効になっています</para></item>。
-            <item><para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです</para></item></list>。
-          <para /></remarks>
+              <para>アイテムが保存されていません。 アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</para>
+            </item>
+            <item>
+              <para>送信可能なアイテム (メール アイテム、予定アイテム、連絡先アイテムなど) が送信されていない。</para>
+            </item>
+            <item>
+              <para>Windows レジストリによって、スレッドが無効になっている。</para>
+            </item>
+            <item>
+              <para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。 使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -2400,12 +2307,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。アイテムの<b>Inspector</b>オブジェクトが既に存在する場合、 <b>GetInspector</b>プロパティは新規に作成するのではなく場合は、その<b>Inspector</b>オブジェクトを返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。 アイテムの <b>Inspector</b> オブジェクトが既に存在する場合、 <b>GetInspector</b> プロパティは新規に作成するのではなく場合は、その <b>Inspector</b> オブジェクトを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GovernmentIDNumber">
@@ -2434,8 +2339,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の ID 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の ID 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2463,7 +2367,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>連絡先アイテムに関連付けられている画像がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>連絡先アイテムに関連付けられている画像がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2494,8 +2398,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の趣味を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の趣味を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2526,8 +2429,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、2 つ目の自宅電話番号、連絡先を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、2 つ目の自宅電話番号、連絡先を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2558,8 +2460,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所のテキストが解析されず、完全を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所のテキストが解析されず、完全を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2590,13 +2491,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の市町村部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の市町村部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeAddressCountry">
@@ -2625,13 +2523,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の国/地域の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の国/地域の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeAddressPostalCode">
@@ -2660,13 +2555,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の郵便番号部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の郵便番号部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeAddressPostOfficeBox">
@@ -2695,12 +2587,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または連絡先の自宅の住所の私書箱部分<b>文字列</b>(C# では<b>文字列</b>) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または連絡先の自宅の住所の私書箱部分<b>文字列</b>(C# では<b>文字列</b>) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeAddressState">
@@ -2729,13 +2619,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の都道府県部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の都道府県部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeAddressStreet">
@@ -2764,13 +2651,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の番地の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の住所の番地の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.HomeAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HomeFaxNumber">
@@ -2799,8 +2683,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の fax 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の自宅の fax 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2831,8 +2714,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の最初の自宅の電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の最初の自宅の電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2863,12 +2745,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すメンバーの Microsoft インスタント ・ メッセンジャーのアドレスを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すメンバーの Microsoft インスタント ・ メッセンジャーのアドレスを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>異なり、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Recipients" />または<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.To" />のプロパティ、 <b>IMAddress</b>プロパティに有効なアドレスが含まれていることを確認する方法はありません。</para>
-          <para />
-        </remarks>
+        <remarks><para>異なり、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Recipients" />または<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.To" />のプロパティ、 <b>IMAddress</b>プロパティに有効なアドレスが含まれていることを確認する方法はありません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -2897,12 +2777,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagImportance</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagImportance</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Initials">
@@ -2931,8 +2809,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または連絡先のイニシャルを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または連絡先のイニシャルを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2963,12 +2840,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>連絡先の [詳細] タブで [アドレス] ボックスに対応する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary>連絡先の [詳細] タブで [アドレス] ボックスに対応する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>[詳細] タブで [アドレス] ボックスには、空き時間情報を vCard 形式でユーザーの空き時間情報の URL の場所を含めることができます。</para>
-          <para />
-        </remarks>
+        <remarks><para>[ 詳細] タブの [ アドレス] ボックスには、ユーザーの空き時間情報が vCard 形式で保存されている場所の URL を指定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -2994,13 +2869,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b>プロパティは<b>True</b>を返します</para>。
-          <para>かどうか<b>は True</b>、指定した項目が競合している</para>。
-          <para /></remarks>
+        <remarks><para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b> プロパティは <b>True</b> を返します。</para>
+          <para>場合 <b>は True</b> 、指定した項目が競合します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ISDNNumber">
@@ -3029,8 +2902,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の ISDN 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の ISDN 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3058,7 +2930,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />タスクとしてマークされます。 値の取得のみ可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />タスクとしてマークされます。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3086,13 +2958,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>名前</b>またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>名前</b> またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="JobTitle">
@@ -3121,8 +2990,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の役職を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の役職を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3153,13 +3021,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定する場合は、連絡先のトランザクションが仕訳入力</b>を返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定する場合は、連絡先のトランザクションが仕訳入力</b>を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -3188,12 +3053,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す連絡先がメッセージを書き込む先の言語を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す連絡先がメッセージを書き込む先の言語を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagLanguage</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagLanguage</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstAndSuffix">
@@ -3219,13 +3082,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します最後の名、名、ミドル ネーム、および連絡先の敬称を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します最後の名、名、ミドル ネーム、および連絡先の敬称を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>姓と名とすべての名とサフィックスの間のスペースの間にコンマがあります。このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />のプロパティ。解析された<b>姓</b><b>姓</b>、および<b>敬称</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。プロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) が関連付けられているときにこのプロパティの値が入力のみアジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>姓と名とすべての名とサフィックスの間のスペースの間にコンマがあります。 このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />のプロパティ。 解析された<b>姓</b><b>姓</b>、および<b>敬称</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 プロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) が関連付けられているときにこのプロパティの値が入力のみアジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstNoSpace">
@@ -3251,13 +3111,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得し、姓、名、姓と名の間にスペースを連絡先のミドル ネームを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得し、姓、名、姓と名の間にスペースを連絡先のミドル ネームを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティ。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティ。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstNoSpaceAndSuffix">
@@ -3283,13 +3140,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を含む、姓、名、およびスペースを含まないユーザーのサフィックスを取得します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を含む、姓、名、およびスペースを含まないユーザーのサフィックスを取得します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが使用される場合にのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />プロパティ (このプロパティを定義するフィールド) にアジア言語の (DBCS) 文字が含まれています。このような変更または<b>サフィックス</b><b>[氏名]</b>、または<b>[部署名]</b>プロパティにエントリがかまいませんかそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが使用される場合にのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Suffix" />プロパティ (このプロパティを定義するフィールド) にアジア言語の (DBCS) 文字が含まれています。 このような変更または <b>サフィックス</b> <b>[氏名]</b> 、または <b>[部署名]</b> プロパティにエントリがかまいませんかそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstNoSpaceCompany">
@@ -3315,13 +3169,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得し、姓、名、姓と名の間にスペースを連絡先のミドル ネームを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得し、姓、名、姓と名の間にスペースを連絡先のミドル ネームを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>連絡先の会社名は、ミドル ネームの後ろが含まれています。このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>連絡先の会社名は、ミドル ネームの後ろが含まれています。 このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstSpaceOnly">
@@ -3347,13 +3198,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 姓、名、およびそれらの間のスペースを含む連絡先のミドル ネームを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 姓、名、およびそれらの間のスペースを含む連絡先のミドル ネームを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティ。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para> このプロパティを解析してから、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティ。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastFirstSpaceOnlyCompany">
@@ -3379,13 +3227,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 姓、名、およびそれらの間のスペースを含む連絡先のミドル ネームを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 姓、名、およびそれらの間のスペースを含む連絡先のミドル ネームを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>連絡先の会社名は、ミドル ネームの後ろが含まれています。このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b><b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
-          <para />
-        </remarks>
+        <remarks><para>連絡先の会社名は、ミドル ネームの後ろが含まれています。 このプロパティを解析、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />のプロパティです。 解析すると、<b>姓</b><b>姓</b>、および<b>ミドル ネーム</b>のプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。 場合のみこのプロパティの値で入力されて、関連付けられているプロパティ (<b>姓</b>、<b>姓</b>、<b>ミドル ネーム</b> <b>[得意先名]</b>、および<b>サフィックス</b>) には、アジア言語の (DBCS) 文字が含まれています。 対応するフィールドにアジア言語の文字が含まれていない場合、プロパティは空になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -3411,12 +3256,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagLastModificationTime</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagLastModificationTime</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastName">
@@ -3445,13 +3288,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の姓を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の姓を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリを<b>かまいません</b>のそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリを <b>かまいません</b> のそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastNameAndFirstName">
@@ -3477,13 +3317,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す、連結した姓、名、連絡先の姓を返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す、連結した姓、名、連絡先の姓を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />からは、連絡先のプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" />からは、連絡先のプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -3543,13 +3380,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所が解析されず、完全を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所が解析されず、完全を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressCity">
@@ -3578,13 +3412,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の市町村部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の市町村部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressCountry">
@@ -3613,13 +3444,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の国/地域コードの部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の国/地域コードの部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressPostalCode">
@@ -3648,13 +3476,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の郵便番号 (zip コード) の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の郵便番号 (zip コード) の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressPostOfficeBox">
@@ -3683,13 +3508,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の私書箱部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の私書箱部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressState">
@@ -3718,13 +3540,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の都道府県部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の都道府県部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailingAddressStreet">
@@ -3753,13 +3572,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の番地部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の郵送先住所の番地部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や<b>SelectedMailingAddress</b>によって示されるプロパティへのエントリで上書きされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって示されるプロパティを複製する、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.SelectedMailingAddress" />は、 <b>OlMailingAddress</b>定数は、次のいずれかのプロパティ: <b>olBusiness</b>、 <b>olHome</b>、 <b>olNone</b>、 <b>olOther</b>。 変更したり個別に入力したこと、中に、そのような変更またはこのプロパティにエントリは、以降の変更や <b>SelectedMailingAddress</b> によって示されるプロパティへのエントリで上書きされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ManagerName">
@@ -3788,8 +3604,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のマネージャー名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のマネージャー名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3848,13 +3663,10 @@
         <Parameter Name="MarkInterval" Type="Microsoft.Office.Interop.Outlook.OlMarkInterval" />
       </Parameters>
       <Docs>
-        <param name="MarkInterval">
-          <b>ContactItem</b>の仕事の間隔をします。</param>
+        <param name="MarkInterval"><b>ContactItem</b>の仕事の間隔をします。</param>
         <summary>マーク、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトをタスクとしてタスク オブジェクトの間隔を割り当てます。</summary>
-        <remarks>
-          <para>指定された値によって、他のいくつかのプロパティの値を設定してこのメソッドを呼び出すと<paramref name="MarkInterval" />。指定することによって設定されたプロパティの詳細については<paramref name="MarkInterval" />を参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>指定された値によって、他のいくつかのプロパティの値を設定してこのメソッドを呼び出すと<paramref name="MarkInterval" />。 指定することによって設定されたプロパティの詳細については<paramref name="MarkInterval" />を参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -3883,12 +3695,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、あまり理想的データ転送機能メッセージングの柔軟性が向上のリモート ユーザーを示します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって、メッセージングの柔軟性が向上したデータ転送機能がリモート ユーザーに提供されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -3917,13 +3727,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MiddleName">
@@ -3952,13 +3759,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のミドル ネームを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のミドル ネームを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリを<b>かまいません</b>のそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリを <b>かまいません</b> のそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -3987,13 +3791,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは自由形式の文字列フィールドで、払い戻しの目的の項目 (たとえば、100 マイル、予定、連絡先、またはタスクの説明) に関連付けられた経費情報を保存するのには使用することができます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは自由形式のテキスト フィールドです。アイテムに関連付けられた経費情報を保存するために使用されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MobileTelephoneNumber">
@@ -4022,8 +3823,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の携帯電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の携帯電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4051,8 +3851,7 @@
         <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="DestFldr">
-          <b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </param>
+        <param name="DestFldr"><b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </param>
         <summary>Microsoft Outlook アイテムを別のフォルダーへ移動します。</summary>
         <returns>移動先のフォルダーに移動されたアイテムを表すオブジェクト型 ( <b>Object</b>) の値。</returns>
         <remarks>To be added.</remarks>
@@ -4084,8 +3883,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザーの Microsoft NetMeeting ID またはエイリアスを示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザーの Microsoft NetMeeting ID またはエイリアスを示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4116,8 +3914,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、オンライン会議に使用されている Microsoft NetMeeting サーバーの名前を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、オンライン会議に使用されている Microsoft NetMeeting サーバーの名前を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4148,8 +3945,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のニックネームを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のニックネームを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4180,7 +3976,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4211,13 +4007,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の特定のオフィスの場所 (たとえば、地またはスイート 123) を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の特定のオフィスの場所 (たとえば、地またはスイート 123) を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagOfficeLocation</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagOfficeLocation</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OrganizationalIDNumber">
@@ -4246,8 +4039,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の組織の ID 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の組織の ID 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4278,13 +4070,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先のアドレスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先のアドレスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、すべてが含まれています。 連絡先のその他の住所です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、連絡先のその他の住所全体が含まれます。住所の各部は区切られません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressCity">
@@ -4313,13 +4102,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の市町村部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の市町村部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressCountry">
@@ -4348,13 +4134,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の国/地域の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の国/地域の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressPostalCode">
@@ -4383,13 +4166,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の郵便番号部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の郵便番号部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressPostOfficeBox">
@@ -4418,13 +4198,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の私書箱部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の私書箱部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressState">
@@ -4453,13 +4230,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の都道府県部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の都道府県部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherAddressStreet">
@@ -4488,13 +4262,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の番地の部分を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、その他の連絡先の住所の番地の部分を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。このような変更またはこのプロパティにエントリが<b>かまいません</b>かそれ以降の変更によって上書きされることに注意してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを解析、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.OtherAddress" />プロパティを変更または個別に入力されていない可能性がありますが、必要があります、正しく解析されません。 このような変更またはこのプロパティにエントリが <b>かまいません</b> かそれ以降の変更によって上書きされることに注意してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OtherFaxNumber">
@@ -4523,8 +4294,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の fax 番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の fax 番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4555,8 +4325,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得またはその他の連絡先の電話番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得またはその他の連絡先の電話番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4584,7 +4353,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4612,8 +4381,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4644,8 +4412,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のポケットベルの番号を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のポケットベルの番号を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4704,8 +4471,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の個人用 Web ページの URL を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の個人用 Web ページの URL を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4736,8 +4502,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の主な電話番号を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の主な電話番号を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4793,8 +4558,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の職業を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の職業を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4822,7 +4586,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />の作成、取得、設定、および親<b>ContactItem</b>オブジェクトのプロパティを削除するをサポートするオブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />の作成、取得、設定、および親<b>ContactItem</b>オブジェクトのプロパティを削除するをサポートするオブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4853,8 +4617,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の無線電話の番号を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の無線電話の番号を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4885,8 +4648,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の参照名エントリを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の参照名エントリを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4917,12 +4679,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アラームは、アイテムの既定のアラーム設定をオーバーライドする場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>アラームは、アイテムの既定のアラーム設定をオーバーライドする場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>検証するのには、 <b>ReminderOverrideDefault</b>プロパティを設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderPlaySound" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderSoundFile" />のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>検証するのには、 <b>ReminderOverrideDefault</b>プロパティを設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderPlaySound" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderSoundFile" />のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -4951,13 +4711,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、アラームはこの項目の発生時にサウンドを再生する必要がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、アラームはこの項目の発生時にサウンドを再生する必要がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ReminderPlaySound</b>プロパティを検証するために設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderSoundFile" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ReminderPlaySound</b>プロパティを検証するために設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderSoundFile" />プロパティ。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -4986,7 +4743,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5017,13 +4774,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのアラームが発生したときに再生するサウンド ファイルのパスとファイル名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのアラームが発生したときに再生するサウンド ファイルのパスとファイル名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは有効な場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderOverrideDefault" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderPlaySound" />プロパティが<b>True</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは有効な場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderOverrideDefault" />と<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.ReminderPlaySound" />プロパティが<b>True</b>に設定します。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -5052,7 +4806,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したアイテムについてアラームが発生する日時を示す<b>DateTime</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>指定したアイテムについてアラームが発生する日時を示す<b>DateTime</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5104,10 +4858,8 @@
       <Parameters />
       <Docs>
         <summary>連絡先アイテムの電子名刺から独自に施したレイアウトやロゴを削除して、既定の状態に戻します。</summary>
-        <remarks>
-          <para>Microsoft Office InterConnect カードの種類と、連絡先の Outlook のカードの種類を使用して連絡先をリセットこのされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>電子名刺の形式が Microsoft Office InterConnect である連絡先の場合、このメソッドを実行すると Outlook 形式の電子名刺になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -5136,12 +4888,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -5195,10 +4945,8 @@
         <param name="Path">アイテムを保存するパスを指定します。</param>
         <param name="Type">保存するファイルの種類です。 <b>OlSaveAsType</b>定数は、次のいずれか: <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、または<b>olMSGUnicode</b>。</param>
         <summary>Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</summary>
-        <remarks>
-          <para>ことに注意して<b>olDoc</b><b>OlSaveAsType</b>定数を有効な HTML 形式のメッセージは、文書 (.doc) 形式で保存できません、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>ことに注意して<b>olDoc</b> <b>OlSaveAsType</b>定数を有効な HTML 形式のメッセージは、文書 (.doc) 形式で保存できません、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveBusinessCardImage">
@@ -5226,10 +4974,8 @@
       <Docs>
         <param name="Path">保存するイメージの完全修飾パスとファイル名を指定します。</param>
         <summary>指定したから生成された名刺のイメージを保存する<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。</summary>
-        <remarks>
-          <para>このメソッドは、指定された<b>ContactItem</b>オブジェクトから生成された名刺のポータブル ネットワーク グラフィックス (.png) ファイルとしてイメージを生成します。パスで指定されたパスとファイル名を解決できない場合、エラーが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドは、指定された <b>ContactItem</b> オブジェクトから生成された名刺のポータブル ネットワーク グラフィックス (.png) ファイルとしてイメージを生成します。パスで指定されたパスとファイル名を解決できない場合、エラーが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -5255,7 +5001,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5286,7 +5032,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMailingAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMailingAddress" />連絡先の郵送先住所の種類を示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMailingAddress" />連絡先の郵送先住所の種類を示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5317,12 +5063,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。 値の取得および設定が可能です。</summary>
+        <summary>定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSensitivity</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSensitivity</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -5348,19 +5092,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowBusinessCardEditor">
@@ -5385,10 +5126,8 @@
       <Parameters />
       <Docs>
         <summary>電子名刺 (EBC) エディターのダイアログ ボックスを表示します<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。</summary>
-        <remarks>
-          <para>このメソッドを呼び出すと、指定された<b>ContactItem</b>オブジェクトのデータが取得され、EBC エディター ダイアログ ボックスでそのデータをモーダルとして表示します。エラーは、データを取得できない場合に発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドを呼び出すと、指定された <b>ContactItem</b> オブジェクトのデータが取得され、EBC エディター ダイアログ ボックスでそのデータをモーダルとして表示します。エラーは、データを取得できない場合に発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -5520,7 +5259,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5551,8 +5290,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の配偶者の名前のエントリを示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、取引先担当者の配偶者の名前のエントリを示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5583,13 +5321,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSubject</b>に対応します。<b>Subject</b>プロパティは、Outlook アイテムの既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSubject</b> に対応します。 <b>Subject</b> プロパティは、Outlook アイテムの既定のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Suffix">
@@ -5618,14 +5353,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または指定した連絡先の名前のサフィックス (jr.、III、博士など) を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または指定した連絡先の名前のサフィックス (jr.、III、博士など) を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" /> 、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />から<b>プロパティ</b>を解析し、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastName" /> 、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" /> 、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.MiddleName" />から<b>プロパティ</b>を解析し、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FullName" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -5654,12 +5385,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの終了日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの終了日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -5688,12 +5417,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの締め切り日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの締め切り日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -5722,12 +5449,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの開始日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの開始日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -5756,12 +5481,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>仕事の件名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>仕事の件名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値を取得、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Subject" />プロパティ場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値を取得、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Subject" />プロパティ場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TelexNumber">
@@ -5790,8 +5513,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のテレックス番号を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のテレックス番号を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5822,8 +5544,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のタイトルを示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先のタイトルを示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5854,12 +5575,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>仕事の序数値を表す<b>DateTime</b>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得および設定が可能です。</summary>
+        <summary>仕事の序数値を表す<b>DateTime</b>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します</para>。
-          <para>今日] グループや [明日] グループの [to do バーなど、親グループ内のタスクの注文方法を示すためにこのプロパティを使用します。このプロパティで使用する値への値の関係を持たない、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskStartDate" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskDueDate" />、または<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskCompletedDate" />プロパティ</para>。
-          <para /></remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para>このプロパティは、[ To Do バー] の [ 今日] グループや [ 明日] グループなど、親グループ内のタスクを順序付ける方法を指定するために使用します。 このプロパティで使用する値への値の関係を持たない、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskStartDate" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskDueDate" />、または<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.TaskCompletedDate" />のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TTYTDDTelephoneNumber">
@@ -5888,8 +5608,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の TTY/TDD 電話番号を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の TTY/TDD 電話番号を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5920,7 +5639,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5951,13 +5670,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの最初のフィールドを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの最初のフィールドを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロパティ<b>ContactItem.User1</b>、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロパティ<b>ContactItem.User1</b>、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。 これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="User2">
@@ -5986,13 +5702,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 2 番目のフィールドを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 2 番目のフィールドを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <b>ContactItem.User2</b>、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <b>ContactItem.User2</b>、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。 これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="User3">
@@ -6021,13 +5734,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 3 番目のフィールドを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 3 番目のフィールドを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <b>ContactItem.User3</b>、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <b>ContactItem.User3</b>、および<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User4" />それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。 これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="User4">
@@ -6056,13 +5766,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 4 番目のフィールドを指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の他の使用を意図して連絡先フォームの 4 番目のフィールドを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<b>ContactItem.User4</b>それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロパティ<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User1" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User2" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.User3" />、および<b>ContactItem.User4</b>それぞれ連絡先フォームの [定義フィールド 1、フィールド 2 のユーザー、ユーザー フィールド 3、および定義フィールド 4 のフィールドにマップします。 これらプロパティは明示的な組み込み<b>の文字列</b>(C# では<b>文字列</b>) です。ユーザーは、連絡先の他の目的でこれらのフィールドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserCertificate">
@@ -6125,7 +5832,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -6156,8 +5863,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の Web ページの URL を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、連絡先の Web ページの URL を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -6188,8 +5894,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、ふりがな (型) の連絡先の会社名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、ふりがな (型) の連絡先の会社名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -6220,8 +5925,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得またはふりがな (型) の最初の連絡先の名前を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得またはふりがな (型) の最初の連絡先の名前を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -6252,8 +5956,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、ふりがな (型) の取引先担当者の姓を示します。 値の取得と設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、ふりがな (型) の取引先担当者の姓を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

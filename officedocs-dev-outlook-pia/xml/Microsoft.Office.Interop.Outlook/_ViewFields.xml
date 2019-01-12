@@ -1,13 +1,5 @@
 <Type Name="_ViewFields" FullName="Microsoft.Office.Interop.Outlook._ViewFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637821" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901600" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFields&#xA;Implements IEnumerable" />
@@ -60,14 +52,12 @@
         <param name="PropertyName">新しいオブジェクトを関連付けるプロパティの名前を指定します。 (フィールドの選択] で表示) のフィールド名または名前空間でこのプロパティを参照することができます (で表される<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />)。</param>
         <summary>末尾に指定したフィールドを追加、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />のビューのコレクションです。</summary>
         <returns>新しいビュー フィールドを表す <b>ViewField</b> オブジェクト。</returns>
-        <remarks>
-          <para>内のプロパティを参照する<paramref name="PropertyName" />でそのフィールド名に対応するロケールでローカライズされた名前が必要です。名前空間によるプロパティ参照の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください</para>
-          <para>
-            <b>ViewFields</b>コレクションにカスタム プロパティを追加する場合、プロパティに存在する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />のコレクション、ビューの親フォルダーです。 </para>
-          <para>
-            <b>ViewFields</b>コレクション内のプロパティが既に存在する場合は、Outlook でエラーが発生します</para>。プログラムを使用してビューにカスタム フィールドを追加するには、 <b>ViewFields.Add</b>メソッドを使用して
-          <para>。これは、設定、表示を動的に変更することをお勧めします<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />プロパティ</para>。特定のプロパティにすることはできません
-          <para>ビューに<b>ViewFields.Add</b>、バイナリのプロパティを含むを使用して計算されたプロパティを追加し、HTML または rtf 形式の本文のコンテンツです。詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table オブジェクトまたは Table フィルターでサポートされていないプロパティ</a>を参照してください</para><para /></remarks>
+        <remarks><para>内のプロパティを参照する<paramref name="PropertyName" />でそのフィールド名に対応するロケールでローカライズされた名前が必要です。 名前空間によるプロパティ参照の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</para>
+          <para>プロパティが存在する必要があります<b>ViewFields</b>コレクションにカスタム プロパティを追加する場合、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />ビューの親フォルダーのコレクションです。  </para>
+          <para><b>ViewFields</b> コレクション内のプロパティが既に存在する場合、Outlook ではエラーが発生します。</para>
+          <para>プログラムを使用してビューにカスタム フィールドを追加するには、 <b>ViewFields.Add</b> メソッドを使用します。 これは、設定、表示を動的に変更することをお勧めします<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />プロパティ。</para>
+          <para><b>ViewFields.Add</b> 、バイナリ プロパティ、計算されたプロパティは、HTML または rtf 形式の本文の内容などを使用してビューには、特定のプロパティを追加できません。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table オブジェクトまたは Table フィルターでサポートされていないプロパティ</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -93,7 +83,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,7 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +139,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />指定されたコレクション内のオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />指定されたコレクション内のオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,8 +201,7 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <b>ViewField</b>オブジェクトのインデックスを作成する 1 から始まる整数を指定できます、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />コレクション、一致する文字列、 <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> 、 <b>ViewField</b>オブジェクト、コレクション、またはフィールドの選択] ダイアログ ボックスに表示されるフィールド名のプロパティの値です。</param>
+        <param name="Index"><b>ViewField</b>オブジェクトのインデックスを作成する 1 から始まる整数を指定できます、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />コレクション、一致する文字列、 <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> 、 <b>ViewField</b>オブジェクト、コレクション、またはフィールドの選択] ダイアログ ボックスに表示されるフィールド名のプロパティの値です。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />コレクションからのオブジェクト。</summary>
         <value>指定したオブジェクトを表す <b>ViewField</b> オブジェクト。</value>
         <remarks>To be added.</remarks>
@@ -297,19 +286,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

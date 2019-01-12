@@ -1,13 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5775f16b4f47ab029314c22c5ef7bfb307c13e1f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637671" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901887" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -27,11 +19,8 @@
   </Attributes>
   <Docs>
     <summary>いくつかの Microsoft Outlook コントロールに共通のプロパティの集合を定義します。</summary>
-    <remarks>
-      <para>
-        <b>OlkControl</b>で提供されているメンバーは、ほとんどの Outlook コントロールに適用できます。 <b>OlkControl</b>を簡単にキャストできます Outlook コントロールは、リフレクションを使用しなくてもクラスを提供します。<b>OlkControl</b>は、Microsoft Forms 2.0 のコントロールには適用されません、類似したプロパティは Forms 2.0 のコントロールを使用します。詳細についてを参照してください<a href="http://go.microsoft.com/fwlink/?LinkID=87937">[ol98]: 追加コントロールのプロパティに使用できるプログラミング</a></para>
-      <para />
-    </remarks>
+    <remarks><para><b>OlkControl</b> で提供されているメンバーは、ほとんどの Outlook コントロールに適用できます。  <b>OlkControl</b>を簡単にキャストできます Outlook コントロールは、リフレクションを使用しなくてもクラスを提供します。 <b>OlkControl</b> は、Microsoft Forms 2.0 のコントロールには適用されません、類似したプロパティは Forms 2.0 のコントロールを使用します。 詳細についてを参照してください<a href="http://go.microsoft.com/fwlink/?LinkID=87937">[ol98]: 追加コントロールのプロパティに使用できるプログラミング</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ControlProperty">
@@ -60,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す、データ バインドが発生するコントロールのプロパティを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す、データ バインドが発生するコントロールのプロパティを設定します。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,13 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) フォームの他の部分に対して、コントロールのレイアウトの自動調整を有効にする設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) フォームの他の部分に対して、コントロールのレイアウトの自動調整を有効にする設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>コントロールのレイアウトの自動調整には、垂直方向または水平方向に他のコントロールを揃えることと、高さまたは長さのコントロールの幅] または [フォームの幅にサイズ変更が含まれます。</para>
-          <para />
-        </remarks>
+        <remarks><para>コントロールのレイアウト自動調整には、他のコントロールと上下方向または左右方向に揃えること、フォームに合わせて高さや幅を調整することがあります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Format">
@@ -126,13 +112,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または値をコントロールに表示する方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または値をコントロールに表示する方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>"書式</b>"プロパティは、値を表示する方法について説明する列挙体の定数を設定できます。定義されている定数<b>olFormatCurrencyDecimal</b>として<b>形式</b>を指定するなど、 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> 、通貨値を表示する列挙体、<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />コントロールです</para>。
-          <para><b>形式</b>のプロパティは、コントロールにバインドしている Outlook オブジェクト モデルのプロパティに固有です。後者はで示された<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。任意のプロパティに、コントロールがバインドされていないかどうかは、<b>書式設定</b>にアクセスすると、エラーが返されます</para>。
-          <para /></remarks>
+        <remarks><para><b>"書式</b> "プロパティは、値を表示する方法について説明する列挙体の定数を設定できます。 定義されている定数<b>olFormatCurrencyDecimal</b>として<b>形式</b>を指定するなど、 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> 、通貨値を表示する列挙体、<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />コントロール。</para>
+          <para><b>"書式</b>"プロパティは、コントロールにバインドしている Outlook オブジェクト モデルのプロパティに固有です。 後者はで示された<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。 コントロールが任意のプロパティにバインドされていない場合は、 <b>形式</b> にし、アクセスすると、エラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HorizontalLayout">
@@ -161,7 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />その他の選択したコントロールをフォーム上でこのコントロールの水平方向の配置を指定する定数かどうかコントロールが水平方向に自動的に調整、フォームの幅が変更されたときまたは。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />その他の選択したコントロールをフォーム上でこのコントロールの水平方向の配置を指定する定数かどうかコントロールが水平方向に自動的に調整、フォームの幅が変更されたときまたは。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,7 +176,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) に、コントロールがバインドされている Outlook オブジェクト モデルのプロパティの名前を指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) に、コントロールがバインドされている Outlook オブジェクト モデルのプロパティの名前を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,14 +207,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールが自動的に縮小する際の最小の高さを指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールが自動的に縮小する際の最小の高さを指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
-            <b>MinimumLength</b>を有効にするために<b>True</b>に設定する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /><b>MinimumLength</b>を有効にするために<b>True</b>に設定する必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MinimumWidth">
@@ -259,14 +240,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールが自動的に縮小する際の最小の幅を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールが自動的に縮小する際の最小の幅を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
-            <b>MinimumWidth</b>を有効にするために<b>True</b>に設定する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /><b>MinimumWidth</b>を有効にするために<b>True</b>に設定する必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PossibleValues">
@@ -295,12 +273,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) をセミコロンで区切った、コントロールのドロップダウン リストに指定できる値の一覧を表します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) をセミコロンで区切った、コントロールのドロップダウン リストに指定できる値の一覧を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>」ドロップ ダウン リストをサポートしていないコントロールに対してこのプロパティの値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)</para>
-          <para />
-        </remarks>
+        <remarks><para>」ドロップ ダウン リストをサポートしていないコントロールに対してこのプロパティの値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="VerticalLayout">

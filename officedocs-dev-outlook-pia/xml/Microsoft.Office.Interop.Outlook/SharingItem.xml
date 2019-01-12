@@ -1,13 +1,5 @@
 <Type Name="SharingItem" FullName="Microsoft.Office.Interop.Outlook.SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="63d5d340dc1933c7c9df7ff9df6b1420f1fc1fde" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637944" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="16a751c8e7e322c5384c507c1e0de9d3b65c2f7f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899240" /></Metadata><TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharingItem implements class Microsoft.Office.Interop.Outlook._SharingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharingItem&#xA;Implements _SharingItem, ItemEvents_10_Event" />
@@ -34,11 +26,10 @@
   </Attributes>
   <Docs>
     <summary>受信トレイ フォルダー内の共有メッセージを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、新しい共有の依頼または共有への招待を表す<b>SharingItem</b>オブジェクトを作成するオブジェクトです</para>。
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、共有メッセージまたは受信トレイ フォルダーから 1 つの<b>SharingItem</b>オブジェクトを取得するのには、メッセージの既定のプロパティに一致する値のインデックス番号です</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、新しい共有の依頼または共有への招待を表す<b>SharingItem</b>オブジェクトを作成するオブジェクトです。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、共有メッセージまたは受信トレイ フォルダーから 1 つの<b>SharingItem</b>オブジェクトを取得するのには、メッセージの既定のプロパティに一致する値のインデックス番号です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

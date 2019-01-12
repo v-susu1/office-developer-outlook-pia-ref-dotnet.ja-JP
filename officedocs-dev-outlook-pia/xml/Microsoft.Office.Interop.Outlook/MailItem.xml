@@ -1,13 +1,5 @@
 <Type Name="MailItem" FullName="Microsoft.Office.Interop.Outlook.MailItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b9f1b555db9763b2d2b05b2f81661df9b1ca01ad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639064" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MailItem : Microsoft.Office.Interop.Outlook._MailItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80cbf52d9de23bd42fda0b5b76947a1e875ea183" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901866" /></Metadata><TypeSignature Language="C#" Value="public interface MailItem : Microsoft.Office.Interop.Outlook._MailItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailItem implements class Microsoft.Office.Interop.Outlook._MailItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MailItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface MailItem&#xA;Implements _MailItem, ItemEvents_10_Event" />
@@ -34,11 +26,10 @@
   </Attributes>
   <Docs>
     <summary>メール メッセージを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._MailItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />を新しいメール メッセージを表す<b>MailItem</b>オブジェクトを作成します</para>。
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、メール メッセージ、または指定したフォルダーから単一の<b>MailItem</b>オブジェクトを取得するのには、メッセージの既定のプロパティに一致する値を指定のインデックス番号です</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._MailItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />を新しいメール メッセージを表す<b>MailItem</b>オブジェクトを作成します。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、メール メッセージ、または指定したフォルダーから単一の<b>MailItem</b>オブジェクトを取得するのには、メッセージの既定のプロパティに一致する値を指定のインデックス番号です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

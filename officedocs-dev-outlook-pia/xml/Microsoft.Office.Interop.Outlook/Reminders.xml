@@ -1,13 +1,5 @@
 <Type Name="Reminders" FullName="Microsoft.Office.Interop.Outlook.Reminders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6aa22620bec00382bc27272b4238014063511ff2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638660" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3177ac1eb6298998c0f5ce092ef8ffe8c6b6fb25" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901775" /></Metadata><TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminders implements class Microsoft.Office.Interop.Outlook._Reminders, class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminders" />
   <TypeSignature Language="VB.NET" Value="Public Interface Reminders&#xA;Implements _Reminders, ReminderCollectionEvents_Event" />
@@ -34,10 +26,10 @@
   </Attributes>
   <Docs>
     <summary>すべてのコレクションが含まれています、 <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> Microsoft Outlook アプリケーションですべての保留中のアイテムのアラームを表すオブジェクト。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />です</para>。使用の
-      <para>、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" /><b>アラーム</b>のコレクションを返すプロパティです。<b>アラーム</b>を使用して (<paramref name="index" />)、<paramref name="index" />は、名前または序数の値を返す 1 つのアラームの<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />オブジェクト。</para><para>のアラームが作成プログラムを使用してアラームを設定した新しい Outlook アイテムが作成されたとき。などのアラーム作成時、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトが作成されると、 <b>AppointmentItem</b>オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />プロパティが<b>True</b>に設定します</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />。</para>
+      <para>使用の<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />、 <b>Reminders</b>コレクションを返すプロパティです。 <b>アラーム</b>を使用して (<paramref name="index" />)、<paramref name="index" />は、名前または序数の値を返す 1 つのアラームの<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />オブジェクト。 </para>
+      <para>アラームは、アラームを含む新しい Outlook アイテムが作成されたときにプログラムによって作成されます。 などのアラーム作成時、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトが作成されると、 <b>AppointmentItem</b>オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />プロパティが<b>True</b>に設定します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

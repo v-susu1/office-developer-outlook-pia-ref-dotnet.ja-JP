@@ -1,13 +1,5 @@
 <Type Name="RemoteItem" FullName="Microsoft.Office.Interop.Outlook.RemoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="185bb292e440d2cfff3fc9eb8ff8016fa4d88ef0" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637896" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RemoteItem : Microsoft.Office.Interop.Outlook._RemoteItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2d1a845c1efe54e2a56a599591afc65f4a592e8c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902139" /></Metadata><TypeSignature Language="C#" Value="public interface RemoteItem : Microsoft.Office.Interop.Outlook._RemoteItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RemoteItem implements class Microsoft.Office.Interop.Outlook._RemoteItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RemoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface RemoteItem&#xA;Implements _RemoteItem, ItemEvents_10_Event" />
@@ -34,15 +26,14 @@
   </Attributes>
   <Docs>
     <summary>受信トレイ フォルダーのリモート アイテムを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RemoteItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para><b>RemoteItem</b>オブジェクトは、のような<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトで、かつそれに件名のみ、受信日時、送信者、サイズ、およびメッセージの本文の最初の 256 文字が含まれています。人に対応するメール メッセージをダウンロードするかどうかを決定するための十分な情報をリモート モードで接続を提供するに使用されます。ただし、オフライン フォルダー ファイル (.ost) に含まれるアイテムのヘッダーはアクセスできません<b>RemoteItem</b>オブジェクトを使用します</para>。
-      <para>、他の Outlook オブジェクトとは異なり、このオブジェクトを作成できません。リモート アクセス システム (RAS) 接続を使用するときにリモート アイテムが Outlook によって自動的に作成されます。ローカル システム上に作成される各<b>RemoteItem</b>オブジェクトは、リモート システム上の既存の<b>MailItem</b>オブジェクトに対応します</para>。
-      <para><b>RemoteItem</b>オブジェクトは、プロパティ、メソッド、およびイベントを持たない、性質上、オブジェクトの関数の多くを継承します。オブジェクト ブラウザーは、これらのプロパティ、メソッド、およびイベントが<b>RemoteItem</b>オブジェクトに属していると示していますがそれらを使用しようとしていますができません</para>。
-      <para><b>RemoteItem</b>オブジェクトのメソッドが動作しないには、<b>閉じる</b>、<b>コピー</b>、<b>表示</b>、<b>移動</b>、および<b>保存</b>が含まれます</para>。
-      <para><b>RemoteItem</b>オブジェクトに対応していないプロパティには、 <b>BillingInformation</b>、<b>本文</b>、<b>カテゴリ</b>、<b>企業</b>、および<b>経費</b>が含まれます</para>。
-      <para><b>RemoteItem</b>オブジェクトに対応していないイベントには、<b>開く</b>、<b>閉じる</b>、<b>転送</b>、<b>返信</b>、<b>全員に返信</b>、および<b>送信</b>が含まれます</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RemoteItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para><b>RemoteItem</b>オブジェクトは、のような<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトで、かつそれに件名のみ、受信日時、送信者、サイズ、およびメッセージの本文の最初の 256 文字が含まれています。 人に対応するメール メッセージをダウンロードするかどうかを決定するための十分な情報をリモート モードで接続を提供するに使用されます。 ただし、オフライン フォルダー ファイル (.ost) に含まれるアイテムのヘッダーは、 <b>RemoteItem</b> オブジェクトを使用してアクセスできません。</para>
+      <para>Microsoft Outlookその他のオブジェクトとは異なり、このオブジェクトを作成できません。リモート アクセス システム (RAS) 接続を使用するときにリモート アイテムが Outlook によって自動的に作成されます。ローカル システム上に作成される各 <b>RemoteItem</b> オブジェクトは、リモート システム上の既存の <b>MailItem</b> オブジェクトに対応します。</para>
+      <para><b>RemoteItem</b> オブジェクトは、プロパティ、メソッド、およびイベントを持たない、性質上、オブジェクトの関数の多くを継承します。 オブジェクト ブラウザーは、これらのプロパティ、メソッド、およびイベントが <b>RemoteItem</b> オブジェクトに属しているを示しています。 がそれらを使用しようとしていますができません。</para>
+      <para><b>RemoteItem</b> オブジェクトに対応していないメソッドには、 <b>閉じる</b> 、 <b>コピー</b> 、 <b>表示</b> 、 <b>移動</b> 、および <b>保存</b> が含まれます。</para>
+      <para><b>RemoteItem</b> オブジェクトに対応していないプロパティには、 <b>BillingInformation</b> 、 <b>本文</b> 、 <b>カテゴリ</b> 、 <b>企業</b> 、および <b>経費</b> が含まれます。</para>
+      <para><b>RemoteItem</b> オブジェクトに対応していないイベントには、 <b>開く</b> 、 <b>閉じる</b> 、 <b>転送</b> 、 <b>返信</b> 、 <b>全員に返信</b> 、および <b>送信</b> が含まれます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="Row" FullName="Microsoft.Office.Interop.Outlook.Row">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bb36e7173df26003269e3dca6af6c3a6f59b4663" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638665" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Row : Microsoft.Office.Interop.Outlook._Row" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="25ca42f9b28f4b7dc572bec3ceaa447731825632" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899531" /></Metadata><TypeSignature Language="C#" Value="public interface Row : Microsoft.Office.Interop.Outlook._Row" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Row implements class Microsoft.Office.Interop.Outlook._Row" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Row" />
   <TypeSignature Language="VB.NET" Value="Public Interface Row&#xA;Implements _Row" />
@@ -31,15 +23,14 @@
   </Attributes>
   <Docs>
     <summary>内のデータの行を表す、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />オブジェクトです。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Row" />。</para>
-      <para>
-        <b>テーブル</b>は行と列で構成されます。読み取り専用動的な行セット内のデータを表す、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />または<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトです。<b>テーブル</b>の各行をフォルダー、およびアイテムのプロパティとしては、各列内の項目と見なすことができます。既定では、<b>テーブル</b>には、フォルダー内のアイテムのプロパティのサブセットのみが含まれています。これは、ため、<b>テーブル</b>のインメモリの軽量な行セットとなり、フォルダー内のアイテムの高速な列挙とフィルターをサポートしています</para>。
-      <para>から<b>Table</b>オブジェクトを取得すると<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />、さらにフィルターを指定することができます (で<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) よりを取得するのには、<b>テーブル</b>内の行のセットを制限します</para>。
-      <para>テーブルのメソッドを使用することができます: <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />、<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />と<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /><b>テーブル</b>内の特定の行を取得します</para>。
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Row.GetValues" /><b>テーブル</b>でその行の列の値に対応する値の配列を取得します</para>。
-      <para>使用されたヘルパー関数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />、<see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />の特定の行の列の値の型変換を容易にします。<b>テーブル</b>のプロパティ値表示の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Table クラスと View クラスのプロパティ値表示に影響を与える要因</a>を参照してください</para><para>によって、基になるフォルダーの追加と削除が反映されますが<b>テーブル</b>内の行、<b>テーブル</b>は、行の削除と追加、変更のすべてのイベントをサポートしていません。オブジェクトは、<b>テーブル</b>の行を必要とする場合は、既定のエントリ Id 列は<b>テーブル</b>からその行のエントリ ID を取得し、使用、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトは次のように、完全なアイテムを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />または、 <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />、読み取り/書き込み操作をサポートします。<b>テーブル</b>の既定の列の詳細については、テーブルに表示される既定のプロパティを参照してください</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Row" />。 </para>
+      <para><b>テーブル</b> は、行と列で構成されます。 読み取り専用動的な行セット内のデータを表す、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />または<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトです。 <b>テーブル</b> の各行をフォルダー、およびアイテムのプロパティとしては、各列内の項目と見なすことができます。 既定では、 <b>テーブル</b> には、フォルダー内のアイテムのプロパティのサブセットのみが含まれています。 これにより、 <b>テーブル</b> はインメモリの軽量な行セットとなり、フォルダー内のアイテムの高速な列挙とフィルターをサポートしています。</para>
+      <para> <b>Table</b>オブジェクトを取得すると<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />、さらにフィルターを指定することができます (で<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) よりを取得するのには、<b>テーブル</b>内の行のセットを制限します。</para>
+      <para> テーブルのメソッドを使用することができます: <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />、<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />と<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /><b>テーブル</b>内の特定の行を取得します。</para>
+      <para> 使用<see cref="M:Microsoft.Office.Interop.Outlook._Row.GetValues" /><b>テーブル</b>でその行の列の値に対応する値の配列を取得します。</para>
+      <para> ヘルパー関数を使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />、<see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />の特定の行の列の値の型変換を容易にします。 <b>テーブル</b>のプロパティ値表示の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Table クラスと View クラスのプロパティ値表示に影響を与える要因</a>を参照してください。</para>
+      <para> 基になるフォルダーの追加と削除は、 <b>テーブル</b> 内の行に反映されますが、行の削除と追加、変更、 <b>テーブル</b> 上で任意のイベントはサポートされません。 オブジェクトは、<b>テーブル</b>の行を必要とする場合は、既定のエントリ Id 列は<b>テーブル</b>からその行のエントリ ID を取得し、使用、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトは次のように、完全なアイテムを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />または<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />、そのサポート読み取り/書き込み操作します。 <b>テーブル</b>の既定の列の詳細については、テーブルに表示される既定のプロパティを参照してください。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

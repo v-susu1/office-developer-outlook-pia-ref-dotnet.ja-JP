@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638103" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897599" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -27,12 +19,12 @@
   </Attributes>
   <Docs>
     <summary>[オプション] ダイアログ ボックスまたは、フォルダーの [プロパティ] ダイアログ ボックス内のカスタム プロパティ ページを表します。</summary>
-    <remarks>
-      <para>Outlook では、このオブジェクトを使用して、ダイアログ ボックスで [適用] ボタンとやり取りするカスタム プロパティ ページを使用します</para>。
-      <para><b>PropertyPage</b>オブジェクトは、抽象オブジェクトです。この Microsoft Outlook オブジェクト ライブラリに<b>PropertyPage</b>オブジェクトには実装コードが含まれていません。代わりに、Microsoft Visual Basic でオブジェクトを実装するためにテンプレートとして提供されます。これには、カスタム プロパティ ページが変更されたかどうかを判断し、ユーザーが [適用] または [ok] ボタンをクリックしたことをプログラムに通知する Outlook を使用できるインタ フェースの定義済みのセットが用意されています。(カスタム プロパティ ページは、[適用] ボタンには依存しないかどうかは、 <b>PropertyPage</b>オブジェクトを実装する必要はありません)</para> 。
-      <para>A のカスタム プロパティ ページは、ユーザーがカスタム プロパティ ページのタブをクリックすると、Outlook で、[オプション] ダイアログ ボックスまたはフォルダーのプロパティ] ダイアログ ボックスで、表示されている ActiveX コントロールです。Visual Basic .NET では、 <b>PropertyPage</b>オブジェクトを実装するには、実装コードを含むモジュールが次の Implements ステートメントを含める必要があります</para>。
-      <code>Implements Outlook.PropertyPage</code><para>モジュールは、 <b>PropertyPage</b>オブジェクトのメソッドとプロパティを実装するプロシージャも記述する必要があります</para>。
-      <para /></remarks>
+    <remarks><para>Outlook はこのオブジェクトを使用して、カスタム プロパティ ページがダイアログ ボックスの [ 適用] ボタンとやり取りできるようにします。</para>
+      <para><b>PropertyPage</b>オブジェクトは、抽象オブジェクトです。 この Microsoft Outlook オブジェクト ライブラリに<b>PropertyPage</b>オブジェクトには実装コードが含まれていません。 代わりに、Microsoft Visual Basic でオブジェクトを実装するためにテンプレートとして提供されます。 これには、カスタム プロパティ ページが変更されたかどうかを判断し、ユーザーが [適用] または [ok] ボタンをクリックしたことをプログラムに通知する Outlook を使用できるインタ フェースの定義済みのセットが用意されています。 (カスタム プロパティ ページは、[適用] ボタンに依存しない、する場合する必要はありません<b>PropertyPage</b>オブジェクトを実装する。)</para>
+      <para>カスタム プロパティ ページは、ユーザーがカスタム プロパティ ページのタブをクリックすると、Outlook で、[オプション] ダイアログ ボックスまたはフォルダーのプロパティ] ダイアログ ボックスで、表示されている ActiveX コントロールです。Visual Basic .NET では、 <b>PropertyPage</b>オブジェクトを実装するに実装コードを含むモジュールは、次の Implements ステートメントを含める必要があります。</para>
+      <code>Implements Outlook.PropertyPage</code>
+      <para>モジュールには、 <b>PropertyPage</b> オブジェクトのメソッドとプロパティを実装するプロシージャも記述する必要があります。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -52,11 +44,8 @@
       <Parameters />
       <Docs>
         <summary>カスタム プロパティ ページで行われた変更を適用します。</summary>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />は、抽象オブジェクトを実装するアプリケーション内ではなく、Outlook 自体によって)、実装メソッドの<b>適用</b>プログラム コードのイベント プロシージャに似ています。つまり、イベント プロシージャを記述すると同じようにメソッドを実装するコードを記述します。つまり、Outlook では、ユーザーはユーザーによって変更されたプロパティ値を適用するプログラムを必要とするカスタム プロパティ ページを表示する] ダイアログ ボックスで、アクションを実行するには、プログラムを通知するために<b>適用</b>メソッドを呼び出します。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />は、抽象オブジェクトを実装するアプリケーション内ではなく、Outlook 自体によって)、実装メソッドの<b>適用</b>プログラム コードのイベント プロシージャに似ています。 つまり、イベント プロシージャを記述すると同じようにメソッドを実装するコードを記述します。 つまり、Outlook では、ユーザーはユーザーによって変更されたプロパティ値を適用するプログラムを必要とするカスタム プロパティ ページを表示する] ダイアログ ボックスで、アクションを実行するには、プログラムを通知するために <b>適用</b> メソッドを呼び出します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">
@@ -79,7 +68,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>カスタム プロパティ ページの内容が変更されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 実装する ActiveX コントロールの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />オブジェクトは、このプロパティの値を設定して、Microsoft Outlook では、これをクエリへの応答として、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>カスタム プロパティ ページの内容が変更されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 実装する ActiveX コントロールの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />オブジェクトは、このプロパティの値を設定して、Microsoft Outlook では、これをクエリへの応答として、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

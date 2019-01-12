@@ -1,13 +1,5 @@
 <Type Name="Recipients" FullName="Microsoft.Office.Interop.Outlook.Recipients">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a1f866bf331ae092d59a1e210e16a01c82d526ca" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639463" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c27dd2e543e6657e2eb0bd16529ca6be9ff7a8d6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900322" /></Metadata><TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipients implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipients" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipients&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>コレクションが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />の Outlook アイテム オブジェクトです。</summary>
-    <remarks>
-      <para>
-        <b>受信者</b>オブジェクトを取得するのには、<b>受信者</b>のプロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトです</para>。使用の
-      <para>、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成し、<b>受信者</b>オブジェクトに追加する方法です。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />新しい<b>受信者</b>オブジェクトのプロパティが関連付けられている<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>、または<b>TaskItem</b>オブジェクトの既定値に設定され、他の受信者を示すためにリセットする必要があります種類</para>。
-      <para>を使用して<b>受信者</b>(<paramref name="index" />)、どこで<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。名前が表示名、エイリアス、または受信者のフル SMTP 電子メール アドレスを表す文字列を指定できます</para>。
-      <para /></remarks>
+    <remarks><para><b>受信者</b>オブジェクトを取得するのには、<b>受信者</b>のプロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトです。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成し、<b>受信者</b>オブジェクトに追加する方法です。 <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> 、新しい<b>受信者</b>オブジェクトのプロパティが関連付けられている<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>、または<b>TaskItem</b>オブジェクトの既定値に設定し、別の受信者の種類を示すためにリセットする必要があります。</para>
+      <para><b>受信者</b>を使用して、(<paramref name="index" />)、どこで<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。 名前は、表示名、エイリアス、または完全な SMTP 電子メール アドレス受信者を示す文字列であることができます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -91,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,7 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,8 +252,7 @@
       <Parameters />
       <Docs>
         <summary>すべてを解決しようと、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />でオブジェクトを<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />はアドレス帳のコレクションです。</summary>
-        <returns>
-          <b>True</b> のすべてのオブジェクトに解決された場合、 <b>False</b> 場合は、1 つまたは複数がありませんでした。</returns>
+        <returns><b>True</b> のすべてのオブジェクトに解決された場合、 <b>False</b> 場合は、1 つまたは複数がありませんでした。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,19 +279,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

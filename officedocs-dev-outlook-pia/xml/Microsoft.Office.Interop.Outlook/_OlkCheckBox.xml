@@ -1,13 +1,5 @@
 <Type Name="_OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook._OlkCheckBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638469" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899440" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCheckBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCheckBox" />
@@ -56,12 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、空の文字列、つまり、ホット キーがありません。 1 つ以上の文字の文字列を使用してプロパティを設定すると、値は最初の文字に切り捨てられます。 </para>
-          <para>アクセス キーに数字は使用できません</para>。
-          <para /></remarks>
+        <remarks><para>既定値は空の文字列で、ホット キーが存在しないことを意味します。このプロパティに 1 文字以上の文字列を設定した場合は、先頭の文字だけが使用され、後続の文字は切り捨てられます。  </para>
+          <para>アクセス キーに数字は使用できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alignment">
@@ -90,12 +81,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" />コントロールのキャプションの相対位置を示す定数です。    値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" />コントロールのキャプションの相対位置を示す定数です。    値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olAlignmentLeft</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olAlignmentLeft</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -127,12 +116,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。0x8000000F、「ボタンの絵」は、このプロパティ既定値です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 0x8000000F、「ボタンの絵」は、このプロパティ既定値です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -161,12 +148,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olBackStyleOpaque</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olBackStyleOpaque</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -195,12 +180,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、コントロールの名前に基づきます。 チェック ボックスを基準にして図表番号の位置は、によって決まりますが、<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para>  既定値はコントロールの名前に基づきます。  チェック ボックスを基準にして図表番号の位置は、によって決まりますが、<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -229,13 +212,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -263,10 +243,8 @@
       <Docs>
         <summary>コントロール内のテキストのレンダリングに使用するフォントを表す <b>StdFont</b> を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>フォントは、Microsoft Windows の型の<b>上位</b>として表されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>フォントは、Microsoft Windows の型の<b>上位</b>として表されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -298,12 +276,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -334,10 +310,8 @@
       <Docs>
         <summary>このコントロールのマウス カーソルのカスタム画像を表す <b>StdPicture</b> を設定または返します。読み取り/書き込み。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -366,12 +340,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TripleState">
@@ -400,12 +372,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうかユーザーが指定できるユーザー インターフェイスでコントロールの<b>Null</b>状態を指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうかユーザーが指定できるユーザー インターフェイスでコントロールの<b>Null</b>状態を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>True</b>の場合は、3 つの状態で、チェック ボックスをクリックします。このプロパティが<b>False</b>の場合は、チェック ボックスには、 <b>True</b>と<b>False</b>の状態のみがサポートされています。既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが <b>True</b> の場合は、3 つの状態で、チェック ボックスをクリックします。このプロパティが <b>False</b> の場合は、チェック ボックスには、 <b>True</b> と <b>False</b> の状態のみがサポートされています。既定値は、 <b>false を指定</b> します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -434,12 +404,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールの状態を指定する<b>オブジェクト</b>を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールの状態を指定する<b>オブジェクト</b>を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>チェック ボックス コントロールでは、このプロパティは、 <b>True</b>または<b>False</b>場合は、<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" />プロパティは、 <b>Value</b>プロパティは、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) もします。既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>チェック ボックス コントロールでは、このプロパティは、 <b>True</b>または<b>False</b>場合は、<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" />プロパティは、 <b>Value</b>プロパティは、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) もします。 既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -468,12 +436,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

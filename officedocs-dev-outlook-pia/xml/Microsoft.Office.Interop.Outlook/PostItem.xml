@@ -1,13 +1,5 @@
 <Type Name="PostItem" FullName="Microsoft.Office.Interop.Outlook.PostItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2dd2d4a30f7e841adcaaac74530a86f518832308" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637900" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PostItem : Microsoft.Office.Interop.Outlook._PostItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2c948a4eab000903aa0258e53595254a09468c9f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896955" /></Metadata><TypeSignature Language="C#" Value="public interface PostItem : Microsoft.Office.Interop.Outlook._PostItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PostItem implements class Microsoft.Office.Interop.Outlook._PostItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PostItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface PostItem&#xA;Implements _PostItem, ItemEvents_10_Event" />
@@ -34,11 +26,11 @@
   </Attributes>
   <Docs>
     <summary>パブリック フォルダーへの投稿アイテムを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._PostItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>とは異なり、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクト、 <b>PostItem</b>オブジェクトは受信者に送信されません。使用する、<see cref="M:Microsoft.Office.Interop.Outlook._PostItem.Post" />に似ているメソッド、 <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /><b>PostItem</b>をそれを郵送するのではなく、目的のパブリック フォルダーに保存するのには、 <b>MailItem</b>オブジェクトのメソッド</para><para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />または<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItemFromTemplate(System.String,System.Object)" />、新しい投稿を表す<b>PostItem</b>オブジェクトを作成します</para>。
-      <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Items" />(<paramref name="index" />)、<paramref name="index" />が投稿またはパブリック フォルダーから単一の<b>PostItem</b>オブジェクトを取得するのには、投稿の既定のプロパティに一致する値のインデックス番号です</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._PostItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>異なり、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクト、 <b>PostItem</b>オブジェクトは受信者に送信されません。 使用する、<see cref="M:Microsoft.Office.Interop.Outlook._PostItem.Post" />に似ているメソッド、 <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> <b>PostItem</b>を代わりに、目的のパブリック フォルダーに保存するのには、 <b>MailItem</b>オブジェクトのメソッドです。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />または<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItemFromTemplate(System.String,System.Object)" />、新しい投稿を表す<b>PostItem</b>オブジェクトを作成します。 </para>
+      <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Items" />(<paramref name="index" />)、<paramref name="index" />が投稿またはパブリック フォルダーから単一の<b>PostItem</b>オブジェクトを取得するのには、投稿の既定のプロパティに一致する値のインデックス番号です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

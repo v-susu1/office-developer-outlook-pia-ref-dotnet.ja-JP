@@ -1,13 +1,5 @@
 <Type Name="NameSpace" FullName="Microsoft.Office.Interop.Outlook.NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e7fa3c61b1254f5d5f5ffdce481266853142f977" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638686" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fd1833d0e0e9aeab5240d7bbcdbecfc03a8dab6a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898222" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpace implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpace&#xA;Implements _NameSpace, NameSpaceEvents_Event" />
@@ -34,12 +26,11 @@
   </Attributes>
   <Docs>
     <summary>任意のデータ ソースの抽象的なルート オブジェクトを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />です</para>。
-      <para>オブジェクト自体には、ログインおよびログアウト、ID による直接のストレージ オブジェクトへのアクセス、特定の特殊な既定フォルダーの直接アクセス、他のユーザーが所有するデータ ソースにアクセスするためのメソッドが用意されています</para>。
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />("MAPI") から Outlook<b>名前空間</b>オブジェクトを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトです</para>。
-      <para>サポートされている唯一のデータ ソースは、簡易 mapi は MAPI ユーザーのメール ストアに格納されているすべての Outlook データにアクセスできるようにします</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />。</para>
+      <para>このオブジェクト自体は、ログインおよびログアウト、ID による格納オブジェクトの直接アクセス、特殊な既定フォルダーの直接アクセス、他のユーザーが所有するデータ ソースのアクセスなどの方法を提供します。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />("MAPI") から Outlook<b>名前空間</b>オブジェクトを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトです。</para>
+      <para>使用できるデータ ソースは MAPI だけです。MAPI を使用するとユーザーのメッセージ ストアに格納されたすべての Outlook データへアクセスできます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637648" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e4d2f373dd74a164ad2cbc827efc264eecdbd98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900864" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
@@ -49,10 +41,9 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーの操作またはプログラムのコードによって、フォルダーが移動または削除されるときに発生します。</summary>
-        <remarks>
-          <para>フォルダーを別のフォルダー (削除済みアイテム フォルダーを含む) またはフォルダーを完全に削除しようとすると移動するときにこのイベントを発生させます。 自動アーカイブまたは同期処理中には発生しません</para>。
-          <para>アクションは、永続的な削除の場合、<paramref name="MoveTo" />フォルダーが返されるイベントになります<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です</para>。
-          <para /></remarks>
+        <remarks><para>このイベントは、フォルダーが別のフォルダー (削除済みアイテム フォルダーを含む) に移動するとき、またはフォルダーが完全に削除されるときに発生します。自動整理の処理中や同期の処理中には発生しません。</para>
+          <para>操作が、恒久的な削除の場合、<paramref name="MoveTo" />が返されるフォルダー、イベントになります<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemMove">
@@ -71,10 +62,9 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーの操作またはプログラムのコードによって、アイテムがフォルダーから移動または削除されるときに発生します。</summary>
-        <remarks>
-          <para>項目が別のフォルダー (削除済みアイテム フォルダーを含む) または項目が完全に削除するときに移動するときにこのイベントを発生させます。自動アーカイブまたは同期処理中には発生しません</para>。
-          <para>アクションは、永続的な削除の場合、<paramref name="MoveTo" />フォルダーが返されるイベントになります<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です</para>。
-          <para /></remarks>
+        <remarks><para>このイベントは、アイテムが別のフォルダー (削除済みアイテム フォルダーを含む) に移動するとき、またはアイテムが完全に削除されるときに発生します。自動整理の処理中や同期の処理中には発生しません。</para>
+          <para>操作が、恒久的な削除の場合、<paramref name="MoveTo" />が返されるフォルダー、イベントになります<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="NavigationFolders" FullName="Microsoft.Office.Interop.Outlook.NavigationFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6fbb80fe1fc1d4e7cde3d72ff9f95a7c7cd9afa9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639057" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationFolders : Microsoft.Office.Interop.Outlook._NavigationFolders" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1179cb52769f64e8d07e732fbed460dca20e3fd1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898880" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationFolders : Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolders implements class Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolders&#xA;Implements _NavigationFolders" />
@@ -31,12 +23,12 @@
   </Attributes>
   <Docs>
     <summary>セットが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />ナビゲーション グループに関連付けられているナビゲーション フォルダーを表すオブジェクト。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />。</para>
-      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> 、 <b>NavigationFolders</b>オブジェクトを返すオブジェクト</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" />新しい<b>NavigationFolder</b>オブジェクトを作成するメソッドは、既存のベース<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトおよびコレクションに追加します。使用、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> (<b>この</b>C# の) プロパティ<b>NavigationFolders</b>コレクションに含まれる既存の<b>NavigationFolder</b>オブジェクトを返します。使用、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Remove(Microsoft.Office.Interop.Outlook.NavigationFolder)" />から、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> 、親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />オブジェクトです</para>。使用の
-      <para>、<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderAdd" />と<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderRemove" />ナビゲーション フォルダーが追加または削除、それぞれ、 <b>NavigationFolders</b>オブジェクトを検出するイベントです。使用、<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />にイベントを予定表フォルダーに基づく<b>NavigationFolders</b>オブジェクトに含まれるナビゲーション フォルダーの選択状態の変更を検出します</para>。
-      <para>使用して<b>フォルダー</b>を削除する場合に注意してください<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />、ナビゲーション ウィンドウおよび<b>NavigationFolders</b>コレクションに、削除を自動的に反映されますので、実際のフォルダー間の同期とは、ナビゲーション ウィンドウは、これを完了するのには数ミリ秒になります、非同期的に発生します。</para><para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />。 </para>
+      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> 、 <b>NavigationFolders</b>オブジェクトを返すオブジェクト。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" />新しい<b>NavigationFolder</b>オブジェクトを作成するメソッドは、既存のベース<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトおよびコレクションに追加します。 使用、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> (<b>この</b>C# の) プロパティ<b>NavigationFolders</b>コレクションに含まれる既存の<b>NavigationFolder</b>オブジェクトを返します。 使用、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Remove(Microsoft.Office.Interop.Outlook.NavigationFolder)" />から、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> 、親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />オブジェクトです。</para>
+      <para>使用して、<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderAdd" />と<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderRemove" />ナビゲーション フォルダーが追加または削除、それぞれ、 <b>NavigationFolders</b>オブジェクトを検出するイベントです。 使用、<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />にイベントを予定表フォルダーに基づく<b>NavigationFolders</b>オブジェクトに含まれるナビゲーション フォルダーの選択状態の変更を検出します。</para>
+      <para>使用して<b>フォルダー</b>を削除する場合に注意してください<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />、ナビゲーション ウィンドウおよび<b>NavigationFolders</b>コレクションに、削除を自動的に反映されますので、実際のフォルダーや、ナビゲーション ウィンドウの間の同期完了するのには数ミリ秒かかりますが、非同期的に発生します。 </para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

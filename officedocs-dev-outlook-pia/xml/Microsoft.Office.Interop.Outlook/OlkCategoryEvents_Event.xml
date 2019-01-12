@@ -1,13 +1,5 @@
 <Type Name="OlkCategoryEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6b5bfb00aa9250de100ae933103dc32bfe1cf197" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638720" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9969fef0204c00347d74f89eb2a59ae1eec65350" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900830" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCategoryEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCategoryEvents_Event" />
@@ -144,11 +136,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを押したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -167,11 +156,23 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーが ANSI キーを押したときに発生します。</summary>
-        <remarks>
-          <para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。<b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。前に、でも、キーが離された後でも、イベントが発生することができます</para>。
-          <para><b>KeyPress</b>イベントは、次の条件下では発生しません:</para><list type="bullet"><item><para>キーを押してタブ</para></item>の
-            <item><para>方向キーを押す</para></item><item><para>キーを押してを入力してください</para></item><item><para>とキー入力すると、フォーカスが 1 つのコントロール間を移動する</para></item></list>。
-          <para /></remarks>
+        <remarks><para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。 <b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。 前に、でも、キーが離された後でも、イベントが発生します。</para>
+          <para><b>KeyPress</b> イベントは、次の条件下では発生しません。</para>
+          <list type="bullet">
+            <item>
+              <para>Tab キーを押す</para>
+            </item>
+            <item>
+              <para>Enter キーを押す</para>
+            </item>
+            <item>
+              <para>方向キーを押す</para>
+            </item>
+            <item>
+              <para>キーボード操作によって、フォーカスがコントロール間を移動する</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -190,11 +191,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを離したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -232,10 +230,8 @@
       </ReturnValue>
       <Docs>
         <summary>マウス ポインターがコントロール上を通過した後に発生します。</summary>
-        <remarks>
-          <para>ALT キーを押すと、 <b>MouseMove</b>イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ALTキーを押すと、 <b>MouseMove</b> イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

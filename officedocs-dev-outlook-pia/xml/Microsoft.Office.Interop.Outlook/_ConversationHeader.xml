@@ -1,13 +1,5 @@
 <Type Name="_ConversationHeader" FullName="Microsoft.Office.Interop.Outlook._ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637788" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901747" /></Metadata><TypeSignature Language="C#" Value="public interface _ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ConversationHeader" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親 Outlook アプリケーションを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親 Outlook アプリケーションを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 、オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 、オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,12 +101,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />この会話ヘッダーが属しているオブジェクトします。 値の取得のみ可能です。</summary>
+        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />この会話ヘッダーが属しているオブジェクトします。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、会話のヘッダーを同じ会話に他の項目に関連付けます。これらの項目との会話の<b>ConversationID</b>プロパティに同じ値を持ちます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、会話のヘッダーを同じ会話に他の項目に関連付けます。これらの項目との会話の <b>ConversationID</b> プロパティに同じ値を持ちます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -140,13 +130,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>MAPI プロパティの PidTagConversationTopic に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>MAPI プロパティの PidTagConversationTopic に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -172,19 +159,23 @@
       <Docs>
         <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />この会話ヘッダーが所属している会話を表すオブジェクト。</summary>
         <returns>この会話ヘッダーが所属している会話を表す<b>会話</b>オブジェクトを返します。</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。次のシナリオ内の項目の会話がありません:</para>
+        <remarks><para>
+            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。 次のシナリオ内の項目の会話は存在しません。</para>
           <list type="bullet">
             <item>
-              <para>アイテムが保存されていません。アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</para>
+              <para>アイテムが保存されていません。 アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</para>
             </item>
             <item>
-              <para>(たとえば、メール アイテム、予定アイテムや連絡先アイテム) の送信可能なアイテム、アイテムが送信されていません</para>
-            </item>。
-            <item><para>会話が Windows レジストリを使用して無効にします</para></item>。
-            <item><para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange、Microsoft Exchange Server 2010 より前のバージョンに対して、従来のオンライン モードで実行中)。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです</para></item></list>。
-          <para /></remarks>
+              <para>送信可能なアイテム (メール アイテム、予定アイテム、連絡先アイテムなど) が送信されていない。</para>
+            </item>
+            <item>
+              <para>Windows レジストリによって、スレッドが無効になっている。</para>
+            </item>
+            <item>
+              <para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange、Microsoft Exchange Server 2010 より前のバージョンに対して、従来のオンライン モードで実行中)。 使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItems">
@@ -210,11 +201,8 @@
       <Docs>
         <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />のすべての会話で選択されているスレッドのヘッダーと同じフォルダー内に存在するアイテムを含むコレクションです。</summary>
         <returns>同じ会話に属しているし、会話のヘッダーと同じフォルダー内に存在するアイテムの<b>SimpleItems</b>コレクションを返します。</returns>
-        <remarks>
-          <para>
-            <b>SimpleItems</b>コレクションには、会話のヘッダーが含まれているフォルダー内のアイテムの会話のみ含まれています。<b>SimpleItems</b>コレクションでは、会話の間のフォルダーのアイテムは返されません。クロス フォルダー コンテンツをアクセスする必要がある場合を使用して、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトです。<b>GetItems</b>の<b>SimpleItems</b>コレクションを返します会話ヘッダーと同じフォルダーに会話の項目が存在しない場合、<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" />プロパティを 0 にします。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SimpleItems</b> コレクションには、会話のヘッダーが含まれているフォルダー内のアイテムの会話のみ含まれています。 <b>SimpleItems</b> コレクションでは、会話の間のフォルダーのアイテムは返されません。 クロス フォルダー コンテンツをアクセスする必要がある場合を使用して、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトです。<b>GetItems</b>の<b>SimpleItems</b>コレクションを返します会話ヘッダーと同じフォルダーに会話の項目が存在しない場合、<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" />プロパティを 0 にします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -240,12 +228,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>親を返します<see cref="T:System.Object" />の指定されたオブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>親を返します<see cref="T:System.Object" />の指定されたオブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />オブジェクトです</para>。
-          <para>返される<b>選択範囲</b>のオブジェクトには、 <b>ConversationHeader</b>オブジェクトのみが含まれています。<b>親</b>プロパティを取得するには、<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />を持つメソッド、<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />の引数です</para>。
-          <para /></remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />オブジェクトです。</para>
+          <para>返される <b>Selection</b> オブジェクトには、 <b>ConversationHeader</b> オブジェクトのみが含まれています。 <b>親</b>プロパティを取得するには、<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />を持つメソッド、<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />の引数です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -271,13 +258,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
-          <para>
-            <b>セッション</b>のプロパティを使用することができ、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />現在のセッションの<b>名前空間</b>のオブジェクトを取得するには、同じ意味で</para>。
-          <para /></remarks>
+        <remarks><para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。 </para>
+          <para><b>セッション</b>のプロパティを使用することができ、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />現在のセッションの<b>名前空間</b>のオブジェクトを取得するには、同じ意味で。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

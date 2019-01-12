@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638532" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896801" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザー インターフェイスまたはプログラムを通じて、ユーザーがアクティブなエクスプローラーで別の添付ファイルを選択すると発生します。</summary>
-        <remarks>
-          <para>アクティブなエクスプ ローラーで任意の項目の変更または追加の添付ファイルが選択されている場合は、 <b>AttachmentSelectionChange</b>イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>アクティブなエクスプ ローラーで任意の項目の変更または追加の添付ファイルが選択されている場合は、 <b>AttachmentSelectionChange</b> イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeFolderSwitch">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーの操作またはプログラムのコードによって、エクスプローラーが新しいフォルダーに移動する前に発生します。</summary>
-        <remarks>
-          <para>(ファイル システムなど)、オートメーションでサポートされていない名前空間には、フォルダーに切り替わる場合は、<paramref name="NewFolder" />は<b>ありません</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>(ファイル システムなど)、オートメーションでサポートされていない名前空間には、フォルダーに切り替わる場合は、<paramref name="NewFolder" />は<b>ありません</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCopy">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>Outlook アイテムがコピーされると発生します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCut">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>Outlook アイテムがフォルダーから切り取られるときに発生します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。イベントをキャンセルすると、アイテムは削除されません。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。このイベントを取り消すと、アイテムは削除されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemPaste">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>Outlook アイテムが貼り付けられるときに発生します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>エクスプローラーがユーザーによって最大化されると発生します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -200,10 +180,8 @@
       </ReturnValue>
       <Docs>
         <summary>アクティブなエクスプローラーがユーザーによって最小化されるときに発生します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -222,10 +200,8 @@
       </ReturnValue>
       <Docs>
         <summary>発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />がユーザーによって移動します。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -244,10 +220,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーの現在のサイズを設定するときに発生する<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</summary>
-        <remarks>
-          <para>開始された後、このイベントをキャンセルできます。イベントをキャンセルすると、ウィンドウのサイズは変更されません。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは開始された後で取り消すことができます。イベントを取り消すと、ウィンドウのサイズは変更されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeViewSwitch">
@@ -285,10 +259,8 @@
       </ReturnValue>
       <Docs>
         <summary>エクスプローラーが閉じるときに発生します。</summary>
-        <remarks>
-          <para>使用する場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> 、このイベントを発生させるメソッドに取り消すことができます<b>Close</b>メソッドが<b>呼び出すことにより</b>使用されている場合。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用する場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> 、このイベントを発生させるメソッドに取り消すことができます<b>Close</b>メソッドが<b>呼び出すことにより</b>使用されている場合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -345,10 +317,8 @@
       </ReturnValue>
       <Docs>
         <summary>閲覧ウィンドウにインライン返信が表示されるアクションをユーザーが実行したときに発生します。</summary>
-        <remarks>
-          <para>このイベントは、インラインの応答の項目を表す項目オブジェクトを返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントは、インラインの応答の項目を表す項目オブジェクトを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InlineResponseClose">
@@ -367,20 +337,28 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーは、閲覧ウィンドウを閉じる作業中のインライン応答の原因となる操作を実行するときに発生します。</summary>
-        <remarks>
-          <para>新しいインライン応答するときにこのイベントが発生するか、ドラフト インライン応答は次の理由で終了:</para>
+        <remarks><para>新しいインライン応答するときにこのイベントが発生またはドラフト インライン応答は次の理由で終了します。</para>
           <list type="bullet">
             <item>
-              <para>ユーザーは、<b>ポップ アウト</b>] コマンドを選択します</para>
-            </item>。
-            <item><para>ユーザーは、[<b>破棄</b>] コマンドを選択します</para></item>。
-            <item><para>ユーザーは、インラインの応答を送信します</para></item>。
-            <item><para>ユーザーがメッセージの一覧で別のメッセージに移動します</para></item>。
-            <item><para>ユーザーが別のフォルダーに移動します</para></item>。
-            <item><para>ユーザーは、たとえば予定表モジュールに [メール] モジュールから、モジュールを切り替える</para></item>。
+              <para>ユーザーは、<b>ポップ アウト</b>] コマンドを選択します。</para>
+            </item>
+            <item>
+              <para>ユーザーは、[<b>破棄</b>] コマンドを選択します。</para>
+            </item>
+            <item>
+              <para>ユーザーは、インラインの応答を送信します。</para>
+            </item>
+            <item>
+              <para>ユーザーは、メッセージの一覧で別のメッセージに移動します。</para>
+            </item>
+            <item>
+              <para>ユーザーは、別のフォルダーに移動します。</para>
+            </item>
+            <item>
+              <para>ユーザーは、たとえば、[予定表] モジュールに [メール] モジュールから、モジュールを切り替えます。</para>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionChange">
@@ -399,10 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがユーザー インターフェイス (UI) を使用してフォルダー内の別のアイテムに切り替えた場合に発生またはプログラムを使用しています。</summary>
-        <remarks>
-          <para>このイベントが発生したときにユーザーか、プログラムを使用してユーザーへ切り替えたを使用してをクリックするか、Outlook はそのフォルダー内の最初の項目を自動的に選択項目を含む別のフォルダーに切り替えますか。ただし、ファイル システム フォルダーの場合、または現在の Web ビューの任意のフォルダーが表示されている場合、このイベントは発生しません。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントが発生したときにユーザーか、プログラムを使用してユーザーへ切り替えたを使用してをクリックするか、Outlook はそのフォルダー内の最初の項目を自動的に選択項目を含む別のフォルダーに切り替えますか。 ただし、フォルダーがファイル システム フォルダーである場合や、現在の Web ビューが表示されている場合には、このイベントは発生しません。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewSwitch">

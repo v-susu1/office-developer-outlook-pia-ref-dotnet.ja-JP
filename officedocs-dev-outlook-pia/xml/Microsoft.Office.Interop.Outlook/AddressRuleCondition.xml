@@ -1,13 +1,5 @@
 <Type Name="AddressRuleCondition" FullName="Microsoft.Office.Interop.Outlook.AddressRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6fb93c163c144051524a8ccda77644fc156e0d63" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638507" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressRuleCondition : Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="230b82b2732282ec731484764a55a70ca78d93de" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897816" /></Metadata><TypeSignature Language="C#" Value="public interface AddressRuleCondition : Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressRuleCondition implements class Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressRuleCondition&#xA;Implements _AddressRuleCondition" />
@@ -31,11 +23,11 @@
   </Attributes>
   <Docs>
     <summary>指定されたアドレスにメッセージの送信者、受信者のアドレスが含まれているかどうかを評価するルールの条件を表す<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Address" />。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />です</para>。派生して
-        <b>取得した AddressRuleCondition</b>を
-      <para>、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。各ルールに関連付けられて、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />を持つオブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.RecipientAddress" />プロパティと<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SenderAddress" />。これらの各プロパティは常に<b>取得した AddressRuleCondition</b>オブジェクトを返します。<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" />これらのルールの条件の間で区別します。これらのいずれかのルールを有効にし、条件のルールがある場合<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります</para>。
-      <para>ルールの処理を指定する方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para><para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />。</para>
+      <para>
+        <b>取得した AddressRuleCondition</b>が基になっているの<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。 各ルールに関連付けられて、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />を持つオブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.RecipientAddress" />プロパティと<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SenderAddress" />。 これらの各プロパティは常に <b>取得した AddressRuleCondition</b> オブジェクトを返します。 <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" />これらのルールの条件の間で区別します。 これらのいずれかのルールを有効にし、条件のルールがある場合<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります。</para>
+      <para>ルールの処理を指定する方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

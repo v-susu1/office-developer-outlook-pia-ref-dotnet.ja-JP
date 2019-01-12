@@ -1,13 +1,5 @@
 <Type Name="_NavigationPane" FullName="Microsoft.Office.Interop.Outlook._NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638945" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896766" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationPane" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,13 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OlNavigationPane</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OlNavigationPane</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentModule">
@@ -116,7 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> 、ナビゲーション ウィンドウで現在選択されているナビゲーション モジュールを表すオブジェクト。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> 、ナビゲーション ウィンドウで現在選択されているナビゲーション モジュールを表すオブジェクト。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,13 +136,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>数を示す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトがナビゲーション ウィンドウに表示されます。 値の取得および設定が可能です。</summary>
+        <summary>数を示す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトがナビゲーション ウィンドウに表示されます。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、0 からの値の間の値にのみ設定できます、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />のプロパティ、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> 、 <b>NavigationPane</b>オブジェクトのコレクションです。このプロパティが最大値より大きい値に設定されている場合、プロパティの値は自動的に最大値に設定します。このプロパティが 0 未満に設定されている場合にエラーが発生します</para>。
-          <para>場合、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトが<b>False</b>に設定し、このプロパティの値は、アイコンと名前の両方がナビゲーション ウィンドウに表示されているナビゲーション モジュールの数を表します。<b>IsCollapsed</b>が<b>True</b>に設定する場合、 <b>DisplayedModuleCount</b>プロパティの値は、ナビゲーション モジュールがナビゲーション ウィンドウに表示するアイコンの数を表します</para>。
-          <para>このプロパティの値を設定する必要に応じて、またはより少ない<b>NavigationModule</b>オブジェクトを表示するナビゲーション ウィンドウの [モジュール] のサイズを変更します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、0 からの値の間の値にのみ設定できます、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />のプロパティ、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> 、 <b>NavigationPane</b>オブジェクトのコレクションです。 このプロパティが最大値より大きい値に設定されている場合、プロパティの値は自動的に最大値に設定します。 エラーは、このプロパティが 0 より小さい値に設定されている場合に発生します。</para>
+          <para> 場合、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトが<b>False</b>に設定し、このプロパティの値は、アイコンと名前の両方がナビゲーション ウィンドウに表示されているナビゲーション モジュールの数を表します。 <b>IsCollapsed</b> が <b>True</b> に設定されている場合、 <b>DisplayedModuleCount</b> プロパティの値はナビゲーション モジュールがナビゲーション ウィンドウに表示するアイコンの数を表します。</para>
+          <para>このプロパティの値を設定するには、必要に応じて、またはより少ない <b>NavigationModule</b> オブジェクトを表示するナビゲーション ウィンドウの [モジュール] がサイズ変更されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCollapsed">
@@ -182,7 +170,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ナビゲーション ウィンドウが折りたたまれているかどうかを決定する<b>ブール</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ナビゲーション ウィンドウが折りたたまれているかどうかを決定する<b>ブール</b>値 (C# では<b>bool</b> ) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,7 +198,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、ナビゲーション ウィンドウに含まれるナビゲーション モジュールのセットを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、ナビゲーション ウィンドウに含まれるナビゲーション モジュールのセットを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,19 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

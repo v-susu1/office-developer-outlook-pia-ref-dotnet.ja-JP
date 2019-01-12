@@ -1,13 +1,5 @@
 <Type Name="_Store" FullName="Microsoft.Office.Interop.Outlook._Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639284" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899006" /></Metadata><TypeSignature Language="C#" Value="public interface _Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Store" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,12 +73,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />を表すすべてのカテゴリに対して定義されている、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />を表すすべてのカテゴリに対して定義されている、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクト、点を除いて、このプロパティは 1 つまたは複数のアカウントを指定し、一方のアカウントが関連付けられているストアのカテゴリを指定するセッション ・ プロファイルに適用されます、 <b>カテゴリ</b>セッション ・ プロファイルを 1 つのみのアカウントを定義し、そのセッションの分類項目マスターを指定する<b>名前空間</b>のオブジェクトのプロパティが適用されます</para>。
-          <para>IMAP ストアなど特定のセカンダリ配信ストアの<b>カテゴリ</b>のプロパティの<b>カテゴリ</b>のコレクションを返しますプライマリ ストアです。IMAP ストアが別々 のカテゴリのコレクションを実際にサポートしています</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクト、点を除いて、このプロパティは 1 つまたは複数のアカウントを指定し、一方のアカウントが関連付けられているストアのカテゴリを指定するセッション ・ プロファイルに適用されます、 <b>カテゴリ</b>セッション ・ プロファイルを 1 つのみのアカウントを定義し、そのセッションの分類項目マスターを指定する<b>名前空間</b>のオブジェクトのプロパティが適用されます。</para>
+          <para>IMAP ストアなど特定のセカンダリ配信ストアには、 <b>Categories</b> プロパティは、プライマリ ストアの <b>カテゴリ</b> のコレクションを返します。実際には、IMAP ストアでは、個別のカテゴリのコレクションをサポートしていません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -112,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,15 +131,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますの表示名を表す、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますの表示名を表す、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para>
+            <b>表示名</b> は、 <b>ストア</b> オブジェクトの既定のプロパティです。このプロパティは、MAPI プロパティを <b>PidTagDisplayName</b> に対応します。</para>
           <para>
-            <b>表示名</b>は、<b>ストア</b>オブジェクトの既定のプロパティです。このプロパティは、MAPI プロパティを<b>PidTagDisplayName</b>に対応します。</para>
-          <para>の
-            <b>表示名</b>は読み取り専用です。個人用フォルダー ファイル (.pst) の<b>DisplayName</b>を変更するのにを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトと<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />メソッドです</para>。
-          <para /></remarks>
+            <b>表示名</b> は、読み取り専用です。 個人用フォルダー ファイル (.pst) の<b>DisplayName</b>を変更するのにを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトと<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />メソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeStoreType">
@@ -174,13 +163,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeStoreType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" />、Exchange ストアの種類を指定する列挙体。 値の取得のみ可能です。</summary>
+        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" />、Exchange ストアの種類を指定する列挙体。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeStoreType</b>プロパティは、さまざまな Exchange ストアの種類、プライマリ Exchange メールボックス、Exchange メールボックス、パブリック フォルダー ストア、または Exchange 以外のストアなどの間で区別します。このプロパティは、Hotmail、HTTP、IMAP、およびその他を含むストアのすべての型の間では区別されません。使用<see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" />Exchange、HTTP、IMAP、POP3 など、電子メール アカウントに関連付けられているサーバーの種類に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeStoreType</b> プロパティは、さまざまな Exchange ストアの種類、プライマリ Exchange メールボックス、Exchange メールボックス、パブリック フォルダー ストア、または Exchange 以外のストアなどの間で区別します。 このプロパティは、Hotmail、HTTP、IMAP、およびその他を含むストアのすべての型の間では区別されません。 使用<see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" />Exchange、HTTP、IMAP、POP3 など、電子メール アカウントに関連付けられているサーバーの種類に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FilePath">
@@ -206,13 +192,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得する個人用フォルダー ファイル (.pst) またはオフライン フォルダー ファイル (.ost) ストアのファイルの完全パスを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得する個人用フォルダー ファイル (.pst) またはオフライン フォルダー ファイル (.ost) ストアのファイルの完全パスを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、Exchange と Exchange 以外のストアの両方がサポートしています。ストアが .pst または .ost のストアではない場合、 <b>FilePath</b>は空の文字列を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、Exchange と Exchange 以外のストアの両方がサポートしています。ストアが .pst または .ost のストアではない場合、 <b>FilePath</b> は空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -241,10 +224,9 @@
         <param name="FolderType">要求する既定のフォルダーの種類を指定します。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />オブジェクト ストアの既定のフォルダーを表すしで指定された型は、<paramref name="FolderType" />の引数。</summary>
         <returns>要求された種類の既定のフォルダーを表す<b>Folder</b>オブジェクトを返します。 要求された種類の既定のフォルダーが存在しない場合、 <b>GetDefaultFolder</b>は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
-        <remarks>
-          <para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。違いは、このメソッドは、 <b>NameSpace</b>オブジェクトの<b>GetDefaultFolder</b>は、現在のプロファイルの既定のストアに既定のフォルダーを取得し、アカウントに関連付けられている配信ストアに既定のフォルダーを取得します</para>。
-          <para>1 つと<b>GetDefaultFolder</b>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) の使用例は<see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" />として指定されている、<paramref name="FolderType" />フォルダーの管理グループが展開されていませんが</para>。
-          <para /></remarks>
+        <remarks><para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。 違いは、このメソッドは、 <b>NameSpace</b>オブジェクトの<b>GetDefaultFolder</b>は、現在のプロファイルの既定のストアに既定のフォルダーを取得し、アカウントに関連付けられている配信ストアに既定のフォルダーを取得します。</para>
+          <para>1 つと<b>GetDefaultFolder</b>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) の使用例は<see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" />として指定されている、<paramref name="FolderType" />フォルダーの管理グループが展開されていませんが。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootFolder">
@@ -268,15 +250,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />のルート レベルのフォルダーを表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />のルート レベルのフォルダーを表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 読み取り専用です。</summary>
         <returns>その <b>ストア</b> のルート フォルダーを表す <b>Folder</b> オブジェクトを返します。</returns>
-        <remarks>
+        <remarks><para><b>GetRootFolder</b> メソッドを使用すると、 <b>ストア</b> のルート フォルダーのサブフォルダーを列挙します。 異なり<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" />を現在のプロファイル内のすべてのストアのすべてのフォルダーを含む、 <b>Store.GetRootFolder.Folders</b>では、現在のプロファイル内の特定の<b>ストア</b>オブジェクトのすべてのフォルダーを列挙することができます。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" />ストアのルート フォルダーのプロパティは、文字列"Mapi"を返します。</para>
+          <para>Exchange パブリック フォルダー ストアのルート フォルダーは、パブリック フォルダーです。 このフォルダーは Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders) の呼び出しによって返されます。</para>
           <para>
-            <b>GetRootFolder</b>メソッドを使用すると、<b>ストア</b>のルート フォルダーのサブフォルダーを列挙します。異なり<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" />を現在のプロファイル内のすべてのストアのすべてのフォルダーを含む、 <b>Store.GetRootFolder.Folders</b>では、現在のプロファイル内の特定の<b>ストア</b>オブジェクトのすべてのフォルダーを列挙することができます</para>。
-          <para>、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" />ストアのルート フォルダーのプロパティは、文字列"Mapi"を返します</para>。
-          <para>Exchange のパブリック フォルダーのルート フォルダーのストアは、パブリック フォルダーです。このフォルダーは Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders) の呼び出しによって返されます</para>。
-          <para><b>Getrootfolder サービス プロバイダーがルート フォルダーをサポートしていない場合、エラー</b>です</para>。
-          <para /></remarks>
+            <b>Getrootfolder は、サービス プロバイダーがルート フォルダーをサポートしていない場合、エラーを表示します。</b></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRules">
@@ -301,13 +282,10 @@
       <Parameters />
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />を格納するコレクション オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトの現在のセッションに対して定義されています。</summary>
-        <returns>
-          <b>ルール</b> の集合を表す <b>Rules</b> コレクション オブジェクトは、現在のセッションで定義されています。</returns>
-        <remarks>
-          <para>
-            <b>GetRules</b>を呼び出すことで Exchange サーバーに低速回線接続でのパフォーマンスの面で高価な操作をすることができます</para>。
-          <para><b>GetRules</b>から返されるコレクション内の<b>ルール</b>オブジェクトの順序に依存しているの<see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /><b>ExecutionOrder</b>に等しい、コレクション内の最初の<b>ルール</b>と等しい<b>ExecutionOrder</b>は、1 が<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />が、コレクション内の最後の<b>ルール</b></para>。
-          <para /></remarks>
+        <returns><b>ルール</b> の集合を表す <b>Rules</b> コレクション オブジェクトは、現在のセッションで定義されています。</returns>
+        <remarks><para><b>GetRules</b> の呼び出しは、Exchange サーバーへの接続が低速のパフォーマンスの面でコストのかかる操作です。</para>
+          <para><b>GetRules</b>から返されるコレクション内の<b>ルール</b>オブジェクトの順序に依存しているの<see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> <b>ExecutionOrder</b>が 1 に等しい、コレクション内の最初の<b>ルール</b> <b>ExecutionOrder</b>と同じ<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />最後コレクション内の<b>ルール</b>です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSearchFolders">
@@ -332,14 +310,13 @@
       <Parameters />
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />の検索フォルダーを表すコレクション オブジェクトが定義されている、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトです。</summary>
-        <returns>
-          <b>ストア</b> オブジェクトのすべての検索フォルダーを表す <b>Folders</b> コレクション オブジェクトです。</returns>
-        <remarks>
+        <returns><b>ストア</b> オブジェクトのすべての検索フォルダーを表す <b>Folders</b> コレクション オブジェクトです。</returns>
+        <remarks><para>
+            <b>GetSearchFolders</b> は、 <b>ストア</b> のすべての表示されているアクティブな検索フォルダーを取得します。初期化されていないか、古い検索フォルダーは返しません。</para>
           <para>
-            <b>GetSearchFolders</b>は、<b>ストア</b>のすべての表示されているアクティブな検索フォルダーを取得します。初期化されていないか、古い検索フォルダーは返しません</para>。
-          <para><b>GetSearchFolders</b>と<b>フォルダー</b>コレクション オブジェクトを取得する<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /><b>ストア</b>の検索フォルダーが定義されていない場合は、ゼロ (0) を等しきます</para>。
-          <para>検索フォルダーのコレクションを表す<b>Folders</b>コレクション オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" />と同じオブジェクトを返します。 <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />。<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />の値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です</para>。
-          <para /></remarks>
+            <b>GetSearchFolders</b>と<b>フォルダー</b>コレクション オブジェクトを取得する<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /><b>ストア</b>の検索フォルダーが定義されていない場合は、ゼロ (0) を等しきます。</para>
+          <para>検索フォルダーのコレクションを表す<b>Folders</b>コレクション オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" />と同じオブジェクトを返します。 <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />。 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /><b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSpecialFolder">
@@ -368,10 +345,8 @@
         <param name="FolderType">ストア内の特別なフォルダーの種類を指定する <b>OlSpecialFolders</b> 列挙体の定数です。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトで指定されている特別なフォルダーの<paramref name="FolderType" />、特定の店舗で。</summary>
         <returns>指定されている特別なフォルダーを表す<b>Folder</b>オブジェクトの<paramref name="FolderType" />。</returns>
-        <remarks>
-          <para>すべての特別なフォルダーは、すべてのストアに存在します。 要求された特別なフォルダーが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# で) 返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>すべての特別なフォルダーが、すべてのストアに存在するわけではありません。  要求された特別なフォルダーが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# で) 返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCachedExchange">
@@ -397,13 +372,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返す<b>ブール型</b>(C# では<b>bool</b> ) を示す場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />は、キャッシュされた Exchange ストアです。 値の取得のみ可能です。</summary>
+        <summary>返す<b>ブール型</b>(C# では<b>bool</b> ) を示す場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />は、キャッシュされた Exchange ストアです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsCachedExchange</b>は<b>True</b>を返すときに<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />、プライマリ Exchange メールボックス (<b>Store.ExchangeStoreType</b>の<b>olExchangePrimaryMailbox</b>) であり、キャッシュを使用して Exchange モードをメールボックスが構成されています。<b>False</b>を返しますそれ以外の場合。具体的には、 <b>False</b>を返し、構成されている Exchange のパブリック フォルダー ストアのパブリック フォルダーのお気に入りをキャッシュします。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>IsCachedExchange</b>は<b>True</b>を返すときに<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />、プライマリ Exchange メールボックス (<b>Store.ExchangeStoreType</b>の<b>olExchangePrimaryMailbox</b>) であり、キャッシュを使用して Exchange モードをメールボックスが構成されています。 <b>False</b> を返しますそれ以外の場合。 具体的には、 <b>False</b> を返し、構成されている Exchange のパブリック フォルダー ストアのパブリック フォルダーのお気に入りをキャッシュします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConversationEnabled">
@@ -429,12 +402,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:System.Boolean" />ストアには、スレッド ビューがサポートしている場合は<b>True</b> (C# では<b>bool</b> ) の値です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:System.Boolean" />ストアには、スレッド ビューがサポートしている場合は<b>True</b> (C# では<b>bool</b> ) の値です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A ストアは、ストアが、POP、IMAP、または PST ストアの場合、または場合は、少なくとも Microsoft Exchange Server のバージョンを実行してテーマ別ビューをサポートしている Microsoft Exchange Server 2010。ストアもサポートしているテーマ別ビュー ストアは、Microsoft Exchange Server 2007 を実行している場合、Outlook のバージョンは、少なくとも、Microsoft Outlook 2010 では、および Outlook がキャッシュ モードで実行している</para>。
-          <para>ストアは、会話をサポートしている場合、ストア内のアイテムの<b>GetConversation</b>メソッドの呼び出しを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />の項目のオブジェクトです。ストアが会話をサポートしていない場合<b>GetConversation</b>の値は<b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) ストア内の項目にします</para>。
-          <para /></remarks>
+        <remarks><para>ストアは、ストアが、POP、IMAP、または PST ストアの場合、または場合は、少なくとも Microsoft Exchange Server のバージョンを実行して、テーマ別ビューをサポートしている Microsoft Exchange Server 2010。 ストアもサポートしているテーマ別ビュー ストアは、Microsoft Exchange Server 2007 を実行している場合、Outlook のバージョンは、少なくとも、Microsoft Outlook 2010 では、および Outlook がキャッシュ モードで実行されています。</para>
+          <para>ストア内のアイテムの<b>GetConversation</b>メソッドの呼び出しを返すかどうか、ストアは、会話をサポートする、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />の項目のオブジェクトです。 ストアが会話をサポートしていない場合<b>GetConversation</b>は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) をストア内の項目を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsDataFileStore">
@@ -460,16 +432,15 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を示す場合を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 、オフライン フォルダー ファイル (.ost) または個人用フォルダー ファイル (.pst) のいずれかは、Outlook データ ファイルのストアであります。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を示す場合を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 、オフライン フォルダー ファイル (.ost) または個人用フォルダー ファイル (.pst) のいずれかは、Outlook データ ファイルのストアであります。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para>
+            <b>IsDataFileStore</b> は、唯一の Exchange ストアをサポートし、Hotmail や MSN などの HTTP の種類のストアや IMAP ストアに <b>False</b> が戻ります。</para>
+          <para>Exchange ストアは、ユーザー プロファイルが Exchange キャッシュ モードを使用していない場合に <b>IsDataFileStore</b> が <b>False</b> が戻ります。 <b>IsDataFileStore</b>も<b>False</b>を返す場合、ストアは、Exchange のパブリック フォルダー (つまり、<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />が<b>olExchangePublicFolder</b>)。</para>
           <para>
-            <b>IsDataFileStore</b>は唯一の Exchange ストアをサポートし、Hotmail や MSN などの HTTP の種類のストアや IMAP ストアに<b>False</b>が戻ります</para>。
-          <para>の Exchange ストアの場合、 <b>IsDataFileStore</b>は<b>False</b>を返しますユーザー プロファイルが Exchange キャッシュ モードを使用していない場合。<b>IsDataFileStore</b>も<b>False</b>を返す場合、ストアは、Exchange のパブリック フォルダー (つまり、<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />が<b>olExchangePublicFolder</b>) です</para>。
-          <para><b>IsDataFileStore</b>は、ストアがローカル ハード ドライブ上にあるかどうかを示していません。たとえば、マップされたネットワーク ドライブ上にある .pst ファイルと、 <b>IsDataFileStore</b>はやはり<b>True</b>を返します</para>。
-          <para>ユーザーが Exchange の従来のオフライン モードに設定されている場合、 <b>IsDataFileStore</b>の戻り値は変更できます。ユーザーがオフラインと、Exchange の従来のオフライン モードを使用すると、 <b>IsDataFileStore</b>は<b>True</b>を返します。ユーザーがオンラインと従来の Exchange オンライン モードを使用すると、 <b>IsDataFileStore</b>は<b>False</b>を返します</para>。
-          <para /></remarks>
+            <b>IsDataFileStore</b> は、ストアがローカル ハード ドライブ上にあるかどうかを示していません。たとえば、マップされたネットワーク ドライブ上にある .pst ファイルと、 <b>IsDataFileStore</b> はやはり <b>True</b> を返します。</para>
+          <para><b>IsDataFileStore</b> の戻り値は、ユーザーが Exchange の従来のオフライン モードに設定されている場合に変更できます。ユーザーがオフラインと、Exchange の従来のオフライン モードを使用すると、 <b>IsDataFileStore</b> は <b>True</b> を返します。ユーザーがオンラインと、従来の Exchange オンライン モードを使用すると、 <b>IsDataFileStore</b> は <b>False</b> を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInstantSearchEnabled">
@@ -495,14 +466,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を示すかどうかでクイック検索が有効にし、運用上のストアを取得します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を示すかどうかでクイック検索が有効にし、運用上のストアを取得します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsInstantSearchEnabled</b>は、クエリで<b>ci_startswith</b>または<b>ci_phrasematch</b>演算子を使用する必要があるかどうかを評価するために使用します。<b>Ci_startswith</b>を使用する<b>ci_phrasematch</b>をクエリおよびクイック検索が有効になっていない場合、Outlook はエラーを返します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>IsInstantSearchEnabled</b> は、クエリで <b>ci_startswith</b> または <b>ci_phrasematch</b> 演算子を使用する必要があるかどうかを評価するために使用します。 <b>Ci_startswith</b> を使用する <b>ci_phrasematch</b> をクエリおよびクイック検索が有効になっていない場合、Outlook はエラーを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsOpen">
@@ -528,12 +495,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返す<b>ブール型</b>(C# では<b>bool</b> ) を示す場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />が開いています。 値の取得のみ可能です。</summary>
+        <summary>返す<b>ブール型</b>(C# では<b>bool</b> ) を示す場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />が開いています。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、Exchange と Exchange 以外のストアの両方がサポートされています</para>。
-          <para><b>IsOpen</b>は、ストアが開いているかどうかのみ示します。ストアがオフラインの場合、または Exchange メールボックスまたは Exchange パブリック フォルダーは、ストア サーバーがダウンした場合は確認できません</para>。
-          <para>ストアを開く、パフォーマンスのオーバーヘッドをかけることがあるため、<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />と<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" />ストアを開く、それが既に開いていない場合を決定する前の<b>IsOpen</b>する使用を最小限に抑えるには、 <b>GetRootFolder</b>または<b>GetSearchFolders</b>を呼び出すことパフォーマンスのオーバーヘッドが発生します。</para><para /></remarks>
+        <remarks><para>このプロパティは、Exchange ストアと Exchange 以外のストアの両方をサポートしています。</para>
+          <para>
+            <b>IsOpen</b> は、ストアが開いているかどうかだけを示します。ストアがオフラインの場合、または Exchange メールボックスまたは Exchange パブリック フォルダーは、ストア サーバーがダウンした場合は表示されません。</para>
+          <para>ストアを開く、パフォーマンスのオーバーヘッドをかけることがあるため、<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />と<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" />ストアを開く、それが既に開いていない場合を使って<b>IsOpen</b>決定する前にパフォーマンスを最小限に抑えるには、 <b>GetRootFolder</b>または<b>GetSearchFolders</b>を呼び出すオーバーヘッドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -592,10 +560,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -621,7 +587,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -648,10 +614,8 @@
       <Parameters />
       <Docs>
         <summary>エクスプローラー ウィンドウのステータス バーに表示されるストア クォータ情報を最新の情報に更新します。</summary>
-        <remarks>
-          <para>ストアのクォータ情報の表示をサポートしていない場合は、このメソッドは何も行いません。</para>
-          <para />
-        </remarks>
+        <remarks><para>ストアがクォータ情報の表示をサポートしていない場合、このメソッドは何も実行しません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -677,19 +641,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -715,14 +676,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を識別するが返されます、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を識別するが返されます、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>StoreID</b>は、プロファイルに固有です。MAPI プロパティの<b>PidTagStoreEntryId</b>と同じであります。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>StoreID</b> は、プロファイルに固有です。MAPI プロパティの <b>PidTagStoreEntryId</b> と同じであります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

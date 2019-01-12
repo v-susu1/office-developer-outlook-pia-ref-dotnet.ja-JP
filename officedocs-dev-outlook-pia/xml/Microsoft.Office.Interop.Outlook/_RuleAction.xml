@@ -1,13 +1,5 @@
 <Type Name="_RuleAction" FullName="Microsoft.Office.Interop.Outlook._RuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1c9c2850893a941044d9517aa03fa3270c8bea00" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638750" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c9c2850893a941044d9517aa03fa3270c8bea00" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897984" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleAction" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />によって実行される操作の種類を指定する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />。 値の取得のみ可能です。</summary>
+        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />によって実行される操作の種類を指定する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>受信メッセージ、およびメッセージを送信するルール用にサポートされているルール用にサポートされているプログラムによるルールの作成用にサポートされているルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>受信メッセージ、およびメッセージを送信するルール用にサポートされているルール用にサポートされているプログラムによるルールの作成用にサポートされているルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +102,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,12 +133,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />を有効にします。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />を有効にします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用してルールを保存するルールの処理を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降ルールの処理とその有効な状態が持続するようにします。 ルールの処理は正常に保存された後にのみ有効です。</para>
-          <para>の種類は<b>olRuleReceive</b>ルールの種類<b>olRuleSend</b>のルールでのみサポートされているルールの処理を有効にしようとした場合にエラーを返す、またはその逆</para>。
-          <para /></remarks>
+        <remarks><para>使用してルールを保存するルールの処理を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降ルールの処理とその有効な状態が持続するようにします。  ルールの処理は、正常に保存された後でなければ有効になりません。 </para>
+          <para>種類は<b>olRuleReceive</b>ルールの種類<b>olRuleSend</b>のルールでのみサポートされているルールの処理を有効にしようとした場合にエラーを返す、またはその逆。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -176,10 +165,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -205,19 +192,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

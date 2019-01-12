@@ -1,13 +1,5 @@
 <Type Name="ItemProperties" FullName="Microsoft.Office.Interop.Outlook.ItemProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="068473e5343109a26ed982c2916e8e99e1bf5182" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638566" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e0b6f765c864178318a6ab735154aa9fb4aa042" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900280" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperties&#xA;Implements IEnumerable" />
@@ -31,12 +23,13 @@
   </Attributes>
   <Docs>
     <summary>アイテムに関連付けられたすべてのプロパティのコレクションです。</summary>
-    <remarks>
-      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />を<b>名前</b>またはコレクションを返すプロパティです。ItemProperties.Item を使用 (<paramref name="index" />)、<paramref name="index" />オブジェクトの名前または 1 つを取得するのには、コレクション内の項目の位置を示す数値は、<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />オブジェクトです</para>。
-      <para><b>注</b>:<b>名前</b>またはコレクションは 0 から始まる、コレクションの最初の項目が 0 で参照されているを意味します</para>。使用の
-      <para>、<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />の<b>名前</b>またはコレクションに新しいアイテムのプロパティを追加する方法です。使用して、<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />の<b>名前</b>またはコレクションからアイテムのプロパティを削除するメソッドです</para>。
-      <para><b>注</b>: のみを追加したり、カスタム プロパティを削除します。カスタム プロパティが示されます、<see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" />です</para>。
-      <para /></remarks>
+    <remarks><para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />を<b>名前</b>またはコレクションを返すプロパティです。 ItemProperties.Item を使用 (<paramref name="index" />)、<paramref name="index" />オブジェクトの名前または 1 つを取得するのには、コレクション内の項目の位置を示す数値は、<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />オブジェクトです。</para>
+      <para>
+        <b>注</b>:<b>名前</b>またはコレクションは 0 から始まる、コレクションの最初の項目が 0 で参照されているを意味します。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />の<b>名前</b>またはコレクションに新しいアイテムのプロパティを追加する方法です。 使用して、<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />を<b>名前</b>またはコレクションからアイテムのプロパティを削除します。</para>
+      <para>
+        <b>注</b>: だけを追加したり、カスタム プロパティを削除します。 カスタム プロパティが示されます、 <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> 。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -68,13 +61,10 @@
         <param name="Type">新しい <b>ItemProperty</b> の型。</param>
         <param name="AddToFolderFields">アイテムのプロパティをフォルダー フィールドに追加するかどうかを指定します。</param>
         <param name="DisplayFormat">指定したフォルダーに表示されるフィールドの書式を定義します。</param>
-        <summary>
-          <b>ItemProperty</b> オブジェクトを <b>名前</b> またはコレクションに追加します。</summary>
+        <summary><b>ItemProperty</b> オブジェクトを <b>名前</b> またはコレクションに追加します。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>定義されている型のプロパティを作成することができます、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />列挙型の場合は、次のタイプを除いて、: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />、<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />と<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>定義されている型のプロパティを作成することができます、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />列挙型の場合は、次のタイプを除いて、: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />、<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />と<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -100,7 +90,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,7 +118,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,7 +146,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,19 +294,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

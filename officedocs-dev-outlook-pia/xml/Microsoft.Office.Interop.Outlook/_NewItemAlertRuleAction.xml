@@ -1,13 +1,5 @@
 <Type Name="_NewItemAlertRuleAction" FullName="Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5964291225b3ec448a6016897fb073eae35180fc" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637810" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NewItemAlertRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5964291225b3ec448a6016897fb073eae35180fc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902167" /></Metadata><TypeSignature Language="C#" Value="public interface _NewItemAlertRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NewItemAlertRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NewItemAlertRuleAction" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数、 <b>olRuleActionNewItemAlert</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> 、ルールによって実行される操作の種類を指定する列挙体です。 値の取得のみ可能です。</summary>
+        <summary>定数、 <b>olRuleActionNewItemAlert</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> 、ルールによって実行される操作の種類を指定する列挙体です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>新しいアイテム通知ルールの処理は、メッセージを受信するルールによってのみサポートされています。詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para> 新しいアイテム通知ルールの処理は、メッセージを受信するルールによってのみサポートされています。 詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +102,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,12 +133,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの処理が有効になっているかどうかを決定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの処理が有効になっているかどうかを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用してルールを保存するルールを有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールとその有効な状態が持続するようにします。 ルールは正常に保存された後にのみ有効です。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用してルールを保存するルールを有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールとその有効な状態が持続するようにします。  ルールは、正常に保存された後でなければ有効にすることはできません。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -176,10 +164,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -205,19 +191,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -246,12 +229,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す新しいアイテムの通知ダイアログ ボックスに表示するテキストを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表す新しいアイテムの通知ダイアログ ボックスに表示するテキストを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>テキストが空の文字列である場合は、エラーを返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>テキストが空の文字列の場合はエラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_Category" FullName="Microsoft.Office.Interop.Outlook._Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638982" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897081" /></Metadata><TypeSignature Language="C#" Value="public interface _Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Category" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,12 +76,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示の色見本の境界線の色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>表示の色見本の境界線の色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>設定の<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />オブジェクトのプロパティの<b>カテゴリ</b>を<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />のプロパティ</para>。
-          <para>この色は<b>Category</b>オブジェクトのグラデーションの影が付いた色見本の境界線を表示する使用する必要があります</para>。
-          <para /></remarks>
+        <remarks><para>設定、<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />に<b>Category</b>オブジェクトのプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />のプロパティです。</para>
+          <para>この色は <b>Category</b> オブジェクトのグラデーションの影が付いた色見本の境界線を表示する使用する必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientBottomColor">
@@ -118,12 +109,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示色の見本の下のグラデーション色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>表示色の見本の下のグラデーション色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>設定の<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />オブジェクトのプロパティの<b>カテゴリ</b>を<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />のプロパティ</para>。
-          <para>この色は<b>Category</b>オブジェクトのグラデーションの影が付いた色見を表示に使用する必要があります</para>。
-          <para /></remarks>
+        <remarks><para>設定、<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />に<b>Category</b>オブジェクトのプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />のプロパティです。</para>
+          <para>この色は <b>Category</b> オブジェクトの色のグラデーションの影が付いた色見本を表示する使用する必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientTopColor">
@@ -152,12 +142,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示の色見本の上のグラデーション色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>表示の色見本の上のグラデーション色を表す<b>OLE_COLOR</b>値が返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>設定の<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />オブジェクトのプロパティの<b>カテゴリ</b>を<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />のプロパティ</para>。
-          <para>この色は<b>Category</b>オブジェクトのグラデーションの影が付いた色見を表示に使用する必要があります</para>。
-          <para /></remarks>
+        <remarks><para>設定、<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />に<b>Category</b>オブジェクトのプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />定数の値だけでなく、このプロパティの値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />と<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />のプロパティです。</para>
+          <para>この色は <b>Category</b> オブジェクトの色のグラデーションの影が付いた色見本を表示する使用する必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryID">
@@ -183,15 +172,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>一意の識別子を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>一意の識別子を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />
-            <b>Category</b>オブジェクトのプロパティはいずれかのプログラムまたはユーザーの操作によって各<b>Category</b>オブジェクトは、によって一意に識別、取得できるオブジェクトに割り当てられているグローバル一意識別の識別子 (GUID)、このプロパティを使用します。GUID は、次の形式を使用して文字列として表示されます。</para>
+        <remarks><para><see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> <b>Category</b>オブジェクトのプロパティはいずれかのプログラムまたはユーザーの操作によって各<b>Category</b>オブジェクトは、によって一意に識別、取得できるオブジェクトに割り当てられているグローバル一意識別の識別子 (GUID)、このプロパティを使用します。 GUID は、次の形式を使用して文字列として表示されます。</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -217,7 +202,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -248,12 +233,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />で使用する色を示す定数の<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />で使用する色を示す定数の<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>同じ<b>カテゴリ</b>のオブジェクトの<b>OlCategoryColor</b>列挙に含まれる分類項目の色を表す定数を指定することによって、複数のカテゴリに同じ色を共有できます。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Category</b>オブジェクトの <b>OlCategoryColor</b>列挙に含まれる分類項目の色を表す同一の定数を指定することによって、複数のカテゴリに同じ色を共有できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -282,7 +265,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -338,19 +321,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShortcutKey">
@@ -379,13 +359,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />で使用するショートカット キーを指定する定数を<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />で使用するショートカット キーを指定する定数を<see cref="T:Microsoft.Office.Interop.Outlook.Category" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OlCategoryShortcutKeyNone</b>以外の<b>OlCategoryShortcutKey</b>の定数は、任意の時点で 1 つの<b>Category</b>オブジェクトでのみ使用できます。プロパティを設定このプロパティの値を<b>OlCategoryShortcutKey</b>定数に既に使用のセット<b>を登録する</b><b>olCategoryShortcutKeyNone</b>に指定された値を既に使用して<b>Category</b>オブジェクトの。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OlCategoryShortcutKeyNone</b> 以外の <b>OlCategoryShortcutKey</b> の定数は、任意の時点で 1 つの <b>Category</b> オブジェクトでのみ使用できます。プロパティを設定このプロパティの値を <b>OlCategoryShortcutKey</b> 定数に既に使用のセット <b>を登録する</b> <b>olCategoryShortcutKeyNone</b> に指定された値を既に使用して <b>Category</b> オブジェクトの。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

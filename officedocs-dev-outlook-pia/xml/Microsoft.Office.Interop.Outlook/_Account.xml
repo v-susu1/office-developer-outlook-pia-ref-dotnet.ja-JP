@@ -1,13 +1,5 @@
 <Type Name="_Account" FullName="Microsoft.Office.Interop.Outlook._Account">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639210" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Account" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901306" /></Metadata><TypeSignature Language="C#" Value="public interface _Account" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Account" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Account" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Account" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAccountType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />の種類を示す列挙値、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 値の取得のみ可能です。</summary>
+        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />の種類を示す列挙値、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,12 +101,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />のアカウントのメールボックスをホストする Microsoft Exchange サーバーの自動検出サービスを使用する接続の種類を指定する定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />のアカウントのメールボックスをホストする Microsoft Exchange サーバーの自動検出サービスを使用する接続の種類を指定する定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoDiscoverXml">
@@ -140,14 +130,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す XML 内の情報は、アカウントに関連付けられている Microsoft Exchange Server の自動検出サービスから取得します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す XML 内の情報は、アカウントに関連付けられている Microsoft Exchange Server の自動検出サービスから取得します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトです</para>。
-          <para>、返される XML 文字列には、さまざまな Web サービスを (たとえば、可用性サービスやユニファイド メッセージング サービス) と利用可能なサーバーに関する情報が含まれています</para>。
-          <para>アカウントは、Microsoft Exchange Server 2007 を実行している Exchange Server に関連付けられているまたはそれ以降ではない場合、エラーが返されます</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</para>
+          <para>返される XML の文字列には、可用性サービスやユニファイド メッセージング サービスなどの各種 Web サービスや、利用可能なサービスについての情報が含まれます。</para>
+          <para>アカウントが Microsoft Exchange Server 2007 以降を実行する Exchange Server に関連付けられていない場合、エラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -173,7 +161,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -201,7 +189,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、アカウントの現在のユーザー id を表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、アカウントの現在のユーザー id を表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,12 +217,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />アカウントの既定の配信ストアを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />アカウントの既定の配信ストアを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>アカウントが既定の配信ストアを持っていない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>アカウントが既定の配信ストアを持っていない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -260,14 +246,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返す、電子メールの表示名を表す<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返す、電子メールの表示名を表す<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>表示名</b>は、<b>アカウント</b>オブジェクトの既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>表示名</b> は、 <b>アカウント</b> オブジェクトの既定のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeConnectionMode">
@@ -293,12 +276,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />アカウントのメールボックスをホストする Microsoft Exchange Server の現在の接続モードを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />アカウントのメールボックスをホストする Microsoft Exchange Server の現在の接続モードを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -324,12 +305,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アカウントのメールボックスをホストする Microsoft Exchange Server の名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>アカウントのメールボックスをホストする Microsoft Exchange Server の名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます</para>。
-          <para>Exchange メールボックスがこのアカウントに関連付けられているではない場合は、このプロパティは、空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</para>
+          <para>Exchange メールボックスがこのアカウントに関連付けられていない場合、このプロパティは空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -355,14 +335,14 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表すアカウントのメールボックスをホストする Microsoft Exchange Server の完全なバージョン番号を返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表すアカウントのメールボックスをホストする Microsoft Exchange Server の完全なバージョン番号を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます</para>。
-          <para>アカウントに Exchange サーバーのバージョン番号を含む文字列を返します。次の 4 つの部分のバージョン番号:</para><para>&lt;メジャー バージョン&gt;です&lt;。マイナー バージョン&gt;。&lt;ビルド番号&gt;。&lt;バージョン&gt;</para><para>いないすべての部分に存在する Exchange Server で提供されるバージョン情報に応じて、バージョン番号です。たとえば、このプロパティは Microsoft Exchange Server 2003 Service Pack 2 の「6.5.7638」を返します</para>。
-          <para>Exchange メールボックスがこのアカウントに関連付けられているではない場合は、このプロパティは、空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</para>
+          <para>このプロパティは、アカウントの Exchange サーバーのバージョン番号を含む文字列を返します。 バージョン番号には、次の 4 つの部分があります。</para>
+          <para>&lt;メジャー バージョン&gt;。&lt;マイナー バージョン&gt;。&lt;ビルド番号&gt;。&lt;のリビジョン&gt;</para>
+          <para>Exchange Server が提供するバージョン情報によって、すべての部分がバージョン番号に表示されるとは限りません。たとえば、Microsoft Exchange Server 2003 Service Pack 2 の場合、このプロパティは "6.5.7638" を返します。</para>
+          <para>Exchange メールボックスがこのアカウントに関連付けられていない場合、このプロパティは空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -391,12 +371,11 @@
         <param name="ID">セッションのために保持されるアドレス入力の識別に使用します。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />指定されたエントリ ID で指定されたアドレスのエントリを表すオブジェクト</summary>
         <returns>持つ<b>AddressEntry</b>を返す、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />の指定に一致するプロパティ<paramref name="ID" />。</returns>
-        <remarks>
-          <para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、オブジェクトしますが、検索に使用するアカウントの追加コンテキスト情報。現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの<b>GetAddressEntryFromID</b>メソッドを使用します。</para>
-          <para>、 <b>AddressEntry</b>の<b>ID</b>プロパティは、 <b>AddressEntry</b>の作成時に割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。Outlook セッションは、アドレス帳の階層構造を維持して、返されるアドレス エントリが指定された ID に一致し、アドレス帳のいずれかに必要があります。</para>
+        <remarks><para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、オブジェクトしますが、検索に使用するアカウントの追加コンテキスト情報。 現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの <b>GetAddressEntryFromID</b> メソッドを使用します。 </para>
+          <para><b>AddressEntry</b> の <b>ID</b> プロパティは、 <b>AddressEntry</b> が作成されたときに割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。 Outlook セッションは、アドレス帳の階層構造を維持して、返されるアドレス エントリが指定された ID に一致し、アドレス帳のいずれかに必要があります。</para>
           <para>
-            <b>GetAddressEntryFromID</b>は、指定された ID を持つ項目が見つからない場合、接続が存在しない場合、またはオフラインで作業するユーザーが設定されている場合にエラーを返します</para>。
-          <para /></remarks>
+            <b>GetAddressEntryFromID</b> は、指定された ID を持つ項目が見つからない場合、接続が存在しない場合、またはオフラインで作業するユーザーが設定されている場合にエラーを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -422,14 +401,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</param>
+        <param name="EntryID"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />指定されたエントリ ID によって識別されるオブジェクト</summary>
         <returns>指定されたエントリの ID に関連付けられた受信者を表す<b>Recipient</b>オブジェクトを返します。</returns>
-        <remarks>
-          <para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの<b>GetRecipientFromID</b>メソッドを使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。 現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの <b>GetRecipientFromID</b> メソッドを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IOlkAccount">
@@ -488,10 +464,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -517,13 +491,17 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します</para>。
-          <para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。次のステートメントのペアが同じ機能を実行するたとえば、:</para><code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code><code>Dim objSession As Outlook.NameSpace = Application.Session</code><code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code><code>Outlook.NameSpace objSession = Application.Session;</code><para /></remarks>
+        <remarks><para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SmtpAddress">
@@ -549,14 +527,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますの簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますの簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SmtpAddress</b>の目的と<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />、id を特定のアカウント ベースのコンテキストを提供することです</para>。
-          <para>アカウントが SMTP アドレスを持たない場合<b>SmtpAddress</b>は空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para><b>SmtpAddress</b>の目的と<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />、id を特定のアカウント ベースのコンテキストを提供することです。</para>
+          <para>アカウントが SMTP アドレスを持たない場合、 <b>SmtpAddress</b> は空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserName">
@@ -582,13 +557,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのユーザー名を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのユーザー名を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>目的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /><b>ユーザー名</b>は、id を特定のアカウント ベースのコンテキストを提供することとします</para>。
-          <para>アカウントが定義されているユーザー名、<b>ユーザー名</b>が空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>目的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /><b>ユーザー名</b>は、id を特定のアカウント ベースのコンテキストを提供することとします。</para>
+          <para>アカウントが定義されているユーザー名、 <b>ユーザー名</b> は空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

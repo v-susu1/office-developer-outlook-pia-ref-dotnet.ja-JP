@@ -1,13 +1,5 @@
 <Type Name="_Folders" FullName="Microsoft.Office.Interop.Outlook._Folders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637675" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898061" /></Metadata><TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Folders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Folders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Folders&#xA;Implements IEnumerable" />
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="Name">新しいフォルダーの表示名を指定します。</param>
-        <param name="Type">新しいフォルダーの Outlook フォルダーの種類。 フォルダーの種類を指定しない場合、新しいフォルダーは作成されているフォルダーと同じ型に既定されます。 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />定数: <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、 <b>olFolderTasks</b>のいずれかです。 定数<b>olFolderConflicts</b>、 <b>olFolderDeletedItems</b>、<b>それ</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderManagedEmail</b>、 <b>olFolderOutbox</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderSentMail</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>、 <b>olFolderToDo</b>、および<b>olPublicFoldersAllPublicFolders</b>は、この引数に指定できません。</param>
+        <param name="Type">新しいフォルダーの Outlook フォルダーの種類。 フォルダーの種類が指定されていない場合、新しいフォルダー既定値は、そのフォルダーが作成されたフォルダーと同じ種類になります。 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />定数: <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、 <b>olFolderTasks</b>のいずれかです。 定数<b>olFolderConflicts</b>、 <b>olFolderDeletedItems</b>、<b>それ</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderManagedEmail</b>、 <b>olFolderOutbox</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderSentMail</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>、 <b>olFolderToDo</b>、および<b>olPublicFoldersAllPublicFolders</b>は、この引数に指定できません。</param>
         <summary>新しいフォルダーを作成、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
         <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、新しいフォルダーを表すオブジェクト。</returns>
         <remarks>To be added.</remarks>
@@ -87,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,7 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,10 +163,8 @@
       <Docs>
         <summary>最初のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />コレクションに含まれる最初のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <remarks><para>返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -200,11 +190,8 @@
       <Docs>
         <summary>最後のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />コレクションに含まれている最後のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -230,11 +217,8 @@
       <Docs>
         <summary>次のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />コレクションに含まれている次のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -260,11 +244,8 @@
       <Docs>
         <summary>前のオブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />前に、コレクションに含まれるオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -409,19 +390,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

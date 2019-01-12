@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639461" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900844" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -31,18 +23,22 @@
   </Attributes>
   <Docs>
     <summary>スレッド ビュー内の Microsoft Outlook スレッド ヘッダーを表します。</summary>
-    <remarks>
-      <para>Outlook では、会話は、同じ主題を共有し、同じスレッドに属しているメッセージをグループ化します。会話など、メッセージを取得するときの応答やディスカッションの 2 つ以上を独立して拡張の各応答からの分岐を含めることも。テーマ別ビューでは、フォルダーやストアにわたって同じスレッドのすべてのアイテムが関連しています。アイテムまたはグループ ヘッダーの形式は次のいずれかを会話のヘッダーとして使用することができます:</para>
+    <remarks><para>Outlook では、会話は、同じ主題を共有し、同じスレッドに属しているメッセージをグループ化します。会話など、メッセージを取得するときの応答やディスカッションの 2 つ以上を独立して拡張の各応答からの分岐を含めることも。 テーマ別ビューでは、フォルダーやストアにわたって同じスレッドのすべてのアイテムが関連しています。 会話のヘッダーには、アイテムまたはグループ ヘッダーの形式は次のいずれかを指定できます。</para>
       <list type="bullet">
         <item>
-          <para>1 つのアイテムのみを含むスレッド内のアイテムです</para>
-        </item>。
-        <item><para>、グループ ヘッダーを複数の項目が含まれている会話です</para></item>。
-        <item><para>1 つのスレッドが含まれている会話の最初の項目です</para></item>。
-        <item><para>分割の会話の最初の項目です</para></item>。
+          <para>単一のアイテムのみ含むスレッド内のアイテム。</para>
+        </item>
+        <item>
+          <para>複数のアイテムを含むテーマのグループ ヘッダー。</para>
+        </item>
+        <item>
+          <para>単一のスレッドを含むテーマ内の最初のアイテム。</para>
+        </item>
+        <item>
+          <para>分割テーマ内の最初のアイテム。</para>
+        </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

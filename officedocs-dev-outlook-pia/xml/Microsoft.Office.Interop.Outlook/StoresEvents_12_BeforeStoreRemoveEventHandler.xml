@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_BeforeStoreRemoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="677b41e792ad6cc8d6f0589bbd6666073c4b9617" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638204" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void StoresEvents_12_BeforeStoreRemoveEventHandler(Store Store, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="15c4d24dd96085dd52045d218eb86670ca25ed7c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899496" /></Metadata><TypeSignature Language="C#" Value="public delegate void StoresEvents_12_BeforeStoreRemoveEventHandler(Store Store, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StoresEvents_12_BeforeStoreRemoveEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub StoresEvents_12_BeforeStoreRemoveEventHandler(Store As Store, ByRef Cancel As Boolean)" />
@@ -35,10 +27,8 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Store">
-      <b>ストア</b> ] オブジェクトが現在のセッションから削除されます。</param>
-    <param name="Cancel">
-      <b>True</b> それ以外の場合、 <b>指定されたストア</b> の削除をキャンセルします。</param>
+    <param name="Store"><b>ストア</b> ] オブジェクトが現在のセッションから削除されます。</param>
+    <param name="Cancel"><b>True</b> それ以外の場合、 <b>指定されたストア</b> の削除をキャンセルします。</param>
     <summary>これは、対応するオブジェクトのイベントのデリゲートです。イベントのコールバック メソッドを実装した後、このデリゲートを使用してコールバック メソッドをイベントに接続します。複数のバージョンのイベント インターフェイスがある場合、このデリゲートは Outlook の指定バージョンのイベントのコールバック メソッドを接続します。</summary>
     <remarks>To be added.</remarks>
   </Docs>

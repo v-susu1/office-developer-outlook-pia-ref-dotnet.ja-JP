@@ -1,13 +1,5 @@
 <Type Name="_MailItem" FullName="Microsoft.Office.Interop.Outlook._MailItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8ebd187494220916c18381901c32818abbb42e39" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638048" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MailItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8ebd187494220916c18381901c32818abbb42e39" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901131" /></Metadata><TypeSignature Language="C#" Value="public interface _MailItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MailItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MailItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MailItem" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -83,20 +75,28 @@
       <Docs>
         <param name="contact">電子名刺情報の取得先となる連絡先アイテムを指定します。</param>
         <summary>ベースで、電子名刺 (EBC) に、指定された関連付けられている連絡先の情報を追加<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />オブジェクトを<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。</summary>
-        <remarks>
-          <para>このメソッドは、既存の<b>MailItem</b>オブジェクト、 <b>ContactItem</b>オブジェクトに格納されている情報から生成された連絡先の情報を追加します。含まれる情報の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> 、 <b>MailItem</b>オブジェクトのプロパティ:</para>
+        <remarks><para>このメソッドは、既存の <b>MailItem</b> オブジェクト、 <b>ContactItem</b> オブジェクトに格納されている情報から生成された連絡先の情報を追加します。 含まれる情報の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> 、 <b>MailItem</b>オブジェクトのプロパティ。</para>
           <list type="table">
             <item>
-              <description>プロパティの値</description>の
-              <description>結果</description></item>
+              <description>プロパティ値</description>
+              <description>結果</description>
+            </item>
             <item>
               <description>olFormatPlain</description>
-              <description>vCard (.vcf) ファイルが作成されに追加、MailItem オブジェクトの attachments コレクションです</description>
-            </item>。
-            <item><description>olFormatRichText</description><description>vCard (.vcf) ファイルが作成され、MailItem オブジェクトの Attachments コレクションに追加します</description></item>。
-            <item><description>olFormatHTML</description><description>、名刺のイメージが生成され、MailItem オブジェクトの Body プロパティに含まれていると、vCard (.vcf) ファイルが作成され、MailItem オブジェクトの Attachments コレクションに追加します</description></item></list>。
-          <para><b>注</b>: 添付された vCard ファイルに含まれるで、電子名刺、 <b>ContactItem</b>オブジェクトに関連付けられている連絡先の情報のみが含まれています。電子名刺が表示されていない任意の連絡先情報が vCard ファイルから除外します</para>。
-          <para /></remarks>
+              <description>vCard (.vcf) ファイルが作成され、 MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+            <item>
+              <description>olFormatRichText</description>
+              <description>vCard (.vcf) ファイルが作成され、 MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+            <item>
+              <description>olFormatHTML</description>
+              <description>名刺のイメージが生成されて MailItem オブジェクトの Body プロパティに追加され、さらに vCard (.vcf) ファイルが作成されて MailItem オブジェクトの Attachments コレクションに追加されます。</description>
+            </item>
+          </list>
+          <para>
+            <b>注</b>: 添付された vCard ファイルに含まれるで、電子名刺、 <b>ContactItem</b>オブジェクトに関連付けられている連絡先の情報のみが含まれています。 電子名刺が表示されていない連絡先情報が vCard ファイルから除外されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlternateRecipientAllowed">
@@ -125,8 +125,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) メール メッセージを転送できる場合は<b>True</b>を返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) メール メッセージを転送できる場合は<b>True</b>を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,7 +153,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -182,7 +181,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,7 +212,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アイテムが自動的に転送された場合<b>は True</b>を返します。<b>ブール型</b>(C# では<b>bool</b> ) の値です。 値の取得および設定が可能です。</summary>
+        <summary>アイテムが自動的に転送された場合<b>は True</b>を返します。<b>ブール型</b>(C# では<b>bool</b> ) の値です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,13 +240,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値が<b>False</b>の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。別のアイテムと競合していない項目がある可能性があります</para>。
-          <para>の項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。その一方で、項目が競合している<b>が必要</b>プロパティは<b>False</b>として場合、は、競合の自動解決で優先されなかったデータ</para>。
-          <para /></remarks>
+        <remarks><para>値が <b>False</b> の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。アイテムは、別のアイテムと競合していない可能性があります。</para>
+          <para>項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。 その一方で、アイテムが競合している <b>が必要</b> プロパティは <b>False</b> として、自動競合が解決で優先されなかったデータです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BCC">
@@ -276,13 +273,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのブラインド カーボン コピー (BCC) の名前の一覧の表示を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのブラインド カーボン コピー (BCC) の名前の一覧の表示を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、表示名だけが含まれています。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、BCC 受信者を変更するのにはコレクションを使用する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、表示名だけが含まれています。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、BCC 受信者を変更するのにはコレクションを使用する必要があります。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -311,13 +305,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは、自由形式のテキスト フィールドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -346,14 +337,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" />プロパティでは、プログラムでは、アイテムの本文に使用するエディターを変更することができます。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" />プロパティでは、プログラムでは、アイテムの本文に使用するエディターを変更することができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyFormat">
@@ -382,12 +369,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBodyFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" /> 、本文の形式を示す定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" /> 、本文の形式を示す定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>本文の書式は、メッセージのテキストを表示するために使用する標準を決定します。Microsoft Outlook には、3 つの本文テキストの書式オプションが用意されています: プレーン テキスト、リッチ テキスト (RTF) および HTML</para> 。
-          <para><b>BodyFormat</b>プロパティが RTF から HTML、およびその逆に切り替えられたとき、すべてのテキストの書式設定が失われます</para>。
-          <para /></remarks>
+        <remarks><para>本文テキストの形式は、メッセージのテキストを表示するために使用される標準形式を決定します。Microsoft Outlook には 3 つの本文テキスト形式のオプションがあります (テキスト形式、リッチ テキスト形式 (RTF)、および HTML)。</para>
+          <para><b>BodyFormat</b> プロパティが RTF から HTML、または HTML から RTF に切り替えられると、すべてのテキストの書式設定は失われます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -416,14 +402,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>カテゴリ</b>は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数<b>Split</b>を使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>カテゴリ</b> は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。 このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。 カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数 <b>Split</b> を使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -452,13 +435,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのカーボン コピー (CC) 名の一覧の表示を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのカーボン コピー (CC) 名の一覧の表示を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、表示名だけが含まれています。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> CC 受信者を変更するのにはコレクションを使用する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、表示名だけが含まれています。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> CC 受信者を変更するのにはコレクションを使用する必要があります。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -484,7 +464,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -536,10 +516,8 @@
       <Parameters />
       <Docs>
         <summary>クリア、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトに仕事です。</summary>
-        <remarks>
-          <para>このメソッドを呼び出し、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティを<b>False</b>にします。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドを呼び出し、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティを<b>False</b>にします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -596,13 +574,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは、自由形式のテキスト フィールドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、自由形式のテキスト フィールドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -628,7 +603,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。  値の取得のみ可能です。</summary>
+        <summary>返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -656,13 +631,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトに属しています。 値の取得のみ可能です。</summary>
+        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトに属しています。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティでは、会話に項目を関連付けます。これらの項目との会話をすべての<b>ConversationID</b>プロパティに同じ値がある</para>。
-          <para>このプロパティは、MAPI プロパティの<b>PidTagConversationId</b>に対応します</para>。
-          <para>に対してこのプロパティの Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server のオンライン モードで Outlook が実行されている場合または Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook の<b>MailItem</b>オブジェクトが作成されている場合同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ConversationTopic" />プロパティ</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、アイテムを会話に関連付けます。これらのアイテムと、会話の <b>ConversationID</b> プロパティで同じ値であります。</para>
+          <para>このプロパティが MAPI プロパティ <b>PidTagConversationId</b> に対応しています。</para>
+          <para><b>MailItem</b>オブジェクトが Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、またはに対してこのプロパティの Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server のオンライン モードで Outlook が実行されている場合同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ConversationTopic" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -688,8 +662,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -717,8 +690,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -772,12 +744,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagCreationTime</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagCreationTime</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -806,12 +776,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>メール メッセージは、配信する日時を示す<b>DateTime</b>を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary>メール メッセージは、配信する日時を示す<b>DateTime</b>を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagDeferredDeliveryTime</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagDeferredDeliveryTime</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -836,10 +804,9 @@
       <Parameters />
       <Docs>
         <summary>アイテムを含むフォルダーからアイテムを削除します。</summary>
-        <remarks>
-          <para>
-            <b>Delete</b>メソッドは、コレクション内の 1 つの項目を削除します。すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作の項目を削除します</para>。
-          <para>は、削除メソッドは、親フォルダーからアイテムを削除済みアイテム フォルダーに移動します。<b>Delete</b>メソッドが項目を完全に削除され、含まれているフォルダーが削除済みアイテム フォルダーの場合は、.</para><para /></remarks>
+        <remarks><para><b>Delete</b> メソッドは、コレクション内の単一のアイテムを削除します。 すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。 などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作でアイテムを削除します。</para>
+          <para>Delete メソッドは、アイテムをそのフォルダーから [ 削除済みアイテム] フォルダーに移動します。アイテムを含むフォルダーが [ 削除済みアイテム] フォルダーである場合は、 <b>Delete</b> メソッドは、アイテムを完全に削除します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -868,7 +835,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはが送信され、 <b>False</b>のときに、コピーが保存されている場合、メール メッセージのコピーを保存しない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはが送信され、 <b>False</b>のときに、コピーが保存されている場合、メール メッセージのコピーを保存しない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -895,13 +862,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
+        <param name="Modal"><b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
         <summary>新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</summary>
-        <remarks>
-          <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
-          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
-          <para /></remarks>
+        <remarks><para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。 エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</para>
+          <para>Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -927,7 +892,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。 値の取得のみ可能です。</summary>
+        <summary>属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -992,12 +957,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagEntryId</b>に対応します</para>。
-          <para>MAPI ストア プロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b>プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b>プロパティが一意になるアイテムが移動しない限りに依存する必要があります。<b>EntryID</b>プロパティは MAPI 長期エントリ ID を返します。詳細についての時間の長いのおよび short 的なエントリ Id、 http://msdn.microsoft.com <b>PidTagEntryId</b>のです。</para><para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの PR_CREATION_TIME に対応しています。 <b>PidTagEntryId</b></para>
+          <para>MAPI ストアのプロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b> プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、 受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b> プロパティが一意になるアイテムが移動しない限りに依存する必要があります。 <b>EntryID</b> プロパティは MAPI 長期エントリ ID を返します。詳細情報に関する長期的および short 的な entryid を代入、http://msdn.microsoft.com の <b>PidTagEntryId</b> を検索してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -1026,7 +990,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>日付と時刻項目は無効になります削除することができますを示す<b>日付時刻</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>日付と時刻項目は無効になります削除することができますを示す<b>日付時刻</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1131,12 +1095,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) をメール アイテムに対して要求されたアクションを示します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定の<b>文字列</b>(C# では<b>文字列</b>) をメール アイテムに対して要求されたアクションを示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定では、メール アイテムは、フラグでマークされていないと、このプロパティの既定値は、空の文字列。<b>FlagRequest</b>の値は、ユーザー インターフェイスを介して、またはプログラムによって設定できます。<b>FlagRequest</b>の既定値をユーザー インターフェイスからフラグを持つメール アイテムをマークするときは、「フォロー アップ」します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定では、メール アイテムは、フラグでマークされていないと、このプロパティの既定値は、空の文字列。 <b>FlagRequest</b> の値は、ユーザー インターフェイスを介して、またはプログラムによって設定できます。 <b>FlagRequest</b> の既定値をユーザー インターフェイスからフラグを持つメール アイテムをマークするときは、「フォロー アップ」します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -1199,7 +1161,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1252,19 +1214,24 @@
       <Parameters />
       <Docs>
         <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</summary>
-        <returns>
-          <b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。次のシナリオ内の項目の会話がありません:</para>
+        <returns><b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</returns>
+        <remarks><para>
+            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。 次のシナリオ内の項目の会話は存在しません。</para>
           <list type="bullet">
             <item>
-              <para>アイテムが保存されていません。自動保存、ユーザーの操作によって、項目をプログラムでは、保存できます</para>
-            </item>。
-            <item><para>(たとえば、メール アイテム、予定アイテムや連絡先アイテム) の送信可能なアイテム、アイテムが送信されていません</para></item>。
-            <item><para>の会話は、Windows レジストリを使用して無効になっています</para></item>。
-            <item><para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです</para></item></list>。
-          <para /></remarks>
+              <para>アイテムが保存されていません。 アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</para>
+            </item>
+            <item>
+              <para>送信可能なアイテム (メール アイテム、予定アイテム、連絡先アイテムなど) が送信されていない。</para>
+            </item>
+            <item>
+              <para>Windows レジストリによって、スレッドが無効になっている。</para>
+            </item>
+            <item>
+              <para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。 使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1290,12 +1257,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasCoverSheet">
@@ -1361,14 +1326,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を取得または指定した項目の HTML 本文を表します。  値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または指定した項目の HTML 本文を表します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>HTMLBody</b>プロパティは、HTML 構文の文字列をする必要があります</para>。
-          <para>設定<b>HTMLBody</b>プロパティは常に更新、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Body" />プロパティをすぐにします</para>。
-          <para /></remarks>
+        <remarks><para><b>HTMLBody</b> プロパティ、HTML 構文の文字列があります。</para>
+          <para>設定<b>HTMLBody</b>プロパティは常に更新、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Body" />プロパティをすぐにします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1397,12 +1359,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagImportance</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagImportance</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1431,12 +1391,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、アイテムで使用するインターネット コード ページを決定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、アイテムで使用するインターネット コード ページを決定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>インターネット コード ページは、アイテムで使用するテキスト エンコード方式を定義します。</para>
-          <para />
-        </remarks>
+        <remarks><para>インターネット コード ページによって、アイテムで使用するテキスト エンコード スキームが定義されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1462,13 +1420,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b>プロパティは<b>True</b>を返します</para>。
-          <para>かどうか<b>は True</b>、指定した項目が競合している</para>。
-          <para /></remarks>
+        <remarks><para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b> プロパティは <b>True</b> を返します。</para>
+          <para>場合 <b>は True</b> 、指定した項目が競合します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsIPFax">
@@ -1531,7 +1487,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />タスクとしてマークされます。 値の取得のみ可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />タスクとしてマークされます。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1559,13 +1515,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>名前</b>またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>名前</b> またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1591,12 +1544,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagLastModificationTime</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagLastModificationTime</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1684,13 +1635,10 @@
         <Parameter Name="MarkInterval" Type="Microsoft.Office.Interop.Outlook.OlMarkInterval" />
       </Parameters>
       <Docs>
-        <param name="MarkInterval">
-          <b>MailItem</b> の仕事の間隔をします。</param>
+        <param name="MarkInterval"><b>MailItem</b> の仕事の間隔をします。</param>
         <summary>マーク、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトをタスクとしてタスク オブジェクトの間隔を割り当てます。</summary>
-        <remarks>
-          <para>指定された値によって、他のいくつかのプロパティの値を設定してこのメソッドを呼び出すと<paramref name="MarkInterval" />。指定することによって設定されたプロパティの詳細については<paramref name="MarkInterval" />を参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>指定された値によって、他のいくつかのプロパティの値を設定してこのメソッドを呼び出すと<paramref name="MarkInterval" />。 指定することによって設定されたプロパティの詳細については<paramref name="MarkInterval" />を参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1719,12 +1667,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、あまり理想的データ転送機能メッセージングの柔軟性が向上のリモート ユーザーを示します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティによって、メッセージングの柔軟性が向上したデータ転送機能がリモート ユーザーに提供されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1753,13 +1699,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1788,13 +1731,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>これは自由形式の文字列フィールドで、払い戻しの目的の項目 (たとえば、100 マイル、予定、連絡先、またはタスクの説明) に関連付けられた経費情報を保存するのには使用することができます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは自由形式のテキスト フィールドです。アイテムに関連付けられた経費情報を保存するために使用されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1820,8 +1760,7 @@
         <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="DestFldr">
-          <b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </param>
+        <param name="DestFldr"><b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </param>
         <summary>Microsoft Outlook アイテムを別のフォルダーへ移動します。</summary>
         <returns>移動先のフォルダーに移動されたアイテムを表すオブジェクト型 ( <b>Object</b>) の値。</returns>
         <remarks>To be added.</remarks>
@@ -1853,7 +1792,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1884,13 +1823,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定を決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定するかどうか、会議やメールのメッセージが配信レポートを受信します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定を決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定するかどうか、会議やメールのメッセージが配信レポートを受信します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>メッセージを処理するトランスポート プロバイダーに送信する配信ごとに、受信者の名前とアドレスが含まれている 1 つの配信通知します。配信では、メッセージが開封されたことを意味しません。True を設定すると、メッセージの配信確認を要求していた。</para>
-          <para>
-            <b>OriginatorDeliveryReportRequested</b>プロパティは、MAPI プロパティの<b>PidTagOriginatorDeliveryReportRequested</b>に対応します</para>。
-          <para /></remarks>
+        <remarks><para>メッセージを制御するトランスポート プロバイダーごとに、受信者の名前とアドレスを含む通知メッセージが送信されます。通知メッセージが送信されても、メッセージが開封されたとは限りません。送信者が配信済みメッセージを要求していた場合は、 True に設定されます。</para>
+          <para><b>OriginatorDeliveryReportRequested</b> プロパティは、MAPI プロパティの <b>PidTagOriginatorDeliveryReportRequested</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -1916,7 +1853,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1944,8 +1881,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2004,13 +1940,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPermission</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" />電子メール アイテムが、受信者のアクセス許可を決定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" />電子メール アイテムが、受信者のアクセス許可を決定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>同期する<b>ためのアクセス許可</b>は、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionTemplateGuid" /><b>SharingItem</b>のアクセス許可の状態を正確に反映するプロパティです。<b>PermissionTemplateGuid</b>プロパティを有効な GUID に設定する必要がありますもが発生する<b>アクセス許可</b>のプロパティを設定する<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。</para>
-          <para>情報権利管理 (IRM) が設定されていない場合 (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)、(である場合、<b>アクセス許可</b>プロパティは、 <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />)、 <b>PermissionTemplateGuid</b>プロパティの値が空の文字列にする必要があります</para>。
-          <para>2007 Microsoft Office システムまたはそれ以降のバージョンを実行している任意のコンピューターで IRM で保護されたコンテンツを表示できますが、Microsoft Office Professional Edition 2003、Microsoft Office Outlook 2007 では、またはそれ以降のバージョンの Outlook を作成するがある必要がありますかIRM で保護された電子メールを送信します</para>。
-          <para /></remarks>
+        <remarks><para>同期する<b>ためのアクセス許可</b>は、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionTemplateGuid" /> <b>SharingItem</b>のアクセス許可の状態を正確に反映するプロパティです。 <b>PermissionTemplateGuid</b>プロパティを有効な GUID に設定する必要がありますもが発生する<b>アクセス許可</b>のプロパティを設定する<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。 </para>
+          <para>情報権利管理 (IRM) が設定されていません (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)、制限は、 <b>SharingItem</b>を転送しないように、または (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />) の値<b>PermissionTemplateGuid</b>プロパティは、空白にする必要があります。</para>
+          <para>IRM で保護されているコンテンツは、2007 Microsoft Office system 以降を実行中の任意のコンピューターで閲覧できますが、IRM で保護された電子メールを作成または送信するには、Microsoft Office Professional Edition 2003、Microsoft Office Outlook 2007、またはそれ以降のバージョンの Outlook が必要です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionService">
@@ -2039,12 +1974,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPermissionService</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" />の情報権利管理 (IRM) によって保護されているメッセージを送信するときに使用されるアクセス許可サービスを決定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" />の情報権利管理 (IRM) によって保護されているメッセージを送信するときに使用されるアクセス許可サービスを決定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、特定の SMTP アドレスの 1 つ以上のアクセス許可 id がある場合にのみ便利です</para>。
-          <para>2007 Microsoft Office システムまたはそれ以降のバージョンを実行している任意のコンピューターで IRM で保護されたコンテンツを表示するときにを作成または送信するには、Microsoft Office Professional Edition 2003、Microsoft Office Outlook 2007 では、またはそれ以降のバージョンの Outlook がある必要があります。IRM によって保護されている電子メール</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、特定の SMTP アドレスに対して複数のアクセス許可 ID を持っている場合にのみ役立ちます。 </para>
+          <para>IRM で保護されている内容は、2007 Microsoft Office system 以降を実行中の任意のコンピューターで閲覧できますが、IRM で保護された電子メールを作成または送信するには、Microsoft Office Professional Edition 2003 または Microsoft Office Outlook 2007 以降が必要です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionTemplateGuid">
@@ -2073,14 +2007,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>適用するテンプレート ファイルの GUID を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />の情報権利管理 (IRM) アクセス許可を指定するためにします。 値の取得および設定が可能です。</summary>
+        <summary>適用するテンプレート ファイルの GUID を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />の情報権利管理 (IRM) アクセス許可を指定するためにします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、 <b>MailItem</b>オブジェクトに IRM プロパティを補完するもの。<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Permission" />プロパティと<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionService" />のプロパティ</para>。
-          <para>具体的には、 <b>PermissionTemplateGuid</b>プロパティは、 <b>MailItem</b>のアクセス許可の状態を正確に反映する<b>ためのアクセス許可</b>のプロパティと同期するようにします。<b>PermissionTemplateGuid</b>プロパティを有効な GUID に設定する必要がありますもが発生する<b>アクセス許可</b>のプロパティを設定する<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />です</para>。
-          <para><b>PermissionTemplateGuid</b>の空の文字列値のプロパティは、 <b>MailItem</b>に指定されたアクセス許可のテンプレート ファイルがないことを意味します。例では、IRM が設定されていません (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)、制限は<b>MailItem</b>を転送しないように、または (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />) です</para>。
-          <para>受信メッセージ用の<b>PermissionTemplateGuid</b>プロパティを設定しようとするかどうか (つまり、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /><b>MailItem</b>のプロパティが<b>True</b>)、Microsoft Outlook はエラーを返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、 <b>MailItem</b>オブジェクトに IRM プロパティを補完するもの。<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Permission" />プロパティと<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionService" />のプロパティです。</para>
+          <para>具体的には、 <b>PermissionTemplateGuid</b> プロパティは、 <b>MailItem</b> のアクセス許可の状態を正確に反映する <b>ためのアクセス許可</b> プロパティを使用して同期する必要があります。 <b>PermissionTemplateGuid</b>プロパティを有効な GUID に設定する必要がありますもが発生する<b>アクセス許可</b>のプロパティを設定する<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。</para>
+          <para><b>PermissionTemplateGuid</b> プロパティに空の文字列値は、 <b>MailItem</b> に指定されたアクセス許可のテンプレート ファイルがないことを意味します。 例では、IRM が設定されていません (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)、制限は<b>MailItem</b>を転送しないように、または (<b>アクセス許可</b>のプロパティの場合は<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />)。</para>
+          <para>受信メッセージ用の<b>PermissionTemplateGuid</b>プロパティを設定しようとするかどうか (つまり、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> <b>MailItem</b>のプロパティが<b>True</b>)、Microsoft Outlook はエラーを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrintOut">
@@ -2131,7 +2064,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2164,10 +2097,8 @@
       <Docs>
         <summary>送信者が開封確認メッセージが要求された場合<b>は True</b>を示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagReadReceiptRequested</b>に対応します。作成されているが、送信または投稿はされていない電子メール アイテムの読み取り/書き込み読み取り専用の電子メール アイテムを送信します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagReadReceiptRequested</b> に対応します。作成されているが、送信または投稿はされていない電子メール アイテムの読み取り/書き込み読み取り専用の電子メール アイテムを送信します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByEntryID">
@@ -2193,12 +2124,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>文字列</b>(C# では<b>文字列</b>) を返す、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />のメッセージを配信するトランスポート プロバイダーによって設定された受信者。 値の取得のみ可能です。</summary>
+        <summary>示す<b>文字列</b>(C# では<b>文字列</b>) を返す、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />のメッセージを配信するトランスポート プロバイダーによって設定された受信者。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagReceivedByEntryId</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagReceivedByEntryId</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByName">
@@ -2224,13 +2153,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 メッセージの受信者の名前を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 メッセージの受信者の名前を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagReceivedByName</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagReceivedByName</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfEntryID">
@@ -2256,12 +2182,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>文字列</b>(C# では<b>文字列</b>) を返す、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />をメール メッセージの受信者を表す代理。 値の取得のみ可能です。</summary>
+        <summary>示す<b>文字列</b>(C# では<b>文字列</b>) を返す、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />をメール メッセージの受信者を表す代理。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagReceivedRepresentingEntryId</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagReceivedRepresentingEntryId</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfName">
@@ -2287,13 +2211,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 メール メッセージの受信者を表すために委任されたユーザーの表示名を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 メール メッセージの受信者を表すために委任されたユーザーの表示名を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagReceivedRepresentingName</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagReceivedRepresentingName</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedTime">
@@ -2319,7 +2240,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アイテムが受信された日時を示す<b>DateTime</b>を返します。 値の取得のみ可能です。</summary>
+        <summary>アイテムが受信された日時を示す<b>DateTime</b>を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2350,7 +2271,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返しますが、<b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定すると、受信者はメール メッセージを転送できません</b>。 値の取得および設定が可能です。</summary>
+        <summary>返しますが、<b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定すると、受信者はメール メッセージを転送できません</b>。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2378,12 +2299,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての受信者を表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての受信者を表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>受信者は、受信者の表示名、エイリアス、または完全な SMTP 電子メール アドレスを表す文字列で指定できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>受信者の指定には、その受信者の表示名、エイリアス、または完全な SMTP 電子メール アドレスを表す文字列を使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -2412,12 +2331,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アラームは、アイテムの既定のアラーム設定をオーバーライドする場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>アラームは、アイテムの既定のアラーム設定をオーバーライドする場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>検証するのには、 <b>ReminderOverrideDefault</b>プロパティを設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" />と<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" />のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>検証するのには、 <b>ReminderOverrideDefault</b>プロパティを設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" />と<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" />のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2446,13 +2363,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、アラームはこの項目の発生時にサウンドを再生する必要がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、アラームはこの項目の発生時にサウンドを再生する必要がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ReminderPlaySound</b>プロパティを検証するために設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ReminderPlaySound</b>プロパティを検証するために設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" />プロパティ。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2481,7 +2395,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2512,13 +2426,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのアラームが発生したときに再生するサウンド ファイルのパスとファイル名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのアラームが発生したときに再生するサウンド ファイルのパスとファイル名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは有効な場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderOverrideDefault" />と<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" />プロパティが<b>True</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは有効な場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderOverrideDefault" />と<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" />プロパティが<b>True</b>に設定します。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2547,7 +2458,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したアイテムについてアラームが発生する日時を示す<b>DateTime</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>指定したアイテムについてアラームが発生する日時を示す<b>DateTime</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2578,7 +2489,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> 、メール メッセージのリモートの状態を指定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> 、メール メッセージのリモートの状態を指定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2658,12 +2569,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>メール メッセージの返信受信者のセミコロン区切りの<b>文字列</b>(C# では<b>文字列</b>) のリストを返します。  値の取得のみ可能です。</summary>
+        <summary>メール メッセージの返信受信者のセミコロン区切りの<b>文字列</b>(C# では<b>文字列</b>) のリストを返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>のみ、このプロパティには、返信受信者の表示名が含まれています。返信の宛先リストを使用して設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReplyRecipients" />コレクションです。</para>
-          <para />
-        </remarks>
+        <remarks><para>のみ、このプロパティには、返信受信者の表示名が含まれています。 返信の宛先リストを使用して設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReplyRecipients" />コレクションです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyRecipients">
@@ -2689,7 +2598,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての返信受信者オブジェクトを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての返信受信者オブジェクトを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2717,15 +2626,24 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:System.DateTime" />日付を指定する値と、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />有効期限が切れる、メッセージング レコード管理 (MRM) のアシスタントになるアイテムが削除されます。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:System.DateTime" />日付を指定する値と、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />有効期限が切れる、メッセージング レコード管理 (MRM) のアシスタントになるアイテムが削除されます。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A の保持ポリシーが有効になり、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になります。この機能は、利用可能な Exchange Server 2010 のメールボックスにのみ MRM 2.0 が有効になっているとします。</para>
-          <para>Microsoft Outlook が Outlook がキャッシュ モードまたはオフライン モードである場合、アイテムの保存期間の開始日と保存期間に基づいて、このプロパティの値を計算します。Outlook がオンライン モードである場合、Exchange Server が値を指定します</para>。
-          <para>一般的に、保存期間の開始日項目は次のように特定:</para><list type="bullet"><item><para>受信または送信済みアイテム: 保存期間の開始日は、受信した日付です</para></item>。
-            <item><para>臨時の予定表アイテム: 保存期間の開始日は、予定の終了日</para></item>。
-            <item><para>の定期的な予定表アイテム: 最後の定期的なアイテムの終了日は、保存期間の開始日。終了日がない場合は、アイテムを無期限します</para></item></list>。
-          <para /><para /></remarks>
+        <remarks><para>リテンション ・ ポリシーが有効になり、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になります。 この機能は、利用可能な Exchange Server 2010 のメールボックスにのみ MRM 2.0 が有効になっているとします。 </para>
+          <para>Microsoft Outlook がキャッシュ モードまたはオフライン モードの場合、このプロパティの値はアイテムの保有期間の開始日と保有期間に基づいて計算され、オンライン モードの場合は、Exchange サーバーによって値が指定されます。</para>
+          <para>一般的に、アイテムの保有期間の開始日は次のようにして決まります。</para>
+          <list type="bullet">
+            <item>
+              <para>受信または送信したアイテム: 保有期間の開始日は受信日になります。</para>
+            </item>
+            <item>
+              <para>定期的でない予定表アイテム: 保有期間の開始日は予定の終了日になります。</para>
+            </item>
+            <item>
+              <para>定期的な予定表アイテム: 保有期間の開始日は最後の繰り返しの終了日になります。終了日がない場合、アイテムの期限はありません。</para>
+            </item>
+          </list>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -2751,13 +2669,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を指定する保持ポリシーの名前を返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を指定する保持ポリシーの名前を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>保存が有効になっているし、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になっています。機能は、Exchange Server 2010 のメールボックスのメッセージング レコード管理 (MRM) 2.0 が有効になっている上でのみ使用します。保持ポリシー名の例は、「クイック検索の有効期限を定義する時間の間隔」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>保存が有効になっているし、メールボックス レベルでの Microsoft Exchange Server の管理者によって無効になっています。 機能は、Exchange Server 2010 のメールボックスのメッセージング レコード管理 (MRM) 2.0 が有効になっている上でのみ使用します。 保持ポリシー名の例は、「クイック検索の有効期限を定義する時間の間隔」です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -2786,12 +2701,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2816,10 +2729,8 @@
       <Parameters />
       <Docs>
         <summary>現在のフォルダーに Outlook アイテムを保存または項目の種類の既定の Outlook フォルダーに、新しいアイテムの場合です。</summary>
-        <remarks>
-          <para>メール アイテムが、インラインの返信の場合は、メール アイテムの<b>保存</b>の呼び出しは失敗して予期しない動作が発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>メール アイテムが、インラインの返信の場合は、メール アイテムに <b>Save</b>を呼び出すことは失敗して予期しない動作が発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveAs">
@@ -2848,10 +2759,8 @@
         <param name="Path">アイテムを保存するパスを指定します。</param>
         <param name="Type">保存するファイルの種類です。 内の定数のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" />列挙体です。</param>
         <summary>Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</summary>
-        <remarks>
-          <para>ことに注意して<b>olDoc</b>は、有効な<b>OlSaveAsType</b>定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>ことに注意して <b>olDoc</b> は、有効な <b>OlSaveAsType</b> 定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b> 定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2877,7 +2786,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2908,7 +2817,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を送信した電子メール メッセージのコピーが保存されるフォルダーを表すオブジェクト。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を送信した電子メール メッセージのコピーが保存されるフォルダーを表すオブジェクト。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2935,11 +2844,8 @@
       <Parameters />
       <Docs>
         <summary>電子メールメッセージを送信します。</summary>
-        <remarks>
-          <para>
-            <b>Send</b>メソッドは、セッションに対して指定された既定のアカウントを使用してアイテムを送信します。セッションでは、複数の Microsoft Exchange アカウントがプロファイルに定義されている、最初の Exchange アカウントをプロファイルに追加プライマリの Exchange アカウントは、セッションの既定のアカウントは、また。アイテムを送信する別のアカウントを指定するには、設定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SendUsingAccount" />に必要なプロパティ<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトし、し、 <b>Send</b>メソッドを呼び出します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Send</b> メソッドは、そのセッションに指定された既定のアカウントを使用してアイテムを送信します。 プロファイルに複数の Microsoft Exchange アカウントが設定されているセッションでは、プロファイルに最初に追加された Exchange アカウントが、プライマリ Exchange アカウントになり、そのセッションの既定のアカウントになります。 アイテムを送信する別のアカウントを指定するには、設定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SendUsingAccount" />に必要なプロパティ<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトし、し、 <b>Send</b>メソッドを呼び出します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sender">
@@ -2968,12 +2874,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />元のアカウントのユーザーに対応するオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />送信されます。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />元のアカウントのユーザーに対応するオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />送信されます。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロファイルで複数のアカウントが定義されているセッションでは、メール アイテムの送信元のアカウントを指定するには、このプロパティを設定できます。表されるユーザーの<b>AddressEntry</b>オブジェクトにこのプロパティを設定します<see cref="P:Microsoft.Office.Interop.Outlook._Account.CurrentUser" />特定のアカウントのプロパティ</para>。
-          <para>場合は、そのアカウントのメッセージを送信するアクセス許可がない<b>AddressEntry</b>に<b>送信者</b>のプロパティを設定すると、Outlook でエラーが発生します</para>。
-          <para /></remarks>
+        <remarks><para>プロファイルに複数のアカウントが定義されているセッションでは、このプロパティを設定して、メール アイテムを送信するアカウントを指定できます。 表されるユーザーの<b>AddressEntry</b>オブジェクトにこのプロパティを設定します<see cref="P:Microsoft.Office.Interop.Outlook._Account.CurrentUser" />特定のアカウントのプロパティです。</para>
+          <para>そのアカウントにメッセージを送信するアクセス許可がない<b>AddressEntry</b>に<b>送信者</b>のプロパティを設定すると、Outlook はエラーを発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -2999,13 +2904,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す、Outlook アイテムの送信者の電子メール アドレスを返します。   値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す、Outlook アイテムの送信者の電子メール アドレスを返します。   読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSenderEmailAddress</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSenderEmailAddress</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -3031,8 +2933,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す 'SMTP' がインターネット アドレスを Microsoft Exchange サーバーのアドレスなどの ' EX' などの Outlook アイテムの送信者の電子メール アドレスのエントリの種類を返します。読み取り専用です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す 'SMTP' がインターネット アドレスを Microsoft Exchange サーバーのアドレスなどの ' EX' などの Outlook アイテムの送信者の電子メール アドレスのエントリの種類を返します。読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3060,13 +2961,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの送信者の表示名を示します。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの送信者の表示名を示します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSenderName</b>に対応します</para>。
-          <para>送信者の完全修飾の電子メール アドレスを取得する場合を使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SenderEmailAddress" />プロパティ</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSenderName</b> に対応します。</para>
+          <para>送信者の完全修飾の電子メール アドレスを取得する場合を使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SenderEmailAddress" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -3095,13 +2994,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />アカウントを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />は、送信することです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />アカウントを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />は、送信することです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SendUsingAccount</b>プロパティを使用して、 <b>MailItem</b>の送信に使用するアカウントを指定することと、<see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッドが呼び出されます。<b>MailItem</b>の指定されたアカウントが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SendUsingAccount</b>プロパティを使用して、 <b>MailItem</b>の送信に使用するアカウントを指定することと、<see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッドが呼び出されます。 <b>MailItem</b>の指定されたアカウントが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -3130,12 +3026,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。 値の取得および設定が可能です。</summary>
+        <summary>定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSensitivity</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSensitivity</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -3161,12 +3055,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>メッセージが送信されたかどうかであることを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>メッセージが送信されたかどうかであることを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>一般に、3 つの異なる種類のメッセージがある: 送信、投稿、および保存します。送信済みメッセージは、受信者またはパブリック フォルダーに送信されたアイテムです。投稿されたメッセージは、パブリック フォルダーに作成されます。保存されたメッセージが作成され、送信または投稿せずに保存されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>通常、メッセージには送信済み、投稿済み、および保存の 3 つの状態があります。送信済みメッセージは、パブリック フォルダーまたは受信者に送信されたアイテムです。投稿済みのメッセージは、パブリック フォルダーに作成されたメッセージです。保存されたメッセージは、作成して保存した状態の、まだ送信も投稿もしていないメッセージです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -3192,12 +3084,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが送信された日時を示す<b>DateTime</b>を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムが送信された日時を示す<b>DateTime</b>を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagClientSubmitTime</b>に対応します。オブジェクトを使用してアイテムを送信するとき<see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッドでは、トランスポート プロバイダーの設定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" />との<b>SentOn</b>プロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagClientSubmitTime</b> に対応します。 オブジェクトを使用してアイテムを送信するとき<see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッドでは、トランスポート プロバイダーの設定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" />との<b>SentOn</b>プロパティです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOnBehalfOfName">
@@ -3226,13 +3116,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 意図したメール メッセージの送信者の表示名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 意図したメール メッセージの送信者の表示名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSentRepresentingName</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSentRepresentingName</b> に対応しています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -3258,19 +3145,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -3321,7 +3205,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3352,13 +3236,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagSubject</b>に対応します。<b>Subject</b>プロパティは、Outlook アイテムの既定のプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSubject</b> に対応します。 <b>Subject</b> プロパティは、Outlook アイテムの既定のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -3384,12 +3265,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アイテムが送信された場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>アイテムが送信された場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>常にメッセージが作成され、通常、[送信トレイ] フォルダーに送信します。</para>
-          <para />
-        </remarks>
+        <remarks><para>作成されたメッセージは、通常は 送信トレイに送信されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -3418,12 +3297,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの終了日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの終了日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3452,12 +3329,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの締め切り日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの締め切り日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3486,12 +3361,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このタスクの開始日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>このタスクの開始日を表す<b>DateTime</b>値を取得または設定<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3520,12 +3393,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>仕事の件名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>仕事の件名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値を取得、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Subject" />プロパティ場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値を取得、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Subject" />プロパティ場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="To">
@@ -3554,12 +3425,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムに受信者の表示名のセミコロン区切りの<b>文字列</b>(C# では<b>文字列</b>) のリストを設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>Outlook アイテムに受信者の表示名のセミコロン区切りの<b>文字列</b>(C# では<b>文字列</b>) のリストを設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、表示名だけが含まれています。To プロパティは、MAPI プロパティの<b>PidTagDisplayTo</b>に対応します。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />このプロパティを変更するのにはコレクションを使用する必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、表示名だけが含まれています。 Toプロパティは、MAPI プロパティの <b>PidTagDisplayTo</b> に対応します。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />このプロパティを変更するのにはコレクションを使用する必要があります。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -3588,12 +3457,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>仕事の序数値を表す<b>DateTime</b>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得および設定が可能です。</summary>
+        <summary>仕事の序数値を表す<b>DateTime</b>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します</para>。
-          <para>今日] グループや [明日] グループの [to do バーなど、親グループ内のタスクの注文方法を示すためにこのプロパティを使用します。このプロパティで使用する値への値の関係を持たない、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskStartDate" />、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskDueDate" />、または<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskCompletedDate" />プロパティ</para>。
-          <para /></remarks>
+        <remarks><para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の) 場合、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" />プロパティが<b>False</b>に設定します。</para>
+          <para>このプロパティは、[ To Do バー] の [ 今日] グループや [ 明日] グループなど、親グループ内のタスクを順序付ける方法を指定するために使用します。 このプロパティで使用する値への値の関係を持たない、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskStartDate" />、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskDueDate" />、または<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskCompletedDate" />のプロパティです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">
@@ -3622,7 +3490,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3650,7 +3518,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3681,12 +3549,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>投票が含まれている区切り記号付きの文字列は、メッセージのオプションを指定する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>投票が含まれている区切り記号付きの文字列は、メッセージのオプションを指定する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、複数の投票オプションの区切り記号として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティでは、Windows レジストリの HKEY_CURRENT_USER¥Control Panel¥International で値名 sList に指定された文字を、複数の返信オプションの区切り記号として使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="VotingResponse">
@@ -3715,13 +3581,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、メール メッセージの返信を指定します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、メール メッセージの返信を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このは、通常プロパティによって返される区切られた値のいずれかに、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" /> 、元のメッセージに返信するプロパティです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このは、通常プロパティによって返される区切られた値のいずれかに、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" /> 、元のメッセージに返信するプロパティです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

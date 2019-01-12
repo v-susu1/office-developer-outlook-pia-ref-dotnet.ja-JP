@@ -1,13 +1,5 @@
 <Type Name="NoteItem" FullName="Microsoft.Office.Interop.Outlook.NoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c3c651b8fa7c6452466bc3e9898b37e5e8be0166" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637594" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f03425335f748dee3a57be5302c258bb5ff2355f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898607" /></Metadata><TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NoteItem implements class Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface NoteItem&#xA;Implements _NoteItem" />
@@ -31,13 +23,12 @@
   </Attributes>
   <Docs>
     <summary>メモ フォルダー内のメモを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />。</para>
-      <para>の<b>件名</b>はカスタマイズできません。新しいメモを開くことがわかりますそれをデザイン時に配置することはできません</para>。
-      <para>、 <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" /><b>件名</b>のプロパティは読み取り専用で、メモの本文から計算されます。<b>件名</b>ではまた、<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" />は、必ずリッチ テキスト、HTML や Microsoft Word のコンテンツに対応するプロパティは適用されませんので。ですが、<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" />プロパティは、使用のノート、ノートをカスタマイズすることはできません、いくつかの<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />のプロパティ、メソッド、およびイベントは、<b>件名</b>のオブジェクトには適用されません</para>。
-      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> 、新しいメモを表す<b>件名</b>オブジェクトを作成します</para>。
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />)、どこで<paramref name="index" />は、メモまたはメモ フォルダーから 1 つの<b>件名</b>オブジェクトを取得するのには、メモの既定のプロパティに一致する値のインデックス番号です</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />。 </para>
+      <para>の <b>件名</b> は、カスタマイズ可能ではありません。新しいメモを開く場合、デザイン時に配置することはできませんが表示されます。</para>
+      <para><see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" /> <b>件名</b>のプロパティは読み取り専用で、メモの本文から計算されます。 <b>件名</b>ではまた、<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" />は、必ずリッチ テキスト、HTML や Microsoft Word のコンテンツに対応するプロパティは適用されませんので。 ですが、<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" />プロパティは、使用のノート、ノートをカスタマイズすることはできません、いくつかの<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />のプロパティ、メソッド、およびイベントは、<b>件名</b>のオブジェクトには適用されません。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> 、新しいメモを表す<b>件名</b>オブジェクトを作成します。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />)、どこで<paramref name="index" />は、メモまたはメモ フォルダーから 1 つの<b>件名</b>オブジェクトを取得するのには、メモの既定のプロパティに一致する値のインデックス番号です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_Reminder" FullName="Microsoft.Office.Interop.Outlook._Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637800" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901761" /></Metadata><TypeSignature Language="C#" Value="public interface _Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Reminder" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,8 +73,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,7 +101,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,11 +128,8 @@
       <Parameters />
       <Docs>
         <summary>現在のアラームを消します。</summary>
-        <remarks>
-          <para>
-            <b>Dismiss</b>メソッドは、視覚的なアラームがない場合に失敗します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Dismiss</b> メソッドは、視覚的なアラームがない場合に失敗します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsVisible">
@@ -167,13 +155,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) をアラームが現在表示されているかどうかを返します。  値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) をアラームが現在表示されているかどうかを返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook では、現在のアラームの状態に基づいて、このプロパティの戻り値を指定します。すべてのアクティブなアラームが表示されます。<b>IsVisible</b>が True の場合は、アラームが表示されます。</para>
-          <para />
-        </remarks>
+        <remarks><para> Outlook では、現在のアラームの状態に基づいて、このプロパティの戻り値を指定します。 すべてのアクティブなアラームが表示されます。 <b>IsVisible</b>が True の場合は、アラームが表示されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -229,11 +214,8 @@
       <Docs>
         <summary>指定したアラームの次の時間を示す <b>日付</b> を返します。読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>NextReminderDate</b>プロパティの値変更のたびに、オブジェクトの<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行されるか、ユーザーが [再通知] をクリックしたとき。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>NextReminderDate</b>プロパティの値変更のたびに、オブジェクトの<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行されるか、ユーザーが [再通知] をクリックしたとき。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginalReminderDate">
@@ -261,10 +243,8 @@
       <Docs>
         <summary>元の日付と時間を指定したアラームを設定することを指定する <b>日付</b> の値を返します。読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>この値の前に元の日付と時刻の値に対応して、<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行されるか、ユーザーが [再通知] をクリックします。</para>
-          <para />
-        </remarks>
+        <remarks><para>この値の前に元の日付と時刻の値に対応して、<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />メソッドが実行されるか、ユーザーが [再通知] をクリックします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -318,19 +298,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -357,11 +334,9 @@
       <Docs>
         <param name="SnoozeTime">アラームを延期する時間を分単位で指定します。既定値は 5 分です。</param>
         <summary>指定された時刻にアラームを表示します。</summary>
-        <remarks>
-          <para>これは、ユーザーが [再通知] ボタンをクリックしてに相当します。 </para>
-          <para>このメソッドは現在のアラームがアクティブでない場合に失敗します。 </para>
-          <para />
-        </remarks>
+        <remarks><para>これはユーザーが [ 再通知] をクリックした場合と同じです。  </para>
+          <para>現在のアラームがアクティブではない場合は、このメソッドを実行すると失敗します。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

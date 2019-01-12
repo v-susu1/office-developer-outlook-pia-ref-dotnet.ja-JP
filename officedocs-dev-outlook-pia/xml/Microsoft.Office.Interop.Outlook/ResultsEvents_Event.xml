@@ -1,13 +1,5 @@
 <Type Name="ResultsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ResultsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a87dc9dae2379388ad923144e6c646f5a199984" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639095" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a6435255dc3c98ff97995c77a01ed2d110fb667" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896851" /></Metadata><TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ResultsEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>特定のコレクションに 1 つ以上のアイテムが追加されると発生します。</summary>
-        <remarks>
-          <para>このイベントは、多数のアイテムがフォルダーに一度に追加するときに実行されません。</para>
-          <para />
-        </remarks>
+        <remarks><para>大量のアイテムがフォルダーへ一度に追加される場合には発生しません。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemChange">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>特定のコレクションからアイテムが削除されると発生します。</summary>
-        <remarks>
-          <para>このイベントは、個人用フォルダー ファイル (.pst) の最後の項目が削除されたとき、または .pst ファイル、Microsoft Exchange メールボックス、または Exchange パブリック フォルダーから一度に 16 以上の項目が削除された場合に実行されません。</para>
-          <para />
-        </remarks>
+        <remarks><para>個人用フォルダー ファイル (.pst) 内の最後のアイテムが削除された場合、あるいは .pst ファイル、Microsoft Exchange メールボックス、または Exchange パブリック フォルダーから一度に 16 個以上のアイテムが削除された場合は発生しません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

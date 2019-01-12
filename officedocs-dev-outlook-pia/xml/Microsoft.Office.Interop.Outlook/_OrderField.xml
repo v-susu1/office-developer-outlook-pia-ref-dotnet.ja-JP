@@ -1,13 +1,5 @@
 <Type Name="_OrderField" FullName="Microsoft.Office.Interop.Outlook._OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638947" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899966" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderField" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,13 +104,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>Boolean</b>値 (C# では<b>bool</b> ) の設定を取得または設定するかどうかの内容の<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />オブジェクトが降順に並べ替えられます。 値の取得および設定が可能です。</summary>
+        <summary>示す<b>Boolean</b>値 (C# では<b>bool</b> ) の設定を取得または設定するかどうかの内容の<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />オブジェクトが降順に並べ替えられます。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OrderField</b>オブジェクトによって参照されるプロパティの内容が降順で並べ替えを<b>True</b>にこのプロパティが設定されている場合それ以外の場合、内容は昇順で並べ替えられます。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OrderField</b> オブジェクトによって参照されるプロパティの内容が降順で並べ替えを <b>True</b> にこのプロパティが設定されている場合それ以外の場合、内容は昇順で並べ替えられます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -172,19 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewXMLSchemaName">
@@ -210,12 +196,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>によって参照されるプロパティの XML スキーマ名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>によって参照されるプロパティの XML スキーマ名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値には、 <b>ViewField</b>オブジェクトを含むビューの XML 定義内に含まれるプロパティの名前が含まれています。この値には、 <b>OrderField</b>オブジェクトが定義されたときにプロパティを参照するための名前がありません。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値には、 <b>ViewField</b> オブジェクトを含むビューの XML 定義内に含まれるプロパティの名前が含まれています。この値には、 <b>OrderField</b> オブジェクトが定義されたときにプロパティを参照するための名前がありません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

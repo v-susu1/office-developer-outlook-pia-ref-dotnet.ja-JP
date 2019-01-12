@@ -1,13 +1,5 @@
 <Type Name="NavigationGroup" FullName="Microsoft.Office.Interop.Outlook.NavigationGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="79e473760fa2f761a3d449d91d8b74bbf0c823b9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637672" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationGroup : Microsoft.Office.Interop.Outlook._NavigationGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13a5c3c0de3b5b1b842d2c5695229f5ede57a219" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897424" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationGroup : Microsoft.Office.Interop.Outlook._NavigationGroup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationGroup implements class Microsoft.Office.Interop.Outlook._NavigationGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationGroup&#xA;Implements _NavigationGroup" />
@@ -31,12 +23,11 @@
   </Attributes>
   <Docs>
     <summary>ナビゲーション ウィンドウのナビゲーション モジュールで表示されるナビゲーション グループを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationGroup" />。</para>
-      <para>使用、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroups.Item(System.Object)" /> (<b>この</b>C# の) プロパティから<b>NavigationGroup</b>オブジェクトを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションの親ナビゲーション モジュールの場合、次のように、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクト。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationGroups.Create(System.String)" />新しい<b>NavigationGroup</b>オブジェクトを作成し、 <b>NavigationGroups</b>コレクションのメソッドです</para>。
-      <para>使用、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />のナビゲーション グループのグループの種類を決定するプロパティと、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Position" /> 、ナビゲーション ウィンドウ内のナビゲーション グループの表示位置を設定するプロパティ。使用することも、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> 、ナビゲーション ウィンドウ内のナビゲーション グループの表示名を設定するプロパティ</para>。
-      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" />を返すプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />指定されたナビゲーション グループのナビゲーション フォルダーを格納するオブジェクトです</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationGroup" />。 </para>
+      <para>使用、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroups.Item(System.Object)" /> (<b>この</b>C# の) プロパティから<b>NavigationGroup</b>オブジェクトを取得するのには、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションの親ナビゲーション モジュールの場合、次のように、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクト。 使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationGroups.Create(System.String)" />新しい<b>NavigationGroup</b>オブジェクトを作成し、 <b>NavigationGroups</b>コレクションのメソッド。</para>
+      <para>使用、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />のナビゲーション グループのグループの種類を決定するプロパティと、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Position" /> 、ナビゲーション ウィンドウ内のナビゲーション グループの表示位置を設定するプロパティ。 使用することも、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> 、ナビゲーション ウィンドウ内のナビゲーション グループの表示名を設定するプロパティです。</para>
+      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" />を返すプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />指定されたナビゲーション グループのナビゲーション フォルダーを格納するオブジェクトです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

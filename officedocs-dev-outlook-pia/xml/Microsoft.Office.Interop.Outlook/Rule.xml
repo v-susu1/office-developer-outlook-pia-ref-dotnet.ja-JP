@@ -1,13 +1,5 @@
 <Type Name="Rule" FullName="Microsoft.Office.Interop.Outlook.Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c55c981fc78fa0d8ef492722162f10384e54b60" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638741" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Rule : Microsoft.Office.Interop.Outlook._Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="23c14b3d2f60fb4468c022c4e3e0218713128cea" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899839" /></Metadata><TypeSignature Language="C#" Value="public interface Rule : Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Rule implements class Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface Rule&#xA;Implements _Rule" />
@@ -31,10 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Outlook ルールを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Rule" />。</para>
-      <para>両方クライアントとサーバー側のルールは、<b>ルール</b>オブジェクトによって表されます</para>。
-      <para>、ルール オブジェクト モデルは、主にこれらのオブジェクトで構成されています: <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />、<b>ルール</b>、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />、派生したオブジェクトが特定のルールの処理およびルールの条件とします。ルールと通知ウィザードが Outlook のユーザー インターフェイスに部分的なパリティを提供します。ウィザードを使用して作成できる個々 のルールの作成をサポートするわけではないが最もよく使用されるルールのアクションと条件をサポートします。</para><para>プログラムを使用して作成、編集、および規則を削除する方法の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Outlook オブジェクト モデルでルールを管理する</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para><para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._Rule" />。 </para>
+      <para>クライアントとサーバー側の仕訳ルールは、 <b>Rule</b> オブジェクトで表されます。</para>
+      <para>Rules オブジェクト モデルは、主にこれらのオブジェクトで構成されています: <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />、<b>ルール</b>、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />、派生したオブジェクトが特定のルールの処理およびルールの条件とします。 ルールと通知ウィザードが Outlook のユーザー インターフェイスに部分的なパリティを提供します。 ウィザードを使用して作成できる個々 のルールの作成をサポートするわけではないが最もよく使用されるルールのアクションと条件をサポートします。 </para>
+      <para>プログラムで作成、編集、および規則を削除する方法の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Outlook オブジェクト モデルでルールを管理する</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

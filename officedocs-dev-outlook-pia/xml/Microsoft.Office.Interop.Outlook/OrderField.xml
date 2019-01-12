@@ -1,13 +1,5 @@
 <Type Name="OrderField" FullName="Microsoft.Office.Interop.Outlook.OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a141c7a729e401f026f05a32cde85f7730804364" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637611" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83e00c147e2cc836d6d3bb41db88d4407efe9b48" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902118" /></Metadata><TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OrderField implements class Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface OrderField&#xA;Implements _OrderField" />
@@ -31,9 +23,8 @@
   </Attributes>
   <Docs>
     <summary>ビュー内の情報の並べ替えに使用される順序フィールドを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />。</para>
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />オブジェクトから派生した次のオブジェクトの<b>SortFields</b>コレクションに、Outlook アイテムのプロパティを追加するのには、<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクト:</para>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />。 </para>
+      <para>使用、<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />オブジェクトから派生した次のオブジェクトの<b>SortFields</b>コレクションに、Outlook アイテムのプロパティを追加するのには、<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクト。</para>
       <list type="bullet">
         <item>
           <para>
@@ -50,10 +41,16 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+          </para>
+        </item>
       </list>
-      <para>、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />プロパティとビューの XML 定義で参照されている順序フィールドの名前を取得します</para>。<b>OrderFields</b>コレクションに含まれている
-      <para><b>OrderField</b>オブジェクトは、コレクション内のオブジェクトを格納する順序でビューに表示される Outlook アイテムに適用されます。各<b>OrderField</b>オブジェクトを使用して、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />を昇順または降順に並べ替え順序のフィールドの内容をソートするかどうかを決定するプロパティ</para>。
-      <para /></remarks>
+      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />として、ビューの XML 定義で参照されている順序フィールドの名前を取得するプロパティです。</para>
+      <para>
+        <b>OrderFields</b> コレクション内の <b>OrderField</b> オブジェクトは、コレクション内のオブジェクトを格納する順序でビューに表示される Outlook アイテムに適用されます。 各<b>OrderField</b>オブジェクトを使用して、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />を昇順または降順に並べ替え順序のフィールドの内容をソートするかどうかを決定するプロパティです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

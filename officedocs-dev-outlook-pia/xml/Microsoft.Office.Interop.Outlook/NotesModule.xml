@@ -1,13 +1,5 @@
 <Type Name="NotesModule" FullName="Microsoft.Office.Interop.Outlook.NotesModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0d81161a59e0afa4ef8871571f3b9be1c2eba377" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639343" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NotesModule : Microsoft.Office.Interop.Outlook._NotesModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c5fb3eb59836cd4b8d05a8e2175b9851a4e342e9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897774" /></Metadata><TypeSignature Language="C#" Value="public interface NotesModule : Microsoft.Office.Interop.Outlook._NotesModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NotesModule implements class Microsoft.Office.Interop.Outlook._NotesModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NotesModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface NotesModule&#xA;Implements _NotesModule" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>エクスプローラーのナビゲーション ウィンドウの [メモ] ナビゲーション モジュールを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NotesModule" />。</para>から派生した、 
-      <para>、 <b>NotesModule</b>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトのエクスプ ローラーのナビゲーション ウィンドウの [メモ] ナビゲーション モジュールに含まれるナビゲーション グループにアクセスを提供します。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />メソッドまたは<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />のプロパティ (<b>この</b>C# で)、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />を使用して、 <b>NavigationModule</b>オブジェクトを取得する対象のオブジェクト、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /><b>NavigationModule</b>オブジェクトのプロパティナビゲーション モジュールの種類を取得します。<b>NotesModule</b>オブジェクトにアクセスする<b>モジュール</b>のオブジェクト参照にキャストできますし、 <b>NavigationModuleType</b>プロパティが<b>olModuleNotes</b>に設定されている場合、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.NavigationGroups" />そのナビゲーション モジュールのプロパティ</para>。
-      <para>を使用できます、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Visible" />のナビゲーション モジュールが表示されているかどうかを決定するプロパティと、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Position" />プロパティを取得またはナビゲーション ウィンドウ内のナビゲーション モジュールの表示位置を設定します。使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Name" />プロパティを [ナビゲーション ウィンドウ内の [メモ] ナビゲーション モジュールの表示名を取得します</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NotesModule" />。 </para>
+      <para>派生した<b>NotesModule</b>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトのエクスプ ローラーのナビゲーション ウィンドウの [メモ] ナビゲーション モジュールに含まれるナビゲーション グループにアクセスを提供します。 使用して、<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />メソッドまたは<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />のプロパティ (<b>この</b>C# で)、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、親のコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />を使用して、 <b>NavigationModule</b>オブジェクトを取得する対象のオブジェクト、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" />する<b>NavigationModule</b>オブジェクトのプロパティナビゲーション モジュールの種類を取得します。 <b>NotesModule</b>オブジェクトにアクセスする<b>モジュール</b>のオブジェクト参照にキャストできますし、 <b>NavigationModuleType</b>プロパティが<b>olModuleNotes</b>に設定されている場合、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.NavigationGroups" />そのナビゲーション モジュールのプロパティをします。</para>
+      <para>使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Visible" />のナビゲーション モジュールが表示されているかどうかを決定するプロパティと<see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Position" />、ナビゲーション ウィンドウ内のナビゲーション モジュールの表示位置を設定するプロパティ。 使用することができます、 <see cref="P:Microsoft.Office.Interop.Outlook._NotesModule.Name" /> 、ナビゲーション ウィンドウ内の [メモ] ナビゲーション モジュールの表示名を返すプロパティです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

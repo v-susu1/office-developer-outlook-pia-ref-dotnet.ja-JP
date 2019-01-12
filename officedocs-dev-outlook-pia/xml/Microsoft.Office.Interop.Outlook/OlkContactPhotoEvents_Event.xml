@@ -1,13 +1,5 @@
 <Type Name="OlkContactPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f45db6ce2a533edb1d72e5712d9fbb80fa7ccaa4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638389" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkContactPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61ddd48a15243771ed2b6eb7f2c4870f9526278b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900245" /></Metadata><TypeSignature Language="C#" Value="public interface OlkContactPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkContactPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkContactPhotoEvents_Event" />
@@ -106,10 +98,8 @@
       </ReturnValue>
       <Docs>
         <summary>同じフォームのコントロールから、実際に対象のコントロールへフォーカスが移る前に発生します。</summary>
-        <remarks>
-          <para>のみ、コントロールが、[連絡先の写真] ボタンを表示して、連絡先の写真が定義されていません、このイベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントが発生するのは、コントロールに [連絡先の写真] ボタンが表示され、連絡先の写真が定義されていない場合のみです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>このコントロールから、同じフォーム上の別のコントロールへフォーカスが移った直後に発生します。</summary>
-        <remarks>
-          <para>のみ、コントロールが、[連絡先の写真] ボタンを表示して、連絡先の写真が定義されていません、このイベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このイベントが発生するのは、コントロールに [連絡先の写真] ボタンが表示され、連絡先の写真が定義されていない場合のみです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyDown">
@@ -150,11 +138,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを押したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -173,11 +158,23 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーが ANSI キーを押したときに発生します。</summary>
-        <remarks>
-          <para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。<b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。前に、でも、キーが離された後でも、イベントが発生することができます</para>。
-          <para><b>KeyPress</b>イベントは、次の条件下では発生しません:</para><list type="bullet"><item><para>キーを押してタブ</para></item>の
-            <item><para>方向キーを押す</para></item><item><para>キーを押してを入力してください</para></item><item><para>とキー入力すると、フォーカスが 1 つのコントロール間を移動する</para></item></list>。
-          <para /></remarks>
+        <remarks><para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。 <b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。 前に、でも、キーが離された後でも、イベントが発生します。</para>
+          <para><b>KeyPress</b> イベントは、次の条件下では発生しません。</para>
+          <list type="bullet">
+            <item>
+              <para>Tab キーを押す</para>
+            </item>
+            <item>
+              <para>Enter キーを押す</para>
+            </item>
+            <item>
+              <para>方向キーを押す</para>
+            </item>
+            <item>
+              <para>キーボード操作によって、フォーカスがコントロール間を移動する</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -196,11 +193,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを離したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -238,10 +232,8 @@
       </ReturnValue>
       <Docs>
         <summary>マウス ポインターがコントロール上を通過した後に発生します。</summary>
-        <remarks>
-          <para>ALT キーを押すと、 <b>MouseMove</b>イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ALTキーを押すと、 <b>MouseMove</b> イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

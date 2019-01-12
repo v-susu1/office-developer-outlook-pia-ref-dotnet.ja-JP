@@ -1,13 +1,5 @@
 <Type Name="_Explorers" FullName="Microsoft.Office.Interop.Outlook._Explorers">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="efcf514c6497c472befc921ae5df2f373d72013e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637998" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorers : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="efcf514c6497c472befc921ae5df2f373d72013e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897466" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorers : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorers implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorers" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorers&#xA;Implements IEnumerable" />
@@ -60,13 +52,10 @@
         <param name="Folder">作成時に、[エクスプ ローラー] ウィンドウで表示するオブジェクト。</param>
         <param name="DisplayMode">フォルダーの表示モード。 いずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" />定数。</param>
         <summary>エクスプローラー ウィンドウの新しいインスタンスを作成します。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> 、ウィンドウの新しいインスタンスを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <paramref name="Folder" />の引数は、いずれかの方法を表すことができます、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト、またはそのフォルダーへの URL です</para>。
-          <para>エクスプ ローラー ウィンドウが最初に表示されません。呼び出す必要があります、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />表示されるようにするのには<b>エクスプ ローラー</b>のオブジェクトのメソッドです</para>。
-          <para /></remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> 、ウィンドウの新しいインスタンスを表すオブジェクト。</returns>
+        <remarks><para><paramref name="Folder" />の引数は、いずれかの方法を表すことができます、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトまたはフォルダーの URL。</para>
+          <para>エクスプ ローラー] ウィンドウが最初に非表示にします。 呼び出す必要があります、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />表示されるようにするのには<b>エクスプ ローラー</b>のオブジェクトのメソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -92,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,7 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,19 +225,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
