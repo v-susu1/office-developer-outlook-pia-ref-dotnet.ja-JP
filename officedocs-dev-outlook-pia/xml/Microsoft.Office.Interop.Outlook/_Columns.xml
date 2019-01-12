@@ -1,13 +1,5 @@
 <Type Name="_Columns" FullName="Microsoft.Office.Interop.Outlook._Columns">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638451" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902804" /></Metadata><TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Columns implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Columns" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Columns&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9a7e3-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9a7e3-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="9a7e3-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9a7e3-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="9a7e3-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9a7e3-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="9a7e3-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9a7e3-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Columns" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8cd19-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8cd19-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="8cd19-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8cd19-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="8cd19-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8cd19-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Columns" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,49 +49,20 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="9a7e3-105">列として追加されるプロパティの名前を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-105">The name of the property that is being added as a column.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a7e3-106">追加、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />によって指定された<paramref name="Name" />に、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクションとリセット、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-106">Adds the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> specified by <paramref name="Name" /> to the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9a7e3-107">新しい列を表す <b>Column</b> オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-107">A <b>Column</b> object that represents the new column.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9a7e3-108">
-            <para>
-              <b>Columns.Add</b>は、<b>テーブル</b>の<b>Columns</b>コレクションの末尾に指定した<b>列</b>を追加し、<b>テーブル</b>の最初の行の直前に現在の行に移動して、<b>テーブル</b>をリセットします。<b>Columns.Add</b>がエラーを返した場合、現在の行は変更されません。</para>
-            <para>
-              <paramref name="Name" /> 、明示的な組み込みプロパティの名前または名前空間によって参照されるプロパティ名にすることができます。それは、英語のロケールの名前と参照されなければなりません。名前空間によるプロパティ参照の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください</para>
-            <para>などのオブジェクト モデルで明示的な組み込みプロパティであるプロパティを追加する場合は<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />、<paramref name="Name" />英語での明示的な組み込みプロパティ名とします。 特定の<b>テーブル</b>内の値を表現する方法に影響を与えるこれらのプロパティを列として追加するときに使用する形式のプロパティの型。<b>テーブル</b>のプロパティ値表示の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Table クラスと View クラスのプロパティ値表示に影響を与える要因</a>を参照してください</para>
-            <b>テーブル</b>にカスタム プロパティを追加する場合は
-          <para>を参照する、。MAPI 文字列名前空間でプロパティ、プロパティの型をプロパティ参照の末尾に明示的に追加する必要があります。などのカスタム プロパティ MyCustomProperty で、型が Unicode 文字列を追加するのにはする必要がある参照する型 001f を明示的に追加するに: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} が名前空間を表し、GUID です</para>。特定のプロパティにすることはできません
-          <para>が<b>テーブル</b>に追加するとプロパティを<b>Columns.Add</b>、バイナリのプロパティを含むを使用して計算され、html 形式または rtf 形式の本文のコンテンツです。詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table オブジェクトまたは Table フィルターでサポートされていないプロパティ</a>を参照してください</para><para>、<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />のプロパティに非常に高速アクセスの特定のプロパティをキャッシュするために使用することができます、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションでは、いくつかプロパティは、 <b>SetColumns</b>から制限されています。<b>Table</b>オブジェクトは<b>アイテム</b>よりも制限が少ない代わり、これらの制限は<b>Columns.Add</b>には適用されません、ためです</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-108">
-              <para>
-                <b>Columns.Add</b> adds the specified <b>Column</b> to the end of the <b>Columns</b> collection for the <b>Table</b>, and resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. If <b>Columns.Add</b> returns an error, it will not change the current row. </para>
-              <para>
-                <paramref name="Name" /> can be an explicit built-in property name, or a property name referenced by namespace. It must be referenced as the name in the English locale. For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
-              <para>If you are adding a  property which is an explicit built-in property in the object model, for example, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, you must specify <paramref name="Name" /> as the explicit built-in property name in English.  For certain types of properties, the format used when adding these properties as columns affects how their values are expressed in the <b>Table</b>. For more information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
-              <para>If you are adding a custom property to a <b>Table</b>, referencing the property by the MAPI string namespace, you will have to explicitly append the type of the property to the end of the property reference. For example, to add the custom property MyCustomProperty, which has the type Unicode string, you will have to explicitly append the type 001f to the  reference, resulting in: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, where {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} represents the namespace GUID.</para>
-              <para>Certain properties cannot be added to a <b>Table</b> using <b>Columns.Add</b>, including binary properties, computed properties, and HTML or RTF body content. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></para>
-              <para>While <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> can be used to facilitate caching certain properties for extremely fast access to those properties of an <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, some properties are restricted from <b>SetColumns</b>. Since these restrictions do not apply to <b>Columns.Add</b>, the <b>Table</b> object is a less restrictive alternative than <b>Items</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="8cd19-105">列として追加されるプロパティの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="8cd19-105">The name of the property that is being added as a column.</span></span></param>
+        <summary><span data-ttu-id="8cd19-106">追加、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />によって指定された<paramref name="Name" />に、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクションとリセット、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-106">Adds the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> specified by <paramref name="Name" /> to the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <returns><span data-ttu-id="8cd19-107">新しい列を表す <b>Column</b> オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="8cd19-107">A <b>Column</b> object that represents the new column.</span></span></returns>
+        <remarks><para><span data-ttu-id="8cd19-p102">
+            <b>Columns.Add</b> は、 <b>テーブル</b> の <b>Columns</b> コレクションの末尾に指定した <b>列</b> を追加し、 <b>テーブル</b> の最初の行の直前に現在の行に移動して、 <b>テーブル</b> をリセットします。 <b>Columns.Add</b> がエラーを返した場合、現在の行は変更されません。</span><span class="sxs-lookup"><span data-stu-id="8cd19-p102">
+            <b>Columns.Add</b> adds the specified <b>Column</b> to the end of the <b>Columns</b> collection for the <b>Table</b>, and resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. If <b>Columns.Add</b> returns an error, it will not change the current row. </span></span></para>
+          <para><span data-ttu-id="8cd19-110">
+            <paramref name="Name" />明示的な組み込みプロパティの名前または名前空間によって参照されるプロパティ名を指定できます。</span><span class="sxs-lookup"><span data-stu-id="8cd19-110">
+            <paramref name="Name" /> can be an explicit built-in property name, or a property name referenced by namespace.</span></span> <span data-ttu-id="8cd19-111">このパラメーターは、英語ロケールの名前として指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8cd19-111">It must be referenced as the name in the English locale.</span></span> <span data-ttu-id="8cd19-112">名前空間によるプロパティ参照の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8cd19-112">For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></para>
+          <para><span data-ttu-id="8cd19-113">などのオブジェクト モデルで明示的な組み込みプロパティであるプロパティを追加する場合は<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />を指定する必要があります<paramref name="Name" />英語で明示的な組み込みプロパティ名としてです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-113">If you are adding a  property which is an explicit built-in property in the object model, for example, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, you must specify <paramref name="Name" /> as the explicit built-in property name in English.</span></span>  <span data-ttu-id="8cd19-114">特定の <b>テーブル</b> 内の値を表現する方法に影響を与えるこれらのプロパティを列として追加するときに使用する形式のプロパティの型。</span><span class="sxs-lookup"><span data-stu-id="8cd19-114">For certain types of properties, the format used when adding these properties as columns affects how their values are expressed in the <b>Table</b>.</span></span> <span data-ttu-id="8cd19-115"><b>テーブル</b>のプロパティ値表示の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Table クラスと View クラスのプロパティ値表示に影響を与える要因</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8cd19-115">For more information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></span></span></para>
+          <para><span data-ttu-id="8cd19-116"><b>テーブル</b> にカスタム プロパティを追加する場合、MAPI 文字列名前空間でプロパティを参照する必要が明示的にプロパティの型をプロパティ参照の末尾に追加します。</span><span class="sxs-lookup"><span data-stu-id="8cd19-116">If you are adding a custom property to a <b>Table</b>, referencing the property by the MAPI string namespace, you will have to explicitly append the type of the property to the end of the property reference.</span></span> <span data-ttu-id="8cd19-117">などのカスタム プロパティ MyCustomProperty で、型が Unicode 文字列を追加するのにはする必要がある参照する型 001f を明示的に追加するに: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f、{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} が名前空間の GUID を表します.</span><span class="sxs-lookup"><span data-stu-id="8cd19-117">For example, to add the custom property MyCustomProperty, which has the type Unicode string, you will have to explicitly append the type 001f to the  reference, resulting in: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, where {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} represents the namespace GUID.</span></span></para>
+          <para><span data-ttu-id="8cd19-118"><b>Columns.Add</b> 、バイナリ プロパティ、計算されたプロパティは、HTML または rtf 形式の本文の内容などを使用して <b>テーブル</b> には、特定のプロパティを追加できません。</span><span class="sxs-lookup"><span data-stu-id="8cd19-118">Certain properties cannot be added to a <b>Table</b> using <b>Columns.Add</b>, including binary properties, computed properties, and HTML or RTF body content.</span></span> <span data-ttu-id="8cd19-119">詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table オブジェクトまたは Table フィルターでサポートされていないプロパティ</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8cd19-119">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></span></span></para>
+          <para><span data-ttu-id="8cd19-120">中に<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />のプロパティに非常に高速アクセスの特定のプロパティをキャッシュするために使用することができます、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクション、 <b>SetColumns</b>からいくつかのプロパティが制限されています。</span><span class="sxs-lookup"><span data-stu-id="8cd19-120">While <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> can be used to facilitate caching certain properties for extremely fast access to those properties of an <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, some properties are restricted from <b>SetColumns</b>.</span></span> <span data-ttu-id="8cd19-121">これらの制限は <b>Columns.Add</b> には適用されません、ため <b>テーブル</b> のオブジェクトがより制限の少ない <b>アイテム</b> よりもいます。</span><span class="sxs-lookup"><span data-stu-id="8cd19-121">Since these restrictions do not apply to <b>Columns.Add</b>, the <b>Table</b> object is a less restrictive alternative than <b>Items</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -142,16 +88,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
-          </span>
-          <span data-ttu-id="9a7e3-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8cd19-122">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span></span> <span data-ttu-id="8cd19-123">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-123">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,16 +116,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-111">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-111">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
-          </span>
-          <span data-ttu-id="9a7e3-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8cd19-124">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-124">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span></span> <span data-ttu-id="8cd19-125">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -216,16 +144,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-113">数を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.Column" />コレクション内のオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-113">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the number of <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objects in the collection.</span>
-          </span>
-          <span data-ttu-id="9a7e3-114">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8cd19-126">数を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.Column" />コレクション内のオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8cd19-126">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the number of <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objects in the collection.</span></span> <span data-ttu-id="8cd19-127">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,33 +175,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="9a7e3-115">
-            <b>Columns</b>コレクションを表す、<b>文字列</b>(C# では<b>文字列</b>) の列のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値は、1 から始まるインデックス値、<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />の<b>列</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-115">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a7e3-116">取得、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />で指定されたオブジェクト<paramref name="Index" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-116">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" />.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9a7e3-117">一致する列を表す<b>Column</b>オブジェクトの<paramref name="Index" />で、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-117">A <b>Column</b> object that represents the column matching the <paramref name="Index" /> in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-          <span data-ttu-id="9a7e3-118">返します、エラー「配列のインデックス範囲を超えています」場合は<paramref name="Index" />が無効な長整数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-118">Returns the error, "Array index out of bounds" if <paramref name="Index" /> is an invalid Long integer.</span>
-          </span>
-          <span data-ttu-id="9a7e3-119">場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します<paramref name="Index" /><b>テーブル</b>に列の名前を表す<b>文字列</b>(C# では<b>文字列</b>) です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-119">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <paramref name="Index" /> is a <b>String</b> (<b>string</b> in C#) representing a column name that cannot be found in the <b>Table</b>.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="8cd19-128"><b>Columns</b>コレクションを表す、<b>文字列</b>(C# では<b>文字列</b>) の列のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値は、1 から始まるインデックス値、<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />の<b>列</b>。</span><span class="sxs-lookup"><span data-stu-id="8cd19-128">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span></span></param>
+        <summary><span data-ttu-id="8cd19-129">取得、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />で指定されたオブジェクト<paramref name="Index" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-129">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" />.</span></span></summary>
+        <value><span data-ttu-id="8cd19-130">一致する列を表す<b>Column</b>オブジェクトの<paramref name="Index" />で、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-130">A <b>Column</b> object that represents the column matching the <paramref name="Index" /> in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span> <span data-ttu-id="8cd19-131">返します、エラー「配列のインデックス範囲を超えています」場合は<paramref name="Index" />が無効な長整数。</span><span class="sxs-lookup"><span data-stu-id="8cd19-131">Returns the error, "Array index out of bounds" if <paramref name="Index" /> is an invalid Long integer.</span></span> <span data-ttu-id="8cd19-132">場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します<paramref name="Index" /><b>テーブル</b>に列の名前を表す<b>文字列</b>(C# では<b>文字列</b>) です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-132">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <paramref name="Index" /> is a <b>String</b> (<b>string</b> in C#) representing a column name that cannot be found in the <b>Table</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -309,16 +204,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-120">親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-120">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
-          </span>
-          <span data-ttu-id="9a7e3-121">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-121">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8cd19-133">親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-133">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span></span> <span data-ttu-id="8cd19-134">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-134">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,33 +232,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="9a7e3-122">
-            <b>Columns</b>コレクションを表す、<b>文字列</b>(C# では<b>文字列</b>) の列のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値は、1 から始まるインデックス値、<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />の<b>列</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-122">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a7e3-123">削除、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />で指定されたオブジェクト<paramref name="Index" />をリセットし、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-123">Removes the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" /> and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9a7e3-124">
-            <para>
-              <b>Remove</b>メソッドは、<b>テーブル</b>の最初の行の直前に現在の行に移動して、<b>テーブル</b>をリセットします。場合、ただし、無効な<paramref name="Index" />が指定されている任意の列を削除または<b>テーブル</b>をリセットできないし</para>。
-          <para>場合は、無効なエラー メッセージが返されます<paramref name="Index" />が指定されています</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-124">
-              <para>The <b>Remove</b> method resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. If, however, an invalid <paramref name="Index" /> has been specified, then it will not remove any column or reset the <b>Table</b>.</para>
-              <para>Returns an error message if an invalid <paramref name="Index" /> has been specified.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="8cd19-135"><b>Columns</b>コレクションを表す、<b>文字列</b>(C# では<b>文字列</b>) の列のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値は、1 から始まるインデックス値、<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />の<b>列</b>。</span><span class="sxs-lookup"><span data-stu-id="8cd19-135">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span></span></param>
+        <summary><span data-ttu-id="8cd19-136">削除、<see cref="T:Microsoft.Office.Interop.Outlook.Column" />で指定されたオブジェクト<paramref name="Index" />をリセットし、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-136">Removes the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" /> and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="8cd19-137"><b>Remove</b> メソッドは、 <b>テーブル</b> の最初の行の直前に現在の行に移動して、 <b>テーブル</b> をリセットします。</span><span class="sxs-lookup"><span data-stu-id="8cd19-137">The <b>Remove</b> method resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>.</span></span> <span data-ttu-id="8cd19-138">場合、ただし、無効な<paramref name="Index" />が指定されている任意の列を削除または<b>テーブル</b>をリセットできないし。</span><span class="sxs-lookup"><span data-stu-id="8cd19-138">If, however, an invalid <paramref name="Index" /> has been specified, then it will not remove any column or reset the <b>Table</b>.</span></span></para>
+          <para><span data-ttu-id="8cd19-139">エラー メッセージを返す場合、無効な<paramref name="Index" />が指定されています。</span><span class="sxs-lookup"><span data-stu-id="8cd19-139">Returns an error message if an invalid <paramref name="Index" /> has been specified.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -396,26 +260,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-125">すべての列を削除します<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクションとリセット、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-125">Removes all the columns from the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9a7e3-126">
-            <para>
-              <b>RemoveAll</b>は、現在の行<b>の表</b>の最初の行の直前に移動することによって<b>テーブル</b>をリセットします。<b>RemoveAll</b>への呼び出しの後<see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" />(0) になります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-126">
-              <para>
-                <b>RemoveAll</b> resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. After a call to <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> becomes zero (0). </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8cd19-140">すべての列を削除します<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクションとリセット、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span><span class="sxs-lookup"><span data-stu-id="8cd19-140">Removes all the columns from the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="8cd19-141">
+            <b>RemoveAll</b> は、現在の行 <b>の表</b> の最初の行の直前に移動することによって <b>テーブル</b> をリセットします。</span><span class="sxs-lookup"><span data-stu-id="8cd19-141">
+            <b>RemoveAll</b> resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>.</span></span> <span data-ttu-id="8cd19-142"><b>RemoveAll</b>への呼び出しの後<see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" />(0) になります。</span><span class="sxs-lookup"><span data-stu-id="8cd19-142">After a call to <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> becomes zero (0).</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -441,42 +290,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a7e3-127">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="9a7e3-128">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8cd19-143">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8cd19-143">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="8cd19-144">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8cd19-144">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="9a7e3-129">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8cd19-145"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="8cd19-145">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8cd19-146">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="8cd19-146">Both members serve the same purpose.</span></span> <span data-ttu-id="8cd19-147">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="8cd19-147">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a7e3-129">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

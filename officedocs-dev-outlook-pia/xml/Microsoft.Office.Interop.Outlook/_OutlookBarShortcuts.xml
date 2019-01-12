@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarShortcuts" FullName="Microsoft.Office.Interop.Outlook._OutlookBarShortcuts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6cbf1a4e95de620f5f8d707b2f10726f32b00b95" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637994" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarShortcuts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6cbf1a4e95de620f5f8d707b2f10726f32b00b95" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904393" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarShortcuts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarShortcuts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarShortcuts&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="06e7c-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="06e7c-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="06e7c-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="06e7c-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="06e7c-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="06e7c-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="06e7c-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="06e7c-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="9f886-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="9f886-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="9f886-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="9f886-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="9f886-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="9f886-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="9f886-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />。</span><span class="sxs-lookup"><span data-stu-id="9f886-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -75,49 +50,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Target">
-          <span data-ttu-id="06e7c-105">ショートカットの対象を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-105">The target of the shortcut being created.</span>
-          </span>
-        </param>
-        <param name="Name">
-          <span data-ttu-id="06e7c-106">ショートカットの名前を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-106">The name of the shortcut being created.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="06e7c-107">] ウィンドウで、新しいショートカットを挿入位置の位置。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-107">The position at which the new shortcut will be inserted in the Shortcuts pane group.</span>
-          </span>
-          <span data-ttu-id="06e7c-108">いずれかの位置では、グループの上部にあります。<b>ターゲット</b>の種類は、ショートカットの種類によって異なります。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-108">Position one is at the top of the group.The <b>Target</b> type depends on the shortcut type.</span>
-          </span>
-          <span data-ttu-id="06e7c-109">種類が<b>フォルダー</b>の場合は、Microsoft Outlook フォルダーを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-109">If the type is <b>Folder</b>, the shortcut represents a Microsoft Outlook folder.</span>
-          </span>
-          <span data-ttu-id="06e7c-110">型が<b>文字列</b>(C# では<b>文字列</b>) の場合は、ショートカットは、ファイル システムのパスまたは URL を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-110">If the type is a <b>String</b> (<b>string</b> in C#), the shortcut represents a file-system path or a URL.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="06e7c-111">[ショートカット] ウィンドウ内のグループに新しいショートカットを追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-111">Adds a new shortcut to a group in the Shortcuts pane.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="06e7c-112">
-            <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> 、新しいショートカットを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-112">An <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> object that represents the new shortcut.</span>
-          </span>
-        </returns>
+        <param name="Target"><span data-ttu-id="9f886-105">ショートカットの対象を指定します。</span><span class="sxs-lookup"><span data-stu-id="9f886-105">The target of the shortcut being created.</span></span></param>
+        <param name="Name"><span data-ttu-id="9f886-106">ショートカットの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="9f886-106">The name of the shortcut being created.</span></span></param>
+        <param name="Index"><span data-ttu-id="9f886-107">] ウィンドウで、新しいショートカットを挿入位置の位置。</span><span class="sxs-lookup"><span data-stu-id="9f886-107">The position at which the new shortcut will be inserted in the Shortcuts pane group.</span></span> <span data-ttu-id="9f886-108">いずれかの位置では、グループの上部にあります。<b>ターゲット</b>の種類は、ショートカットの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="9f886-108">Position one is at the top of the group.The <b>Target</b> type depends on the shortcut type.</span></span> <span data-ttu-id="9f886-109">種類が<b>フォルダー</b>の場合は、Microsoft Outlook フォルダーを表します。</span><span class="sxs-lookup"><span data-stu-id="9f886-109">If the type is <b>Folder</b>, the shortcut represents a Microsoft Outlook folder.</span></span> <span data-ttu-id="9f886-110">型が<b>文字列</b>(C# では<b>文字列</b>) の場合は、ショートカットは、ファイル システムのパスまたは URL を表します。</span><span class="sxs-lookup"><span data-stu-id="9f886-110">If the type is a <b>String</b> (<b>string</b> in C#), the shortcut represents a file-system path or a URL.</span></span></param>
+        <summary><span data-ttu-id="9f886-111">[ショートカット] ウィンドウ内のグループに新しいショートカットを追加します。</span><span class="sxs-lookup"><span data-stu-id="9f886-111">Adds a new shortcut to a group in the Shortcuts pane.</span></span></summary>
+        <returns><span data-ttu-id="9f886-112"><see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> 、新しいショートカットを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9f886-112">An <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> object that represents the new shortcut.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06e7c-113">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="06e7c-114">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9f886-113">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9f886-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="9f886-114">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9f886-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06e7c-115">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="06e7c-116">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9f886-115">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="9f886-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="9f886-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9f886-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -218,16 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06e7c-117">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-117">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="06e7c-118">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9f886-117">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="9f886-117">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="9f886-118">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9f886-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,24 +168,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="06e7c-119">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-119">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="06e7c-120">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />コレクションからのオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06e7c-121">指定したオブジェクトを表す <b>OutlookBarShortcut</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-121">An <b>OutlookBarShortcut</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="9f886-119">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span><span class="sxs-lookup"><span data-stu-id="9f886-119">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="9f886-120">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />コレクションからのオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9f886-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="9f886-121">指定したオブジェクトを表す <b>OutlookBarShortcut</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9f886-121">An <b>OutlookBarShortcut</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06e7c-p106">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9f886-p106">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="9f886-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -335,18 +225,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="06e7c-124">コレクション内のオブジェクトの名前、または 1 から始まるインデックス値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-124">The name or 1-based index value of an object within a collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="06e7c-125">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-125">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="9f886-124">コレクション内のオブジェクトの名前、または 1 から始まるインデックス値を指定します。</span><span class="sxs-lookup"><span data-stu-id="9f886-124">The name or 1-based index value of an object within a collection.</span></span></param>
+        <summary><span data-ttu-id="9f886-125">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="9f886-125">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,42 +253,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06e7c-126">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="06e7c-127">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9f886-126">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="9f886-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="9f886-127">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9f886-127">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="06e7c-128">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="9f886-128"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="9f886-128">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="9f886-129">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="9f886-129">Both members serve the same purpose.</span></span> <span data-ttu-id="9f886-130">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="9f886-130">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06e7c-128">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

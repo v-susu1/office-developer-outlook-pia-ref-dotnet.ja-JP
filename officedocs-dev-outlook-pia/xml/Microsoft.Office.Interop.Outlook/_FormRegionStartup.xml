@@ -1,13 +1,5 @@
 <Type Name="_FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook._FormRegionStartup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639390" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904582" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegionStartup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegionStartup" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6fbbd-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6fbbd-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="6fbbd-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6fbbd-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="6fbbd-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6fbbd-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="6fbbd-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6fbbd-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="3ad66-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="3ad66-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="3ad66-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="3ad66-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="3ad66-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="3ad66-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />。</span><span class="sxs-lookup"><span data-stu-id="3ad66-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -69,34 +44,12 @@
         <Parameter Name="FormRegion" Type="Microsoft.Office.Interop.Outlook.FormRegion" />
       </Parameters>
       <Docs>
-        <param name="FormRegion">
-          <span data-ttu-id="6fbbd-105">
-            <b>FormRegion</b> オブジェクトを表示するのにはフォーム領域を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-105">The <b>FormRegion</b> object representing the form region that is to be displayed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6fbbd-106">フォーム領域が表示される前に、アドインによってフォーム領域のユーザー インターフェイスを更新できるようにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-106">Allows an add-in to update the user interface of a form region before it is displayed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="6fbbd-107">
-            <para>このメソッドは、Outlook は、アドインに<b>FormRegion</b>オブジェクトを渡すことができ、アドインが表示されるように、たとえば、ラベルのテキストを変更することができますまたは不適切な内容を抑制する前にフォーム領域のユーザー インターフェイスを更新することができます。コントロールがインスタンス化された後に、レイアウトを計算すると、領域が表示されます。 フォームの前に呼び出されます。</para>
-            <para>このメソッドを実装するときからアイテムを取得することに留意してください、<paramref name="FormRegion" />パラメーター (つまり、 <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /><b>FormRegion</b>オブジェクトのプロパティ) が読み取り専用</para>。
-          <para>アドインの C# と Visual Basic .NET で<b>FormRegionStartup</b>を実装する例については、MSDN のコード サンプルのダウンロードを参照してください</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-107">
-              <para>This method lets Outlook pass the <b>FormRegion</b> object to the add-in, and allows an add-in to update the user interface of the form region before it is displayed so that, for instance, the text of labels can be changed or irrelevant content can be suppressed. It is called after the controls are instantiated and the layout is calculated, but before the form region is made visible. </para>
-              <para>When implementing this method, keep in mind that the item obtained from the <paramref name="FormRegion" /> parameter (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> property of the <b>FormRegion</b> object) is read-only.</para>
-              <para>For examples of add-ins in C# and  Visual Basic .NET that implement <b>FormRegionStartup</b>, see code sample downloads on MSDN.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FormRegion"><span data-ttu-id="3ad66-105"><b>FormRegion</b> オブジェクトを表示するのにはフォーム領域を表します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-105">The <b>FormRegion</b> object representing the form region that is to be displayed.</span></span></param>
+        <summary><span data-ttu-id="3ad66-106">フォーム領域が表示される前に、アドインによってフォーム領域のユーザー インターフェイスを更新できるようにします。</span><span class="sxs-lookup"><span data-stu-id="3ad66-106">Allows an add-in to update the user interface of a form region before it is displayed.</span></span></summary>
+        <remarks><para><span data-ttu-id="3ad66-p102">このメソッドは、Outlook は、アドインに <b>FormRegion</b> オブジェクトを渡すことができ、アドインが表示されるように、たとえば、ラベルのテキストを変更することができますまたは不適切な内容を抑制する前にフォーム領域のユーザー インターフェイスを更新することができます。コントロールがインスタンス化された後に、レイアウトを計算すると、領域が表示されます。 フォームの前に呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-p102">This method lets Outlook pass the <b>FormRegion</b> object to the add-in, and allows an add-in to update the user interface of the form region before it is displayed so that, for instance, the text of labels can be changed or irrelevant content can be suppressed. It is called after the controls are instantiated and the layout is calculated, but before the form region is made visible. </span></span></para>
+          <para><span data-ttu-id="3ad66-109">このメソッドを実装するときからアイテムを取得することに留意してください、<paramref name="FormRegion" />パラメーター (つまり、 <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> <b>FormRegion</b>オブジェクトのプロパティ) は読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="3ad66-109">When implementing this method, keep in mind that the item obtained from the <paramref name="FormRegion" /> parameter (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> property of the <b>FormRegion</b> object) is read-only.</span></span></para>
+          <para><span data-ttu-id="3ad66-110">アドインの C# と Visual Basic .NET で<b>FormRegionStartup</b>を実装する例については、MSDN のコード サンプルのダウンロードを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-110">For examples of add-ins in C# and  Visual Basic .NET that implement <b>FormRegionStartup</b>, see code sample downloads on MSDN.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionIcon">
@@ -124,53 +77,16 @@
         <Parameter Name="Icon" Type="Microsoft.Office.Interop.Outlook.OlFormRegionIcon" />
       </Parameters>
       <Docs>
-        <param name="FormRegionName">
-          <span data-ttu-id="6fbbd-108">フォーム領域を Windows レジストリに登録するときに使用されたフォーム領域の名前。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-108">The name of the form region which is the name used when registering the form region in the Windows registry.</span>
-          </span>
-        </param>
-        <param name="LCID">
-          <span data-ttu-id="6fbbd-p102">Outlook が現在使用している言語を表すロケール ID。この値は、この言語に対応するフォーム領域のローカライズ文字列を取得するために使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-p102">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span>
-          </span>
-        </param>
-        <param name="Icon">
-          <span data-ttu-id="6fbbd-111">アイコンの種類を識別する定数を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-111">A constant that identifies the type of icon.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6fbbd-112">フォーム領域の特定の種類のアイコンに対して表示されるアイコン イメージを取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-112">Obtains an icon image that will be displayed for a particular type of icon for the form region.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="6fbbd-113">オリジナルのイメージ ファイルのバイト数を表すバイト配列または<b>IPictureDisp</b>オブジェクトのいずれかである<b>オブジェクト</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-113">An <b>Object</b> that is either a byte-array that represents the original bytes of the image file or an <b>IPictureDisp</b> object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="6fbbd-114">
-            <para>このメソッドは、アドインが実装するためのもので、Outlook によって呼び出されます。一部として、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースは、このメソッド、および<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" />メソッドは、アドインがフォーム領域を登録でき、フォーム領域の XML マニフェストとアイコンが、メカニズムを提供します</para>。
-          <para>場合は、フォーム領域のアイコンを提供するアドインを Windows レジストリでフォーム領域を登録するときにアドインの ProgID を指定します。フォーム領域を登録する方法の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Windows レジストリでフォーム領域を指定する</a><b>GetFormRegionManifest</b>と、 <b>FormRegionStartup</b>インターフェイスの<b>GetFormRegionIcon</b>メソッドを参照してください。</para>フォーム領域には、アイコンの要素の下の
-          <para>の XML マニフェストのカスタム アイコンを使用するには子要素の値のアドインを指定します。 引数として、Outlook がアイコンの種類を通過するときなど、 <b>GetFormRegionIcon</b>を実装<paramref name="Icon" />、 <b>GetFormRegionIcon</b>は、ユーザー定義のアイコンのイメージを返します。Outlook を既定のアイコンを表示する場合は、戻り値は<b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) の種類のアイコンで、 <b>GetFormRegionIcon</b>を実装します。<b>GetFormRegionIcon</b>返す必要がありますも<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) と<paramref name="Icon" />は、 <b>olFormRegionIconDefault</b>です</para>。
-          <para>するときの Outlook の起動時、Windows レジストリからフォーム領域の一覧を読み取り、フォーム領域に関連付けられているデータをキャッシュします。ProgID を持つフォーム領域を登録している場合 Outlook はアイコンの要素の子要素の値として、アドインを持つ XML マニフェスト内の任意のアイコンの<b>GetFormRegionIcon</b>の実装を呼び出すことで、対応するアドインを並び替え。呼び出さないことを場合は、Windows レジストリ内の ProgID を指定しないと、Outlook は、 <b>GetFormRegionManifest</b>メソッドと<b>GetFormRegionIcon</b>メソッドに注意してください</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-114">
-              <para>This method is intended to be implemented by an add-in and called by Outlook. As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook with the XML manifest and the icons for the form region.</para>
-              <para>If you would like an add-in to provide icons for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry. For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> and the <b>GetFormRegionIcon</b> methods of the  <b>FormRegionStartup</b> interface. </para>
-              <para>In the XML manifest for the form region, under the icons element, specify the value addin for each of the child elements where you would like to use a custom icon.  Implement <b>GetFormRegionIcon</b> such that when Outlook passes that type of icon as an argument for <paramref name="Icon" />,  <b>GetFormRegionIcon</b> returns the image of the custom icon. If you want Outlook to display the default icon, implement <b>GetFormRegionIcon</b> such that it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that type of icon. <b>GetFormRegionIcon</b> should also return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) when <paramref name="Icon" /> is <b>olFormRegionIconDefault</b>.</para>
-              <para> When Outlook starts, it reads the list of form regions from the Windows registry and caches the data associated with the form regions. If a form region has been registered with a ProgID, Outlook will resort to the corresponding add-in by calling its implementation of <b>GetFormRegionIcon</b> for any icon in the XML manifest that has addin as the value of a child element of the icons element. Note that if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FormRegionName"><span data-ttu-id="3ad66-111">フォーム領域を Windows レジストリに登録するときに使用されたフォーム領域の名前。</span><span class="sxs-lookup"><span data-stu-id="3ad66-111">The name of the form region which is the name used when registering the form region in the Windows registry.</span></span></param>
+        <param name="LCID"><span data-ttu-id="3ad66-p103">Outlook が現在使用している言語を表すロケール ID。この値は、この言語に対応するフォーム領域のローカライズ文字列を取得するために使用します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-p103">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span></span></param>
+        <param name="Icon"><span data-ttu-id="3ad66-114">アイコンの種類を識別する定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-114">A constant that identifies the type of icon.</span></span></param>
+        <summary><span data-ttu-id="3ad66-115">フォーム領域の特定の種類のアイコンに対して表示されるアイコン イメージを取得します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-115">Obtains an icon image that will be displayed for a particular type of icon for the form region.</span></span></summary>
+        <returns><span data-ttu-id="3ad66-116">オリジナルのイメージ ファイルのバイト数を表すバイト配列または<b>IPictureDisp</b>オブジェクトのいずれかである<b>オブジェクト</b>。</span><span class="sxs-lookup"><span data-stu-id="3ad66-116">An <b>Object</b> that is either a byte-array that represents the original bytes of the image file or an <b>IPictureDisp</b> object.</span></span></returns>
+        <remarks><para><span data-ttu-id="3ad66-117">このメソッドは、アドインによる実装を目的としており、Outlook によって呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-117">This method is intended to be implemented by an add-in and called by Outlook.</span></span> <span data-ttu-id="3ad66-118">一部として、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースは、このメソッド、および<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" />メソッドは、アドインがフォーム領域を登録でき、フォーム領域の XML マニフェストとアイコンが、メカニズムを提供します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-118">As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook with the XML manifest and the icons for the form region.</span></span></para>
+          <para><span data-ttu-id="3ad66-119">フォーム領域のアイコンを提供するアドインの場合は、Windows レジストリでフォーム領域を登録するときにアドインの ProgID を指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-119">If you would like an add-in to provide icons for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry.</span></span> <span data-ttu-id="3ad66-120">フォーム領域を登録する方法の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Windows レジストリでフォーム領域を指定する</a><b>GetFormRegionManifest</b>と、 <b>FormRegionStartup</b>インターフェイスの<b>GetFormRegionIcon</b>メソッドを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-120">For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> and the <b>GetFormRegionIcon</b> methods of the  <b>FormRegionStartup</b> interface.</span></span> </para>
+          <para><span data-ttu-id="3ad66-121">アイコン要素の下で、フォーム領域の XML マニフェストでカスタム アイコンを使用するには子要素のそれぞれの値のアドインを指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-121">In the XML manifest for the form region, under the icons element, specify the value addin for each of the child elements where you would like to use a custom icon.</span></span>  <span data-ttu-id="3ad66-122">引数として、Outlook がアイコンの種類を通過するときなど、 <b>GetFormRegionIcon</b>を実装<paramref name="Icon" />、 <b>GetFormRegionIcon</b>は、ユーザー定義のアイコンのイメージを返します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-122">Implement <b>GetFormRegionIcon</b> such that when Outlook passes that type of icon as an argument for <paramref name="Icon" />,  <b>GetFormRegionIcon</b> returns the image of the custom icon.</span></span> <span data-ttu-id="3ad66-123">Outlook を既定のアイコンを表示する場合は、戻り値は<b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) の種類のアイコンで、 <b>GetFormRegionIcon</b>を実装します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-123">If you want Outlook to display the default icon, implement <b>GetFormRegionIcon</b> such that it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that type of icon.</span></span> <span data-ttu-id="3ad66-124"><b>GetFormRegionIcon</b>返す必要がありますも<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) と<paramref name="Icon" />は、 <b>olFormRegionIconDefault</b>です。</span><span class="sxs-lookup"><span data-stu-id="3ad66-124"><b>GetFormRegionIcon</b> should also return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) when <paramref name="Icon" /> is <b>olFormRegionIconDefault</b>.</span></span></para>
+          <para> <span data-ttu-id="3ad66-p107">Outlook が起動すると、Windows レジストリからフォーム領域の一覧が読み込まれ、フォーム領域に関連付けられたデータがキャッシュされます。フォーム領域が ProgID に登録されている場合、Outlook では、icons 要素の子要素の値として addin を持つ XML マニフェスト内のアイコンに対して <b>GetFormRegionIcon</b> の実装を呼び出すことで、対応するアドインが使用されます。Windows レジストリで ProgID を指定しない場合、<b>GetFormRegionManifest</b> メソッドと <b>GetFormRegionIcon</b> メソッドは呼び出されません。</span><span class="sxs-lookup"><span data-stu-id="3ad66-p107">When Outlook starts, it reads the list of form regions from the Windows registry and caches the data associated with the form regions. If a form region has been registered with a ProgID, Outlook will resort to the corresponding add-in by calling its implementation of <b>GetFormRegionIcon</b> for any icon in the XML manifest that has addin as the value of a child element of the icons element. Note that if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionManifest">
@@ -197,76 +113,30 @@
         <Parameter Name="LCID" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="FormRegionName">
-          <span data-ttu-id="6fbbd-115">フォーム領域を Windows レジストリに登録するときに使用されたフォーム領域の名前。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-115">The name of the form region which is the name used when registering the form region in the Windows registry.</span>
-          </span>
-        </param>
-        <param name="LCID">
-          <span data-ttu-id="6fbbd-p103">Outlook が現在使用している言語を表すロケール ID。この値は、この言語に対応するフォーム領域のローカライズ文字列を取得するために使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-p103">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6fbbd-118">フォーム領域の XML マニフェストを取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-118">Obtains the XML manifest for a form region.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="6fbbd-119">フォーム領域の XML マニフェストを表す<b>オブジェクト</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-119">An <b>Object</b> that represents the XML manifest for a form region.</span>
-          </span>
-          <span data-ttu-id="6fbbd-120">この XML 文字列には、フォーム領域 (title 要素で指定) と同じ表示名、関連付けられたレイアウト ファイルまたはアドインをサポートされているユーザーの操作、およびローカライズ文字列などの特性が含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-120">This XML string includes characteristics of the form region such as the display name (as specified by the title element), any associated layout file or add-in,  any supported user actions, and any localization strings.</span>
-          </span>
-          <span data-ttu-id="6fbbd-121">XML は、フォーム領域の XML スキーマに従う必要があります。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-121">The XML must follow the form region XML schema.</span>
-          </span>
-          <span data-ttu-id="6fbbd-122">フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-122">For more information on the form region XML schema, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="6fbbd-123">
-            <para>このメソッドは、アドインが実装するためのもので、Outlook によって呼び出されます。一部として、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースは、このメソッド、および<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />メソッドは、アドインがフォーム領域を登録でき、Outlook はフォーム領域の XML マニフェストとアイコン、メカニズムを提供します</para>。
-          <para>場合は、フォーム領域の XML マニフェストを提供するアドインを Windows レジストリでフォーム領域を登録するときにアドインの ProgID を指定します。フォーム領域を登録する方法の詳細については、 <b>FormRegionStartup</b>インターフェイスの<a href="http://go.microsoft.com/fwlink/?LinkId=87933">Windows レジストリでフォーム領域を指定する</a><b>GetFormRegionManifest</b>のメソッドを参照してください。呼び出さないことを場合は、Windows レジストリ内の ProgID を指定しないと、Outlook はこの方法に注意してください</para>。
-          <para>にフォーム領域の XML マニフェストも手段を提供するアドインを [Relying は、アドインがフォーム領域のアイコンを提供することができるようにします。アドインは、 <b>FormRegionStartup</b>インターフェイスの<b>GetFormRegionIcon</b>の実装する必要がありますもできます。Outlook では、フォーム領域のアドインを指定されたアイコンを取得するのには<b>GetFormRegionIcon</b>を呼び出します。アイコンを指定するのにはアドインを使用する方法についてを参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87934">する方法: フォーム領域のアイコンを指定してアドインを使用して</a></para><para>ときの Outlook の起動時、Windows レジストリからフォーム領域の一覧を読み取り、データをキャッシュします。Outlook アドインが指定されているフォーム領域の XML マニフェストを提供するを通知する場合は、このデータに基づき、Outlook はキャッシュされたデータと、 <b>GetFormRegionManifest</b>メソッドによって実装されるこのアドインを取得する呼び出しで提供されている ProgID を使用しますXML がフォーム領域を表示する必要があります。XML マニフェストが有効ではありません、フォーム領域の XML スキーマに準拠していない場合、Outlook はフォーム領域を読み込むことはできません。、場合、Windows レジストリ内の ProgID を指定しないと、Outlook はないメソッドを呼び出しても、 <b>GetFormRegionManifest</b>と<b>GetFormRegionIcon</b>です。</para><para>Outlook アドインの XML マニフェストを提供するときに次の要素は無視されます:</para><list type="bullet"><item><para>名前: Outlook がこの要素に対して指定された値を無視し、レジストリでフォーム領域の指定した名前を使用します</para></item>。
-            <item><para>layoutFile: Outlook は、アドインは、このフォーム領域を拡張するためにこの要素を無視します</para></item>。
-            <item><para>アドイン: アドインの ProgID としてレジストリの前に等号 (=) である値が使用されます</para></item>stringOverride の
-            <item><para>ファイルの属性: Outlook stringOverride 要素で指定されている任意のセカンダリのローカリゼーション ファイルは無視されます。アドイン実装インラインの指定された文字列のローカライズの XML マニフェストを取得する<b>GetFormRegionManifest</b><paramref name="LCID" />、または管理文字列のローカライズ別の方法で、.NET Framework のローカリゼーションを使用して戻ります適切な XML マニフェストの指定された<paramref name="LCID" />です</para></item></list>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-123">
-              <para>This method is intended to be implemented by an add-in and called by Outlook. As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook the XML manifest and the icons for the form region.</para>
-              <para>If you would like an add-in to provide the XML manifest for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry. For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> method of the  <b>FormRegionStartup</b> interface. Note that if you do not specify any ProgID in the Windows registry, Outlook will not call this method.</para>
-              <para>Relying on an add-in to provide the XML manifest for a form region also means you are allowing the add-in to provide any icons for the form region. The add-in must also implement the <b>GetFormRegionIcon</b> of the <b>FormRegionStartup</b> interface. Outlook will call <b>GetFormRegionIcon</b> to obtain any add-in specified icons for the form region. For more information on using an add-in to specify icons, see <a href="http://go.microsoft.com/fwlink/?LinkId=87934">How to: Use an Add-in to Specify Icons for a Form Region</a></para>
-              <para> When Outlook starts, it reads the list of form regions from the Windows registry and caches the data. Based on this data, if  Outlook notices that an add-in has been specified to provide the XML manifest for a form region, Outlook will use the ProgID provided in the cached data and call the <b>GetFormRegionManifest</b> method implemented by this add-in to obtain the XML it needs to display the form region. If the XML manifest is not valid and does not conform to the form region XML schema, Outlook will not be able to load the form region. Also, if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</para>
-              <para>Outlook ignores the following elements when the add-in provides the XML manifest: </para>
-              <list type="bullet">
-                <item>
-                  <para>name: Outlook ignores the value specified for this element and will  use the name  specified for the form region in the registry.</para>
-                </item>
-                <item>
-                  <para>layoutFile: Outlook ignores this element because an add-in is extending this form region.</para>
-                </item>
-                <item>
-                  <para>addin: Outlook uses the value that is preceded by an equal sign (=) in the registry as the ProgID of the add-in.</para>
-                </item>
-                <item>
-                  <para>file attribute of stringOverride: Outlook ignores any secondary localization file specified by the stringOverride element. The add-in can implement <b>GetFormRegionManifest</b> to return inline the XML manifest for string localization for the specified <paramref name="LCID" />, or manage  string localization in another way, for example, using .NET Framework localization, and then return the appropriate XML manifest for the specified <paramref name="LCID" />.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FormRegionName"><span data-ttu-id="3ad66-128">フォーム領域を Windows レジストリに登録するときに使用されたフォーム領域の名前。</span><span class="sxs-lookup"><span data-stu-id="3ad66-128">The name of the form region which is the name used when registering the form region in the Windows registry.</span></span></param>
+        <param name="LCID"><span data-ttu-id="3ad66-p108">Outlook が現在使用している言語を表すロケール ID。この値は、この言語に対応するフォーム領域のローカライズ文字列を取得するために使用します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-p108">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span></span></param>
+        <summary><span data-ttu-id="3ad66-131">フォーム領域の XML マニフェストを取得します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-131">Obtains the XML manifest for a form region.</span></span></summary>
+        <returns><span data-ttu-id="3ad66-132">フォーム領域の XML マニフェストを表す<b>オブジェクト</b>。</span><span class="sxs-lookup"><span data-stu-id="3ad66-132">An <b>Object</b> that represents the XML manifest for a form region.</span></span> <span data-ttu-id="3ad66-133">この XML 文字列には、フォーム領域 (title 要素で指定) と同じ表示名、関連付けられたレイアウト ファイルまたはアドインをサポートされているユーザーの操作、およびローカライズ文字列などの特性が含まれています。</span><span class="sxs-lookup"><span data-stu-id="3ad66-133">This XML string includes characteristics of the form region such as the display name (as specified by the title element), any associated layout file or add-in,  any supported user actions, and any localization strings.</span></span> <span data-ttu-id="3ad66-134">XML は、フォーム領域の XML スキーマに従う必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ad66-134">The XML must follow the form region XML schema.</span></span> <span data-ttu-id="3ad66-135">フォーム領域の XML スキーマの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN ライブラリ</a>で Microsoft Outlook 2010 の XML スキーマ リファレンスを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-135">For more information on the form region XML schema, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></span></span></returns>
+        <remarks><para><span data-ttu-id="3ad66-136">このメソッドは、アドインによる実装を目的としており、Outlook によって呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-136">This method is intended to be implemented by an add-in and called by Outlook.</span></span> <span data-ttu-id="3ad66-137">一部として、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースは、このメソッド、および<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />メソッドは、アドインがフォーム領域を登録でき、Outlook はフォーム領域の XML マニフェストとアイコン、メカニズムを提供します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-137">As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook the XML manifest and the icons for the form region.</span></span></para>
+          <para><span data-ttu-id="3ad66-138">フォーム領域の XML マニフェストを提供するアドインの場合は、Windows レジストリでフォーム領域を登録するときに、追加の ProgIDを指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-138">If you would like an add-in to provide the XML manifest for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry.</span></span> <span data-ttu-id="3ad66-139">フォーム領域を登録する方法の詳細については、 <b>FormRegionStartup</b>インターフェイスの<a href="http://go.microsoft.com/fwlink/?LinkId=87933">Windows レジストリでフォーム領域を指定する</a><b>GetFormRegionManifest</b>のメソッドを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-139">For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> method of the  <b>FormRegionStartup</b> interface.</span></span> <span data-ttu-id="3ad66-140">呼び出さないことを場合は、Windows レジストリ内の ProgIDを指定しないと、Outlook はこの方法に注意してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-140">Note that if you do not specify any ProgID in the Windows registry, Outlook will not call this method.</span></span></para>
+          <para><span data-ttu-id="3ad66-141">フォーム領域の XML マニフェストでは、アドインがフォーム領域のアイコンを提供するを許可することを意味を提供するアドインに依存しています。</span><span class="sxs-lookup"><span data-stu-id="3ad66-141">Relying on an add-in to provide the XML manifest for a form region also means you are allowing the add-in to provide any icons for the form region.</span></span> <span data-ttu-id="3ad66-142">アドインは、 <b>FormRegionStartup</b> インターフェイスの <b>GetFormRegionIcon</b> の実装する必要がありますもできます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-142">The add-in must also implement the <b>GetFormRegionIcon</b> of the <b>FormRegionStartup</b> interface.</span></span> <span data-ttu-id="3ad66-143">Outlook では、フォーム領域のアドインを指定されたアイコンを取得するのには <b>GetFormRegionIcon</b> を呼び出します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-143">Outlook will call <b>GetFormRegionIcon</b> to obtain any add-in specified icons for the form region.</span></span> <span data-ttu-id="3ad66-144">アイコンを指定するのにはアドインを使用する方法についてを参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87934">する方法: フォーム領域のアイコンを指定してアドインを使用して</a></span><span class="sxs-lookup"><span data-stu-id="3ad66-144">For more information on using an add-in to specify icons, see <a href="http://go.microsoft.com/fwlink/?LinkId=87934">How to: Use an Add-in to Specify Icons for a Form Region</a></span></span></para>
+          <para> <span data-ttu-id="3ad66-145">Outlook の起動時、Windows レジストリからフォーム領域の一覧を読み取りし、データをキャッシュします。</span><span class="sxs-lookup"><span data-stu-id="3ad66-145">When Outlook starts, it reads the list of form regions from the Windows registry and caches the data.</span></span> <span data-ttu-id="3ad66-146">Outlook アドインが指定されているフォーム領域の XML マニフェストを提供するを通知する場合は、このデータに基づき、Outlook はキャッシュされたデータで提供されている ProgID を使用しでこのアドインを入手するのには実装されている<b>GetFormRegionManifest</b>メソッドを呼び出す、XML は、フォーム領域を表示する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ad66-146">Based on this data, if  Outlook notices that an add-in has been specified to provide the XML manifest for a form region, Outlook will use the ProgID provided in the cached data and call the <b>GetFormRegionManifest</b> method implemented by this add-in to obtain the XML it needs to display the form region.</span></span> <span data-ttu-id="3ad66-147">XML マニフェストが有効ではありません、フォーム領域の XML スキーマに準拠していない場合、Outlook はフォーム領域を読み込むことはできません。</span><span class="sxs-lookup"><span data-stu-id="3ad66-147">If the XML manifest is not valid and does not conform to the form region XML schema, Outlook will not be able to load the form region.</span></span> <span data-ttu-id="3ad66-148">また場合は、Windows レジストリ内の ProgID を指定しないと、Outlook は<b>GetFormRegionManifest</b>と<b>GetFormRegionIcon</b>メソッドを呼び出しますしません。</span><span class="sxs-lookup"><span data-stu-id="3ad66-148">Also, if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</span></span></para>
+          <para><span data-ttu-id="3ad66-149">Outlook では、アドインによって XML マニフェストが提供される場合、次の要素が無視されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-149">Outlook ignores the following elements when the add-in provides the XML manifest:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="3ad66-150">名前: Outlook がこの要素に対して指定された値を無視し、レジストリでフォーム領域の指定した名前を使用します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-150">name: Outlook ignores the value specified for this element and will  use the name  specified for the form region in the registry.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3ad66-151">layoutFile: フォーム領域はアドインによって拡張されているため、この要素は無視されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-151">layoutFile: Outlook ignores this element because an add-in is extending this form region.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3ad66-152">addin: レジストリでアドインのプログラム ID として指定された等号 (=) の後の値が使用されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-152">addin: Outlook uses the value that is preceded by an equal sign (=) in the registry as the ProgID of the add-in.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3ad66-153">stringOverride の ファイル 属性: Outlook stringOverride 要素で指定されている任意のセカンダリのローカリゼーション ファイルは無視されます。</span><span class="sxs-lookup"><span data-stu-id="3ad66-153">file attribute of stringOverride: Outlook ignores any secondary localization file specified by the stringOverride element.</span></span> <span data-ttu-id="3ad66-154">アドイン実装インラインの指定された文字列のローカライズの XML マニフェストを取得する<b>GetFormRegionManifest</b> <paramref name="LCID" />、または管理文字列のローカライズ別の方法で、.NET Framework のローカリゼーションを使用して戻ります、指定された XML マニフェストを適切な<paramref name="LCID" />。</span><span class="sxs-lookup"><span data-stu-id="3ad66-154">The add-in can implement <b>GetFormRegionManifest</b> to return inline the XML manifest for string localization for the specified <paramref name="LCID" />, or manage  string localization in another way, for example, using .NET Framework localization, and then return the appropriate XML manifest for the specified <paramref name="LCID" />.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionStorage">
@@ -296,85 +166,24 @@
         <Parameter Name="FormRegionSize" Type="Microsoft.Office.Interop.Outlook.OlFormRegionSize" />
       </Parameters>
       <Docs>
-        <param name="FormRegionName">
-          <span data-ttu-id="6fbbd-124">フォーム領域の内部名です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-124">The internal name of the form region.</span>
-          </span>
-          <span data-ttu-id="6fbbd-125">によって示すことができますこれ、&lt;名&gt;に対応するフォーム領域の XML マニフェストのタグです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-125">This can be indicated by the &lt;name&gt; tag in the corresponding form region XML manifest.</span>
-          </span>
-        </param>
-        <param name="Item">
-          <span data-ttu-id="6fbbd-126">フォーム領域の読み込みを要求した Outlook アイテムを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-126">The Outlook item object that caused the loading of the form region.</span>
-          </span>
-        </param>
-        <param name="LCID">
-          <span data-ttu-id="6fbbd-127">現在のロケール ID を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-127">The current locale ID.</span>
-          </span>
-        </param>
-        <param name="FormRegionMode">
-          <span data-ttu-id="6fbbd-128">フォーム領域が読み込まれるモードを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-128">The mode that  the form region is being loaded into.</span>
-          </span>
-        </param>
-        <param name="FormRegionSize">
-          <span data-ttu-id="6fbbd-129">読み込まれるフォーム領域の種類 (付加または個別) を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-129">The type of form region being loaded, either adjoining or separate.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6fbbd-130">指定された情報に基づき、フォーム領域の適切な記憶域を取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-130">Obtains appropriate storage for a form region based on the specified information.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="6fbbd-131">Outlook がフォーム領域に割り当てられているストレージを表す<b>オブジェクト</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-131">A <b>Object</b> representing the storage that Outlook has allocated for the form region.</span>
-          </span>
-          <span data-ttu-id="6fbbd-132">戻り値の型であることができます: 戻り値は、Outlook フォームの記憶域へのローカル パスである<b>文字列</b>(C# では<b>文字列</b>) を表す (。OFS) ファイルです。<b>Byte()</b>を表す戻り値は、の内容を含むバイト配列します。OFS ファイルです。<b>IStorage</b>を表す戻り値が COM 記憶域オブジェクト (C++ のみ) での<b>IStorage です。</b><b>Nothing</b>または<b>Null</b>を表すに、このフォーム領域の記憶域を割り当てることができませんでしたし、フォーム領域は読み込まれません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-132">The type of the return value can be: <b>String</b> (<b>string</b> in C#) representing that the return value is a local path to an Outlook Form Storage (.OFS) file; <b>Byte()</b> representing that the return value is an array of bytes that contains the contents of the .OFS file; <b>IStorage</b> representing that the return value is a COM storage object <b>IStorage</b> (for C++ only); <b>Nothing</b> or <b>Null</b>, representing that Outlook could not allocate storage for this form region and will not load the form region.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="6fbbd-133">
-            <para>アドインは、 <b>GetFormRegionStorage</b>の戻り値のチェックが必要です。次のいずれかに返された記憶域の該当する場合、フォーム領域は読み込まれません。</para>
-            <list type="bullet">
-              <item>
-                <para>は、返された記憶域が、します。OFS ファイルがローカルではないパスで指定された</para>
-              </item>
-              <item>
-                <para>、返された記憶域ファイルがありません。OFS ファイルが、フォーム デザイナーから保存します</para>
-              </item>
-            </list>。
-          <para>のアドインでは、C# と Visual Basic .NET を実装する例については、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インターフェイス、コード サンプルは、MSDN のダウンロードを参照してください</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6fbbd-133">
-              <para>The add-in must check for the return value of <b>GetFormRegionStorage</b>. A form region will not load if any of the following is true of the returned storage:</para>
-              <list type="bullet">
-                <item>
-                  <para>The returned storage is a .OFS file specified with a non-local path.</para>
-                </item>
-                <item>
-                  <para>The returned storage is a file but is not an .OFS file saved from the forms designer.</para>
-                </item>
-              </list>
-              <para>For examples of add-ins in C# and  Visual Basic .NET that implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, see code sample downloads on MSDN.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FormRegionName"><span data-ttu-id="3ad66-155">フォーム領域の内部名です。</span><span class="sxs-lookup"><span data-stu-id="3ad66-155">The internal name of the form region.</span></span> <span data-ttu-id="3ad66-156">によって示すことができますこれ、&lt;名&gt;に対応するフォーム領域の XML マニフェストのタグです。</span><span class="sxs-lookup"><span data-stu-id="3ad66-156">This can be indicated by the &lt;name&gt; tag in the corresponding form region XML manifest.</span></span></param>
+        <param name="Item"><span data-ttu-id="3ad66-157">フォーム領域の読み込みを要求した Outlook アイテムを指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-157">The Outlook item object that caused the loading of the form region.</span></span></param>
+        <param name="LCID"><span data-ttu-id="3ad66-158">現在のロケール ID を指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-158">The current locale ID.</span></span></param>
+        <param name="FormRegionMode"><span data-ttu-id="3ad66-159">フォーム領域が読み込まれるモードを指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-159">The mode that  the form region is being loaded into.</span></span></param>
+        <param name="FormRegionSize"><span data-ttu-id="3ad66-160">読み込まれるフォーム領域の種類 (付加または個別) を指定します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-160">The type of form region being loaded, either adjoining or separate.</span></span></param>
+        <summary><span data-ttu-id="3ad66-161">指定された情報に基づき、フォーム領域の適切な記憶域を取得します。</span><span class="sxs-lookup"><span data-stu-id="3ad66-161">Obtains appropriate storage for a form region based on the specified information.</span></span></summary>
+        <returns><span data-ttu-id="3ad66-162">Outlook がフォーム領域に割り当てられているストレージを表す<b>オブジェクト</b>。</span><span class="sxs-lookup"><span data-stu-id="3ad66-162">A <b>Object</b> representing the storage that Outlook has allocated for the form region.</span></span> <span data-ttu-id="3ad66-163">戻り値の型であることができます: 戻り値は、Outlook フォームの記憶域へのローカル パスである<b>文字列</b>(C# では<b>文字列</b>) を表す (。OFS) ファイルです。<b>Byte()</b>を表す戻り値は、の内容を含むバイト配列します。OFS ファイルです。<b>IStorage</b>を表す戻り値が COM 記憶域オブジェクト (C++ のみ) での<b>IStorage です。</b><b>Nothing</b>または<b>Null</b>を表すに、このフォーム領域の記憶域を割り当てることができませんでしたし、フォーム領域は読み込まれません。</span><span class="sxs-lookup"><span data-stu-id="3ad66-163">The type of the return value can be: <b>String</b> (<b>string</b> in C#) representing that the return value is a local path to an Outlook Form Storage (.OFS) file; <b>Byte()</b> representing that the return value is an array of bytes that contains the contents of the .OFS file; <b>IStorage</b> representing that the return value is a COM storage object <b>IStorage</b> (for C++ only); <b>Nothing</b> or <b>Null</b>, representing that Outlook could not allocate storage for this form region and will not load the form region.</span></span></returns>
+        <remarks><para><span data-ttu-id="3ad66-p117">アドインは、 <b>GetFormRegionStorage</b> の戻り値のチェックが必要です。次のいずれかに返された記憶域の該当する場合、フォーム領域は読み込まれません。</span><span class="sxs-lookup"><span data-stu-id="3ad66-p117">The add-in must check for the return value of <b>GetFormRegionStorage</b>. A form region will not load if any of the following is true of the returned storage:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="3ad66-166">返された記憶域がローカル パス以外で指定された .OFS ファイルである場合。</span><span class="sxs-lookup"><span data-stu-id="3ad66-166">The returned storage is a .OFS file specified with a non-local path.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3ad66-167">返された記憶域がファイルであるが、フォーム デザイナーから保存された .OFS ファイルでない場合。</span><span class="sxs-lookup"><span data-stu-id="3ad66-167">The returned storage is a file but is not an .OFS file saved from the forms designer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="3ad66-168">アドインの C# と Visual Basic .NET で実装する例については、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インターフェイス、コード サンプルは、MSDN のダウンロードを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ad66-168">For examples of add-ins in C# and  Visual Basic .NET that implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, see code sample downloads on MSDN.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

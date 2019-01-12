@@ -1,13 +1,5 @@
 <Type Name="AddressEntry" FullName="Microsoft.Office.Interop.Outlook.AddressEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="682854cc41fd5876bf1d22c8d65e2332e2233750" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638256" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c3361d6fae79bf9b2c1326717d5a3bd9227da59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906752" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntry" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ef9c1-101">メッセージング システムがメッセージを配信できるユーザー、グループ、パブリック フォルダーのいずれかを表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ef9c1-101">Represents a person, group, or public folder to which the messaging system can deliver messages.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ef9c1-102">
-        <para>
-          <b>AddressEntry</b>オブジェクトのアドレスでは、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />オブジェクトです。<b>AddressEntries</b>オブジェクトの各<b>AddressEntry</b>オブジェクトは、ユーザー、グループ、またはパブリック フォルダーのメッセージング システムがメッセージを配信する先を表す情報を保持します</para>。
-      <para>使用<b>AddressEntries</b>(<paramref name="index" />)、<paramref name="index" />のアドレス エントリまたは 1 つの<b>AddressEntry</b>オブジェクトを取得するのには、アドレス エントリの既定のプロパティを一致するように使用する値のインデックス番号します</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ef9c1-102">
-          <para>The <b>AddressEntry</b> object is an address in an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />  object. Each <b>AddressEntry</b> object in the <b>AddressEntries</b> object holds information that represents a person, group,  or public folder to which the messaging system can deliver messages.</para>
-          <para>Use <b>AddressEntries</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of an address entry or a value used to match the default property of an address entry, to return a single <b>AddressEntry</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="83c69-101">メッセージング システムがメッセージを配信できるユーザー、グループ、パブリック フォルダーのいずれかを表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-101">Represents a person, group, or public folder to which the messaging system can deliver messages.</span></span></summary>
+    <remarks><para><span data-ttu-id="83c69-102"><b>AddressEntry</b>オブジェクトのアドレスでは、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="83c69-102">The <b>AddressEntry</b> object is an address in an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />  object.</span></span> <span data-ttu-id="83c69-103"><b>AddressEntries</b>オブジェクトの各<b>AddressEntry</b>オブジェクトには、ユーザー、グループ、またはパブリック フォルダーのメッセージング システムがメッセージを配信する先を表す情報が保持されます。</span><span class="sxs-lookup"><span data-stu-id="83c69-103">Each <b>AddressEntry</b> object in the <b>AddressEntries</b> object holds information that represents a person, group,  or public folder to which the messaging system can deliver messages.</span></span></para>
+      <para><span data-ttu-id="83c69-104"><b>AddressEntries</b>を使用 (<paramref name="index" />)、どこで<paramref name="index" />のアドレス エントリまたは 1 つの<b>AddressEntry</b>オブジェクトを取得するのには、アドレス エントリの既定のプロパティを一致するように使用する値のインデックス番号します。</span><span class="sxs-lookup"><span data-stu-id="83c69-104">Use <b>AddressEntries</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of an address entry or a value used to match the default property of an address entry, to return a single <b>AddressEntry</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -74,30 +50,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-103">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-103">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="ef9c1-104">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-104">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-105"><b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span><span class="sxs-lookup"><span data-stu-id="83c69-105">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="83c69-106">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="83c69-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-105">
-            <para>呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-105">
-              <para>The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="83c69-107">呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="83c69-107">The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -123,31 +79,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-106">定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-106">Returns a constant from the  <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="ef9c1-107">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-108">定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span><span class="sxs-lookup"><span data-stu-id="83c69-108">Returns a constant from the  <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="83c69-109">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-108">
-            <para>
-              <b>AddressEntryUserType</b>の場合よりもさらに細かくは、ユーザーの種類の細分性のレベルを提供する<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />。<b>DisplayType</b>プロパティは<b>AddressEntry</b>、ライトウェイト ディレクトリ アクセス プロトコル (LDAP)、簡易メール転送プロトコル (SMTP) 電子メール アドレスを持つ<b>AddressEntry</b>などのさまざまな種類のユーザーを区別していませんアドレス、Exchange ユーザーのアドレス、または Outlook の連絡先アドレス帳には、 <b>AddressEntry</b> 。これらすべてのエントリには、その<b>AddressEntry.DisplayType</b>として<b>olUser</b>をがあります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-108">
-              <para>
-                <b>AddressEntryUserType</b> provides a level of granularity for user types that is finer than that of  <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. The <b>DisplayType</b> property does not distinguish users with different types of <b>AddressEntry</b>, such as an <b>AddressEntry</b> that has a Simple Mail Transfer Protocol (SMTP) e-mail address, a Lightweight Directory Access Protocol (LDAP) address, an Exchange user address, or an <b>AddressEntry</b> in the  Outlook Contacts Address Book. All these entires  have <b>olUser</b> as their <b>AddressEntry.DisplayType</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="83c69-110">
+            <b>AddressEntryUserType</b>の場合よりもさらに細かくは、ユーザーの種類の細分性のレベルを提供する<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />。</span><span class="sxs-lookup"><span data-stu-id="83c69-110">
+            <b>AddressEntryUserType</b> provides a level of granularity for user types that is finer than that of  <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />.</span></span> <span data-ttu-id="83c69-111"><b>DisplayType</b>プロパティは<b>AddressEntry</b>、ライトウェイト ディレクトリ アクセス プロトコル (LDAP)、簡易メール転送プロトコル (SMTP) 電子メール アドレスを持つ<b>AddressEntry</b>などのさまざまな種類のユーザーを区別していませんアドレス、Exchange ユーザーのアドレス、または Outlook の連絡先アドレス帳には、 <b>AddressEntry</b> 。</span><span class="sxs-lookup"><span data-stu-id="83c69-111">The <b>DisplayType</b> property does not distinguish users with different types of <b>AddressEntry</b>, such as an <b>AddressEntry</b> that has a Simple Mail Transfer Protocol (SMTP) e-mail address, a Lightweight Directory Access Protocol (LDAP) address, an Exchange user address, or an <b>AddressEntry</b> in the  Outlook Contacts Address Book.</span></span> <span data-ttu-id="83c69-112">これらすべてのエントリには、その<b>AddressEntry.DisplayType</b>として<b>olUser</b>をがあります。</span><span class="sxs-lookup"><span data-stu-id="83c69-112">All these entires  have <b>olUser</b> as their <b>AddressEntry.DisplayType</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -173,16 +110,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-109">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="ef9c1-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-113">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="83c69-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="83c69-114">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,16 +138,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-111">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="ef9c1-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-115">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="83c69-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="83c69-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -245,12 +164,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-113">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-113">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-117">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="83c69-117">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -276,33 +190,13 @@
         <Parameter Name="HWnd" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="HWnd">
-          <span data-ttu-id="ef9c1-p105">[ 詳細] ダイアログ ボックスの親ウィンドウ ハンドルを指定します。0 (既定値) を設定すると、そのダイアログの親として Outlook が指定されます。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-p105">The parent window handle for the Details dialog box. A zero value (the default) specifies that the dialog is parented to Outlook.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ef9c1-116">に関する詳細な情報を提供するモードレス ダイアログ ボックスが表示され、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-116">Displays a modeless dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ef9c1-117">
-            <para>
-              <b>注</b>:<b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />プロパティが空です</para>。
-          <para>ダイアログ ボックスで [キャンセル] をクリックすると、実行時エラーを処理するためにエラー処理を使用する必要があります。<b>Details</b>メソッドは実際には、コードの実行] ダイアログ ボックスが表示されますを停止します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-117">
-              <para>
-                <b>Note</b>: The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />  property is empty.</para>
-              <para>You must use error handling to handle run-time errors when the user clicks Cancel in the dialog box. The <b>Details</b> method actually stops the code from running while the dialog box is displayed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="HWnd"><span data-ttu-id="83c69-p107">[ 詳細] ダイアログ ボックスの親ウィンドウ ハンドルを指定します。0 (既定値) を設定すると、そのダイアログの親として Outlook が指定されます。 </span><span class="sxs-lookup"><span data-stu-id="83c69-p107">The parent window handle for the Details dialog box. A zero value (the default) specifies that the dialog is parented to Outlook.</span></span></param>
+        <summary><span data-ttu-id="83c69-120">に関する詳細な情報を提供するモードレス ダイアログ ボックスが表示され、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="83c69-120">Displays a modeless dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object.</span></span></summary>
+        <remarks><para><span data-ttu-id="83c69-121">
+            <b>注</b>:<b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />プロパティが空です。</span><span class="sxs-lookup"><span data-stu-id="83c69-121">
+            <b>Note</b>: The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />  property is empty.</span></span></para>
+          <para><span data-ttu-id="83c69-p108">エラー] ダイアログ ボックスで キャンセルをユーザーがクリックしたときに実行時エラーを処理するために処理を使用する必要があります。 <b>Details</b> メソッドは、実際には、コードの実行のダイアログ ボックスが表示されているときを停止します。</span><span class="sxs-lookup"><span data-stu-id="83c69-p108">You must use error handling to handle run-time errors when the user clicks Cancel in the dialog box. The <b>Details</b> method actually stops the code from running while the dialog box is displayed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -328,30 +222,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-118">属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-118">Returns a constant belonging to the  <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="ef9c1-119">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-124">属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。</span><span class="sxs-lookup"><span data-stu-id="83c69-124">Returns a constant belonging to the  <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="83c69-125">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-120">
-            <para>
-              <b>DisplayType</b>プロパティ フィルターのアドレスのエントリを使用することができます。<b>DisplayType</b>プロパティは、MAPI プロパティの<b>PidTagDisplayType</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-120">
-              <para>You can use the <b>DisplayType</b> property to filter address entries. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="83c69-p110"><b>DisplayType</b> プロパティ フィルターのアドレスのエントリを使用することができます。 <b>DisplayType</b> プロパティは、MAPI プロパティの <b>PidTagDisplayType</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="83c69-p110">You can use the <b>DisplayType</b> property to filter address entries. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -375,24 +249,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-121">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の連絡先で、Outlook の連絡先アドレス帳 (CAB) に対応している場合、します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />,  if the <b>AddressEntry</b> corresponds to a contact in an Outlook Contacts Address Book  (CAB).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ef9c1-122">
-            <b>AddressEntry</b> に対応する <b>ContactItem</b> オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-122">A <b>ContactItem</b> object that corresponds to the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="ef9c1-123">
-            <b>AddressEntry</b>オブジェクトが連絡先アドレス帳に連絡先に対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-123">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to  a contact in a Contacts Address Book.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="83c69-128">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の連絡先で、Outlook の連絡先アドレス帳 (CAB) に対応している場合、します。</span><span class="sxs-lookup"><span data-stu-id="83c69-128">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />,  if the <b>AddressEntry</b> corresponds to a contact in an Outlook Contacts Address Book  (CAB).</span></span></summary>
+        <returns><span data-ttu-id="83c69-129"><b>AddressEntry</b> に対応する <b>ContactItem</b> オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="83c69-129">A <b>ContactItem</b> object that corresponds to the <b>AddressEntry</b>.</span></span> <span data-ttu-id="83c69-130"><b>AddressEntry</b>オブジェクトが連絡先アドレス帳に連絡先に対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="83c69-130">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to  a contact in a Contacts Address Book.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -417,36 +275,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-124">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange の配布リストに対応します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and corresponds to an Exchange distribution list.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ef9c1-125">
-            <b>AddressEntry</b> を表す <b>ExchangeDistributionList</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-125">An <b>ExchangeDistributionList</b> object that represents the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="ef9c1-126">
-            <b>AddressEntry</b>オブジェクトが Exchange の配布リストに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-126">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange distribution list.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="ef9c1-127">
-            <para>このメソッドを使用して Exchange サーバーに接続する必要があります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-127">
-              <para> You have to be connected to the Exchange server to use this method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="83c69-131">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange の配布リストに対応します。</span><span class="sxs-lookup"><span data-stu-id="83c69-131">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and corresponds to an Exchange distribution list.</span></span></summary>
+        <returns><span data-ttu-id="83c69-132"><b>AddressEntry</b> を表す <b>ExchangeDistributionList</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="83c69-132">An <b>ExchangeDistributionList</b> object that represents the <b>AddressEntry</b>.</span></span> <span data-ttu-id="83c69-133"><b>AddressEntry</b>オブジェクトが Exchange の配布リストに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="83c69-133">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange distribution list.</span></span></returns>
+        <remarks><para> <span data-ttu-id="83c69-134">このメソッドを使用するには、Exchange サーバーに接続している必要があります。</span><span class="sxs-lookup"><span data-stu-id="83c69-134">You have to be connected to the Exchange server to use this method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -470,36 +302,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-128">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange ユーザーに対応します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-128">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and  corresponds to an Exchange user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ef9c1-129">
-            <b>AddressEntry</b>を表す<b>ExchangeUser</b>オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-129">An <b>ExchangeUser</b> object that represents the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="ef9c1-130">
-            <b>AddressEntry</b>オブジェクトが Exchange ユーザーに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-130">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="ef9c1-131">
-            <para>このメソッドを使用して Exchange サーバーに接続する必要があります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-131">
-              <para> You have to be connected to the Exchange server to use this method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="83c69-135">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange ユーザーに対応します。</span><span class="sxs-lookup"><span data-stu-id="83c69-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and  corresponds to an Exchange user.</span></span></summary>
+        <returns><span data-ttu-id="83c69-136"><b>AddressEntry</b>を表す<b>ExchangeUser</b>オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="83c69-136">An <b>ExchangeUser</b> object that represents the <b>AddressEntry</b>.</span></span> <span data-ttu-id="83c69-137"><b>AddressEntry</b>オブジェクトが Exchange ユーザーに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="83c69-137">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange user.</span></span></returns>
+        <remarks><para> <span data-ttu-id="83c69-138">このメソッドを使用するには、Exchange サーバーに接続している必要があります。</span><span class="sxs-lookup"><span data-stu-id="83c69-138">You have to be connected to the Exchange server to use this method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -526,105 +332,54 @@
         <Parameter Name="CompleteFormat" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Start">
-          <span data-ttu-id="ef9c1-132">日付型 (Date) の値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-132">Specifies the date.</span>
-          </span>
-        </param>
-        <param name="MinPerChar">
-          <span data-ttu-id="ef9c1-p110">各時間枠の長さを表す長整数型 (Long) の値を分単位で指定します。既定値は 30 です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-p110">Specifies the length of each time slot in minutes. The default value is 30.</span>
-          </span>
-        </param>
-        <param name="CompleteFormat">
-          <span data-ttu-id="ef9c1-135">各時間枠に対して返される情報のレベルを表す<b>ブール</b>値 (C# では<b>bool</b> ) を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-135">Specifies a <b>Boolean</b> value (<b>bool</b> in C#) that represents the level of information returned for each time slot.</span>
-          </span>
-          <span data-ttu-id="ef9c1-136">既定値は <b>False</b> です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-136">The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ef9c1-137">表す個々 のユーザーの 30 日間の期間の開始日から指定された日付の午前 0 時から始まる<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-137">Returns a <b>String</b> (<b>string</b> in C#) value that represents the availability of the individual user for a period of 30 days from the start date, beginning at midnight of the date specified.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ef9c1-138">指定された期間のユーザーの可用性を表す<b>文字列</b>(C# では<b>文字列</b>) の値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-138">A <b>String</b> (<b>string</b> in C#) value that represents the availability of the user for the specified period.</span>
-          </span>
-          <span data-ttu-id="ef9c1-139">この文字列値には、指定した期間内の時間枠ごとに 1 つの文字が含まれます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-139">The string value contains one character for each time slot within the specified period.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="ef9c1-140">
-            <para>
-              <b>注</b>: <b>GetFreeBusy</b>メソッドを使用して、個々 のメンバーの状態に返されることはできませんアドレス エントリが配布リストである場合は、します。だけに会議出席依頼を送信するメッセージングのユーザーを 1 。かどうか、メッセージングのユーザーは配布リストかどうかを指定できます、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /><b>olDistList</b>や<b>olPrivateDistList</b>プロパティが設定されます</para>。
-          <para>このメソッドによって返される文字列の内容によって決まりますが、<paramref name="CompleteFormat" />のパラメーターです</para>。
-          <para>場合<paramref name="CompleteFormat" />設定は、 <b>false を指定</b>既定値をこのメソッドによって返される文字列が含まれています各タイム ・ スロットの次の文字のいずれか:</para><item><description>文字</description><description>の説明</description></item>を
-          <list type="table"><item><description>0</description><description>の時間帯は空き時間を表します</description></item>。
-            <item><description>1</description><description>の時間帯を仮の予定、外出中 (OOF)、またはビジー状態の期間を表します</description></item></list>。
-          <para>場合<paramref name="CompleteFormat" />に設定する<b>場合は True</b>、このメソッドによって返される文字列を含む各タイム ・ スロットの次の文字のいずれかの:</para><item><description>文字</description><description>の説明</description></item>を
-          <list type="table"><item><description>0</description><description>の時間帯は空き時間を表します</description></item>。
-            <item><description>1</description><description>の時間帯は、仮の予定期間を表します</description></item>。
-            <item><description>2</description><description>の時間帯がビジー状態である期間を表します</description></item>。
-            <item><description>3</description><description>(oof) の期間の時間帯を表します</description></item></list>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-140">
-              <para>
-                <b>Note</b>: If an address entry represents a distribution list, the status of its individual members cannot be returned to you with the <b>GetFreeBusy</b> method. A meeting request should be sent only to single messaging users. You can determine if a messaging user is a distribution list by determining if its <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />  property is <b>olDistList</b> or <b>olPrivateDistList</b>.</para>
-              <para>The contents of the string returned by this method are determined by the <paramref name="CompleteFormat" /> parameter. </para>
-              <para>If <paramref name="CompleteFormat" /> is set to <b>False</b>, the default value, the string returned by this method contains one of the following characters for each time slot:</para>
-              <list type="table">
-                <item>
-                  <description>Character</description>
-                  <description>Description</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>The time slot represents a free period.</description>
-                </item>
-                <item>
-                  <description>1</description>
-                  <description>The time slot represents a tentative, out of office (OOF), or busy period.</description>
-                </item>
-              </list>
-              <para>If <paramref name="CompleteFormat" /> is set to <b>True</b>, the string returned by this method contains one of the following characters for each time slot:</para>
-              <list type="table">
-                <item>
-                  <description>Character</description>
-                  <description>Description</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>The time slot represents a free period.</description>
-                </item>
-                <item>
-                  <description>1</description>
-                  <description>The time slot represents a tentative period.</description>
-                </item>
-                <item>
-                  <description>2</description>
-                  <description>The time slot represents a busy period.</description>
-                </item>
-                <item>
-                  <description>3</description>
-                  <description>The time slot represents an out of office (OOF) period.</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Start"><span data-ttu-id="83c69-139">日付型 (Date) の値を指定します。</span><span class="sxs-lookup"><span data-stu-id="83c69-139">Specifies the date.</span></span></param>
+        <param name="MinPerChar"><span data-ttu-id="83c69-p114">各時間枠の長さを表す長整数型 (Long) の値を分単位で指定します。既定値は 30 です。</span><span class="sxs-lookup"><span data-stu-id="83c69-p114">Specifies the length of each time slot in minutes. The default value is 30.</span></span></param>
+        <param name="CompleteFormat"><span data-ttu-id="83c69-142">各時間枠に対して返される情報のレベルを表す<b>ブール</b>値 (C# では<b>bool</b> ) を指定します。</span><span class="sxs-lookup"><span data-stu-id="83c69-142">Specifies a <b>Boolean</b> value (<b>bool</b> in C#) that represents the level of information returned for each time slot.</span></span> <span data-ttu-id="83c69-143">既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="83c69-143">The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="83c69-144">表す個々 のユーザーの 30 日間の期間の開始日から指定された日付の午前 0 時から始まる<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="83c69-144">Returns a <b>String</b> (<b>string</b> in C#) value that represents the availability of the individual user for a period of 30 days from the start date, beginning at midnight of the date specified.</span></span></summary>
+        <returns><span data-ttu-id="83c69-145">指定された期間のユーザーの可用性を表す<b>文字列</b>(C# では<b>文字列</b>) の値です。</span><span class="sxs-lookup"><span data-stu-id="83c69-145">A <b>String</b> (<b>string</b> in C#) value that represents the availability of the user for the specified period.</span></span> <span data-ttu-id="83c69-146">この文字列値には、指定した期間内の時間枠ごとに 1 つの文字が含まれます。</span><span class="sxs-lookup"><span data-stu-id="83c69-146">The string value contains one character for each time slot within the specified period.</span></span></returns>
+        <remarks><para><span data-ttu-id="83c69-147">
+            <b>注</b>: <b>GetFreeBusy</b>メソッドを使用して、個々 のメンバーの状態に返されることはできませんアドレス エントリが配布リストである場合は、します。</span><span class="sxs-lookup"><span data-stu-id="83c69-147">
+            <b>Note</b>: If an address entry represents a distribution list, the status of its individual members cannot be returned to you with the <b>GetFreeBusy</b> method.</span></span> <span data-ttu-id="83c69-148">だけに会議出席依頼を送信するメッセージングのユーザーを 1 。</span><span class="sxs-lookup"><span data-stu-id="83c69-148">A meeting request should be sent only to single messaging users.</span></span> <span data-ttu-id="83c69-149">かどうか、メッセージングのユーザーは配布リストかどうかを指定できます、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> <b>olDistList</b>や<b>olPrivateDistList</b>プロパティが設定されます。</span><span class="sxs-lookup"><span data-stu-id="83c69-149">You can determine if a messaging user is a distribution list by determining if its <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />  property is <b>olDistList</b> or <b>olPrivateDistList</b>.</span></span></para>
+          <para><span data-ttu-id="83c69-150">このメソッドによって返される文字列の内容によって決まりますが、<paramref name="CompleteFormat" />のパラメーターです。</span><span class="sxs-lookup"><span data-stu-id="83c69-150">The contents of the string returned by this method are determined by the <paramref name="CompleteFormat" /> parameter.</span></span> </para>
+          <para><span data-ttu-id="83c69-151">場合<paramref name="CompleteFormat" />設定が<b>False</b>で、既定値をこのメソッドによって返される文字列が含まれています各タイム ・ スロットの次の文字のいずれか。</span><span class="sxs-lookup"><span data-stu-id="83c69-151">If <paramref name="CompleteFormat" /> is set to <b>False</b>, the default value, the string returned by this method contains one of the following characters for each time slot:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="83c69-152">文字</span><span class="sxs-lookup"><span data-stu-id="83c69-152">Character</span></span></description>
+              <description><span data-ttu-id="83c69-153">説明</span><span class="sxs-lookup"><span data-stu-id="83c69-153">Description</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-154">0</span><span class="sxs-lookup"><span data-stu-id="83c69-154">0</span></span></description>
+              <description><span data-ttu-id="83c69-155">時間枠は、空き時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-155">The time slot represents a free period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-156">1</span><span class="sxs-lookup"><span data-stu-id="83c69-156">1</span></span></description>
+              <description><span data-ttu-id="83c69-157">時間枠は、仮の予定の入っている時間、外出中 (OOF) の時間、または予定の入っている時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-157">The time slot represents a tentative, out of office (OOF), or busy period.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="83c69-158">場合<paramref name="CompleteFormat" />に設定する<b>場合は True</b>、このメソッドによって返される文字列を含む各タイム ・ スロットの次の文字のいずれかの。</span><span class="sxs-lookup"><span data-stu-id="83c69-158">If <paramref name="CompleteFormat" /> is set to <b>True</b>, the string returned by this method contains one of the following characters for each time slot:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="83c69-159">文字</span><span class="sxs-lookup"><span data-stu-id="83c69-159">Character</span></span></description>
+              <description><span data-ttu-id="83c69-160">説明</span><span class="sxs-lookup"><span data-stu-id="83c69-160">Description</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-161">0</span><span class="sxs-lookup"><span data-stu-id="83c69-161">0</span></span></description>
+              <description><span data-ttu-id="83c69-162">時間枠は、空き時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-162">The time slot represents a free period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-163">1</span><span class="sxs-lookup"><span data-stu-id="83c69-163">1</span></span></description>
+              <description><span data-ttu-id="83c69-164">時間枠は、仮の予定の入っている時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-164">The time slot represents a tentative period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-165">2</span><span class="sxs-lookup"><span data-stu-id="83c69-165">2</span></span></description>
+              <description><span data-ttu-id="83c69-166">時間枠は、予定の入っている時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-166">The time slot represents a busy period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="83c69-167">3</span><span class="sxs-lookup"><span data-stu-id="83c69-167">3</span></span></description>
+              <description><span data-ttu-id="83c69-168">時間枠は、外出中 (OOF) の時間を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-168">The time slot represents an out of office (OOF) period.</span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -650,30 +405,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-141">
-            <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意の識別子を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-141">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the object.</span>
-          </span>
-          <span data-ttu-id="ef9c1-142">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-169"><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意の識別子を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-169">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the object.</span></span> <span data-ttu-id="83c69-170">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-143">
-            <para>トランスポート プロバイダーは、個々 のメンバー オブジェクトが作成される永続的な一意の文字列<b>ID</b>プロパティを割り当てます。これらの識別子の 1 つのセッションから別に変わりません。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-143">
-              <para>The transport provider assigns a permanent, unique string <b>ID</b> property when an individual member object is created. These identifiers do not change from one session to another. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="83c69-p120">トランスポート プロバイダーは、個々 のメンバー オブジェクトが作成される永続的な一意の文字列 <b>ID</b> プロパティを割り当てます。これらの識別子の 1 つのセッションから別に変わりません。</span><span class="sxs-lookup"><span data-stu-id="83c69-p120">The transport provider assigns a permanent, unique string <b>ID</b> property when an individual member object is created. These identifiers do not change from one session to another. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -702,12 +437,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-144">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-144">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-173">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="83c69-173">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -744,12 +474,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-145">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-174">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="83c69-174">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -780,12 +505,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-146">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-146">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-175">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="83c69-175">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -816,30 +536,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-147">取得またはオブジェクトの表示名の<b>文字列</b>値 (C# では<b>文字列</b>) を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-147">Returns or sets a <b>String</b> value (<b>string</b> in C#) the display name for the object.</span>
-          </span>
-          <span data-ttu-id="ef9c1-148">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-176">取得またはオブジェクトの表示名の<b>文字列</b>値 (C# では<b>文字列</b>) を設定します。</span><span class="sxs-lookup"><span data-stu-id="83c69-176">Returns or sets a <b>String</b> value (<b>string</b> in C#) the display name for the object.</span></span> <span data-ttu-id="83c69-177">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="83c69-177">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-149">
-            <para>
-              <b>Name</b>プロパティを呼び出す前に設定する必要がある、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-149">
-              <para>It is necessary for the <b>Name</b> property to be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="83c69-178"><b>Name</b>プロパティを呼び出す前に設定する必要がある、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="83c69-178">It is necessary for the <b>Name</b> property to be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -865,12 +565,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-p115">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-p122">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="83c69-p122">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -898,16 +593,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-152">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-152">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span>
-          </span>
-          <span data-ttu-id="ef9c1-153">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-153">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-181">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="83c69-181">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="83c69-182">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-182">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -935,42 +621,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-154">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-154">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="ef9c1-155">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-155">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-183">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="83c69-183">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="83c69-184">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="83c69-184">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ef9c1-156">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="83c69-185"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="83c69-185">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="83c69-186">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="83c69-186">Both members serve the same purpose.</span></span> <span data-ttu-id="83c69-187">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="83c69-187">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-156">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -999,17 +659,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-157">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、インターネット アドレス、MacMail アドレス、またはマイクロソフトのメール アドレスなど、このアドレスのエントリの種類を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-157">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the type of entry for this address such as an Internet Address, MacMail Address, or Microsoft Mail Address.</span>
-          </span>
-          <span data-ttu-id="ef9c1-158">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-158">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-188"><b>文字列</b>(C# では<b>文字列</b>) を設定、インターネット アドレス、MacMail アドレス、またはマイクロソフトのメール アドレスなど、このアドレスのエントリの種類を表します。</span><span class="sxs-lookup"><span data-stu-id="83c69-188">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the type of entry for this address such as an Internet Address, MacMail Address, or Microsoft Mail Address.</span></span> <span data-ttu-id="83c69-189">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="83c69-189">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1037,39 +687,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <span data-ttu-id="ef9c1-p119">
-            <b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-p119">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span>
-          </span>
-        </param>
-        <param name="Refresh">
-          <span data-ttu-id="ef9c1-p120">
-            <b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-p120">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ef9c1-165">投稿への変更、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />のメッセージング システム内のオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-165">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object in the messaging system.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ef9c1-166">
-            <para>新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します</para>。
-          <para>をキャッシュをフラッシュし、アドレス帳からの値を再読み込み、<b>更新</b>を呼び出す、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-166">
-              <para>New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.</para>
-              <para>To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MakePermanent"><span data-ttu-id="83c69-p127"><b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </span><span class="sxs-lookup"><span data-stu-id="83c69-p127">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span></span></param>
+        <param name="Refresh"><span data-ttu-id="83c69-p128"><b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </span><span class="sxs-lookup"><span data-stu-id="83c69-p128">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="83c69-196">投稿への変更、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />のメッセージング システム内のオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="83c69-196">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object in the messaging system.</span></span></summary>
+        <remarks><para><span data-ttu-id="83c69-197">新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="83c69-197">New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="83c69-198">キャッシュをフラッシュし、アドレス帳からの値を再読み込み、<b>更新</b>を呼び出す、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="83c69-198">To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">
@@ -1096,12 +719,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9c1-167">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9c1-167">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83c69-199">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="83c69-199">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

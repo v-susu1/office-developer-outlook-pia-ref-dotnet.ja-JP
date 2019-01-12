@@ -1,13 +1,5 @@
 <Type Name="Panes" FullName="Microsoft.Office.Interop.Outlook.Panes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="60e4cc75a46518099c824ac6d0a1fc25086de563" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638393" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de8d3a723c79d054b93d65efa593bff55eab354c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906605" /></Metadata><TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Panes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Panes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Panes&#xA;Implements IEnumerable" />
@@ -30,27 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b2dd8-101">指定した表示されるウィンドウが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b2dd8-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="b2dd8-102">
-        <para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /><b>Explorer</b>オブジェクトから<b>Panes</b>コレクション オブジェクトを返すプロパティです</para>。
-      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />プロパティ (<b>この</b>C# の) 特定のウィンドウを取得するためにします</para>。
-      <para>Microsoft Outlook 2000 およびそれ以降では、[ショートカット] ウィンドウは、ウィンドウだけ<b>Panes</b>オブジェクトからアクセスできます</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b2dd8-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane. </para>
-          <para>For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="2d940-101">指定した表示されるウィンドウが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span><span class="sxs-lookup"><span data-stu-id="2d940-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
+    <remarks><para><span data-ttu-id="2d940-102">使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> <b>Explorer</b>オブジェクトから<b>Panes</b>コレクション オブジェクトを返すプロパティです。</span><span class="sxs-lookup"><span data-stu-id="2d940-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</span></span></para>
+      <para><span data-ttu-id="2d940-103">使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />プロパティ (<b>この</b>C# の) 特定のウィンドウを取得します。</span><span class="sxs-lookup"><span data-stu-id="2d940-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane.</span></span> </para>
+      <para><span data-ttu-id="2d940-104">Microsoft Outlook 2000 以降、[ ショートカット] ウィンドウは <b>Panes</b> オブジェクトを使用してアクセスできるウィンドウだけです。</span><span class="sxs-lookup"><span data-stu-id="2d940-104">For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -76,16 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2dd8-103">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="b2dd8-104">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2d940-105">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="2d940-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="2d940-106">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="2d940-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,16 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2dd8-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="b2dd8-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2d940-107">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="2d940-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="2d940-108">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="2d940-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -150,16 +108,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2dd8-107">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="b2dd8-108">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2d940-109">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="2d940-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="2d940-110">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="2d940-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -190,24 +139,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="b2dd8-109">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-109">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2dd8-110">コレクションからウィンドウを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-110">Returns a pane from a collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2dd8-111">指定されたオブジェクトを表すオブジェクト型 (Object) の値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-111">An Object value that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="2d940-111">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span><span class="sxs-lookup"><span data-stu-id="2d940-111">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="2d940-112">コレクションからウィンドウを返します。</span><span class="sxs-lookup"><span data-stu-id="2d940-112">Returns a pane from a collection.</span></span></summary>
+        <value><span data-ttu-id="2d940-113">指定されたオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="2d940-113">An Object value that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -234,12 +168,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2dd8-p104">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2d940-p105">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="2d940-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -267,42 +196,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2dd8-114">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-114">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="b2dd8-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2d940-116">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="2d940-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="2d940-117">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="2d940-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b2dd8-116">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="2d940-118"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="2d940-118">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="2d940-119">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="2d940-119">Both members serve the same purpose.</span></span> <span data-ttu-id="2d940-120">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="2d940-120">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2dd8-116">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

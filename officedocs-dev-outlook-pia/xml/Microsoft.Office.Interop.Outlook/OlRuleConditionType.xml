@@ -1,13 +1,5 @@
 <Type Name="OlRuleConditionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleConditionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="420b4d8422ef3de8b9f1b7ac956632bf20619f7b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639071" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55c9c3c8d21a782558acd0cb913818a13333d9f0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903714" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleConditionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleConditionType" />
@@ -20,25 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="0372b-101">ルールの条件または例外条件の種類を指定します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0372b-101">Specifies the type of rule condition or exception condition of a rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="0372b-102">
-        <para>この列挙体のルールの条件の種類の一覧には、すべてのルールの条件および例外条件のルールと通知ウィザードがサポートしているが含まれています。すべてのルールの条件およびルールの例外条件を列挙することができますプログラムを使用して、中にことができますプログラムを使用してルールを作成する最も一般的に使用される条件だけに注意してください。詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください</para>
-        <para>などのルールの条件の種類<b>olConditionDateRange</b>および<b>olConditionSizeRange</b>が列挙し、有効または無効に既存のルールでのみサポートされています。.プログラムを使用して、このような状況でルールを作成できません。取得または x 軸の値を設定することはできませんプログラムを使用して、範囲を表す y</para> 。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0372b-102">
-          <para>The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-          <para>For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule. You cannot programmatically create a rule with such conditions. You cannot programmatically get or set the values of x and y that represent the range.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f5533-101">ルールの条件または例外条件の種類を指定します。</span><span class="sxs-lookup"><span data-stu-id="f5533-101">Specifies the type of rule condition or exception condition of a rule.</span></span></summary>
+    <remarks><para><span data-ttu-id="f5533-102">この列挙体のルールの条件の種類の一覧には、すべてのルールの条件および例外条件のルールと通知ウィザードがサポートしているが含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-102">The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="f5533-103">すべてのルールの条件およびルールの例外条件を列挙することができますプログラムを使用して、中にことができますプログラムを使用してルールを作成する最も一般的に使用される条件だけに注意してください。</span><span class="sxs-lookup"><span data-stu-id="f5533-103">Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions.</span></span> <span data-ttu-id="f5533-104">詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f5533-104">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+      <para><span data-ttu-id="f5533-105">たとえば、列挙し、有効または無効に既存の規則のためだけのルールの条件の種類<b>olConditionDateRange</b>および<b>olConditionSizeRange</b>はサポートされています。</span><span class="sxs-lookup"><span data-stu-id="f5533-105">For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule.</span></span> <span data-ttu-id="f5533-106">プログラムを使用して、このような状況でルールを作成できません。</span><span class="sxs-lookup"><span data-stu-id="f5533-106">You cannot programmatically create a rule with such conditions.</span></span> <span data-ttu-id="f5533-107">取得または x 軸の値を設定することはできませんプログラムを使用して、y の範囲を表す。</span><span class="sxs-lookup"><span data-stu-id="f5533-107">You cannot programmatically get or set the values of x and y that represent the range.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olConditionAccount">
@@ -57,12 +34,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-103">アカウントで指定されたアカウントでは<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-103">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-108">アカウントで指定されたアカウントでは<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />です。</span><span class="sxs-lookup"><span data-stu-id="f5533-108">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionAnyCategory">
@@ -81,12 +53,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-104">メッセージが任意の分類に割り当てられている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-104">Message is assigned to any category.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-109">メッセージが任意の分類に割り当てられている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-109">Message is assigned to any category.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBody">
@@ -105,12 +72,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-105">本文に指定した単語が含まれている<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-105">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-110">本文に指定した単語が含まれている<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />。</span><span class="sxs-lookup"><span data-stu-id="f5533-110">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBodyOrSubject">
@@ -129,12 +91,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-106">本文または件名に指定した単語が含まれています <b>TextRuleCondition.Text</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-106">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-111">本文または件名に指定した単語が含まれています <b>TextRuleCondition.Text</b> 。</span><span class="sxs-lookup"><span data-stu-id="f5533-111">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCategory">
@@ -153,12 +110,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-107">カテゴリで指定されたカテゴリでは<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-107">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-112">カテゴリで指定されたカテゴリでは<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />です。</span><span class="sxs-lookup"><span data-stu-id="f5533-112">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCc">
@@ -177,12 +129,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-108">メッセージの [ Cc] ボックスに自分の名前が含まれている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-108">Message has my name in the Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-113">メッセージの [ Cc] ボックスに自分の名前が含まれている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-113">Message has my name in the Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionDateRange">
@@ -201,12 +148,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-109">x と y の間にメッセージを受信した場合です。x と y は日付の値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-109">Message was received between x and y, where x and y are Date values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-114">x と y の間にメッセージを受信した場合です。x と y は日付の値です。</span><span class="sxs-lookup"><span data-stu-id="f5533-114">Message was received between x and y, where x and y are Date values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFlaggedForAction">
@@ -225,12 +167,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-110">メッセージに特定の動作を示すフラグが付けられている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-110">Message is flagged for the specified action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-115">メッセージに特定の動作を示すフラグが付けられている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-115">Message is flagged for the specified action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFormName">
@@ -249,12 +186,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-111">メッセージで指定されたフォームを使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-111">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-116">メッセージで指定されたフォームを使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />。</span><span class="sxs-lookup"><span data-stu-id="f5533-116">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFrom">
@@ -273,12 +205,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-112">送信者が受信者の一覧で指定されている<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-112">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-117">送信者が受信者の一覧で指定されている<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span><span class="sxs-lookup"><span data-stu-id="f5533-117">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromAnyRssFeed">
@@ -297,12 +224,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-113">メッセージが任意の RSS 購読で生成されている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-113">Message is generated from any RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-118">メッセージが任意の RSS 購読で生成されている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-118">Message is generated from any RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromRssFeed">
@@ -321,12 +243,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-114">メッセージが特定の RSS 購読で生成されている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-114">Message is generated from a specific RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-119">メッセージが特定の RSS 購読で生成されている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-119">Message is generated from a specific RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionHasAttachment">
@@ -345,12 +262,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-115">メッセージに 1 つ以上の添付ファイルがある場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-115">Message has one or more attachments.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-120">メッセージに 1 つ以上の添付ファイルがある場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-120">Message has one or more attachments.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionImportance">
@@ -369,12 +281,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-116">メッセージに特定の重要度が指定されている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-116">Message is marked with the specified level of importance.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-121">メッセージに特定の重要度が指定されている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-121">Message is marked with the specified level of importance.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionLocalMachineOnly">
@@ -393,12 +300,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-117">ルールをローカルのコンピューターでのみ実行します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-117">Rule can run only on the local machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-122">ルールをローカルのコンピューターでのみ実行します。</span><span class="sxs-lookup"><span data-stu-id="f5533-122">Rule can run only on the local machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMeetingInviteOrUpdate">
@@ -417,12 +319,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-118">メッセージが会議出席依頼または更新のメッセージである場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-118">Message is a meeting invitation or update.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-123">メッセージが会議出席依頼または更新のメッセージである場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-123">Message is a meeting invitation or update.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMessageHeader">
@@ -441,12 +338,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-119">メッセージのヘッダーには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-119">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-124">メッセージのヘッダーには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-124">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionNotTo">
@@ -465,12 +357,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-120">メッセージ] ボックスに自分の名前がありませんでした。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-120">Message does not have  my name in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-125">メッセージ] ボックスに自分の名前がありませんでした。</span><span class="sxs-lookup"><span data-stu-id="f5533-125">Message does not have  my name in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOnlyToMe">
@@ -489,12 +376,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-121">メッセージが自分だけに送信されている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-121">Message is sent only to me.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-126">メッセージが自分だけに送信されている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-126">Message is sent only to me.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOOF">
@@ -513,12 +395,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-122">メッセージが外出中の応答メッセージである場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-122">Message is an out-of-office message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-127">メッセージが外出中の応答メッセージである場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-127">Message is an out-of-office message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOtherMachine">
@@ -537,12 +414,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-123">ルールを現在のコンピューター以外の特定のコンピューターでのみ実行します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-123">Rule can run only on  a specific machine that is not the current machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-128">ルールを現在のコンピューター以外の特定のコンピューターでのみ実行します。</span><span class="sxs-lookup"><span data-stu-id="f5533-128">Rule can run only on  a specific machine that is not the current machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionProperty">
@@ -561,12 +433,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-124">ドキュメントのプロパティが指定されたプロパティと一致するか、指定されたプロパティを含む、または含まない場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-124">Document property is exactly, contains, or does not contain specified properties.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-129">ドキュメントのプロパティが指定されたプロパティと一致するか、指定されたプロパティを含む、または含まない場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-129">Document property is exactly, contains, or does not contain specified properties.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionRecipientAddress">
@@ -585,12 +452,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-125">受信者のアドレスには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-125">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-130">受信者のアドレスには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-130">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderAddress">
@@ -609,12 +471,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-126">センダーのアドレスには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-126">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-131">センダーのアドレスには、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-131">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderInAddressBook">
@@ -633,12 +490,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-127">送信者が、 AddressRuleCondition.Address で指定されるアドレス一覧に含まれている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-127">Sender is in the address list specified in AddressRuleCondition.Address.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-132">送信者が、 AddressRuleCondition.Address で指定されるアドレス一覧に含まれている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-132">Sender is in the address list specified in AddressRuleCondition.Address.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSensitivity">
@@ -657,12 +509,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-128">メッセージに特定の秘密度が指定されている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-128">Message is marked with the specified level of sensitivity.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-133">メッセージに特定の秘密度が指定されている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-133">Message is marked with the specified level of sensitivity.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSentTo">
@@ -681,12 +528,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-129">受信者 (宛先、Cc) に送信される<b>ToOrFromRuleCondition.Recipients</b>で指定された受信者のリストに含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-129">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-134">受信者 (宛先、Cc) に送信される<b>ToOrFromRuleCondition.Recipients</b>で指定された受信者のリストに含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-134">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSizeRange">
@@ -705,12 +547,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-130">メッセージのサイズが KB 単位で x と y の間にある場合です。x と y は整数値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-130">Message size is between x and y in units of KB, where x and y are Integer values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-135">メッセージのサイズが KB 単位で x と y の間にある場合です。x と y は整数値です。</span><span class="sxs-lookup"><span data-stu-id="f5533-135">Message size is between x and y in units of KB, where x and y are Integer values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSubject">
@@ -729,12 +566,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-131">件名には、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-131">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-136">件名には、 <b>TextRuleCondition.Text</b> で指定した単語が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f5533-136">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionTo">
@@ -753,12 +585,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-132">自分の名前が [ 宛先] ボックスに含まれている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-132">My name is in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-137">自分の名前が [ 宛先] ボックスに含まれている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-137">My name is in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionToOrCc">
@@ -777,12 +604,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-133">メッセージの [ 宛先] または [ Cc] ボックスに自分の名前が含まれている場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-133">Message has my name in the To or Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-138">メッセージの [ 宛先] または [ Cc] ボックスに自分の名前が含まれている場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-138">Message has my name in the To or Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionUnknown">
@@ -801,12 +623,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0372b-134">不明な条件の場合です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0372b-134">Unrecognized condition.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5533-139">不明な条件の場合です。</span><span class="sxs-lookup"><span data-stu-id="f5533-139">Unrecognized condition.</span></span></summary>
       </Docs>
     </Member>
   </Members>

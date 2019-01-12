@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637954" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904219" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -26,25 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e7b94-101">Outlook アイテムに含まれる文書または文書へのリンクを表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e7b94-101">Represents a document or link to a document contained in an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e7b94-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />インデックス番号は、1 つの<b>添付ファイル</b>オブジェクトを返します</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e7b94-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Attachment</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f6810-101">Outlook アイテムに含まれる文書または文書へのリンクを表します。</span><span class="sxs-lookup"><span data-stu-id="f6810-101">Represents a document or link to a document contained in an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="f6810-102">使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />インデックス番号は、1 つの<b>添付ファイル</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-102">Use <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Attachment</b> object.</span></span></para>
+      <para><span data-ttu-id="f6810-103">使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します。</span><span class="sxs-lookup"><span data-stu-id="f6810-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -70,16 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-103">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="e7b94-104">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-104">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="f6810-104">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="f6810-105">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-105">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,29 +75,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />かどうかは、そのファイル拡張子に基づいた添付ファイルを任意の制限を指定する定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constant that specifies if there is any restriction on the attachment based on its file extension.</span>
-          </span>
-          <span data-ttu-id="e7b94-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-106">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />かどうかは、そのファイル拡張子に基づいた添付ファイルを任意の制限を指定する定数です。</span><span class="sxs-lookup"><span data-stu-id="f6810-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constant that specifies if there is any restriction on the attachment based on its file extension.</span></span> <span data-ttu-id="f6810-107">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-107">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-107">
-            <para>このプロパティの値は、そのファイルの拡張子とクライアント コンピューターどのように添付ファイルのセキュリティが設定されて、添付ファイルをブロックするかどうかを反映します。Outlook で添付ファイルのセキュリティの詳細については、Office リソース キット Web サイトを参照してください。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-107">
-              <para>This value of this property reflects whether an attachment is blocked based on its file extension and how attachment security has been set up on the client computer. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-p103">プロパティ中のこの値には、ファイル拡張子に基づいた添付ファイルのブロックの有無や、クライアント コンピューターに設定を施した添付セキュリティの種類が反映されます。Outlook の添付セキュリティについて詳しくは、Office リソース キット Web サイトを参照してください。</span><span class="sxs-lookup"><span data-stu-id="f6810-p103">This value of this property reflects whether an attachment is blocked based on its file extension and how attachment security has been set up on the client computer. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -155,16 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-108">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="e7b94-109">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-110">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="f6810-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="f6810-111">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -190,12 +130,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-110">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-110">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-112">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="f6810-112">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,30 +160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-111">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、埋め込まれた添付ファイルを表すアイコンの下に表示される実際のファイル名を指定する必要はありませんが、名前を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-111">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name, which does not need to be the actual file name, displayed below the icon representing the embedded attachment.</span>
-          </span>
-          <span data-ttu-id="e7b94-112">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-113"><b>文字列</b>(C# では<b>文字列</b>) を設定、埋め込まれた添付ファイルを表すアイコンの下に表示される実際のファイル名を指定する必要はありませんが、名前を表します。</span><span class="sxs-lookup"><span data-stu-id="f6810-113">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name, which does not need to be the actual file name, displayed below the icon representing the embedded attachment.</span></span> <span data-ttu-id="f6810-114">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="f6810-114">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-113">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagDisplayName</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-113">
-              <para>This property corresponds to the MAPI property <b>PidTagDisplayName</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-115">このプロパティは、MAPI プロパティの <b>PidTagDisplayName</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="f6810-115">This property corresponds to the MAPI property <b>PidTagDisplayName</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -274,30 +189,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-114">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのファイル名を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-114">Returns a <b>String</b> (<b>string</b> in C#) representing the file name of the attachment.</span>
-          </span>
-          <span data-ttu-id="e7b94-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-116"><b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのファイル名を表します。</span><span class="sxs-lookup"><span data-stu-id="f6810-116">Returns a <b>String</b> (<b>string</b> in C#) representing the file name of the attachment.</span></span>  <span data-ttu-id="f6810-117">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-116">
-            <para>組み合わせてこのプロパティを使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />プロパティ。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-116">
-              <para>Use this property in conjunction with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />  property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-118">組み合わせてこのプロパティを使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="f6810-118">Use this property in conjunction with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />  property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -321,123 +216,71 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-117">一時ファイル フォルダーにある添付ファイルへの完全なパスを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-117">Returns the full path to the attached file that is in a temporary-files folder.</span>
-          </span>
-          <span data-ttu-id="e7b94-118">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-118">Read-only.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e7b94-119">返します、<see cref="T:System.String" />の一時添付ファイルへの完全なパスを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-119">Returns a <see cref="T:System.String" /> that represents the full path to the temporary attachment file.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e7b94-120">
-            <para>
-              <b>GetTemporaryFilePath</b>メソッドはこれらの添付ファイル用の<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />プロパティは、 <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。添付ファイルがコピーであること、および元のファイルが削除された場合でも、コピーにアクセスできることを意味します。その他の添付ファイルの種類は、 <b>GetTemporaryFilePath</b>メソッドはエラーを返します。</para>
-            <para>
-              <b>GetTemporaryFilePath</b>にアクセスするときも、エラーを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトで、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />コレクションに、<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />オブジェクトです。Microsoft Outlook のさまざまな項目を以下に示すイベントのコールバックを添付ファイルでのみ使用して<b>GetTemporaryFilePath</b> :</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>AttachmentAdd</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>AttachmentRead</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>AttachmentRemove</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentAdd</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentPreview</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentRead</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentSave</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentWriteToTempFile</b>
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-120">
-              <para>The <b>GetTemporaryFilePath</b> method is only valid for those attachments whose <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> property is <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. That means that the attachment is a copy and that the copy can be accessed even if the original file is removed. For other attachment types, the <b>GetTemporaryFilePath</b> method returns an error. </para>
-              <para>
-                <b>GetTemporaryFilePath</b> also returns an error when accessing an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object in an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection or in the <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object. Use <b>GetTemporaryFilePath</b> only in attachment event callbacks listed below for various Microsoft Outlook items:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>AttachmentAdd</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>AttachmentRead</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>AttachmentRemove</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentAdd</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentPreview</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentRead</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentSave</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentWriteToTempFile</b>
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f6810-119">一時ファイル フォルダーにある添付ファイルへの完全なパスを返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-119">Returns the full path to the attached file that is in a temporary-files folder.</span></span> <span data-ttu-id="f6810-120">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-120">Read-only.</span></span></summary>
+        <returns><span data-ttu-id="f6810-121">返します、<see cref="T:System.String" />の一時添付ファイルへの完全なパスを表します。</span><span class="sxs-lookup"><span data-stu-id="f6810-121">Returns a <see cref="T:System.String" /> that represents the full path to the temporary attachment file.</span></span></returns>
+        <remarks><para><span data-ttu-id="f6810-122"><b>GetTemporaryFilePath</b>メソッドはこれらの添付ファイル用の<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />プロパティは、 <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。</span><span class="sxs-lookup"><span data-stu-id="f6810-122">The <b>GetTemporaryFilePath</b> method is only valid for those attachments whose <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> property is <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />.</span></span> <span data-ttu-id="f6810-123">添付ファイルがコピーであること、および元のファイルが削除された場合でも、コピーにアクセスできることを意味します。</span><span class="sxs-lookup"><span data-stu-id="f6810-123">That means that the attachment is a copy and that the copy can be accessed even if the original file is removed.</span></span> <span data-ttu-id="f6810-124">その他の添付ファイルの種類は、 <b>GetTemporaryFilePath</b> メソッドはエラーを返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-124">For other attachment types, the <b>GetTemporaryFilePath</b> method returns an error.</span></span> </para>
+          <para><span data-ttu-id="f6810-125">
+            <b>GetTemporaryFilePath</b>にアクセスするときも、エラーを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトで、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />コレクションに、<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="f6810-125">
+            <b>GetTemporaryFilePath</b> also returns an error when accessing an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object in an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection or in the <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object.</span></span> <span data-ttu-id="f6810-126"><b>GetTemporaryFilePath</b> Microsoft Outlookさまざまな項目を以下に示すイベントのコールバックを添付ファイルでのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="f6810-126">Use <b>GetTemporaryFilePath</b> only in attachment event callbacks listed below for various Microsoft Outlook items:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f6810-127">
+                <b>AttachmentAdd</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-127">
+                <b>AttachmentAdd</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-128">
+                <b>AttachmentRead</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-128">
+                <b>AttachmentRead</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-129">
+                <b>AttachmentRemove</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-129">
+                <b>AttachmentRemove</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-130">
+                <b>BeforeAttachmentAdd</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-130">
+                <b>BeforeAttachmentAdd</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-131">
+                <b>BeforeAttachmentPreview</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-131">
+                <b>BeforeAttachmentPreview</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-132">
+                <b>BeforeAttachmentRead</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-132">
+                <b>BeforeAttachmentRead</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-133">
+                <b>BeforeAttachmentSave</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-133">
+                <b>BeforeAttachmentSave</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f6810-134">
+                <b>BeforeAttachmentWriteToTempFile</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f6810-134">
+                <b>BeforeAttachmentWriteToTempFile</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -463,30 +306,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-121">コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-121">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span>
-          </span>
-          <span data-ttu-id="e7b94-122">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-135">コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-135">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span></span>  <span data-ttu-id="f6810-136">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-123">
-            <para>
-              <b>Index</b>プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の<b>インデックス</b>値があります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-123">
-              <para>The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-p111"><b>Index</b> プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の <b>インデックス</b> 値があります。</span><span class="sxs-lookup"><span data-stu-id="f6810-p111">The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -515,12 +338,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-124">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-139">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="f6810-139">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -548,12 +366,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-p108">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-p112">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="f6810-p112">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -581,30 +394,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-127">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのリンクの完全なパスを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-127">Returns a <b>String</b> (<b>string</b> in C#) representing the full path to the linked attached file.</span>
-          </span>
-          <span data-ttu-id="e7b94-128">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-142"><b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのリンクの完全なパスを表します。</span><span class="sxs-lookup"><span data-stu-id="f6810-142">Returns a <b>String</b> (<b>string</b> in C#) representing the full path to the linked attached file.</span></span> <span data-ttu-id="f6810-143">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-143">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-129">
-            <para>このプロパティはリンクされたファイルに対して有効です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-129">
-              <para>This property is only valid for linked files.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-144">このプロパティは、ファイルがリンクされている場合にだけ有効です。</span><span class="sxs-lookup"><span data-stu-id="f6810-144">This property is only valid for linked files.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -633,31 +426,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-130">アイテムの本文内の添付ファイルの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-130">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the attachment within the body of the item.</span>
-          </span>
-          <span data-ttu-id="e7b94-131">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-145">アイテムの本文内の添付ファイルの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-145">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the attachment within the body of the item.</span></span> <span data-ttu-id="f6810-146">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="f6810-146">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-132">
-            <para>「<b>位置</b>」プロパティは、本文形式がリッチ テキスト形式 (RTF) アイテムの添付ファイルに対してのみ機能します。本文が RTF でない場合は、 <b>Position</b>プロパティは設定操作では無視され、取得操作で常にゼロ (0) を返します</para>。
-          <para>本文の書式設定する項目の 0<b>の位置</b>プロパティを設定する場合は、rtf 形式、添付ファイルは、Outlook のユーザー インターフェイスに表示されません。添付ファイルには表示されないビュー、およびユーザーは、アイテムの本文から添付ファイルを削除することはできません。添付ファイルを介してアクセスできます、 <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> 、アイテムのコレクションです</para>。BodyFormat プロパティのプログラムでの設定を可能にする唯一の項目は、 
-          <para>、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。予定、連絡先、タスクなどの他の項目の種類は、既定で rtf 形式です。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-132">
-              <para>The <b>Position</b> property only works on an attachment for an item where the body format is Rich Text (RTF). If the body format is not RTF, the <b>Position</b> property is ignored for a set operation and always returns zero (0) for a get operation.</para>
-              <para>If you set the <b>Position</b> property to 0 for an item where the body format is RTF, the attachment will be hidden in Outlook's user interface. The attachment is not visible in a view, and the user cannot remove the attachment from the body of the item. The attachment can still be accessed through the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection on the item.</para>
-              <para>The only item that allows programmatic setting of the BodyFormat property is a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Other item types such as Appointment, Contact, and Task are RTF by default. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-p115">「 <b>位置</b> 」プロパティは、本文形式がリッチ テキスト形式 (RTF) アイテムの添付ファイルに対してのみ機能します。本文が RTF でない場合は、 <b>Position</b> プロパティは設定操作では無視され、取得操作で常にゼロ (0) を返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-p115">The <b>Position</b> property only works on an attachment for an item where the body format is Rich Text (RTF). If the body format is not RTF, the <b>Position</b> property is ignored for a set operation and always returns zero (0) for a get operation.</span></span></para>
+          <para><span data-ttu-id="f6810-149">本文が rtf 形式を項目の 0 <b>の位置</b> プロパティを設定する場合、添付ファイルは Outlook のユーザー インターフェイスで表示されません。</span><span class="sxs-lookup"><span data-stu-id="f6810-149">If you set the <b>Position</b> property to 0 for an item where the body format is RTF, the attachment will be hidden in Outlook's user interface.</span></span> <span data-ttu-id="f6810-150">添付ファイルには表示されないビュー、およびユーザーは、アイテムの本文から添付ファイルを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="f6810-150">The attachment is not visible in a view, and the user cannot remove the attachment from the body of the item.</span></span> <span data-ttu-id="f6810-151">添付ファイルを介してアクセスできます、 <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> 、アイテムのコレクションです。</span><span class="sxs-lookup"><span data-stu-id="f6810-151">The attachment can still be accessed through the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection on the item.</span></span></para>
+          <para><span data-ttu-id="f6810-152">BodyFormat プロパティのプログラムでの設定を可能にする唯一の項目は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</span><span class="sxs-lookup"><span data-stu-id="f6810-152">The only item that allows programmatic setting of the BodyFormat property is a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span></span> <span data-ttu-id="f6810-153">予定、連絡先、タスクなどの他の項目の種類は、既定で rtf 形式です。</span><span class="sxs-lookup"><span data-stu-id="f6810-153">Other item types such as Appointment, Contact, and Task are RTF by default.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -683,16 +457,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-133">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
-          </span>
-          <span data-ttu-id="e7b94-134">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-154">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="f6810-154">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span></span> <span data-ttu-id="f6810-155">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-155">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -720,18 +485,8 @@
         <Parameter Name="Path" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="e7b94-135">添付ファイルの保存先のパスを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-135">The location at which to save the attachment.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e7b94-136">添付ファイルを指定されたパスに保存します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-136">Saves the attachment to the specified path.</span>
-          </span>
-        </summary>
+        <param name="Path"><span data-ttu-id="f6810-156">添付ファイルの保存先のパスを指定します。</span><span class="sxs-lookup"><span data-stu-id="f6810-156">The location at which to save the attachment.</span></span></param>
+        <summary><span data-ttu-id="f6810-157">添付ファイルを指定されたパスに保存します。</span><span class="sxs-lookup"><span data-stu-id="f6810-157">Saves the attachment to the specified path.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -758,42 +513,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-137">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-137">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="e7b94-138">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-138">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-158">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="f6810-158">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="f6810-159">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-159">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-139">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="f6810-160"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="f6810-160">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="f6810-161">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="f6810-161">Both members serve the same purpose.</span></span> <span data-ttu-id="f6810-162">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="f6810-162">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-139">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -819,29 +548,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-140">添付ファイルのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-140">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the attachment.</span>
-          </span>
-          <span data-ttu-id="e7b94-141">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-141">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-163">添付ファイルのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-163">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the attachment.</span></span> <span data-ttu-id="f6810-164">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e7b94-142">
-            <para>この情報できない場合があります常に添付ファイルにします。 たとえば、秒/MIME メッセージでは、実際の添付ファイルのサイズは正常、添付ファイルを抽出するまで添付ファイルのサイズを決定できない場合、このプロパティは 0 を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-142">
-              <para>This information may not always be available for attachments.  For example, on an S/MIME message, the actual attachment sizes are unknown until the attachment is extracted. In cases where the attachment size cannot be determined, this property returns 0.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f6810-165">この情報を添付ファイルで常に使用できるとは限りません。</span><span class="sxs-lookup"><span data-stu-id="f6810-165">This information may not always be available for attachments.</span></span>  <span data-ttu-id="f6810-166">たとえば、S/MIME メッセージでは、添付ファイルを抽出するまで実際の添付ファイルのサイズはわかりません。</span><span class="sxs-lookup"><span data-stu-id="f6810-166">For example, on an S/MIME message, the actual attachment sizes are unknown until the attachment is extracted.</span></span> <span data-ttu-id="f6810-167">添付ファイルのサイズを決定できない場合、このプロパティは 0 を返します。</span><span class="sxs-lookup"><span data-stu-id="f6810-167">In cases where the attachment size cannot be determined, this property returns 0.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -867,16 +577,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e7b94-143">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" />を指定したオブジェクトの種類を示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-143">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="e7b94-144">読み取り専用です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e7b94-144">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f6810-168">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" />を指定したオブジェクトの種類を示す定数です。</span><span class="sxs-lookup"><span data-stu-id="f6810-168">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="f6810-169">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="f6810-169">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
