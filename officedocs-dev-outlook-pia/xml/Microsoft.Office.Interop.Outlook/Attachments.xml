@@ -1,13 +1,5 @@
 <Type Name="Attachments" FullName="Microsoft.Office.Interop.Outlook.Attachments">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2b8b26dcc7340ad097dbcab31fa6b4722b3b19e2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638024" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f34c001cfd4c3278473ca2d66f73650667d3c4b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898733" /></Metadata><TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachments implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachments" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachments&#xA;Implements IEnumerable" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>セットが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />Outlook アイテムに添付ファイルを表すオブジェクト。</summary>
-    <remarks>
-      <para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (ノート) を除く任意の Outlook アイテムの<b>添付ファイル</b>のコレクションを返すプロパティです</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します</para>。
-      <para>に一貫した結果を確認するには、追加またはアイテムの<b>Attachments</b>コレクションのオブジェクトを削除する前に常に項目を保存します</para>。
-      <para /></remarks>
+    <remarks><para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (ノート) を除く任意の Outlook アイテムの<b>添付ファイル</b>のコレクションを返すプロパティです。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します。</para>
+      <para>結果の一貫性を確保するには、追加またはアイテムの<b>Attachments</b>コレクションのオブジェクトを削除する前に、アイテムを必ず保存します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -68,12 +59,9 @@
         <param name="Position">このパラメーターは、Microsoft Outlook リッチ テキスト形式を使用してメッセージを電子メールにのみ適用されます: メッセージの本文内の添付ファイルの配置位置です。 値の 1、<paramref name="Position" />パラメーターは、添付ファイルをメッセージ本文の先頭に配置されるように指定します。 値 'n' よりも、最後に添付ファイルを配置する必要があります電子メール アイテムの本文の文字数を指定します。 0 の添付ファイルは非表示となります。</param>
         <param name="DisplayName">このパラメーターは、メール アイテムがリッチ テキスト形式では、種類が<b>olByValue</b>に設定されて場合にのみ適用されます: 添付ファイルのプロパティを表示するとき、または添付ファイルの<b>Inspector</b>オブジェクトに名前が表示されます。 テキスト形式または HTML 形式でメール アイテムがあるかどうかは、内のファイル名を使用して添付ファイルが表示されます、<paramref name="Source" />のパラメーターです。</param>
         <summary>新しい添付ファイルを作成、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> 、新しい添付ファイルを表すオブジェクト。</returns>
-        <remarks>
-          <para>アイテムの<b>Attachments</b>コレクションには、<b>添付ファイル</b>を追加するときに<b>添付ファイル</b>の<b>種類</b>のプロパティは常に戻る<b>olOLE</b> (6) アイテムを保存するまで結果の一貫性を確保するには、追加または<b>添付ファイル</b>コレクション内のオブジェクトを削除する前に、アイテムを必ず保存します。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> 、新しい添付ファイルを表すオブジェクト。</returns>
+        <remarks><para><b>Attachment</b> がアイテムの <b>Attachments</b> コレクションに追加されると、 <b>Attachment</b> の <b>Type</b> プロパティは、アイテムが保存されるまで常に <b>olOLE</b> (6) を返します。整合性のある結果にするには、常に <b>Attachments</b> コレクションにオブジェクトを追加または削除する前にアイテムを保存します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -99,7 +87,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -127,7 +115,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,7 +143,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -271,19 +259,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="PropertyPageSite" FullName="Microsoft.Office.Interop.Outlook.PropertyPageSite">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da8a15e1213bc289f8144fbd4527357769b055b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637947" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPageSite" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1605e730a32e4dac4023d073b77fcdcf33b9d6b0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898009" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPageSite" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPageSite" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPageSite" />
@@ -27,11 +19,14 @@
   </Attributes>
   <Docs>
     <summary>カスタム プロパティ ページのコンテナーを表します。</summary>
-    <remarks>
-      <para>実装する ActiveX コントロールの<b>Parent</b>プロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> 、 <b>PropertyPageSite</b>オブジェクトを取得するのには、 <b>PropertyPageSite</b>オブジェクトに関連付けられているオブジェクト。<b>PropertyPage</b>オブジェクトを実装するモジュールの宣言セクションに次のような宣言を含める必要があります</para>。
-      <code>Private myPropertyPageSite As Outlook.PropertyPageSite</code><code>private Outlook.PropertyPageSite myPropertyPageSite;</code><para>オブジェクトが、ActiveX コントロールの<b>Parent</b>プロパティから返されます</para>。
-      <code>myPropertyPageSite = Parent</code><code>myPropertyPageSite = Parent;</code><para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />プロパティ ページが変更されたことを Outlook に通知します</para>。
-      <para /></remarks>
+    <remarks><para>実装する ActiveX コントロールの<b>Parent</b>プロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> 、 <b>PropertyPageSite</b>オブジェクトを取得するのには、 <b>PropertyPageSite</b>オブジェクトに関連付けられているオブジェクト。 <b>PropertyPage</b>オブジェクトを実装するモジュールの宣言セクションには、次のような宣言を含める必要があります。</para>
+      <code>Private myPropertyPageSite As Outlook.PropertyPageSite</code>
+      <code>private Outlook.PropertyPageSite myPropertyPageSite;</code>
+      <para>オブジェクトは、ActiveX コントロールの<b>Parent</b>プロパティから返されます。</para>
+      <code>myPropertyPageSite = Parent</code>
+      <code>myPropertyPageSite = Parent;</code>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> 、プロパティ ページが変更されたことを Outlook に通知するメソッドです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,19 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

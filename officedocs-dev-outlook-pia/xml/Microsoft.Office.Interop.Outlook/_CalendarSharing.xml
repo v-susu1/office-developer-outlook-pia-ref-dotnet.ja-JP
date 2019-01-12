@@ -1,13 +1,5 @@
 <Type Name="_CalendarSharing" FullName="Microsoft.Office.Interop.Outlook._CalendarSharing">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637790" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarSharing" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903742" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarSharing" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarSharing" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarSharing" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,17 +76,21 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" />によって作成された iCalendar (.ics) ファイルに含まれる予定表アイテムの詳細のレベルを示す値、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" />によって作成された iCalendar (.ics) ファイルに含まれる予定表アイテムの詳細のレベルを示す値、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>予定表アイテムの詳細のレベルを示す <b>OlCalendarDetail</b> の値です。</value>
-        <remarks>
-          <para>このプロパティの値は、<b>エクスポート</b>オブジェクトのプロパティを次の使用可能な値を決定:</para>
+        <remarks><para>このプロパティの値は、 <b>エクスポート</b> オブジェクトのプロパティを次の使用可能な値を決定します。</para>
           <list type="bullet">
             <item>
-              <para>CalendarDetail が olFreeBusyOnly または olFreeBusyAndSubject に設定されている場合、IncludeAttachments を False に設定する必要があります</para>
-            </item>。
-            <item><para>CalendarDetail が olFreeBusyOnly に設定されている場合、IncludePrivateDetails を False に設定する必要があります</para></item>。
-            <item><para>RestrictToWorkingHours は CalendarDetail が olFreeBusyAndSubject または olFullDetails に設定されている場合、False に設定する必要があります</para></item></list>。
-          <para /></remarks>
+              <para>CalendarDetail の値が olFreeBusyOnly または olFreeBusyAndSubject に設定されている場合は、 IncludeAttachments を False に設定する必要があります。</para>
+            </item>
+            <item>
+              <para>CalendarDetail の値が olFreeBusyOnly に設定されている場合は、 IncludePrivateDetails を False に設定する必要があります。</para>
+            </item>
+            <item>
+              <para>CalendarDetail の値が olFreeBusyAndSubject または olFullDetails に設定されている場合は、 RestrictToWorkingHours を False に設定する必要があります。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -120,7 +116,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,12 +147,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>共有する予定表アイテムの範囲の終了日を示す<b>日付時刻</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>共有する予定表アイテムの範囲の終了日を示す<b>日付時刻</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /><b>エクスポート</b>オブジェクトのプロパティが<b>true</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> <b>エクスポート</b>オブジェクトのプロパティが<b>true</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -182,7 +176,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を共有する予定表アイテムを含む、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を共有する予定表アイテムを含む、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,15 +207,16 @@
         <param name="MailFormat">このメソッドによって作成された<b>MailItem</b>の本文に予定表の情報の形式を決定します。</param>
         <summary>予定表については、親からの転送<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />の<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトのペイロードとして、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</summary>
         <returns>予定表の情報が関連付けられている新しい電子メール アイテムを表す <b>MailItem</b> オブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>ForwardAsICal</b>メソッドを指定することができますペイロード共有を使用他のユーザーとカレンダーを共有する 1 つのメソッドを提供します。メソッド:</para>
+        <remarks><para><b>ForwardAsICal</b> メソッドを指定することができますペイロード共有を使用他のユーザーとカレンダーを共有する 1 つのメソッドを提供します。します。</para>
           <list type="bullet">
             <item>
-              <para>MailItem オブジェクトを作成し、メール アイテムの本文で予定表の情報のプレゼンテーションを提供します</para>
-            </item>。
-            <item><para>予定表の情報を含む iCalendar (.ics) ファイルを作成して、MailItem に添付します</para></item></list>。
-          <para /></remarks>
+              <para>MailItem オブジェクトを作成し、メール アイテムの本文に含まれる予定表の情報の表示形式を指定する。</para>
+            </item>
+            <item>
+              <para>予定表の情報を含む iCalendar (.ics) ファイルを作成し、そのファイルを MailItem に添付する。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeAttachments">
@@ -250,13 +245,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>によって作成された iCalendar (.ics) ファイル内の予定表アイテムの添付ファイルを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>によって作成された iCalendar (.ics) ファイル内の予定表アイテムの添付ファイルを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>予定表アイテムの添付ファイルを含めるようにする
-            <b>場合は true</b>を示します</para>。
-          <para>場合は、 <b>False</b>にこのプロパティを設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>または<b>olFreeBusyAndSubject</b>に設定されています</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>True</b>は、予定表アイテムの添付ファイルを含める必要がありますあることを示します。</para>
+          <para>場合このプロパティは<b>False</b>に設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>または<b>olFreeBusyAndSubject</b>に設定されています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludePrivateDetails">
@@ -285,13 +279,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>によって作成された iCalendar (.ics) ファイルに予定表アイテムのプライベートの詳細を含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>によって作成された iCalendar (.ics) ファイルに予定表アイテムのプライベートの詳細を含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プライベート予定表アイテムの詳細を含めるようにする
-            <b>場合は true</b>を示します</para>。
-          <para>場合は、 <b>False</b>にこのプロパティを設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>に設定されています</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>True</b>は、プライベートの予定表アイテムの詳細を含める必要がありますあることを示します。</para>
+          <para>場合このプロパティは<b>False</b>に設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>に設定されています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeWholeCalendar">
@@ -320,14 +313,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>によって作成された iCalendar (.ics) ファイルで、フォルダー内のすべての予定表アイテムを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>によって作成された iCalendar (.ics) ファイルで、フォルダー内のすべての予定表アイテムを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>フォルダー内のすべての予定表アイテムを含めるようにする
-            <b>場合は true</b>を示します</para>。
-          <para>このプロパティが<b>True の</b>場合、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /><b>エクスポート</b>オブジェクトのプロパティは無視され、フォルダー内のすべての予定表アイテムが含まれます</para>。
-          <para>、<b>開始日</b>と<b>終了日</b>のプロパティが含まれる予定表アイテムの範囲を確認する<b>場合は False</b>にこのプロパティが設定されている場合</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>True</b>は、フォルダー内のすべての予定表アイテムを含める必要があるあることを示します。</para>
+          <para>このプロパティが<b>True の</b>場合、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /><b>エクスポート</b>オブジェクトのプロパティは無視され、フォルダー内のすべての予定表アイテムが含まれます。</para>
+          <para><b>False</b>にこのプロパティが設定されている場合、<b>開始日</b>と<b>終了日</b>のプロパティが含まれる予定表アイテムの範囲を決定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -384,13 +376,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>によって作成された iCalendar (.ics) ファイルでの勤務時間内に発生しない予定表アイテムを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>によって作成された iCalendar (.ics) ファイルでの勤務時間内に発生しない予定表アイテムを含める必要があるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />または<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>勤務時間内に発生しない予定表アイテムを含めるようにする
-            <b>場合は true</b>を示します</para>。
-          <para>場合は、 <b>False</b>にこのプロパティを設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>または<b>olFullDetails</b>に設定します</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>True</b>は、勤務時間内に発生しない予定表アイテムを含める必要がありますあることを示します。</para>
+          <para>場合このプロパティは<b>False</b>に設定する必要があります、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>エクスポート</b>オブジェクトのプロパティが<b>olFreeBusyOnly</b>または<b>olFullDetails</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveAsICal">
@@ -418,8 +409,7 @@
       <Docs>
         <param name="Path">iCalendar ファイルのパスとファイル名を指定します。</param>
         <summary>予定表については、親からのエクスポート<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />の<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />、iCalendar カレンダー (.ics) ファイルとしてのオブジェクトです。</summary>
-        <remarks>
-          <para>ICalendar ファイルに記載されている詳細のレベルは、次の<b>エクスポート</b>プロパティの値の組み合わせによって決定:</para>
+        <remarks><para>ICalendar ファイルに記載されている詳細のレベルは、次の <b>エクスポート</b> のプロパティの値の組み合わせによって決定されます。</para>
           <list type="bullet">
             <item>
               <para>CalendarDetail</para>
@@ -434,8 +424,8 @@
               <para>RestrictToWorkingHours</para>
             </item>
           </list>
-          <para>を設定すること、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" />を<b>True</b>には、フォルダーに含まれているすべてのアイテムをエクスポートするのにはプロパティを設定できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />に日付の範囲の値を指定したエクスポートされた項目数を制限するためのプロパティ開始日と、それぞれの日付を終了します</para>。
-          <para /></remarks>
+          <para>設定することができます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" />を<b>True</b>には、フォルダーに含まれているすべてのアイテムをエクスポートするのにはプロパティを設定できます、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />の日付にエクスポートされた項目数を制限するためのプロパティの範囲で指定した開始日と終了日、それぞれ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -461,19 +451,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartDate">
@@ -502,12 +489,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>共有する予定表アイテムの範囲の包括的な開始日を示す<b>日付時刻</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>共有する予定表アイテムの範囲の包括的な開始日を示す<b>日付時刻</b>値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /><b>エクスポート</b>オブジェクトのプロパティが<b>True</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> <b>エクスポート</b>オブジェクトのプロパティが<b>True</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

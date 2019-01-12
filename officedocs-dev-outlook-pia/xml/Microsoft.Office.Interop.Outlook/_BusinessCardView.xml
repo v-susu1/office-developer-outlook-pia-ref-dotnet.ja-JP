@@ -1,13 +1,5 @@
 <Type Name="_BusinessCardView" FullName="Microsoft.Office.Interop.Outlook._BusinessCardView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637826" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _BusinessCardView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897130" /></Metadata><TypeSignature Language="C#" Value="public interface _BusinessCardView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _BusinessCardView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._BusinessCardView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _BusinessCardView" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,12 +101,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはパーセントでビューの電子名刺 (EBC) のサイズを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはパーセントでビューの電子名刺 (EBC) のサイズを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>20 ~ 100 の値にこのプロパティを設定できます。20 未満の値にこのプロパティが設定されている場合、プロパティは、20 に設定されます。場合はこのプロパティを 100 より大きい値に設定すると、プロパティは 100 に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、20 ～ 100 の値に設定できます。このプロパティを 20 未満の値に設定した場合、プロパティは 20 に設定されます。このプロパティを 100 より大きい値に設定した場合、プロパティは 100 に設定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -140,13 +130,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OlBusinessCardView</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OlBusinessCardView</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -230,7 +217,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -286,7 +273,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />ビューの電子名刺 (EBC) ごとの見出しを表示するために使用するフォントを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />ビューの電子名刺 (EBC) ごとの見出しを表示するために使用するフォントを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -317,13 +304,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>メニューで使用する言語を定義するオブジェクトの言語の設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>メニューで使用する言語を定義するオブジェクトの言語の設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
-          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>[<b>言語</b>] プロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。 たとえば、文字列"EN-US"は「米国 - 英語」の ISO コードを表します</para>
+          <para>有効な言語コードが指定されている場合は、指定された言語の [ 表示] メニューでのみオブジェクトを使用できます。値が指定されていない場合は、すべての言語でオブジェクト アイテムを使用できます。このプロパティの既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -352,12 +337,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ユーザーが現在のビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ユーザーが現在のビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>かどうか<b>は True</b>、ユーザー設定を変更できます、現在のビューのです。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>かどうか <b>は True</b> 、ユーザー設定を変更できます、現在のビューのです。ただし、インターフェイスに対する変更は保存されません。かどうかは <b>False</b> (既定値)、変更が保存されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -386,7 +369,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -441,10 +424,8 @@
       <Parameters />
       <Docs>
         <summary>組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</summary>
-        <remarks>
-          <para>このメソッドは、組み込みの Outlook ビューでのみ機能します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドは、組み込みの Outlook ビューに対してのみ適用されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -495,13 +476,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -527,19 +505,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SortFields">
@@ -565,7 +540,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />で、ビューが並べ替えのすべてのフィールドを表すコレクション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />で、ビューが並べ替えのすべてのフィールドを表すコレクション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -593,13 +568,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />オブジェクトは、組み込みの Outlook ビューです。 値の取得のみ可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />オブジェクトは、組み込みの Outlook ビューです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -625,7 +597,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を表す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を表す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -656,11 +628,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または現在のビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または現在のビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。ビューの作成はを Outlook のユーザー インターフェイスを使用してビューを作成し、しをそのビューの<b>XML</b>プロパティを取得するときの XML の構築方法を決定するには、
-          <para>です。 </para><para /></remarks>
+        <remarks><para>XML 定義は、ビュー自体のさまざまなプロパティに対応する一連のタグおよびキーワードを使用して、ビューの種類を記述します。ビューを作成すると、XML 定義が構文解析され、新しいビューの設定がレンダリングされます。</para>
+          <para>ビューを作成するときの XML の構築方法を決定するには、Outlook ユーザー インターフェイスを使用してビューを作成し、そのビューの <b>XML</b> プロパティを取得します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
