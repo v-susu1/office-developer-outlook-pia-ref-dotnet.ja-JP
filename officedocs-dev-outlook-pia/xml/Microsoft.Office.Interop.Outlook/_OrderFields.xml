@@ -1,13 +1,5 @@
 <Type Name="_OrderFields" FullName="Microsoft.Office.Interop.Outlook._OrderFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638464" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904071" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderFields&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="bfcb1-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bfcb1-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="bfcb1-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bfcb1-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="bfcb1-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bfcb1-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="bfcb1-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bfcb1-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e8b0a-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="e8b0a-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="e8b0a-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="e8b0a-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,34 +49,10 @@
         <Parameter Name="IsDescending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="bfcb1-105">新しいオブジェクトを関連付けるプロパティの名前を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-105">The name of the property to which the new object is associated.</span>
-          </span>
-        </param>
-        <param name="IsDescending">
-          <span data-ttu-id="bfcb1-106">設定に使用する値、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> 、新しい<b>OrderField</b>オブジェクトのプロパティです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-106">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span>
-          </span>
-          <span data-ttu-id="bfcb1-107">この値を指定しない場合は、 <b>IsDescending</b> プロパティの既定値が使用されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-107">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bfcb1-108">新しい<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />に追加され、オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-108">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bfcb1-109">新しい順序フィールドを表す <b>OrderField</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-109">An <b>OrderField</b> object that represents the new order field.</span>
-          </span>
-        </returns>
+        <param name="PropertyName"><span data-ttu-id="e8b0a-105">新しいオブジェクトを関連付けるプロパティの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-105">The name of the property to which the new object is associated.</span></span></param>
+        <param name="IsDescending"><span data-ttu-id="e8b0a-106">設定に使用する値、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> 、新しい<b>OrderField</b>オブジェクトのプロパティです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-106">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span></span> <span data-ttu-id="e8b0a-107">この値を指定しない場合は、 <b>IsDescending</b> プロパティの既定値が使用されます。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-107">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span></span></param>
+        <summary><span data-ttu-id="e8b0a-108">新しい<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />に追加され、オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-108">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="e8b0a-109">新しい順序フィールドを表す <b>OrderField</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-109">An <b>OrderField</b> object that represents the new order field.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-110">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="bfcb1-111">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-110">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e8b0a-111">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,16 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-112">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="bfcb1-113">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-112">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e8b0a-113">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -202,16 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-114">数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />指定されたコレクション内のオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="bfcb1-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-114">数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />指定されたコレクション内のオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objects in the specified collection.</span></span> <span data-ttu-id="e8b0a-115">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,40 +164,11 @@
         <Parameter Name="IsDescending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="bfcb1-116">新しいオブジェクトを関連付けるプロパティの名前を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-116">The name of the property to which the new object is associated.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="bfcb1-117">新しいオブジェクト、または一致するように使用する値を挿入する位置を示すインデックス番号、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />で新しいオブジェクトが挿入される、コレクション内のオブジェクトのプロパティの値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-117">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection at where the new object is to be inserted.</span>
-          </span>
-        </param>
-        <param name="IsDescending">
-          <span data-ttu-id="bfcb1-118">設定に使用する値、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> 、新しい<b>OrderField</b>オブジェクトのプロパティです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-118">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span>
-          </span>
-          <span data-ttu-id="bfcb1-119">この値を指定しない場合は、 <b>IsDescending</b> プロパティの既定値が使用されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-119">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bfcb1-120">新しい<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />し、オブジェクト内の指定したインデックス位置に挿入、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bfcb1-121">新しい順序フィールドを表す <b>OrderField</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-121">An <b>OrderField</b> object that represents the new order field.</span>
-          </span>
-        </returns>
+        <param name="PropertyName"><span data-ttu-id="e8b0a-116">新しいオブジェクトを関連付けるプロパティの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-116">The name of the property to which the new object is associated.</span></span></param>
+        <param name="Index"><span data-ttu-id="e8b0a-117">新しいオブジェクト、または一致するように使用する値を挿入する位置を示すインデックス番号、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />で新しいオブジェクトが挿入される、コレクション内のオブジェクトのプロパティの値です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-117">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection at where the new object is to be inserted.</span></span></param>
+        <param name="IsDescending"><span data-ttu-id="e8b0a-118">設定に使用する値、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> 、新しい<b>OrderField</b>オブジェクトのプロパティです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-118">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span></span> <span data-ttu-id="e8b0a-119">この値を指定しない場合は、 <b>IsDescending</b> プロパティの既定値が使用されます。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-119">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span></span></param>
+        <summary><span data-ttu-id="e8b0a-120">新しい<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />し、オブジェクト内の指定したインデックス位置に挿入、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="e8b0a-121">新しい順序フィールドを表す <b>OrderField</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-121">An <b>OrderField</b> object that represents the new order field.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,24 +198,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="bfcb1-122">内の<b>OrderField</b>オブジェクトのインデックスを作成する 1 から始まる整数を指定できます、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクション、一致する文字列、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />コレクション、またはフィールドの選択] ダイアログ ボックスに表示されるフィールド名の内の<b>OrderField</b>オブジェクトのプロパティの値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-122">The value  can be a one-based integer that indexes an <b>OrderField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an <b>OrderField</b> object in the collection, or a field name as displayed in the Field Chooser.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bfcb1-123">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />コレクションからのオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bfcb1-124">指定したオブジェクトを表す <b>OrderField</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-124">An <b>OrderField</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="e8b0a-122">内の<b>OrderField</b>オブジェクトのインデックスを作成する 1 から始まる整数を指定できます、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクション、一致する文字列、<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />コレクション、またはフィールドの選択] ダイアログ ボックスに表示されるフィールド名の内の<b>OrderField</b>オブジェクトのプロパティの値です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-122">The value  can be a one-based integer that indexes an <b>OrderField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an <b>OrderField</b> object in the collection, or a field name as displayed in the Field Chooser.</span></span></param>
+        <summary><span data-ttu-id="e8b0a-123">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />コレクションからのオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="e8b0a-124">指定したオブジェクトを表す <b>OrderField</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-124">An <b>OrderField</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -347,12 +227,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-p107">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-p107">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,18 +255,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="bfcb1-127">オブジェクト、または一致する値のインデックス番号、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> 、コレクション内のオブジェクトのプロパティの値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-127">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bfcb1-128">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-128">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="e8b0a-127">オブジェクト、または一致する値のインデックス番号、 <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> 、コレクション内のオブジェクトのプロパティの値です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-127">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="e8b0a-128">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-128">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -416,12 +281,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-129">並べ替えのプロパティをすべて削除します<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-129">Removes all sorting properties from the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-129">並べ替えのプロパティをすべて削除します<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-129">Removes all sorting properties from the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -448,42 +308,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bfcb1-130">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-130">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="bfcb1-131">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e8b0a-130">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-130">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e8b0a-131">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bfcb1-132">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e8b0a-132"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-132">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e8b0a-133">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-133">Both members serve the same purpose.</span></span> <span data-ttu-id="e8b0a-134">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="e8b0a-134">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bfcb1-132">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

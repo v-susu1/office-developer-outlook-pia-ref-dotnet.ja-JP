@@ -1,13 +1,5 @@
 <Type Name="_RemoteItem" FullName="Microsoft.Office.Interop.Outlook._RemoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ed056f5bb2a76db833df99db1c20cc6f5bd947ed" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639040" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RemoteItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ed056f5bb2a76db833df99db1c20cc6f5bd947ed" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903511" /></Metadata><TypeSignature Language="C#" Value="public interface _RemoteItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RemoteItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RemoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RemoteItem" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="62ec1-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="62ec1-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="62ec1-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="62ec1-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="62ec1-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="62ec1-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="62ec1-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="62ec1-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8f81e-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8f81e-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="8f81e-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8f81e-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8f81e-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />。</span><span class="sxs-lookup"><span data-stu-id="8f81e-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection that represents all the available actions for the item.</span>
-          </span>
-          <span data-ttu-id="62ec1-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。</span><span class="sxs-lookup"><span data-stu-id="8f81e-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection that represents all the available actions for the item.</span></span> <span data-ttu-id="8f81e-106">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="62ec1-108">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8f81e-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="8f81e-108">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,16 +101,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span>
-          </span>
-          <span data-ttu-id="62ec1-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8f81e-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span></span> <span data-ttu-id="8f81e-110">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,31 +129,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-111">
-            <b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-111">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span>
-          </span>
-          <span data-ttu-id="62ec1-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-111"><b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-111">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="8f81e-112">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-112">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-113">
-            <para>値が<b>False</b>の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。別のアイテムと競合していない項目がある可能性があります</para>。
-          <para>の項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。その一方で、項目が競合している<b>が必要</b>プロパティは<b>False</b>として場合、は、競合の自動解決で優先されなかったデータ</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-113">
-              <para>A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</para>
-              <para>If an item has  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution. On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p106">値が <b>False</b> の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。アイテムは、別のアイテムと競合していない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p106">A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</span></span></para>
+          <para><span data-ttu-id="8f81e-115">項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-115">If an item has  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="8f81e-116">その一方で、アイテムが競合している <b>が必要</b> プロパティは <b>False</b> として、自動競合が解決で優先されなかったデータです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-116">On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -234,30 +162,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-114">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-114">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the billing information associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-115">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-115">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-117"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-117">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the billing information associated with the Outlook item.</span></span> <span data-ttu-id="8f81e-118">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-116">
-            <para>これは、自由形式のテキスト フィールドです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-116">
-              <para>This is a free-form text field.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-119">このプロパティは、自由形式のテキスト フィールドです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-119">This is a free-form text field.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -286,17 +194,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-117">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-117">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-118">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-118">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-120"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-120">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span></span> <span data-ttu-id="8f81e-121">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-121">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,32 +225,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-119">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-119">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-120">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-122"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-122">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span></span> <span data-ttu-id="8f81e-123">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-121">
-            <para>
-              <b>カテゴリ</b>は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数<b>Split</b>を使用します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-121">
-              <para>
-                <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item. This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values. To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-124">
+            <b>カテゴリ</b> は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-124">
+            <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item.</span></span> <span data-ttu-id="8f81e-125">このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-125">This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values.</span></span> <span data-ttu-id="8f81e-126">カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数 <b>Split</b> を使用します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-126">To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -378,16 +256,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-122">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="62ec1-123">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-127">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-127">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="8f81e-128">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-128">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -415,18 +284,8 @@
         <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
       </Parameters>
       <Docs>
-        <param name="SaveMode">
-          <span data-ttu-id="62ec1-p110">閉じる際の動作を指定します。インスペクターで表示されたアイテムが変更されなかった場合、この引数は動作に影響を与えません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p110">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="62ec1-126">Outlook アイテムを閉じ、Outlook アイテムへの変更を保存するかどうかを選択できます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-126">Closes and optionally saves changes to the Outlook item.</span>
-          </span>
-        </summary>
+        <param name="SaveMode"><span data-ttu-id="8f81e-p113">閉じる際の動作を指定します。インスペクターで表示されたアイテムが変更されなかった場合、この引数は動作に影響を与えません。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p113">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span></span></param>
+        <summary><span data-ttu-id="8f81e-131">Outlook アイテムを閉じ、Outlook アイテムへの変更を保存するかどうかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-131">Closes and optionally saves changes to the Outlook item.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -456,30 +315,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-127">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-127">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the names of the companies associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-128">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-132"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-132">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the names of the companies associated with the Outlook item.</span></span> <span data-ttu-id="8f81e-133">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-129">
-            <para>これは、自由形式のテキスト フィールドです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-129">
-              <para>This is a free-form text field. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-134">このプロパティは、自由形式のテキスト フィールドです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-134">This is a free-form text field.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -505,16 +344,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-130">返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-130">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span>
-          </span>
-          <span data-ttu-id="62ec1-131">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-135">返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8f81e-135">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span></span>  <span data-ttu-id="8f81e-136">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-136">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,32 +372,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-132">を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトに属しています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-132">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that the <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object belongs to.</span>
-          </span>
-          <span data-ttu-id="62ec1-133">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-137">を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトに属しています。</span><span class="sxs-lookup"><span data-stu-id="8f81e-137">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that the <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object belongs to.</span></span> <span data-ttu-id="8f81e-138">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-138">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-134">
-            <para>このプロパティでは、会話に項目を関連付けます。これらの項目との会話をすべての<b>ConversationID</b>プロパティに同じ値がある</para>。
-          <para>このプロパティは、MAPI プロパティの<b>PidTagConversationId</b>に対応します</para>。
-          <para><b>RemoteItem</b>オブジェクトは、Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成する場合、または Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server をオンライン モードで Outlook が実行されている場合このプロパティと同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.ConversationTopic" />プロパティ</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-134">
-              <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
-              <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
-              <para>If the <b>RemoteItem</b> object is created in a version of Microsoft Outlook earlier than Microsoft Outlook 2010, or if Outlook is running in online mode against a version of Microsoft Exchange Server earlier than Microsoft Exchange Server 2010, this property returns the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.ConversationTopic" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p117">このプロパティは、アイテムを会話に関連付けます。これらのアイテムと、会話の <b>ConversationID</b> プロパティで同じ値であります。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p117">This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</span></span></para>
+          <para><span data-ttu-id="8f81e-141">このプロパティが MAPI プロパティ <b>PidTagConversationId</b> に対応しています。</span><span class="sxs-lookup"><span data-stu-id="8f81e-141">This property corresponds with the MAPI property <b>PidTagConversationId</b>.</span></span></para>
+          <para><span data-ttu-id="8f81e-142"><b>RemoteItem</b>オブジェクトは、Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成する場合、またはに対してこのプロパティの Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server のオンライン モードで Outlook が実行されている場合同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.ConversationTopic" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="8f81e-142">If the <b>RemoteItem</b> object is created in a version of Microsoft Outlook earlier than Microsoft Outlook 2010, or if Outlook is running in online mode against a version of Microsoft Exchange Server earlier than Microsoft Exchange Server 2010, this property returns the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._RemoteItem.ConversationTopic" /> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -593,17 +403,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-135">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-135">Returns a <b>String</b> (<b>string</b> in C#) representing the index of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-136">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-136">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-143"><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-143">Returns a <b>String</b> (<b>string</b> in C#) representing the index of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="8f81e-144">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-144">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -631,17 +431,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-137">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-137">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-138">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-138">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-145"><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-145">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="8f81e-146">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-146">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -667,18 +457,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-139">オブジェクトの別のインスタンスを作成します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-139">Creates another instance of an object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="62ec1-140">返します、 <see cref="T:System.Object" /> 、親のコピーは<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-140">Returns an <see cref="T:System.Object" /> that is a copy of the parent <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="8f81e-147">オブジェクトの別のインスタンスを作成します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-147">Creates another instance of an object.</span></span></summary>
+        <returns><span data-ttu-id="8f81e-148">返します、 <see cref="T:System.Object" /> 、親のコピーは<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-148">Returns an <see cref="T:System.Object" /> that is a copy of the parent <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -705,29 +485,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-141">Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-141">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-142">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-149">Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-149">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span></span> <span data-ttu-id="8f81e-150">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-150">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-143">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagCreationTime</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-143">
-              <para>This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p121">このプロパティは、MAPI プロパティの <b>PidTagCreationTime</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p121">This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -751,25 +512,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-144">アイテムを含むフォルダーからアイテムを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-144">Removes the item from the folder that contains the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="62ec1-145">
-            <para>
-              <b>Delete</b>メソッドは、コレクション内の 1 つの項目を削除します。すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作の項目を削除します</para>。
-          <para>は、削除メソッドは、親フォルダーからアイテムを削除済みアイテム フォルダーに移動します。<b>Delete</b>メソッドが項目を完全に削除され、含まれているフォルダーが削除済みアイテム フォルダーの場合は、.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-145">
-              <para>The <b>Delete</b> method deletes a single item in a collection. To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder. For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</para>
-              <para>The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8f81e-152">アイテムを含むフォルダーからアイテムを削除します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-152">Removes the item from the folder that contains the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="8f81e-153"><b>Delete</b> メソッドは、コレクション内の単一のアイテムを削除します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-153">The <b>Delete</b> method deletes a single item in a collection.</span></span> <span data-ttu-id="8f81e-154">すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8f81e-154">To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder.</span></span> <span data-ttu-id="8f81e-155">などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作でアイテムを削除します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-155">For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</span></span></para>
+          <para><span data-ttu-id="8f81e-p123">Delete メソッドは、アイテムをそのフォルダーから [ 削除済みアイテム] フォルダーに移動します。アイテムを含むフォルダーが [ 削除済みアイテム] フォルダーである場合は、 <b>Delete</b> メソッドは、アイテムを完全に削除します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p123">The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -794,33 +540,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <span data-ttu-id="62ec1-p117">
-            <b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p117">
-              <b>True</b> to make the window modal. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="62ec1-148">新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-148">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="62ec1-149">
-            <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
-          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-149">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Modal"><span data-ttu-id="8f81e-p124"><b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </span><span class="sxs-lookup"><span data-stu-id="8f81e-p124"><b>True</b> to make the window modal. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="8f81e-160">新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-160">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="8f81e-161">後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="8f81e-161">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="8f81e-162">エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-162">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="8f81e-p126">Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p126">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -846,16 +570,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-150">属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-150">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span>
-          </span>
-          <span data-ttu-id="62ec1-151">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-151">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-165">属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。</span><span class="sxs-lookup"><span data-stu-id="8f81e-165">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span></span> <span data-ttu-id="8f81e-166">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-166">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -883,30 +598,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-152">
-            <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-152">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
-          </span>
-          <span data-ttu-id="62ec1-153">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-153">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-167"><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-167">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span></span>  <span data-ttu-id="8f81e-168">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-168">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-154">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagEntryId</b>に対応します</para>。
-          <para>MAPI ストア プロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b>プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b>プロパティが一意になるアイテムが移動しない限りに依存する必要があります。<b>EntryID</b>プロパティは MAPI 長期エントリ ID を返します。詳細についての時間の長いのおよび short 的なエントリ Id、 http://msdn.microsoft.com <b>PidTagEntryId</b>のです。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-154">
-              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
-              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-169">このプロパティは、MAPI プロパティの PR_CREATION_TIME に対応しています。 <b>PidTagEntryId</b></span><span class="sxs-lookup"><span data-stu-id="8f81e-169">This property corresponds to the MAPI property <b>PidTagEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="8f81e-p129">MAPI ストアのプロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b> プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、 受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b> プロパティが一意になるアイテムが移動しない限りに依存する必要があります。 <b>EntryID</b> プロパティは MAPI 長期エントリ ID を返します。詳細情報に関する長期的および short 的な entryid を代入、http://msdn.microsoft.com の <b>PidTagEntryId</b> を検索してください。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p129">A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormDescription">
@@ -932,16 +628,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-155">返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-155">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object that represents the form description for the specified Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-156">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-156">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-176">返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8f81e-176">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object that represents the form description for the specified Outlook item.</span></span> <span data-ttu-id="8f81e-177">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-177">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -967,53 +654,26 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-157">取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-157">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this item belongs.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="62ec1-158">
-            <b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-158">Returns a <b>Conversation</b> object that represents the conversation to which this item belongs.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="62ec1-159">
-            <para>
-              <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。次のシナリオ内の項目の会話がありません:</para>
-            <list type="bullet">
-              <item>
-                <para>アイテムが保存されていません。自動保存、ユーザーの操作によって、項目をプログラムでは、保存できます</para>
-              </item>。
-            <item><para>(たとえば、メール アイテム、予定アイテムや連絡先アイテム) の送信可能なアイテム、アイテムが送信されていません</para></item>。
-            <item><para>の会話は、Windows レジストリを使用して無効になっています</para></item>。
-            <item><para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです</para></item></list>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-159">
-              <para>
-                <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item. No conversation exists for an item in the following scenarios:</para>
-              <list type="bullet">
-                <item>
-                  <para>The item has not been saved. An item can be saved programmatically, by user action, or by auto-save.</para>
-                </item>
-                <item>
-                  <para>For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</para>
-                </item>
-                <item>
-                  <para>Conversations have been disabled through the Windows registry.</para>
-                </item>
-                <item>
-                  <para>The store does not support the conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the conversation view.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8f81e-178">取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="8f81e-178">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this item belongs.</span></span></summary>
+        <returns><span data-ttu-id="8f81e-179"><b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-179">Returns a <b>Conversation</b> object that represents the conversation to which this item belongs.</span></span></returns>
+        <remarks><para><span data-ttu-id="8f81e-180">
+            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-180">
+            <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item.</span></span> <span data-ttu-id="8f81e-181">次のシナリオ内の項目の会話は存在しません。</span><span class="sxs-lookup"><span data-stu-id="8f81e-181">No conversation exists for an item in the following scenarios:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="8f81e-p132">アイテムが保存されていません。 アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p132">The item has not been saved. An item can be saved programmatically, by user action, or by auto-save.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="8f81e-184">送信可能なアイテム (メール アイテム、予定アイテム、連絡先アイテムなど) が送信されていない。</span><span class="sxs-lookup"><span data-stu-id="8f81e-184">For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="8f81e-185">Windows レジストリによって、スレッドが無効になっている。</span><span class="sxs-lookup"><span data-stu-id="8f81e-185">Conversations have been disabled through the Windows registry.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="8f81e-186">ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。</span><span class="sxs-lookup"><span data-stu-id="8f81e-186">The store does not support the conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010).</span></span> <span data-ttu-id="8f81e-187">使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-187">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the conversation view.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1039,29 +699,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-160">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span>
-          </span>
-          <span data-ttu-id="62ec1-161">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-161">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-188">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-188">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span></span> <span data-ttu-id="8f81e-189">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-189">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-162">
-            <para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-162">
-              <para>This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />  property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-190">このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="8f81e-190">This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />  property.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -1087,17 +728,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-163">
-            <b>ブール型</b>(C# では<b>bool</b> ) リモート アイテムに関連付けられている添付ファイルがある場合<b>は True</b> (既定値) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-163">Returns a <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> (default) if the remote item has an attachment associated with it.</span>
-          </span>
-          <span data-ttu-id="62ec1-164">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-164">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-191"><b>ブール型</b>(C# では<b>bool</b> ) リモート アイテムに関連付けられている添付ファイルがある場合<b>は True</b> (既定値) を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-191">Returns a <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> (default) if the remote item has an attachment associated with it.</span></span> <span data-ttu-id="8f81e-192">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-192">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1128,29 +759,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-165">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-165">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constant indicating the relative importance level for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-166">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-166">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-193">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-193">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constant indicating the relative importance level for the Outlook item.</span></span> <span data-ttu-id="8f81e-194">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-194">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-167">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagImportance</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-167">
-              <para>This property corresponds to the MAPI property <b>PidTagImportance</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p138">このプロパティは、MAPI プロパティの <b>PidTagImportance</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p138">This property corresponds to the MAPI property <b>PidTagImportance</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1176,31 +788,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-168">
-            <b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-168">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span>
-          </span>
-          <span data-ttu-id="62ec1-169">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-169">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-196"><b>ブール型</b>(C# では<b>bool</b> ) アイテムが競合しているかどうかかどうかを返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-196">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span></span> <span data-ttu-id="8f81e-197">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-197">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-170">
-            <para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b>プロパティは<b>True</b>を返します</para>。
-          <para>かどうか<b>は True</b>、指定した項目が競合している</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-170">
-              <para>Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</para>
-              <para>If <b>True</b>, the specified item is in conflict.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p140">アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとすると、アクションは失敗します。この場合、 <b>IsConflict</b> プロパティは <b>True</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p140">Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="8f81e-201">場合 <b>は True</b> 、指定した項目が競合します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-201">If <b>True</b>, the specified item is in conflict.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemProperties">
@@ -1226,30 +818,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-171">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-171">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-172">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-172">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-202">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。</span><span class="sxs-lookup"><span data-stu-id="8f81e-202">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span></span> <span data-ttu-id="8f81e-203">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-203">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-173">
-            <para>
-              <b>名前</b>またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-173">
-              <para>The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-204"><b>名前</b> またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-204">The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1275,29 +847,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-174">Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-174">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span>
-          </span>
-          <span data-ttu-id="62ec1-175">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-175">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-205">Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-205">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span></span>  <span data-ttu-id="8f81e-206">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-206">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-176">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagLastModificationTime</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-176">
-              <para>This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-207">このプロパティは、MAPI プロパティの <b>PidTagLastModificationTime</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-207">This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1326,12 +879,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-177">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-177">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-208">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="8f81e-208">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1362,12 +910,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-178">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-178">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-209">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="8f81e-209">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1398,29 +941,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-179">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-179">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span>
-          </span>
-          <span data-ttu-id="62ec1-180">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-180">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-210">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-210">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span></span> <span data-ttu-id="8f81e-211">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-211">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-181">
-            <para>このプロパティは、あまり理想的データ転送機能メッセージングの柔軟性が向上のリモート ユーザーを示します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-181">
-              <para>This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-212">このプロパティによって、メッセージングの柔軟性が向上したデータ転送機能がリモート ユーザーに提供されます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-212">This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1449,30 +973,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-182">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-182">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-183">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-183">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-213"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-213">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span></span> <span data-ttu-id="8f81e-214">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-214">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-184">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-184">
-              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p145">このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p145">This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1501,30 +1005,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-185">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-185">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the mileage for an item.</span>
-          </span>
-          <span data-ttu-id="62ec1-186">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-186">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-218"><b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-218">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the mileage for an item.</span></span> <span data-ttu-id="8f81e-219">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-219">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-187">
-            <para>これは自由形式の文字列フィールドで、払い戻しの目的の項目 (たとえば、100 マイル、予定、連絡先、またはタスクの説明) に関連付けられた経費情報を保存するのには使用することができます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-187">
-              <para>This is a free-form string field and can be used to store mileage information associated with the item (for example, 100 miles documented for an appointment, contact, or task) for purposes of reimbursement. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-220">このプロパティは自由形式のテキスト フィールドです。アイテムに関連付けられた経費情報を保存するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-220">This is a free-form string field and can be used to store mileage information associated with the item (for example, 100 miles documented for an appointment, contact, or task) for purposes of reimbursement.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1550,25 +1034,9 @@
         <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="DestFldr">
-          <span data-ttu-id="62ec1-p130">
-            <b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p130">An expression that returns a <b>Folder</b> object. The destination folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="62ec1-190">Microsoft Outlook アイテムを別のフォルダーへ移動します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-190">Moves a Microsoft Outlook item to a new folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="62ec1-191">移動先のフォルダーに移動されたアイテムを表すオブジェクト型 ( <b>Object</b>) の値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-191">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span>
-          </span>
-        </returns>
+        <param name="DestFldr"><span data-ttu-id="8f81e-p147"><b>Folder</b> オブジェクトを返す式です。移動先のフォルダーを指定します。 </span><span class="sxs-lookup"><span data-stu-id="8f81e-p147">An expression that returns a <b>Folder</b> object. The destination folder.</span></span></param>
+        <summary><span data-ttu-id="8f81e-223">Microsoft Outlook アイテムを別のフォルダーへ移動します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-223">Moves a Microsoft Outlook item to a new folder.</span></span></summary>
+        <returns><span data-ttu-id="8f81e-224">移動先のフォルダーに移動されたアイテムを表すオブジェクト型 ( <b>Object</b>) の値。</span><span class="sxs-lookup"><span data-stu-id="8f81e-224">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1598,16 +1066,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-192">取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-192">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> to not age the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-193">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-193">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-225">取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-225">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> to not age the Outlook item.</span></span> <span data-ttu-id="8f81e-226">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-226">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1635,16 +1094,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-194">Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-194">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the build number of the Outlook application for an Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-195">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-195">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-227">Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-227">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the build number of the Outlook application for an Outlook item.</span></span> <span data-ttu-id="8f81e-228">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-228">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1672,17 +1122,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-196">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-196">Returns a <b>String</b> (<b>string</b> in C#) indicating the major and minor version number of the Outlook application for an Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-197">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-197">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-229"><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-229">Returns a <b>String</b> (<b>string</b> in C#) indicating the major and minor version number of the Outlook application for an Outlook item.</span></span> <span data-ttu-id="8f81e-230">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-230">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1710,12 +1150,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-p134">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p134">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-p151">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p151">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1741,12 +1176,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-p135">すべての既定設定を使用して Outlook アイテムを印刷します。 <b>PrintOut</b> メソッドは、印刷のために使用できる唯一の Outlook 方法です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p135">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-p152">すべての既定設定を使用して Outlook アイテムを印刷します。 <b>PrintOut</b> メソッドは、印刷のために使用できる唯一の Outlook 方法です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p152">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1773,16 +1203,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-202">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-202">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object.</span>
-          </span>
-          <span data-ttu-id="62ec1-203">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-203">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-235">返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-235">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.RemoteItem" /> object.</span></span> <span data-ttu-id="8f81e-236">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-236">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1810,17 +1231,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-204">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 リモート アイテムのメッセージ クラスを示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-204">Returns a <b>String</b> (<b>string</b> in C#) indicating the message class for the remote item.</span>
-          </span>
-          <span data-ttu-id="62ec1-205">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-205">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-237"><b>文字列</b>(C# では<b>文字列</b>) を返します。 リモート アイテムのメッセージ クラスを示します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-237">Returns a <b>String</b> (<b>string</b> in C#) indicating the message class for the remote item.</span></span> <span data-ttu-id="8f81e-238">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-238">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1846,12 +1257,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-206">Microsoft Outlook アイテムを現在のフォルダーに保存し、新しいアイテムの場合は、アイテムの種類に対応した Outlook の既定フォルダーに保存します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-206">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-239">Microsoft Outlook アイテムを現在のフォルダーに保存し、新しいアイテムの場合は、アイテムの種類に対応した Outlook の既定フォルダーに保存します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-239">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1878,40 +1284,11 @@
         <Parameter Name="Type" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="62ec1-207">アイテムを保存するパスを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-207">The path in which to save the item.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="62ec1-208">保存するファイルの種類です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-208">The file type to save.</span>
-          </span>
-          <span data-ttu-id="62ec1-209">次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" />定数: <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、または<b>olMSGUnicode</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-209">Can be one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="62ec1-p139">Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-p139">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="62ec1-212">
-            <para>ことに注意して<b>olDoc</b>は、有効な<b>OlSaveAsType</b>定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-212">
-              <para>Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Path"><span data-ttu-id="8f81e-240">アイテムを保存するパスを指定します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-240">The path in which to save the item.</span></span></param>
+        <param name="Type"><span data-ttu-id="8f81e-241">保存するファイルの種類です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-241">The file type to save.</span></span> <span data-ttu-id="8f81e-242">次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" />定数: <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、または<b>olMSGUnicode</b>。</span><span class="sxs-lookup"><span data-stu-id="8f81e-242">Can be one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span></span></param>
+        <summary><span data-ttu-id="8f81e-p156">Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p156">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span></span></summary>
+        <remarks><para><span data-ttu-id="8f81e-245">ことに注意して <b>olDoc</b> は、有効な <b>OlSaveAsType</b> 定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b> 定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-245">Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -1937,16 +1314,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-213">Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-213">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span>
-          </span>
-          <span data-ttu-id="62ec1-214">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-214">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-246">Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-246">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span></span> <span data-ttu-id="8f81e-247">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-247">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1977,29 +1345,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-215">定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-215">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeration indicating the sensitivity for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-216">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-216">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-248">定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。</span><span class="sxs-lookup"><span data-stu-id="8f81e-248">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeration indicating the sensitivity for the Outlook item.</span></span> <span data-ttu-id="8f81e-249">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-249">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-217">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagSensitivity</b>に対応します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-217">
-              <para>This property corresponds to the MAPI property <b>PidTagSensitivity</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p159">このプロパティは、MAPI プロパティの <b>PidTagSensitivity</b> に対応します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p159">This property corresponds to the MAPI property <b>PidTagSensitivity</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2025,42 +1374,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-218">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-218">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="62ec1-219">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-219">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-251">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-251">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="8f81e-252">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-252">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-220">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8f81e-253"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="8f81e-253">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8f81e-254">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="8f81e-254">Both members serve the same purpose.</span></span> <span data-ttu-id="8f81e-255">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-255">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-220">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -2084,12 +1407,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-221">[分類の表示] ダイアログ ボックスを表示し、ユーザーがアイテムの件名に対応する分類項目を表示できるようにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-221">Displays the Show Categories dialog box, which allows you to select categories that correspond to the subject of the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-256">[分類の表示] ダイアログ ボックスを表示し、ユーザーがアイテムの件名に対応する分類項目を表示できるようにします。</span><span class="sxs-lookup"><span data-stu-id="8f81e-256">Displays the Show Categories dialog box, which allows you to select categories that correspond to the subject of the item.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2116,16 +1434,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-222">Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-222">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-223">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-223">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-257">Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-257">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span></span> <span data-ttu-id="8f81e-258">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-258">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2156,30 +1465,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-224">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-224">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-225">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-225">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-259"><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-259">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span></span> <span data-ttu-id="8f81e-260">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-260">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="62ec1-226">
-            <para>このプロパティは、MAPI プロパティの<b>PidTagSubject</b>に対応します。<b>Subject</b>プロパティは、Outlook アイテムの既定のプロパティです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-226">
-              <para>This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8f81e-p164">このプロパティは、MAPI プロパティの <b>PidTagSubject</b> に対応します。 <b>Subject</b> プロパティは、Outlook アイテムの既定のプロパティです。</span><span class="sxs-lookup"><span data-stu-id="8f81e-p164">This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TransferSize">
@@ -2205,16 +1494,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-227">リモート アイテムの転送サイズ (バイト単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-227">Returns an <b>Integer</b> (<b>int</b> in C#) value specifying the transfer size (in bytes) for the remote item.</span>
-          </span>
-          <span data-ttu-id="62ec1-228">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-228">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-263">リモート アイテムの転送サイズ (バイト単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-263">Returns an <b>Integer</b> (<b>int</b> in C#) value specifying the transfer size (in bytes) for the remote item.</span></span> <span data-ttu-id="8f81e-264">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-264">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2242,16 +1522,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-229">リモート アイテムの転送時間 (単位は秒) を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-229">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the transfer time (in seconds) for the remote item.</span>
-          </span>
-          <span data-ttu-id="62ec1-230">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-230">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-265">リモート アイテムの転送時間 (単位は秒) を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-265">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the transfer time (in seconds) for the remote item.</span></span> <span data-ttu-id="8f81e-266">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-266">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2282,16 +1553,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-231">取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-231">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been opened (read).</span>
-          </span>
-          <span data-ttu-id="62ec1-232">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-232">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-267">取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="8f81e-267">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been opened (read).</span></span> <span data-ttu-id="8f81e-268">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-268">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2319,16 +1581,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="62ec1-233">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-233">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="62ec1-234">読み取り専用です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="62ec1-234">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8f81e-269">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。</span><span class="sxs-lookup"><span data-stu-id="8f81e-269">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span></span> <span data-ttu-id="8f81e-270">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8f81e-270">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
