@@ -1,13 +1,5 @@
 <Type Name="OlTrackingStatus" FullName="Microsoft.Office.Interop.Outlook.OlTrackingStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5af4d11ef28eb6405ca4be63c14226a2bf3224d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638173" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlTrackingStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4b8207a6e479ca72333c4fc8c8e54b10fd4452f3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905485" /></Metadata><TypeSignature Language="C#" Value="public enum OlTrackingStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTrackingStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlTrackingStatus" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="2ccd9-101">受信者の、直近の確認状態の変化を表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2ccd9-101">Indicates the most recent tracking status change for the recipient.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="2ccd9-102">
-        <para>使用される、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" />プロパティ。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2ccd9-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" /> property.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e5708-101">受信者の、直近の確認状態の変化を表します。</span><span class="sxs-lookup"><span data-stu-id="e5708-101">Indicates the most recent tracking status change for the recipient.</span></span></summary>
+    <remarks><para><span data-ttu-id="e5708-102">使用される、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="e5708-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" /> property.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olTrackingDelivered">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-103">アイテムは受信者に配送済み。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-103">The item has been delivered to the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-103">アイテムは受信者に配送済み。</span><span class="sxs-lookup"><span data-stu-id="e5708-103">The item has been delivered to the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNone">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-104">この受信者に関する確認情報なし。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-104">No tracking information is available for the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-104">この受信者に関する確認情報なし。</span><span class="sxs-lookup"><span data-stu-id="e5708-104">No tracking information is available for the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNotDelivered">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-105">アイテムは受信者に未配送。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-105">The item has not been delivered to the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-105">アイテムは受信者に未配送。</span><span class="sxs-lookup"><span data-stu-id="e5708-105">The item has not been delivered to the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNotRead">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-106">受信者はアイテムを未読。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-106">The item has not been read by the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-106">受信者はアイテムを未読。</span><span class="sxs-lookup"><span data-stu-id="e5708-106">The item has not been read by the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRead">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-107">受信者はアイテムを閲覧済み。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-107">The item has been read by the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-107">受信者はアイテムを閲覧済み。</span><span class="sxs-lookup"><span data-stu-id="e5708-107">The item has been read by the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRecallFailure">
@@ -176,12 +128,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-108">送信者はアイテムの取り消しを試みたが失敗。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-108">The sender of the item attempted to recall the item but was unsuccessful.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-108">送信者はアイテムの取り消しを試みたが失敗。</span><span class="sxs-lookup"><span data-stu-id="e5708-108">The sender of the item attempted to recall the item but was unsuccessful.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRecallSuccess">
@@ -200,12 +147,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-109">送信者がアイテムを取り消し済み。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-109">The sender of the item recalled the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-109">送信者がアイテムを取り消し済み。</span><span class="sxs-lookup"><span data-stu-id="e5708-109">The sender of the item recalled the item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingReplied">
@@ -224,12 +166,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2ccd9-110">受信者がアイテムに応答済み。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2ccd9-110">The recipient replied to the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e5708-110">受信者がアイテムに応答済み。</span><span class="sxs-lookup"><span data-stu-id="e5708-110">The recipient replied to the item.</span></span></summary>
       </Docs>
     </Member>
   </Members>

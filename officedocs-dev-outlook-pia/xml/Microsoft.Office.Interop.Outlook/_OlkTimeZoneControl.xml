@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637811" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902790" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0392d-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0392d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="0392d-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0392d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="0392d-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0392d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="0392d-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZone" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0392d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZone" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="769bf-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="769bf-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="769bf-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="769bf-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="769bf-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="769bf-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="769bf-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="769bf-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZone" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,29 +48,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-105">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />に対してコントロールがバインドされる予定の時刻型フィールドを表す定数を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-105">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" /> constant that specifies the time field on the appointment that the control binds against.</span>
-          </span>
-          <span data-ttu-id="0392d-106">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-105">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />に対してコントロールがバインドされる予定の時刻型フィールドを表す定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="769bf-105">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" /> constant that specifies the time field on the appointment that the control binds against.</span></span>  <span data-ttu-id="769bf-106">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-107">
-            <para>このコントロールは、標準のデータ バインディングをサポートしていません。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-107">
-              <para>This control does not support standard data binding.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-107">標準のデータ バインドには対応していません。</span><span class="sxs-lookup"><span data-stu-id="769bf-107">This control does not support standard data binding.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -124,29 +80,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-108">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-108">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span>
-          </span>
-          <span data-ttu-id="0392d-109">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-108">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。</span><span class="sxs-lookup"><span data-stu-id="769bf-108">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="769bf-109">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-110">
-            <para>既定値は<b>olBorderStyleSingle</b>です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-110">
-              <para>The default value is <b>olBorderStyleSingle</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-110">既定値は <b>olBorderStyleSingle</b> です。</span><span class="sxs-lookup"><span data-stu-id="769bf-110">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -170,24 +107,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-111">タイム ゾーン コントロールのドロップダウン部分を展開します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-111">Expands the drop-down portion of the time zone control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0392d-112">
-            <para>コントロール上のドロップ ボタンをクリックするユーザーをシミュレートします。このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />イベントが発生します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-112">
-              <para>Simulates the user clicking the drop button on the control. This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> event to fire.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="769bf-111">タイム ゾーン コントロールのドロップダウン部分を展開します。</span><span class="sxs-lookup"><span data-stu-id="769bf-111">Expands the drop-down portion of the time zone control.</span></span></summary>
+        <remarks><para><span data-ttu-id="769bf-112">ユーザーがコントロール上のドロップ ボタンをクリックする動作をシミュレートします。</span><span class="sxs-lookup"><span data-stu-id="769bf-112">Simulates the user clicking the drop button on the control.</span></span> <span data-ttu-id="769bf-113">このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="769bf-113">This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> event to fire.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -216,30 +138,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-113">
-            <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-113">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
-          </span>
-          <span data-ttu-id="0392d-114">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-114"><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="769bf-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span> <span data-ttu-id="769bf-115">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-115">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-115">
-            <para>既定値は、 <b>true を指定</b>します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-115">
-              <para>The default value is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-116">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="769bf-116">The default value is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -268,31 +170,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-116">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-116">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span>
-          </span>
-          <span data-ttu-id="0392d-117">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-117">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-117">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="769bf-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span> <span data-ttu-id="769bf-118">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-118">
-            <para>既定値は、 <b>False</b>です。 </para>
-            <para>コントロールがロックされていると、コントロールには、「無効」の外観はありませんが、ユーザーがコントロールの内容を編集できません。  </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-118">
-              <para>The default value is <b>False</b>.  </para>
-              <para>When the control is locked, the control does not have a "disabled" appearance, but the user cannot edit the contents of the control.   </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-p107">既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="769bf-p107">The default value is <b>False</b>.  </span></span></para>
+          <para><span data-ttu-id="769bf-p108">ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</span><span class="sxs-lookup"><span data-stu-id="769bf-p108">When the control is locked, the control does not have a "disabled" appearance, but the user cannot edit the contents of the control.   </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -321,29 +203,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-119">このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-119">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span>
-          </span>
-          <span data-ttu-id="0392d-120">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-121">このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="769bf-121">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="769bf-122">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-122">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-121">
-            <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-121">
-              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-123">既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</span><span class="sxs-lookup"><span data-stu-id="769bf-123">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -372,29 +235,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-122">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-122">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
-          </span>
-          <span data-ttu-id="0392d-123">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-124">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="769bf-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="769bf-125">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-125">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-124">
-            <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-124">
-              <para>The default value is <b>olMousePointerDefault</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-126">既定値は、 <b>olMousePointerDefault</b> です。</span><span class="sxs-lookup"><span data-stu-id="769bf-126">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -423,32 +267,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-125">
-            <b>整数</b>(C# では<b>int</b> ) を表すインデックス番号の設定を取得または設定します<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />コレクションが選択されているタイム ゾーンを決定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-125">Returns or sets an <b>Integer</b> (<b>int</b> in C#) that represents index into the <see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" /> collection that determines the selected time zone.</span>
-          </span>
-          <span data-ttu-id="0392d-126">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-126">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-127"><b>整数</b>(C# では<b>int</b> ) を表すインデックス番号の設定を取得または設定します<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />コレクションが選択されているタイム ゾーンを決定します。</span><span class="sxs-lookup"><span data-stu-id="769bf-127">Returns or sets an <b>Integer</b> (<b>int</b> in C#) that represents index into the <see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" /> collection that determines the selected time zone.</span></span> <span data-ttu-id="769bf-128">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-128">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0392d-127">
-            <para>
-              <b>SelectedTimeZoneIndex</b>は 1 から始まる値がゼロ (0) の場合はタイム ゾーンが選択されていないことを。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-127">
-              <para>
-                <b>SelectedTimeZoneIndex</b> is 1-based, and a value of zero (0) means that no time zone has been selected.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="769bf-129">
+            <b>SelectedTimeZoneIndex</b> は 1 から始まる値がゼロ (0) の場合はタイム ゾーンが選択されていないことを。</span><span class="sxs-lookup"><span data-stu-id="769bf-129">
+            <b>SelectedTimeZoneIndex</b> is 1-based, and a value of zero (0) means that no time zone has been selected.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -477,16 +301,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0392d-128">返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-128">Returns or sets an <b>Object</b> that represents the content of the control.</span>
-          </span>
-          <span data-ttu-id="0392d-129">値の取得と設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0392d-129">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="769bf-130">返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。</span><span class="sxs-lookup"><span data-stu-id="769bf-130">Returns or sets an <b>Object</b> that represents the content of the control.</span></span> <span data-ttu-id="769bf-131">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="769bf-131">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
