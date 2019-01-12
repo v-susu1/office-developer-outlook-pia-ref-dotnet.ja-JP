@@ -1,13 +1,5 @@
 <Type Name="_DRecipientControl" FullName="Microsoft.Office.Interop.Outlook._DRecipientControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638419" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DRecipientControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903084" /></Metadata><TypeSignature Language="C#" Value="public interface _DRecipientControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DRecipientControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DRecipientControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DRecipientControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Outlook アイテムの受信者を表示するコントロールです。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。このインターフェイスを使用して、オブジェクトとそのメンバーにアクセスするのにはインタ フェースについての情報を参照してください。</para>
-      <para />
-    </remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 このインターフェイスを使用して、オブジェクトとそのメンバーにアクセスするのにはインタ フェースについての情報を参照してください。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="BackColor">
@@ -62,12 +52,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロールの背景色を示す<b>整数値</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>コントロールの背景色を示す<b>整数値</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、<b>整数</b>値である<b>OLE_COLOR</b>型のです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、<b>整数</b>値である<b>OLE_COLOR</b>型のです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -96,13 +84,10 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を示す、コントロールの機能が許可されたかどうかに取得または設定します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を示す、コントロールの機能が許可されたかどうかに取得または設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -131,7 +116,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストのレンダリングに使用するフォントを返します。 値の取得のみ可能です。</summary>
+        <summary>コントロール内のテキストのレンダリングに使用するフォントを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -162,12 +147,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロールの前景色を示す<b>整数値</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>コントロールの前景色を示す<b>整数値</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、<b>整数</b>値である<b>OLE_COLOR</b>型のです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、<b>整数</b>値である<b>OLE_COLOR</b>型のです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -196,13 +179,11 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールに表示されている受信者のみ表示できるため、変更できないかどうかを指定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールに表示されている受信者のみ表示できるため、変更できないかどうかを指定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True を指定</b>することを示すコントロールのみ、受信者が表示されます。 受信者を変更することをサポートしていません<b>False</b>を示すコントロールを表示して、受信者の変更の両方をサポートしています。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SpecialEffect">
@@ -233,17 +214,20 @@
       <Docs>
         <summary>オブジェクトの外観を指定する整数型 ( <b>Integer</b>) の値を設定します。値の取得および設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SpecialEffect</b> ] の設定:</para>
+        <remarks><para>引数 <b>SpecialEffect</b> の設定値は次のとおりです。</para>
           <list type="table">
             <item>
               <description>0</description>
-              <description>オブジェクトが表示されますフラット、境界線、色の変更、またはその両方によって、周囲のフォームを区別します</description>
-            </item>。
-            <item><description>2</description><description>オブジェクトには、上辺と左辺に影と下辺と右辺は強調表示があります。それらが含まれるフォームに分割するのには、コントロールとその枠線が表示されます。<b>_DRecipientControl</b>の既定値します</description></item></list>。
-          <para><b>SpecialEffect</b>では、システム カラーを使用して、境界を定義する</para>。
-          <para /></remarks>
+              <description>オブジェクトは平面的に表示され、境界線や色の違いによって背景と区別されます。</description>
+            </item>
+            <item>
+              <description>2</description>
+              <description>下辺と右辺は強調表示し、上辺と左辺に影が付きます。 それらが含まれるフォームに分割するのには、コントロールとその枠線が表示されます。 <b>_DRecipientControl</b>の既定値です。</description>
+            </item>
+          </list>
+          <para>
+            <b>SpecialEffect</b> プロパティでは、境界線の色の定義にシステム カラーが使われます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

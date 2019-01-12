@@ -1,13 +1,5 @@
 <Type Name="Recipient" FullName="Microsoft.Office.Interop.Outlook.Recipient">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5905873faa2813aa09498c7fbd926ed8c9f40f55" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638127" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipient" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e59f96599b28ed30e2f085f18934c0f3738776" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903294" /></Metadata><TypeSignature Language="C#" Value="public interface Recipient" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipient" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipient" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipient" />
@@ -27,10 +19,9 @@
   </Attributes>
   <Docs>
     <summary>通常、メッセージ受信者である Outlook のユーザーまたはリソースを表します。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。名前が表示名、エイリアス、または受信者のフル SMTP 電子メール アドレスを表す文字列を指定できます</para>。使用の
-      <para>、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成しに追加する方法、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />オブジェクトです。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> 、新しい<b>受信者</b>オブジェクトのプロパティがデフォルト値に関連付けられている<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトし、別の受信者の種類を示すためにリセットする必要があります</para>。
-      <para /></remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。 名前は、表示名、エイリアス、または完全な SMTP 電子メール アドレス受信者を示す文字列であることができます。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成しに追加する方法、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />オブジェクトです。 <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> 、新しい<b>受信者</b>オブジェクトのプロパティがデフォルト値に関連付けられている<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトし、別の受信者の種類を示すためにリセットする必要があります。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -56,8 +47,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますの電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますの電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,13 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、解決済みの受信者に対応するオブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、解決済みの受信者に対応するオブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AddressEntry</b>プロパティへのアクセスは、未解決の受信者名の解決を強制します。名前を解決できない場合は、エラーが返されます。受信者が解決される場合、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />プロパティは<b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>AddressEntry</b> プロパティへのアクセスは、未解決の受信者名の解決を強制します。 名前を解決できない場合は、エラーが返されます。 受信者が解決される場合、<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />プロパティは<b>true を指定</b>します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -120,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,8 +138,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の自動応答のテキストを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の自動応答のテキストを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +166,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,12 +219,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得のみ可能です。</summary>
+        <summary>属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>受信者フィルターを適用する<b>DisplayType</b>プロパティを使用することができます。<b>DisplayType</b>プロパティは、MAPI プロパティの<b>PidTagDisplayType</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>受信者フィルターを適用する <b>DisplayType</b> プロパティを使用することができます。 <b>DisplayType</b> プロパティは、MAPI プロパティの <b>PidTagDisplayType</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EntryID">
@@ -264,12 +248,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagEntryId</b>に対応します</para>。
-          <para>MAPI ストア プロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b>プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b>プロパティが一意になるアイテムが移動しない限りに依存する必要があります。<b>EntryID</b>プロパティは MAPI 長期エントリ ID を返します。詳細についての時間の長いのおよび short 的なエントリ Id、 http://msdn.microsoft.com <b>PidTagEntryId</b>のです。</para><para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの PR_CREATION_TIME に対応しています。 <b>PidTagEntryId</b></para>
+          <para>MAPI ストアのプロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b> プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、 受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b> プロパティが一意になるアイテムが移動しない限りに依存する必要があります。 <b>EntryID</b> プロパティは MAPI 長期エントリ ID を返します。詳細情報に関する長期的および short 的な entryid を代入、http://msdn.microsoft.com の <b>PidTagEntryId</b> を検索してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -298,14 +281,13 @@
       <Docs>
         <param name="Start">空き時間情報の取得期間の開始日を指定します。</param>
         <param name="MinPerChar">取得する空き時間文字列の 1 文字で表す時間を分数で指定します。</param>
-        <param name="CompleteFormat">
-          <b>True の</b>場合、返される文字列には、空き時間情報だけでなく、次の項目に従って、各文字の値が含まれている必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />定数。</param>
+        <param name="CompleteFormat"><b>True の</b>場合、返される文字列には、空き時間情報だけでなく、次の項目に従って、各文字の値が含まれている必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />定数。</param>
         <summary>受信者の空き時間情報を返します。</summary>
         <returns>空き時間情報を表す<b>文字列</b>(C# では<b>文字列</b>) の値です。</returns>
-        <remarks>
-          <para>既定では、空き時間情報を Microsoft schedule + のオートメーション形式と互換性の 1 つの月を表す文字列を返します (つまり、文字列が含まれています 1 つの文字にはごとに<paramref name="MinPerChar" />分、最大 1 か月後、指定した<paramref name="Start" />日) です</para>。
-          <para>場合は、省略可能な引数<paramref name="CompleteFormat" />を省略すると<b>false を指定</b>し、「無料」で示されます文字 0 と他のすべての状態で文字 1 または。</para><para>場合<paramref name="CompleteFormat" /><b>true を指定</b>し、前述のように同じ長さの文字列が返されるですが、文字は、今すぐに対応、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />定数</para>。
-          <para /></remarks>
+        <remarks><para> 既定では、空き時間情報を Microsoft schedule + のオートメーション形式と互換性の 1 つの月を表す文字列を返します (つまり、文字列が含まれています 1 つの文字にはごとに<paramref name="MinPerChar" />分、最大 1 か月後、指定した<paramref name="Start" />日)。</para>
+          <para>場合は省略可能な引数<paramref name="CompleteFormat" />を省略すると<b>false を指定</b>し、「無料」で示されます文字 0 と他のすべての状態で文字 1 か。</para>
+          <para>場合<paramref name="CompleteFormat" /> <b>true を指定</b>し、前述のように同じ長さの文字列が返されるですが、文字は、今すぐに対応、<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />定数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -331,13 +313,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。  値の取得のみ可能です。</summary>
+        <summary>コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Index</b>プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の<b>インデックス</b>値があります。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Index</b> プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の <b>インデックス</b> 値があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingResponseStatus">
@@ -363,7 +342,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />の受信者の会議出席依頼への応答の全体的なステータスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />の受信者の会議出席依頼への応答の全体的なステータスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -391,8 +370,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表すオブジェクトの表示名を返します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表すオブジェクトの表示名を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -448,7 +426,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -502,13 +480,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) はアドレス帳に受信者を検証されている場合<b>は True</b>を示す値を返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) はアドレス帳に受信者を検証されている場合<b>は True</b>を示す値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ような名前は、アドレス帳の受信者に対して存在する場合は、受信者の完全な SMTP 電子メール アドレスを指定することによって、受信者を解決できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>ある受信者と類似する名前がアドレス帳に存在する場合、完全な SMTP 電子メール アドレスを指定してその受信者を解決できます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sendable">
@@ -537,12 +512,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値に会議出席依頼を送信できるかどうかを示す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値に会議出席依頼を送信できるかどうかを示す、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの PidTagRecipientFlags に対応します。それは、 <b>PidTagRecipientFlags</b> 0x00000001 に等しい場合は<b>True</b>を返します。<b>PidTagRecipientFlags</b>をそれに応じて変更するプロパティを設定します。</para>
-          <para>このプロパティは、会議出席依頼の受信者にのみ適用されます。受信者が会議出席依頼にない場合は、取得して、このプロパティの設定を持っていません</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの PidTagRecipientFlags に対応します。 それは、 <b>PidTagRecipientFlags</b> 0x00000001 に等しい場合は <b>True</b> を返します。 <b>PidTagRecipientFlags</b> をそれに応じて変更するプロパティを設定します。 </para>
+          <para>このプロパティは、会議出席依頼の受信者にのみ適用されます。受信者が会議出席依頼に含まれていない場合、このプロパティを取得または設定しても何も実行されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -568,19 +542,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TrackingStatus">
@@ -609,7 +580,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTrackingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />の受信者の管理状態を示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />の受信者の管理状態を示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -640,7 +611,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>追跡を示す<b>DateTime</b>を取得または受信者の状態の日付と時刻。 値の取得および設定が可能です。</summary>
+        <summary>追跡を示す<b>DateTime</b>を取得または受信者の状態の日付と時刻。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -671,21 +642,30 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>受信者の種類を表す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>受信者の種類を表す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>、受信者の種類によってこのプロパティを取得または設定の次の定数のいずれかに等しい数値に対応する<b>整数値</b>(C# では<b>int</b> ) 値を設定:</para>
+        <remarks><para>、受信者の種類によっては、このプロパティが返すか、次の定数のいずれかに等しい数値に対応する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。</para>
           <list type="bullet">
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />受信者:、<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />定数olAssociatedContact です</para>
-            </item>。
-            <item><para><see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" />定数: olBCC、olCC、olOriginator、または olTo</para></item> 。
-            <item><para><see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" />定数: olOptional、olOrganizer、olRequired、または olResource です</para></item>。
-            <item><para><see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" />定数: olFinalStatus、または olUpdate です</para></item></list>。
-          <para>このプロパティが常に返されません、適切な受信者の種類の会議室。たとえば、会議室は会議出席依頼で、必要な受信者として指定することが場合このプロパティは返されません、会議室の olResource です</para>。確実に受信者が会議室であるかどうかの PidTagDisplayTypeEx、Messaging API (MAPI) プロパティを使用する
-          <para>、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。このプロパティを使用してアクセスすることができます、 <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> 、Outlook オブジェクト モデル内のオブジェクト。として、 <b>PidTagDisplayTypeEx</b>プロパティが表される"http://schemas.microsoft.com/mapi/proptag/0x39050003"MAPI proptag 名前空間にします。<b>PidTagDisplayTypeEx</b>プロパティが Microsoft Exchange Server 2007 の以前のバージョンの Microsoft Exchange Server で利用可能ではありません。このような以前のバージョンの Exchange Server の<b>Recipient.Type</b>プロパティを使用して olResource 以外の型を持つ受信者が会議室ではないことを前提としています</para>。
-          <para /></remarks>
+                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />受信者:<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />定数 olAssociatedContact です。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" />定数: olBCC、olCC、olOriginator、または olTo。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" />定数: olOptional、olOrganizer、olRequired、または olResource。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />受信者: 次のいずれかの<see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" />定数: olFinalStatus、または olUpdate です。</para>
+            </item>
+          </list>
+          <para>常に、このプロパティでは、会議室の適切な受信者の種類を返す可能性がありますされません。 たとえば、会議室は会議出席依頼で、必要な受信者として指定することが場合にこのプロパティは返されませんを会議室の olResource。</para>
+          <para>信頼性を確認するかどうか、受信者は、会議室には、PidTagDisplayTypeEx、Messaging API (MAPI) プロパティを使用します<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。 このプロパティを使用してアクセスすることができます、 <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> 、Outlook オブジェクト モデル内のオブジェクト。 として、 <b>PidTagDisplayTypeEx</b>プロパティが表される"http://schemas.microsoft.com/mapi/proptag/0x39050003"MAPI proptag 名前空間にします。 <b>PidTagDisplayTypeEx</b>プロパティが Microsoft Exchange Server 2007 の以前のバージョンの Microsoft Exchange Server で利用可能ではありません。このような以前のバージョンの Exchange Server の<b>Recipient.Type</b>プロパティを使用して olResource 以外の型を持つ受信者が会議室ではないことを前提としています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

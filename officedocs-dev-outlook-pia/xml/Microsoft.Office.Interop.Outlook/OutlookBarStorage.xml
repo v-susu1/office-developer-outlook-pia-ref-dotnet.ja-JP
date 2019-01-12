@@ -1,13 +1,5 @@
 <Type Name="OutlookBarStorage" FullName="Microsoft.Office.Interop.Outlook.OutlookBarStorage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="043c8ecdd93490c3e8263146a82163cecdeb3921" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638088" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d13a6d2bb6e5b24337516ec0dbcf6227c9faa792" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905765" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarStorage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarStorage" />
@@ -27,10 +19,9 @@
   </Attributes>
   <Docs>
     <summary>[ショートカット] ウィンドウ内のオブジェクトの記憶域を表します。</summary>
-    <remarks>
-      <para>使用、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />のウィンドウの<b>OutlookBarStorage</b>オブジェクトを取得するオブジェクトです</para>。
-      <para>使用、<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />を取得するプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> 、[ショートカット] ウィンドウのオブジェクトです</para>。
-      <para /></remarks>
+    <remarks><para>使用、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />のウィンドウの<b>OutlookBarStorage</b>オブジェクトを取得するオブジェクトです。</para>
+      <para>使用、<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />を取得するプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> 、[ショートカット] ウィンドウのオブジェクト。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroups</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> 、[ショートカット] ウィンドウ内のグループのセットを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> 、[ショートカット] ウィンドウ内のグループのセットを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,19 +159,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

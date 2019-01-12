@@ -1,13 +1,5 @@
 <Type Name="SolutionsModule" FullName="Microsoft.Office.Interop.Outlook.SolutionsModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b0f23071a205a204ae4ac55567b1e19195f5364" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639194" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SolutionsModule : Microsoft.Office.Interop.Outlook._SolutionsModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="146fd737253dff89da7023c8d1830f1caa41c337" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906262" /></Metadata><TypeSignature Language="C#" Value="public interface SolutionsModule : Microsoft.Office.Interop.Outlook._SolutionsModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SolutionsModule implements class Microsoft.Office.Interop.Outlook._SolutionsModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface SolutionsModule&#xA;Implements _SolutionsModule" />
@@ -31,14 +23,14 @@
   </Attributes>
   <Docs>
     <summary>エクスプローラーのナビゲーション ウィンドウの [ <b>ソリューション</b>] ナビゲーション モジュールを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />です</para>。
-      <para><b>ソリューション</b>] ナビゲーション モジュールには、個々 のアドインの開発者は、ナビゲーション ウィンドウ内のユーザーに公開するフォルダーが含まれています。各ソリューションには、<b>ソリューション</b>モジュールの下の 1 つのルート フォルダーとルート フォルダーは、異機種混在の Outlook アイテムを保持するサブフォルダーを含めることができます</para>。
-      <para>ソリューション フォルダーを<b>ソリューション</b>モジュールにプログラムで追加するのには、 <b>SolutionsModule</b>オブジェクトから生成されたを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトです</para>。
-      <para>、<b>ソリューション</b>モジュールのオブジェクトを取得するのには<b>ソリューション</b>モジュールをナビゲーション ウィンドウであるかどうかをまず決定する必要があります。使用するには、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトを取得する、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />コレクションで引数<b>olModuleSolutions</b>を指定し、 <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /><b>NavigationModules</b>コレクションのメソッド。</para><para>プロパティとそのナビゲーション モジュールのメソッドにアクセスするための<b>SolutionsModule</b>オブジェクトとして返される<b>NavigationModule</b>オブジェクト参照にキャストできますし、呼び出しが成功した場合です</para>。ソリューション ルート フォルダーとそのサブフォルダーを追加するには、渡す
-      <para>、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトへの参照、 <see cref="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" /> 、 <b>SolutionsModule</b>オブジェクトのメソッドです。'9' は、ナビゲーション ウィンドウの<b>ソリューション</b>モジュールの既定の位置</para>。
-      <para><b>ソリューション</b>モジュールにソリューションが追加されていない場合、表示されていないナビゲーション ・ ペインで設定しようとすると、<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" />または<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" /><b>SolutionsModule</b>のオブジェクトでエラーが発生します。として<b>SolutionsModule</b>を設定しようとするさらに、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" /> 、 <b>NavigationPane</b>オブジェクトのプロパティにエラーが発生します</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />。</para>
+      <para>[ <b>ソリューション</b>] ナビゲーション モジュールには、ナビゲーション ウィンドウに表示されるアドイン別のフォルダーが含まれています。[ <b>ソリューション</b>] モジュールの下には、各ソリューションの 1 つのルート フォルダーがあり、各ルート フォルダーにはOutlook アイテムを種類別に保存するサブフォルダーを含めることができます。</para>
+      <para>ソリューション フォルダーを<b>ソリューション</b>モジュールにプログラムで追加するのには、 <b>SolutionsModule</b>オブジェクトから生成されたを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトです。</para>
+      <para><b>ソリューション</b>モジュールのオブジェクトを取得するには、まず <b>ソリューション</b>モジュールがナビゲーション ウィンドウであるかどうかを決定する必要があります。 使用するには、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトを取得する、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />コレクションで引数<b>olModuleSolutions</b>を指定し、 <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> <b>NavigationModules</b>コレクションのメソッド。 </para>
+      <para>呼び出しが成功した場合は、 <b>SolutionsModule</b> オブジェクトのプロパティとそのナビゲーション モジュールのメソッドにアクセスするためとして、返される <b>NavigationModule</b> オブジェクト参照をキャストできます。</para>
+      <para>ソリューション ルート フォルダーとそのサブフォルダーを追加するには、パス、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトへの参照、 <see cref="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" /> 、 <b>SolutionsModule</b>オブジェクトのメソッドです。 ナビゲーション ウィンドウの <b>ソリューション</b>モジュールの既定の位置は、'9' です。</para>
+      <para><b>ソリューション</b>モジュールには、ソリューションが追加されていない場合、は、ナビゲーション ウィンドウで設定しようとすると、表示されていない、<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" />または<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" /> <b>SolutionsModule</b>のオブジェクトでエラーが発生します。 として<b>SolutionsModule</b>を設定しようとするさらに、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" /> 、 <b>NavigationPane</b>オブジェクトのプロパティにエラーが発生します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarGroups" FullName="Microsoft.Office.Interop.Outlook._OutlookBarGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="871d48a04c6dc0380629f6a888879e79cf5285d6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637822" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarGroups : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="871d48a04c6dc0380629f6a888879e79cf5285d6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904680" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarGroups : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarGroups implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarGroups&#xA;Implements IEnumerable" />
@@ -60,8 +52,7 @@
         <param name="Name">作成するグループの名前を指定します。</param>
         <param name="Index">[ショートカット] ウィンドウ内での、新しいグループの挿入位置を指定します。1 はペインの先頭を示します。</param>
         <summary>[ショートカット] ウィンドウに新しい空のグループを追加します。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" /> 、新しいグループを表すオブジェクト。</returns>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" /> 、新しいグループを表すオブジェクト。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -260,19 +251,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
