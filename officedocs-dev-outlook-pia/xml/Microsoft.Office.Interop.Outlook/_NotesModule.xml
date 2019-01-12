@@ -1,13 +1,5 @@
 <Type Name="_NotesModule" FullName="Microsoft.Office.Interop.Outlook._NotesModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ebc4287210418a68730f457aa86043d15231919e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639226" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NotesModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ebc4287210418a68730f457aa86043d15231919e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903035" /></Metadata><TypeSignature Language="C#" Value="public interface _NotesModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NotesModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NotesModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NotesModule" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,13 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OlNotesModule</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OlNotesModule</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -113,7 +102,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ローカライズされた表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>ローカライズされた表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,7 +130,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroups</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />に関連付けられたナビゲーション グループのセットを含むオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />に関連付けられたナビゲーション グループのセットを含むオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -169,13 +158,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />オブジェクトのナビゲーション モジュールの種類を表す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />オブジェクトのナビゲーション モジュールの種類を表す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>OlModuleNotes</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>OlModuleNotes</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -232,13 +218,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>序数位置を表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトのナビゲーション ウィンドウに表示されるとき。 値の取得および設定が可能です。</summary>
+        <summary>序数位置を表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />オブジェクトのナビゲーション ウィンドウに表示されるとき。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、1 から 8 までの値にのみ設定できます。範囲外の値にこのプロパティを設定しようとする場合にエラーが発生します</para>。
-          <para><b>NotesModule</b>オブジェクトに含まれるその他のナビゲーション モジュールの<b>位置</b>の値を変更するには、このプロパティの値を変更する、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />コレクションは、新しい値と元の値の間の相対的な変化に応じて、<b>NotesModule</b>オブジェクトの<b>位置</b>プロパティ:</para><list type="bullet"><item><para>指定された<b>NotesModule</b>オブジェクトが新しい位置に移動しで既に他のナビゲーション モジュールは、新しい値が元の値より小さい場合、または新しい位置の下です</para></item>。
-            <item><para>指定された<b>NotesModule</b>オブジェクトが新しい位置に移動して、古い位置と新しい位置の間にあった他のナビゲーション モジュールは、新しい値が元の値より大きい場合は、古い位置を埋めます</para></item></list>。
-          <para /></remarks>
+        <remarks><para>このプロパティは 1 ～ 8 の範囲の値にのみ設定できます。このプロパティをこの範囲外の値に設定しようとすると、エラーが発生します。</para>
+          <para><b>NotesModule</b>オブジェクトに対してこのプロパティの値を変更するのに含まれるその他のナビゲーション モジュールの<b>位置</b>の値を<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />コレクションの新しい値と、<b>の元の値との間の相対的な変化に応じて、位置</b> <b>NotesModule</b>オブジェクトのプロパティ。</para>
+          <list type="bullet">
+            <item>
+              <para>新しい値が元の値より小さい場合は、指定された<b>NotesModule</b>オブジェクトの新しい位置に移動し、他のナビゲーション モジュールが新しい位置より下の位置です。</para>
+            </item>
+            <item>
+              <para>新しい値が元の値より大きい場合は、指定された<b>NotesModule</b>オブジェクトは新しい位置に移動しての間にあった他のナビゲーション モジュール、古い位置と新しい位置を古い位置を埋めます。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -264,19 +256,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">

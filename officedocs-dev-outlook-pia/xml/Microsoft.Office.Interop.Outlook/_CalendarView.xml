@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638478" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896514" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,7 +129,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>カレンダー ナビゲーターで太字で表示する Outlook アイテムを含む日かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>カレンダー ナビゲーターで太字で表示する Outlook アイテムを含む日かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +160,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>太字内に Outlook アイテムの件名の情報を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>太字内に Outlook アイテムの件名の情報を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,7 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarViewMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />の現在のビュー モードを決定する、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />の現在のビュー モードを決定する、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,12 +280,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示される、連続する日付の数を表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>表示される、連続する日付の数を表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 取得/設定が可能な値です</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>2 から 14 までの値にこのプロパティを設定できます。2 より小さい値にこのプロパティが設定されている場合は、プロパティが 2 に設定されます。場合はこのプロパティを 14 より大きい値に設定すると、プロパティは 14 に設定します。このプロパティの既定値は、5 です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは 2 ～ 14 の値に設定できます。 このプロパティを 2 より小さい値に設定した場合、プロパティは 2 に設定されます。 場合はこのプロパティを 14 より大きい値に設定すると、プロパティは 14 に設定します。 このプロパティの既定値は 5 です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -384,7 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />の期間を表すために使用するスケールを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />の期間を表すために使用するスケールを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -437,12 +427,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示されている日付を表す文字列を含む<b>オブジェクト</b>配列を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>表示されている日付を表す文字列を含む<b>オブジェクト</b>配列を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティでは、各日付文字列は<b>CalendarView</b>オブジェクトに表示される 1 日を表します。 日付文字列の配列を返します。日付文字列は、オペレーティング システムの短い日付形式の設定を使用してフォーマットされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティでは、各日付文字列は <b>CalendarView</b> オブジェクトに表示される 1 日を表します。 日付文字列の配列を返します。日付文字列は、オペレーティング システムの短い日付形式の設定を使用してフォーマットされます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -471,12 +459,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示される Outlook アイテムの期間が終了するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>表示される Outlook アイテムの期間が終了するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />と、<b>プロバイダー</b>のプロパティは、Outlook アイテムの期間を表すため、 <b>CalendarView</b>オブジェクトで使用する Outlook アイテムのプロパティを指定します。カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>値、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />と、<b>プロバイダー</b>のプロパティは、Outlook アイテムの期間を表すため、 <b>CalendarView</b>オブジェクトで使用する Outlook アイテムのプロパティを指定します。 カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -505,12 +491,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値は、DAV Searching and Locating (DASL) 構文の文字列で、ビューの現在のフィルターを表します。 ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -567,13 +551,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
-          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>[<b>言語</b>] プロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。 たとえば、文字列"EN-US"は「米国 - 英語」の ISO コードを表します</para>
+          <para>有効な言語コードが指定されている場合は、指定された言語の [ 表示] メニューでのみオブジェクトを使用できます。値が指定されていない場合は、すべての言語でオブジェクト アイテムを使用できます。このプロパティの既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -602,12 +584,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>かどうか<b>は True</b>ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>かどうか <b>は True</b> ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは <b>False</b> (既定値)、変更が保存されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -667,12 +647,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムの終了時刻を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>Outlook アイテムの終了時刻を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、該当する場合にのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> 、 <b>CalendarView</b>オブジェクトのプロパティが<b>olCalendarViewMonth</b>に設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値は、該当する場合にのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> 、 <b>CalendarView</b>オブジェクトのプロパティが<b>olCalendarViewMonth</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -701,7 +679,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -756,10 +734,8 @@
       <Parameters />
       <Docs>
         <summary>組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</summary>
-        <remarks>
-          <para>このメソッドは、組み込みの Outlook ビューでのみ機能します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このメソッドは、組み込みの Outlook ビューに対してのみ適用されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -810,13 +786,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -842,14 +815,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の選択範囲の終了時刻を表す<b>DateTime</b>値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>内の選択範囲の終了時刻を表す<b>DateTime</b>値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>目的、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />し、 <b>SelectedEndTime</b>プロパティは、複製するプログラムで、Microsoft Outlook のユーザー インターフェイスでユーザーが予定を作成する方法です。通常、ユーザーは予定表ビューで、時間の範囲を選択し、二重に選択範囲をクリックするか、Microsoft Office Fluent リボンの [ホーム] タブで [新しい予定] をクリックして新しい予定を作成し。<b>CalendarView</b>オブジェクトの 2 つのプロパティを持つことができます取得する開始時刻と終了時刻、そのビューの選択内容のプログラムを使用しています。プログラムで作成できますし、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、設定、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />すべてのユーザーを反映するようにそれぞれ<b>SelectedStartTime</b>および<b>SelectedEndTime</b>プロパティに<b>AppointmentItem</b>オブジェクトのプロパティ[カレンダー] ビューで選択します</para>。
-          <para>[カレンダー] ビューでの選択、時間の範囲は、項目、 <b>SelectedEndTime</b>値を返します<b>日付時刻</b>の選択範囲の終了時刻と同じです</para>。
-          <para>1 つまたは複数のアイテムが予定表ビューで選択されている場合、 <b>SelectedEndTime</b><b>DateTime</b>の値を返します最初のアイテムの終了時刻を予定表ビューを表示するエクスプ ローラーの選択。によって選択範囲が指定されている、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです</para>。<b>CalendarView</b>オブジェクトにこのプロパティを使用して、<b>予定表ビュー</b>オブジェクトを取得する
-          <para>、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> 、アクティブな<b>エクスプ ローラー</b>のオブジェクトのプロパティ (を返すことができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />メソッド)。<b>CalendarView</b>オブジェクトにこのプロパティを使用して既知の問題がある場合は - を使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> 、現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト (によって返される、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>によって表されるオブジェクトのプロパティApplication.ActiveExplorer</b>) です</para>。
-          <para /></remarks>
+        <remarks><para>目的、<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />し、 <b>SelectedEndTime</b>プロパティは、複製するプログラムで、Microsoft Outlook のユーザー インターフェイスでユーザーが予定を作成する方法です。 通常、ユーザーは予定表ビューで、時間の範囲を選択し、二重に選択範囲をクリックするか、Microsoft Office Fluent リボンの [ホーム] タブで [新しい予定] をクリックして新しい予定を作成し。 <b>CalendarView</b> オブジェクトのこの 2 つのプロパティを使用すると、そのビューの選択範囲の開始時刻と終了時刻をプログラムによって取得できます。 プログラムで作成できますし、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、設定、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />すべてのユーザーを反映するようにそれぞれ<b>SelectedStartTime</b>および<b>SelectedEndTime</b>プロパティに<b>AppointmentItem</b>オブジェクトのプロパティ[カレンダー] ビューで選択します。</para>
+          <para>[カレンダー] ビューでの選択、時間の範囲は、項目、 <b>SelectedEndTime</b>値を返します<b>日付時刻</b>の選択範囲の終了時刻と同じ。</para>
+          <para>[カレンダー] ビューでは、1 つまたは複数の項目が選択されている場合<b>SelectedEndTime</b> <b>DateTime</b>の値を返します最初のアイテムの終了時刻を予定表ビューを表示するエクスプ ローラーの選択。 によって選択範囲が指定されている、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</para>
+          <para><b>CalendarView</b>オブジェクトにこのプロパティを使用してから<b>予定表ビュー</b>のオブジェクトを取得、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> 、アクティブな<b>エクスプ ローラー</b>のオブジェクトのプロパティ (を返すことができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />メソッド)。 <b>CalendarView</b>オブジェクトにこのプロパティを使用して既知の問題がある場合は - を使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> 、現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト (によって返される、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer で表されるオブジェクトのプロパティ</b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -875,15 +847,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の選択範囲の開始時刻を表す<b>DateTime</b>値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>内の選択範囲の開始時刻を表す<b>DateTime</b>値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SelectedStartTime</b>の<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />のプロパティは、複製するプログラムで、Microsoft Outlook のユーザー インターフェイスでユーザーが予定を作成する方法。通常、ユーザーは予定表ビューで、時間の範囲を選択し、二重に選択範囲をクリックするか、Microsoft Office Fluent リボンの [ホーム] タブで [新しい予定] をクリックして新しい予定を作成し。<b>CalendarView</b>オブジェクトの 2 つのプロパティを持つことができます取得する開始時刻と終了時刻、そのビューの選択内容のプログラムを使用しています。プログラムで作成できますし、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、設定、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />すべてのユーザーを反映するようにそれぞれ<b>SelectedStartTime</b>および<b>SelectedEndTime</b>プロパティに<b>AppointmentItem</b>オブジェクトのプロパティ[カレンダー] ビューで選択します</para>。
-          <para>[カレンダー] ビューでの選択、時間の範囲は、項目、 <b>SelectedStartTime</b>値を返します<b>日付時刻</b>の選択範囲の開始時間と同じです</para>。
-          <para>1 つまたは複数のアイテムが予定表ビューで選択されている場合、 <b>SelectedStartTime</b><b>DateTime</b>の値を返します最初の項目の開始時刻と同じ予定表ビューを表示するエクスプ ローラーの選択します。によって選択範囲が指定されている、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです</para>。<b>CalendarView</b>オブジェクトにこのプロパティを使用して、<b>予定表ビュー</b>オブジェクトを取得する
-          <para>、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> 、アクティブな<b>エクスプ ローラー</b>のオブジェクトのプロパティ (を返すことができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />メソッド)。<b>CalendarView</b>オブジェクトにこのプロパティを使用して既知の問題がある場合は - を使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> 、現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト (によって返される、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>によって表されるオブジェクトのプロパティApplication.ActiveExplorer</b>) です</para>。
-          <para /></remarks>
+        <remarks><para><b>SelectedStartTime</b>の<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />のプロパティは、複製するプログラムで、Microsoft Outlook のユーザー インターフェイスでユーザーが予定を作成する方法。 通常、ユーザーは予定表ビューで、時間の範囲を選択し、二重に選択範囲をクリックするか、Microsoft Office Fluent リボンの [ホーム] タブで [新しい予定] をクリックして新しい予定を作成し。 <b>CalendarView</b> オブジェクトのこの 2 つのプロパティを使用すると、そのビューの選択範囲の開始時刻と終了時刻をプログラムによって取得できます。 プログラムで作成できますし、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、設定、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />すべてのユーザーを反映するようにそれぞれ<b>SelectedStartTime</b>および<b>SelectedEndTime</b>プロパティに<b>AppointmentItem</b>オブジェクトのプロパティ[カレンダー] ビューで選択します。</para>
+          <para>[カレンダー] ビューでの選択、時間の範囲は、項目、 <b>SelectedStartTime</b>値を返します<b>日付時刻</b>の選択範囲の開始時間と同じです。</para>
+          <para>[カレンダー] ビューでは、1 つまたは複数の項目が選択されている場合<b>SelectedStartTime</b> <b>DateTime</b>の値を返します最初の項目の開始時刻に予定表ビューを表示するエクスプ ローラーの選択。 によって選択範囲が指定されている、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</para>
+          <para><b>CalendarView</b>オブジェクトにこのプロパティを使用してから<b>予定表ビュー</b>のオブジェクトを取得、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> 、アクティブな<b>エクスプ ローラー</b>のオブジェクトのプロパティ (を返すことができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />メソッド)。 <b>CalendarView</b>オブジェクトにこのプロパティを使用して既知の問題がある場合は - を使用して、 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> 、現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクト (によって返される、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer で表されるオブジェクトのプロパティ</b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -909,19 +879,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -947,13 +914,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトは、組み込みの Outlook ビューです。 値の取得のみ可能です。</summary>
+        <summary>示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトは、組み込みの Outlook ビューです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -982,13 +946,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示される Outlook アイテムの期間を開始するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>表示される Outlook アイテムの期間を開始するプロパティの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ストア</b>の値と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />プロパティは、Outlook アイテムの期間を表すため、 <b>CalendarView</b>オブジェクトで使用する Outlook アイテムのプロパティを示します。カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ストア</b>の値と<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />プロパティは、Outlook アイテムの期間を表すため、 <b>CalendarView</b>オブジェクトで使用する Outlook アイテムのプロパティを示します。 カスタムおよび組み込みプロパティの両方を指定することができますが、日付/時刻プロパティだけが許可されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1014,7 +975,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1045,11 +1006,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。ビューを作成するにはをビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの<b>XML</b>プロパティを取得することができますしをときにを XML の構造方法を決定するには、
-          <para>です。 </para><para /></remarks>
+        <remarks><para>XML 定義は、ビュー自体のさまざまなプロパティに対応する一連のタグおよびキーワードを使用して、ビューの種類を記述します。ビューを作成すると、XML 定義が構文解析され、新しいビューの設定がレンダリングされます。</para>
+          <para>ビューを作成するときの XML の構築方法を決定するには、Outlook ユーザー インターフェイスを使用してビューを作成することができ、そのビューの <b>XML</b> プロパティを取得することができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

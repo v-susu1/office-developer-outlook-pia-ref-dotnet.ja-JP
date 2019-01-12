@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637811" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902790" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -56,12 +48,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />に対してコントロールがバインドされる予定の時刻型フィールドを表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />に対してコントロールがバインドされる予定の時刻型フィールドを表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このコントロールは、標準のデータ バインディングをサポートしていません。</para>
-          <para />
-        </remarks>
+        <remarks><para>標準のデータ バインドには対応していません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -90,12 +80,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olBorderStyleSingle</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olBorderStyleSingle</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -120,10 +108,8 @@
       <Parameters />
       <Docs>
         <summary>タイム ゾーン コントロールのドロップダウン部分を展開します。</summary>
-        <remarks>
-          <para>コントロール上のドロップ ボタンをクリックするユーザーをシミュレートします。このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ユーザーがコントロール上のドロップ ボタンをクリックする動作をシミュレートします。 このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -152,13 +138,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -187,13 +170,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>False</b>です。 </para>
-          <para>コントロールがロックされていると、コントロールには、「無効」の外観はありませんが、ユーザーがコントロールの内容を編集できません。  </para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -222,12 +203,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -256,12 +235,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -290,14 +267,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>整数</b>(C# では<b>int</b> ) を表すインデックス番号の設定を取得または設定します<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />コレクションが選択されているタイム ゾーンを決定します。 値の取得および設定が可能です。</summary>
+        <summary><b>整数</b>(C# では<b>int</b> ) を表すインデックス番号の設定を取得または設定します<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />コレクションが選択されているタイム ゾーンを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SelectedTimeZoneIndex</b>は 1 から始まる値がゼロ (0) の場合はタイム ゾーンが選択されていないことを。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>SelectedTimeZoneIndex</b> は 1 から始まる値がゼロ (0) の場合はタイム ゾーンが選択されていないことを。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">

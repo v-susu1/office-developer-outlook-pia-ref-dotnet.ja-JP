@@ -1,13 +1,5 @@
 <Type Name="AppointmentItem" FullName="Microsoft.Office.Interop.Outlook.AppointmentItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dfb07f19af13b577e521c3dd5c487e46f23c189d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638754" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AppointmentItem : Microsoft.Office.Interop.Outlook._AppointmentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cd373b9f5efc79923e5343abaeabdc8e28216e11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900084" /></Metadata><TypeSignature Language="C#" Value="public interface AppointmentItem : Microsoft.Office.Interop.Outlook._AppointmentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AppointmentItem implements class Microsoft.Office.Interop.Outlook._AppointmentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface AppointmentItem&#xA;Implements _AppointmentItem, ItemEvents_10_Event" />
@@ -34,13 +26,13 @@
   </Attributes>
   <Docs>
     <summary>予定表フォルダーの会議、1 回限りの予定、または定期的な予定や会議を表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> 、新しい予定を表す<b>AppointmentItem</b>オブジェクトを作成します</para>。
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、予定または予定表フォルダーから単一の<b>AppointmentItem</b>オブジェクトを取得する予定の既定のプロパティを一致するように使用する値のインデックス番号です</para>。
-      <para>から<b>AppointmentItem</b>オブジェクトを返すことも、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />を使用して、オブジェクト、<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />メソッドです</para>。定期的な予定アイテムを操作するときに
-      <para>、前にすべてを解放する必要がありますアクセスまたは、アイテムを変更してが終了し、保存すると、すぐにこれらの参照を解放する前に、参照が定期的な予定アイテムに新しい参照を取得します変更します。定期的な<b>AppointmentItem</b>オブジェクト、および、この方法が適用されます<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。Visual Basic で参照を解放するには、その既存のオブジェクトを<b>Nothing</b>に設定します。C# で明示的にそのオブジェクトのメモリを解放します。</para><para>、参照を解放しても別のアドインまたは Outlook で、上のオブジェクトのいずれかに保持されている、アクティブな参照がある場合、新しい参照を取得しようとした後も、新しい参照がまだポイントの最新のコピーに注意しますオブジェクトです。したがって、ことが定期的な予定が終了するとすぐに参照を解放することが重要です</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> 、新しい予定を表す<b>AppointmentItem</b>オブジェクトを作成します。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />は、予定または予定表フォルダーから単一の<b>AppointmentItem</b>オブジェクトを取得する予定の既定のプロパティを一致するように使用する値のインデックス番号です。</para>
+      <para><b>AppointmentItem</b>オブジェクトを返すことも、<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />を使用して、オブジェクト、<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />メソッドです。</para>
+      <para>定期的な予定アイテムの作業を行うときは、以前の参照を解放し、定期的な予定アイテムへの新しい参照を取得してからアイテムにアクセスしたりアイテムを変更したりした後、作業が終了して変更を保存したら直ちに参照を解放する必要があります。 定期的な<b>AppointmentItem</b>オブジェクト、および、この方法が適用されます<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。 Visual Basic で参照を解放するには、既存のオブジェクトを <b>Nothing</b> に設定します。 C# では、そのオブジェクトのメモリを明示的に解放します。 </para>
+      <para>参照を解放してから新しい参照を取得しようとしても、前記のいずれかのオブジェクトに対して、別のアドインまたは Outlook が保持するアクティブな参照がまだある場合、新しい参照はオブジェクトの古いコピーをまだ指していることに注意してください。したがって、定期的な予定の作業が終了したら速やかに参照を解放することが重要です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

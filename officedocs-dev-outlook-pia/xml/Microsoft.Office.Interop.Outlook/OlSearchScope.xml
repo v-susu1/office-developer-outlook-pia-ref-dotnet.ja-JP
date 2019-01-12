@@ -1,13 +1,5 @@
 <Type Name="OlSearchScope" FullName="Microsoft.Office.Interop.Outlook.OlSearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf874a2f107891f654d5c42c74f87e291457f1b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637636" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlSearchScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6e37dca2d95b84fa85e86240986f903d21b6057e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904211" /></Metadata><TypeSignature Language="C#" Value="public enum OlSearchScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlSearchScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlSearchScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlSearchScope" />
@@ -21,10 +13,9 @@
   </Base>
   <Docs>
     <summary>検索対象のフォルダーを基準とした範囲を指定します。</summary>
-    <remarks>
-      <para>Microsoft Office Fluent リボンの [検索] コンテキスト タブの [オプション] グループ内の検索ツールをクリックして [検索] メニューの場所を検索するストアを選択することができます</para>。
-      <para>既定では、検索に含まれません、削除済みアイテム フォルダー。削除済みアイテム フォルダーを検索し、現在のフォルダーとそのフォルダーを設定しで検索するのには<see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />です</para>。
-      <para /></remarks>
+    <remarks><para>Microsoft Office Fluent リボンの [ 検索] タブの [ オプション] で [ 検索ツール] をクリックして、[ 検索する場所] メニューで検索するストアを選択できます。</para>
+      <para>既定では、検索には [削除済みアイテム] フォルダーは含まれません。 削除済みアイテム フォルダーを検索し、現在のフォルダーとそのフォルダーを設定しで検索するのには<see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />です。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olSearchScopeAllFolders">

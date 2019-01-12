@@ -1,13 +1,5 @@
 <Type Name="_OlkTextBox" FullName="Microsoft.Office.Interop.Outlook._OlkTextBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637828" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTextBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903077" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTextBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTextBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTextBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTextBox" />
@@ -56,14 +48,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は<b>false を指定</b>します</para>。
-          <para>の単一行のテキスト ボックスでは、 <b>autosize プロパティを<b>True</b>に自動的に</b>設定表示領域の幅のテキストの長さをテキスト ボックスにします</para>。
-          <para>の複数行テキスト ボックスのテキストが含まれていませんが、 <b>autosize プロパティを<b>True</b>に自動的に</b>テキストを表示、列として。テキスト列の幅は、そのフォント サイズの最も幅の広い文字を対応するために設定されています。テキスト列の高さは、テキスト ボックスのテキスト全体を表示するのに設定されています。複数行テキスト ボックスのテキストが含まれていますが、 <b>autosize プロパティを<b>True</b>に自動的に</b>文字列全体が表示されるようにテキスト ボックスを拡張します。テキスト ボックスの幅は変更されません</para>。
-          <para /></remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para>1 行の文字列の取得と表示が設定されているテキスト ボックス ( TextBox ) で、 <b>AutoSize</b> プロパティに <b>True</b> を設定すると、コントロールの表示領域の幅が文字列の長さに合わせて自動的に調整されます。</para>
+          <para>テキストを含まない複数行のテキスト ボックスの場合、 <b>AutoSize</b> を <b>True</b> に設定すると、テキストは自動的に縦 1 列に表示されます。テキスト列の幅は、そのフォント サイズで最大幅の文字を表示できる幅に設定されます。テキスト列の高さは、テキスト ボックスのテキスト全体を表示できる高さに設定されます。 テキストを含む複数行のテキスト ボックスの場合、 <b>AutoSize</b> を <b>True</b> に設定すると、テキスト ボックスは垂直方向に自動的に拡張され、テキスト全体が表示されます。テキスト ボックスの幅は変更されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -92,12 +82,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうか、タブが自動的に挿入、コントロールが指定の最大長まで埋められたときを指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうか、タブが自動的に挿入、コントロールが指定の最大長まで埋められたときを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -126,13 +114,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -164,12 +149,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000005、ウィンドウです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000005、ウィンドウ] です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -198,12 +181,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olBorderStyleSingle</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olBorderStyleSingle</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -253,10 +234,8 @@
       <Parameters />
       <Docs>
         <summary>コントロールの内容をクリップボードにコピーします。</summary>
-        <remarks>
-          <para>データは書式なしのテキスト形式でクリップボードの内容を上書きコピーされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>データは書式なしのテキスト形式でコピーされ、クリップボードにある既存の内容は置き換えられます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -281,10 +260,8 @@
       <Parameters />
       <Docs>
         <summary>コントロールの内容を切り取ってクリップボードにコピーします。</summary>
-        <remarks>
-          <para>データは、クリップボードの内容を上書き、フォーマットされていないテキスト形式でクリップボードにコピーされます。</para>
-          <para />
-        </remarks>
+        <remarks><para>データは書式なしのテキスト形式でクリップボードにコピーされ、クリップボードにある既存の内容は置き換えられます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -313,12 +290,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 、システムがこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 、システムがこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olDragDropDisabled</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olDragDropDisabled</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -347,13 +322,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableRichText">
@@ -419,12 +391,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olEnterFieldBehaviorSelectAll</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olEnterFieldBehaviorSelectAll</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterKeyBehavior">
@@ -453,12 +423,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールで ENTER キーの動作を定義します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールで ENTER キーの動作を定義します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>True</b>の場合は、ENTER キーを押して新しい行を作成します。 このプロパティが<b>False</b>の場合は、タブ オーダーで次のコントロールにフォーカスを移動する ENTER キーを押します。このプロパティの既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが <b>True</b> の場合は、 ENTERキーを押して新しい行を作成します。  このプロパティが <b>False</b> の場合は、タブ オーダーで次のコントロールにフォーカスを移動する ENTERキーを押します。 このプロパティの既定値は <b>False</b> です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -484,7 +452,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -518,12 +486,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -552,12 +518,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntegralHeight">
@@ -586,12 +550,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) このコントロールがテキストの全行を表示するかどうかを指定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) このコントロールがテキストの全行を表示するかどうかを指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>True</b>の場合は、コントロールがテキストの行を表示します。それ以外の場合、一部の行を表示します。 既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>True</b>の場合は、コントロールがテキストの行を表示します。それ以外の場合、一部の行を表示します。  既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -620,11 +582,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para>コントロールがロックされている場合は、コントロールは「無効」の外観では、ありませんが、ユーザーがコントロールの内容を編集できません。 </para><para /></remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -653,12 +615,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>文字の最大数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定、<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />のこのコントロールです。  値の取得および設定が可能です。</summary>
+        <summary>文字の最大数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定、<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />のこのコントロールです。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、このコントロールの値の最大長が定義されていないことだけを意味する 0 です。最大の長さは、使用可能なメモリまたはその他の要因に基づいて場所の可能性があります。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は 0 で、コントロールに値の最大長が定義されていないことを示します。制限がないわけではなく、最大長は利用可能なメモリやその他の要因によって決定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -687,12 +647,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -721,12 +679,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -755,12 +711,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールが受け入れるし、複数行のテキストを表示するかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールが受け入れるし、複数行のテキストを表示するかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PasswordChar">
@@ -789,12 +743,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を指定するテキスト ボックスに入力された実際の文字の代わりに、文字列として繰り返し表示するプレース ホルダー文字を設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を指定するテキスト ボックスに入力された実際の文字の代わりに、文字列として繰り返し表示するプレース ホルダー文字を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A の一般的なアプリケーションはこのプロパティを<b>True</b>に設定は、パスワードの入力はしないするユーザーがテキスト ボックスに入力したパスワードの実際の文字を表示します。既定値は、空の文字列です</para>。このプロパティの値を
-          <para>の 1 つだけの文字が受け付けられます。 1 文字以上の文字列が設定されてかどうかは、最初の文字だけは、プレース ホルダー文字として使用され、残りの部分は無視されます</para>。
-          <para /></remarks>
+        <remarks><para><b>True</b>にこのプロパティの設定の一般的なアプリケーションは、パスワードの入力場所たくないユーザーがテキスト ボックスに入力したパスワードの実際の文字を表示します。 既定値は、空の文字列です。</para>
+          <para>このプロパティの値の 1 つだけの文字が受け付けられます。  1 文字以上の文字列が設定されている場合は、最初の文字だけは、プレース ホルダー文字として使用され、残りの部分は無視されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -819,10 +772,8 @@
       <Parameters />
       <Docs>
         <summary>クリップボードの内容をコントロールに貼り付けます。</summary>
-        <remarks>
-          <para>書式なしのテキストでは、クリップボードの内容が貼り付けられます。</para>
-          <para />
-        </remarks>
+        <remarks><para>クリップボードの内容は、書式なしのテキストとして貼り付けられます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Scrollbars">
@@ -851,12 +802,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlScrollBars</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlScrollBars" />コントロールに垂直スクロール バー、水平スクロール バー、またはその両方があるかどうかを指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlScrollBars" />コントロールに垂直スクロール バー、水平スクロール バー、またはその両方があるかどうかを指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olScrollBarsNone</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olScrollBarsNone</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -885,12 +834,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) テキストの左側に領域内をクリックして、ユーザーがテキストの行を選択できるかどうかを指定します。   値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) テキストの左側に領域内をクリックして、ユーザーがテキストの行を選択できるかどうかを指定します。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>の場合<b>は True</b>、マージンをクリックするとのテキストを選択します。 場合は<b>False</b>、このアクションは、任意のテキストは選択されません。既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>の場合 <b>は True</b> 、マージンをクリックするとのテキストを選択します。  場合は <b>False</b> 、このアクションは、任意のテキストは選択されません。 既定値は、 <b>false を指定</b> します。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -919,13 +866,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または現在の選択範囲の文字数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または現在の選択範囲の文字数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />です</para>。
-          <para>既定値は 0 で、テキストが選択されていないことを意味します</para>。
-          <para><b>SelLength</b>プロパティは、コントロールにフォーカスがあるないときでも有効ですが、常にします</para>。
-          <para>設定<b>SelLength</b>を 0 より小さい値にエラーが発生します。  <b>SelLength</b>を<b>maxlength プロパティ</b>を設定することで結果の<b>最大長</b>より大きい値を設定しようとしています。 </para><para /></remarks>
+        <remarks><para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />。</para>
+          <para>既定値は 0 で、現在テキストが選択されていないことを示します。</para>
+          <para>コントロールにフォーカスがあるないときでも、 <b>SelLength</b> プロパティは有効ですが、常にします。</para>
+          <para><b>SelLength</b> を 0 未満の原因のエラーが値に設定します。   <b>SelLength</b> を <b>maxlength プロパティ</b> を設定することで結果の <b>最大長</b> より大きい値を設定しようとしています。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -954,12 +901,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはテキストが選択されていない場合にいずれかの方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を選択したテキストの開始位置またはカーソル位置に設定します。    値の取得および設定が可能です。</summary>
+        <summary>取得またはテキストが選択されていない場合にいずれかの方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を選択したテキストの開始位置またはカーソル位置に設定します。    値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />です</para>。
-          <para>既定値は 0 で、テキストが選択されていないし、カーソル位置が先頭にあることを意味します</para>。
-          <para><b>SelStart</b>プロパティは、コントロールにフォーカスがあるないときでも有効ですが、常にします。 <b>SelStart</b>の値に設定すると、エラーが 0 未満の原因。 <b>SelStart</b>の<b>最大長</b>より大きい値に設定すると、 <b>SelStart</b>が<b>maxlength プロパティ</b>にリセットされます。 <b>SelStart</b>の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b>プロパティを 0 に設定します。</para><para /></remarks>
+        <remarks><para>によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />。</para>
+          <para>既定値は 0 で、テキストが選択されておらず、挿入位置が先頭にあることを示します。</para>
+          <para><b>SelStart</b> プロパティは、しますコントロールにフォーカスがあるないときでも常に有効ですが。  <b>SelStart</b> の値に設定すると、エラーが 0 未満の原因。  <b>SelStart</b> の <b>最大長</b> より大きい値に設定すると、 <b>SelStart</b> が <b>maxlength プロパティ</b> にリセットされます。  <b>SelStart</b> の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b> プロパティを 0 に設定します。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -985,14 +932,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表すテキスト ボックスの値の現在選択されている部分を返します。    値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表すテキスト ボックスの値の現在選択されている部分を返します。    読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Seltext プロパティ</b>のコントロールの一部は、現在の選択範囲を表す<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。<b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />です</para>。
-          <para>既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>Seltext プロパティ</b>は、一部のコントロールの現在の選択範囲を表す<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />。 <b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />。</para>
+          <para>既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TabKeyBehavior">
@@ -1021,12 +966,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールを TAB キーに応答する方法を指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールを TAB キーに応答する方法を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>True</b>の場合は、テキスト ボックスに、タブ文字を挿入する TAB キーを押します。 このプロパティが<b>False</b>の場合は、フォーカスがタブ オーダーで次のコントロールに移動します</para>。
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティが <b>True</b> の場合は、テキスト ボックスに、タブ文字を挿入する TABキーを押します。  このプロパティが <b>False</b> の場合は、タブ オーダーで次のコントロールにフォーカスが移動します。</para>
+          <para>既定値は <b>False</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1055,13 +999,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>プロパティの既定値は、空の文字列です</para>。
-          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です</para>。
-          <para /></remarks>
+        <remarks><para><b>Text</b> プロパティの既定値は、空の文字列です。</para>
+          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1090,12 +1032,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1124,12 +1064,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールの内容を表す<b>オブジェクト</b>を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。</para>
-          <para />
-        </remarks>
+        <remarks><para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -1158,12 +1096,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

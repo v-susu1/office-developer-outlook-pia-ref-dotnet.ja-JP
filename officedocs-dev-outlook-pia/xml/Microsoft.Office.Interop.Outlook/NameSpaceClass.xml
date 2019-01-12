@@ -1,13 +1,5 @@
 <Type Name="NameSpaceClass" FullName="Microsoft.Office.Interop.Outlook.NameSpaceClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac6a0c726a290f8d36429f19b24081080ab0d3bf" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638650" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5aa70cfa4f7c907f279675e467797efaeb4524a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897515" /></Metadata><TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi NameSpaceClass extends System.Object implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceClass" />
   <TypeSignature Language="VB.NET" Value="Public Class NameSpaceClass&#xA;Implements NameSpace" />
@@ -781,10 +773,8 @@
         <param name="FolderType">To be added.</param>
         <summary>.NET クラスまたは対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスの処理時に作成される .NET クラスのメンバーです。 後でそれ以降のバージョンの Outlook で拡張されているこのクラスの以前のイベントにアクセスする必要がある場合にのみ、このクラスを使用します。 それ以外の場合、COM コクラスから派生した .NET インターフェイスを使用します。 .NET インターフェイスの詳細についてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>要求された種類の既定のフォルダーがない場合、種類によっては、Outlook が生じると、フォルダーを返したり、エラーを発生させる可能性があります。たとえば、olFolderManagedEmail が、FolderType として指定されているフォルダーの管理グループが展開されていない場合は、[Outlook エラーが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>要求された種類の既定のフォルダーが存在しない場合は、種類に応じて、Outlook がフォルダーを作成して返すか、エラーを返します。 たとえば、olFolderManagedEmail が、FolderType として指定されているフォルダーの管理グループが展開されていない場合は、[Outlook エラーが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">

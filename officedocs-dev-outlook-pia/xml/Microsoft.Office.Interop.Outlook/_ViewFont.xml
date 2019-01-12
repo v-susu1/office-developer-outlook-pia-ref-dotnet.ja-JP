@@ -1,13 +1,5 @@
 <Type Name="_ViewFont" FullName="Microsoft.Office.Interop.Outlook._ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639418" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903595" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFont" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +76,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>フォントが太字かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) 値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>フォントが太字かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) 値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,7 +135,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlColor" />でのフォントの色を示す定数の<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlColor" />でのフォントの色を示す定数の<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -174,12 +166,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />としてビューのフォントの色の定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />としてビューのフォントの色の定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" />プロパティまたは<b>ExtendedColor</b>プロパティは、ビューのフォントの色を設定します。予定表ビューの具体的には、必要がありますプロパティを使用する<b>ExtendedColor</b>フォントの色を設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" />プロパティまたは<b>ExtendedColor</b>プロパティは、ビューのフォントの色を設定します。 予定表ビューの具体的には、必要がありますプロパティを使用する <b>ExtendedColor</b> フォントの色を設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Italic">
@@ -208,7 +198,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>フォントが斜体のかどうかであることを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>フォントが斜体のかどうかであることを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,7 +229,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -295,19 +285,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -336,12 +323,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはビュー内のフォント サイズをポイント単位で表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得のみ可能です。</summary>
+        <summary>取得またはビュー内のフォント サイズをポイント単位で表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>1 から 127 までの値にこのプロパティを設定できます。このプロパティは、1 より小さい値に設定されている場合は、プロパティが 1 に設定されます。このプロパティを 127 より大きい値に設定すると場合、プロパティが 127 です</para>。
-          <para>このプロパティの既定値は、オペレーティング システムによって決まります</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、1 ～ 127 の範囲内の値に設定できます。このプロパティを 1 より小さい値に設定すると、プロパティは 1 に設定されます。このプロパティを 127 より大きい値に設定すると、プロパティは 127 に設定されます。</para>
+          <para>このプロパティの既定の値は、オペレーティング システムによって異なります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Strikethrough">
@@ -370,7 +356,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>かどうかな取り消し線からの水平方向の行を示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>かどうかな取り消し線からの水平方向の行を示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

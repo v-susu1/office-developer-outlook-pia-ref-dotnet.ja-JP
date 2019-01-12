@@ -1,13 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637991" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899188" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -56,12 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、空の文字列、つまり、ホット キーがありません。 1 つ以上の文字の文字列を使用してプロパティを設定すると、値は最初の文字に切り捨てられます。 </para>
-          <para>アクセス キーに数字は使用できません</para>。
-          <para /></remarks>
+        <remarks><para>既定値は空の文字列で、ホット キーが存在しないことを意味します。このプロパティに 1 文字以上の文字列を設定した場合は、先頭の文字だけが使用され、後続の文字は切り捨てられます。  </para>
+          <para>アクセス キーに数字は使用できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -90,13 +81,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は<b>false を指定</b>します</para>。
-          <para>キャプション値全体を表示するコントロールが自動的に調整するかどうかがこのプロパティの button コントロールに指定します</para>。
-          <para /></remarks>
+        <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
+          <para>コントロールがボタンの場合、このプロパティではキャプション値全体を表示するためコントロールを自動調整するかどうかが指定されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -125,12 +114,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、空の文字列です。フォーム デザイナーは、コントロールの既定の名前にこのプロパティを設定します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は空の文字列です。このプロパティはフォーム デザイナーによりコントロールの既定の名前に設定されます。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayDropArrow">
@@ -159,13 +146,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) のボタンの下向きの矢印を描画することを設定または返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) のボタンの下向きの矢印を描画することを設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>右から左に、右側のボタンの左から右に位置し、位置の左側のこの矢印が表示されます。<b>True</b><b>False</b>レンダリングを無効にする] ボタンの矢印を表示します。</para>
-          <para />
-        </remarks>
+        <remarks><para>右から左に、右側のボタンの左から右に位置し、位置の左側のこの矢印が表示されます。 <b>True</b> <b>False</b> レンダリングを無効にする] ボタンの矢印を表示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -194,13 +178,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para>コントロールを無効にすると、コントロールの内容淡色表示されます</para>。
-          <para /></remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>コントロールが無効になっている場合、コントロールの内容は淡色表示されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -226,7 +208,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,12 +239,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルのカスタム画像を表す<b>StdPicture</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルのカスタム画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -291,12 +271,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Picture">
@@ -325,13 +303,12 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロールに表示される画像を表す<b>StdPicture</b>を設定または返します。    値の取得および設定が可能です。</summary>
+        <summary>コントロールに表示される画像を表す<b>StdPicture</b>を設定または返します。    値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です</para>。
-          <para>コントロールで、同時に画像とテキストを表示することはできませんので、[ピクチャ] プロパティを設定すると、text プロパティは無視されます</para>。
-          <para>画像は常にボタン コントロールの中央に表示されます。 使用可能な領域に収まるように必要に応じて、画像が切り抜かれます</para>。
-          <para /></remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para>画像とテキストを同時にコントロール上に表示することはできません。このため、Picture プロパティが設定されているとき、Text プロパティは無視されます。</para>
+          <para>画像は常にボタン コントロールの中央に表示され、表示可能スペースに合わせて切り抜かれます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureAlignment">
@@ -360,7 +337,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPictureAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" />ボタンにイメージとテキストの配置を表す定数を指定します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" />ボタンにイメージとテキストの配置を表す定数を指定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -391,12 +368,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です</para>。
-          <para>コマンド ボタン コントロールの<b>olTextAlignLeft</b>、<b>文字配置</b>に設定すると左の余白は、コントロールの境界線のピクセルを 1 つだけ</para>。
-          <para /></remarks>
+        <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
+          <para>コマンド ボタン コントロール、 <b>olTextAlignLeft</b> 、 <b>文字配置</b> に設定すると左余白はコントロールの境界線のピクセルを 1 つだけです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -425,12 +401,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_NavigationGroups" FullName="Microsoft.Office.Interop.Outlook._NavigationGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639385" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901929" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationGroups implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationGroups&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,12 +77,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返しますの<b>olNavigationGroups</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>返しますの<b>olNavigationGroups</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -116,7 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,11 +137,9 @@
         <param name="GroupDisplayName">値、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> 、新しい<b>NavigationGroup</b>オブジェクトのプロパティです。</param>
         <summary>作成して返しますが、新しい<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />の最後に追加された、オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションです。</summary>
         <returns>新しいナビゲーション グループを表す <b>NavigationGroup</b> オブジェクトを指定します。</returns>
-        <remarks>
-          <para>
-            <b>NavigationGroups</b>コレクションに同じ<b>名前</b>のプロパティ値を持つ複数の<b>NavigationGroup</b>オブジェクトを含めることができます</para>。
-          <para>アドインを追加しようとすると、 <b>NavigationGroups</b>コレクションに 50 以上のナビゲーション グループを追加する場合、またはアドインを追加しようと、 <b>NavigationGroup</b>オブジェクトの<b>NavigationGroups</b>コレクションにエラーが発生した、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです</para>。
-          <para /></remarks>
+        <remarks><para><b>NavigationGroups</b> コレクションには、同じ <b>名前</b> のプロパティ値を持つ複数の <b>NavigationGroup</b> オブジェクトを含めることができます。</para>
+          <para>アドインを追加しようとすると、 <b>NavigationGroups</b>コレクションに 50 以上のナビゲーション グループを追加する場合、またはアドインを追加しようと、 <b>NavigationGroup</b>オブジェクトの<b>NavigationGroups</b>コレクションにエラーが発生した、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -179,15 +167,19 @@
       <Docs>
         <param name="Group">削除するナビゲーション グループを指定します。</param>
         <summary>削除、指定した<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />オブジェクトから、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションです。</summary>
-        <remarks>
-          <para>場合、 <b>Delete</b>メソッドによってエラーが発生:</para>
+        <remarks><para><b>Delete</b> メソッドでは、場合にエラーが発生します。</para>
           <list type="bullet">
             <item>
-              <para>で指定されたナビゲーション グループ<paramref name="Group" />内のナビゲーション フォルダーが含まれています、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクションです</para>
-            </item>。
-            <item><para>、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />プロパティで指定されたナビゲーション グループの<paramref name="Group" />が<b>olMyFoldersGroup</b>に設定します</para></item>。
-            <item><para><b>NavigationGroups</b>コレクションの親は、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです</para></item></list>。
-          <para /></remarks>
+              <para> 指定されたナビゲーション グループ<paramref name="Group" />内のナビゲーション フォルダーが含まれています、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクションです。</para>
+            </item>
+            <item>
+              <para><see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />プロパティで指定されたナビゲーション グループの<paramref name="Group" />が<b>olMyFoldersGroup</b>に設定します。</para>
+            </item>
+            <item>
+              <para><b>NavigationGroups</b>コレクションの親は、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultNavigationGroup">
@@ -216,10 +208,8 @@
         <param name="DefaultFolderGroup">取得するナビゲーション グループの種類を指定します。</param>
         <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> 、選択されている既定の共有フォルダーのグループに対応します。</summary>
         <returns>選択されている既定のフォルダーのグループを表す <b>NavigationGroup</b> オブジェクト。</returns>
-        <remarks>
-          <para>既定のナビゲーション グループを指定した場合<paramref name="DefaultFolderGroup" />削除されたか、それ以外の場合が存在しない場合自動的に作成された親<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトは、指定したナビゲーション グループの種類をサポートしています。 このナビゲーション グループの種類の作成を親<b>NavigationModule</b>オブジェクトがサポートしていない場合、エラーが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定のナビゲーション グループを指定した場合<paramref name="DefaultFolderGroup" />削除されたか、それ以外の場合が存在しない場合自動的に作成された親<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトは、指定したナビゲーション グループの種類をサポートしています。  このナビゲーション グループの種類の作成を親 <b>NavigationModule</b> オブジェクトがサポートしていない場合、エラーが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -251,10 +241,8 @@
         <param name="Index">オブジェクトのインデックス番号を指定します。</param>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />コレクションからのオブジェクト。</summary>
         <value>指定したオブジェクトを表す <b>NavigationGroup</b> オブジェクト。</value>
-        <remarks>
-          <para>コレクション内の<b>NavigationGroup</b>のインデックス値は、ナビゲーション ウィンドウに表示されるときのナビゲーション グループの位置を表す序数を表します。内に含まれるナビゲーション グループのインデックス値を変更するナビゲーション グループの位置を変更することも、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションです。</para>
-          <para />
-        </remarks>
+        <remarks><para>コレクション内の <b>NavigationGroup</b> のインデックス値は、ナビゲーション ウィンドウに表示されるときのナビゲーション グループの位置を表す序数を表します。 内に含まれるナビゲーション グループのインデックス値を変更するナビゲーション グループの位置を変更することも、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />コレクションです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -308,19 +296,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

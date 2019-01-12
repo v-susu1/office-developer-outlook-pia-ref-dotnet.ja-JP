@@ -1,13 +1,5 @@
 <Type Name="_ExchangeDistributionList" FullName="Microsoft.Office.Interop.Outlook._ExchangeDistributionList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3175efc5bfb7f609655b29eeb8a6e763f74a99de" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638009" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ExchangeDistributionList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3175efc5bfb7f609655b29eeb8a6e763f74a99de" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900956" /></Metadata><TypeSignature Language="C#" Value="public interface _ExchangeDistributionList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeDistributionList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeDistributionList" />
@@ -56,13 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、X400 を表す電子メールのアドレス、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、X400 を表す電子メールのアドレス、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティでは、X400、配布リストのアドレスです。主インターネット アドレスを特定するを使用して、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />プロパティ</para>。
-          <para>呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />メソッドです</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、配布リストの X400 アドレスで使用することを前提にしています。 主インターネット アドレスを特定するを使用して、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />プロパティ。</para>
+          <para>呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />メソッドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -88,13 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数である<b>olExchangeDistributionListAddressEntry</b>を返しますから、<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得のみ可能です。</summary>
+        <summary>定数である<b>olExchangeDistributionListAddressEntry</b>を返しますから、<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>AddressEntry</b>オブジェクトから<b>AddressEntryUserType</b>プロパティを継承します。場合は<b>ExchangeDistributionList</b>の場合、 <b>AddressEntryUserType</b>は常に<b>olExchangeDistributionListAddressEntry</b>を返す必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>AddressEntry</b> オブジェクトから <b>AddressEntryUserType</b> プロパティを継承します。 場合は<b>ExchangeDistributionList</b>の場合、 <b>AddressEntryUserType</b>は常に<b>olExchangeDistributionListAddressEntry</b>を返す必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alias">
@@ -120,13 +107,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのエイリアスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのエイリアスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagAccount</b>に対応します</para>。
-          <para>このプロパティが実装されていないか、 <b>ExchangeDistributionList</b>オブジェクトの存在しない場合は、空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagAccount</b> に対応します。</para>
+          <para>このプロパティが実装されていないか、 <b>ExchangeDistributionList</b> オブジェクトの存在しない場合は、空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -152,7 +137,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +165,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,13 +196,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのコメントを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのコメントを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティを<b>PidTagComment</b>に対応します</para>。
-          <para>このプロパティが実装されていないか、 <b>ExchangeDistributionList</b>オブジェクトの存在しない場合は、空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティを <b>PidTagComment</b> に対応します。</para>
+          <para> このプロパティが実装されていないか、 <b>ExchangeDistributionList</b> オブジェクトの存在しない場合は、空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -242,11 +225,8 @@
       <Parameters />
       <Docs>
         <summary>削除の<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトから、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />が属するコレクション オブジェクトです。</summary>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>ExchangeDistributionList</b>オブジェクトとして<b>olExchangeDistributionListAddressEntry</b>を持つ<b>AddressEntry</b>オブジェクトでは、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />。呼び出す<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeDistributionList" />対応する<b>ExchangeDistributionList</b>オブジェクトを返します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>ExchangeDistributionList</b>オブジェクトとして<b>olExchangeDistributionListAddressEntry</b>を持つ<b>AddressEntry</b>オブジェクトでは、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />。呼び出す<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeDistributionList" />対応する<b>ExchangeDistributionList</b>オブジェクトを返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Details">
@@ -273,13 +253,9 @@
       <Docs>
         <param name="HWnd">[詳細] ダイアログ ボックスの親ウィンドウ ハンドルです。0 (既定値) を設定すると、モーダルなダイアログ ボックスになります。</param>
         <summary>に関する詳細な情報を提供するモーダル ダイアログ ボックスが表示され、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。</summary>
-        <remarks>
-          <para>
-            <b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Name" />プロパティが空です。エラー、ランタイム エラーを処理するために処理を使用する必要があり、ユーザーがダイアログ ボックスで [キャンセル] をクリックしたとき。</para>
-          <para>
-            <b>詳細</b>メソッドは、実際には、コードの実行のダイアログ ボックスが表示されているときを停止します。  </para>
-          <para />
-        </remarks>
+        <remarks><para><b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Name" />プロパティが空です。 エラー、ランタイム エラーを処理するために処理を使用する必要があり、ユーザーがダイアログ ボックスで キャンセルをクリックしたとき。 </para>
+          <para><b>Details</b> メソッドは、実際には、コードの実行のダイアログ ボックスが表示されているときを停止します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -305,12 +281,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数である<b>olDistList</b>を返しますから、<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を表す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得のみ可能です。</summary>
+        <summary>定数である<b>olDistList</b>を返しますから、<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を表す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagDisplayType</b>に対応します</para>。
-          <para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>DisplayType</b>プロパティは、 <b>AddressEntry</b>オブジェクトから継承されます。場合は、 <b>ExchangeDistributionList</b>、 <b>DisplayType</b>返す必要があります常に<b>olDistList</b></para> 。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagDisplayType</b> に対応します。</para>
+          <para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>DisplayType</b> プロパティは、 <b>AddressEntry</b> オブジェクトから継承されます。 <b>ExchangeDistributionList</b>の場合は<b>貼り付け</b>は常に<b>olDistList</b>を返す必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -335,13 +310,9 @@
       <Parameters />
       <Docs>
         <summary>値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) ため、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトは、連絡先のアドレス帳の連絡先に対応していません。</summary>
-        <returns>
-          <b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) <b>ExchangeDistributionList</b>オブジェクトは、連絡先のアドレス帳の連絡先に対応していないためです。</returns>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>AddressEntry</b>オブジェクトの<b>GetContact</b>メソッドを継承し、場合は、 <b>ExchangeDistributionList</b>の場合、このメソッド常に<b>Nothing</b>を返します。</para>
-          <para />
-        </remarks>
+        <returns><b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) <b>ExchangeDistributionList</b>オブジェクトは、連絡先のアドレス帳の連絡先に対応していないためです。</returns>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>AddressEntry</b>オブジェクトの<b>GetContact</b>メソッドを継承し、場合は、 <b>ExchangeDistributionList</b>の場合、このメソッド常に<b>Nothing</b>を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeDistributionList">
@@ -418,13 +389,9 @@
       <Parameters />
       <Docs>
         <summary>値は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) ため、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトに対応していません、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />オブジェクトです。</summary>
-        <returns>
-          <b>Null</b> (Visual Basic では <b>Nothing</b>)。<b>ExchangeDistributionList</b> オブジェクトは、<b>ExchangeUser</b> オブジェクトには対応していません。</returns>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>AddressEntry</b>オブジェクトの<b>GetExchangeUser</b>メソッドを継承し、場合は、 <b>ExchangeDistributionList</b>の場合、このメソッド常に<b>Nothing</b>を返します。</para>
-          <para />
-        </remarks>
+        <returns><b>Null</b> (Visual Basic では <b>Nothing</b>)。<b>ExchangeDistributionList</b> オブジェクトは、<b>ExchangeUser</b> オブジェクトには対応していません。</returns>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>AddressEntry</b>オブジェクトの<b>GetExchangeUser</b>メソッドを継承し、場合は、 <b>ExchangeDistributionList</b>の場合、このメソッド常に<b>Nothing</b>を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -456,11 +423,9 @@
         <param name="CompleteFormat">To be added.</param>
         <summary>値は<b>何も</b>(null 参照 (Visual Basic では Nothing) では C#) 空き時間情報は、個々 のユーザーにのみ使用可能なためではなく<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>GetFreeBusy</b>メソッド、 <b>AddressEntry</b>オブジェクトから継承し、 <b>ExchangeDistributionList</b>の場合、パラメーターの値に関係なくこのメソッド常に<b>Nothing</b>を返します</para>。
-          <para>このメソッドは、 <b>ExchangeDistributionList</b>の個々 のメンバーの空き時間情報には返されません。会議出席依頼の空き時間情報を入手するには、個々 のユーザーに要求を送信します。使用、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />から<b>AddressEntry</b>オブジェクトのプロパティが取得した<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.AddressEntry" />にあるかどうか、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、 <b>ExchangeDistributionList</b>を表します</para>。
-          <para /></remarks>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>GetFreeBusy</b>メソッド、 <b>AddressEntry</b>オブジェクトから継承し、 <b>ExchangeDistributionList</b>の場合、パラメーターの値に関係なくこのメソッド常に<b>Nothing</b>を返します。</para>
+          <para> このメソッドは、 <b>ExchangeDistributionList</b> の個々 のメンバーの空き時間情報を返しません。 会議出席依頼の空き時間情報を入手するには、個々 のユーザーに要求を送信します。 使用、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />から<b>AddressEntry</b>オブジェクトのプロパティが取得した<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.AddressEntry" />にあるかどうか、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、 <b>ExchangeDistributionList</b>を表します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetMemberOfList">
@@ -486,11 +451,9 @@
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />のすべてを格納するコレクション オブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Exchange 配布リストを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />メンバーします。</summary>
         <returns>うちこの<b>ExchangeDistributionList</b>オブジェクトは、メンバー配布リストを表す<b>AddressEntries</b>コレクション オブジェクトです。 <b>ExchangeDistributionList</b>がどの Exchange 配布リストのメンバーではない場合は、カウントがゼロ (0) の<b>AddressEntries</b>オブジェクトを返します。</returns>
-        <remarks>
-          <para>
-            <b>GetMemberOfList</b>は、Exchange Server への低速接続がある場合にパフォーマンスの面で高価な操作です。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>GetMemberOfList</b> は、Exchange Server への低速接続がある場合にパフォーマンスの面で高価な操作です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetOwners">
@@ -515,13 +478,10 @@
       <Parameters />
       <Docs>
         <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />のすべての所有者を格納するコレクション オブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。</summary>
-        <returns>
-          <b>AddressEntries</b>コレクション オブジェクトを含む<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>ExchangeDistributionList</b>のすべての所有者を表すオブジェクト。 返します。、 <b>AddressEntries</b>オブジェクト カウントがゼロ (0) 場合、所有者のないが存在する<b>ExchangeDistributionList</b>の現在のセッションで。</returns>
-        <remarks>
-          <para>
-            <b>GetOwners</b>は、Exchange Server への低速接続がある場合にパフォーマンスの面で高価な操作です。</para>
-          <para />
-        </remarks>
+        <returns><b>AddressEntries</b>コレクション オブジェクトを含む<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>ExchangeDistributionList</b>のすべての所有者を表すオブジェクト。 返します。、 <b>AddressEntries</b>オブジェクト カウントがゼロ (0) 場合、所有者のないが存在する<b>ExchangeDistributionList</b>の現在のセッションで。</returns>
+        <remarks><para>
+            <b>GetOwners</b> は、Exchange Server への低速接続がある場合にパフォーマンスの面で高価な操作です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -547,14 +507,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますの一意の識別子を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますの一意の識別子を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>AddressEntry</b>オブジェクトから<b>ID</b>プロパティを継承します。<b>AddressEntry</b>オブジェクトが作成されると、トランスポート プロバイダーは、永続的な一意の文字列 ID が割り当てられます。これらの識別子の 1 つのセッションから別に変わりません。</para>
-          <para />
-        </remarks>
+        <remarks><para> <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>AddressEntry</b> オブジェクトから <b>ID</b> プロパティを継承します。 <b>AddressEntry</b> オブジェクトが作成されると、トランスポート プロバイダーは、永続的な一意の文字列 ID が割り当てられます。 これらの識別子の 1 つのセッションから別に変わりません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -682,7 +638,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary>表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -710,7 +666,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>親<b>オブジェクト</b>を返すの<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>親<b>オブジェクト</b>を返すの<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -738,13 +694,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのプライマリ簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのプライマリ簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagEmailAddress</b>に対応します</para>。
-          <para>このプロパティが実装されていないか、 <b>ExchangeDistributionList</b>オブジェクトの存在しない場合は、空の文字列を返します</para>。
-          <para /></remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagEmailAddress</b> に対応します。</para>
+          <para>このプロパティが実装されていないか、 <b>ExchangeDistributionList</b> オブジェクトの存在しない場合は、空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -770,7 +724,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -798,19 +752,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -839,14 +790,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのエントリの種類を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのエントリの種類を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。<b>AddressEntry</b>オブジェクトから<b>Type</b>プロパティを継承します。<b>ExchangeDistributionList</b>の場合は型は常に、文字列"EX"です。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeDistributionList</b>オブジェクトの派生元の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 <b>AddressEntry</b> オブジェクトから <b>Type</b> プロパティを継承します。 <b>ExchangeDistributionList</b> の場合は型は常に、文字列"EX"です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -872,14 +819,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </param>
-        <param name="Refresh">
-          <b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </param>
+        <param name="MakePermanent"><b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </param>
+        <param name="Refresh"><b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </param>
         <summary>投稿への変更、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />のメッセージング システム内のオブジェクト。</summary>
-        <remarks>
-          <para>新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します。 </para>キャッシュをフラッシュし、アドレス帳からの値を再ロードと<b>更新プログラム</b>を呼び出す
-          <para>、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します。 </para><para /></remarks>
+        <remarks><para> 新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します。  </para>
+          <para>キャッシュをフラッシュし、アドレス帳からの値を再読み込み、<b>更新</b>を呼び出す、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

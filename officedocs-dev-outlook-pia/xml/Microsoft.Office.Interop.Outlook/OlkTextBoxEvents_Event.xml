@@ -1,13 +1,5 @@
 <Type Name="OlkTextBoxEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="29bb9c23ea2dac69b85e3e28cd4150a07e8844e4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638077" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTextBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34ade93bf254c3e20148f6fe4c1270fb0a1173bd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901572" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTextBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTextBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTextBoxEvents_Event" />
@@ -49,12 +41,11 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザー インターフェイスを介してコントロールのデータが変更された後に発生します。</summary>
-        <remarks>
-          <para>
-            <b>BeforeUpdate</b>および<b>AfterUpdate</b>は、コントロール内のデータ アイテムに保存されている任意の時間を発生します。 典型的なシーケンスは、次のようにこのコントロールの<b>"更新後処理"</b>に関連するイベント:</para>
+        <remarks><para>
+            <b>BeforeUpdate</b> および <b>AfterUpdate</b> は、コントロール内のデータ アイテムに保存されている任意の時間を発生します。  このコントロールに対して <b>AfterUpdate</b> を含むイベントの一般的な順序は次のとおりです。</para>
           <list type="number">
             <item>
-              <description>ユーザーがコントロールに焦点を当てます</description>
+              <description>ユーザーがコントロールにフォーカスを移動する</description>
             </item>
             <item>
               <description>
@@ -62,7 +53,7 @@
               </description>
             </item>
             <item>
-              <description>コントロールのデータを更新</description>
+              <description>コントロールのデータが更新される</description>
             </item>
             <item>
               <description>
@@ -71,11 +62,10 @@
             </item>
             <item>
               <description>
-                <b>終了</b>: ユーザーコントロールからフォーカスを移動</description>
+                <b>終了</b>: ユーザー コントロールからフォーカスを移動します。</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -94,9 +84,32 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザー インターフェイスを介してコントロールのデータが変更され、アイテムに保存されるときに発生します。</summary>
-        <remarks>
-          <para>コントロール プロパティの現在の値を元に戻すし、コントロールにフォーカスを戻すがこのプロパティをキャンセルします</para>。
-          <para><b>BeforeUpdate</b>および<b>AfterUpdate</b>コントロール内のデータをアイテムに保存されているが、いつでも発生することができます。 典型的なシーケンスは、次のようにこのコントロールの<b>BeforeUpdate</b>が関係するイベント:</para><list type="number"><item><description>ユーザーがコントロールに焦点を当てます</description></item><item><description><b>BeforeUpdate</b></description></item><item><description>コントロールのデータを更新</description></item><item><description><b>更新後処理</b></description></item><item><description><b>終了</b>: ユーザーコントロールからフォーカスを移動</description></item></list><para /></remarks>
+        <remarks><para>このプロパティをキャンセルすると、コントロールを現在のプロパティの値に戻して、コントロールにフォーカスを返します。</para>
+          <para>
+            <b>BeforeUpdate</b> および <b>AfterUpdate</b> は、コントロール内のデータ アイテムに保存されている任意の時間を発生します。  このコントロールの <b>BeforeUpdate</b> が関係するイベントの一般的なシーケンスは次のとおりです。</para>
+          <list type="number">
+            <item>
+              <description>ユーザーがコントロールにフォーカスを移動する</description>
+            </item>
+            <item>
+              <description>
+                <b>BeforeUpdate</b>
+              </description>
+            </item>
+            <item>
+              <description>コントロールのデータが更新される</description>
+            </item>
+            <item>
+              <description>
+                <b>更新後処理</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>終了</b>: ユーザー コントロールからフォーカスを移動します。</description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -172,11 +185,8 @@
       </ReturnValue>
       <Docs>
         <summary>前のコントロールの <b>Exit</b> イベントの直後に、コントロールがフォーカスを受け取ったときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>GotFocus</b>イベントは、マネージ コード コントロールによって、または Microsoft Visual Basic 6 で公開されるのと同様です。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>GotFocus</b> イベントは、マネージ コード コントロールによって、または Microsoft Visual Basic 6 で公開されるのと同様です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -214,11 +224,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを押したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyDown</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -237,11 +244,23 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーが ANSI キーを押したときに発生します。</summary>
-        <remarks>
-          <para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。<b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。前に、でも、キーが離された後でも、イベントが発生することができます</para>。
-          <para><b>KeyPress</b>イベントは、次の条件下では発生しません:</para><list type="bullet"><item><para>キーを押してタブ</para></item>の
-            <item><para>方向キーを押す</para></item><item><para>キーを押してを入力してください</para></item><item><para>とキー入力すると、フォーカスが 1 つのコントロール間を移動する</para></item></list>。
-          <para /></remarks>
+        <remarks><para>ANSI キーとは、ユーザーが押したときに印字可能な文字を生成します。 <b>KeyPress</b>イベントは、フォームの実行中のフォームで、ユーザーが ANSI キーを押したか、コントロールにフォーカスがある場合に発生します。 前に、でも、キーが離された後でも、イベントが発生します。</para>
+          <para><b>KeyPress</b> イベントは、次の条件下では発生しません。</para>
+          <list type="bullet">
+            <item>
+              <para>Tab キーを押す</para>
+            </item>
+            <item>
+              <para>Enter キーを押す</para>
+            </item>
+            <item>
+              <para>方向キーを押す</para>
+            </item>
+            <item>
+              <para>キーボード操作によって、フォーカスがコントロール間を移動する</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -260,11 +279,8 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーがキーを離したときに発生します。</summary>
-        <remarks>
-          <para>
-            <b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyUp</b>イベント中に押された修飾子キー (shift キーを押し、ctrl キー、または alt キーを押し) の状態は、<paramref name="Shift" />のパラメーターです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -302,10 +318,8 @@
       </ReturnValue>
       <Docs>
         <summary>マウス ポインターがコントロール上を通過した後に発生します。</summary>
-        <remarks>
-          <para>ALT キーを押すと、 <b>MouseMove</b>イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ALTキーを押すと、 <b>MouseMove</b> イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

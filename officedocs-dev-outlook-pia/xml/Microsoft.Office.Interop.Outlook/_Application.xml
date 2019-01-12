@@ -1,13 +1,5 @@
 <Type Name="_Application" FullName="Microsoft.Office.Interop.Outlook._Application">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637805" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Application" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904050" /></Metadata><TypeSignature Language="C#" Value="public interface _Application" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Application" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Application" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Application" />
@@ -53,10 +45,8 @@
       <Docs>
         <summary>最上位を返します<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />デスクトップ上のオブジェクトです。</summary>
         <returns>デスクトップの一番上のエクスプ ローラーを表すオブジェクト<b>エクスプ ローラー</b> 。 アクティブなエクスプ ローラーがない場合は、 <b>Nothing</b>を返します。</returns>
-        <remarks>
-          <para>ユーザーがほとんどの場合に表示される<b>エクスプ ローラー</b>オブジェクトを取得するのにには、このメソッドを使用します。このメソッドもがない場合にアクティブなエクスプ ローラー、新しいものを開くことができるように決定するために役立ちます。</para>
-          <para />
-        </remarks>
+        <remarks><para> このメソッドを使うと、ユーザーが表示している可能性の高い  <b>Explorer</b> オブジェクトにアクセスできます。また、このメソッドを使うと、エクスプローラーが開いているかどうかを確認できるため、エクスプローラーが開いていない場合は新しいエクスプローラーを開くなどの処理を行うことができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInspector">
@@ -82,10 +72,9 @@
       <Docs>
         <summary>最上位を返します<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />デスクトップ上のオブジェクトです。</summary>
         <returns>デスクトップの最上位のインスペクターを表す<b>Inspector</b> 。</returns>
-        <remarks>
-          <para>このメソッドを使用してユーザーに表示している可能性があります<b>Inspector</b>オブジェクトにアクセスします</para>。
-          <para>アクティブなインスペクターがない場合は、 <b>Nothing</b>を返します</para>。
-          <para /></remarks>
+        <remarks><para> このメソッドを使うと、ユーザーが表示している可能性の高い <b>Inspector</b> オブジェクトにアクセスすることができます。</para>
+          <para>アクティブなインスペクターがない場合は、 <b>Nothing</b>を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveWindow">
@@ -145,17 +134,21 @@
         <param name="Tag">検索の識別子として指定する名前です。</param>
         <summary>指定された DAV Searching and Locating (DASL) 検索文字列に基づいて検索を実行します。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Search" />の検索結果を表すオブジェクト。</returns>
-        <remarks>
-          <para>メソッドを呼び出して、<b>たとえば</b>連続する行のコードで同時に複数の検索を実行できます。ただし、する必要がありますプログラムを使用して多数の検索フォルダーを作成することが生じる可能性がある、Outlook のパフォーマンスに影響を及ぼす重要な同時検索アクティビティで Outlook は、Exchange のオンライン モードで検索を行う場合に特に注意してくださかった</para>。
-          <para><b>たとえば</b>メソッド、および Outlook オブジェクト モデルに関連する機能では、Outlook のユーザー インターフェイスに表示される検索フォルダーは作成できません。ただし、使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> Outlook のユーザー インターフェイスの検索フォルダーの一覧に表示される検索フォルダーを作成するのには返された Search オブジェクトのメソッドです</para>。
-          <para>を使用する、<paramref name="Scope" />パラメーターを同じストアに 1 つまたは複数のフォルダーを指定することができますが、複数のストアに複数のフォルダーを指定することはできません。複数のフォルダーを指定するのには、<paramref name="Scope" />パラメーターでは、各フォルダーのパスの間にコンマ文字を使用し、各フォルダーのパスを単一引用符で囲みます。受信トレイや送信済みアイテムなどの既定のフォルダーの完全なフォルダー パスではなく、単純なフォルダー名を使用できます。たとえば、次のコード行を表す有効な<paramref name="Scope" />のパラメーター:</para><code>Dim Scope As String = "'Inbox', 'Sent Items'"</code><code>string Scope = "'Inbox', 'Sent Items'";</code><code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
+        <remarks><para>メソッドを呼び出して、<b>たとえば</b>連続する行のコードで同時に複数の検索を実行できます。 ただし、プログラムを使用して多数の検索フォルダーを作成することが生じる可能性がある、Outlook のパフォーマンスに影響を及ぼす重要な同時検索アクティビティで Outlook は、Exchange のオンライン モードで検索を行う場合に特に注意する必要があります。</para>
+          <para><b>たとえば</b>、Outlook オブジェクト モデルに関連する機能では、Outlook のユーザー インターフェイスに表示される検索フォルダーは作成できません。 ただし、使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> Outlook のユーザー インターフェイスの検索フォルダーの一覧に表示される検索フォルダーを作成するのには返された Search オブジェクトのメソッドです。</para>
+          <para>使用して、<paramref name="Scope" />パラメーターを同じストアに 1 つまたは複数のフォルダーを指定することができますが、複数のストアに複数のフォルダーを指定することはできません。 複数のフォルダーを指定するのには、<paramref name="Scope" />パラメーターでは、各フォルダーのパスの間にコンマ文字を使用し、各フォルダーのパスを単一引用符で囲みます。 受信トレイや送信済みアイテムなどの既定のフォルダーの完全なフォルダー パスではなく、単純なフォルダー名を使用できます。 たとえば、次のコード行を表す有効な<paramref name="Scope" />のパラメーター。</para>
+          <code>Dim Scope As String = "'Inbox', 'Sent Items'"</code>
+          <code>string Scope = "'Inbox', 'Sent Items'";</code>
+          <code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
     Outlook.OlDefaultFolders.olFolderInbox).FolderPath &amp;amp; _
     "','" &amp;amp; Application.Session.GetDefaultFolder( _
-    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath</code><code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
+    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath</code>
+          <code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
     Outlook.OlDefaultFolders.olFolderInbox).FolderPath + 
     "','" + Application.Session.GetDefaultFolder( 
-    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code><para>、<paramref name="Filter" />パラメーターは、有効な DASL クエリを指定できます。DASL クエリの詳細については、アイテムをフィルターし、Namespace プロパティを参照するを参照してください。JET クエリを使用できないことに注意してください、<paramref name="Filter" />の高度な検索パラメーター。指定したフォルダーが含まれるストアでクイック検索が有効になっているかどうか、<paramref name="Scope" />パラメーター、検索のパフォーマンスを向上させるためにクイック検索キーワードを使用することができます。クイック検索キーワードを使用して、クイック検索が有効になっていない場合は、Outlook はエラーと、検索は失敗しますを返します</para>。
-          <para /></remarks>
+    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code>
+          <para><paramref name="Filter" />パラメーターは、有効な DASL クエリを指定できます。 DASL クエリの詳細については、アイテムをフィルターし、Namespace プロパティを参照するを参照してください。 JET クエリを使用できないことに注意してください、<paramref name="Filter" />の高度な検索パラメーター。 指定したフォルダーが含まれるストアでクイック検索が有効になっているかどうか、<paramref name="Scope" />パラメーター、検索のパフォーマンスを向上させるためにクイック検索キーワードを使用することができます。 クイック検索キーワードを使用して、クイック検索が有効になっていない場合は、Outlook はエラーと、検索は失敗を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnswerWizard">
@@ -212,7 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,14 +233,10 @@
         <ReturnType>Microsoft.Office.Core.IAssistance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a>を返します</summary>
+        <summary><a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a>を返します</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IAssistance</b>の詳細については、2007 Microsoft Office system オブジェクト ライブラリ リファレンスを参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>IAssistance</b>の詳細については、2007 Microsoft Office system オブジェクト ライブラリ リファレンスを参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Assistant">
@@ -304,7 +293,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -394,11 +383,8 @@
         <param name="ItemType">新しい項目の Outlook アイテムの種類です。</param>
         <summary>新しい Microsoft Outlook アイテムを作成して返します。</summary>
         <returns>新しい Microsoft Outlook アイテムを表すオブジェクト型 ( <b>Object</b>) の値。</returns>
-        <remarks>
-          <para>
-            <b>CreateItem</b>メソッドは既定の Outlook アイテムを作成のみできます。ユーザー設定フォームを使って新しいアイテムを作成するを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクション。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>CreateItem</b> メソッドは、既定の Outlook アイテムのみを作成することができます。 ユーザー設定フォームを使って新しいアイテムを作成するを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクション。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateItemFromTemplate">
@@ -428,10 +414,8 @@
         <param name="InFolder">アイテムを作成するフォルダーを指定します。この引数を省略すると、アイテムの標準のフォルダーにアイテムが作成されます。</param>
         <summary>Outlook テンプレート (.oft) から新しい Microsoft Outlook アイテムを作成し、そのアイテムを返します。</summary>
         <returns>新しい Microsoft Outlook アイテムを表す<b>オブジェクト</b>の値です。</returns>
-        <remarks>
-          <para>常に新しいアイテムが開かれます作成モードの項目が保存されているモードに関係なく、読み取りモードではなく、ディスクにします。</para>
-          <para />
-        </remarks>
+        <remarks><para>新しいアイテムは、読み取りモードでは開かれません。そのアイテムがディスクに保存されたときのモードに関係なく、常に作成モードで開かれます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateObject">
@@ -460,10 +444,10 @@
         <param name="ObjectName">作成するオブジェクトのクラス名です。 有効なクラス名の詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87946">OLE プログラム Id</a>を参照してください。</param>
         <summary>指定したクラスのオートメーション オブジェクトを作成します。</summary>
         <returns>新しいオートメーション オブジェクトのインスタンスを表す<b>オブジェクト</b>の値です。 アプリケーションが既に実行されている場合、 <b>CreateObject</b>は、新しいインスタンスを作成します。</returns>
-        <remarks>
-          <para>Microsoft Visual Basic スクリプト版 (VBScript の) 1.0 では、 <b>CreateObject</b>メソッドが含まれていませんが、他のアプリケーションを自動化することができるように、このメソッドが用意されています。VBScript 2.0 以降のバージョンでは、 <b>CreateObject</b>が入っています。VBScript から Microsoft Outlook を自動化するのには、このメソッドを使用しない必要があります</para>。
-          <para><b>注</b>: <b>CreateObject</b>メソッド (「例」をクリックすると使用可能)、このヘルプ ファイル内のコード例で一般的に使用できる Microsoft Visual Basic または Microsoft Visual Basic for Applications (VBA)。これらの例は<paramref name="not" />では、Outlook オブジェクト モデルの一部として実装されている同じ<b>CreateObject</b>メソッドを使用します</para>。
-          <para /></remarks>
+        <remarks><para>このメソッドは、 <b>CreateObject</b> メソッドが含まれていない Microsoft Visual Basic Scripting Edition (VBScript) 1.0 から、他のアプリケーションを自動化できるようにするために用意されています。VBScript 2.0 以降には <b>CreateObject</b> メソッドが含まれています。このメソッドは、VBScript から Microsoft Outlook を自動化する目的では使用しないでください。</para>
+          <para>
+            <b>注</b>: <b>CreateObject</b>メソッド (「例」をクリックすると使用可能)、このヘルプ ファイル内のコード例で一般的に使用できる Microsoft Visual Basic または Microsoft Visual Basic for Applications (VBA)。 これらの例は<paramref name="not" />では、Outlook オブジェクト モデルの一部として実装されている同じ<b>CreateObject</b>メソッドを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultProfileName">
@@ -489,13 +473,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します。 既定のプロファイル名の名前を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 既定のプロファイル名の名前を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>プロファイルが構成されていない場合、または Outlook の既定のプロファイルがない場合は、空の文字列を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロファイルが設定されていないか、Outlook の既定のプロファイルがない場合は空の文字列を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Explorers">
@@ -521,7 +502,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Explorers</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />を格納するコレクション オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />すべての開いているエクスプ ローラーを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />を格納するコレクション オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />すべての開いているエクスプ ローラーを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -589,10 +570,8 @@
         <param name="Type">返される名前空間の型です。</param>
         <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、指定した型のオブジェクト。</summary>
         <returns>指定された名前空間を表す <b>NameSpace</b> オブジェクトです。</returns>
-        <remarks>
-          <para>サポートされる唯一の名前空間の種類は、"MAPI"です。<b>GetNameSpace</b>メソッドは、<b>セッション</b>のプロパティ、Microsoft Outlook 98 で導入された機能と同じです。</para>
-          <para />
-        </remarks>
+        <remarks><para>サポートされる名前空間の型は "MAPI" のみです。 <b>GetNameSpace</b>メソッドは、<b>セッション</b>のプロパティ、Microsoft Outlook 98 で導入された機能と同じです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNewNickNames">
@@ -653,11 +632,11 @@
         <param name="Item">強オブジェクト参照または弱オブジェクト参照の参照先オブジェクトを指定します。</param>
         <param name="ReferenceType">オブジェクト参照の種類を指定します。</param>
         <summary>指定された Outlook オブジェクトへの強オブジェクト参照または弱オブジェクト参照を作成します。</summary>
-        <returns>
-          <b>オブジェクト</b> を表す、厳密なまたは弱オブジェクト参照を指定したオブジェクトを指定します。</returns>
-        <remarks>
-          <para>このメソッドで指定されたオブジェクトへの強いのか弱いオブジェクト参照を返します<paramref name="Item" />です。</para> 。
-          <para><b>注</b>: Outlook は、アドインで強オブジェクト参照を保持している場合、正常に終了するのには失敗することができます。常に、アドインによって、不要になった後に強力なオブジェクトの参照を逆参照</para><para /></remarks>
+        <returns><b>オブジェクト</b> を表す、厳密なまたは弱オブジェクト参照を指定したオブジェクトを指定します。</returns>
+        <remarks><para>このメソッドで指定されたオブジェクトへの強いのか弱いオブジェクト参照を返します。 <paramref name="Item" />。</para>
+          <para>
+            <b>注</b>: Outlook は、アドインで強オブジェクト参照を保持している場合、正常に終了するのには失敗することができます。 アドインで強オブジェクト参照が不要になったら、必ず参照を解除してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspectors">
@@ -683,7 +662,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />を格納するコレクション オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトが開いているすべてのインスペクターを表します。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />を格納するコレクション オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトが開いているすべてのインスペクターを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -713,12 +692,9 @@
       <Docs>
         <param name="LookInFolders">検索するフォルダーのパス名を指定します。フォルダー パスは単一引用符で囲む必要があります。</param>
         <summary>検索が同期または非同期になる場合を示す<b>ブール型</b>(C# では<b>bool</b> ) を返します。</summary>
-        <returns>
-          <b>True の</b> 場合、検索が同期化されます。それ以外の場合、 <b>false を指定</b> します。</returns>
-        <remarks>
-          <para>検索が同期の場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> 、検索が完了するまで、メソッドは返されません。逆に、検索が非同期の場合は、<b>ここ</b>に戻ります。非同期検索から意味のある結果を得るために使用して、 <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> 、検索が完了した場合に通知するイベントです。</para>
-          <para />
-        </remarks>
+        <returns><b>True の</b> 場合、検索が同期化されます。それ以外の場合、 <b>false を指定</b> します。</returns>
+        <remarks><para>検索が同期の場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> 、検索が完了するまで、メソッドは返されません。 逆に、検索が非同期の場合は、 <b>ここ</b> に戻ります。 非同期検索から意味のある結果を得るために使用して、 <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> 、検索が完了した場合に通知するイベントです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsTrusted">
@@ -744,12 +720,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>かどうか、アドインまたは外部の呼び出し元が Outlook で信頼できると見なされることを示す、<b>ブール型</b>(C# では<b>bool</b> ) を返します。 値の取得のみ可能です。</summary>
+        <summary>かどうか、アドインまたは外部の呼び出し元が Outlook で信頼できると見なされることを示す、<b>ブール型</b>(C# では<b>bool</b> ) を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>アウト プロセスの呼び出しをインスタンス化するための<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトの場合、 <b>IsTrusted</b>は常に<b>False</b>を返します。  <b>Outlook アドインが、 <b>IsTrusted</b>は True</b>を返しますアドインは Outlook で信頼できる場合にのみです。</para>
-          <para />
-        </remarks>
+        <remarks><para>アウト プロセスの呼び出しをインスタンス化するための<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクトの場合、 <b>IsTrusted</b>は常に<b>False</b>を返します。   <b>Outlook アドインが、 <b>IsTrusted</b> は True</b> を返しますアドインは Outlook で信頼できる場合にのみです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LanguageSettings">
@@ -803,7 +777,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -859,10 +833,9 @@
         <ReturnType>Microsoft.Office.Core.PickerDialog</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Core.PickerDialog" /> ] ダイアログ ボックスで、ユーザーまたはデータを選択するための機能を提供するオブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Core.PickerDialog" /> ] ダイアログ ボックスで、ユーザーまたはデータを選択するための機能を提供するオブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>、 <b>PickerDialog</b>オブジェクトは、Microsoft Office のタイプ ライブラリで使用します。詳細については、次のオブジェクトとそのメンバーを参照してください:</para>
+        <remarks><para><b>PickerDialog</b> オブジェクトは、Microsoft Office のタイプ ライブラリであります。詳細については、次のオブジェクトとそのメンバーを参照してください。</para>
           <list type="bullet">
             <item>
               <para>
@@ -894,9 +867,13 @@
                 <see cref="T:Microsoft.Office.Core.PickerResult" />
               </para>
             </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerResults" />
+              </para>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ProductCode">
@@ -922,8 +899,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します Microsoft Outlook の<a href="http://go.microsoft.com/fwlink/?LinkId=87946">グローバル一意識別子 (GUID)</a>を指定する。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します Microsoft Outlook の<a href="http://go.microsoft.com/fwlink/?LinkId=87946">グローバル一意識別子 (GUID)</a>を指定する。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -950,10 +926,8 @@
       <Parameters />
       <Docs>
         <summary>現在開いているウィンドウをすべて閉じます。</summary>
-        <remarks>
-          <para>関連付けられている Outlook セッションが完全に終了します。ユーザーはメッセージング システムからログオフされ、保存されていないアイテムへの変更が破棄されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>関連する Outlook セッションは完全に閉じられます。ユーザーはメッセージング システムからログオフされ、保存していないアイテムへの変更は破棄されます。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshFormRegionDefinition">
@@ -981,11 +955,10 @@
       <Docs>
         <param name="RegionName">キャッシュの定義を更新するフォーム領域の内部的な名前です。すべてのフォーム領域の定義を更新するには、空の文字列を指定します。</param>
         <summary>ローカル コンピューターおよび現在のユーザーに対して定義された 1 つまたはすべてのフォーム領域の Windows レジストリから現在の定義を取得することにより、キャッシュを更新します。</summary>
-        <remarks>
-          <para>Microsoft Outlook を起動するときにフォーム領域の一覧とその定義を取得するのには Windows レジストリを読み取りし、し、データをキャッシュします。定義は、レジストリ、ローカル コンピューターとキーの下 (HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) と (HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) としての現在のユーザー キーの下に格納されます。定義では、レイアウト、動作、および各フォーム領域の他の特性について説明します。更新された情報を得るために Outlook に指示するため、 <b>RefreshFormRegionDefinition</b>メソッドを使用するにはフォーム領域を登録するか、Outlook が起動した後、フォーム領域の定義を変更した場合です</para>。
-          <para>、<paramref name="RegionName" />の引数に一致する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の定義を更新するフォーム領域のプロパティです。フォーム領域の内部名は、ASCII 文字のみをサポートします。Outlook がローカル コンピューターと現在のユーザーに対して定義されているフォーム領域のすべての定義を取得するのには Windows のレジストリを読み取る場合は空の文字列を指定すると、します</para>。
-          <para>フォーム領域の登録の詳細については、Windows レジストリでフォーム領域を指定するを参照してください</para>。
-          <para /></remarks>
+        <remarks><para>Microsoft Outlook を起動するときにフォーム領域の一覧とその定義を取得するのには Windows レジストリを読み取りし、し、データをキャッシュします。 定義は、レジストリ、ローカル コンピューターとキーの下 (HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) と (HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) としての現在のユーザー キーの下に格納されます。 定義では、レイアウト、動作、および各フォーム領域の他の特性について説明します。 フォーム領域を登録するか、Outlook を起動した後、フォーム領域の定義を変更した場合は、更新された情報を得るために Outlook に指示する <b>RefreshFormRegionDefinition</b> メソッドを使用することができます。</para>
+          <para><paramref name="RegionName" />の引数に一致する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の定義を更新するフォーム領域のプロパティです。 フォーム領域の内部的な名前は、ASCII 文字でのみ指定できます。 空の文字列を指定すると、Outlook は Windows レジストリを読み取り、ローカルのコンピューターおよび現在のユーザーに対して定義されたすべてのフォーム領域の定義を取得します。</para>
+          <para>フォーム領域の登録の詳細については、「Windows レジストリでフォーム領域を指定する」を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reminders">
@@ -1011,7 +984,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Reminders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Reminders" />現在のすべてのアラームを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Reminders" />現在のすべてのアラームを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1039,19 +1012,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TimeZones">
@@ -1077,12 +1047,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZones</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" />を Outlook でサポートされているタイム ゾーンのセットを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" />を Outlook でサポートされているタイム ゾーンのセットを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook でサポートされているタイム ゾーンの設定は、Windows のレジストリ キーを NT\CurrentVersion\Time のゾーンに格納されたデータに基づいています。</para>
-          <para />
-        </remarks>
+        <remarks><para>Outlook でサポートされているタイム ゾーンの設定は、Windows のレジストリ キーを NT\CurrentVersion\Time のゾーンに格納されたデータに基づいています。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Version">
@@ -1108,8 +1076,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、バージョンの数を示します。 読み取り専用です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、バージョンの数を示します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
