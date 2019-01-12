@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_BeforeAttachmentAddEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c399ad4bfd1778a614c0a0056104eda01c05535" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639512" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment Attachment, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2be3a0f57291c232d16b0144084895584dde915e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900525" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment Attachment, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_BeforeAttachmentAddEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment As Attachment, ByRef Cancel As Boolean)" />
@@ -35,25 +27,9 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Attachment">
-      <span data-ttu-id="3289a-101">アイテムに追加する <b>添付ファイル</b> 。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3289a-101">The <b>Attachment</b> to be added to the item.</span>
-      </span>
-    </param>
-    <param name="Cancel">
-      <span data-ttu-id="3289a-102">
-        <b>True</b> に設定すると、操作を取り消すそれ以外の場合、 <b>False</b> に設定を追加する <b>添付ファイル</b> を許可します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3289a-102">Set to <b>True</b> to cancel the operation; otherwise, set to <b>False</b> to allow the <b>Attachment</b> to be added.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="3289a-p101">これは、対応するオブジェクトのイベントのデリゲートです。イベントのコールバック メソッドを実装した後、このデリゲートを使用してコールバック メソッドをイベントに接続します。複数のバージョンのイベント インターフェイスがある場合、このデリゲートは Outlook の指定バージョンのイベントのコールバック メソッドを接続します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3289a-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Attachment"><span data-ttu-id="58528-101">アイテムに追加する <b>添付ファイル</b> 。</span><span class="sxs-lookup"><span data-stu-id="58528-101">The <b>Attachment</b> to be added to the item.</span></span></param>
+    <param name="Cancel"><span data-ttu-id="58528-102"><b>True</b> に設定すると、操作を取り消すそれ以外の場合、 <b>False</b> に設定を追加する <b>添付ファイル</b> を許可します。</span><span class="sxs-lookup"><span data-stu-id="58528-102">Set to <b>True</b> to cancel the operation; otherwise, set to <b>False</b> to allow the <b>Attachment</b> to be added.</span></span></param>
+    <summary><span data-ttu-id="58528-p101">これは、対応するオブジェクトのイベントのデリゲートです。イベントのコールバック メソッドを実装した後、このデリゲートを使用してコールバック メソッドをイベントに接続します。複数のバージョンのイベント インターフェイスがある場合、このデリゲートは Outlook の指定バージョンのイベントのコールバック メソッドを接続します。</span><span class="sxs-lookup"><span data-stu-id="58528-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="AssignToCategoryRuleAction" FullName="Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="32a21a963cf69c6d587e1056267b75623032c6a5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637919" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AssignToCategoryRuleAction : Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f5f6f17b9d1520c9c6a4c81ccf3d2fd83a0e120b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897459" /></Metadata><TypeSignature Language="C#" Value="public interface AssignToCategoryRuleAction : Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AssignToCategoryRuleAction implements class Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface AssignToCategoryRuleAction&#xA;Implements _AssignToCategoryRuleAction" />
@@ -30,28 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="01cd7-101">メッセージに分類項目を割り当てる処理を表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="01cd7-101">Represents an action that assigns categories to a message.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="01cd7-102">
-        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />です</para>。
-        <b>AssignToCategoryRuleAction</b>の
-      <para>は、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。各ルールに関連付けられて、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />オブジェクトは、<see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" />プロパティ。<b>AssignToCategory</b>プロパティは常に<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />オブジェクトです。カテゴリが、いくつか指定されたルールには有効なルール アクションを含むメッセージを代入する場合<see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /><b>は True</b>になります</para>。
-      <para>ルールの処理を指定する方法の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="01cd7-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />.</para>
-          <para>
-            <b>AssignToCategoryRuleAction</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object. Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> object which has an <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> property. The <b>AssignToCategory</b> property always returns an <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> object. If the rule has an enabled rule action that assigns a message with some specified categories, then <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> would be <b>True</b>.</para>
-          <para>For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="77f04-101">メッセージに分類項目を割り当てる処理を表します。</span><span class="sxs-lookup"><span data-stu-id="77f04-101">Represents an action that assigns categories to a message.</span></span></summary>
+    <remarks><para><span data-ttu-id="77f04-102">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="77f04-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="77f04-103">COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="77f04-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="77f04-104">ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="77f04-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="77f04-105">COM オブジェクトについての情報は、このトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="77f04-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="77f04-106">COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />。</span><span class="sxs-lookup"><span data-stu-id="77f04-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />.</span></span></para>
+      <para><span data-ttu-id="77f04-107">
+        <b>AssignToCategoryRuleAction</b>から派生したが、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="77f04-107">
+        <b>AssignToCategoryRuleAction</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</span></span> <span data-ttu-id="77f04-108">各ルールに関連付けられて、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />オブジェクトは、<see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="77f04-108">Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> object which has an <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> property.</span></span> <span data-ttu-id="77f04-109"><b>AssignToCategory</b>プロパティは常に<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="77f04-109">The <b>AssignToCategory</b> property always returns an <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> object.</span></span> <span data-ttu-id="77f04-110">カテゴリが、いくつか指定されたルールには有効なルール アクションを含むメッセージを代入する場合<see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /><b>は True</b>になります。</span><span class="sxs-lookup"><span data-stu-id="77f04-110">If the rule has an enabled rule action that assigns a message with some specified categories, then <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> would be <b>True</b>.</span></span></para>
+      <para><span data-ttu-id="77f04-111">ルールの処理を指定する方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="77f04-111">For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

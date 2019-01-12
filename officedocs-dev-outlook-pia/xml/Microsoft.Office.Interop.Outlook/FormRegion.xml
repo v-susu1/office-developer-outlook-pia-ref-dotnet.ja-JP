@@ -1,13 +1,5 @@
 <Type Name="FormRegion" FullName="Microsoft.Office.Interop.Outlook.FormRegion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b25be4b72745d9aa761ed5594ffccd47108d425" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637641" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e5bfc42ddd7f88bee26bb54fb5a9edb8213bb7a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897858" /></Metadata><TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegion implements class Microsoft.Office.Interop.Outlook._FormRegion, class Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormRegion&#xA;Implements _FormRegion, FormRegionEvents_Event" />
@@ -33,29 +25,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="029d8-101">Outlook フォームのフォーム領域を表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="029d8-101">Represents a form region in an Outlook form.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="029d8-102">
-        <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />です</para>。
-      <para><b>FormRegion</b>オブジェクトにより、フォーム領域の動作と外観を変更するのにはユーザー設定フォームのフォーム領域の背後にあるコードを追加するのにはアドイン</para>。アドインに<b>FormRegion</b>オブジェクトのインスタンスを取得するのには
-      <para>を実装する必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースです。Outlook フォーム領域の記憶域を割り当て、 <b>FormRegion</b>オブジェクトのインスタンスをインスタンス化で<b>FormRegion</b>オブジェクトを返します、<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />メソッドです。</para><para>アドインでフォーム領域のフレームを終了するとき、アドインする必要がありますリリース フォーム領域のオブジェクトです</para>。
-      <para>、フォーム領域のプログラミングの詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87930">、フォーム領域を拡張するアドイン</a>を参照してください.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="029d8-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />.</para>
-          <para>The <b>FormRegion</b> object allows an add-in to add code behind a form region in a custom form to modify the appearance and behavior of the form region. </para>
-          <para>To obtain an instance of the <b>FormRegion</b> object, an add-in must implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface. Outlook allocates storage for the form region, instantiates an instance of the   <b>FormRegion</b> object, and returns the <b>FormRegion</b> object in the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" /> method. </para>
-          <para>When the add-in closes the frame for the form region, the add-in must release the object for the form region.</para>
-          <para>For more infomation on programming a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extending a Form Region with an Add-in</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="38e24-101">Outlook フォームのフォーム領域を表します。</span><span class="sxs-lookup"><span data-stu-id="38e24-101">Represents a form region in an Outlook form.</span></span></summary>
+    <remarks><para><span data-ttu-id="38e24-102">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="38e24-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="38e24-103">COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="38e24-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="38e24-104">ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="38e24-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="38e24-105">COM オブジェクトについての情報は、このトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="38e24-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="38e24-106">COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />。</span><span class="sxs-lookup"><span data-stu-id="38e24-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />.</span></span> <span data-ttu-id="38e24-107">COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />。</span><span class="sxs-lookup"><span data-stu-id="38e24-107">For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />.</span></span></para>
+      <para><span data-ttu-id="38e24-p102"><b>FormRegion</b> オブジェクトは、フォーム領域の動作と外観を変更するのにはユーザー設定フォームのフォーム領域の分離コードを追加するアドインを使用できます。</span><span class="sxs-lookup"><span data-stu-id="38e24-p102">The <b>FormRegion</b> object allows an add-in to add code behind a form region in a custom form to modify the appearance and behavior of the form region. </span></span></para>
+      <para><span data-ttu-id="38e24-109"><b>FormRegion</b>オブジェクトのインスタンスを取得するには、アドインを実装する必要が、<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />インタ フェースです。</span><span class="sxs-lookup"><span data-stu-id="38e24-109">To obtain an instance of the <b>FormRegion</b> object, an add-in must implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface.</span></span> <span data-ttu-id="38e24-110">Outlook フォーム領域の記憶域を割り当て、 <b>FormRegion</b>オブジェクトのインスタンスをインスタンス化で<b>FormRegion</b>オブジェクトを返します、<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="38e24-110">Outlook allocates storage for the form region, instantiates an instance of the   <b>FormRegion</b> object, and returns the <b>FormRegion</b> object in the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" /> method.</span></span> </para>
+      <para><span data-ttu-id="38e24-111">アドインでは、フォーム領域のフレームを閉るときに、そのフォーム領域のオブジェクトを解放する必要があります。</span><span class="sxs-lookup"><span data-stu-id="38e24-111">When the add-in closes the frame for the form region, the add-in must release the object for the form region.</span></span></para>
+      <para><span data-ttu-id="38e24-112">フォーム領域のプログラミング方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87930">アドインでフォーム領域の拡張</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="38e24-112">For more infomation on programming a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extending a Form Region with an Add-in</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

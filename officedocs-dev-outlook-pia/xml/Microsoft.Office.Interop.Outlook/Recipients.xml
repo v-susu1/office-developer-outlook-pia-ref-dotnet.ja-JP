@@ -1,13 +1,5 @@
 <Type Name="Recipients" FullName="Microsoft.Office.Interop.Outlook.Recipients">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a1f866bf331ae092d59a1e210e16a01c82d526ca" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639463" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c27dd2e543e6657e2eb0bd16529ca6be9ff7a8d6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900322" /></Metadata><TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipients implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipients" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipients&#xA;Implements IEnumerable" />
@@ -30,28 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="073eb-101">コレクションが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />の Outlook アイテム オブジェクトです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="073eb-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects for an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="073eb-102">
-        <para>
-          <b>受信者</b>オブジェクトを取得するのには、<b>受信者</b>のプロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトです</para>。使用の
-      <para>、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成し、<b>受信者</b>オブジェクトに追加する方法です。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />新しい<b>受信者</b>オブジェクトのプロパティが関連付けられている<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>、または<b>TaskItem</b>オブジェクトの既定値に設定され、他の受信者を示すためにリセットする必要があります種類</para>。
-      <para>を使用して<b>受信者</b>(<paramref name="index" />)、どこで<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。名前が表示名、エイリアス、または受信者のフル SMTP 電子メール アドレスを表す文字列を指定できます</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="073eb-102">
-          <para>Use the <b>Recipients</b>  property to return the <b>Recipients</b> object of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />,  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <b>Recipients</b> object. The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>, or <b>TaskItem</b> object and must be reset to indicate another recipient type.</para>
-          <para>Use <b>Recipients</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object. The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="027cf-101">コレクションが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />の Outlook アイテム オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="027cf-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects for an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="027cf-102"><b>受信者</b>オブジェクトを取得するのには、<b>受信者</b>のプロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="027cf-102">Use the <b>Recipients</b>  property to return the <b>Recipients</b> object of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />,  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</span></span></para>
+      <para><span data-ttu-id="027cf-103">使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> 、新しい<b>Recipient</b>オブジェクトを作成し、<b>受信者</b>オブジェクトに追加する方法です。</span><span class="sxs-lookup"><span data-stu-id="027cf-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <b>Recipients</b> object.</span></span> <span data-ttu-id="027cf-104"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> 、新しい<b>受信者</b>オブジェクトのプロパティが関連付けられている<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>、または<b>TaskItem</b>オブジェクトの既定値に設定し、別の受信者の種類を示すためにリセットする必要があります。</span><span class="sxs-lookup"><span data-stu-id="027cf-104">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>, or <b>TaskItem</b> object and must be reset to indicate another recipient type.</span></span></para>
+      <para><span data-ttu-id="027cf-105"><b>受信者</b>を使用して、(<paramref name="index" />)、どこで<paramref name="index" />は、名前またはインデックス番号を 1 つの<b>受信者</b>オブジェクトを取得します。</span><span class="sxs-lookup"><span data-stu-id="027cf-105">Use <b>Recipients</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object.</span></span> <span data-ttu-id="027cf-106">名前は、表示名、エイリアス、または完全な SMTP 電子メール アドレス受信者を示す文字列であることができます。</span><span class="sxs-lookup"><span data-stu-id="027cf-106">The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -77,24 +52,9 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="073eb-103">受信者の名前。受信者の表示名、別名、または完全な SMTP 電子メール アドレスを表す文字列を指定することもできます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-103">The  name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="073eb-104">新しい受信者を作成、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />コレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-104">Creates a new recipient in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="073eb-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、新しい受信者を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents  the new recipient.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="027cf-107">受信者の名前。受信者の表示名、別名、または完全な SMTP 電子メール アドレスを表す文字列を指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="027cf-107">The  name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></param>
+        <summary><span data-ttu-id="027cf-108">新しい受信者を作成、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="027cf-108">Creates a new recipient in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="027cf-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、新しい受信者を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="027cf-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents  the new recipient.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-106">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="073eb-107">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="027cf-110">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="027cf-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="027cf-111">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="027cf-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-108">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="073eb-109">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="027cf-112">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="027cf-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="027cf-113">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="027cf-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,16 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-110">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-110">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="073eb-111">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="027cf-114">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="027cf-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="027cf-115">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="027cf-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,24 +168,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="073eb-112">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-112">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="073eb-113">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />コレクションからのオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-113">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="073eb-114">指定したオブジェクトを表す <b>Recipient</b> オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-114">A <b>Recipient</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="027cf-116">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span><span class="sxs-lookup"><span data-stu-id="027cf-116">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="027cf-117">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />コレクションからのオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="027cf-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="027cf-118">指定したオブジェクトを表す <b>Recipient</b> オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="027cf-118">A <b>Recipient</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -279,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-p104">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="027cf-p106">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="027cf-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,18 +225,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="073eb-117">コレクション内で 1 から始まるオブジェクトのインデックス値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-117">The 1-based index value of the object within the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="073eb-118">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-118">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="027cf-121">コレクション内で 1 から始まるオブジェクトのインデックス値を指定します。</span><span class="sxs-lookup"><span data-stu-id="027cf-121">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="027cf-122">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="027cf-122">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,20 +251,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-119">すべてを解決しようと、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />でオブジェクトを<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />はアドレス帳のコレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-119">Attempts to resolve all the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection against the Address Book.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="073eb-120">
-            <b>True</b> のすべてのオブジェクトに解決された場合、 <b>False</b> 場合は、1 つまたは複数がありませんでした。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-120">
-              <b>True</b> if all of the objects were resolved, <b>False</b> if one or more were not.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="027cf-123">すべてを解決しようと、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />でオブジェクトを<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />はアドレス帳のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="027cf-123">Attempts to resolve all the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection against the Address Book.</span></span></summary>
+        <returns><span data-ttu-id="027cf-124"><b>True</b> のすべてのオブジェクトに解決された場合、 <b>False</b> 場合は、1 つまたは複数がありませんでした。</span><span class="sxs-lookup"><span data-stu-id="027cf-124"><b>True</b> if all of the objects were resolved, <b>False</b> if one or more were not.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,42 +279,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="073eb-121">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="073eb-122">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="027cf-125">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="027cf-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="027cf-126">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="027cf-126">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="073eb-123">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="027cf-127"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="027cf-127">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="027cf-128">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="027cf-128">Both members serve the same purpose.</span></span> <span data-ttu-id="027cf-129">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="027cf-129">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="073eb-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlActionCopyLike" FullName="Microsoft.Office.Interop.Outlook.OlActionCopyLike">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aa645b393eb5513da0133626f8f3965d1adb7f3b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638715" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4e9789a563410d828e5bd80a9c901e3cda164c56" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900399" /></Metadata><TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionCopyLike extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlActionCopyLike" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="c4db4-101">アイテム プロパティのコピー方法を指定します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c4db4-101">Specifies how item properties will be copied.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c4db4-102">
-        <para>使用される、<see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.Action" /><b>アクション</b>が実行されるときに作成される新しいアイテムのプロパティのコピー方法は、項目を指定します。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c4db4-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="62f5b-101">アイテム プロパティのコピー方法を指定します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-101">Specifies how item properties will be copied.</span></span></summary>
+    <remarks><para><span data-ttu-id="62f5b-102">使用される、<see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> <b>アクション</b>が実行されるときに作成される新しいアイテムのプロパティのコピー方法は、項目を指定します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olForward">
@@ -56,20 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4db4-103">新しい項目のプロパティは、新しいアイテムが元のアイテムの転送になるように設定されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-103">Properties of the new item will be set such that the new item is a forward of the original item.</span>
-          </span>
-          <span data-ttu-id="c4db4-104">新しいを作成する場合<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /><b><b>宛先</b>] および [</b>新しい項目のプロパティの値は空になり、新しいアイテムの<b>Subject</b>プロパティになります元の<b>件名</b>のプレフィックスで次のように、"FW:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-          <span data-ttu-id="c4db4-105">元のアイテムの添付ファイルは、新しい品目にコピーされます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-105">The   attachments on the original item will be copied to the new item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62f5b-103">新しい項目のプロパティは、新しいアイテムが元のアイテムの転送になるように設定されます。</span><span class="sxs-lookup"><span data-stu-id="62f5b-103">Properties of the new item will be set such that the new item is a forward of the original item.</span></span>  <span data-ttu-id="62f5b-104">新しいを作成する場合<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /><b><b>宛先</b>] および [</b>新しい項目のプロパティの値は空になり、新しいアイテムの<b>Subject</b>プロパティになります元の<b>件名</b>のプレフィックスで次のように、"FW:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span>    <span data-ttu-id="62f5b-105">元のアイテムの添付ファイルは、新しい品目にコピーされます。</span><span class="sxs-lookup"><span data-stu-id="62f5b-105">The   attachments on the original item will be copied to the new item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReply">
@@ -88,16 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4db4-106">新しい項目のプロパティは、新しいアイテムが元のアイテムへの返信になるように設定されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-106">Properties of the new item will be set such that the new item is a reply to the original item.</span>
-          </span>
-          <span data-ttu-id="c4db4-107">新しいを作成する場合は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /><b>、元フィールド</b>の値は、新しいアイテムの<b>SenderEmailAddress</b>プロパティにコピーされます、[cc] フィールドは空白になり、新しいアイテムの [<b>件名</b>] フィールドでは、元の<b>件名</b>になります、プレフィックスを次のように"RE:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62f5b-106">新しい項目のプロパティは、新しいアイテムが元のアイテムへの返信になるように設定されます。</span><span class="sxs-lookup"><span data-stu-id="62f5b-106">Properties of the new item will be set such that the new item is a reply to the original item.</span></span>    <span data-ttu-id="62f5b-107">新しいを作成する場合は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> <b>、元フィールド</b>の値は、新しいアイテムの<b>SenderEmailAddress</b>プロパティにコピーされます、[cc] フィールドは空白になり、新しいアイテムの [<b>件名</b>] フィールドでは、元の<b>件名</b>になります、プレフィックスを次のように"RE:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyAll">
@@ -116,16 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4db4-108">新しい項目のプロパティは、新しい項目がすべての元のアイテムの送信者への返信になるように設定されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span>
-          </span>
-          <span data-ttu-id="c4db4-109">新しいを作成する場合は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <b>SenderEmailAddress</b>プロパティと<b>CC</b>プロパティの値は新しいアイテムの<b>To</b>プロパティにコピーする、新しいアイテムの<b>Subject</b>プロパティは、プレフィックスを持つ元のアイテムの件名になります次のように"RE:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62f5b-108">新しい項目のプロパティは、新しい項目がすべての元のアイテムの送信者への返信になるように設定されます。</span><span class="sxs-lookup"><span data-stu-id="62f5b-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span></span>  <span data-ttu-id="62f5b-109">新しいを作成する場合は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <b>SenderEmailAddress</b>プロパティと<b>CC</b>プロパティの値は新しいアイテムの<b>To</b>プロパティにコピーする、新しいアイテムの<b>Subject</b>プロパティは、プレフィックスを持つ元のアイテムの件名になります次のように"RE:"(を参照してください<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />プロパティ) を追加します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyFolder">
@@ -144,12 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4db4-110">新しいを作成する場合<see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />投稿先のプロパティは、新しい項目には、アクティブなフォルダーのアドレスが含まれているは、元のアイテムの<b>Subject</b>プロパティは、新しい項目、および、<b>の<b>ConversationTopic</b>プロパティにコピーする、古いものに基づき、件名</b>新しい項目のプロパティは空になります。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62f5b-110">新しいを作成する場合<see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />投稿先のプロパティは、新しい項目には、アクティブなフォルダーのアドレスが含まれているは、元のアイテムの<b>Subject</b>プロパティは、新しい項目、および、<b>の<b>ConversationTopic</b>プロパティにコピーする、古いものに基づき、件名</b>新しい項目のプロパティは空になります。</span><span class="sxs-lookup"><span data-stu-id="62f5b-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRespond">
@@ -168,12 +109,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4db4-111">投票ボタンの操作にのみ使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4db4-111">Used exclusively for voting button actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62f5b-111">投票ボタンの操作にのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="62f5b-111">Used exclusively for voting button actions.</span></span></summary>
       </Docs>
     </Member>
   </Members>

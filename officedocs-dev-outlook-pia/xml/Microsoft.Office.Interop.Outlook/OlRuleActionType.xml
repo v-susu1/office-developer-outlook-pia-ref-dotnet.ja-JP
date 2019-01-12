@@ -1,13 +1,5 @@
 <Type Name="OlRuleActionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleActionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="500f2d31b3b2b2e3a92b96d60baaa1d1ff2b6db7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638735" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleActionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2daea31e387847ebeb992ce5610348578c35a9ce" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901656" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleActionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleActionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleActionType" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="e76d5-101">ルールの処理の種類を指定します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e76d5-101">Specifies the type of rule action for a rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e76d5-102">
-        <para>この列挙体のルールのアクションの種類の一覧には、仕分けルールと通知ウィザードがサポートするすべてのルールの処理が含まれています。そのルールのすべてのルールの処理を列挙することができますプログラムを使用して、中にことができますプログラムを使用してルールを作成する最もよく使用されるルールのアクションのみが注意してください。詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e76d5-102">
-          <para>The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="c5f6f-101">ルールの処理の種類を指定します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-101">Specifies the type of rule action for a rule.</span></span></summary>
+    <remarks><para><span data-ttu-id="c5f6f-102">この列挙体のルールのアクションの種類の一覧には、仕分けルールと通知ウィザードがサポートするすべてのルールの処理が含まれています。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-102">The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="c5f6f-103">そのルールのすべてのルールの処理を列挙することができますプログラムを使用して、中にことができますプログラムを使用してルールを作成する最もよく使用されるルールのアクションのみが注意してください。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-103">Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions.</span></span> <span data-ttu-id="c5f6f-104">詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-104">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olRuleActionAssignToCategory">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-103">ルールの処理として、メッセージに分類項目を割り当てます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-103">Rule action is to assign categories to the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-105">ルールの処理として、メッセージに分類項目を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-105">Rule action is to assign categories to the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCcMessage">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-104">ルールの処理として、特定の受信者を CC 欄に指定してメッセージを送信します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-104">Rule action is to cc the message to specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-106">ルールの処理として、特定の受信者を CC 欄に指定してメッセージを送信します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-106">Rule action is to cc the message to specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionClearCategories">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-105">ルールの処理として、メッセージに割り当てられているすべての分類項目をクリアします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-105">Rule action is to clear all the categories assigned to the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-107">ルールの処理として、メッセージに割り当てられているすべての分類項目をクリアします。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-107">Rule action is to clear all the categories assigned to the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCopyToFolder">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-106">ルールの処理として、メッセージを指定されたフォルダーにコピーします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-106">Rule action is to copy the message to a specified folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-108">ルールの処理として、メッセージを指定されたフォルダーにコピーします。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-108">Rule action is to copy the message to a specified folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCustomAction">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-107">ルールの処理として、カスタム処理を実行します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-107">Rule action is to perform a custom action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-109">ルールの処理として、カスタム処理を実行します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-109">Rule action is to perform a custom action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDefer">
@@ -176,12 +128,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-108">ルールの処理として、メッセージの配信を指定した分数遅らせます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-108">Rule action is to defer delivery of the message by the specified number of minutes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-110">ルールの処理として、メッセージの配信を指定した分数遅らせます。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-110">Rule action is to defer delivery of the message by the specified number of minutes.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDelete">
@@ -200,12 +147,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-109">ルールの処理として、メッセージを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-109">Rule action is to delete the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-111">ルールの処理として、メッセージを削除します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-111">Rule action is to delete the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDeletePermanently">
@@ -224,12 +166,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-110">ルールの処理として、メッセージを完全に削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-110">Rule action is to permanently  delete the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-112">ルールの処理として、メッセージを完全に削除します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-112">Rule action is to permanently  delete the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDesktopAlert">
@@ -248,12 +185,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-111">ルールの処理として、デスクトップ通知を表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-111">Rule action is to display a desktop alert.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-113">ルールの処理として、デスクトップ通知を表示します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-113">Rule action is to display a desktop alert.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagClear">
@@ -272,12 +204,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-112">ルールの処理として、メッセージ フラグをクリアします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-112">Rule action is to clear the message flag.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-114">ルールの処理として、メッセージ フラグをクリアします。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-114">Rule action is to clear the message flag.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagColor">
@@ -296,12 +223,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-113">ルールの処理として、指定した色のフラグをメッセージに設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-113">Rule action is to flag the message with a specified colored flag.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-115">ルールの処理として、指定した色のフラグをメッセージに設定します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-115">Rule action is to flag the message with a specified colored flag.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagForActionInDays">
@@ -320,12 +242,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-114">ルールの処理として、指定した日数以内のアクションを要求するフラグをメッセージに設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-114">Rule action is to flag the message for action in the specified number of days.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-116">ルールの処理として、指定した日数以内のアクションを要求するフラグをメッセージに設定します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-116">Rule action is to flag the message for action in the specified number of days.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionForward">
@@ -344,12 +261,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-115">ルールの処理として、特定の受信者にメッセージを転送します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-115">Rule action is to forward the message to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-117">ルールの処理として、特定の受信者にメッセージを転送します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-117">Rule action is to forward the message to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionForwardAsAttachment">
@@ -368,12 +280,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-116">ルールの処理として、特定の受信者にメッセージを添付ファイルとして転送します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-116">Rule action is to forward the message as an attachment to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-118">ルールの処理として、特定の受信者にメッセージを添付ファイルとして転送します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-118">Rule action is to forward the message as an attachment to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionImportance">
@@ -392,12 +299,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-117">ルールの処理として、メッセージに指定した重要度のマークを付けます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-117">Rule action is to mark the message with the specified level of importance.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-119">ルールの処理として、メッセージに指定した重要度のマークを付けます。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-119">Rule action is to mark the message with the specified level of importance.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMarkAsTask">
@@ -416,12 +318,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-118">ルールの処理として、メッセージにタスクとしてのマークを付けます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-118">Rule action is to mark the message as a task.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-120">ルールの処理として、メッセージにタスクとしてのマークを付けます。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-120">Rule action is to mark the message as a task.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMarkRead">
@@ -440,12 +337,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-119">ルールの処理として、メッセージを開封済みにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-119">Rule action is to mark the message as read.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-121">ルールの処理として、メッセージを開封済みにします。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-121">Rule action is to mark the message as read.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMoveToFolder">
@@ -464,12 +356,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-120">ルールの処理として、メッセージを指定されたフォルダーに移動します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-120">Rule action is to move the message to the specified folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-122">ルールの処理として、メッセージを指定されたフォルダーに移動します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-122">Rule action is to move the message to the specified folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNewItemAlert">
@@ -488,12 +375,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-121">ルールの処理として、[ 新しいアイテムの通知] ダイアログ ボックスに指定されたテキストを表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-121">Rule action is to display the specified text in the New Item Alert dialog box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-123">ルールの処理として、[ 新しいアイテムの通知] ダイアログ ボックスに指定されたテキストを表示します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-123">Rule action is to display the specified text in the New Item Alert dialog box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNotifyDelivery">
@@ -512,12 +394,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-122">ルールの処理として、送信メッセージの配信通知を要求します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-122">Rule action is to request delivery notification for the message being sent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-124">ルールの処理として、送信メッセージの配信通知を要求します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-124">Rule action is to request delivery notification for the message being sent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNotifyRead">
@@ -536,12 +413,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-123">ルールの処理として、送信メッセージの開封通知を要求します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-123">Rule action is to request read notification for the message being sent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-125">ルールの処理として、送信メッセージの開封通知を要求します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-125">Rule action is to request read notification for the message being sent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionPlaySound">
@@ -560,12 +432,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-124">ルールの処理として、サウンド ファイルを再生します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-124">Rule action is to play a sound file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-126">ルールの処理として、サウンド ファイルを再生します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-126">Rule action is to play a sound file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionPrint">
@@ -584,12 +451,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-125">ルールの処理として、メッセージを通常使うプリンターで印刷します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-125">Rule action is to print the message on the default printer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-127">ルールの処理として、メッセージを通常使うプリンターで印刷します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-127">Rule action is to print the message on the default printer.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionRedirect">
@@ -608,12 +470,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-126">ルールの処理として、メッセージを特定の受信者にリダイレクトします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-126">Rule action is to redirect the message to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-128">ルールの処理として、メッセージを特定の受信者にリダイレクトします。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-128">Rule action is to redirect the message to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionRunScript">
@@ -632,12 +489,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-127">ルールの処理として、スクリプトを実行します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-127">Rule action is to run a script.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-129">ルールの処理として、スクリプトを実行します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-129">Rule action is to run a script.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionSensitivity">
@@ -656,12 +508,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-128">ルールの処理として、メッセージに指定された秘密度のマークを付けます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-128">Rule action is to mark the message with the specified level of sensitivity.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-130">ルールの処理として、メッセージに指定された秘密度のマークを付けます。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-130">Rule action is to mark the message with the specified level of sensitivity.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionServerReply">
@@ -680,12 +527,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-129">ルールの処理として、サーバーに指定されたメール アイテムで応答することを要求します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-129">Rule action is to request the server to reply with the specified mail item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-131">ルールの処理として、サーバーに指定されたメール アイテムで応答することを要求します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-131">Rule action is to request the server to reply with the specified mail item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionStartApplication">
@@ -704,12 +546,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-130">ルールの処理として, .exe ファイルを実行します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-130">Rule action is to run an .exe file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-132">ルールの処理として, .exe ファイルを実行します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-132">Rule action is to run an .exe file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionStop">
@@ -728,12 +565,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-131">ルールの処理として、仕分けルールの処理を中止します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-131">Rule action is to stop processing more rules.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-133">ルールの処理として、仕分けルールの処理を中止します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-133">Rule action is to stop processing more rules.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionTemplate">
@@ -752,12 +584,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-132">ルールの処理として、指定されたテンプレート ファイル (.oft) をフォーム テンプレートとして使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-132">Rule action is to use the specified template (.oft) file as a form template.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-134">ルールの処理として、指定されたテンプレート ファイル (.oft) をフォーム テンプレートとして使用します。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-134">Rule action is to use the specified template (.oft) file as a form template.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionUnknown">
@@ -776,12 +603,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e76d5-133">認識できないルールの処理です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e76d5-133">Unrecognized rule action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c5f6f-135">認識できないルールの処理です。</span><span class="sxs-lookup"><span data-stu-id="c5f6f-135">Unrecognized rule action.</span></span></summary>
       </Docs>
     </Member>
   </Members>

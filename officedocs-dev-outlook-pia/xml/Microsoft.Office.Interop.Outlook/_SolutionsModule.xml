@@ -1,13 +1,5 @@
 <Type Name="_SolutionsModule" FullName="Microsoft.Office.Interop.Outlook._SolutionsModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637848" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SolutionsModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896976" /></Metadata><TypeSignature Language="C#" Value="public interface _SolutionsModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SolutionsModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SolutionsModule" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ad89e-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad89e-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="ad89e-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad89e-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="ad89e-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad89e-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="ad89e-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad89e-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="5e28d-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="5e28d-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="5e28d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="5e28d-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="5e28d-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />。</span><span class="sxs-lookup"><span data-stu-id="5e28d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -71,66 +46,32 @@
         <Parameter Name="Scope" Type="Microsoft.Office.Interop.Outlook.OlSolutionScope" />
       </Parameters>
       <Docs>
-        <param name="Solution">
-          <span data-ttu-id="ad89e-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /><b>SolutionsModule</b>を追加するのには、ソリューション ルート フォルダーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the solution root folder to add to the <b>SolutionsModule</b>.</span>
-          </span>
-        </param>
-        <param name="Scope">
-          <span data-ttu-id="ad89e-106">
-            <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" />
-            <b>ソリューション</b>モジュールおよび<b>[フォルダー</b>一覧] でのみのソリューションに含まれるフォルダーを表示するか、それぞれの既定のモジュール内に表示するかどうかを指定する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />も同様です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-106">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" /> enumeration that specifies whether to display the folders that are in the solution only in the <b>Solutions</b> module and the <b>Folder</b> List, or to display them in their respective default modules in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> as well.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ad89e-107">ソリューション ルート フォルダーとそのサブフォルダーを追加します<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />モジュールです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-107">Adds a solution root folder and its subfolders to the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> module.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ad89e-108">
-            <para>
-              <b>AddSolution</b>メソッドが成功すると、以前、<b>ソリューション</b>モジュールでは、ソリューション ルート フォルダーが存在しない場合は、ナビゲーション ウィンドウの<b>ソリューション</b>モジュールが表示されます</para>。
-          <para>ソリューション ルート フォルダーとして、<b>ソリューション</b>モジュールに次のフォルダーを追加することはできません:</para><list type="bullet"><item><para>で定義されているナビゲーション ウィンドウで Outlook を表示するフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />列挙します</para></item>。
-            <item><para>で定義されている、特別なフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />列挙します</para></item>。
-            <item><para>Microsoft Exchange Server パブリック フォルダーの任意のフォルダーに格納します。<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトのこのフォルダーには<b>olExchangePublicFolder</b></para></item> 。
-            <item><para>A が非表示のフォルダーです。隠しフォルダーは、1 つの MAPI プロパティが、 <b>PR_ATTR_HIDDEN</b>、 <b>True</b>または IPM サブツリーに含まれていない 1 つです</para></item></list>。
-          <para>このメソッドは、ルート フォルダーまたはモジュールでは、<b>ソリューション</b>、サブフォルダーとして既に指定したフォルダーが存在する場合、またはフォルダーが<b>ソリューション</b>モジュール内のフォルダーの親フォルダーである場合もエラーを返します</para>。
-          <para>場合、 <paramref name="Scope" /><b>OlSolutionScope</b>列挙体の<b>olShowInDefaultModules</b>パラメーターを設定、<b>ソリューション</b>モジュールと同様に、それぞれの既定のモジュールで、ソリューションのルートとサブフォルダーが表示されます。場合、 <paramref name="Scope" /><b>olHideInDefaultModules</b>パラメーターを設定、ソリューション ルートとサブフォルダーが、<b>ソリューション</b>モジュールに表示されます</para>。
-          <para><b>ソリューション</b>フォルダーが<b>フォルダー一覧</b>モジュールでは常に表示されます</para>。
-          <para>既定では、Outlook モジュールが表示されます、<b>ソリューション</b>、<b>タスク</b>モジュールの後ナビゲーション モジュールは、メール、予定表、連絡先、およびタスクの既定の順序 – でいます。ナビゲーション ウィンドウを展開すると、<b>ソリューション</b>モジュールも最初に、拡張モジュールとして表示されます。<b>ソリューション</b>モジュールがナビゲーション ウィンドウで、最後の拡張モジュールの後表示される<b>タスク</b>モジュールが表示されていない場合です</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-108">
-              <para>If the <b>AddSolution</b> method succeeds and no solution root folder previously existed under the <b>Solutions</b> module, Microsoft Outlook displays the <b>Solutions</b> module in the Navigation Pane.</para>
-              <para>You cannot add the following folders to the <b>Solutions</b> module as a solution root folder:</para>
-              <list type="bullet">
-                <item>
-                  <para>A folder that Outlook displays on the Navigation Pane, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeration.</para>
-                </item>
-                <item>
-                  <para>A special folder, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeration.</para>
-                </item>
-                <item>
-                  <para>Any folder on a Microsoft Exchange Server public folder store. The <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> property on the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object for this folder is <b>olExchangePublicFolder</b>.</para>
-                </item>
-                <item>
-                  <para>A hidden folder. A hidden folder is one whose MAPI property, <b>PR_ATTR_HIDDEN</b>, is <b>True</b> or one that is not in the IPM Subtree.</para>
-                </item>
-              </list>
-              <para>This method also returns an error if the folder that you specify already exists as a root folder or a subfolder in the <b>Solutions</b> module, or if the folder is a parent folder of a folder in the <b>Solutions</b> module.</para>
-              <para>If the <paramref name="Scope" /> parameter is set to <b>olShowInDefaultModules</b> of the <b>OlSolutionScope</b> enumeration, the solution root and its subfolders are displayed in their respective default modules as well as the <b>Solutions</b> module. If the <paramref name="Scope" /> parameter is set to <b>olHideInDefaultModules</b>, the solution root and its subfolders are displayed in the <b>Solutions</b> module.</para>
-              <para>
-                <b>Solution</b> folders are always displayed in the <b>Folder List</b> module.</para>
-              <para>By default, Outlook displays the <b>Solutions</b> module after the <b>Tasks</b> module, provided that the navigation modules are in the default order – Mail, Calendar, Contacts, and Tasks. If the Navigation Pane is expanded, the <b>Solutions</b> module is also initially displayed as an expanded module. If the <b>Tasks</b> module is not displayed, the <b>Solutions</b> module is displayed after the last expanded module in the Navigation Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Solution"><span data-ttu-id="5e28d-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> <b>SolutionsModule</b>を追加するのには、ソリューション ルート フォルダーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="5e28d-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the solution root folder to add to the <b>SolutionsModule</b>.</span></span></param>
+        <param name="Scope"><span data-ttu-id="5e28d-106"><see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" /> <b>ソリューション</b>モジュールおよび<b>[フォルダー</b>一覧] でのみのソリューションに含まれるフォルダーを表示するか、それぞれの既定のモジュール内に表示するかどうかを指定する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />も同様です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-106">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" /> enumeration that specifies whether to display the folders that are in the solution only in the <b>Solutions</b> module and the <b>Folder</b> List, or to display them in their respective default modules in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> as well.</span></span></param>
+        <summary><span data-ttu-id="5e28d-107">ソリューション ルート フォルダーとそのサブフォルダーを追加します<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />モジュールです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-107">Adds a solution root folder and its subfolders to the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> module.</span></span></summary>
+        <remarks><para><span data-ttu-id="5e28d-108"><b>AddSolution</b>メソッドが成功すると、以前、<b>ソリューション</b>モジュールでは、ソリューション ルート フォルダーが存在しない場合は、<b>ソリューション</b>モジュールをナビゲーション ウィンドウで表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-108">If the <b>AddSolution</b> method succeeds and no solution root folder previously existed under the <b>Solutions</b> module, Microsoft Outlook displays the <b>Solutions</b> module in the Navigation Pane.</span></span></para>
+          <para><span data-ttu-id="5e28d-109">次のフォルダーは、ソリューション ルート フォルダーとして [ <b>ソリューション</b>] モジュールに追加できません。</span><span class="sxs-lookup"><span data-stu-id="5e28d-109">You cannot add the following folders to the <b>Solutions</b> module as a solution root folder:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="5e28d-110">定義されているナビゲーション ウィンドウで Outlook を表示するフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />列挙体です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-110">A folder that Outlook displays on the Navigation Pane, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeration.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="5e28d-111">定義されている、特別なフォルダー、<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />列挙体です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-111">A special folder, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeration.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="5e28d-112">Microsoft Exchange Server パブリック フォルダーの任意のフォルダーに格納します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-112">Any folder on a Microsoft Exchange Server public folder store.</span></span> <span data-ttu-id="5e28d-113"><see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> <b>olExchangePublicFolder</b>は、このフォルダーについてのオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-113">The <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> property on the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object for this folder is <b>olExchangePublicFolder</b>.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="5e28d-p103">隠しフォルダーです。隠しフォルダーは、1 つの MAPI プロパティが、 <b>PR_ATTR_HIDDEN</b> 、 <b>True</b> または IPM サブツリーに含まれていない 1 つです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-p103">A hidden folder. A hidden folder is one whose MAPI property, <b>PR_ATTR_HIDDEN</b>, is <b>True</b> or one that is not in the IPM Subtree.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="5e28d-116">また、指定したフォルダーが、ルート フォルダーまたはサブフォルダーとして [ <b>ソリューション</b>] モジュールに既に存在している場合、または指定したフォルダーが [ <b>ソリューション</b>] モジュール内のフォルダーの親フォルダーである場合、このメソッドはエラーを返します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-116">This method also returns an error if the folder that you specify already exists as a root folder or a subfolder in the <b>Solutions</b> module, or if the folder is a parent folder of a folder in the <b>Solutions</b> module.</span></span></para>
+          <para><span data-ttu-id="5e28d-117">場合、 <paramref name="Scope" /> <b>OlSolutionScope</b>列挙体の<b>olShowInDefaultModules</b>パラメーターを設定、<b>ソリューション</b>モジュールと同様に、それぞれの既定のモジュールで、ソリューションのルートとサブフォルダーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-117">If the <paramref name="Scope" /> parameter is set to <b>olShowInDefaultModules</b> of the <b>OlSolutionScope</b> enumeration, the solution root and its subfolders are displayed in their respective default modules as well as the <b>Solutions</b> module.</span></span> <span data-ttu-id="5e28d-118">場合、 <paramref name="Scope" /> <b>olHideInDefaultModules</b>パラメーターを設定、ソリューション ルートとサブフォルダーが、<b>ソリューション</b>モジュールに表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-118">If the <paramref name="Scope" /> parameter is set to <b>olHideInDefaultModules</b>, the solution root and its subfolders are displayed in the <b>Solutions</b> module.</span></span></para>
+          <para><span data-ttu-id="5e28d-119"><b>フォルダー一覧</b>モジュールでは、
+            <b>ソリューション</b>フォルダーは表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-119">
+            <b>Solution</b> folders are always displayed in the <b>Folder List</b> module.</span></span></para>
+          <para><span data-ttu-id="5e28d-120">既定では、Outlook はいるナビゲーション モジュールでは、メール、予定表、連絡先、およびタスクの既定の順序: 後、<b>タスク</b>モジュールでは、<b>ソリューション</b>モジュールを表示します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-120">By default, Outlook displays the <b>Solutions</b> module after the <b>Tasks</b> module, provided that the navigation modules are in the default order – Mail, Calendar, Contacts, and Tasks.</span></span> <span data-ttu-id="5e28d-121">ナビゲーション ウィンドウを展開すると、 <b>ソリューション</b>モジュールも最初に、拡張モジュールとして表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-121">If the Navigation Pane is expanded, the <b>Solutions</b> module is also initially displayed as an expanded module.</span></span> <span data-ttu-id="5e28d-122"><b>タスク</b>モジュールが表示されない場合は <b>ソリューション</b>モジュールがナビゲーション ウィンドウで、最後の拡張モジュールの後に表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-122">If the <b>Tasks</b> module is not displayed, the <b>Solutions</b> module is displayed after the last expanded module in the Navigation Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -156,16 +97,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-109">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the object.</span>
-          </span>
-          <span data-ttu-id="ad89e-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-123">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="5e28d-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the object.</span></span> <span data-ttu-id="5e28d-124">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-124">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,16 +125,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-111">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span>
-          </span>
-          <span data-ttu-id="ad89e-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-125">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-125">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span></span> <span data-ttu-id="5e28d-126">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-126">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,30 +153,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-113">返します、<see cref="T:System.String" />のローカライズされた表示名を表す値 (C# では<b>文字列</b>)、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-113">Returns a <see cref="T:System.String" /> value (<b>string</b> in C#) that represents the localized display name for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span>
-          </span>
-          <span data-ttu-id="ad89e-114">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-127">返します、<see cref="T:System.String" />のローカライズされた表示名を表す値 (C# では<b>文字列</b>)、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-127">Returns a <see cref="T:System.String" /> value (<b>string</b> in C#) that represents the localized display name for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span></span> <span data-ttu-id="5e28d-128">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-128">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-115">
-            <para>
-              <b>ソリューション</b>モジュール] の下の 1 つだけのソリューション ルート フォルダーがある場合は、<b>ソリューション</b>モジュールの表示名をカスタマイズできます。ソリューション ルート フォルダーが複数ある場合は、名前は、<b>ソリューション</b>に戻ります。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-115">
-              <para>The display name of the <b>Solutions</b> module can be customized if there is only one solution root folder under the <b>Solutions</b> module. If there are multiple solution root folders, the name reverts back to <b>Solutions</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-p109">[ <b>ソリューション</b>] モジュールにソリューション ルート フォルダーが 1 つだけある場合、[ <b>ソリューション</b>] モジュールの表示名をカスタマイズできます。ソリューション ルート フォルダーが複数ある場合は、表示名が " <b>ソリューション</b>" に戻ります。</span><span class="sxs-lookup"><span data-stu-id="5e28d-p109">The display name of the <b>Solutions</b> module can be customized if there is only one solution root folder under the <b>Solutions</b> module. If there are multiple solution root folders, the name reverts back to <b>Solutions</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NavigationModuleType">
@@ -279,30 +182,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-116">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />のナビゲーション モジュールの種類を表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constant that represents the navigation module type for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span>
-          </span>
-          <span data-ttu-id="ad89e-117">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-131">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />のナビゲーション モジュールの種類を表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-131">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constant that represents the navigation module type for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span></span> <span data-ttu-id="5e28d-132">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-132">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-118">
-            <para>
-              <b>SolutionsModule</b>オブジェクトの場合は、このプロパティは、値<b>olModuleSolutions</b>を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-118">
-              <para>For the <b>SolutionsModule</b> object, this property returns the value <b>olModuleSolutions</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-133"><b>SolutionsModule</b> オブジェクトの場合は、このプロパティは、値 <b>olModuleSolutions</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-133">For the <b>SolutionsModule</b> object, this property returns the value <b>olModuleSolutions</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -328,30 +211,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-119">親を返します<see cref="T:System.Object" />(C# での<b>オブジェクト</b>) の指定された<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-119">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span>
-          </span>
-          <span data-ttu-id="ad89e-120">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-134">親を返します<see cref="T:System.Object" />(C# での<b>オブジェクト</b>) の指定された<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-134">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object.</span></span> <span data-ttu-id="5e28d-135">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-121">
-            <para>
-              <b>SolutionsModule</b>オブジェクトの親オブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-121">
-              <para>The parent of a <b>SolutionsModule</b> object returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-136"><b>SolutionsModule</b>オブジェクトの親オブジェクトを返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-136">The parent of a <b>SolutionsModule</b> object returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -380,40 +243,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-122">値を取得または設定、<b>整数値</b>(C# では<b>int</b> ) の序数位置を表す、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />で表示されると、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) that represents the ordinal position of the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object when it is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span>
-          </span>
-          <span data-ttu-id="ad89e-123">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-137">値を取得または設定、<b>整数値</b>(C# では<b>int</b> ) の序数位置を表す、<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />で表示されると、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。</span><span class="sxs-lookup"><span data-stu-id="5e28d-137">Returns or sets an <b>Integer</b> (<b>int</b> in C#) that represents the ordinal position of the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object when it is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span></span> <span data-ttu-id="5e28d-138">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-138">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-124">
-            <para>このプロパティは、1 から 9 までの値にのみ設定できます。範囲外の値にこのプロパティを設定しようとすると、エラーが発生します。ソリューションが<b>ソリューション</b>モジュールに存在しない場合の設定や<b>位置</b>のプロパティを取得するも、エラーが発生します</para>。
-          <para>指定した<b>SolutionsModule</b>オブジェクトでは、他のナビゲーション モジュールの<b>位置</b>の値を変更するは、このプロパティの値を変更する、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、新しい値と元の値の間の相対的な変化に応じて、コレクションです</para>。
-          <list type="bullet"><item><para>の新しい位置とその新しい位置以下では、既に他のナビゲーション モジュールを下に移動、新しい値が小さい場合、元の値よりも指定した<b>SolutionsModule</b>オブジェクトまで移動します</para></item>。
-            <item><para>新しい値が元の値より大きい場合は、指定した<b>SolutionsModule</b>オブジェクト新しい位置に移動し、元の位置上、古い位置と新しい位置の間では、他のナビゲーション モジュールに移動します</para></item></list>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-124">
-              <para>This property can only be set to a value between 1 and 9. An error occurs if you attempt to set this property to a value outside that range. If no solutions exist in the <b>Solutions</b> module, setting or getting the <b>Position</b> property also raises an error.</para>
-              <para>Changing the value of this property for a given <b>SolutionsModule</b> object changes the <b>Position</b> values of other navigation modules in a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> collection, depending on the relative change between the new value and the original value. </para>
-              <list type="bullet">
-                <item>
-                  <para>If the new value is less than the original value, the specified <b>SolutionsModule</b> object moves up to the new position and the other navigation modules that are already at or below that new position move down.</para>
-                </item>
-                <item>
-                  <para>If the new value is greater than the original value, the specified <b>SolutionsModule</b> object moves down to the new position and the other navigation modules that are between the old position and the new position move up, filling the old position.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-p113">このプロパティは、1 から 9 までの値にのみ設定できます。範囲外の値にこのプロパティを設定しようとすると、エラーが発生します。ソリューションが <b>ソリューション</b>モジュールに存在しない場合の設定や <b>位置</b> のプロパティを取得するもエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-p113">This property can only be set to a value between 1 and 9. An error occurs if you attempt to set this property to a value outside that range. If no solutions exist in the <b>Solutions</b> module, setting or getting the <b>Position</b> property also raises an error.</span></span></para>
+          <para><span data-ttu-id="5e28d-142">指定した<b>SolutionsModule</b>オブジェクトでは、他のナビゲーション モジュールの<b>位置</b>の値を変更するは、このプロパティの値を変更する、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、新しい値と元の値の間の相対的な変化に応じて、コレクションです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-142">Changing the value of this property for a given <b>SolutionsModule</b> object changes the <b>Position</b> values of other navigation modules in a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> collection, depending on the relative change between the new value and the original value.</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="5e28d-143">新しい値が元の値より小さい場合は、指定した <b>SolutionsModule</b> オブジェクトが新しい位置に移動し、されているかを下に新しい、他のナビゲーション モジュールが下へ移動を配置します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-143">If the new value is less than the original value, the specified <b>SolutionsModule</b> object moves up to the new position and the other navigation modules that are already at or below that new position move down.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="5e28d-144">新しい値が元の値より大きい場合は、指定した <b>SolutionsModule</b> オブジェクト新しい位置に移動し、古い位置と新しい位置の間では、他のナビゲーション モジュールが、上へ移動、古い位置を埋めます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-144">If the new value is greater than the original value, the specified <b>SolutionsModule</b> object moves down to the new position and the other navigation modules that are between the old position and the new position move up, filling the old position.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -439,30 +281,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-125">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="ad89e-126">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-145">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="5e28d-145">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="5e28d-146">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-146">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-127">
-            <para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します</para>。
-          <para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーが同じ目的を提供します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-127">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-147">ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-147">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="5e28d-148"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="5e28d-148">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="5e28d-149">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="5e28d-149">Both members serve the same purpose.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -491,30 +314,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad89e-128">値を取得または設定、<see cref="T:System.Boolean" />を<b>ソリューション</b>モジュールがナビゲーション ウィンドウで表示されるかどうかを示す (C# では<b>bool</b> ) の値です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-128">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> in C#) value that indicates whether the <b>Solutions</b> module is displayed in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="ad89e-129">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-129">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5e28d-150">値を取得または設定、<see cref="T:System.Boolean" />を<b>ソリューション</b>モジュールがナビゲーション ウィンドウで表示されるかどうかを示す (C# では<b>bool</b> ) の値です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-150">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> in C#) value that indicates whether the <b>Solutions</b> module is displayed in the Navigation Pane.</span></span> <span data-ttu-id="5e28d-151">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="5e28d-151">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad89e-130">
-            <para>
-              <b>ソリューション</b>モジュール] の下のソリューションがない場合、設定、または [<b>可視</b>] プロパティを取得するには、エラーが発生します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad89e-130">
-              <para>If there are no solutions under the <b>Solutions</b> module, setting or getting the <b>Visible</b> property raises an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5e28d-152"><b>ソリューション</b>モジュール] の下のソリューションがない場合、設定、または [ <b>可視</b> ] プロパティを取得するには、エラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="5e28d-152">If there are no solutions under the <b>Solutions</b> module, setting or getting the <b>Visible</b> property raises an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

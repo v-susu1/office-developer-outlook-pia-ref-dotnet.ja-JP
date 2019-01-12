@@ -1,13 +1,5 @@
 <Type Name="_NameSpace" FullName="Microsoft.Office.Interop.Outlook._NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638012" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897221" /></Metadata><TypeSignature Language="C#" Value="public interface _NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NameSpace" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NameSpace" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="efb43-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efb43-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="efb43-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efb43-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="efb43-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efb43-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="efb43-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efb43-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="07525-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="07525-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="07525-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="07525-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="07525-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="07525-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</span><span class="sxs-lookup"><span data-stu-id="07525-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,30 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Accounts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Account" />現在のプロファイル内のオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objects in the current profile.</span>
-          </span>
-          <span data-ttu-id="efb43-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Account" />現在のプロファイル内のオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objects in the current profile.</span></span> <span data-ttu-id="07525-106">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-107">
-            <para>
-              <b>アカウント</b>が、<b>アカウント</b>のコレクションを返します Outlook をセッションレス モードで実行する場合<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />0 にします。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-107">
-              <para>If Outlook is running in sessionless mode, <b>Accounts</b> returns an <b>Accounts</b> collection with <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-107"><b>アカウント</b>が、<b>アカウント</b>のコレクションを返します Outlook をセッションレス モードで実行する場合<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />0 にします。</span><span class="sxs-lookup"><span data-stu-id="07525-107">If Outlook is running in sessionless mode, <b>Accounts</b> returns an <b>Accounts</b> collection with <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressLists">
@@ -119,30 +74,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressLists</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-108">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />このセッションのアドレスのコレクションを表すコレクションを使用可能な一覧表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  collection representing a collection of the address lists available for this session.</span>
-          </span>
-          <span data-ttu-id="efb43-109">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-108">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />このセッションのアドレスのコレクションを表すコレクションを使用可能な一覧表示します。</span><span class="sxs-lookup"><span data-stu-id="07525-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  collection representing a collection of the address lists available for this session.</span></span> <span data-ttu-id="07525-109">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-110">
-            <para>
-              <b>AddressLists</b>コレクションは、現在のセッションのアドレス帳階層のルートを表します。特定の<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />オブジェクトには、利用可能なアドレス帳の 1 つを表します。取得できるアクセスの種類は、それぞれ個別のアドレス帳プロバイダーに与えられたアクセス許可に依存します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-110">
-              <para>The <b>AddressLists</b> collection represents the root of the address book hierarchy for the current session. A particular <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object represents one of the available address books. The type of access you obtain depends on the access permissions granted to you by each individual address book provider.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-110"><b>AddressLists</b> コレクションは、現在のセッションのアドレス帳階層のルートを表します。</span><span class="sxs-lookup"><span data-stu-id="07525-110">The <b>AddressLists</b> collection represents the root of the address book hierarchy for the current session.</span></span> <span data-ttu-id="07525-111">特定の<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />オブジェクトには、利用可能なアドレス帳の 1 つを表します。</span><span class="sxs-lookup"><span data-stu-id="07525-111">A particular <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object represents one of the available address books.</span></span> <span data-ttu-id="07525-112">取得できるアクセスの種類は、それぞれ個別のアドレス帳プロバイダーに与えられたアクセス許可に依存します。</span><span class="sxs-lookup"><span data-stu-id="07525-112">The type of access you obtain depends on the access permissions granted to you by each individual address book provider.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStore">
@@ -168,31 +103,10 @@
         <Parameter Name="Store" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="efb43-p104">プロファイルに追加する .pst ファイルのパスを指定します。.pst ファイルが存在しない場合は作成されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-p104">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-113">現在のプロファイルに個人用フォルダー (.pst) を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-113">Adds a Personal Folders (.pst) file to the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efb43-114">
-            <para>
-              <b>RemoveStore</b>メソッドを使用すると、プロファイルに既に追加されている .pst ファイルを削除します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-114">
-              <para>Use the <b>RemoveStore</b> method to remove a .pst that is already added to a profile.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="07525-p105">プロファイルに追加する .pst ファイルのパスを指定します。.pst ファイルが存在しない場合は作成されます。</span><span class="sxs-lookup"><span data-stu-id="07525-p105">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span></span></param>
+        <summary><span data-ttu-id="07525-115">現在のプロファイルに個人用フォルダー (.pst) を追加します。</span><span class="sxs-lookup"><span data-stu-id="07525-115">Adds a Personal Folders (.pst) file to the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="07525-116"><b>RemoveStore</b> メソッドを使用すると、プロファイルに既に追加されている .pst ファイルを削除します。</span><span class="sxs-lookup"><span data-stu-id="07525-116">Use the <b>RemoveStore</b> method to remove a .pst that is already added to a profile.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStoreEx">
@@ -219,37 +133,11 @@
         <Parameter Name="Type" Type="Microsoft.Office.Interop.Outlook.OlStoreType" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="efb43-p105">プロファイルに追加する .pst ファイルのパスを指定します。.pst ファイルが存在しない場合は作成されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-p105">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="efb43-117">作成するデータ ファイルの形式を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-117">The format in which the data file should be created.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-118">現在のプロファイルに、指定した形式の個人用フォルダー ファイル (.pst) を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-118">Adds a Personal Folders file (.pst) in the specified format to the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efb43-119">
-            <para>
-              <b>OlStoreUnicode</b>定数を使用すると、アイテムとフォルダーにより大きな記憶容量があり、ユーザーのプロファイルに、多言語 Unicode データをサポートする新しい .pst ファイルを追加します。<b>OlStoreANSI</b>定数を使用すると、多言語の Unicode データのフル ・ サポートを提供しないが、以前のバージョンの Outlook と互換性のある .pst ファイルを作成できます。 <b>OlStoreDefault</b>定数を使用して、既定の形式、Microsoft Exchange Server で Outlook を実行するメールボックス モードと互換性がある .pst ファイルを作成できます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-119">
-              <para>Use the <b>olStoreUnicode</b> constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile. The <b>olStoreANSI</b> constant allows you to create .pst files that do not provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook.  The <b>olStoreDefault</b> constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="07525-p106">プロファイルに追加する .pst ファイルのパスを指定します。.pst ファイルが存在しない場合は作成されます。</span><span class="sxs-lookup"><span data-stu-id="07525-p106">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span></span></param>
+        <param name="Type"><span data-ttu-id="07525-119">作成するデータ ファイルの形式を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-119">The format in which the data file should be created.</span></span></param>
+        <summary><span data-ttu-id="07525-120">現在のプロファイルに、指定した形式の個人用フォルダー ファイル (.pst) を追加します。</span><span class="sxs-lookup"><span data-stu-id="07525-120">Adds a Personal Folders file (.pst) in the specified format to the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="07525-121"><b>OlStoreUnicode</b> 定数を使用すると、アイテムとフォルダーにより大きな記憶容量があり、ユーザーのプロファイルに、多言語 Unicode データをサポートする新しい .pst ファイルを追加します。</span><span class="sxs-lookup"><span data-stu-id="07525-121">Use the <b>olStoreUnicode</b> constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile.</span></span> <span data-ttu-id="07525-122"><b>OlStoreANSI</b> 定数を使用すると、多言語の Unicode データのフル ・ サポートを提供しないが、以前のバージョンの Outlook と互換性のある .pst ファイルを作成できます。</span><span class="sxs-lookup"><span data-stu-id="07525-122">The <b>olStoreANSI</b> constant allows you to create .pst files that do not provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook.</span></span>  <span data-ttu-id="07525-123"><b>OlStoreDefault</b> 定数を使用して、既定の形式、Microsoft Exchange Server で Outlook を実行するメールボックス モードと互換性がある .pst ファイルを作成できます。</span><span class="sxs-lookup"><span data-stu-id="07525-123">The <b>olStoreDefault</b> constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -275,16 +163,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-120">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="efb43-121">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-121">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-124">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="07525-125">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,16 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-122">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> Exchange サーバーの自動検出サービスへの接続の種類を表す定数を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to the Exchange server for auto-discovery service.</span>
-          </span>
-          <span data-ttu-id="efb43-123">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-126">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> Exchange サーバーの自動検出サービスへの接続の種類を表す定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-126">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to the Exchange server for auto-discovery service.</span></span> <span data-ttu-id="07525-127">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -349,31 +219,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-124">
-            <b>文字列</b>(C# では<b>文字列</b>) を表す情報を XML では、Exchange サーバーの自動検出サービスから取得されたを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-124">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of an Exchange server.</span>
-          </span>
-          <span data-ttu-id="efb43-125">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-128"><b>文字列</b>(C# では<b>文字列</b>) を表す情報を XML では、Exchange サーバーの自動検出サービスから取得されたを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-128">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of an Exchange server.</span></span> <span data-ttu-id="07525-129">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-129">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-126">
-            <para>は、返される XML 文字列には、さまざまな Web サービスを (たとえば、可用性サービスやユニファイド メッセージング サービス) と利用可能なサーバーに関する情報が含まれています。 </para>
-            <para>アクティブなプロファイルに Microsoft Exchange Server 2007 またはそれ以降のアカウントが含まれていない場合にエラーが返されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-126">
-              <para>The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.  </para>
-              <para>An error is returned if the active profile does not contain an account for Microsoft Exchange Server 2007 or later.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-130">返される XML の文字列には、可用性サービスやユニファイド メッセージング サービスなどの各種 Web サービスや、利用可能なサービスについての情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="07525-130">The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</span></span>  </para>
+          <para><span data-ttu-id="07525-131">アクティブなプロファイルに Microsoft Exchange Server 2007 またはそれ以降のアカウントが含まれていない場合は、エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="07525-131">An error is returned if the active profile does not contain an account for Microsoft Exchange Server 2007 or later.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -399,29 +249,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-127">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />のセットを表す<see cref="T:Microsoft.Office.Interop.Outlook.Category" />名前空間に使用できるオブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-127">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> object that represents the set of <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objects available to the namespace.</span>
-          </span>
-          <span data-ttu-id="efb43-128">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-132">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />のセットを表す<see cref="T:Microsoft.Office.Interop.Outlook.Category" />名前空間に使用できるオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-132">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> object that represents the set of <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objects available to the namespace.</span></span> <span data-ttu-id="07525-133">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="07525-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-129">
-            <para>このプロパティは、一連の<b>名前空間</b>のオブジェクトに格納されている Outlook アイテムに適用可能な<b>カテゴリ</b>オブジェクトでは、マスター] を表し、その名前空間のすべてのユーザーに適用されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-129">
-              <para>This property represents the Master Category List, which is the set of <b>Category</b> objects that can be applied to Outlook items contained by the <b>NameSpace</b> object, and applies to all users of that namespace.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-134">このプロパティは、一連の <b>名前空間</b> のオブジェクトに格納されている Outlook アイテムに適用可能な <b>カテゴリ</b> オブジェクトでは、マスター] を表し、その名前空間のすべてのユーザーに適用されます。</span><span class="sxs-lookup"><span data-stu-id="07525-134">This property represents the Master Category List, which is the set of <b>Category</b> objects that can be applied to Outlook items contained by the <b>NameSpace</b> object, and applies to all users of that namespace.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -447,16 +278,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-130">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="efb43-131">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-135">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="07525-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="07525-136">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-136">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -485,44 +307,12 @@
         <Parameter Name="SecondEntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FirstEntryID">
-          <span data-ttu-id="efb43-132">比較対象の一方のエントリ ID を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-132">The first entry ID to be compared.</span>
-          </span>
-        </param>
-        <param name="SecondEntryID">
-          <span data-ttu-id="efb43-133">比較対象のもう一方のエントリ ID を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-133">The second entry ID to be compared.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-134">同じ Outlook アイテムを参照してください 2 つのエントリ ID の値を示す<b>ブール</b>値 (C# では<b>bool</b> ) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-134">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates if two entry ID values refer to the same Outlook item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-135">
-            <b>True の</b> 場合、エントリ ID の値が同じ Outlook アイテムを参照してください。それ以外の場合、 <b>false を指定</b> します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-135">
-              <b>True</b> if the entry ID values refer to the same Outlook item; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-136">
-            <para>1 つのオブジェクトは、2 つの異なるバイナリ値で表すことができますので、エントリ id を直接比較することはできません。このメソッドを使用すると、2 つのエントリ id が同じオブジェクトを表しているかどうかを決定します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-136">
-              <para>Entry identifiers cannot be compared directly because one object can be represented by two different binary values. Use this method to determine whether two entry identifiers represent the same object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FirstEntryID"><span data-ttu-id="07525-137">比較対象の一方のエントリ ID を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-137">The first entry ID to be compared.</span></span></param>
+        <param name="SecondEntryID"><span data-ttu-id="07525-138">比較対象のもう一方のエントリ ID を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-138">The second entry ID to be compared.</span></span></param>
+        <summary><span data-ttu-id="07525-139">同じ Outlook アイテムを参照してください 2 つのエントリ ID の値を示す<b>ブール</b>値 (C# では<b>bool</b> ) を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-139">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates if two entry ID values refer to the same Outlook item.</span></span></summary>
+        <returns><span data-ttu-id="07525-140"><b>True の</b> 場合、エントリ ID の値が同じ Outlook アイテムを参照してください。それ以外の場合、 <b>false を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="07525-140"><b>True</b> if the entry ID values refer to the same Outlook item; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-p113">1 つのオブジェクトは、2 つの異なるバイナリ値で表すことができるため、エントリ ID を直接比較することはできません。このメソッドを使用すると、2 つのエントリ ID が同じオブジェクトを表しているかどうかを判断できます。</span><span class="sxs-lookup"><span data-stu-id="07525-p113">Entry identifiers cannot be compared directly because one object can be represented by two different binary values. Use this method to determine whether two entry identifiers represent the same object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateContactCard">
@@ -547,155 +337,72 @@
         <Parameter Name="AddressEntry" Type="Microsoft.Office.Interop.Outlook.AddressEntry" />
       </Parameters>
       <Docs>
-        <param name="AddressEntry">
-          <span data-ttu-id="efb43-137">
-            <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />を作成する連絡先カードは、対象となるユーザーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-137">The <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the user for whom the contact card is to be created.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-138">インスタンスを作成、<see cref="T:Microsoft.Office.Core.ContactCard" />オブジェクトで指定されている連絡先の<paramref name="AddressEntry" />のパラメーターです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-138">Creates an instance of a <see cref="T:Microsoft.Office.Core.ContactCard" /> object for the contact that is specified by the <paramref name="AddressEntry" /> parameter.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-139">指定したユーザー用に作成される<b>ContactCard</b>オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-139">Returns a <b>ContactCard</b> object that is created for the specified user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-140">
-            <para>
-              <b>ContactCard</b>オブジェクトは、Microsoft Office のタイプ ライブラリであります。Microsoft Outlook の連絡先カードを作成する<b>CreateContactCard</b>を呼び出す前に Outlook が Outlook のセッションにログオンしなければなりません。</para>
-            <para>、<paramref name="AddressEntry" />パラメーターで定義されている次の AddressEntry 型のいずれかを表す<b>AddressEntry</b>オブジェクトでは、<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />列挙体:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
-                </para>
-              </item>
-            </list>
-            <para>Outlook は、 <b>E を発生させます。_INVALIDARG</b><b>OlAddressEntryUserType</b>値は次のいずれか、引数として<b>CreateContactCard</b>メソッドに渡すときのエラー:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-140">
-              <para>The <b>ContactCard</b> object is available in the type library of Microsoft Office. Before calling <b>CreateContactCard</b> to create a contact card in Microsoft Outlook, Outlook must be logged into an Outlook session. </para>
-              <para>The <paramref name="AddressEntry" /> parameter is an <b>AddressEntry</b> object that represents one of the following AddressEntry types defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olSmtpAddressEntry" />
-                  </para>
-                </item>
-              </list>
-              <para>Outlook raises the <b>E_INVALIDARG</b> error when you pass any of the following <b>OlAddressEntryUserType</b> values as an argument to the <b>CreateContactCard</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="AddressEntry"><span data-ttu-id="07525-143"><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />を作成する連絡先カードは、対象となるユーザーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-143">The <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the user for whom the contact card is to be created.</span></span></param>
+        <summary><span data-ttu-id="07525-144">インスタンスを作成、<see cref="T:Microsoft.Office.Core.ContactCard" />オブジェクトで指定されている連絡先の<paramref name="AddressEntry" />のパラメーターです。</span><span class="sxs-lookup"><span data-stu-id="07525-144">Creates an instance of a <see cref="T:Microsoft.Office.Core.ContactCard" /> object for the contact that is specified by the <paramref name="AddressEntry" /> parameter.</span></span></summary>
+        <returns><span data-ttu-id="07525-145">指定したユーザー用に作成される<b>ContactCard</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-145">Returns a <b>ContactCard</b> object that is created for the specified user.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-p114"><b>ContactCard</b> オブジェクトは、Microsoft Office のタイプ ライブラリであります。 Microsoft Outlookでアドレス帳カードを作成する <b>CreateContactCard</b> を呼び出す前に Outlook が Outlook のセッションにログオンしなければなりません。</span><span class="sxs-lookup"><span data-stu-id="07525-p114">The <b>ContactCard</b> object is available in the type library of Microsoft Office. Before calling <b>CreateContactCard</b> to create a contact card in Microsoft Outlook, Outlook must be logged into an Outlook session. </span></span></para>
+          <para><span data-ttu-id="07525-148"><paramref name="AddressEntry" />パラメーターで定義されている次の AddressEntry 型のいずれかを表す<b>AddressEntry</b>オブジェクトでは、<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />列挙体。</span><span class="sxs-lookup"><span data-stu-id="07525-148">The <paramref name="AddressEntry" /> parameter is an <b>AddressEntry</b> object that represents one of the following AddressEntry types defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olSmtpAddressEntry" />
+              </para>
+            </item>
+          </list>
+          <para><span data-ttu-id="07525-149"><b>OlAddressEntryUserType</b>値は次のいずれか、引数として<b>CreateContactCard</b>メソッドに渡すときに、outlook から<b>E_INVALIDARG</b>エラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="07525-149">Outlook raises the <b>E_INVALIDARG</b> error when you pass any of the following <b>OlAddressEntryUserType</b> values as an argument to the <b>CreateContactCard</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateRecipient">
@@ -721,36 +428,11 @@
         <Parameter Name="RecipientName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="RecipientName">
-          <span data-ttu-id="efb43-141">受信者の名前を指定します。受信者の表示名、エイリアス、完全な SMTP 電子メール アドレスのいずれかを表す文字列を指定できます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-141">The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-142">作成、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-142">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-143">新しい受信者を表す <b>Recipient</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-143">A <b>Recipient</b> object that represents the new recipient.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-144">
-            <para>使用する<b>受信者</b>オブジェクトを作成するこのメソッドを使用してほとんどの場合、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />メソッド、たとえば、代理人のフォルダーを開きます。アドレス帳に対して指定された名前を確認するのにも使用できます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-144">
-              <para> This method is most commonly used to create a <b>Recipient</b> object for use with the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />  method, for example, to open a delegator's folder. It can also be used to verify a given name against an address book.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="RecipientName"><span data-ttu-id="07525-150">受信者の名前を指定します。受信者の表示名、エイリアス、完全な SMTP 電子メール アドレスのいずれかを表す文字列を指定できます。</span><span class="sxs-lookup"><span data-stu-id="07525-150">The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></param>
+        <summary><span data-ttu-id="07525-151">作成、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-151">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span></span></summary>
+        <returns><span data-ttu-id="07525-152">新しい受信者を表す <b>Recipient</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-152">A <b>Recipient</b> object that represents the new recipient.</span></span></returns>
+        <remarks><para> <span data-ttu-id="07525-153">使用する<b>受信者</b>オブジェクトを作成するこのメソッドを使用してほとんどの場合、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />メソッド、たとえば、代理人のフォルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="07525-153">This method is most commonly used to create a <b>Recipient</b> object for use with the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />  method, for example, to open a delegator's folder.</span></span> <span data-ttu-id="07525-154">アドレス帳に対して指定された名前を確認するのにも使用できます。</span><span class="sxs-lookup"><span data-stu-id="07525-154">It can also be used to verify a given name against an address book.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateSharingItem">
@@ -776,45 +458,13 @@
         <Parameter Name="Provider" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Context">
-          <span data-ttu-id="efb43-145">どちらかの<b>文字列</b>(C# では<b>文字列</b>) 値、または<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を使用する共有コンテキストを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-145">Either a <b>String</b> (<b>string</b> in C#) value or a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the sharing context to be used.</span>
-          </span>
-        </param>
-        <param name="Provider">
-          <span data-ttu-id="efb43-146">
-            <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />を使用する共有プロバイダーを表す値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-146">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />  value representing the sharing provider to be used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-147">新しい<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-147">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-148">指定したコンテキストの共有メッセージを表す <b>SharingItem</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-148">A <b>SharingItem</b> object that represents a sharing message for the specified context.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-149">
-            <para>
-              <b>文字列</b>(C# では<b>文字列</b>) の値が指定されている場合<paramref name="Context" />、このメソッドは、共有コンテキストとして URL が指定されていると仮定しています。場合、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />でオブジェクトが指定されている<paramref name="Context" />、メソッドは、フォルダーから共有コンテキストを検出しようとしています。共有しない場合は、コンテキストが存在する、または複数の共有コンテキストが存在する場合、エラーが発生します</para>。
-          <para>場合<paramref name="Provider" />が指定されていないメソッドで指定した値の適切な共有プロバイダーを使用しようとする<paramref name="Context" />です</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-149">
-              <para>If a <b>String</b> (<b>string</b> in C#) value is specified in <paramref name="Context" />, the method assumes that a URL has been provided as a sharing context. If a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object is specified in <paramref name="Context" />, the method attempts to discover the sharing context from the folder. If no sharing context exists, or if more than one sharing context exists, an error occurs.</para>
-              <para>If <paramref name="Provider" /> is not specified, the method attempts to use the appropriate sharing provider for the value specified in <paramref name="Context" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Context"><span data-ttu-id="07525-155">どちらかの<b>文字列</b>(C# では<b>文字列</b>) 値、または<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を使用する共有コンテキストを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-155">Either a <b>String</b> (<b>string</b> in C#) value or a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the sharing context to be used.</span></span></param>
+        <param name="Provider"><span data-ttu-id="07525-156"><see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />を使用する共有プロバイダーを表す値。</span><span class="sxs-lookup"><span data-stu-id="07525-156">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />  value representing the sharing provider to be used.</span></span></param>
+        <summary><span data-ttu-id="07525-157">新しい<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-157">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object.</span></span></summary>
+        <returns><span data-ttu-id="07525-158">指定したコンテキストの共有メッセージを表す <b>SharingItem</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-158">A <b>SharingItem</b> object that represents a sharing message for the specified context.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-159"><b>文字列</b>(C# では<b>文字列</b>) の値が指定されている場合<paramref name="Context" />、このメソッドは、共有コンテキストとして URL が指定されていると仮定しています。</span><span class="sxs-lookup"><span data-stu-id="07525-159">If a <b>String</b> (<b>string</b> in C#) value is specified in <paramref name="Context" />, the method assumes that a URL has been provided as a sharing context.</span></span> <span data-ttu-id="07525-160">場合、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />でオブジェクトが指定されている<paramref name="Context" />、メソッドは、フォルダーから共有コンテキストを検出しようとしています。</span><span class="sxs-lookup"><span data-stu-id="07525-160">If a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object is specified in <paramref name="Context" />, the method attempts to discover the sharing context from the folder.</span></span> <span data-ttu-id="07525-161">共有コンテキストが存在しない場合、または 1 つの共有コンテキストが存在する以上の場合、エラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="07525-161">If no sharing context exists, or if more than one sharing context exists, an error occurs.</span></span></para>
+          <para><span data-ttu-id="07525-162">場合<paramref name="Provider" />が指定されていないメソッドで指定した値の適切な共有プロバイダーを使用しようとする<paramref name="Context" />。</span><span class="sxs-lookup"><span data-stu-id="07525-162">If <paramref name="Provider" /> is not specified, the method attempts to use the appropriate sharing provider for the value specified in <paramref name="Context" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentProfileName">
@@ -840,31 +490,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-150">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 現在のプロファイルの名前を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-150">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the current profile.</span>
-          </span>
-          <span data-ttu-id="efb43-151">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-151">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-163"><b>文字列</b>(C# では<b>文字列</b>) を返します。 現在のプロファイルの名前を表します。</span><span class="sxs-lookup"><span data-stu-id="07525-163">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the current profile.</span></span> <span data-ttu-id="07525-164">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-152">
-            <para>プロファイルを作成するときにプロファイル名を割り当てます</para>。
-          <para><b>CurrentProfileName</b>は、MAPI プロパティの<b>PidTagProfileName</b>にマップされます。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-152">
-              <para>You assign a profile name when you create a profile. </para>
-              <para>
-                <b>CurrentProfileName</b> maps to the MAPI property <b>PidTagProfileName</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-p118">プロファイル名は、プロファイルの作成時に割り当てます。</span><span class="sxs-lookup"><span data-stu-id="07525-p118">You assign a profile name when you create a profile. </span></span></para>
+          <para><span data-ttu-id="07525-166">
+            <b>CurrentProfileName</b> は、MAPI プロパティの <b>PidTagProfileName</b> にマップされます。</span><span class="sxs-lookup"><span data-stu-id="07525-166">
+            <b>CurrentProfileName</b> maps to the MAPI property <b>PidTagProfileName</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentUser">
@@ -890,16 +522,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-153">現在ログオン中のユーザーの表示名を取得、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-153">Returns the display name of the currently logged-on user as a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span>
-          </span>
-          <span data-ttu-id="efb43-154">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-154">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-167">現在ログオン中のユーザーの表示名を取得、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-167">Returns the display name of the currently logged-on user as a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span></span> <span data-ttu-id="07525-168">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-168">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -927,29 +550,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-155">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 、プロファイルの既定のストアを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-155">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object representing the default Store for the profile.</span>
-          </span>
-          <span data-ttu-id="efb43-156">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-156">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-169">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 、プロファイルの既定のストアを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-169">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object representing the default Store for the profile.</span></span> <span data-ttu-id="07525-170">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-157">
-            <para>現在のプロファイルの既定のストアがない場合は、エラーを返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-157">
-              <para>Returns an error  if there is no default store for the current profile.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-171">現在のプロファイルに既定のストアがない場合、エラーを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-171">Returns an error  if there is no default store for the current profile.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dial">
@@ -974,19 +578,8 @@
         <Parameter Name="ContactItem" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ContactItem">
-          <span data-ttu-id="efb43-158">
-            <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />をダイヤルする連絡先のオブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-158">The <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object of the contact you want to dial.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-159">指定した連絡先の通常の電話番号をダイヤルできる [新しいコール] ダイアログ ボックスを表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-159">Displays the New Call dialog box that allows users to dial the primary phone number of a specified contact.</span>
-          </span>
-        </summary>
+        <param name="ContactItem"><span data-ttu-id="07525-172"><see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />をダイヤルする連絡先のオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-172">The <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object of the contact you want to dial.</span></span></param>
+        <summary><span data-ttu-id="07525-173">指定した連絡先の通常の電話番号をダイヤルできる [新しいコール] ダイアログ ボックスを表示します。</span><span class="sxs-lookup"><span data-stu-id="07525-173">Displays the New Call dialog box that allows users to dial the primary phone number of a specified contact.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1013,30 +606,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-160">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />を現在のユーザーの接続モードを示す定数を使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode the user is using.</span>
-          </span>
-          <span data-ttu-id="efb43-161">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-161">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-174">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />を現在のユーザーの接続モードを示す定数を使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-174">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode the user is using.</span></span> <span data-ttu-id="07525-175">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-175">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-162">
-            <para>
-              <b>ExchangeConnectionMode</b>プロパティが<b>olOffline</b>または<b>olDisconnected</b>である場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" />プロパティは<b>True</b>を返します。<b>ExchangeConnectionMode</b>プロパティが<b>olOnline</b><b>olConnected</b>、 <b>olConnectedHeaders</b>の場合、 <b>NameSpace.Offline</b>プロパティは<b>False</b>を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-162">
-              <para>If the <b>ExchangeConnectionMode</b> property is <b>olOffline</b> or <b>olDisconnected</b>, the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> property will return <b>True</b> . If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>NameSpace.Offline</b> property will return <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-176"><b>ExchangeConnectionMode</b>プロパティが<b>olOffline</b>または<b>olDisconnected</b>である場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" />プロパティは<b>True</b>を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-176">If the <b>ExchangeConnectionMode</b> property is <b>olOffline</b> or <b>olDisconnected</b>, the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> property will return <b>True</b> .</span></span> <span data-ttu-id="07525-177"><b>ExchangeConnectionMode</b>プロパティが<b>olOnline</b> <b>olConnected</b>、 <b>olConnectedHeaders</b>の場合、 <b>NameSpace.Offline</b>プロパティは<b>False</b>を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-177">If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>NameSpace.Offline</b> property will return <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -1062,29 +635,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-163">アクティブなメールボックスがホストされている Exchange サーバーの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-163">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Exchange server on which the active mailbox is hosted.</span>
-          </span>
-          <span data-ttu-id="efb43-164">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-164">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-178">アクティブなメールボックスがホストされている Exchange サーバーの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-178">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Exchange server on which the active mailbox is hosted.</span></span> <span data-ttu-id="07525-179">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-179">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-165">
-            <para>Exchange メールボックスが名前空間に存在しない場合は、このプロパティは空の文字列を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-165">
-              <para>If an Exchange mailbox is not present in the namespace, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-180">Exchange メールボックスが名前空間に存在していない場合、このプロパティは空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-180">If an Exchange mailbox is not present in the namespace, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -1110,34 +664,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-166">アクティブなメールボックスがホストされている Exchange サーバーの完全なバージョンを表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-166">Returns a <b>String</b> (<b>string</b> in C#) value that represents the full version of the Exchange server on which the active mailbox is hosted.</span>
-          </span>
-          <span data-ttu-id="efb43-167">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-167">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-181">アクティブなメールボックスがホストされている Exchange サーバーの完全なバージョンを表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-181">Returns a <b>String</b> (<b>string</b> in C#) value that represents the full version of the Exchange server on which the active mailbox is hosted.</span></span> <span data-ttu-id="07525-182">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-182">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-168">
-            <para>このプロパティは、アクティブなメールボックスの Exchange サーバーのバージョン番号を含む文字列を返します。バージョン番号が次のように 4 つの部分を持つ:</para>
-            <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-            <para>いないすべての部分に存在する Microsoft Exchange Server によって提供されるバージョン情報に応じて、バージョン番号です。たとえば、このプロパティは Microsoft Exchange Server 2003 Service Pack 2 の「6.5.7638」を返します</para>。
-          <para>Exchange メールボックスが名前空間に存在しない場合は、このプロパティは空の文字列を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-168">
-              <para>This property returns a string containing the version number of the Exchange server for the active mailbox. The version number has four parts, as follows:</para>
-              <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-              <para>Not all parts may be present in the version number, depending on the version information supplied by Microsoft Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</para>
-              <para>If an Exchange mailbox is not present in the namespace, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-183">このプロパティは、アクティブなメールボックスの Exchange サーバーのバージョン番号を含む文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-183">This property returns a string containing the version number of the Exchange server for the active mailbox.</span></span> <span data-ttu-id="07525-184">バージョン番号では、次のように 4 つの部分があります。</span><span class="sxs-lookup"><span data-stu-id="07525-184">The version number has four parts, as follows:</span></span></para>
+          <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
+          <para><span data-ttu-id="07525-185">すべてのパーツは、Microsoft Exchange Server によって提供されるバージョン情報に応じて、バージョン番号である可能性があります。</span><span class="sxs-lookup"><span data-stu-id="07525-185">Not all parts may be present in the version number, depending on the version information supplied by Microsoft Exchange Server.</span></span> <span data-ttu-id="07525-186">たとえば、Microsoft Exchange Server 2003 Service Pack 2 の場合、このプロパティは "6.5.7638" を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-186">For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</span></span></para>
+          <para><span data-ttu-id="07525-187">Exchange メールボックスが名前空間に存在していない場合、このプロパティは空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-187">If an Exchange mailbox is not present in the namespace, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folders">
@@ -1163,30 +696,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-169">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクション内の指定されたすべてのフォルダーを表す<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-169">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection that represents all the folders contained in the specified <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-          </span>
-          <span data-ttu-id="efb43-170">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-170">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-188">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクション内の指定されたすべてのフォルダーを表す<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</span><span class="sxs-lookup"><span data-stu-id="07525-188">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection that represents all the folders contained in the specified <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span></span> <span data-ttu-id="07525-189">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-189">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-171">
-            <para>
-              <b>名前空間</b>のオブジェクトは、特定の名前空間のすべてのフォルダーのルートです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-171">
-              <para>The <b>NameSpace</b>  object is the root of all the folders for the given name space. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-190"><b>名前空間</b>のオブジェクトは、特定の名前空間のすべてのフォルダーのルートです。</span><span class="sxs-lookup"><span data-stu-id="07525-190">The <b>NameSpace</b>  object is the root of all the folders for the given name space.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -1212,44 +725,18 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="efb43-172">セッションの維持されるアドレス エントリの文字列識別子です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-172">A string identifier for an address entry maintained for the session.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-173">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />で指定されたアドレスのエントリを表す<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-173">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry  specified by <paramref name="ID" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-174">持つ<b>AddressEntry</b><see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />プロパティの指定に一致する<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-174">An <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property matching the specified <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-175">
-            <para>
-              <b>AddressEntry</b>の<b>ID</b>プロパティは、 <b>AddressEntry</b>が作成されたときに割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。</para>
-            <para>Outlook セッションは、アドレス帳の階層構造を維持して一致する必要がありますアドレスのエントリが返された、指定された<paramref name="ID" />のアドレス帳のいずれかと</para>。
-          <para><b>GetAddressEntryFromID</b>がエラーを返す場合はアイテムではありません、指定された<paramref name="ID" />にあります</para>。
-          <para><b>GetAddressEntryFromID</b>は、使用可能な接続が存在しないか、オフラインで作業するユーザーが設定されている場合もエラーを返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-175">
-              <para>The  <b>ID</b> property  for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. </para>
-              <para>Outlook maintains a hierarchy of address books for a session, and the address entry returned must match the given <paramref name="ID" /> and  be in one of the address books.</para>
-              <para>
-                <b>GetAddressEntryFromID</b> returns an error if no item with the given <paramref name="ID" /> can be found.</para>
-              <para>
-                <b>GetAddressEntryFromID</b> also returns an error if no connection is available or the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="07525-191">セッションの維持されるアドレス エントリの文字列識別子です。</span><span class="sxs-lookup"><span data-stu-id="07525-191">A string identifier for an address entry maintained for the session.</span></span></param>
+        <summary><span data-ttu-id="07525-192">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />で指定されたアドレスのエントリを表す<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="07525-192">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry  specified by <paramref name="ID" />.</span></span></summary>
+        <returns><span data-ttu-id="07525-193">持つ<b>AddressEntry</b> <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />プロパティの指定に一致する<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="07525-193">An <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property matching the specified <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-194"><b>AddressEntry</b>の<b>ID</b>プロパティは、 <b>AddressEntry</b>が作成されたときに割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。</span><span class="sxs-lookup"><span data-stu-id="07525-194">The  <b>ID</b> property  for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created.</span></span> </para>
+          <para><span data-ttu-id="07525-195">Outlook セッションは、アドレス帳の階層構造を維持して一致する必要がありますアドレスのエントリが返される、指定された<paramref name="ID" />のアドレス帳のいずれかとします。</span><span class="sxs-lookup"><span data-stu-id="07525-195">Outlook maintains a hierarchy of address books for a session, and the address entry returned must match the given <paramref name="ID" /> and  be in one of the address books.</span></span></para>
+          <para><span data-ttu-id="07525-196">
+            <b>GetAddressEntryFromID</b>がエラーを返す場合はアイテムではありません、指定された<paramref name="ID" />はあります。</span><span class="sxs-lookup"><span data-stu-id="07525-196">
+            <b>GetAddressEntryFromID</b> returns an error if no item with the given <paramref name="ID" /> can be found.</span></span></para>
+          <para><span data-ttu-id="07525-197">
+            <b>GetAddressEntryFromID</b>は、使用可能な接続が存在しないか、オフラインで作業するユーザーが設定されている場合にもエラーを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-197">
+            <b>GetAddressEntryFromID</b> also returns an error if no connection is available or the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -1275,37 +762,12 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="FolderType">
-          <span data-ttu-id="efb43-176">返される既定のフォルダーの種類です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-176">The type of default folder to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-177">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、現在のプロファイルの要求された型の既定のフォルダーを表すオブジェクトたとえば、現在ログオンしているユーザーの既定の予定表フォルダーを取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-177">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the default folder of the requested type for the current profile; for example, obtains the default Calendar folder for the user who is currently logged on.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-178">現在のプロファイルにおける要求された種類の既定のフォルダーを表す <b>Folder</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-178">A <b>Folder</b> object that represents the default folder of the requested type for the current profile.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-179">
-            <para>の使用を特定の既定以外のフォルダーを取得するには、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです</para>。
-          <para>要求された型の既定のフォルダーがない場合、種類によっては、Outlook を作成し、フォルダーを返したり、エラーを発生させる可能性があります。たとえば、olFolderManagedEmail が、FolderType として指定されているフォルダーの管理グループが展開されていない場合は、Microsoft Outlook エラーが発生します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-179">
-              <para>To return a specific non-default folder, use the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection.</para>
-              <para>If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error. For example, if olFolderManagedEmail is specified as the FolderType but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FolderType"><span data-ttu-id="07525-198">返される既定のフォルダーの種類です。</span><span class="sxs-lookup"><span data-stu-id="07525-198">The type of default folder to return.</span></span></param>
+        <summary><span data-ttu-id="07525-199">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、現在のプロファイルの要求された型の既定のフォルダーを表すオブジェクトたとえば、現在ログオンしているユーザーの既定の予定表フォルダーを取得します。</span><span class="sxs-lookup"><span data-stu-id="07525-199">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the default folder of the requested type for the current profile; for example, obtains the default Calendar folder for the user who is currently logged on.</span></span></summary>
+        <returns><span data-ttu-id="07525-200">現在のプロファイルにおける要求された種類の既定のフォルダーを表す <b>Folder</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-200">A <b>Folder</b> object that represents the default folder of the requested type for the current profile.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-201">返す特定の既定以外のフォルダーを使用します<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="07525-201">To return a specific non-default folder, use the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection.</span></span></para>
+          <para><span data-ttu-id="07525-202">要求された種類の既定のフォルダーが存在しない場合は、種類に応じて、Outlook がフォルダーを作成して返すか、エラーを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-202">If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error.</span></span> <span data-ttu-id="07525-203">たとえば、olFolderManagedEmail が、FolderType として指定されているフォルダーの管理グループが展開されていない場合は、Microsoft Outlook によってエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="07525-203">For example, if olFolderManagedEmail is specified as the FolderType but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">
@@ -1331,44 +793,12 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDFolder">
-          <span data-ttu-id="efb43-180">
-            <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のフォルダーです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-180">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the folder.</span>
-          </span>
-        </param>
-        <param name="EntryIDStore">
-          <span data-ttu-id="efb43-181">
-            <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-181">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-182">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-182">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-183">指定したフォルダーを表す<b>Folder</b>オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-183">A<b>Folder</b> object that represents the specified folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-184">
-            <para>このメソッドは、MAPI および OLE/メッセージング アプリケーションと Outlook との間の移行を容易にするために使用されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-184">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryIDFolder"><span data-ttu-id="07525-204"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のフォルダーです。</span><span class="sxs-lookup"><span data-stu-id="07525-204">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the folder.</span></span></param>
+        <param name="EntryIDStore"><span data-ttu-id="07525-205"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。</span><span class="sxs-lookup"><span data-stu-id="07525-205">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span></span></param>
+        <summary><span data-ttu-id="07525-206">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-206">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="07525-207">指定したフォルダーを表す<b>Folder</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-207">A<b>Folder</b> object that represents the specified folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-208">このメソッドは、MAPI および OLE/メッセージング アプリケーションと Microsoft Outlook との互換性を保つために使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-208">This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetGlobalAddressList">
@@ -1392,32 +822,13 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-185">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 、Exchange のグローバル アドレス一覧を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-185">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that represents the Exchange Global Address List.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-186">グローバル アドレス一覧を表す <b>addresslist オブジェクトを見つける</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-186">An <b>AddressList</b> that represents the Global Address List.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-187">
-            <b>GetGlobalAddressList</b>の<para>には、Exchange サーバーのみがサポートされています。グローバル アドレス一覧が使用できないまたはが見つからない場合、エラーが返されます</para>。
-          <para>にもエラーが返されます場合は、利用可能な接続が存在しないか、オフラインで作業するユーザーを設定します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-187">
-              <para>
-                <b>GetGlobalAddressList</b> supports only Exchange servers. It returns an error if the Global Address List is not available or cannot be found.</para>
-              <para>It also returns an error if no connection is available or the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07525-209">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 、Exchange のグローバル アドレス一覧を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-209">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that represents the Exchange Global Address List.</span></span></summary>
+        <returns><span data-ttu-id="07525-210">グローバル アドレス一覧を表す <b>addresslist オブジェクトを見つける</b> 。</span><span class="sxs-lookup"><span data-stu-id="07525-210">An <b>AddressList</b> that represents the Global Address List.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-p131">
+            <b>GetGlobalAddressList</b> には、Exchange サーバーのみがサポートされています。グローバル アドレス一覧が使用できないまたはが見つからない場合、エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="07525-p131">
+            <b>GetGlobalAddressList</b> supports only Exchange servers. It returns an error if the Global Address List is not available or cannot be found.</span></span></para>
+          <para><span data-ttu-id="07525-213">また、接続を使用できないか、ユーザーがオフラインで作業するよう設定されている場合にも、エラーを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-213">It also returns an error if no connection is available or the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItemFromID">
@@ -1443,51 +854,13 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDItem">
-          <span data-ttu-id="efb43-188">
-            <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のアイテムです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-188">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the item.</span>
-          </span>
-        </param>
-        <param name="EntryIDStore">
-          <span data-ttu-id="efb43-189">
-            <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-189">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span>
-          </span>
-          <span data-ttu-id="efb43-190">
-            <paramref name="EntryIDStore" />通常に提供してください、MAPI Id に基づいてアイテムを取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-190">
-              <paramref name="EntryIDStore" /> usually must be provided when retrieving an item based on its MAPI IDs.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-191">指定されたエントリ ID で表される Microsoft Outlook アイテムを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-191">Returns a Microsoft Outlook item identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-192">指定された Outlook アイテムを表すオブジェクト型 (Object) の値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-192">An Object value that represents the specified Outlook item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-193">
-            <para>MAPI および OLE/メッセージング アプリケーションと Outlook との間の移行を容易にするためにこのメソッドを使用します</para>。
-          <para>エントリ Id の詳細についてを参照してください、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />プロパティ</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-193">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Outlook.</para>
-              <para>For more information about Entry IDs, see the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryIDItem"><span data-ttu-id="07525-214"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のアイテムです。</span><span class="sxs-lookup"><span data-stu-id="07525-214">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the item.</span></span></param>
+        <param name="EntryIDStore"><span data-ttu-id="07525-215"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。</span><span class="sxs-lookup"><span data-stu-id="07525-215">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span></span> <span data-ttu-id="07525-216"><paramref name="EntryIDStore" />通常に提供してください、MAPI Id に基づいてアイテムを取得します。</span><span class="sxs-lookup"><span data-stu-id="07525-216"><paramref name="EntryIDStore" /> usually must be provided when retrieving an item based on its MAPI IDs.</span></span></param>
+        <summary><span data-ttu-id="07525-217">指定されたエントリ ID で表される Microsoft Outlook アイテムを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-217">Returns a Microsoft Outlook item identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="07525-218">指定された Outlook アイテムを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="07525-218">An Object value that represents the specified Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-219">このメソッドは、MAPI および OLE/メッセージング アプリケーションと Outlook との互換性を保つために使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-219">This method is used for ease of transition between MAPI and OLE/Messaging applications and Outlook.</span></span></para>
+          <para><span data-ttu-id="07525-220">エントリ Id の詳細についてを参照してください、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="07525-220">For more information about Entry IDs, see the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> property.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -1513,37 +886,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <span data-ttu-id="efb43-194">
-            <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-194">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />  of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-195">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-195">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-196">指定された受信者を表す <b>Recipient</b> オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-196">A <b>Recipient</b> object that represents the specified recipient.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-197">
-            <para>このメソッドは、MAPI および OLE/メッセージング アプリケーションと Outlook との間の移行を容易にするために使用されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-197">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryID"><span data-ttu-id="07525-221"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</span><span class="sxs-lookup"><span data-stu-id="07525-221">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />  of the recipient.</span></span></param>
+        <summary><span data-ttu-id="07525-222">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-222">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="07525-223">指定された受信者を表す <b>Recipient</b> オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-223">A <b>Recipient</b> object that represents the specified recipient.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-224">このメソッドは、MAPI および OLE/メッセージング アプリケーションと Microsoft Outlook との互換性を保つために使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-224">This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelectNamesDialog">
@@ -1567,23 +914,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-198">取得、 <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-198">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object for the current session.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-199">現在のセッションの<b>SelectNamesDialog</b>オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-199">A  <b>SelectNamesDialog</b> object for the current session.</span>
-          </span>
-          <span data-ttu-id="efb43-200">
-            <b>SelectNamesDialog</b> オブジェクトは、現在のセッションで 1 つまたは複数のアドレス一覧からエントリを選択するユーザーの 名前の選択] ダイアログ ボックスの表示をサポートします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-200">The <b>SelectNamesDialog</b> object supports displaying the Select Names dialog box for the user to select entries from one or more address lists in the current session.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="07525-225">取得、 <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-225">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object for the current session.</span></span></summary>
+        <returns><span data-ttu-id="07525-226">現在のセッションの<b>SelectNamesDialog</b>オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-226">A  <b>SelectNamesDialog</b> object for the current session.</span></span> <span data-ttu-id="07525-227"><b>SelectNamesDialog</b> オブジェクトは、現在のセッションで 1 つまたは複数のアドレス一覧からエントリを選択するユーザーの 名前の選択] ダイアログ ボックスの表示をサポートします。</span><span class="sxs-lookup"><span data-stu-id="07525-227">The <b>SelectNamesDialog</b> object supports displaying the Select Names dialog box for the user to select entries from one or more address lists in the current session.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1610,48 +942,15 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="Recipient">
-          <span data-ttu-id="efb43-201">フォルダーの所有者です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-201">The owner of the folder.</span>
-          </span>
-          <span data-ttu-id="efb43-202">
-            <b>受信者</b>オブジェクトを解決する必要があることに注意してください。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-202">Note that the <b>Recipient</b> object must be resolved.</span>
-          </span>
-        </param>
-        <param name="FolderType">
-          <span data-ttu-id="efb43-203">フォルダーの種類を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-203">The type of folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-204">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />指定したユーザーの既定のフォルダーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-204">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the specified default folder for the specified user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-205">指定したユーザーの既定のフォルダーを表す<b>Folder</b>オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-205">A <b>Folder</b> object that represents the specified default folder for the specified user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-206">
-            <para>このメソッドは、1 人のユーザーは、代理アクセス権を別のユーザーに、既定のフォルダー (共有予定表フォルダーなど) の 1 つ以上の委任のシナリオで使用します</para>。
-          <para><paramref name="FolderType" /><b>OlDefaultFolders</b>定数は、次のいずれか: <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、または<b>olFolderTasks</b>。(定数<b>olFolderDeletedItems</b>、 <b>olFolderOutbox</b>、<b>それ</b>、 <b>olFolderConflicts</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>、<b>olPublicFoldersAllPublicFolders</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderToDo</b>、 <b>olFolderManagedEmail</b>、および<b>olFolderSentMail</b>指定できませんこの引数にします。)</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-206">
-              <para>This method is used in a delegation scenario, where one user has delegated access to another user for one or more of their default folders (for example, their shared Calendar folder).</para>
-              <para>
-                <paramref name="FolderType" /> can be one of the following <b>OlDefaultFolders</b> constants: <b>olFolderCalendar</b>, <b>olFolderContacts</b>, <b>olFolderDrafts</b>, <b>olFolderInbox</b>, <b>olFolderJournal</b>, <b>olFolderNotes</b>, or <b>olFolderTasks</b>. (The constants <b>olFolderDeletedItems</b>, <b>olFolderOutbox</b>, <b>olFolderJunk</b>, <b>olFolderConflicts</b>, <b>olFolderLocalFailures</b>, <b>olFolderServerFailures</b>, <b>olFolderSyncIssues</b>, <b>olPublicFoldersAllPublicFolders</b>, <b>olFolderRssSubscriptions</b>, <b>olFolderToDo</b>, <b>olFolderManagedEmail</b>, and <b>olFolderSentMail</b> cannot be specified for this argument.)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Recipient"><span data-ttu-id="07525-228">フォルダーの所有者です。</span><span class="sxs-lookup"><span data-stu-id="07525-228">The owner of the folder.</span></span> <span data-ttu-id="07525-229"><b>受信者</b>オブジェクトを解決する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="07525-229">Note that the <b>Recipient</b> object must be resolved.</span></span></param>
+        <param name="FolderType"><span data-ttu-id="07525-230">フォルダーの種類を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-230">The type of folder.</span></span></param>
+        <summary><span data-ttu-id="07525-231">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />指定したユーザーの既定のフォルダーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-231">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the specified default folder for the specified user.</span></span></summary>
+        <returns><span data-ttu-id="07525-232">指定したユーザーの既定のフォルダーを表す<b>Folder</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-232">A <b>Folder</b> object that represents the specified default folder for the specified user.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-233">このメソッドは、1 人のユーザーは、代理アクセス権を別のユーザーに、既定のフォルダー (共有予定表フォルダーなど) の 1 つ以上の委任のシナリオで使用されます。</span><span class="sxs-lookup"><span data-stu-id="07525-233">This method is used in a delegation scenario, where one user has delegated access to another user for one or more of their default folders (for example, their shared Calendar folder).</span></span></para>
+          <para><span data-ttu-id="07525-234">
+            <paramref name="FolderType" /><b>OlDefaultFolders</b>定数は、次のいずれか: <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、<b>または olFolderTasks</b>.</span><span class="sxs-lookup"><span data-stu-id="07525-234">
+            <paramref name="FolderType" /> can be one of the following <b>OlDefaultFolders</b> constants: <b>olFolderCalendar</b>, <b>olFolderContacts</b>, <b>olFolderDrafts</b>, <b>olFolderInbox</b>, <b>olFolderJournal</b>, <b>olFolderNotes</b>, or <b>olFolderTasks</b>.</span></span> <span data-ttu-id="07525-235">(定数<b>olFolderDeletedItems</b>、 <b>olFolderOutbox</b>、<b>それ</b>、 <b>olFolderConflicts</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>、 <b>olPublicFoldersAllPublicFolders</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderToDo</b>、 <b>olFolderManagedEmail</b>、 <b>olFolderSentMail</b>は、この引数に指定できません)。</span><span class="sxs-lookup"><span data-stu-id="07525-235">(The constants <b>olFolderDeletedItems</b>, <b>olFolderOutbox</b>, <b>olFolderJunk</b>, <b>olFolderConflicts</b>, <b>olFolderLocalFailures</b>, <b>olFolderServerFailures</b>, <b>olFolderSyncIssues</b>, <b>olPublicFoldersAllPublicFolders</b>, <b>olFolderRssSubscriptions</b>, <b>olFolderToDo</b>, <b>olFolderManagedEmail</b>, and <b>olFolderSentMail</b> cannot be specified for this argument.)</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStoreFromID">
@@ -1677,42 +976,15 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="efb43-207">ストアを識別する文字列値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-207">A string value identifying a store.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-208">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />で指定されたストアを表す<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-208">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store specified by <paramref name="ID" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-209">
-            <b>Store</b>オブジェクトを持つ、<see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />プロパティと一致する<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-209">A <b>Store</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> property matching <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-210">
-            <para>
-              <b>ストア</b>の<b>StoreID</b>プロパティは、セッションのプロファイルに一意です。MAPI プロパティの<b>PidTagStoreEntryId</b>に相当します</para>。
-          <para>このメソッドが成功するためにストアをマウントする必要があります</para>。
-          <para><b>GetStoreFromID</b>エラーが返されますありませんストアを指定した<paramref name="ID" />の現在のセッションが見つからないことができます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-210">
-              <para>The <b>StoreID</b> property of a <b>Store</b> is unique to the profile for the session. It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</para>
-              <para>The store must be mounted in order for this method to succeed.</para>
-              <para>
-                <b>GetStoreFromID</b> returns an error  if no store with the specified <paramref name="ID" /> can be found for the current session.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="07525-236">ストアを識別する文字列値を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-236">A string value identifying a store.</span></span></param>
+        <summary><span data-ttu-id="07525-237">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />で指定されたストアを表す<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="07525-237">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store specified by <paramref name="ID" />.</span></span></summary>
+        <returns><span data-ttu-id="07525-238"><b>Store</b>オブジェクトを持つ、<see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />プロパティと一致する<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="07525-238">A <b>Store</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> property matching <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-239"><b>ストア</b> の <b>StoreID</b> プロパティは、セッションのプロファイルに一意です。</span><span class="sxs-lookup"><span data-stu-id="07525-239">The <b>StoreID</b> property of a <b>Store</b> is unique to the profile for the session.</span></span> <span data-ttu-id="07525-240">MAPI プロパティの <b>PidTagStoreEntryId</b> と同じであります。</span><span class="sxs-lookup"><span data-stu-id="07525-240">It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="07525-241">このメソッドを正常に実行するには、ストアがマウントされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="07525-241">The store must be mounted in order for this method to succeed.</span></span></para>
+          <para><span data-ttu-id="07525-242">
+            <b>GetStoreFromID</b>エラーが返されますありませんストアを指定した<paramref name="ID" />の現在のセッションが見つからないことができます。</span><span class="sxs-lookup"><span data-stu-id="07525-242">
+            <b>GetStoreFromID</b> returns an error  if no store with the specified <paramref name="ID" /> can be found for the current session.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Logoff">
@@ -1736,12 +1008,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-211">現在の MAPI セッションからユーザーがログオフされます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-211">Logs the user off from the current MAPI session.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-243">現在の MAPI セッションからユーザーがログオフされます。</span><span class="sxs-lookup"><span data-stu-id="07525-243">Logs the user off from the current MAPI session.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1770,93 +1037,15 @@
         <Parameter Name="NewSession" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Profile">
-          <span data-ttu-id="efb43-212">MAPI プロファイル名として<b>文字列</b>(C# では<b>文字列</b>)、セッションに使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-212">The MAPI profile name, as a <b>String </b>(<b>string</b> in C#), to use for the session.</span>
-          </span>
-          <span data-ttu-id="efb43-213">現在のセッションの既定のプロファイルを使用するには、空の文字列を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-213">Specify an empty string to use the default profile for the current session.</span>
-          </span>
-        </param>
-        <param name="Password">
-          <span data-ttu-id="efb43-214">パスワード (存在する場合)、<b>文字列</b>(C# では<b>文字列</b>)、プロファイルに関連付けられています。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-214">The password (if any), as a <b>String </b>(<b>string</b> in C#), associated with the profile.</span>
-          </span>
-          <span data-ttu-id="efb43-215">このパラメーターが存在するだけの下位互換性とセキュリティ上の理由から、お勧めできませんを使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-215">This parameter exists only for  backwards compatibility and for security reasons, it is not recommended for use.</span>
-          </span>
-          <span data-ttu-id="efb43-216">しないでユーザーがほとんどのシステム構成でパスワードを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-216">Microsoft Oultook will prompt the user to specify a password in most system configurations.</span>
-          </span>
-          <span data-ttu-id="efb43-217">これは、ログオン パスワードであり、PST のパスワードと混同しない必要があります。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-217">This is your logon password and  should not be confused with PST passwords.</span>
-          </span>
-        </param>
-        <param name="ShowDialog">
-          <span data-ttu-id="efb43-218">
-            <b>True</b> を指定すると、MAPI のログオン ダイアログ ボックスが表示され、ユーザーが MAPI プロファイルを選択できます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-218">
-              <b>True</b> to display the MAPI logon dialog box to allow the user to select a MAPI profile.</span>
-          </span>
-        </param>
-        <param name="NewSession">
-          <span data-ttu-id="efb43-219">
-            <b>True</b>新しい Outlook セッションを作成します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-219">
-              <b>True</b> to create a new Outlook session.</span>
-          </span>
-          <span data-ttu-id="efb43-220">Outlook で複数のセッションを作成できないために、セッションが存在しない場合にのみ True としてこのパラメーターを指定する必要があります。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-220">Since multiple sessions cannot be created in Outlook, this parameter should be specified as True only if a session does not already exist.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-221">ユーザーを MAPI にログオンさせ、MAPI セッションを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-221">Logs the user on to MAPI, obtaining a MAPI session.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efb43-222">
-            <para>
-              <b>ログオン</b>方法を使用して、Outlook が既に実行されていない場合、特定のプロファイルにログオンするだけです。Outlook プロセスが 1 つだけが同時に実行でき、Outlook プロセスが 1 つのプロファイルを使用し、のみ 1 つの MAPI セッションをサポートしているためにです。ユーザーは、2 つ目に Outlook を起動、Outlook のインスタンスが同じ Outlook のプロセス内で実行されて、新しいプロセスを作成できず、同じプロファイルを使用しています。</para>
-            <para>場合の Outlook が既に実行されている、いない新しい Outlook セッションを作成または現在のプロファイルを別の名前に変更はこのメソッドを使用しています</para>。Outlook が実行されていないと、デフォルトのプロファイルで Outlook を起動するだけする<b>ログオン</b>方法を使用しない場合は
-          <para>です。方が InitializeMAPI 次のコード例に示すように: 最初に、Outlook のインスタンスを作成<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクト、し、[受信トレイなどの既定のフォルダーを参照します。これは、既定のプロファイルを使用してオブジェクト モデルを完全に機能するのには MAPI の初期化中の副作用です。</para><code>
-Imports Outlook = Microsoft.Office.Interop.Outlook
-
-Sub InitializeMAPI ()
-
-    ' Start Outlook.
-    Dim olApp As Outlook.Application
-    Set olApp = CreateObject("Outlook.Application")
-    
-    ' Get a session object. 
-    Dim olNs As Outlook.NameSpace
-    Set olNs = olApp.GetNamespace("MAPI")
-    
-    ' Create an instance of the Inbox folder. 
-    ' If Outlook is not already running, this has the side
-    ' effect of initializing MAPI.
-    Dim mailFolder As Outlook.Folder
-    Set mailFolder = olNs.GetDefaultFolder(olFolderInbox)
-
-    ' Continue to use the object model to automate Outlook.
-End Sub</code><para>から Outlook 2010 では、複数のプロファイルがある、常に既定のプロファイルを使用するように Outlook を構成しているメソッドを使用して、<b>ログオン</b>ユーザーの確認なしの既定のプロファイルにログオンする場合、ユーザー プロンプトが表示されますとにかく、プロファイルを選択してください。この現象を回避するには、メソッドを使用しない、<b>ログオン</b>します。前の例で InitializeMAPI の代わりに推奨する回避策を使用します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-222">
-              <para>Use the <b>Logon</b> method only to log on to a specific profile when Outlook is not already running. This is because only one Outlook process can run at a time, and that Outlook process uses only one profile and supports only one MAPI session. When a user start Outlook a second time, that instance of Outlook runs within the same Outlook process, does not create a new process, and uses the same profile. </para>
-              <para>If Outlook is already running, using this method does not create a new Outlook session or change the current profile to a different one. </para>
-              <para>If Outlook is not running and you only want to start Outlook with the default profile, do not use the <b>Logon</b> method. A better alternative is shown in the following code example InitializeMAPI: first, instantiate the Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, then reference a default folder such as the Inbox. This has the side effect of initializing MAPI to use the default profile and to make the object model fully functional. </para>
-              <code>
+        <param name="Profile"><span data-ttu-id="07525-244">MAPI プロファイル名として<b>文字列</b>(C# では<b>文字列</b>)、セッションに使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-244">The MAPI profile name, as a <b>String </b>(<b>string</b> in C#), to use for the session.</span></span> <span data-ttu-id="07525-245">現在のセッションの既定のプロファイルを使用するには、空の文字列を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-245">Specify an empty string to use the default profile for the current session.</span></span></param>
+        <param name="Password"><span data-ttu-id="07525-246">パスワード (存在する場合)、<b>文字列</b>(C# では<b>文字列</b>)、プロファイルに関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="07525-246">The password (if any), as a <b>String </b>(<b>string</b> in C#), associated with the profile.</span></span>  <span data-ttu-id="07525-247">このパラメーターが存在するだけの下位互換性とセキュリティ上の理由から、お勧めできませんを使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-247">This parameter exists only for  backwards compatibility and for security reasons, it is not recommended for use.</span></span>  <span data-ttu-id="07525-248">しないでユーザーがほとんどのシステム構成でパスワードを指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-248">Microsoft Oultook will prompt the user to specify a password in most system configurations.</span></span>  <span data-ttu-id="07525-249">これは、ログオン パスワードであり、PST のパスワードと混同しない必要があります。</span><span class="sxs-lookup"><span data-stu-id="07525-249">This is your logon password and  should not be confused with PST passwords.</span></span></param>
+        <param name="ShowDialog"><span data-ttu-id="07525-250"><b>True</b> を指定すると、MAPI のログオン ダイアログ ボックスが表示され、ユーザーが MAPI プロファイルを選択できます。</span><span class="sxs-lookup"><span data-stu-id="07525-250"><b>True</b> to display the MAPI logon dialog box to allow the user to select a MAPI profile.</span></span></param>
+        <param name="NewSession"><span data-ttu-id="07525-251"><b>True</b>新しい Outlook セッションを作成します。</span><span class="sxs-lookup"><span data-stu-id="07525-251"><b>True</b> to create a new Outlook session.</span></span> <span data-ttu-id="07525-252">Outlook で複数のセッションを作成できないために、セッションが存在しない場合にのみ True としてこのパラメーターを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="07525-252">Since multiple sessions cannot be created in Outlook, this parameter should be specified as True only if a session does not already exist.</span></span></param>
+        <summary><span data-ttu-id="07525-253">ユーザーを MAPI にログオンさせ、MAPI セッションを返します。</span><span class="sxs-lookup"><span data-stu-id="07525-253">Logs the user on to MAPI, obtaining a MAPI session.</span></span></summary>
+        <remarks><para><span data-ttu-id="07525-254">まだ Outlook を実行していない場合、 <b>Logon</b> メソッドのみを使用して特定のプロファイルにログオンします。</span><span class="sxs-lookup"><span data-stu-id="07525-254">Use the <b>Logon</b> method only to log on to a specific profile when Outlook is not already running.</span></span> <span data-ttu-id="07525-255">これは、一度に 1 つの Outlook プロセスしか実行できず、Outlook プロセスは 1 つのプロファイルのみを使用し、1 つの MAPI セッションのみをサポートしているためです。</span><span class="sxs-lookup"><span data-stu-id="07525-255">This is because only one Outlook process can run at a time, and that Outlook process uses only one profile and supports only one MAPI session.</span></span> <span data-ttu-id="07525-256">ユーザーは、2 つ目に Outlook を起動、Outlook のインスタンスが同じ Outlook のプロセス内で実行されて、新しいプロセスを作成できず、同じプロファイルを使用しています。</span><span class="sxs-lookup"><span data-stu-id="07525-256">When a user start Outlook a second time, that instance of Outlook runs within the same Outlook process, does not create a new process, and uses the same profile.</span></span> </para>
+          <para><span data-ttu-id="07525-p142">既に Outlook を実行している場合、このメソッドを使用して新しい Outlook セッションを作成したり、現在のプロファイルを別のプロファイルに変更したりすることはできません。</span><span class="sxs-lookup"><span data-stu-id="07525-p142">If Outlook is already running, using this method does not create a new Outlook session or change the current profile to a different one. </span></span></para>
+          <para><span data-ttu-id="07525-258">Outlook が実行されていない、既定のプロファイルで Outlook を起動する場合は、 <b>Logon</b>メソッドを使わないでください。</span><span class="sxs-lookup"><span data-stu-id="07525-258">If Outlook is not running and you only want to start Outlook with the default profile, do not use the <b>Logon</b> method.</span></span> <span data-ttu-id="07525-259">方が InitializeMAPI 次のコード例に示すように: 最初に、Outlook のインスタンスを作成<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクト、し、[受信トレイなどの既定のフォルダーを参照します。</span><span class="sxs-lookup"><span data-stu-id="07525-259">A better alternative is shown in the following code example InitializeMAPI: first, instantiate the Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, then reference a default folder such as the Inbox.</span></span> <span data-ttu-id="07525-260">これは、既定のプロファイルを使用してオブジェクト モデルを完全に機能するのには MAPI の初期化中の副作用です。</span><span class="sxs-lookup"><span data-stu-id="07525-260">This has the side effect of initializing MAPI to use the default profile and to make the object model fully functional.</span></span> </para>
+          <code>
 Imports Outlook = Microsoft.Office.Interop.Outlook
 
 Sub InitializeMAPI ()
@@ -1877,11 +1066,8 @@ Sub InitializeMAPI ()
 
     ' Continue to use the object model to automate Outlook.
 End Sub</code>
-              <para>Starting in Outlook 2010, if you have multiple profiles, you have configured Outlook to always use a default profile, and you use the <b>Logon</b> method to log onto the default profile without prompting the user, the user will receive a prompt to choose a profile anyway. To avoid this behavior, do not use the <b>Logon</b> method; use the workaround suggested in the preceding InitializeMAPI example instead.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="07525-261">複数のプロファイルがある、常に既定のプロファイルを使用するように Outlook を構成しているメソッドを使用して、<b>ログオン</b>ユーザーの確認なしの既定のプロファイルにログオンする場合は、Outlook 2010 で開始、ユーザー プロンプトが表示されます、プロファイルを選択するにはとにかく。</span><span class="sxs-lookup"><span data-stu-id="07525-261">Starting in Outlook 2010, if you have multiple profiles, you have configured Outlook to always use a default profile, and you use the <b>Logon</b> method to log onto the default profile without prompting the user, the user will receive a prompt to choose a profile anyway.</span></span> <span data-ttu-id="07525-262">この現象を回避するには、メソッドを使用しない、<b>ログオン</b>します。前の例で InitializeMAPI の代わりに推奨する回避策を使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-262">To avoid this behavior, do not use the <b>Logon</b> method; use the workaround suggested in the preceding InitializeMAPI example instead.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1910,12 +1096,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-223">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-223">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-263">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="07525-263">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1943,31 +1124,11 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-224">
-            <b>ブール型</b>(C# では<b>bool</b> ) を返します (に接続されていない Exchange サーバー)、Outlook がオフラインの場合は、 <b>True</b>を示す場合は<b>False</b>オンライン (Exchange サーバーに接続されている)。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-224">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating <b>True</b> if Outlook is offline (not connected to an Exchange server), and <b>False</b> if online (connected to an Exchange server).</span>
-          </span>
-          <span data-ttu-id="efb43-225">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-225">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-264"><b>ブール型</b>(C# では<b>bool</b> ) を返します (に接続されていない Exchange サーバー)、Outlook がオフラインの場合は、 <b>True</b>を示す場合は<b>False</b>オンライン (Exchange サーバーに接続されている)。</span><span class="sxs-lookup"><span data-stu-id="07525-264">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating <b>True</b> if Outlook is offline (not connected to an Exchange server), and <b>False</b> if online (connected to an Exchange server).</span></span>  <span data-ttu-id="07525-265">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-265">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-226">
-            <para>[オフライン プロパティは、Exchange プロファイルに対してのみ有効な情報を返します。POP3、IMAPI、HTTP などの Exchange 以外のアカウントの種類のものではありません</para>。
-          <para>場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />プロパティが<b>olOffline</b>または<b>olDisconnected</b>で、 <b>[オフライン</b>プロパティは<b>True</b>を返します。<b>ExchangeConnectionMode</b>プロパティが<b>olOnline</b><b>olConnected</b>、 <b>olConnectedHeaders</b>の場合、<b>オフライン</b>プロパティは<b>False</b>を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-226">
-              <para>The Offline property returns valid information only for an Exchange profile. It is not intended for  non-Exchange account types such as POP3, IMAPI, and  HTTP.</para>
-              <para>If the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property is <b>olOffline</b> or <b>olDisconnected</b>, the <b>Offline</b> property will return <b>True</b>. If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>Offline</b> property will return <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="07525-p146">Exchange プロファイルを使用する場合に限り、Offline プロパティは有効な情報を返します。POP3、IMAPI、HTTP などの、Exchange を除く種類のアカウントでの使用は想定していません。</span><span class="sxs-lookup"><span data-stu-id="07525-p146">The Offline property returns valid information only for an Exchange profile. It is not intended for  non-Exchange account types such as POP3, IMAPI, and  HTTP.</span></span></para>
+          <para><span data-ttu-id="07525-268">場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />プロパティが<b>olOffline</b>または<b>olDisconnected</b>で、 <b>[オフライン</b>プロパティは<b>True</b>を返します。</span><span class="sxs-lookup"><span data-stu-id="07525-268">If the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property is <b>olOffline</b> or <b>olDisconnected</b>, the <b>Offline</b> property will return <b>True</b>.</span></span> <span data-ttu-id="07525-269"><b>ExchangeConnectionMode</b> プロパティが <b>olOnline</b> <b>olConnected</b> 、 <b>olConnectedHeaders</b> の場合は、 <b>[オフライン</b> プロパティに <b>False</b> が戻ります。</span><span class="sxs-lookup"><span data-stu-id="07525-269">If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>Offline</b> property will return <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedFolder">
@@ -1995,86 +1156,38 @@ End Sub</code>
         <Parameter Name="UseTTL" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="efb43-227">開く共有フォルダーの URL またはローカル ファイル名を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-227">The URL or local file name of the shared folder to be opened.</span>
-          </span>
-        </param>
-        <param name="Name">
-          <span data-ttu-id="efb43-p125">RSS (Really Simple Syndication) フィードまたは WebCal カレンダーの名前を指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-p125">The name of the Really Simple Syndication (RSS) feed or Webcal calendar. This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <param name="DownloadAttachments">
-          <span data-ttu-id="efb43-230">同封物 (RSS フィードの場合) または添付ファイル (WebCal カレンダーの場合) をダウンロードするかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-230">Indicates whether to download enclosures (for RSS feeds) or attachments (for Webcal calendars.) This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <param name="UseTTL">
-          <span data-ttu-id="efb43-p126">RSS フィードまたは WebCal カレンダーの TTL (Time To Live) の設定を使用するかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-p126">Indicates whether the Time To Live (TTL) setting in an RSS feed or WebCal calendar should be used. This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-233">URL またはファイル名によって参照される共有フォルダーを開きます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-233">Opens a shared folder referenced through a URL or file name.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-234">A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />共有フォルダーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-234">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-235">
-            <para>このメソッドを使用して、次の種類の共有フォルダーのアクセス:</para>
+        <param name="Path"><span data-ttu-id="07525-270">開く共有フォルダーの URL またはローカル ファイル名を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-270">The URL or local file name of the shared folder to be opened.</span></span></param>
+        <param name="Name"><span data-ttu-id="07525-p148">RSS (Really Simple Syndication) フィードまたは WebCal カレンダーの名前を指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span><span class="sxs-lookup"><span data-stu-id="07525-p148">The name of the Really Simple Syndication (RSS) feed or Webcal calendar. This parameter is ignored for other shared folder types.</span></span></param>
+        <param name="DownloadAttachments"><span data-ttu-id="07525-273">同封物 (RSS フィードの場合) または添付ファイル (WebCal カレンダーの場合) をダウンロードするかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span><span class="sxs-lookup"><span data-stu-id="07525-273">Indicates whether to download enclosures (for RSS feeds) or attachments (for Webcal calendars.) This parameter is ignored for other shared folder types.</span></span></param>
+        <param name="UseTTL"><span data-ttu-id="07525-p149">RSS フィードまたは WebCal カレンダーの TTL (Time To Live) の設定を使用するかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</span><span class="sxs-lookup"><span data-stu-id="07525-p149">Indicates whether the Time To Live (TTL) setting in an RSS feed or WebCal calendar should be used. This parameter is ignored for other shared folder types.</span></span></param>
+        <summary><span data-ttu-id="07525-276">URL またはファイル名によって参照される共有フォルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="07525-276">Opens a shared folder referenced through a URL or file name.</span></span></summary>
+        <returns><span data-ttu-id="07525-277">A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />共有フォルダーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-277">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-278">このメソッドは、以下の種類の共有フォルダーにアクセスするために使用します。</span><span class="sxs-lookup"><span data-stu-id="07525-278">This method is used to access the following shared folder types:</span></span></para>
+          <list type="bullet">
             <item>
-              <para>Webcal カレンダー (webcal://mysite/mycalendar)</para>
+              <para><span data-ttu-id="07525-279">WebCal カレンダー (webcal://mysite/mycalendar)</span><span class="sxs-lookup"><span data-stu-id="07525-279">Webcal calendars (webcal://mysite/mycalendar)</span></span></para>
             </item>
             <item>
-              <para>(feed://mysite/myfeed) の RSS フィード</para>
-            </item>の
-            <item><para>フォルダー (stssync://mysite/myfolder) の Microsoft SharePoint Foundation</para></item><item><para>iCalendar カレンダー (.ics) ファイル</para></item><item><para>の
-          <list type="bullet">の vcard のアドレス帳 (。vcf) ファイル
-            <item><para>Outlook メッセージ (.msg) ファイル</para></item></list></para></item><para><b>注</b>: このメソッドは、iCalendar 予定 (.ics) ファイルをサポートしていません。ICalendar 予定ファイルを開くに使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです</para>。
-          <para>を使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> 、Exchange の受信トレイ フォルダーなどの既定のフォルダーを共有するのには、 <b>Namespace</b>オブジェクトのメソッドです</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-235">
-              <para>This method is used to access the following shared folder types:</para>
-              <list type="bullet">
-                <item>
-                  <para>Webcal calendars (webcal://mysite/mycalendar)</para>
-                </item>
-                <item>
-                  <para>RSS feeds (feed://mysite/myfeed)</para>
-                </item>
-                <item>
-                  <para>Microsoft SharePoint Foundation folders (stssync://mysite/myfolder)</para>
-                </item>
-                <item>
-                  <para>iCalendar calendar (.ics) files</para>
-                </item>
-                <item>
-                  <para>vCard contact (.vcf) files</para>
-                </item>
-                <item>
-                  <para>Outlook message (.msg) files</para>
-                </item>
-              </list>
-              <para>
-                <b>Note</b>: This method does not support iCalendar appointment (.ics) files. To open iCalendar appointment files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</para>
-              <para>You can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <b>Namespace</b> object to share default folders, such as the Inbox folder,  in Exchange.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+              <para><span data-ttu-id="07525-280">RSS フィード (feed://mysite/myfeed)</span><span class="sxs-lookup"><span data-stu-id="07525-280">RSS feeds (feed://mysite/myfeed)</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="07525-281">Microsoft SharePoint Foundation フォルダー (stssync://mysite/myfolder)</span><span class="sxs-lookup"><span data-stu-id="07525-281">Microsoft SharePoint Foundation folders (stssync://mysite/myfolder)</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="07525-282">iCalendar カレンダー (.ics) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-282">iCalendar calendar (.ics) files</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="07525-283">vCard 連絡先 (.vcf) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-283">vCard contact (.vcf) files</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="07525-284">Outlook メッセージ (.msg) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-284">Outlook message (.msg) files</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="07525-285">
+            <b>注</b>: このメソッドは、iCalendar 予定 (.ics) ファイルをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="07525-285">
+            <b>Note</b>: This method does not support iCalendar appointment (.ics) files.</span></span> <span data-ttu-id="07525-286">ICalendar 予定ファイルを開くに使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-286">To open iCalendar appointment files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span></para>
+          <para><span data-ttu-id="07525-287">使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> 、Exchange の受信トレイ フォルダーなどの既定のフォルダーを共有するのには、 <b>Namespace</b>オブジェクトのメソッドです。</span><span class="sxs-lookup"><span data-stu-id="07525-287">You can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <b>Namespace</b> object to share default folders, such as the Inbox folder,  in Exchange.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedItem">
@@ -2100,59 +1213,32 @@ End Sub</code>
         <Parameter Name="Path" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="efb43-236">開く共有アイテムのパスまたは URL を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-236">The path or URL of the shared item to be opened.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-237">指定したパスまたは URL から共有アイテムを開きます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-237">Opens a shared item from a specified path or URL.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-238">共有アイテムの適切な Outlook アイテムを表すオブジェクト型 (Object) の値。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-238">An Object representing the appropriate Outlook item for the shared item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-239">
-            <para>ICalendar 予定 (.ics) ファイル、vCard (.vcf) ファイル、および Outlook メッセージ (.msg) ファイルを開くにこのメソッドを使用します。このメソッドによって返されるオブジェクトの型は、次の表で説明するよう、開く共有アイテムの種類とは異なります。</para> 。
-            <item><description>共有アイテムの種類</description><description>の Outlook アイテム</description></item><item><description>iCalendar 予定 (.ics) ファイル</description><description>AppointmentItem</description></item><item><description>ContactItem</description><description>vCard (.vcf) ファイル</description>の
-            </item><description>Outlook メッセージ (.msg) ファイル</description>の
-            <item>の
-          <list type="table"><description>タイプは、.msg ファイルとして保存されている項目の種類に対応</description></list></item><para><b>注</b>: このメソッドは、iCalendar カレンダー (.ics) ファイルをサポートしていません。ICalendar カレンダー ファイルを開くを使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /><b>名前空間</b>のオブジェクトのメソッドです</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-239">
-              <para>This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) files, and Outlook message (.msg) files. The type of object returned by this method depends on the type of shared item opened, as described in the following table.</para>
-              <list type="table">
-                <item>
-                  <description>Shared item type</description>
-                  <description>Outlook item</description>
-                </item>
-                <item>
-                  <description>iCalendar appointment (.ics) file</description>
-                  <description>AppointmentItem</description>
-                </item>
-                <item>
-                  <description>vCard (.vcf) file</description>
-                  <description>ContactItem</description>
-                </item>
-                <item>
-                  <description>Outlook message (.msg) file</description>
-                  <description>Type corresponds to the type of the item that was saved as the .msg file</description>
-                </item>
-              </list>
-              <para>
-                <b>Note</b>: This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> method of the <b>NameSpace</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Path"><span data-ttu-id="07525-288">開く共有アイテムのパスまたは URL を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-288">The path or URL of the shared item to be opened.</span></span></param>
+        <summary><span data-ttu-id="07525-289">指定したパスまたは URL から共有アイテムを開きます。</span><span class="sxs-lookup"><span data-stu-id="07525-289">Opens a shared item from a specified path or URL.</span></span></summary>
+        <returns><span data-ttu-id="07525-290">共有アイテムの適切な Outlook アイテムを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="07525-290">An Object representing the appropriate Outlook item for the shared item.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-p151">このメソッドは、iCalendar 予定 (.ics) ファイル、vCard (.vcf) ファイル、および Outlook メッセージ (.msg) ファイルを開くために使用します。次の表に示すとおり、このメソッドによって取得されるオブジェクトの種類は、開く共有アイテムの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="07525-p151">This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) files, and Outlook message (.msg) files. The type of object returned by this method depends on the type of shared item opened, as described in the following table.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="07525-293">共有アイテムの種類</span><span class="sxs-lookup"><span data-stu-id="07525-293">Shared item type</span></span></description>
+              <description><span data-ttu-id="07525-294">Outlook アイテム</span><span class="sxs-lookup"><span data-stu-id="07525-294">Outlook item</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="07525-295">iCalendar 予定 (.ics) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-295">iCalendar appointment (.ics) file</span></span></description>
+              <description><span data-ttu-id="07525-296">AppointmentItem</span><span class="sxs-lookup"><span data-stu-id="07525-296">AppointmentItem</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="07525-297">vCard (.vcf) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-297">vCard (.vcf) file</span></span></description>
+              <description><span data-ttu-id="07525-298">ContactItem</span><span class="sxs-lookup"><span data-stu-id="07525-298">ContactItem</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="07525-299">Outlook メッセージ (.msg) ファイル</span><span class="sxs-lookup"><span data-stu-id="07525-299">Outlook message (.msg) file</span></span></description>
+              <description><span data-ttu-id="07525-300">.msg ファイルとして保存されたアイテムの種類に該当する種類。</span><span class="sxs-lookup"><span data-stu-id="07525-300">Type corresponds to the type of the item that was saved as the .msg file</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="07525-301">
+            <b>注</b>: このメソッドは、iCalendar カレンダー (.ics) ファイルをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="07525-301">
+            <b>Note</b>: This method does not support iCalendar calendar (.ics) files.</span></span> <span data-ttu-id="07525-302">ICalendar カレンダー ファイルを開くを使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> <b>名前空間</b>のオブジェクトのメソッドです。</span><span class="sxs-lookup"><span data-stu-id="07525-302">To open iCalendar calendar files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> method of the <b>NameSpace</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -2178,12 +1264,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-p127">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-p127">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-p153">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="07525-p153">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2209,30 +1290,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-242">[フォルダーの選択] ダイアログ ボックスを表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-242">Displays the Pick Folder dialog box.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efb43-243">A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />場合は、ダイアログ ボックスがユーザーによってキャンセル] ダイアログ ボックス、または<b>何も</b>のユーザーが選択したフォルダーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-243">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object  that represents the folder that the user selects  in the dialog box, or <b>Nothing</b> if the dialog box is canceled by the user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efb43-244">
-            <para>[フォルダーの選択] ダイアログ ボックスは、ユーザーがフォルダーを選択またはダイアログ ボックスをキャンセルするまでに、コードの実行が続行されないことを意味するモーダル ダイアログ ボックスです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-244">
-              <para>The Pick Folder dialog box is a modal dialog box which means that code execution will not continue until the user either selects a folder or cancels the dialog box.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07525-305">[フォルダーの選択] ダイアログ ボックスを表示します。</span><span class="sxs-lookup"><span data-stu-id="07525-305">Displays the Pick Folder dialog box.</span></span></summary>
+        <returns><span data-ttu-id="07525-306">A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />場合は、ダイアログ ボックスがユーザーによってキャンセル] ダイアログ ボックス、または<b>何も</b>のユーザーが選択したフォルダーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-306">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object  that represents the folder that the user selects  in the dialog box, or <b>Nothing</b> if the dialog box is canceled by the user.</span></span></returns>
+        <remarks><para><span data-ttu-id="07525-307">[ Pick Folder] ダイアログ ボックスはモーダル ダイアログ ボックスなので、コードの実行を続行するにはユーザーがフォルダーを選択するか、またはダイアログ ボックスをキャンセルする必要があります。</span><span class="sxs-lookup"><span data-stu-id="07525-307">The Pick Folder dialog box is a modal dialog box which means that code execution will not continue until the user either selects a folder or cancels the dialog box.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshRemoteHeaders">
@@ -2259,12 +1320,7 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-245">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-245">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-308">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="07525-308">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2291,30 +1347,10 @@ End Sub</code>
         <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="Folder">
-          <span data-ttu-id="efb43-246">フォルダー一覧から削除する個人用フォルダー (.pst) を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-246">The Personal Folders file (.pst) to be deleted from the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-247">現在の MAPI プロファイルまたはセッションから個人用フォルダー (.pst) を削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-247">Removes a Personal Folders file (.pst) from the current MAPI profile or session.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efb43-248">
-            <para>このメソッドは、Microsoft Outlook のユーザー インターフェイスからのみ、ストアを削除します。ストアは、サーバー上のメインのメールボックスや Outlook オブジェクト モデルを使用してユーザーのハード_ディスクから削除できません。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-248">
-              <para>This method removes  a store only from the Microsoft Outlook user interface. You cannot remove a store from the main mailbox on the server or from a user's hard disk using the Outlook object model.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Folder"><span data-ttu-id="07525-309">フォルダー一覧から削除する個人用フォルダー (.pst) を指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-309">The Personal Folders file (.pst) to be deleted from the list.</span></span></param>
+        <summary><span data-ttu-id="07525-310">現在の MAPI プロファイルまたはセッションから個人用フォルダー (.pst) を削除します。</span><span class="sxs-lookup"><span data-stu-id="07525-310">Removes a Personal Folders file (.pst) from the current MAPI profile or session.</span></span></summary>
+        <remarks><para><span data-ttu-id="07525-311">このメソッドは、Microsoft Outlook のユーザー インターフェイスからのみ、ストアを削除します。</span><span class="sxs-lookup"><span data-stu-id="07525-311">This method removes  a store only from the Microsoft Outlook user interface.</span></span> <span data-ttu-id="07525-312">Outlook のオブジェクト モデルでは、サーバー上のメインのメールボックス、またはユーザーのハード ディスク上のフォルダーを削除できません。</span><span class="sxs-lookup"><span data-stu-id="07525-312">You cannot remove a store from the main mailbox on the server or from a user's hard disk using the Outlook object model.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndReceive">
@@ -2340,37 +1376,15 @@ End Sub</code>
         <Parameter Name="showProgressDialog" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="showProgressDialog">
-          <span data-ttu-id="efb43-249">[ Outlook 送受信の進捗度] ダイアログ ボックスを、ユーザー設定にかかわらず表示するかどうかを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-249">Indicates whether the Outlook Send/Receive Progress dialog box should be displayed, regardless of user settings.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efb43-250">現在のセッション、および現在のプロファイル内のすべてのアカウント宛てのメールの受信を直ちに送信された未配信メッセージの配信を開始します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-250">Initiates immediate delivery of all undelivered messages submitted in the current session, and immediate receipt of  mail for  all accounts in the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efb43-251">
-            <para>
-              <b>SendAndReceive</b>メソッドの呼び出しは非同期です</para>。
-          <para><b>ツールと、[送受信] をクリックするときに使用されるすべて送受信コマンドを同等のプログラムを sendandreceive</b></para> 。
-          <para>使用するすべてのオブジェクトを同期する必要がない場合、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />コレクションのオブジェクトを特定のオブジェクトを選択します。詳細についてを参照してください<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />です</para>。
-          <para>送信/受信のすべての現在のプロファイルで定義されているすべてのアカウントを使用します。すべて送受信を実行するには、オンライン接続が必要、ユーザーのニーズに合わせて、接続が確立します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-251">
-              <para>Calling the <b>SendAndReceive</b> method is asynchronous.</para>
-              <para>
-                <b>SendAndReceive</b> provides the programmatic equivalent to the Send/Receive All command that is available when you click Tools and then Send/Receive.</para>
-              <para>If you do not need to synchronize all objects, you can use the <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> collection object to select specific objects. For more information, see <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</para>
-              <para>All accounts defined in the current profile are used in Send/Receive All. If an online connection is required to perform the Send/Receive All, the connection is made according to user preferences.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="showProgressDialog"><span data-ttu-id="07525-313">[ Outlook 送受信の進捗度] ダイアログ ボックスを、ユーザー設定にかかわらず表示するかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="07525-313">Indicates whether the Outlook Send/Receive Progress dialog box should be displayed, regardless of user settings.</span></span></param>
+        <summary><span data-ttu-id="07525-314">現在のセッション、および現在のプロファイル内のすべてのアカウント宛てのメールの受信を直ちに送信された未配信メッセージの配信を開始します。</span><span class="sxs-lookup"><span data-stu-id="07525-314">Initiates immediate delivery of all undelivered messages submitted in the current session, and immediate receipt of  mail for  all accounts in the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="07525-315"><b>SendAndReceive</b> メソッドの呼び出しは、非同期です。</span><span class="sxs-lookup"><span data-stu-id="07525-315">Calling the <b>SendAndReceive</b> method is asynchronous.</span></span></para>
+          <para><span data-ttu-id="07525-316">
+            <b>Sendandreceive では、ツールと、[送受信] をクリックするときに使用されるすべて送受信コマンドを同等のプログラムです。</b></span><span class="sxs-lookup"><span data-stu-id="07525-316">
+            <b>SendAndReceive</b> provides the programmatic equivalent to the Send/Receive All command that is available when you click Tools and then Send/Receive.</span></span></para>
+          <para><span data-ttu-id="07525-317">使用するすべてのオブジェクトを同期する必要がない場合、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />コレクションのオブジェクトを特定のオブジェクトを選択します。</span><span class="sxs-lookup"><span data-stu-id="07525-317">If you do not need to synchronize all objects, you can use the <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> collection object to select specific objects.</span></span> <span data-ttu-id="07525-318">詳細については、「<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="07525-318">For more information, see <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</span></span></para>
+          <para><span data-ttu-id="07525-p156">現在のプロファイルで定義されているすべてのアカウントは、 すべての送受信に使用されます。オンライン接続が必要な場合、 すべての送受信を実行するのには、ユーザー設定に従って接続を確立します。</span><span class="sxs-lookup"><span data-stu-id="07525-p156">All accounts defined in the current profile are used in Send/Receive All. If an online connection is required to perform the Send/Receive All, the connection is made according to user preferences.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2396,42 +1410,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-252">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-252">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="efb43-253">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-253">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-321">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="07525-321">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="07525-322">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-322">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efb43-254">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="07525-323"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="07525-323">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="07525-324">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="07525-324">Both members serve the same purpose.</span></span> <span data-ttu-id="07525-325">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="07525-325">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-254">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stores">
@@ -2457,16 +1445,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Stores</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-255">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Store" />現在のプロファイル内のオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-255">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objects in the current profile.</span>
-          </span>
-          <span data-ttu-id="efb43-256">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-256">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-326">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Store" />現在のプロファイル内のオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="07525-326">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objects in the current profile.</span></span> <span data-ttu-id="07525-327">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-327">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2494,16 +1473,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObjects</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-257">返します、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />すべての送受信グループを含むコレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-257">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />  collection containing all Send\Receive groups.</span>
-          </span>
-          <span data-ttu-id="efb43-258">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-258">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-328">返します、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />すべての送受信グループを含むコレクションです。</span><span class="sxs-lookup"><span data-stu-id="07525-328">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />  collection containing all Send\Receive groups.</span></span> <span data-ttu-id="07525-329">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-329">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2531,17 +1501,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efb43-259">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します。 指定したオブジェクトの種類を示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-259">Returns a <b>String</b> (<b>string</b> in C#) indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="efb43-260">読み取り専用です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efb43-260">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="07525-330"><b>文字列</b>(C# では<b>文字列</b>) を返します。 指定したオブジェクトの種類を示します。</span><span class="sxs-lookup"><span data-stu-id="07525-330">Returns a <b>String</b> (<b>string</b> in C#) indicating the type of the specified object.</span></span>  <span data-ttu-id="07525-331">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="07525-331">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

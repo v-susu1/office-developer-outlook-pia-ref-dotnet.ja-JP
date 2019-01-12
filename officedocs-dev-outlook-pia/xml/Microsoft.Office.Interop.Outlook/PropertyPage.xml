@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638103" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897599" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -26,30 +18,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0f7fd-101">[オプション] ダイアログ ボックスまたは、フォルダーの [プロパティ] ダイアログ ボックス内のカスタム プロパティ ページを表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0f7fd-101">Represents a custom property page in the Options dialog box or in the folder Properties dialog box.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="0f7fd-102">
-        <para>Outlook では、このオブジェクトを使用して、ダイアログ ボックスで [適用] ボタンとやり取りするカスタム プロパティ ページを使用します</para>。
-      <para><b>PropertyPage</b>オブジェクトは、抽象オブジェクトです。この Microsoft Outlook オブジェクト ライブラリに<b>PropertyPage</b>オブジェクトには実装コードが含まれていません。代わりに、Microsoft Visual Basic でオブジェクトを実装するためにテンプレートとして提供されます。これには、カスタム プロパティ ページが変更されたかどうかを判断し、ユーザーが [適用] または [ok] ボタンをクリックしたことをプログラムに通知する Outlook を使用できるインタ フェースの定義済みのセットが用意されています。(カスタム プロパティ ページは、[適用] ボタンには依存しないかどうかは、 <b>PropertyPage</b>オブジェクトを実装する必要はありません)</para> 。
-      <para>A のカスタム プロパティ ページは、ユーザーがカスタム プロパティ ページのタブをクリックすると、Outlook で、[オプション] ダイアログ ボックスまたはフォルダーのプロパティ] ダイアログ ボックスで、表示されている ActiveX コントロールです。Visual Basic .NET では、 <b>PropertyPage</b>オブジェクトを実装するには、実装コードを含むモジュールが次の Implements ステートメントを含める必要があります</para>。
-      <code>Implements Outlook.PropertyPage</code><para>モジュールは、 <b>PropertyPage</b>オブジェクトのメソッドとプロパティを実装するプロシージャも記述する必要があります</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0f7fd-102">
-          <para>Outlook uses this object to allow a custom property page to interact with the Apply button in the dialog box.</para>
-          <para>The <b>PropertyPage</b> object is an abstract object. That is, the <b>PropertyPage</b> object in the Microsoft Outlook Object Library contains no implementation code. Instead, it is provided as a template to help you implement the object in Microsoft Visual Basic. This provides a predefined set of interfaces that Outlook can use to determine whether your custom property page has changed and to notify your program that the user has clicked the Apply or OK button. (If your custom property page does not rely on the Apply button, then you do not need to implement the <b>PropertyPage</b> object.)</para>
-          <para>A custom property page is an ActiveX control that is displayed by Outlook in the Options dialog box or in the folder Properties dialog box when the user clicks on the custom property page’s tab. To implement the <b>PropertyPage</b> object in Visual Basic .NET, the module that contains the implementation code must contain the following Implements statement.</para>
-          <code>Implements Outlook.PropertyPage</code>
-          <para>The module must also contain procedures that implement the properties and methods of the <b>PropertyPage</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="1b06c-101">[オプション] ダイアログ ボックスまたは、フォルダーの [プロパティ] ダイアログ ボックス内のカスタム プロパティ ページを表します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-101">Represents a custom property page in the Options dialog box or in the folder Properties dialog box.</span></span></summary>
+    <remarks><para><span data-ttu-id="1b06c-102">Outlook はこのオブジェクトを使用して、カスタム プロパティ ページがダイアログ ボックスの [ 適用] ボタンとやり取りできるようにします。</span><span class="sxs-lookup"><span data-stu-id="1b06c-102">Outlook uses this object to allow a custom property page to interact with the Apply button in the dialog box.</span></span></para>
+      <para><span data-ttu-id="1b06c-103"><b>PropertyPage</b>オブジェクトは、抽象オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="1b06c-103">The <b>PropertyPage</b> object is an abstract object.</span></span> <span data-ttu-id="1b06c-104">この Microsoft Outlook オブジェクト ライブラリに<b>PropertyPage</b>オブジェクトには実装コードが含まれていません。</span><span class="sxs-lookup"><span data-stu-id="1b06c-104">That is, the <b>PropertyPage</b> object in the Microsoft Outlook Object Library contains no implementation code.</span></span> <span data-ttu-id="1b06c-105">代わりに、Microsoft Visual Basic でオブジェクトを実装するためにテンプレートとして提供されます。</span><span class="sxs-lookup"><span data-stu-id="1b06c-105">Instead, it is provided as a template to help you implement the object in Microsoft Visual Basic.</span></span> <span data-ttu-id="1b06c-106">これには、カスタム プロパティ ページが変更されたかどうかを判断し、ユーザーが [適用] または [ok] ボタンをクリックしたことをプログラムに通知する Outlook を使用できるインタ フェースの定義済みのセットが用意されています。</span><span class="sxs-lookup"><span data-stu-id="1b06c-106">This provides a predefined set of interfaces that Outlook can use to determine whether your custom property page has changed and to notify your program that the user has clicked the Apply or OK button.</span></span> <span data-ttu-id="1b06c-107">(カスタム プロパティ ページは、[適用] ボタンに依存しない、する場合する必要はありません<b>PropertyPage</b>オブジェクトを実装する。)</span><span class="sxs-lookup"><span data-stu-id="1b06c-107">(If your custom property page does not rely on the Apply button, then you do not need to implement the <b>PropertyPage</b> object.)</span></span></para>
+      <para><span data-ttu-id="1b06c-108">カスタム プロパティ ページは、ユーザーがカスタム プロパティ ページのタブをクリックすると、Outlook で、[オプション] ダイアログ ボックスまたはフォルダーのプロパティ] ダイアログ ボックスで、表示されている ActiveX コントロールです。Visual Basic .NET では、 <b>PropertyPage</b>オブジェクトを実装するに実装コードを含むモジュールは、次の Implements ステートメントを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="1b06c-108">A custom property page is an ActiveX control that is displayed by Outlook in the Options dialog box or in the folder Properties dialog box when the user clicks on the custom property page’s tab. To implement the <b>PropertyPage</b> object in Visual Basic .NET, the module that contains the implementation code must contain the following Implements statement.</span></span></para>
+      <code>Implements Outlook.PropertyPage</code>
+      <para><span data-ttu-id="1b06c-109">モジュールには、 <b>PropertyPage</b> オブジェクトのメソッドとプロパティを実装するプロシージャも記述する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1b06c-109">The module must also contain procedures that implement the properties and methods of the <b>PropertyPage</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -68,25 +43,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0f7fd-103">カスタム プロパティ ページで行われた変更を適用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-103">Applies the changes that have been made in a custom property page.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0f7fd-104">
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />は、抽象オブジェクトを実装するアプリケーション内ではなく、Outlook 自体によって)、実装メソッドの<b>適用</b>プログラム コードのイベント プロシージャに似ています。つまり、イベント プロシージャを記述すると同じようにメソッドを実装するコードを記述します。つまり、Outlook では、ユーザーはユーザーによって変更されたプロパティ値を適用するプログラムを必要とするカスタム プロパティ ページを表示する] ダイアログ ボックスで、アクションを実行するには、プログラムを通知するために<b>適用</b>メソッドを呼び出します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-104">
-              <para>Because the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> is an abstract object that is implemented in your application (rather than by Microsoft Outlook itself), the implementation of the <b>Apply</b> method resembles an event procedure in your program code. That is, you write the code that implements the method in much the same way you would write an event procedure. In other words, Outlook calls the <b>Apply</b> method to notify your program that the user has taken an action in the dialog box displaying the custom property page that requires your program to apply the property values changed by the user.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="1b06c-110">カスタム プロパティ ページで行われた変更を適用します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-110">Applies the changes that have been made in a custom property page.</span></span></summary>
+        <remarks><para><span data-ttu-id="1b06c-111"><see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />は、抽象オブジェクトを実装するアプリケーション内ではなく、Outlook 自体によって)、実装メソッドの<b>適用</b>プログラム コードのイベント プロシージャに似ています。</span><span class="sxs-lookup"><span data-stu-id="1b06c-111">Because the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> is an abstract object that is implemented in your application (rather than by Microsoft Outlook itself), the implementation of the <b>Apply</b> method resembles an event procedure in your program code.</span></span> <span data-ttu-id="1b06c-112">つまり、イベント プロシージャを記述すると同じようにメソッドを実装するコードを記述します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-112">That is, you write the code that implements the method in much the same way you would write an event procedure.</span></span> <span data-ttu-id="1b06c-113">つまり、Outlook では、ユーザーはユーザーによって変更されたプロパティ値を適用するプログラムを必要とするカスタム プロパティ ページを表示する] ダイアログ ボックスで、アクションを実行するには、プログラムを通知するために <b>適用</b> メソッドを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-113">In other words, Outlook calls the <b>Apply</b> method to notify your program that the user has taken an action in the dialog box displaying the custom property page that requires your program to apply the property values changed by the user.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">
@@ -109,20 +68,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0f7fd-105">カスタム プロパティ ページの内容が変更されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-105">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the contents of a custom property page have been altered.</span>
-          </span>
-          <span data-ttu-id="0f7fd-106">実装する ActiveX コントロールの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />オブジェクトは、このプロパティの値を設定して、Microsoft Outlook では、これをクエリへの応答として、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-106">The ActiveX control that implements the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />  object sets the value of this property, and Microsoft Outlook queries this in response to the <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />  method of a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />  object.</span>
-          </span>
-          <span data-ttu-id="0f7fd-107">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1b06c-114">カスタム プロパティ ページの内容が変更されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-114">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the contents of a custom property page have been altered.</span></span> <span data-ttu-id="1b06c-115">実装する ActiveX コントロールの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />オブジェクトは、このプロパティの値を設定して、Microsoft Outlook では、これをクエリへの応答として、<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />のメソッドを<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="1b06c-115">The ActiveX control that implements the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />  object sets the value of this property, and Microsoft Outlook queries this in response to the <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />  method of a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />  object.</span></span> <span data-ttu-id="1b06c-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1b06c-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,24 +92,9 @@
         <Parameter Name="HelpContext" Type="System.Int32&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="HelpFile">
-          <span data-ttu-id="0f7fd-108">プロパティ ページに関連付けられているヘルプ ファイルを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-108">Specifies the Help file associated with the property page.</span>
-          </span>
-        </param>
-        <param name="HelpContext">
-          <span data-ttu-id="0f7fd-109">プロパティ ページに関連付けられているヘルプ トピックのコンテキスト ID を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-109">Specifies the context ID of the Help topic associated with the property page.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0f7fd-110">カスタム プロパティ ページのヘルプ情報を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0f7fd-110">Returns Help information about a custom property page.</span>
-          </span>
-        </summary>
+        <param name="HelpFile"><span data-ttu-id="1b06c-117">プロパティ ページに関連付けられているヘルプ ファイルを指定します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-117">Specifies the Help file associated with the property page.</span></span></param>
+        <param name="HelpContext"><span data-ttu-id="1b06c-118">プロパティ ページに関連付けられているヘルプ トピックのコンテキスト ID を指定します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-118">Specifies the context ID of the Help topic associated with the property page.</span></span></param>
+        <summary><span data-ttu-id="1b06c-119">カスタム プロパティ ページのヘルプ情報を返します。</span><span class="sxs-lookup"><span data-stu-id="1b06c-119">Returns Help information about a custom property page.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637819" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900970" /></Metadata><TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="df1d2-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df1d2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="df1d2-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df1d2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="df1d2-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df1d2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="df1d2-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df1d2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="585a5-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="585a5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="585a5-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="585a5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="585a5-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="585a5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="585a5-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />。</span><span class="sxs-lookup"><span data-stu-id="585a5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,35 +48,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-105">
-            <b>ブール型</b>(C# では<b>bool</b> ) は、[名前の選択] ダイアログ ボックスで 1 つ以上のアドレス エントリを選択できるかどうかを決定する設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines whether more than one address entry can be selected at a time in the Select Names dialog.</span>
-          </span>
-          <span data-ttu-id="df1d2-106">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-105"><b>ブール型</b>(C# では<b>bool</b> ) は、[名前の選択] ダイアログ ボックスで 1 つ以上のアドレス エントリを選択できるかどうかを決定する設定または返します。</span><span class="sxs-lookup"><span data-stu-id="585a5-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines whether more than one address entry can be selected at a time in the Select Names dialog.</span></span> <span data-ttu-id="585a5-106">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-107">
-            <para>
-              <b>
-                <b>また</b>の既定値です。</b>
-              <b>また</b>は、 <b>True</b>に設定されている場合、ユーザーは、ctrl キーまたは SHIFT キーを使用して複数の受信者を選択できます。<b>また</b>は、 <b>False</b>に設定されている場合は、複数の選択が無効です。  </para>
-            <para>を<b>False</b>に設定<b>また</b>確実ではありませんその 1 つだけの受信者を選択することができます。ユーザーに入力できます追加の受信者の編集ボックスまたは受信者の一覧から選択してください複数回。ダイアログ ボックスでその 1 つだけの受信者を選択できることを確認するには、 <b>AllowMultipleSelect</b>を<b>False</b>に設定し、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />に<b>olShowNone</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-107">
-              <para>The default value of <b>AllowMultipleSelection</b> is <b>True</b>. If <b>AllowMultipleSelection</b> is set to <b>True</b>, the user can select multiple recipients by using the CTRL or SHIFT key. If <b>AllowMultipleSelection</b> is set to <b>False</b>, multiple selection is disabled.   </para>
-              <para>Setting <b>AllowMultipleSelection</b> to <b>False</b> does not ensure that only one recipient can be selected. The user can type additional recipients in the edit box or select from the recipient list multiple times. To ensure that only one recipient can be selected in the dialog, set <b>AllowMultipleSelect</b> to <b>False</b> and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to <b>olShowNone</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p103"><b>また</b> の既定値は、 <b>True</b>です。 <b>また</b> は、 <b>True</b>に設定されている場合、ユーザーは、 ctrl キーまたは SHIFTキーを使用して複数の受信者を選択できます。 <b>また</b> は、 <b>False</b>に設定されている場合は、複数の選択が無効です。</span><span class="sxs-lookup"><span data-stu-id="585a5-p103">The default value of <b>AllowMultipleSelection</b> is <b>True</b>. If <b>AllowMultipleSelection</b> is set to <b>True</b>, the user can select multiple recipients by using the CTRL or SHIFT key. If <b>AllowMultipleSelection</b> is set to <b>False</b>, multiple selection is disabled.   </span></span></para>
+          <para><span data-ttu-id="585a5-110"><b>また</b> を <b>False</b>に設定してもその 1 つだけの受信者を選択できるとは限りません。</span><span class="sxs-lookup"><span data-stu-id="585a5-110">Setting <b>AllowMultipleSelection</b> to <b>False</b> does not ensure that only one recipient can be selected.</span></span> <span data-ttu-id="585a5-111">ユーザーに入力できます追加の受信者の編集ボックスまたは受信者の一覧から選択してください複数回。</span><span class="sxs-lookup"><span data-stu-id="585a5-111">The user can type additional recipients in the edit box or select from the recipient list multiple times.</span></span> <span data-ttu-id="585a5-112">ダイアログ ボックスでその 1 つだけの受信者を選択できることを確認するには、 <b>AllowMultipleSelect</b>を<b>False</b>に設定し、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />に<b>olShowNone</b>。</span><span class="sxs-lookup"><span data-stu-id="585a5-112">To ensure that only one recipient can be selected in the dialog, set <b>AllowMultipleSelect</b> to <b>False</b> and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to <b>olShowNone</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -127,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-108">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="df1d2-109">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-113">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="585a5-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="585a5-114">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="585a5-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,31 +109,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-110">[名前の選択] ダイアログ ボックスの [bcc] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-110">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Bcc command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-111">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-115">[名前の選択] ダイアログ ボックスの [bcc] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="585a5-115">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Bcc command button on the Select Names dialog box.</span></span> <span data-ttu-id="585a5-116">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-116">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-112">
-            <para>受信者の編集ボックスのアクセラレータ キーを提供するには、アンパサンドが含まれます (&amp;)、アクセス キーとして機能する文字の直前に、ラベル引数の文字列内の文字です。<b>BccLabel</b>が文字列である場合などの「ローカル&amp;出席者」、ユーザーは、最初受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら A を押すことができます。</para>
-            <para>
-              <b>BccLabel</b>が設定されていない場合、既定値は"Bcc"のローカライズされた文字列です。<b>BccLabel</b>設定されている場合、空の文字列に、[Bcc] コマンド ボタンを示していますが、&gt;。<b>BccLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-112">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>BccLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>BccLabel</b> is not set, then the default value will be the localized string for "Bcc". If the <b>BccLabel</b> is set to an empty string, then the Bcc command button shows -&gt;. If the <b>BccLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p107">受信者の編集ボックスのアクセラレータ キーを提供するには、アクセス キーとして機能する文字の直前にアンパサンド (&amp;)、ラベル引数の文字列内の文字を含めます。たとえば、 <b>BccLabel</b> が文字列「ローカル &amp; 参加者」の場合は、ユーザーが最初の受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら Aを押します。</span><span class="sxs-lookup"><span data-stu-id="585a5-p107">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>BccLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="585a5-119"><b>BccLabel</b>を設定しない場合、既定値になります"Bcc"のローカライズされた文字列。</span><span class="sxs-lookup"><span data-stu-id="585a5-119">If <b>BccLabel</b> is not set, then the default value will be the localized string for "Bcc".</span></span> <span data-ttu-id="585a5-120"><b>BccLabel</b>設定されている場合、空の文字列に、[Bcc] コマンド ボタンを示していますが、&gt;。</span><span class="sxs-lookup"><span data-stu-id="585a5-120">If the <b>BccLabel</b> is set to an empty string, then the Bcc command button shows -&gt;.</span></span> <span data-ttu-id="585a5-121"><b>BccLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-121">If the <b>BccLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -220,31 +142,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-113">取得または名前の選択] ダイアログ ボックスのタイトルを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-113">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the title for the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-114">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-122">取得または名前の選択] ダイアログ ボックスのタイトルを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="585a5-122">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the title for the Select Names dialog box.</span></span> <span data-ttu-id="585a5-123">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-115">
-            <para>
-              <b>キャプション</b>が設定されていない場合、ダイアログ ボックスのタイトルになります [名前の選択またはローカライズされたと同じ。ダイアログ ボックスのキャプションが空の文字列をある<b>Caption</b>を空の文字列に設定するとします</para>。
-          <para>が切り詰められ、キャプションと、<b>キャプション</b>を長い文字列 (たとえば、300 文字) に設定と、変更するのには [名前の選択] ダイアログ ボックスの幅には発生しません</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-115">
-              <para>If you do not set <b>Caption</b>, the title of the dialog box will be Select Names or the localized equivalent. If you set <b>Caption</b> to an empty string, the dialog box caption will be an empty string.</para>
-              <para>Setting the <b>Caption</b> to a long string (for example, 300 characters) will cause the caption to be truncated, and will not cause the width of the Select Names dialog to change.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p110"><b>キャプション</b> が設定されていない場合、ダイアログ ボックスのタイトルになります [名前の選択またはローカライズされたと同じ。 <b>Caption</b> を空の文字列に設定すると、ダイアログ ボックスのキャプションが空の文字列になります。</span><span class="sxs-lookup"><span data-stu-id="585a5-p110">If you do not set <b>Caption</b>, the title of the dialog box will be Select Names or the localized equivalent. If you set <b>Caption</b> to an empty string, the dialog box caption will be an empty string.</span></span></para>
+          <para><span data-ttu-id="585a5-126"><b>キャプション</b> を長い文字列 (たとえば、300 文字) に設定が切り詰められ、キャプションと、し、変更するのには [ 名前の選択] ダイアログ ボックスの幅には発生しません。</span><span class="sxs-lookup"><span data-stu-id="585a5-126">Setting the <b>Caption</b> to a long string (for example, 300 characters) will cause the caption to be truncated, and will not cause the width of the Select Names dialog to change.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcLabel">
@@ -273,30 +175,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-116">[名前の選択] ダイアログ ボックスの [Cc] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-116">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Cc command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-117">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-117">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-127">[名前の選択] ダイアログ ボックスの [Cc] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="585a5-127">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Cc command button on the Select Names dialog box.</span></span> <span data-ttu-id="585a5-128">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-128">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-118">
-            <para>受信者の編集ボックスのアクセラレータ キーを提供するには、アンパサンドが含まれます (&amp;)、アクセス キーとして機能する文字の直前に、ラベル引数の文字列内の文字です。<b>CcLabel</b>が文字列である場合などの「ローカル&amp;出席者」、ユーザーは、最初受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら A を押すことができます。</para>
-            <para>"Cc"のローカライズされた文字列が既定値になり、 <b>CcLabel</b>を設定しない場合。<b>CcLabel</b>設定されている場合、空の文字列に、[Cc] コマンド ボタンを示していますが、&gt;。<b>CcLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-118">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>CcLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>CcLabel</b> is not set, then the default value will be the localized string for "Cc". If the <b>CcLabel</b> is set to an empty string, then the Cc command button shows -&gt;. If the <b>CcLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p112">受信者の編集ボックスのアクセラレータ キーを提供するには、アクセス キーとして機能する文字の直前にアンパサンド (&amp;)、ラベル引数の文字列内の文字を含めます。たとえば、 <b>CcLabel</b> が"ローカル &amp; 出席者"の文字列の場合は、ユーザーが最初の受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら Aを押します。</span><span class="sxs-lookup"><span data-stu-id="585a5-p112">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>CcLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="585a5-131"><b>CcLabel</b>を設定しない場合、既定値になります"Cc"のローカライズされた文字列。</span><span class="sxs-lookup"><span data-stu-id="585a5-131">If <b>CcLabel</b> is not set, then the default value will be the localized string for "Cc".</span></span> <span data-ttu-id="585a5-132"><b>CcLabel</b>設定されている場合、空の文字列に、[Cc] コマンド ボタンを示していますが、&gt;。</span><span class="sxs-lookup"><span data-stu-id="585a5-132">If the <b>CcLabel</b> is set to an empty string, then the Cc command button shows -&gt;.</span></span> <span data-ttu-id="585a5-133"><b>CcLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-133">If the <b>CcLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -322,16 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-119">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-119">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="df1d2-120">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-134">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="585a5-134">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="585a5-135">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="585a5-135">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -357,33 +231,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-121">[名前の選択] ダイアログ ボックスを表示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-121">Displays the Select Names dialog box.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="df1d2-122">ユーザーがクリックした [ok]、および<b>False</b>場合は、ユーザーが [キャンセル] または閉じるボタンをクリックした場合に<b>True</b>となる<b>ブール</b>値 (C# では<b>bool</b> )。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-122">A <b>Boolean</b> value (<b>bool</b> in C#) that is <b>True</b> if the user has clicked OK, and <b>False</b> if the user has clicked Cancel or the close icon.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="df1d2-123">
-            <para>前の位置とサイズが (上、左、幅、および高さで示されます)] ダイアログ ボックスの<b>表示</b>を使用して、[名前の選択] ダイアログ ボックスを表示するときです</para>。
-          <para>[名前の選択] ダイアログ ボックスがモーダルの場合、ユーザーが [ok]、[キャンセル]、または閉じるアイコンをクリックするまでコードの実行を停止することを意味します</para>。
-          <para>メモリ不足を含むエラー条件を検出する必要がありますまたは別のメッセージまたはダイアログ ボックスが表示されています</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-123">
-              <para>When displaying the Select Names dialog box, <b>Display</b> uses the previous location and size (indicated by the top, left, width, and height) of the dialog box.</para>
-              <para>The Select Names dialog box is modal, meaning that code execution will halt until the user clicks OK, Cancel, or the close icon.</para>
-              <para>You should detect for error conditions that include insufficient memory or another message or dialog box is open.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="585a5-136">[名前の選択] ダイアログ ボックスを表示します。</span><span class="sxs-lookup"><span data-stu-id="585a5-136">Displays the Select Names dialog box.</span></span></summary>
+        <returns><span data-ttu-id="585a5-137">ユーザーがクリックした [ok]、および<b>False</b>場合は、ユーザーが [キャンセル] または閉じるボタンをクリックした場合に<b>True</b>となる<b>ブール</b>値 (C# では<b>bool</b> )。</span><span class="sxs-lookup"><span data-stu-id="585a5-137">A <b>Boolean</b> value (<b>bool</b> in C#) that is <b>True</b> if the user has clicked OK, and <b>False</b> if the user has clicked Cancel or the close icon.</span></span></returns>
+        <remarks><para><span data-ttu-id="585a5-138">[名前の選択] ダイアログ ボックスを表示するには、 <b>表示</b> は、以前の位置とサイズ (上、左、幅、および高さで示されます)、ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="585a5-138">When displaying the Select Names dialog box, <b>Display</b> uses the previous location and size (indicated by the top, left, width, and height) of the dialog box.</span></span></para>
+          <para><span data-ttu-id="585a5-139">[ 名前の選択] ダイアログ ボックスはモーダルです。つまり、ユーザーが [ OK]、[ キャンセル]、または [閉じる] アイコンをクリックするまでは、コードの実行が停止します。</span><span class="sxs-lookup"><span data-stu-id="585a5-139">The Select Names dialog box is modal, meaning that code execution will halt until the user clicks OK, Cancel, or the close icon.</span></span></para>
+          <para><span data-ttu-id="585a5-140">メモリの不足を含むエラー条件を検出する必要があります。さもないと、別のメッセージやダイアログ ボックスが開きます。</span><span class="sxs-lookup"><span data-stu-id="585a5-140">You should detect for error conditions that include insufficient memory or another message or dialog box is open.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForceResolution">
@@ -412,32 +265,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-124">値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) Outlook で指定したオブジェクトのすべての受信者を解決する必要があるかどうかを決定する<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />ユーザーは、[名前の選択] ダイアログ ボックスで入力または選択した受信者をそのまま使用するには、[ok] をクリックする前にします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-124">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if Outlook must resolve all recipients in the object specified by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> before the user can click OK to accept the typed or selected recipients in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-125">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-125">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-141">値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) Outlook で指定したオブジェクトのすべての受信者を解決する必要があるかどうかを決定する<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />ユーザーは、[名前の選択] ダイアログ ボックスで入力または選択した受信者をそのまま使用するには、[ok] をクリックする前にします。</span><span class="sxs-lookup"><span data-stu-id="585a5-141">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if Outlook must resolve all recipients in the object specified by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> before the user can click OK to accept the typed or selected recipients in the Select Names dialog box.</span></span> <span data-ttu-id="585a5-142">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-126">
-            <para>既定値は、 <b>true を指定</b>します。受信者を解決できない場合、Outlook はあいまいな名前を解決するのにはユーザーを求められます。ユーザーが解決されない、[ok] をクリックして、受信者の編集ボックスですべての受信者をいる必要があります</para>。
-          <para>ユーザーが [キャンセル] または閉じるボタンをクリックした場合、 
-            <b>ForceResolution</b>は無視されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-126">
-              <para>The default value is <b>True</b>. If a recipient cannot be resolved, Outlook will prompt the user to resolve the ambiguous names. The user must have all recipients in the recipient edit box resolved before being able to click OK.</para>
-              <para>
-                <b>ForceResolution</b> is ignored if the user clicks Cancel or the Close icon. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-143">既定値は、 <b>true を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="585a5-143">The default value is <b>True</b>.</span></span> <span data-ttu-id="585a5-144">受信者を解決できない場合、Outlook はあいまいな名前を解決するのにはユーザーを求められます。</span><span class="sxs-lookup"><span data-stu-id="585a5-144">If a recipient cannot be resolved, Outlook will prompt the user to resolve the ambiguous names.</span></span> <span data-ttu-id="585a5-145">ユーザーには、受信者のすべての受信者を編集ボックスの [ OK] をクリックすることの前に解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="585a5-145">The user must have all recipients in the recipient edit box resolved before being able to click OK.</span></span></para>
+          <para><span data-ttu-id="585a5-p117">
+            <b>キャンセル</b>するか、[閉じる] アイコンをクリックした場合、 ForceResolution は無視されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-p117">
+            <b>ForceResolution</b> is ignored if the user clicks Cancel or the Close icon. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialAddressList">
@@ -466,29 +300,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-127">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 、[名前の選択] ダイアログ ボックスに表示する初期のアドレス一覧を決定するオブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that determines the initial address list to be displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-128">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-147">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 、[名前の選択] ダイアログ ボックスに表示する初期のアドレス一覧を決定するオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="585a5-147">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that determines the initial address list to be displayed in the Select Names dialog box.</span></span> <span data-ttu-id="585a5-148">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-148">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-129">
-            <para>同等のプログラムがアドレス帳の名前の選択] ダイアログ ボックスでドロップ ダウン リストから、 <b>AddressList</b>を選択すると、 <b>InitialAddressList</b>プロパティを設定します</para>。
-          <para><b>InitialAddressList</b>は、 <b>AddressList</b>プロパティが、既定の状態で<see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />を<b>True</b>に設定します。<b>IsInitialAddressList</b>は、このアドレス リストの先頭にあり使用可能なツール] をクリックして、[アドレス帳] ダイアログ ボックスで、[オプションの [アドレス] ダイアログ ボックスの表示を設定するのには対応しています。 </para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-129">
-              <para>Setting the <b>InitialAddressList</b> property is the programmatic equivalent to selecting an <b>AddressList</b> from the drop-down list for  Address Book in the Select Names dialog box.</para>
-              <para>In its default state, <b>InitialAddressList</b> is the <b>AddressList</b> that has the property <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> set to <b>True</b>. <b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-149">」ドロップ ダウン リストから、[名前の選択] ダイアログ ボックスでアドレス帳、 <b>AddressList</b>をオンにする同等のプログラムは、 <b>InitialAddressList</b>プロパティを設定します。</span><span class="sxs-lookup"><span data-stu-id="585a5-149">Setting the <b>InitialAddressList</b> property is the programmatic equivalent to selecting an <b>AddressList</b> from the drop-down list for  Address Book in the Select Names dialog box.</span></span></para>
+          <para><span data-ttu-id="585a5-150"><b>InitialAddressList</b>は、 <b>AddressList</b>プロパティが、既定の状態で<see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />を<b>True</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="585a5-150">In its default state, <b>InitialAddressList</b> is the <b>AddressList</b> that has the property <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> set to <b>True</b>.</span></span> <span data-ttu-id="585a5-151"><b>IsInitialAddressList</b>は、このアドレス リストの先頭にあり使用可能なツール] をクリックして、[アドレス帳] ダイアログ ボックスで、[オプションの [アドレス] ダイアログ ボックスの表示を設定するのには対応しています。</span><span class="sxs-lookup"><span data-stu-id="585a5-151"><b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfRecipientSelectors">
@@ -517,32 +333,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecipientSelectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-130">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" />の受信者の数を決定する定数の編集ボックスは、(それぞれに関連付けられているコマンド ボタン)、[名前の選択] ダイアログ ボックスに表示されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-130">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constant that determines the number of recipient edit boxes (each associated with a command button) displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-131">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-152">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" />の受信者の数を決定する定数の編集ボックスは、(それぞれに関連付けられているコマンド ボタン)、[名前の選択] ダイアログ ボックスに表示されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-152">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constant that determines the number of recipient edit boxes (each associated with a command button) displayed in the Select Names dialog box.</span></span> <span data-ttu-id="585a5-153">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-153">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-132">
-            <para>受信者の編集ボックスを使用すると、受信者の名前を入力します。各受信者の編集ボックスは、[名前の選択ダイアログ ボックスのコマンド ボタンに関連付けられています。受信者の編集ボックスのコマンド ボタンには、[宛先] ボックスと [cc] コマンド ボタンを配置します。<b>NumberOfRecipientSelectors</b>の既定値は<b>OlRecipientSelectors.olToCcBcc</b>をされています</para>。
-          <para><b>NumberOfRecipientSelectors</b>を<b>OlRecipientSelectors.olShowTo</b>に設定し、その後のテキストを設定していて<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />または<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />、 <b>NumberOfRecipientSelectors</b>は変更されません</para>。
-          <para>に<b>OlRecipientSelectors.olShowNone</b>、 <b>NumberOfRecipientSelectors</b>を設定した場合、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />プロパティは無視されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-132">
-              <para>A recipient edit box allows you to enter recipient names. Each recipient edit box is associated with a command button in the Select Names dialog box; examples of a command button for a recipient edit box are the To and Cc command buttons. The default value of <b>NumberOfRecipientSelectors</b> is <b>OlRecipientSelectors.olToCcBcc</b>.</para>
-              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowTo</b> and then subsequently set the text for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> or <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, the <b>NumberOfRecipientSelectors</b> will remain unchanged. </para>
-              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowNone</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> property will be ignored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-154">受信者の編集ボックスを使用すると、受信者の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="585a5-154">A recipient edit box allows you to enter recipient names.</span></span> <span data-ttu-id="585a5-155">各受信者の編集ボックスは、[名前の選択ダイアログ ボックスのコマンド ボタンに関連付けられています。受信者の編集ボックスのコマンド ボタンには、[宛先] ボックスと [cc] コマンド ボタンを配置します。</span><span class="sxs-lookup"><span data-stu-id="585a5-155">Each recipient edit box is associated with a command button in the Select Names dialog box; examples of a command button for a recipient edit box are the To and Cc command buttons.</span></span> <span data-ttu-id="585a5-156"><b>NumberOfRecipientSelectors</b>の既定値は<b>OlRecipientSelectors.olToCcBcc</b>です。</span><span class="sxs-lookup"><span data-stu-id="585a5-156">The default value of <b>NumberOfRecipientSelectors</b> is <b>OlRecipientSelectors.olToCcBcc</b>.</span></span></para>
+          <para><span data-ttu-id="585a5-157"><b>NumberOfRecipientSelectors</b>を<b>OlRecipientSelectors.olShowTo</b>に設定し、その後のテキストを設定していて<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />または<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />、 <b>NumberOfRecipientSelectors</b>は変更されません。</span><span class="sxs-lookup"><span data-stu-id="585a5-157">If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowTo</b> and then subsequently set the text for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> or <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, the <b>NumberOfRecipientSelectors</b> will remain unchanged.</span></span> </para>
+          <para><span data-ttu-id="585a5-158"><b>NumberOfRecipientSelectors</b>を<b>OlRecipientSelectors.olShowNone</b>に設定すると、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />プロパティは無視されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-158">If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowNone</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> property will be ignored.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -568,16 +364,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-133">親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-133">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="df1d2-134">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-159">親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="585a5-159">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="585a5-160">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="585a5-160">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -608,33 +395,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-135">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />コレクションのオブジェクトを名前の選択] ダイアログ ボックスで選択されている受信者を表す<b>Recipients</b>コレクション オブジェクトの設定は、[名前の選択] ダイアログ ボックスに表示される最初の受信者を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-135">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection object that represents the recipients selected in the Select Names dialog, or sets a <b>Recipients</b> collection object that represents the initial recipients to be displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-136">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-136">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-161">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />コレクションのオブジェクトを名前の選択] ダイアログ ボックスで選択されている受信者を表す<b>Recipients</b>コレクション オブジェクトの設定は、[名前の選択] ダイアログ ボックスに表示される最初の受信者を表します。</span><span class="sxs-lookup"><span data-stu-id="585a5-161">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection object that represents the recipients selected in the Select Names dialog, or sets a <b>Recipients</b> collection object that represents the initial recipients to be displayed in the Select Names dialog box.</span></span> <span data-ttu-id="585a5-162">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-162">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-137">
-            <para>
-              <b>Recipients</b>コレクション オブジェクトを指定する<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" />に受信者の合計数に等しい、[cc]、および [bcc] ボックスを編集します。</para>
-            <para>かどうかは、[名前の選択] ダイアログ ボックスを表示する前にこのプロパティを設定しないの場合、 <b>SelectNamesDialog.Recipients</b>で表される<b>受信者</b>オブジェクトは、 <b>Recipients.Count</b>ゼロに等しいです</para>。
-          <para>場合は、ユーザーは、[名前の選択] ダイアログ ボックスから任意の名前を選択しないと、[ok] をクリックすると、 <b>SelectNamesDialog.Recipients</b>を返します<b>Recipients</b>コレクション オブジェクトの<b>Recipients.Count</b>ゼロに等しいです</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-137">
-              <para>This property specifies a <b>Recipients</b> collection object that has a <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> equal to the total number of recipients in the To, Cc, and Bcc edit boxes. </para>
-              <para>If you do not set this property before displaying the Select Names dialog box, then the <b>Recipients</b> object represented by <b>SelectNamesDialog.Recipients</b> will have a <b>Recipients.Count</b> equal to zero.</para>
-              <para>If the user does not select any names from the Select Names dialog box and clicks OK, <b>SelectNamesDialog.Recipients</b> will return a <b>Recipients</b> collection object with <b>Recipients.Count</b> equal to zero. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-163"><b>Recipients</b>コレクション オブジェクトを指定する<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" />に受信者の合計数に等しい、[cc]、および [bcc] ボックスを編集します。</span><span class="sxs-lookup"><span data-stu-id="585a5-163">This property specifies a <b>Recipients</b> collection object that has a <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> equal to the total number of recipients in the To, Cc, and Bcc edit boxes.</span></span> </para>
+          <para><span data-ttu-id="585a5-164">場合は、[ 名前の選択] ダイアログ ボックスを表示する前にこのプロパティを設定しないと、 <b>SelectNamesDialog.Recipients</b> で表される <b>受信者</b> オブジェクトは、 <b>Recipients.Count</b> 値を 0 にがあります。</span><span class="sxs-lookup"><span data-stu-id="585a5-164">If you do not set this property before displaying the Select Names dialog box, then the <b>Recipients</b> object represented by <b>SelectNamesDialog.Recipients</b> will have a <b>Recipients.Count</b> equal to zero.</span></span></para>
+          <para><span data-ttu-id="585a5-165">場合ユーザーは、[名前の選択] ダイアログ ボックスから任意の名前を選択しないと、[ok] をクリックすると、 <b>SelectNamesDialog.Recipients</b>を返します<b>Recipients</b>コレクション オブジェクトの<b>Recipients.Count</b>ゼロに等しい。</span><span class="sxs-lookup"><span data-stu-id="585a5-165">If the user does not select any names from the Select Names dialog box and clicks OK, <b>SelectNamesDialog.Recipients</b> will return a <b>Recipients</b> collection object with <b>Recipients.Count</b> equal to zero.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -660,42 +426,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-138">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="df1d2-139">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-139">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-166">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="585a5-166">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="585a5-167">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="585a5-167">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-140">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="585a5-168"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="585a5-168">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="585a5-169">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="585a5-169">Both members serve the same purpose.</span></span> <span data-ttu-id="585a5-170">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="585a5-170">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-140">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetDefaultDisplayMode">
@@ -721,36 +461,14 @@
         <Parameter Name="defaultMode" Type="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
       </Parameters>
       <Docs>
-        <param name="defaultMode">
-          <span data-ttu-id="df1d2-141">
-            <b>[名前の選択</b>] ダイアログ ボックスの既定のキャプションとボタンのラベルを決定する OlDefaultSelectNamesDisplayMode 列挙体の定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-141">A constant in the <b>OlDefaultSelectNamesDisplayMode</b> enumeration that determines the default caption and button labels for the Select Names dialog box.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="df1d2-142">[名前の選択] ダイアログ ボックスの既定の表示モードを設定し、キャプションとボタンのラベルを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-142">Sets the default display mode for the Select Names dialog box, specifying its caption and button labels.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="df1d2-143">
-            <para>
-              <b>SetDefaultDisplayMode</b>は省略可能です。呼び出す前に<b>SetDefaultDisplayMode</b>を呼び出さない場合は、 <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />、 <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>が既定の表示モードになります。表示モードを別の値に設定するには、<b>表示</b>メソッドを呼び出す前に<b>SetDefaultDisplayMode</b>を呼び出す必要があります。</para>
-            <para>このメソッドを使用する、キャプション、ラベル、値をローカライズするリソース ファイルを使用せず、[名前の選択] ダイアログ ボックスを表示するラベル、および [bcc] ラベルを Cc。組み込みの動作をオーバーライドするには、独自の値を設定することによって<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />と<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />。</para>
-            <para>その他のプロパティを設定することができます (たとえば、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /><b>olRecipientSelectors.olToCc</b>に) <b>SetDefaultDisplayMode</b>を呼び出した後。[名前の選択] ダイアログ ボックスは、それ以降の設定を確認します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-143">
-              <para>
-                <b>SetDefaultDisplayMode</b> is optional. If you do not call <b>SetDefaultDisplayMode</b> before calling <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, the default display mode will be <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. To set the display mode to a different value, you should call <b>SetDefaultDisplayMode</b> before calling the <b>Display</b> method. </para>
-              <para>This method allows you to display the Select Names dialog box without using a resource file to localize the values for the caption, the To label, Cc label, and Bcc label. You can override the built-in behavior by setting your own values for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
-              <para>You can set additional properties (for example, setting <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to  <b>olRecipientSelectors.olToCc</b>)  after calling  <b>SetDefaultDisplayMode</b>. The Select Names dialog box will observe the subsequent setting.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="defaultMode"><span data-ttu-id="585a5-171"><b>[名前の選択</b>] ダイアログ ボックスの既定のキャプションとボタンのラベルを決定する OlDefaultSelectNamesDisplayMode 列挙体の定数です。</span><span class="sxs-lookup"><span data-stu-id="585a5-171">A constant in the <b>OlDefaultSelectNamesDisplayMode</b> enumeration that determines the default caption and button labels for the Select Names dialog box.</span></span></param>
+        <summary><span data-ttu-id="585a5-172">[名前の選択] ダイアログ ボックスの既定の表示モードを設定し、キャプションとボタンのラベルを指定します。</span><span class="sxs-lookup"><span data-stu-id="585a5-172">Sets the default display mode for the Select Names dialog box, specifying its caption and button labels.</span></span></summary>
+        <remarks><para><span data-ttu-id="585a5-173">
+            <b>SetDefaultDisplayMode</b> は省略可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-173">
+            <b>SetDefaultDisplayMode</b> is optional.</span></span> <span data-ttu-id="585a5-174">呼び出す前に<b>SetDefaultDisplayMode</b>を呼び出さない場合は、 <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />、 <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>が既定の表示モードになります。</span><span class="sxs-lookup"><span data-stu-id="585a5-174">If you do not call <b>SetDefaultDisplayMode</b> before calling <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, the default display mode will be <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>.</span></span> <span data-ttu-id="585a5-175">表示モードを別の値に設定するには、 <b>表示</b> メソッドを呼び出す前に <b>SetDefaultDisplayMode</b> を呼び出す必要があります。</span><span class="sxs-lookup"><span data-stu-id="585a5-175">To set the display mode to a different value, you should call <b>SetDefaultDisplayMode</b> before calling the <b>Display</b> method.</span></span> </para>
+          <para><span data-ttu-id="585a5-176">このメソッドを使用すると、キャプション、[ 宛先] ラベル、[ ＣＣ] ラベル、および [ ＢＣＣ] ラベルの値をローカライズするリソース ファイルを使わずに、[ 名前の選択] ダイアログ ボックスを表示できます。</span><span class="sxs-lookup"><span data-stu-id="585a5-176">This method allows you to display the Select Names dialog box without using a resource file to localize the values for the caption, the To label, Cc label, and Bcc label.</span></span> <span data-ttu-id="585a5-177">組み込みの動作をオーバーライドするには、独自の値を設定することによって<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />、<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />と<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />。</span><span class="sxs-lookup"><span data-stu-id="585a5-177">You can override the built-in behavior by setting your own values for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />.</span></span> </para>
+          <para><span data-ttu-id="585a5-178">追加のプロパティを設定することができます (たとえば、 <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> <b>olRecipientSelectors.olToCc</b>に) <b>SetDefaultDisplayMode</b>を呼び出した後。</span><span class="sxs-lookup"><span data-stu-id="585a5-178">You can set additional properties (for example, setting <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to  <b>olRecipientSelectors.olToCc</b>)  after calling  <b>SetDefaultDisplayMode</b>.</span></span> <span data-ttu-id="585a5-179">[名前の選択] ダイアログ ボックスは、それ以降の設定を確認してください。</span><span class="sxs-lookup"><span data-stu-id="585a5-179">The Select Names dialog box will observe the subsequent setting.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOnlyInitialAddressList">
@@ -779,30 +497,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-144">値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />で表される<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />、[名前の選択] ダイアログ ボックスでアドレス帳の唯一の<b>AddressList</b>をドロップ ダウン リストで利用可能なは。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-144">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> represented by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> is the only <b>AddressList</b> available in the drop-down list for Address Book in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-145">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-180">値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />で表される<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />、[名前の選択] ダイアログ ボックスでアドレス帳の唯一の<b>AddressList</b>をドロップ ダウン リストで利用可能なは。</span><span class="sxs-lookup"><span data-stu-id="585a5-180">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> represented by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> is the only <b>AddressList</b> available in the drop-down list for Address Book in the Select Names dialog box.</span></span> <span data-ttu-id="585a5-181">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-181">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-146">
-            <para>このプロパティの既定値が<b>False</b>、すべてのアドレス一覧が表示されることを意味します。<b>InitialAddressList</b>によって示される 1 つにアドレス帳のドロップ ダウン リストを制限、 <b>ShowOnlyInitialAddressList</b>を<b>True</b>に設定します。</para>する<b>InitialAddressList</b>プロパティを設定して、設定を行わない<b>ShowOnlyInitialAddressList</b>に<b>true を指定</b>しの<b>addresslist オブジェクトを見つける</b>場合は
-          <para><see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />を<b>True</b>に等しいする唯一のアドレス一覧で使用可能なアドレス帳] ボックスの一覧です</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-146">
-              <para>The default value of this property is <b>False</b>, meaning that all address lists are displayed. To restrict the drop-down list for Address Book to the one indicated by <b>InitialAddressList</b>, set <b>ShowOnlyInitialAddressList</b> to <b>True</b>. </para>
-              <para>If you do not set the <b>InitialAddressList</b> property and then set <b>ShowOnlyInitialAddressList</b> to <b>True</b>, then the <b>AddressList</b> with <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> equal to <b>True</b> will be the only address list available in the drop-down list for Address Book.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p133">このプロパティの既定値が <b>False</b> 、すべてのアドレス一覧が表示されることを意味します。 InitialAddressList によって示される 1 つに <b>アドレス帳</b>のドロップ ダウン リストを制限、 <b>ShowOnlyInitialAddressList</b> を <b>True</b> に設定します。</span><span class="sxs-lookup"><span data-stu-id="585a5-p133">The default value of this property is <b>False</b>, meaning that all address lists are displayed. To restrict the drop-down list for Address Book to the one indicated by <b>InitialAddressList</b>, set <b>ShowOnlyInitialAddressList</b> to <b>True</b>. </span></span></para>
+          <para><span data-ttu-id="585a5-184"><b>InitialAddressList</b>プロパティを設定して、設定を行わない<b>ShowOnlyInitialAddressList</b>に<b>true を指定</b>しの<b>addresslist オブジェクトを見つける</b>場合は、<see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />を<b>True</b>に等しいとなるドロップ ダウン リストで利用可能な唯一のアドレス一覧アドレス帳です。</span><span class="sxs-lookup"><span data-stu-id="585a5-184">If you do not set the <b>InitialAddressList</b> property and then set <b>ShowOnlyInitialAddressList</b> to <b>True</b>, then the <b>AddressList</b> with <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> equal to <b>True</b> will be the only address list available in the drop-down list for Address Book.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToLabel">
@@ -831,31 +530,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df1d2-147">[名前の選択] ダイアログ ボックスの [宛先] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-147">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the To command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="df1d2-148">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="585a5-185">[名前の選択] ダイアログ ボックスの [宛先] コマンド ボタンに表示されるテキストの<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="585a5-185">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the To command button on the Select Names dialog box.</span></span> <span data-ttu-id="585a5-186">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="585a5-186">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="df1d2-149">
-            <para>受信者の編集ボックスのアクセラレータ キーを提供するには、アンパサンドが含まれます (&amp;)、アクセス キーとして機能する文字の直前に、ラベル引数の文字列内の文字です。<b>ToLabel</b>が文字列である場合などの「ローカル&amp;出席者」、ユーザーは、最初受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら A を押すことができます。</para>
-            <para>
-              <b>ToLabel</b>を設定しない場合、既定値になります「宛先」のローカライズされた文字列です。<b>ToLabel</b>設定されている場合、空の文字列に、[宛先] コマンド ボタンを示していますが、&gt;。<b>ToLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df1d2-149">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>ToLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>ToLabel</b> is not set, the default value will be the localized string for "To". If the <b>ToLabel</b> is set to an empty string, then the To command button shows -&gt;. If the <b>ToLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="585a5-p135">受信者の編集ボックスのアクセラレータ キーを提供するには、アクセス キーとして機能する文字の直前にアンパサンド (&amp;)、ラベル引数の文字列内の文字を含めます。たとえば、 <b>ToLabel</b> が"ローカル &amp; 出席者"の文字列の場合は、ユーザーが最初の受信者の編集ボックスにフォーカスを移動するのには alt キーを押しながら Aを押します。</span><span class="sxs-lookup"><span data-stu-id="585a5-p135">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>ToLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="585a5-189"><b>ToLabel</b>を設定しない場合、既定値は"To"のローカライズされた文字列になります。</span><span class="sxs-lookup"><span data-stu-id="585a5-189">If <b>ToLabel</b> is not set, the default value will be the localized string for "To".</span></span> <span data-ttu-id="585a5-190"><b>ToLabel</b>設定されている場合、空の文字列に、[宛先] コマンド ボタンを示していますが、&gt;。</span><span class="sxs-lookup"><span data-stu-id="585a5-190">If the <b>ToLabel</b> is set to an empty string, then the To command button shows -&gt;.</span></span> <span data-ttu-id="585a5-191"><b>ToLabel</b>プロパティに 32 を超える文字が含まれているかどうか (アンパサンドを含む (&amp;) のアクセス キー)、最初の 32 文字だけがコマンド ボタンに表示されます。</span><span class="sxs-lookup"><span data-stu-id="585a5-191">If the <b>ToLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

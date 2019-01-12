@@ -1,13 +1,5 @@
 <Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637903" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897193" /></Metadata><TypeSignature Language="C#" Value="public interface _TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="04312-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04312-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="04312-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04312-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="04312-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04312-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="04312-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04312-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="439b5-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="439b5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="439b5-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="439b5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="439b5-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="439b5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="439b5-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />。</span><span class="sxs-lookup"><span data-stu-id="439b5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,29 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-105">セル内編集を許可するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether in-cell editing is allowed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-106">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-105">セル内編集を許可するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether in-cell editing is allowed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-106">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-107">
-            <para>このプロパティが<b>True の</b>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-107">
-              <para>If this property is set to <b>True</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is automatically set to <b>olAlwaysSingleLine</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-107">このプロパティが<b>True の</b>場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-107">If this property is set to <b>True</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is automatically set to <b>olAlwaysSingleLine</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlwaysExpandConversation">
@@ -124,32 +80,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-108">会話がテーブル ビューに常に完全に展開されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether conversations are always fully expanded in the table view.</span>
-          </span>
-          <span data-ttu-id="04312-109">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-108">会話がテーブル ビューに常に完全に展開されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。</span><span class="sxs-lookup"><span data-stu-id="439b5-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether conversations are always fully expanded in the table view.</span></span> <span data-ttu-id="439b5-109">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-110">
-            <para>
-              <b>AlwaysExpandConversation</b>プロパティは、[会話] メニューの [Microsoft Office Fluent リボンの [表示] タブの配置のグループの会話を常に展開を選択することに似ています</para>。
-          <para><b>場合は true</b>を示すグループがテーブル ビューで、デフォルトでは完全に展開されて、その会話スレッド グループが部分的にのみ展開されている<b>場合は false</b>を示します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-110">
-              <para>The <b>AlwaysExpandConversation</b> property is analogous to selecting Always Expand Conversations in the Conversations menu of the Arrangement group on the View tab of the Microsoft Office Fluent ribbon.</para>
-              <para>
-                <b>True</b> indicates that conversation groups are fully expanded in the table view by default; <b>False</b> indicates conversation groups are only partially expanded.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-110"><b>AlwaysExpandConversation</b>プロパティは、[会話] メニューの [Microsoft Office Fluent リボンの [表示] タブの配置のグループの会話を常に展開を選択することに似ています。</span><span class="sxs-lookup"><span data-stu-id="439b5-110">The <b>AlwaysExpandConversation</b> property is analogous to selecting Always Expand Conversations in the Conversations menu of the Arrangement group on the View tab of the Microsoft Office Fluent ribbon.</span></span></para>
+          <para><span data-ttu-id="439b5-111">グループがテーブル ビューで、デフォルトでは完全に展開されて、その会話を 
+            <b>true</b> を指定します。 <b>False</b> では、グループが部分的にしか展開されている会話を示します。</span><span class="sxs-lookup"><span data-stu-id="439b5-111">
+            <b>True</b> indicates that conversation groups are fully expanded in the table view by default; <b>False</b> indicates conversation groups are only partially expanded.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -175,16 +112,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-111">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="04312-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-112">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="439b5-113">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,12 +138,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-113">適用、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を現在のビュー オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-113">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object to the current view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-114">適用、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を現在のビュー オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-114">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object to the current view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,16 +165,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-114">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-115">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />の書式設定のセットを表すオブジェクトの規則に該当する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,30 +196,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-116">示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定かどうかの列、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、Outlook によって自動的に縮小します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-116">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the columns in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are automatically sized by Outlook.</span>
-          </span>
-          <span data-ttu-id="04312-117">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-117">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-117">示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定かどうかの列、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、Outlook によって自動的に縮小します。</span><span class="sxs-lookup"><span data-stu-id="439b5-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the columns in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are automatically sized by Outlook.</span></span> <span data-ttu-id="439b5-118">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-118">
-            <para>
-              <b>False</b>にこのプロパティが設定されている場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-118">
-              <para>If this property is set to <b>False</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is automatically set to <b>olAlwaysSingleLine</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-119"><b>False</b>にこのプロパティが設定されている場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが自動的に<b>olAlwaysSingleLine</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-119">If this property is set to <b>False</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is automatically set to <b>olAlwaysSingleLine</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutomaticGrouping">
@@ -334,30 +228,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-119">自動グループ化でアクティブになっているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-119">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the automatic grouping is active in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-120">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-120">自動グループ化でアクティブになっているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-120">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the automatic grouping is active in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-121">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-121">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-121">
-            <para>
-              <b>True</b>にこのプロパティが設定されている場合 Outlook のユーザー インターフェイスで指定された配置に従ってビュー内のアイテムが自動的にグループ化します。内容に従ってビューの項目をグループ化する場合は<b>このプロパティが</b>、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />プロパティ。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-121">
-              <para>If this property is set to <b>True</b>, items are automatically grouped in the view according to the arrangement specified in the Outlook user interface. If this property is set to <b>False</b>, items are grouped in the view according to the contents of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-122"><b>True</b> にこのプロパティが設定されている場合 Outlook のユーザー インターフェイスで指定された配置に従ってビュー内のアイテムが自動的にグループ化します。</span><span class="sxs-lookup"><span data-stu-id="439b5-122">If this property is set to <b>True</b>, items are automatically grouped in the view according to the arrangement specified in the Outlook user interface.</span></span> <span data-ttu-id="439b5-123">内容に従ってビューの項目をグループ化する場合は<b>このプロパティが</b>、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="439b5-123">If this property is set to <b>False</b>, items are grouped in the view according to the contents of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoPreview">
@@ -386,16 +260,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoPreview</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-122">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />の項目が自動的にプレビュー表示方法を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-122">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" /> constant that determines how items are automatically previewed by the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-123">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-124">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />の項目が自動的にプレビュー表示方法を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" /> constant that determines how items are automatically previewed by the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-125">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-125">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -423,16 +288,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-124">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の項目を自動的に Outlook のプレビューに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-124">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when automatically previewing Outlook items in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-125">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-126">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の項目を自動的に Outlook のプレビューに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-126">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when automatically previewing Outlook items in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-127">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -460,16 +316,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-126">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-126">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="04312-127">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-128">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="439b5-128">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="439b5-129">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-129">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -497,16 +344,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-128">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の列ヘッダーを表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-128">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when displaying column headers in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-129">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-129">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-130">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の列ヘッダーを表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when displaying column headers in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-131">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-131">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,30 +372,10 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="04312-130">新しいビューの名前を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-130">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="04312-131">新しいビューの保存オプションを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-131">The save option for the new view.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="04312-132">新しい<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトの基に、既存の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-132">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="04312-133">新しい受信者を表す <b>View</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-133">A <b>View</b> object that represents the new view.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="439b5-132">新しいビューの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-132">The name of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="439b5-133">新しいビューの保存オプションを指定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-133">The save option for the new view.</span></span></param>
+        <summary><span data-ttu-id="439b5-134">新しい<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトの基に、既存の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-134">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span></summary>
+        <returns><span data-ttu-id="439b5-135">新しい受信者を表す <b>View</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-135">A <b>View</b> object that represents the new view.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -587,16 +405,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-134">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />のグループの既定の展開の設定を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-134">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" /> constant that determines the default expansion setting for groups in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-135">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-136">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />のグループの既定の展開の設定を決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-136">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" /> constant that determines the default expansion setting for groups in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-137">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-137">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -622,12 +431,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-136">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-136">Deletes an object from a collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-138">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="439b5-138">Deletes an object from a collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -657,29 +461,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-137">返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-137">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
-          </span>
-          <span data-ttu-id="04312-138">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-138">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-139">返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-139">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span></span>  <span data-ttu-id="439b5-140">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-140">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-139">
-            <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-139">
-              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-141">このプロパティの値は、DAV Searching and Locating (DASL) 構文の文字列で、ビューの現在のフィルターを表します。</span><span class="sxs-lookup"><span data-stu-id="439b5-141">The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view.</span></span> <span data-ttu-id="439b5-142">ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="439b5-142">For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -703,41 +488,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-140">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />に含まれる Outlook アイテムのすべてを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-140">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that represents all of the Microsoft Outlook items that are contained in a <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="04312-141">行が現在のテーブル ビュー内のアイテムを表す<b>Table</b>オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-141">Returns a <b>Table</b>object whose rows represent items in the current table view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="04312-142">
-            <para>
-              <b>TableView</b>オブジェクトの<b>GetTable</b>メソッドは、同じストアまたは集約的なビューで、複数のストアにまたがる 1 つまたは複数のフォルダーからアイテムのテーブルを返します。などの総合的なビュー クイック検索を使用してすべてのメール アイテムの間での検索を取得します。この動作は、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトで、同じフォルダーから項目を格納するテーブル オブジェクトを取得します</para>。
-          <para>親<b>TableView</b>オブジェクトする必要がありますに基づいて、アクティブなエクスプ ローラーの現在のフォルダーによって示される、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />作業中の<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。フォルダーが現在のフォルダー、エクスプ ローラーが表示されているのではない場合、または場合によって示されますが、そのフォルダーの表示、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティは、表形式ビューではありません、Outlook はエラーを返します</para>。
-          <para>で作成されるテーブルのフィルターが設定されて、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> 、 <b>TableView</b>オブジェクトのプロパティです。<b>TableView</b>オブジェクトの<b>Filter</b>プロパティが空でない場合、 <b>GetTable</b>は、ビューで使用できるアイテムのフィルター処理されたサブセットを表す行を持つ<b>テーブル</b>オブジェクトを返します。場合はその後、<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />で作成されるテーブルは、メソッドが呼び出される、<b>制限</b>を適用するメソッドは、論理 AND 演算で表されるフィルターを使用して<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />です</para>。
-          <para><b>GetTable</b>は、既定の列セットを持つ<b>テーブル</b>を返します。<b>GetTable</b>が内の各フィールドの列を含む<b>テーブル</b>を返さない、 <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> 、現在のビューのコレクションです。フォルダーの種類を基に、テーブルの既定の列セットの詳細については、Table オブジェクトに表示される既定のプロパティを参照してください。既定の列セットを変更するのにを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクション オブジェクトです。プロパティが Table オブジェクトまたは Table フィルターでサポートされていないプロパティに指定された列とテーブルに追加することはできません</para>。<b>GetTable</b>の基になっている現在のビュー内の項目の順序と同じにするのには、
-          <para>結果のテーブル内の行の順序は保証はありません。たとえば、 <b>GetTable</b>はビュー内のグループ化ヘッダーを表す行を持つテーブルを返しません。<b>GetTable</b>から返されるテーブル内の行を並べ替えるを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /><b>Table</b>オブジェクトのメソッドです</para>。
-          <para><b>GetTable</b>から返される<b>Table</b>オブジェクトの親オブジェクトは、 <b>TableView</b>オブジェクトです。<b>TableView</b>オブジェクトの親オブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> 、コレクションと<b>Views</b>コレクションの親オブジェクトは、 <b>Folder</b>オブジェクトです</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-142">
-              <para>The <b>GetTable</b> method of the <b>TableView</b> object returns a table of items from one or more folders in the same store or spanning over multiple stores, in an aggregated view. For example, an aggregated view obtained by a search across all mail items by using Instant Search. This behavior differs from the <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object, which obtains a table object that contains items from the same folder.</para>
-              <para>The parent <b>TableView</b> object must be based on the current folder of the active explorer, as indicated by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the active <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object. If the folder is not a current folder of a visible explorer, or if the view of that folder, which is indicated by the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property, is not a table view, Outlook returns an error.</para>
-              <para>The filter for the resultant table is set by the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> property of the <b>TableView</b> object. If the <b>Filter</b> property of the <b>TableView</b> object is not empty, <b>GetTable</b> returns a <b>Table</b> object with rows that represent the filtered subset of items available in the view. If subsequently, the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> method is called on the resultant table, applying the <b>Restrict</b> method is equivalent to a logical AND operation with the filter represented by <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</para>
-              <para>
-                <b>GetTable</b> returns a <b>Table</b> with the default column set. <b>GetTable</b> does not return a <b>Table</b> that contains columns for each field in the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection of the current view. For more information on the default column set of a table based on the folder type, see Default Properties Displayed in a Table Object. To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection object. Properties that you cannot add to a table as columns are listed in Unsupported Properties in a Table Object or Table Filter.</para>
-              <para>The order of rows in the resultant table is not guaranteed to be the same as the order of items in the current view on which <b>GetTable</b> is based. For example, <b>GetTable</b> does not return a table with a row that represents a group-by header in the view. To sort the rows in the table returned from <b>GetTable</b>, use the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> method of the <b>Table</b> object.</para>
-              <para>The parent object of the <b>Table</b> object returned by <b>GetTable</b> is the <b>TableView</b> object. The parent object of the <b>TableView</b> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection, and the parent object of the <b>Views</b> collection is the <b>Folder</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="439b5-143">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Table" />に含まれる Outlook アイテムのすべてを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-143">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that represents all of the Microsoft Outlook items that are contained in a <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />object.</span></span></summary>
+        <returns><span data-ttu-id="439b5-144">行が現在のテーブル ビュー内のアイテムを表す<b>Table</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="439b5-144">Returns a <b>Table</b>object whose rows represent items in the current table view.</span></span></returns>
+        <remarks><para><span data-ttu-id="439b5-145"><b>TableView</b> オブジェクトの <b>GetTable</b> メソッドは、同じストアまたは集約的なビューで、複数のストアにまたがる 1 つまたは複数のフォルダーからアイテムのテーブルを返します。</span><span class="sxs-lookup"><span data-stu-id="439b5-145">The <b>GetTable</b> method of the <b>TableView</b> object returns a table of items from one or more folders in the same store or spanning over multiple stores, in an aggregated view.</span></span> <span data-ttu-id="439b5-146">などの総合的なビュー クイック検索を使用してすべてのメール アイテムの間での検索を取得します。</span><span class="sxs-lookup"><span data-stu-id="439b5-146">For example, an aggregated view obtained by a search across all mail items by using Instant Search.</span></span> <span data-ttu-id="439b5-147">この動作は、<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトで、同じフォルダーから項目を格納するテーブル オブジェクトを取得します。</span><span class="sxs-lookup"><span data-stu-id="439b5-147">This behavior differs from the <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object, which obtains a table object that contains items from the same folder.</span></span></para>
+          <para><span data-ttu-id="439b5-148"><b>TableView</b>オブジェクトの親オブジェクトする必要がありますに基づいて、アクティブなエクスプ ローラーの現在のフォルダーによって示される、<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />作業中の<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-148">The parent <b>TableView</b> object must be based on the current folder of the active explorer, as indicated by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the active <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span> <span data-ttu-id="439b5-149">フォルダーが現在のフォルダー、エクスプ ローラーが表示されているのではない場合、または場合によって示されますが、そのフォルダーの表示、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティは、表形式ビューではありません、Outlook はエラーを返します。</span><span class="sxs-lookup"><span data-stu-id="439b5-149">If the folder is not a current folder of a visible explorer, or if the view of that folder, which is indicated by the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property, is not a table view, Outlook returns an error.</span></span></para>
+          <para><span data-ttu-id="439b5-150">作成されるテーブルのフィルターが設定されて、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> 、 <b>TableView</b>オブジェクトのプロパティです。</span><span class="sxs-lookup"><span data-stu-id="439b5-150">The filter for the resultant table is set by the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> property of the <b>TableView</b> object.</span></span> <span data-ttu-id="439b5-151"><b>TableView</b> オブジェクトの <b>Filter</b> プロパティが空でない場合、 <b>GetTable</b> は、ビューで使用できるアイテムのフィルター処理されたサブセットを表す行を持つ <b>テーブル</b> オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="439b5-151">If the <b>Filter</b> property of the <b>TableView</b> object is not empty, <b>GetTable</b> returns a <b>Table</b> object with rows that represent the filtered subset of items available in the view.</span></span> <span data-ttu-id="439b5-152">場合は後で、<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />メソッドは結果の表に、<b>制限</b>を適用するメソッドは、論理 AND 演算で表されるフィルターを使用して<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />。</span><span class="sxs-lookup"><span data-stu-id="439b5-152">If subsequently, the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> method is called on the resultant table, applying the <b>Restrict</b> method is equivalent to a logical AND operation with the filter represented by <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</span></span></para>
+          <para><span data-ttu-id="439b5-153">
+            <b>GetTable</b> は、既定の列セットを持つ <b>テーブル</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="439b5-153">
+            <b>GetTable</b> returns a <b>Table</b> with the default column set.</span></span> <span data-ttu-id="439b5-154"><b>GetTable</b>が内の各フィールドの列を含む<b>テーブル</b>を返さない、 <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> 、現在のビューのコレクションです。</span><span class="sxs-lookup"><span data-stu-id="439b5-154"><b>GetTable</b> does not return a <b>Table</b> that contains columns for each field in the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection of the current view.</span></span> <span data-ttu-id="439b5-155">フォルダーの種類を基に、テーブルの既定の列セットの詳細については、Table オブジェクトに表示される既定のプロパティを参照してください。</span><span class="sxs-lookup"><span data-stu-id="439b5-155">For more information on the default column set of a table based on the folder type, see Default Properties Displayed in a Table Object.</span></span> <span data-ttu-id="439b5-156">既定の列セットを変更するのにを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />、または<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />コレクション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-156">To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection object.</span></span> <span data-ttu-id="439b5-157">プロパティは Table オブジェクトまたは Table フィルターでサポートされていないプロパティに指定された列とテーブルに追加することはできません。</span><span class="sxs-lookup"><span data-stu-id="439b5-157">Properties that you cannot add to a table as columns are listed in Unsupported Properties in a Table Object or Table Filter.</span></span></para>
+          <para><span data-ttu-id="439b5-158">結果テーブルの行の順序は、 <b>GetTable</b> の基になっている現在のビュー内の項目の順序と同じにするのには限りません。</span><span class="sxs-lookup"><span data-stu-id="439b5-158">The order of rows in the resultant table is not guaranteed to be the same as the order of items in the current view on which <b>GetTable</b> is based.</span></span> <span data-ttu-id="439b5-159">たとえば、 <b>GetTable</b> はビュー内のグループ化ヘッダーを表す行を持つテーブルを返しません。</span><span class="sxs-lookup"><span data-stu-id="439b5-159">For example, <b>GetTable</b> does not return a table with a row that represents a group-by header in the view.</span></span> <span data-ttu-id="439b5-160"><b>GetTable</b>から返されるテーブル内の行を並べ替えるを使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> <b>Table</b>オブジェクトのメソッドです。</span><span class="sxs-lookup"><span data-stu-id="439b5-160">To sort the rows in the table returned from <b>GetTable</b>, use the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> method of the <b>Table</b> object.</span></span></para>
+          <para><span data-ttu-id="439b5-161"><b>GetTable</b> から返される <b>Table</b> オブジェクトの親オブジェクトは、 <b>TableView</b> オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-161">The parent object of the <b>Table</b> object returned by <b>GetTable</b> is the <b>TableView</b> object.</span></span> <span data-ttu-id="439b5-162"><b>TableView</b>オブジェクトの親オブジェクトは、 <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> 、コレクションと<b>Views</b>コレクションの親オブジェクトは、 <b>Folder</b>オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-162">The parent object of the <b>TableView</b> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection, and the parent object of the <b>Views</b> collection is the <b>Folder</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -763,18 +524,8 @@
         <Parameter Name="Date" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Date">
-          <span data-ttu-id="04312-143">ビューで変更する日付を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-143">The date to which the view should be changed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="04312-144">現在のビューで情報の表示に使用される日付を変更します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-144">Changes the date used by the current view to display information.</span>
-          </span>
-        </summary>
+        <param name="Date"><span data-ttu-id="439b5-163">ビューで変更する日付を指定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-163">The date to which the view should be changed.</span></span></param>
+        <summary><span data-ttu-id="439b5-164">現在のビューで情報の表示に使用される日付を変更します。</span><span class="sxs-lookup"><span data-stu-id="439b5-164">Changes the date used by the current view to display information.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -804,16 +555,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlGridLineStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-145">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />のグリッド線を使用する線のスタイルを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-145">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" /> constant that represents the line style used for grid lines in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-146">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-146">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-165">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />のグリッド線を使用する線のスタイルを表す定数を<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-165">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" /> constant that represents the line style used for grid lines in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-166">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-166">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -841,16 +583,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-147">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトがグループ化されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-147">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are grouped.</span>
-          </span>
-          <span data-ttu-id="04312-148">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-148">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-167">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトがグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-167">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are grouped.</span></span> <span data-ttu-id="439b5-168">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-168">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -881,16 +614,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-149">閲覧ウィンドウで、Outlook アイテムのヘッダーを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-149">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether the header for an Outlook item is displayed in the Reading Pane for the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-150">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-150">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-169">閲覧ウィンドウで、Outlook アイテムのヘッダーを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-169">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether the header for an Outlook item is displayed in the Reading Pane for the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-170">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-170">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -921,31 +645,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-151">ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-151">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span>
-          </span>
-          <span data-ttu-id="04312-152">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-152">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-171">ビューの言語設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。</span><span class="sxs-lookup"><span data-stu-id="439b5-171">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span></span> <span data-ttu-id="439b5-172">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-172">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-153">
-            <para>
-              <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
-          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-153">
-              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
-              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-173">[<b>言語</b>] プロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。</span><span class="sxs-lookup"><span data-stu-id="439b5-173">The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag.</span></span> <span data-ttu-id="439b5-174">たとえば、文字列"EN-US"は「米国 - 英語」の ISO コードを表します</span><span class="sxs-lookup"><span data-stu-id="439b5-174">For example, the string "EN-US" represents the ISO code for "United States - English."</span></span></para>
+          <para><span data-ttu-id="439b5-p127">有効な言語コードが指定されている場合は、指定された言語の [ 表示] メニューでのみオブジェクトを使用できます。値が指定されていない場合は、すべての言語でオブジェクト アイテムを使用できます。このプロパティの既定値は空の文字列です。</span><span class="sxs-lookup"><span data-stu-id="439b5-p127">If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -974,29 +678,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-154">取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-154">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span>
-          </span>
-          <span data-ttu-id="04312-155">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-155">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-178">取得またはユーザーが、ビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-178">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span></span> <span data-ttu-id="439b5-179">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-156">
-            <para>かどうか<b>は True</b>ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-156">
-              <para>If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-p129">かどうか <b>は True</b> ユーザーが変更できる、指定したビューの設定です。ただし、インターフェイスに対する変更は保存されません。かどうかは <b>False</b> (既定値)、変更が保存されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-p129">If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLinesInMultiLineView">
@@ -1025,29 +710,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-157">複数行モードで表示される行の最大数を決定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-157">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that determines the maximum number of lines displayed in multiline mode for the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-158">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-158">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-183">複数行モードで表示される行の最大数を決定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-183">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that determines the maximum number of lines displayed in multiline mode for the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-184">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-184">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-159">
-            <para>2 ~ 20 の値にこのプロパティを設定できます。2 より小さい値にこのプロパティが設定されている場合は、プロパティが 2 に設定されます。場合はこのプロパティを 20 より大きい値に設定すると、プロパティは 20 に設定します。このプロパティの既定値は、2 です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-159">
-              <para>This property can be set to a value between 2 and 20. If this property is set to a value less than 2, the property is set to 2. If this property is set to a value greater than 20, the property is set to 20. The default value for this property is 2.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-p131">このプロパティは 2 ～ 20 の値に設定できます。このプロパティに 2 未満の値を指定した場合、プロパティは 2 に設定されます。このプロパティに 20 より大きい値を指定した場合、プロパティは 20 に設定されます。このプロパティの既定値は 2 です。</span><span class="sxs-lookup"><span data-stu-id="439b5-p131">This property can be set to a value between 2 and 20. If this property is set to a value less than 2, the property is set to 2. If this property is set to a value greater than 20, the property is set to 20. The default value for this property is 2.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -1076,29 +742,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiLine</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-160">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />に複数の明細行が表示されますを決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-160">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" /> constant that determines how multiple lines are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-161">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-161">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-189">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />に複数の明細行が表示されますを決定する定数の<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-189">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" /> constant that determines how multiple lines are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-190">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-190">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-162">
-            <para>場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />プロパティが<b>False</b>に設定されて場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定されて、このプロパティの値が自動的に<b>olAlwaysSingleLine</b>に設定します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-162">
-              <para>If the value of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />  property is set to <b>False</b> or if the value of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property is set to <b>True</b>, the value of this property is automatically set to <b>olAlwaysSingleLine</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-191">場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />プロパティが<b>False</b>に設定されて場合の値、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定されて、このプロパティの値が自動的に<b>olAlwaysSingleLine</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-191">If the value of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />  property is set to <b>False</b> or if the value of the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property is set to <b>True</b>, the value of this property is automatically set to <b>olAlwaysSingleLine</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineWidth">
@@ -1127,30 +774,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-163">テキストの幅 (文字) に複数行モードをトリガーするために必要なを表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-163">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the text width (in characters) needed to trigger multiline mode in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object .</span>
-          </span>
-          <span data-ttu-id="04312-164">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-164">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-192">テキストの幅 (文字) に複数行モードをトリガーするために必要なを表す<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-192">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the text width (in characters) needed to trigger multiline mode in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object .</span></span> <span data-ttu-id="439b5-193">取得/設定が可能な値です</span><span class="sxs-lookup"><span data-stu-id="439b5-193">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-165">
-            <para>1 から 999 までの値にこのプロパティを設定できます。このプロパティは、1 より小さい値に設定されている場合は、プロパティが 1 に設定されます。このプロパティが 999 を超える値に設定されている場合、プロパティは、999 に設定されます。このプロパティの既定値は 100 です</para>。
-          <para>このプロパティのみが適用される場合、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが<b>olWidthMultiLine</b>に設定します。このプロパティの値は、 <b>TableView</b>オブジェクトが複数行モードで Outlook アイテムのテキストを表示する位置を決定します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-165">
-              <para>This property can be set to a value between 1 and 999. If this property is set to a value less than 1, the property is set to 1. If this property is set to a value greater than 999, the property is set to 999. The default value for this property is 100.</para>
-              <para>This property only applies if the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is set to <b>olWidthMultiLine</b>. The value of this property determines the point at which the <b>TableView</b> object displays text for an Outlook item in multiline mode.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-p134">このプロパティには 1 から 999 までの範囲内の値を設定できます。1 未満の値に設定すると、このプロパティは 1 に設定されます。999 を超える値を設定すると 999 に設定されます。このプロパティの既定値は 100 です。</span><span class="sxs-lookup"><span data-stu-id="439b5-p134">This property can be set to a value between 1 and 999. If this property is set to a value less than 1, the property is set to 1. If this property is set to a value greater than 999, the property is set to 999. The default value for this property is 100.</span></span></para>
+          <para><span data-ttu-id="439b5-198">このプロパティは、場合にのみ適用されます、 <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> 、 <b>TableView</b>オブジェクトのプロパティが<b>olWidthMultiLine</b>に設定されています。</span><span class="sxs-lookup"><span data-stu-id="439b5-198">This property only applies if the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> property of the <b>TableView</b> object is set to <b>olWidthMultiLine</b>.</span></span> <span data-ttu-id="439b5-199">このプロパティの値は、 <b>TableView</b> オブジェクトが複数行モードで Outlook アイテムのテキストを表示する位置を決定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-199">The value of this property determines the point at which the <b>TableView</b> object displays text for an Outlook item in multiline mode.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -1179,16 +807,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-166">取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-166">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="04312-167">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-167">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-200">取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-200">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="439b5-201">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-201">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1216,12 +835,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-p123">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-p123">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-p137">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-p137">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1247,24 +861,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-170">組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-170">Resets a built-in Microsoft Outlook view to its original settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="04312-171">
-            <para>このメソッドは、組み込みの Outlook ビューでのみ機能します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-171">
-              <para>This method works only on built-in Outlook views.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="439b5-204">組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</span><span class="sxs-lookup"><span data-stu-id="439b5-204">Resets a built-in Microsoft Outlook view to its original settings.</span></span></summary>
+        <remarks><para><span data-ttu-id="439b5-205">このメソッドは、組み込みの Outlook ビューに対してのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-205">This method works only on built-in Outlook views.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowFont">
@@ -1290,16 +889,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-172">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の行を表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-172">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when displaying rows in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-173">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-173">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-206">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />の行を表示するときに使用するフォントを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="439b5-206">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used when displaying rows in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-207">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-207">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1325,12 +915,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-174">ビューまたはビューの変更内容を保存します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-174">Saves the view, or saves the changes to a view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-208">ビューまたはビューの変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="439b5-208">Saves the view, or saves the changes to a view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1357,30 +942,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-175">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-175">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
-          </span>
-          <span data-ttu-id="04312-176">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-176">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-209">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。</span><span class="sxs-lookup"><span data-stu-id="439b5-209">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span></span> <span data-ttu-id="439b5-210">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-210">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-177">
-            <para>
-              <b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-177">
-              <para>The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object is created using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-211"><b>SaveOption</b>プロパティの値が設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.Views" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="439b5-211">The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object is created using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1406,42 +971,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-178">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-178">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="04312-179">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-179">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-212">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-212">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="439b5-213">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-213">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-180">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="439b5-214"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="439b5-214">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="439b5-215">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="439b5-215">Both members serve the same purpose.</span></span> <span data-ttu-id="439b5-216">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="439b5-216">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-180">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationByDate">
@@ -1470,35 +1009,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-181">返すまたは、受信した日時と一番上に最新の項目では、垂直方向に左詰めされ、順序付けられたに会話内の項目かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-181">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether items in a conversation are vertically left-aligned and ordered by the received date and time, with the most recent item on top.</span>
-          </span>
-          <span data-ttu-id="04312-182">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-182">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-217">返すまたは、受信した日時と一番上に最新の項目では、垂直方向に左詰めされ、順序付けられたに会話内の項目かどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-217">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether items in a conversation are vertically left-aligned and ordered by the received date and time, with the most recent item on top.</span></span> <span data-ttu-id="439b5-218">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-218">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-183">
-            <para>テーブル ビューが対話形式で整理されていない場合、 <b>ShowConversationByDate</b>プロパティを設定する再編成はしませんビュー内の任意の項目です。[会話のグループ、Microsoft Office Fluent リボンの [表示] タブで、対話形式でアイテムを表示するのには会話として表示を確認します</para>。
-          <para>会話の項目を左揃えし、順に、受信した日付と時刻、一番上に最新の項目を垂直方向に<b>true を指定</b>する<b>ShowConversationByDate</b>プロパティを設定します。テーマ別ビューでは、この組織は、リボンの [会話] グループで [会話の設定] メニューのクラシック インデント表示の使用] 設定をクリアすることと同じです</para>。
-          <para>会話の項目のインデントを設定し、受信した日付と時刻を一番上に最も古いアイテムを注文して、 <b>ShowConversationByDate</b>プロパティを<b>False</b>に設定します。会話の各スレッドのルートは、それぞれ左インデントされてから、そのスレッドに属する項目の後に最初に表示されます。テーマ別ビューでは、この組織は、リボンの [会話] グループで [会話の設定] メニューで、クラシックのインデントの表示を使用して設定を選択します</para>。呼び出し、 <b>ShowConversationByDate</b>プロパティに変更を適用するのには
-          <para>、<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />メソッドです。会話は、テーマ別ビューで折りたたまれたときに表示されます。会話を展開する場合が表示されます、会話内の項目の再編成し、 <b>ShowConversationByDate</b>プロパティを設定する方法が表示されます</para>。
-          <para /><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-183">
-              <para>If the table view is not organized by conversation, setting the <b>ShowConversationByDate</b> property does not reorganize any items in the view. To display items by conversation, in the Conversations group of the View tab in the Microsoft Office Fluent ribbon, check Show as Conversations.</para>
-              <para>Setting the <b>ShowConversationByDate</b> property to <b>True</b> vertically left-aligns conversation items and orders them by their received date and time, with the most recent item on top. This organization in the conversation view is the same as having cleared the Use Classic Indented View setting in the Conversations Settings menu in the Conversations group of the ribbon.</para>
-              <para>Setting the <b>ShowConversationByDate</b> property to <b>False</b> indents conversation items and orders them by their received date and time with the earliest item on top. The root of each thread of the conversation is displayed first, followed by items belonging to that thread, each left-indented from the last. This organization in the conversation view is the same as having selected the Use Classic Indented View setting in the Conversations Settings menu in the Conversations group of the ribbon.</para>
-              <para>To apply a change to the <b>ShowConversationByDate</b> property, call the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> method. Conversations are then displayed as collapsed in the conversation view. If you expand a conversation, you will see items in the conversation reorganized and displayed the way you set the <b>ShowConversationByDate</b> property.</para>
-              <para />
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-219">テーブル ビューがスレッドで編成されていない場合、 <b>ShowConversationByDate</b> プロパティを設定しても、ビュー内のアイテムは再編成されません。</span><span class="sxs-lookup"><span data-stu-id="439b5-219">If the table view is not organized by conversation, setting the <b>ShowConversationByDate</b> property does not reorganize any items in the view.</span></span> <span data-ttu-id="439b5-220">[会話のグループ、Microsoft Office Fluent リボンの [表示] タブで、対話形式でアイテムを表示するには、会話として表示を確認します。</span><span class="sxs-lookup"><span data-stu-id="439b5-220">To display items by conversation, in the Conversations group of the View tab in the Microsoft Office Fluent ribbon, check Show as Conversations.</span></span></para>
+          <para><span data-ttu-id="439b5-p145"><b>ShowConversationByDate</b> プロパティを <b>True</b> に設定すると、スレッド アイテムが縦に左揃えになり、受信日時順 (最新のアイテムが一番上) に並べられます。スレッド ビューのこの構成は、リボンの [ スレッド] グループの [ スレッドの設定] メニューの [ クラシック ビューを使用する] 設定を解除した場合の構成と同じです。</span><span class="sxs-lookup"><span data-stu-id="439b5-p145">Setting the <b>ShowConversationByDate</b> property to <b>True</b> vertically left-aligns conversation items and orders them by their received date and time, with the most recent item on top. This organization in the conversation view is the same as having cleared the Use Classic Indented View setting in the Conversations Settings menu in the Conversations group of the ribbon.</span></span></para>
+          <para><span data-ttu-id="439b5-223"><b>ShowConversationByDate</b>プロパティを<b>False</b>に設定する会話の項目のインデントを設定し、順にして、受信した日付と時刻を一番上に最も古い項目。</span><span class="sxs-lookup"><span data-stu-id="439b5-223">Setting the <b>ShowConversationByDate</b> property to <b>False</b> indents conversation items and orders them by their received date and time with the earliest item on top.</span></span> <span data-ttu-id="439b5-224">一番上に各スレッドのルートが表示され、その下にそのスレッドに属するアイテムが最も古いアイテムから順に左揃えになります。</span><span class="sxs-lookup"><span data-stu-id="439b5-224">The root of each thread of the conversation is displayed first, followed by items belonging to that thread, each left-indented from the last.</span></span> <span data-ttu-id="439b5-225">このスレッド ビューの構成は、リボンの [ スレッド] グループの [ スレッドの設定] メニューの [ クラシック ビューを使用する] 設定を選択した場合の構成と同じです。</span><span class="sxs-lookup"><span data-stu-id="439b5-225">This organization in the conversation view is the same as having selected the Use Classic Indented View setting in the Conversations Settings menu in the Conversations group of the ribbon.</span></span></para>
+          <para><span data-ttu-id="439b5-226"><b>ShowConversationByDate</b>プロパティに変更を適用するには、呼び出し、<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="439b5-226">To apply a change to the <b>ShowConversationByDate</b> property, call the <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> method.</span></span> <span data-ttu-id="439b5-227">すると、スレッド ビューにスレッドが折りたたまれた状態で表示されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-227">Conversations are then displayed as collapsed in the conversation view.</span></span> <span data-ttu-id="439b5-228">スレッドを展開すると、 <b>ShowConversationByDate</b> プロパティで設定したようにスレッド内のアイテムが表示されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-228">If you expand a conversation, you will see items in the conversation reorganized and displayed the way you set the <b>ShowConversationByDate</b> property.</span></span></para>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationSendersAboveSubject">
@@ -1527,31 +1045,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-184">取得またはテーブル ビューでは、会話ヘッダー、またはその下に、参加している送信者、件名の行の上が表示されるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-184">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the table view displays the participating senders above the subject line in the conversation header, or below it.</span>
-          </span>
-          <span data-ttu-id="04312-185">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-185">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-229">取得またはテーブル ビューでは、会話ヘッダー、またはその下に、参加している送信者、件名の行の上が表示されるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-229">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the table view displays the participating senders above the subject line in the conversation header, or below it.</span></span> <span data-ttu-id="439b5-230">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-230">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-186">
-            <para>
-              <b>True</b>は、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の上を表示を示します。<b>False の場合、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の下を表示します。</b></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-186">
-              <para>
-                <b>True</b> indicates that the table view displays the participating senders above the subject line in the conversation header. <b>False</b> indicates that the table view displays the participating senders below the subject line in the conversation header.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-p149">
+            <b>True</b> は、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の上を表示を示します。 <b>False の場合、テーブル ビューがテーマのヘッダーに参加している送信者、件名の行の下を表示します。</b></span><span class="sxs-lookup"><span data-stu-id="439b5-p149">
+            <b>True</b> indicates that the table view displays the participating senders above the subject line in the conversation header. <b>False</b> indicates that the table view displays the participating senders below the subject line in the conversation header.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFullConversations">
@@ -1580,35 +1079,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-187">返すまたは、テーブルのビューでの会話の一部として、送信済みアイテム フォルダーなど、他のフォルダーから会話の項目を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-187">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether to display conversation items from other folders, such as the Sent Items folder, as part of the conversation in the table view.</span>
-          </span>
-          <span data-ttu-id="04312-188">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-188">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-233">返すまたは、テーブルのビューでの会話の一部として、送信済みアイテム フォルダーなど、他のフォルダーから会話の項目を表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-233">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether to display conversation items from other folders, such as the Sent Items folder, as part of the conversation in the table view.</span></span> <span data-ttu-id="439b5-234">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-234">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-189">
-            <para>
-              <b>ShowFullConversations</b>プロパティを現在のテーブル ビューは、日付との会話でアイテムを表示する場合にのみ反映されます</para>。
-          <para>が
-            <b>true</b>では、同じ会話の項目は、表形式のビューでの会話の一部として既定で表示されますを示します。テーブル ビューに現在のフォルダー内のアイテムは会話のみが表示される<b>場合は false</b>を示します</para>。
-          <para>、 <b>ShowFullConversations</b>プロパティは、Microsoft Office Fluent リボンの [表示] タブの配置のグループの [会話] メニューの [その他のフォルダーからメッセージを表示するを選択することに似ています</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-189">
-              <para>The <b>ShowFullConversations</b> property takes effect only if the current table view displays items by date and conversation.</para>
-              <para>
-                <b>True</b> indicates that items of the same conversation are displayed by default as part of the conversation in the table view. <b>False</b> indicates that only conversation items in the current folder are displayed in the table view.</para>
-              <para>The <b>ShowFullConversations</b> property is analogous to selecting Show Messages from Other Folders in the Conversations menu of the Arrangement group on the View tab of the Microsoft Office Fluent ribbon.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-235"><b>ShowFullConversations</b> プロパティは、現在のテーブル ビューは、日付との会話でアイテムを表示する場合にのみ反映されます。</span><span class="sxs-lookup"><span data-stu-id="439b5-235">The <b>ShowFullConversations</b> property takes effect only if the current table view displays items by date and conversation.</span></span></para>
+          <para><span data-ttu-id="439b5-p151">
+            <b>True</b> は、テーブル ビューでの会話の一部として、同じ会話の項目が既定で表示されることを示します。 <b>False の場合、テーブル ビューに現在のフォルダー内のアイテムは会話のみが表示されます。</b></span><span class="sxs-lookup"><span data-stu-id="439b5-p151">
+            <b>True</b> indicates that items of the same conversation are displayed by default as part of the conversation in the table view. <b>False</b> indicates that only conversation items in the current folder are displayed in the table view.</span></span></para>
+          <para><span data-ttu-id="439b5-238"><b>ShowFullConversations</b>プロパティは、Microsoft Office Fluent リボンの [表示] タブの配置のグループの [会話] メニューの [その他のフォルダーからメッセージを表示するを選択することに似ています。</span><span class="sxs-lookup"><span data-stu-id="439b5-238">The <b>ShowFullConversations</b> property is analogous to selecting Show Messages from Other Folders in the Conversations menu of the Arrangement group on the View tab of the Microsoft Office Fluent ribbon.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemsInGroups">
@@ -1637,16 +1115,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-190">グループ内の Outlook アイテムを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-190">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether Outlook items are shown in groups within the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-191">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-191">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-239">グループ内の Outlook アイテムを表示するかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-239">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether Outlook items are shown in groups within the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-240">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-240">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1677,29 +1146,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-192">新しい項目の行が表示されるかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-192">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines if the new item row is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-193">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-193">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-241">新しい項目の行が表示されるかどうかを決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-241">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines if the new item row is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-242">取得/設定が可能な値です</span><span class="sxs-lookup"><span data-stu-id="439b5-242">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-194">
-            <para>場合にのみ、このプロパティの値が適用される、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-194">
-              <para>The value of this property applies only if the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-243">場合にのみ、このプロパティの値が適用される、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />プロパティが<b>True</b>に設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-243">The value of this property applies only if the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property is set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowReadingPane">
@@ -1728,16 +1178,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-195">閲覧ウィンドウを表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-195">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the Reading Pane is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-196">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-196">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-244">閲覧ウィンドウを表示するかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-244">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the Reading Pane is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-245">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-245">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1774,12 +1215,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-197">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-197">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-246">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="439b5-246">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1807,16 +1243,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-198">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトの順序がします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-198">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are ordered.</span>
-          </span>
-          <span data-ttu-id="04312-199">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-199">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-247">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />にする項目が表示されるフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトの順序がします。</span><span class="sxs-lookup"><span data-stu-id="439b5-247">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object are ordered.</span></span> <span data-ttu-id="439b5-248">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-248">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1844,30 +1271,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-200">示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、組み込みの Outlook ビューです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-200">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object is a built-in Outlook view.</span>
-          </span>
-          <span data-ttu-id="04312-201">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-201">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-249">示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返すかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトは、組み込みの Outlook ビューです。</span><span class="sxs-lookup"><span data-stu-id="439b5-249">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object is a built-in Outlook view.</span></span> <span data-ttu-id="439b5-250">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-250">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-202">
-            <para>
-              <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-202">
-              <para>The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-251"><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />を<b>True</b>にこのプロパティの値が設定されている場合、メソッドをビューで使用のみできます。</span><span class="sxs-lookup"><span data-stu-id="439b5-251">The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1893,16 +1300,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-203">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />でどの outlook アイテムが表示されているフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-203">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> object that represents the set of fields with which Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span>
-          </span>
-          <span data-ttu-id="04312-204">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-204">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-252">返します、<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />でどの outlook アイテムが表示されているフィールドのセットを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="439b5-252">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> object that represents the set of fields with which Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="439b5-253">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-253">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1930,16 +1328,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-205">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-205">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span>
-          </span>
-          <span data-ttu-id="04312-206">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-206">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-254">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />ビューのビューの種類を示す定数です。</span><span class="sxs-lookup"><span data-stu-id="439b5-254">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span></span> <span data-ttu-id="439b5-255">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="439b5-255">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1970,29 +1359,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04312-207">返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-207">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span>
-          </span>
-          <span data-ttu-id="04312-208">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-208">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="439b5-256">返すまたは、ビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。</span><span class="sxs-lookup"><span data-stu-id="439b5-256">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span></span> <span data-ttu-id="439b5-257">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="439b5-257">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="04312-209">
-            <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。ビューを作成するにはをビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの<b>XML</b>プロパティを取得することができますしをときにを XML の構造方法を決定するには、
-          <para>です。 </para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04312-209">
-              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
-              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="439b5-p160">XML 定義は、ビュー自体のさまざまなプロパティに対応する一連のタグおよびキーワードを使用して、ビューの種類を記述します。ビューを作成すると、XML 定義が構文解析され、新しいビューの設定がレンダリングされます。</span><span class="sxs-lookup"><span data-stu-id="439b5-p160">The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</span></span></para>
+          <para><span data-ttu-id="439b5-p161">ビューを作成するときの XML の構築方法を決定するには、Outlook ユーザー インターフェイスを使用してビューを作成することができ、そのビューの <b>XML</b> プロパティを取得することができます。</span><span class="sxs-lookup"><span data-stu-id="439b5-p161">To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

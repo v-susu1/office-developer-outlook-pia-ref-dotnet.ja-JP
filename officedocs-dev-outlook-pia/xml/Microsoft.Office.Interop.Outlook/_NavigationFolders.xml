@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolders" FullName="Microsoft.Office.Interop.Outlook._NavigationFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637798" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900774" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolders&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2651b-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2651b-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="2651b-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2651b-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="2651b-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2651b-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="2651b-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2651b-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ff6fa-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="ff6fa-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="ff6fa-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="ff6fa-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,36 +49,11 @@
         <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="Folder">
-          <span data-ttu-id="2651b-105">追加するフォルダーを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-105">The folder to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2651b-106">指定した追加<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />、として、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />の最後に、オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクションです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-106">Adds the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, as a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object, to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2651b-107">新しいナビゲーション フォルダーを表す <b>NavigationFolder</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-107">A <b>NavigationFolder</b> object that represents the new navigation folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="2651b-108">
-            <para>ナビゲーション グループを 1 つのフォルダーのみ表示されます。<b>Folder</b>オブジェクトを新しいナビゲーション グループに追加すると、その<b>フォルダー</b>への参照があり、前に属していた他のナビゲーション グループから削除されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-108">
-              <para>A folder can only appear in one navigation group. When adding a <b>Folder</b> object to a new navigation group, any references to that <b>Folder</b> are removed from any other navigation group of which it was previously a member.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Folder"><span data-ttu-id="ff6fa-105">追加するフォルダーを指定します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-105">The folder to add.</span></span></param>
+        <summary><span data-ttu-id="ff6fa-106">指定した追加<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />、として、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />の最後に、オブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-106">Adds the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, as a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object, to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="ff6fa-107">新しいナビゲーション フォルダーを表す <b>NavigationFolder</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-107">A <b>NavigationFolder</b> object that represents the new navigation folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="ff6fa-p102">ナビゲーション グループを 1 つのフォルダーのみ表示されます。 <b>Folder</b> オブジェクトを新しいナビゲーション グループに追加すると、その <b>フォルダー</b> への参照があり、前に属していた他のナビゲーション グループから削除されます。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-p102">A folder can only appear in one navigation group. When adding a <b>Folder</b> object to a new navigation group, any references to that <b>Folder</b> are removed from any other navigation group of which it was previously a member.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -129,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2651b-109">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="2651b-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6fa-110">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="ff6fa-111">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,30 +107,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2651b-111">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="2651b-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6fa-112">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="ff6fa-113">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2651b-113">
-            <para>
-              <b>OlNavigationFolders</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />オブジェクトです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-113">
-              <para>This property returns <b>olNavigationFolders</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ff6fa-114"><b>OlNavigationFolders</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-114">This property returns <b>olNavigationFolders</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -215,16 +136,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2651b-114">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="2651b-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6fa-115">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="ff6fa-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,36 +167,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="2651b-116">オブジェクトのインデックス番号、またはコレクションに含まれるオブジェクトの既定のプロパティとの照合に使用する値を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-116">Either the index number of the object, or the value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2651b-117">返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />コレクションからのオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2651b-118">指定したオブジェクトを表す <b>NavigationFolder</b> オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-118">A <b>NavigationFolder</b> object that represents the specified object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="2651b-119">
-            <para>コレクション内の<b>NavigationFolder</b>のインデックス値は、ナビゲーション グループがナビゲーション ウィンドウに表示されるときに、フォルダーの位置を表します。ナビゲーション グループ内のナビゲーション フォルダーの位置を変更する、インデックスの値に含まれているフォルダーの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />には、そのコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />オブジェクトです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-119">
-              <para>The index value of a <b>NavigationFolder</b> in the collection represents the ordinal position of the folder in the navigation group when displayed in the Navigation Pane. Changing the position of navigation folders within the navigation group also changes the index values of folders contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection for that <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="ff6fa-117">オブジェクトのインデックス番号、またはコレクションに含まれるオブジェクトの既定のプロパティとの照合に使用する値を指定します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-117">Either the index number of the object, or the value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="ff6fa-118">返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />コレクションからのオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="ff6fa-119">指定したオブジェクトを表す <b>NavigationFolder</b> オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-119">A <b>NavigationFolder</b> object that represents the specified object.</span></span></value>
+        <remarks><para><span data-ttu-id="ff6fa-120">コレクション内の <b>NavigationFolder</b> のインデックス値は、ナビゲーション グループがナビゲーション ウィンドウに表示されるときに、フォルダーの位置を表します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-120">The index value of a <b>NavigationFolder</b> in the collection represents the ordinal position of the folder in the navigation group when displayed in the Navigation Pane.</span></span> <span data-ttu-id="ff6fa-121">ナビゲーション グループ内のナビゲーション フォルダーの位置を変更する、インデックスの値に含まれているフォルダーの<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />には、そのコレクション<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-121">Changing the position of navigation folders within the navigation group also changes the index values of folders contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection for that <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -310,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2651b-p105">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6fa-p107">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -343,30 +225,10 @@
         <Parameter Name="RemovableFolder" Type="Microsoft.Office.Interop.Outlook.NavigationFolder" />
       </Parameters>
       <Docs>
-        <param name="RemovableFolder">
-          <span data-ttu-id="2651b-122">削除するナビゲーション フォルダーを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-122">The navigation folder to be removed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2651b-123">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-123">Removes an object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2651b-124">
-            <para>リムーバブル フォルダー、 <b>NavigationFolder</b>オブジェクトにのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /><b>NavigationFolders</b>コレクションからプロパティ値を<b>True</b>に設定を削除することができます。これは、共有フォルダー、パブリック フォルダー、およびリンク先のフォルダーを削除するのには<b>NavigationFolders.Remove</b>を使用することができることを意味します。ただし、使用する必要があります<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />すべてのユーザーが作成したフォルダーを削除します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-124">
-              <para>Only removable folders, <b>NavigationFolder</b> objects with an <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> property value set to <b>True</b>, can be removed from a <b>NavigationFolders</b> collection. This means that you can use <b>NavigationFolders.Remove</b> to remove shared folders, public folders, and linked folders. However, you must use <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> to remove any user-created folders.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="RemovableFolder"><span data-ttu-id="ff6fa-124">削除するナビゲーション フォルダーを指定します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-124">The navigation folder to be removed.</span></span></param>
+        <summary><span data-ttu-id="ff6fa-125">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-125">Removes an object from the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="ff6fa-126">リムーバブル フォルダー、 <b>NavigationFolder</b>オブジェクトにのみ、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> <b>NavigationFolders</b>コレクションからプロパティ値を<b>True</b>に設定を削除することができます。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-126">Only removable folders, <b>NavigationFolder</b> objects with an <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> property value set to <b>True</b>, can be removed from a <b>NavigationFolders</b> collection.</span></span> <span data-ttu-id="ff6fa-127">これは、共有フォルダー、パブリック フォルダー、およびリンク先のフォルダーを削除するのには <b>NavigationFolders.Remove</b> を使用することができることを意味します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-127">This means that you can use <b>NavigationFolders.Remove</b> to remove shared folders, public folders, and linked folders.</span></span> <span data-ttu-id="ff6fa-128">ただし、使用する必要があります<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />すべてのユーザーが作成したフォルダーを削除します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-128">However, you must use <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> to remove any user-created folders.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -392,42 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2651b-125">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="2651b-126">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6fa-129">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="ff6fa-130">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-130">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2651b-127">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="ff6fa-131"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-131">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="ff6fa-132">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-132">Both members serve the same purpose.</span></span> <span data-ttu-id="ff6fa-133">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="ff6fa-133">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2651b-127">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_OlkSenderPhoto" FullName="Microsoft.Office.Interop.Outlook._OlkSenderPhoto">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6bd4215e1541e0ea4e888c0b42d4236596677ba2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637983" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkSenderPhoto" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6bd4215e1541e0ea4e888c0b42d4236596677ba2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896619" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkSenderPhoto" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkSenderPhoto" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkSenderPhoto" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkSenderPhoto" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a9733-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a9733-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="a9733-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a9733-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="a9733-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a9733-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="a9733-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkSenderPhoto" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a9733-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkSenderPhoto" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8fd31-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="8fd31-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8fd31-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="8fd31-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8fd31-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8fd31-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkSenderPhoto" />。</span><span class="sxs-lookup"><span data-stu-id="8fd31-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkSenderPhoto" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,30 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a9733-105">
-            <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
-          </span>
-          <span data-ttu-id="a9733-106">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8fd31-105"><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="8fd31-106">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a9733-107">
-            <para>既定値は、 <b>true を指定</b>します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-107">
-              <para>The default value is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8fd31-107">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-107">The default value is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -125,29 +80,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a9733-108">このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-108">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span>
-          </span>
-          <span data-ttu-id="a9733-109">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8fd31-108">このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-108">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="8fd31-109">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a9733-110">
-            <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-110">
-              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8fd31-110">既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-110">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -176,29 +112,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a9733-111">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-111">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
-          </span>
-          <span data-ttu-id="a9733-112">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8fd31-111">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-111">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="8fd31-112">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-112">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a9733-113">
-            <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-113">
-              <para>The default value is <b>olMousePointerDefault</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8fd31-113">既定値は、 <b>olMousePointerDefault</b> です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-113">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PreferredHeight">
@@ -224,30 +141,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a9733-114">アプリケーションに適した送信者画像の高さを指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-114">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the application-preferred height of the sender picture.</span>
-          </span>
-          <span data-ttu-id="a9733-115">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8fd31-114">アプリケーションに適した送信者画像の高さを指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-114">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the application-preferred height of the sender picture.</span></span>    <span data-ttu-id="8fd31-115">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-115">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a9733-116">
-            <para>値は、ピクセル単位で表されます。既定値は、96 です</para>。
-          <para>このプロパティを使用することができ、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />プロパティを表示するには、Outlook の動作をシミュレートするためには、サイズ変更、および、標準フォームの送信者の画像を配置します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-116">
-              <para>The value is expressed in units of pixels. The default value is 96.</para>
-              <para> You can use this property and the <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> property to simulate Outlook's behavior to render, resize, and align the sender picture in a standard form.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8fd31-p106">値はピクセル単位で表されます。既定値は 96 です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-p106">The value is expressed in units of pixels. The default value is 96.</span></span></para>
+          <para> <span data-ttu-id="8fd31-118">このプロパティを使用することができ、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />プロパティを表示するには、Outlook の動作をシミュレートするためには、サイズ変更、および、標準フォームの送信者の画像を配置します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-118">You can use this property and the <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> property to simulate Outlook's behavior to render, resize, and align the sender picture in a standard form.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PreferredWidth">
@@ -273,30 +171,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a9733-117">アプリケーションに適した送信者画像の幅を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-117">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the application-preferred width of the sender picture.</span>
-          </span>
-          <span data-ttu-id="a9733-118">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8fd31-119">アプリケーションに適した送信者画像の幅を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-119">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the application-preferred width of the sender picture.</span></span>    <span data-ttu-id="8fd31-120">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a9733-119">
-            <para>値は、ピクセル単位で表されます。既定値は、72 です</para>。
-          <para>このプロパティを使用することができ、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />プロパティを表示するには、Outlook の動作をシミュレートするためには、サイズ変更、および、標準フォームの送信者の画像を配置します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a9733-119">
-              <para>The value is expressed in units of pixels. The default value is 72.</para>
-              <para> You can use this property and the <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> property to simulate Outlook's behavior to render, resize, and align the sender picture in a standard form.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8fd31-p108">値はピクセル単位で表されます。既定値は 72 です。</span><span class="sxs-lookup"><span data-stu-id="8fd31-p108">The value is expressed in units of pixels. The default value is 72.</span></span></para>
+          <para> <span data-ttu-id="8fd31-123">このプロパティを使用することができ、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />プロパティを表示するには、Outlook の動作をシミュレートするためには、サイズ変更、および、標準フォームの送信者の画像を配置します。</span><span class="sxs-lookup"><span data-stu-id="8fd31-123">You can use this property and the <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> property to simulate Outlook's behavior to render, resize, and align the sender picture in a standard form.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

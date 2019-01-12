@@ -1,13 +1,5 @@
 <Type Name="_Account" FullName="Microsoft.Office.Interop.Outlook._Account">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639210" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Account" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901306" /></Metadata><TypeSignature Language="C#" Value="public interface _Account" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Account" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Account" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Account" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="1a27b-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1a27b-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="1a27b-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1a27b-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="1a27b-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1a27b-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="1a27b-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1a27b-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1aaea-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="1aaea-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="1aaea-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="1aaea-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="1aaea-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAccountType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-105">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />の種類を示す列挙値、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-105">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" /> enumeration that indicates the type of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="1a27b-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-105">内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />の種類を示す列挙値、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-105">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" /> enumeration that indicates the type of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="1aaea-106">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="1a27b-108">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="1aaea-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="1aaea-108">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,29 +101,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />のアカウントのメールボックスをホストする Microsoft Exchange サーバーの自動検出サービスを使用する接続の種類を指定する定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to use for the auto-discovery service of the Microsoft Exchange server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="1a27b-110">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />のアカウントのメールボックスをホストする Microsoft Exchange サーバーの自動検出サービスを使用する接続の種類を指定する定数です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to use for the auto-discovery service of the Microsoft Exchange server that hosts the account mailbox.</span></span> <span data-ttu-id="1aaea-110">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-110">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-111">
-            <para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-111">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-111">このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</span><span class="sxs-lookup"><span data-stu-id="1aaea-111">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoDiscoverXml">
@@ -192,33 +130,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-112">
-            <b>文字列</b>(C# では<b>文字列</b>) を表す XML 内の情報は、アカウントに関連付けられている Microsoft Exchange Server の自動検出サービスから取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-112">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of the Microsoft Exchange Server that is associated with the account.</span>
-          </span>
-          <span data-ttu-id="1a27b-113">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-112"><b>文字列</b>(C# では<b>文字列</b>) を表す XML 内の情報は、アカウントに関連付けられている Microsoft Exchange Server の自動検出サービスから取得します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-112">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of the Microsoft Exchange Server that is associated with the account.</span></span> <span data-ttu-id="1aaea-113">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-114">
-            <para>このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトです</para>。
-          <para>、返される XML 文字列には、さまざまな Web サービスを (たとえば、可用性サービスやユニファイド メッセージング サービス) と利用可能なサーバーに関する情報が含まれています</para>。
-          <para>アカウントは、Microsoft Exchange Server 2007 を実行している Exchange Server に関連付けられているまたはそれ以降ではない場合、エラーが返されます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-114">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
-              <para>The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</para>
-              <para>An error is returned if the account is not associated with an Exchange Server that is running Microsoft Exchange Server 2007 or later.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-114">このプロパティは、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />の自動検出が完了したアカウントに、必ずしもプライマリの Exchange アカウントに、このプロパティが適用されますが、オブジェクトします。</span><span class="sxs-lookup"><span data-stu-id="1aaea-114">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="1aaea-115">返される XML の文字列には、可用性サービスやユニファイド メッセージング サービスなどの各種 Web サービスや、利用可能なサービスについての情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-115">The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</span></span></para>
+          <para><span data-ttu-id="1aaea-116">アカウントが Microsoft Exchange Server 2007 以降を実行する Exchange Server に関連付けられていない場合、エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-116">An error is returned if the account is not associated with an Exchange Server that is running Microsoft Exchange Server 2007 or later.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -244,16 +161,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-115">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="1a27b-116">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-117">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="1aaea-118">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -281,16 +189,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-117">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、アカウントの現在のユーザー id を表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents the current user identity for the account.</span>
-          </span>
-          <span data-ttu-id="1a27b-118">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-119">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> 、アカウントの現在のユーザー id を表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="1aaea-119">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents the current user identity for the account.</span></span> <span data-ttu-id="1aaea-120">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -318,29 +217,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-119">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />アカウントの既定の配信ストアを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-119">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the default delivery store for the account.</span>
-          </span>
-          <span data-ttu-id="1a27b-120">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-121">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />アカウントの既定の配信ストアを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="1aaea-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the default delivery store for the account.</span></span> <span data-ttu-id="1aaea-122">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-122">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-121">
-            <para>アカウントが既定の配信ストアを持っていない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-121">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account does not have a default delivery store.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-123">アカウントが既定の配信ストアを持っていない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-123">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account does not have a default delivery store.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -366,32 +246,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-122">
-            <b>文字列</b>(C# では<b>文字列</b>) を返す、電子メールの表示名を表す<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-122">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the e-mail  <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="1a27b-123">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-124"><b>文字列</b>(C# では<b>文字列</b>) を返す、電子メールの表示名を表す<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-124">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the e-mail  <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="1aaea-125">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-124">
-            <para>
-              <b>表示名</b>は、<b>アカウント</b>オブジェクトの既定のプロパティです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-124">
-              <para>
-                <b>DisplayName</b> is the default property of the <b>Account</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-p110">
+            <b>表示名</b> は、 <b>アカウント</b> オブジェクトの既定のプロパティです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-p110">
+            <b>DisplayName</b> is the default property of the <b>Account</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeConnectionMode">
@@ -417,29 +277,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-125">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />アカウントのメールボックスをホストする Microsoft Exchange Server の現在の接続モードを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-125">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode for the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="1a27b-126">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-126">Read-only</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-127">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />アカウントのメールボックスをホストする Microsoft Exchange Server の現在の接続モードを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-127">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode for the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="1aaea-128">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-128">Read-only</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-127">
-            <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-127">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-129">このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-129">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -465,30 +306,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-128">アカウントのメールボックスをホストする Microsoft Exchange Server の名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-128">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="1a27b-129">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-129">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-130">アカウントのメールボックスをホストする Microsoft Exchange Server の名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-130">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="1aaea-131">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-130">
-            <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます</para>。
-          <para>Exchange メールボックスがこのアカウントに関連付けられているではない場合は、このプロパティは、空の文字列を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-130">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-132">このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-132">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="1aaea-133">Exchange メールボックスがこのアカウントに関連付けられていない場合、このプロパティは空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-133">If an Exchange mailbox is not associated with this account, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -514,35 +336,14 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-131">
-            <b>文字列</b>(C# では<b>文字列</b>) を表すアカウントのメールボックスをホストする Microsoft Exchange Server の完全なバージョン番号を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-131">Returns a <b>String</b> (<b>string</b> in C#) that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="1a27b-132">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-132">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-134"><b>文字列</b>(C# では<b>文字列</b>) を表すアカウントのメールボックスをホストする Microsoft Exchange Server の完全なバージョン番号を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-134">Returns a <b>String</b> (<b>string</b> in C#) that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="1aaea-135">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-133">
-            <para>このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます</para>。
-          <para>アカウントに Exchange サーバーのバージョン番号を含む文字列を返します。次の 4 つの部分のバージョン番号:</para><para>&lt;メジャー バージョン&gt;です&lt;。マイナー バージョン&gt;。&lt;ビルド番号&gt;。&lt;バージョン&gt;</para><para>いないすべての部分に存在する Exchange Server で提供されるバージョン情報に応じて、バージョン番号です。たとえば、このプロパティは Microsoft Exchange Server 2003 Service Pack 2 の「6.5.7638」を返します</para>。
-          <para>Exchange メールボックスがこのアカウントに関連付けられているではない場合は、このプロパティは、空の文字列を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-133">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para>This property returns a string that contains the version number of the Exchange server for the account. The version number has the following four parts:</para>
-              <para>&lt;major version&gt;.&lt;minor version&gt;.&lt;build number&gt;.&lt;revision&gt;</para>
-              <para>Not all parts may be present in the version number, depending on the version information that is supplied by the Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</para>
-              <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-136">このプロパティは、のような<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトが、このプロパティは、アカウントのメールボックスをホストしている Exchange Server に、必ずしもプライマリの Exchange アカウントに適用されます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-136">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="1aaea-137">このプロパティは、アカウントの Exchange サーバーのバージョン番号を含む文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-137">This property returns a string that contains the version number of the Exchange server for the account.</span></span> <span data-ttu-id="1aaea-138">バージョン番号には、次の 4 つの部分があります。</span><span class="sxs-lookup"><span data-stu-id="1aaea-138">The version number has the following four parts:</span></span></para>
+          <para><span data-ttu-id="1aaea-139">&lt;メジャー バージョン&gt;。&lt;マイナー バージョン&gt;。&lt;ビルド番号&gt;。&lt;のリビジョン&gt;</span><span class="sxs-lookup"><span data-stu-id="1aaea-139">&lt;major version&gt;.&lt;minor version&gt;.&lt;build number&gt;.&lt;revision&gt;</span></span></para>
+          <para><span data-ttu-id="1aaea-p115">Exchange Server が提供するバージョン情報によって、すべての部分がバージョン番号に表示されるとは限りません。たとえば、Microsoft Exchange Server 2003 Service Pack 2 の場合、このプロパティは "6.5.7638" を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-p115">Not all parts may be present in the version number, depending on the version information that is supplied by the Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</span></span></para>
+          <para><span data-ttu-id="1aaea-142">Exchange メールボックスがこのアカウントに関連付けられていない場合、このプロパティは空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-142">If an Exchange mailbox is not associated with this account, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -568,41 +369,15 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="1a27b-134">セッションのために保持されるアドレス入力の識別に使用します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-134">Used to identify an address entry that is maintained for the session.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1a27b-135">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />指定されたエントリ ID で指定されたアドレスのエントリを表すオブジェクト</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry specified by the given entry ID.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="1a27b-136">持つ<b>AddressEntry</b>を返す、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />の指定に一致するプロパティ<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-136">Returns an <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property that matches the specified <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="1a27b-137">
-            <para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、オブジェクトしますが、検索に使用するアカウントの追加コンテキスト情報。現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの<b>GetAddressEntryFromID</b>メソッドを使用します。</para>
-            <para>、 <b>AddressEntry</b>の<b>ID</b>プロパティは、 <b>AddressEntry</b>の作成時に割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。Outlook セッションは、アドレス帳の階層構造を維持して、返されるアドレス エントリが指定された ID に一致し、アドレス帳のいずれかに必要があります。</para>
-            <para>
-              <b>GetAddressEntryFromID</b>は、指定された ID を持つ項目が見つからない場合、接続が存在しない場合、またはオフラインで作業するユーザーが設定されている場合にエラーを返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-137">
-              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, but has some additional contextual information about which account to use for the look-up. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetAddressEntryFromID</b> method for the corresponding account. </para>
-              <para>The <b>ID</b> property for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. Outlook maintains a hierarchy of address books for a session, and the address entry that is returned must match the given ID and be in one of the address books. </para>
-              <para>
-                <b>GetAddressEntryFromID</b> returns an error if no item with the given ID can be found, if no connection is available, or if the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="1aaea-143">セッションのために保持されるアドレス入力の識別に使用します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-143">Used to identify an address entry that is maintained for the session.</span></span></param>
+        <summary><span data-ttu-id="1aaea-144">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />指定されたエントリ ID で指定されたアドレスのエントリを表すオブジェクト</span><span class="sxs-lookup"><span data-stu-id="1aaea-144">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry specified by the given entry ID.</span></span></summary>
+        <returns><span data-ttu-id="1aaea-145">持つ<b>AddressEntry</b>を返す、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />の指定に一致するプロパティ<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-145">Returns an <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property that matches the specified <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="1aaea-146">このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />のメソッド、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、オブジェクトしますが、検索に使用するアカウントの追加コンテキスト情報。</span><span class="sxs-lookup"><span data-stu-id="1aaea-146">This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, but has some additional contextual information about which account to use for the look-up.</span></span> <span data-ttu-id="1aaea-147">現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの <b>GetAddressEntryFromID</b> メソッドを使用します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-147">If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetAddressEntryFromID</b> method for the corresponding account.</span></span> </para>
+          <para><span data-ttu-id="1aaea-p117"><b>AddressEntry</b> の <b>ID</b> プロパティは、 <b>AddressEntry</b> が作成されたときに割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。 Outlook セッションは、アドレス帳の階層構造を維持して、返されるアドレス エントリが指定された ID に一致し、アドレス帳のいずれかに必要があります。</span><span class="sxs-lookup"><span data-stu-id="1aaea-p117">The <b>ID</b> property for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. Outlook maintains a hierarchy of address books for a session, and the address entry that is returned must match the given ID and be in one of the address books. </span></span></para>
+          <para><span data-ttu-id="1aaea-150">
+            <b>GetAddressEntryFromID</b> は、指定された ID を持つ項目が見つからない場合、接続が存在しない場合、またはオフラインで作業するユーザーが設定されている場合にエラーを返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-150">
+            <b>GetAddressEntryFromID</b> returns an error if no item with the given ID can be found, if no connection is available, or if the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -628,37 +403,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <span data-ttu-id="1a27b-138">
-            <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-138">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1a27b-139">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />指定されたエントリ ID によって識別されるオブジェクト</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-139">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that is identified by the given entry ID.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="1a27b-140">指定されたエントリの ID に関連付けられた受信者を表す<b>Recipient</b>オブジェクトを返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-140">Returns a <b>Recipient</b> object that represents the recipient associated with the specified entry ID.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="1a27b-141">
-            <para>このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの<b>GetRecipientFromID</b>メソッドを使用します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-141">
-              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetRecipientFromID</b> method for the corresponding account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryID"><span data-ttu-id="1aaea-151"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-151">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> of the recipient.</span></span></param>
+        <summary><span data-ttu-id="1aaea-152">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />指定されたエントリ ID によって識別されるオブジェクト</span><span class="sxs-lookup"><span data-stu-id="1aaea-152">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that is identified by the given entry ID.</span></span></summary>
+        <returns><span data-ttu-id="1aaea-153">指定されたエントリの ID に関連付けられた受信者を表す<b>Recipient</b>オブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-153">Returns a <b>Recipient</b> object that represents the recipient associated with the specified entry ID.</span></span></returns>
+        <remarks><para><span data-ttu-id="1aaea-154">このメソッドは、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-154">This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span> <span data-ttu-id="1aaea-155">現在のプロファイルで複数の Microsoft Exchange アカウントがある場合は、対応するアカウントの <b>GetRecipientFromID</b> メソッドを使用します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-155">If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetRecipientFromID</b> method for the corresponding account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IOlkAccount">
@@ -715,25 +464,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-p113">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-p113">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-p119">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-p119">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-144">
-            <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />オブジェクトです。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-144">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-158">親、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-158">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -759,37 +493,17 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-145">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-145">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="1a27b-146">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-146">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-159">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-159">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="1aaea-160">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-160">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-147">
-            <para>ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します</para>。
-          <para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。次のステートメントのペアが同じ機能を実行するたとえば、:</para><code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code><code>Dim objSession As Outlook.NameSpace = Application.Session</code><code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code><code>Outlook.NameSpace objSession = Application.Session;</code><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-147">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example,  the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="1aaea-161">ログオン セッションが存在しない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-161">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="1aaea-162"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="1aaea-162">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="1aaea-163">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="1aaea-163">Both members serve the same purpose.</span></span> <span data-ttu-id="1aaea-164">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-164">For example,  the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SmtpAddress">
@@ -815,32 +529,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-148">
-            <b>文字列</b>(C# では<b>文字列</b>) を返しますの簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-148">Returns a <b>String</b> (<b>string</b> in C#) representing the Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="1a27b-149">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-149">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-165"><b>文字列</b>(C# では<b>文字列</b>) を返しますの簡易メール転送プロトコル (SMTP) アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-165">Returns a <b>String</b> (<b>string</b> in C#) representing the Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="1aaea-166">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-166">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-150">
-            <para>
-              <b>SmtpAddress</b>の目的と<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />、id を特定のアカウント ベースのコンテキストを提供することです</para>。
-          <para>アカウントが SMTP アドレスを持たない場合<b>SmtpAddress</b>は空の文字列を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-150">
-              <para>The purpose of <b>SmtpAddress</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" /> is to provide an account-based context to determine identity.</para>
-              <para>If the account does not have an SMTP address, <b>SmtpAddress</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-167"><b>SmtpAddress</b>の目的と<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />、id を特定のアカウント ベースのコンテキストを提供することです。</span><span class="sxs-lookup"><span data-stu-id="1aaea-167">The purpose of <b>SmtpAddress</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" /> is to provide an account-based context to determine identity.</span></span></para>
+          <para><span data-ttu-id="1aaea-168">アカウントが SMTP アドレスを持たない場合、 <b>SmtpAddress</b> は空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-168">If the account does not have an SMTP address, <b>SmtpAddress</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserName">
@@ -866,31 +559,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1a27b-151">
-            <b>文字列</b>(C# では<b>文字列</b>) を返しますのユーザー名を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-151">Returns a <b>String</b> (<b>string</b> in C#) representing the user name for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="1a27b-152">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-152">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1aaea-169"><b>文字列</b>(C# では<b>文字列</b>) を返しますのユーザー名を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="1aaea-169">Returns a <b>String</b> (<b>string</b> in C#) representing the user name for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="1aaea-170">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="1aaea-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1a27b-153">
-            <para>目的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /><b>ユーザー名</b>は、id を特定のアカウント ベースのコンテキストを提供することとします</para>。
-          <para>アカウントが定義されているユーザー名、<b>ユーザー名</b>が空の文字列を返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1a27b-153">
-              <para>The purpose of <see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /> and <b>UserName</b> is to provide an account-based context to determine identity.</para>
-              <para>If the account does not have a user name defined, <b>UserName</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1aaea-171">目的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /><b>ユーザー名</b>は、id を特定のアカウント ベースのコンテキストを提供することとします。</span><span class="sxs-lookup"><span data-stu-id="1aaea-171">The purpose of <see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /> and <b>UserName</b> is to provide an account-based context to determine identity.</span></span></para>
+          <para><span data-ttu-id="1aaea-172">アカウントが定義されているユーザー名、 <b>ユーザー名</b> は空の文字列を返します。</span><span class="sxs-lookup"><span data-stu-id="1aaea-172">If the account does not have a user name defined, <b>UserName</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

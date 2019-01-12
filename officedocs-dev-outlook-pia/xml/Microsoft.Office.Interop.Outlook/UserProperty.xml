@@ -1,13 +1,5 @@
 <Type Name="UserProperty" FullName="Microsoft.Office.Interop.Outlook.UserProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b01972ade23a15cfa40aaec742d199b4c5ab4d2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638691" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7fa9c65db165ff886aa519574a59d9d364a004cc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896759" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperty" />
@@ -26,28 +18,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="97c47-101">Outlook アイテムのユーザー定義プロパティを表します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="97c47-101">Represents a custom property of an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="97c47-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を単一の<b>UserProperty</b>オブジェクトを取得する</para>。使用の
-      <para>、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />のアイテムの新しい<b>UserProperty</b>を作成しに追加する方法、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。<b>Add</b>メソッドを使用すると、新しいプロパティの型と名前を指定します</para>。
-      <para><b>注</b>: (プロパティと同じ名前を使用して) 項目を含むフォルダーに、フィールドを追加するカスタム プロパティを作成するとします。フォルダー ビュー内の列としてフィールドを使用することができます</para>。
-      <para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="97c47-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object. The <b>Add</b> method allows you to specify a name and type for the new property.</para>
-          <para>
-            <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property). That field can be used as a column in folder views.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="dfa3f-101">Outlook アイテムのユーザー定義プロパティを表します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-101">Represents a custom property of an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="dfa3f-102">使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)、<paramref name="index" />は、名前またはインデックス番号を単一の<b>UserProperty</b>オブジェクトを取得します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-102">Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</span></span></para>
+      <para><span data-ttu-id="dfa3f-103">使用して、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />のアイテムの新しい<b>UserProperty</b>を作成しに追加するにはメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object.</span></span> <span data-ttu-id="dfa3f-104"><b>Add</b> メソッドを使用すると、新しいプロパティの型と名前を指定できます。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-104">The <b>Add</b> method allows you to specify a name and type for the new property.</span></span></para>
+      <para><span data-ttu-id="dfa3f-105">
+        <b>注</b>: (プロパティと同じ名前を使用して) 項目を含むフォルダーに、フィールドを追加するカスタム プロパティを作成するとします。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-105">
+        <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property).</span></span> <span data-ttu-id="dfa3f-106">このフィールドは、プロパティと同じ名前になり、フォルダーのビューで列として使用できます。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-106">That field can be used as a column in folder views.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -73,16 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-103">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="97c47-104">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-107">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="dfa3f-108">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="97c47-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-109">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="dfa3f-110">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,12 +104,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-107">コレクションからオブジェクトを削除します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-107">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-111">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-111">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -180,17 +134,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-108">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー プロパティの式を表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-108">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span>
-          </span>
-          <span data-ttu-id="97c47-109">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-112"><b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー プロパティの式を表します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-112">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span></span> <span data-ttu-id="dfa3f-113">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-113">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,12 +165,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-110">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-114">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -254,16 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-111">オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-111">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="97c47-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-115">オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-115">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="dfa3f-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -291,12 +221,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-p105">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-p107">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,42 +249,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-115">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-115">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="97c47-116">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-119">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-119">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="dfa3f-120">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="97c47-117">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="dfa3f-121"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-121">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="dfa3f-122">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-122">Both members serve the same purpose.</span></span> <span data-ttu-id="dfa3f-123">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-123">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-117">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -385,16 +284,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-118">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="97c47-119">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-124">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="dfa3f-125">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -425,30 +315,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-120">
-            <b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー定義プロパティの検証式を示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-120">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span>
-          </span>
-          <span data-ttu-id="97c47-121">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-121">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-126"><b>文字列</b>(C# では<b>文字列</b>) を設定、ユーザー定義プロパティの検証式を示します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-126">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span></span> <span data-ttu-id="dfa3f-127">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="97c47-122">
-            <para>検証式のために使用されますを確認するのには、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />プロパティがアイテムを保存するとき。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-122">
-              <para>The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="dfa3f-128">検証式のために使用されますを確認するのには、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />プロパティがアイテムを保存するとき。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-128">The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationText">
@@ -477,30 +347,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-123">
-            <b>文字列</b>(C# では<b>文字列</b>) を取得または指定したユーザー定義プロパティの検証テキストを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-123">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span>
-          </span>
-          <span data-ttu-id="97c47-124">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-129"><b>文字列</b>(C# では<b>文字列</b>) を取得または指定したユーザー定義プロパティの検証テキストを指定します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-129">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span></span> <span data-ttu-id="dfa3f-130">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="97c47-125">
-            <para>検証テキストは、ユーザーが受信する場合、エラー メッセージ、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />で指定された条件を満たしていない<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-125">
-              <para>The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="dfa3f-131">検証テキストは、ユーザーが受信する場合、エラー メッセージ、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />で指定された条件を満たしていない<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-131">The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -529,29 +379,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="97c47-126">指定したカスタム プロパティの値を示す<b>オブジェクト</b>を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-126">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span>
-          </span>
-          <span data-ttu-id="97c47-127">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-127">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="dfa3f-132">指定したカスタム プロパティの値を示す<b>オブジェクト</b>を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-132">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span></span> <span data-ttu-id="dfa3f-133">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="97c47-128">
-            <para>によって作成されたプロパティを最初に設定するのには、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドでは、代わりに<b>Value</b>プロパティを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />のメソッド、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです</para>。
-          <para>Outlook では、プロパティへのアクセスの詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="97c47-128">
-              <para>To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</para>
-              <para>For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="dfa3f-134">最初にによって作成されたプロパティを設定するのには、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドでは、代わりに<b>Value</b>プロパティを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-134">To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span></para>
+          <para><span data-ttu-id="dfa3f-135">Outlook のプロパティにアクセスする方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dfa3f-135">For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
