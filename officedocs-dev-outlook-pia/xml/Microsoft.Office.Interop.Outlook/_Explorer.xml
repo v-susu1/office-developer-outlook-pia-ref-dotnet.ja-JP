@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637816" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906192" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3e246-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3e246-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="3e246-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3e246-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="3e246-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3e246-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="3e246-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3e246-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7172f-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="7172f-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="7172f-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="7172f-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="7172f-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="7172f-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="7172f-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountSelector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" />の Microsoft Office Backstage ビューを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span>
-          </span>
-          <span data-ttu-id="3e246-106">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-105">返します、<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" />の Microsoft Office Backstage ビューを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span></span> <span data-ttu-id="7172f-106">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,12 +71,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-107">エクスプローラー ウィンドウを手前に表示し、キーボード フォーカスを設定して、エクスプローラー ウィンドウをアクティブにします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-107">エクスプローラー ウィンドウを手前に表示し、キーボード フォーカスを設定して、エクスプローラー ウィンドウをアクティブにします。</span><span class="sxs-lookup"><span data-stu-id="7172f-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,106 +98,58 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-108">エクスプ ローラーの閲覧ウィンドウでアクティブなインライン応答の項目を表す項目を取得します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-108">Returns an item object representing the active inline response item in the explorer reading pane.</span>
-          </span>
-          <span data-ttu-id="3e246-109">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-108">エクスプ ローラーの閲覧ウィンドウでアクティブなインライン応答の項目を表す項目を取得します。</span><span class="sxs-lookup"><span data-stu-id="7172f-108">Returns an item object representing the active inline response item in the explorer reading pane.</span></span> <span data-ttu-id="7172f-109">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-110">
-            <para>ほとんどのプロパティとメソッドを使用することができます、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />は、この項目のオブジェクトです。次のメソッドを使用することはできません:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />プロパティ</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />メソッド</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッド</para>
-              </item>
-            </list>
-            <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) インライン応答が閲覧ウィンドウに表示されていない場合です</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-110">
-              <para>You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item. You cannot use the following methods:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</para>
-                </item>
-              </list>
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-110">ほとんどのプロパティとメソッドを使用することができます、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />は、この項目のオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-110">You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item.</span></span> <span data-ttu-id="7172f-111">以下の方法を使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="7172f-111">You cannot use the following methods:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="7172f-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />プロパティ</span><span class="sxs-lookup"><span data-stu-id="7172f-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />メソッド</span><span class="sxs-lookup"><span data-stu-id="7172f-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="7172f-121">このプロパティはインライン応答が閲覧ウィンドウに表示されていない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-121">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -262,103 +175,47 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-111">単語を返します。<see cref="T:Microsoft.Office.Interop.Word.Document" />のエクスプ ローラーの閲覧ウィンドウに表示されているアクティブなインライン応答オブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-111">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span>
-          </span>
-          <span data-ttu-id="3e246-112">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-122">単語を返します。<see cref="T:Microsoft.Office.Interop.Word.Document" />のエクスプ ローラーの閲覧ウィンドウに表示されているアクティブなインライン応答オブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-122">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span></span> <span data-ttu-id="7172f-123">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-123">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-113">
-            <para>このプロパティはインライン応答が閲覧ウィンドウに表示されていない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。返される<b>ドキュメント</b>の Word オブジェクトは、次のメンバーを除く、Word オブジェクト モデルの多くへのアクセスを提供します。</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-113">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane. The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-124">このプロパティはインライン応答が閲覧ウィンドウに表示されていない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-124">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span> <span data-ttu-id="7172f-125">返される<b>ドキュメント</b>の Word オブジェクトは、次のメンバーを除く、Word オブジェクト モデルの多くへのアクセスを提供します。</span><span class="sxs-lookup"><span data-stu-id="7172f-125">The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -384,94 +241,60 @@
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="3e246-114">アクティブなエクスプローラーの選択範囲に追加するアイテムを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-114">The item to add to the selection in the active explorer.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-115">アクティブなエクスプ ローラーで選択するには、指定されたMicrosoft Outlookの項目を追加します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-115">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-116">
-            <para>アクティブなエクスプ ローラーで選択範囲が表される、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />によって返されるオブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティ</para>。
-          <para>を選択する項目は、アクティブなエクスプ ローラーの現在のビューで選択可能である必要があります。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />ビューでアイテムを選択できるかどうかを調べます。項目をビューに表示する必要はありません。</para><para><b>AddToSelection</b>メソッドを呼び出すと次の条件では、Outlook はエラーを返します:</para><list type="bullet"><item><para>指定した項目がアクティブなエクスプ ローラーの現在のビューではありません</para></item>。
-            <item><para>指定した項目がアクティブなエクスプ ローラーの現在のビューで編集中です</para></item>。
-            <item><para>現在のビューのフィルターを適用し、フィルターの適用は、ビューからアイテムを削除します</para></item>。
-            <item><para>指定した項目が保存されていません</para></item>。
-            <item><para>指定された項目を表す、<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />です</para></item>。
-            <item><para>、アクティブなエクスプ ローラーの現在のビューが存在しません</para></item></list>。
-          <para>項目が選択されていないが現在のビューで選択可能な場合は、 <b>AddToSelection</b>の原因を呼び出し、<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />イベントが発生します</para>。
-          <para>呼び出しの<b>AddToSelection</b>が選択した項目をビューに表示して、展開または折りたたみできないビュー内のグループにビューをスクロールしていません</para>。
-          <para>次の表は、呼び出し元<b>AddToSelection</b>、現在の選択項目を考慮に入れての結果を示します (、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />プロパティ) と、閲覧ウィンドウを表示するかどうか</para>。
-          <list type="table"><item><description>0</description><description>はい</description><description>アイテムは、選択します。<b>に追加します。SelectionChange</b>に発生します。閲覧ウィンドウにアイテムが表示されます</description></item>。
-            <item><description>0</description><description>いいえ</description><description>アイテムは、選択します。<b>に追加します。SelectionChange</b>に発生します</description></item>。
-            <item><description> &gt;= 1</description><description>はい</description><description>、選択します<b>に、項目を追加。SelectionChange</b>に発生します。ウィンドウでは、ビューが [カレンダー] ビューでない場合、表示される項目は変更されませんを読むと、場合は、 <b>AddToSelection</b>を呼び出すことができますが発生する閲覧ウィンドウを別のアイテムを表示します</description></item>。
-            <item><description> &gt;= 1</description><description>なし</description><description>、選択します<b>に、項目を追加。SelectionChange</b>に発生します</description></item></list>。
-          <para><b>AddToSelection</b>の呼び出しは行われませんで何らかの変更の選択範囲に指定した項目は既にアクティブなエクスプ ローラーで選択されている場合は、 <b>SelectionChange</b>イベントは発生しません</para>。
-          <para>、 <b>AddToSelection</b>メソッドの引数は、引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによってを使用していることを確認すると、定期的な予定またはタスクの項目を指定すると、 <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティ、および<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。定期的なアイテムを展開しないで、このシリーズで発生する事象を取得する場合、予定またはタスクの系列を表すインスタンス変数を渡すし、 <b>AddToSelection</b>メソッドが発生したのではなく一連の動作です。</para><para>、選択範囲に項目を追加するのには<b>AddToSelection</b>を使用することができますが、選択範囲に会話のヘッダーを追加することはできません</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-116">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be selected, the item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</para>
-              <para>Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</para>
-              <list type="table">
-                <item>
-                  <description>0</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence. </para>
-              <para>Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="7172f-126">アクティブなエクスプローラーの選択範囲に追加するアイテムを指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-126">The item to add to the selection in the active explorer.</span></span></param>
+        <summary><span data-ttu-id="7172f-127">アクティブなエクスプ ローラーで選択するには、指定されたMicrosoft Outlookの項目を追加します。</span><span class="sxs-lookup"><span data-stu-id="7172f-127">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-128">アクティブなエクスプ ローラーで選択範囲が表される、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />によって返されるオブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="7172f-128">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="7172f-129">選択するには、アクティブなエクスプローラーの現在のビューでアイテムを選択可能にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7172f-129">To be selected, the item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="7172f-130">使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />ビューでアイテムを選択できるかどうかを調べます。</span><span class="sxs-lookup"><span data-stu-id="7172f-130">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="7172f-131">ビューに表示されていないアイテムも確認できます。</span><span class="sxs-lookup"><span data-stu-id="7172f-131">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="7172f-132">次の条件では、Outlook では、 <b>AddToSelection</b> メソッドを呼び出したときにエラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-132">Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="7172f-133">指定されたアイテムが、アクティブなエクスプローラーの現在のビューにない。</span><span class="sxs-lookup"><span data-stu-id="7172f-133">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-134">指定されたアイテムが、アクティブなエクスプローラーの現在のビューで編集中である。</span><span class="sxs-lookup"><span data-stu-id="7172f-134">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-135">現在のビューがフィルター処理され、フィルターの適用によってビューからアイテムが削除されている。</span><span class="sxs-lookup"><span data-stu-id="7172f-135">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-136">指定されたアイテムが保存されていない。</span><span class="sxs-lookup"><span data-stu-id="7172f-136">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-137">指定された項目を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-137">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-138">アクティブなエクスプローラーに現在のビューが存在しない。</span><span class="sxs-lookup"><span data-stu-id="7172f-138">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="7172f-139">アイテムが選択されていないが現在のビューで選択可能な場合は、 <b>AddToSelection</b>の原因を呼び出し、<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-139">If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span></para>
+          <para><span data-ttu-id="7172f-140"><b>AddToSelection</b> を呼び出して、選択した項目をビューに表示して、展開または折りたたみできないビュー内のグループをビューがスクロールされることはできません。</span><span class="sxs-lookup"><span data-stu-id="7172f-140">Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="7172f-141">次の表は、呼び出し元<b>AddToSelection</b>、現在の選択項目を考慮に入れての結果を示します (、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />プロパティ) と、閲覧ウィンドウを表示するかどうか。</span><span class="sxs-lookup"><span data-stu-id="7172f-141">The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="7172f-142">0</span><span class="sxs-lookup"><span data-stu-id="7172f-142">0</span></span></description>
+              <description><span data-ttu-id="7172f-143">あり</span><span class="sxs-lookup"><span data-stu-id="7172f-143">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-144">項目は、選択範囲に追加されます。<b>SelectionChange</b>が発生します。閲覧ウィンドウには、項目が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-144">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-145">0</span><span class="sxs-lookup"><span data-stu-id="7172f-145">0</span></span></description>
+              <description><span data-ttu-id="7172f-146">なし</span><span class="sxs-lookup"><span data-stu-id="7172f-146">No</span></span></description>
+              <description><span data-ttu-id="7172f-147">項目は、選択範囲に追加されます。<b>SelectionChange</b>が発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-147">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-148">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="7172f-148">&gt;=1</span></span></description>
+              <description><span data-ttu-id="7172f-149">あり</span><span class="sxs-lookup"><span data-stu-id="7172f-149">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-150">項目は、選択範囲に追加されます。<b>SelectionChange</b>が発生します。閲覧ウィンドウでは、ビューは、予定表ビュー、その場合は、 <b>AddToSelection</b>を呼び出すことが原因で、閲覧ウィンドウを別のアイテムを表示する場合を除き、表示される項目は変更されません。</span><span class="sxs-lookup"><span data-stu-id="7172f-150">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-151">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="7172f-151">&gt;=1</span></span></description>
+              <description><span data-ttu-id="7172f-152">なし</span><span class="sxs-lookup"><span data-stu-id="7172f-152">No</span></span></description>
+              <description><span data-ttu-id="7172f-153">項目は、選択範囲に追加されます。<b>SelectionChange</b>が発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-153">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="7172f-154">指定された項目は既にアクティブなエクスプ ローラーで選択されている場合は、 <b>AddToSelection</b> の呼び出しは行われませんで何らかの変更の選択範囲と <b>SelectionChange</b> イベントは発生しません。</span><span class="sxs-lookup"><span data-stu-id="7172f-154">If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="7172f-155"><b>AddToSelection</b>メソッドへの引数として定期的な予定またはタスクの項目を指定するときに引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによってを使用して確認、<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティ<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="7172f-155">When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="7172f-156">定期的なアイテムを展開しないで、このシリーズで発生する事象を取得する場合、予定またはタスクの系列を表すインスタンス変数を渡すし、 <b>AddToSelection</b> メソッドが発生したのではなく一連の動作です。</span><span class="sxs-lookup"><span data-stu-id="7172f-156">If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="7172f-157">、選択範囲に項目を追加するのには <b>AddToSelection</b> を使用することができますが、選択範囲に会話のヘッダーを追加することはできません。</span><span class="sxs-lookup"><span data-stu-id="7172f-157">Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -497,16 +320,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-117">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="3e246-118">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-158">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="7172f-159">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-159">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,16 +348,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-119">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> 、エクスプ ローラーの現在のビューで選択されている 1 つまたは複数の添付ファイルで構成されるオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span>
-          </span>
-          <span data-ttu-id="3e246-120">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-160">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> 、エクスプ ローラーの現在のビューで選択されている 1 つまたは複数の添付ファイルで構成されるオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span></span> <span data-ttu-id="7172f-161">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-161">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -571,17 +376,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-121">
-            <b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-121">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span>
-          </span>
-          <span data-ttu-id="3e246-122">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-162"><b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。</span><span class="sxs-lookup"><span data-stu-id="7172f-162">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span></span> <span data-ttu-id="7172f-163">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-163">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -609,16 +404,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-123">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="3e246-124">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-164">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="7172f-164">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="7172f-165">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-165">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -644,26 +430,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-125">Microsoft クイック検索の結果をクリア、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />と、<b>エクスプ ローラー</b>に結果が表示されます。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-125">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-126">
-            <para>このメソッドの機能は、クイック検索の [クリア] ボタンに似ています。  </para>
-            <para>
-              <b>ClearSearch</b> [エクスプ ローラー] の検索結果が表示されていない場合は任意のアクションを実行しません。<b>ClearSearch</b>でエラーが発生しない場合は、<b>エクスプ ローラー</b>の現在のビューで、[検索] ビューが表示されません</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-126">
-              <para>The functionality of this  method is analogous  to the Clear button in Instant Search.   </para>
-              <para>If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7172f-166">Microsoft クイック検索の結果をクリア、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />と、<b>エクスプ ローラー</b>に結果が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-166">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-167">このメソッドの機能は、クイック検索の [クリア] ボタンに似ています。</span><span class="sxs-lookup"><span data-stu-id="7172f-167">The functionality of this  method is analogous  to the Clear button in Instant Search.</span></span>   </para>
+          <para><span data-ttu-id="7172f-p115">エクスプ ローラーで検索結果が表示されない場合、 <b>ClearSearch</b> は、行動を取らない。 <b>エクスプ ローラー</b> の現在のビューは、[検索] ビューを表示しません、 <b>ClearSearch</b> はエラーを発生しません。</span><span class="sxs-lookup"><span data-stu-id="7172f-p115">If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -687,32 +457,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-127">アクティブなエクスプローラーのすべての選択範囲を取り消します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-127">Cancels any selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-128">
-            <para>
-              <b>ClearSelection</b>メソッドが呼び出された場合、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />オブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティはゼロを返します。後、 <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /><b>ClearSelection</b>の呼び出しは、時に現在のビューがありませんでした、アイテム、現在のフォルダーが空の場合、または<b>Count</b>プロパティが 0 で既にしない限り、イベントが発生します。</para>
-            <para>
-              <b>ClearSelection</b>を呼び出す場合は、閲覧ウィンドウが表示されると、現在のビューは、テーブル ビューと閲覧ウィンドウ レンダリング空白</para>。
-          <para>場合は、現在のビューまたは現在のフォルダーに項目が含まれていない、 <b>ClearSelection</b>を呼び出して、選択範囲に何らかの変更につながらないし、 <b>SelectionChange</b>イベントは発生しません</para>。
-          <para><b>ClearSelection</b>は、現在のビューで、項目を編集する場合にエラーを返します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-128">
-              <para>After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero. Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero. </para>
-              <para>If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>ClearSelection</b> returns an error if the item is being edited in the current view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7172f-170">アクティブなエクスプローラーのすべての選択範囲を取り消します。</span><span class="sxs-lookup"><span data-stu-id="7172f-170">Cancels any selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-171"><b>ClearSelection</b>メソッドが呼び出された場合、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />オブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティはゼロを返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-171">After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero.</span></span> <span data-ttu-id="7172f-172">後、 <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> <b>ClearSelection</b>の呼び出しは、時に現在のビューがありませんでした、アイテム、現在のフォルダーが空の場合、または<b>Count</b>プロパティが 0 で既にしない限り、イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-172">Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero.</span></span> </para>
+          <para><span data-ttu-id="7172f-173">閲覧ウィンドウが表示されると、現在のビューは、テーブル ビューは、 <b>ClearSelection</b> を呼び出してレンダリング閲覧ウィンドウが空白にします。</span><span class="sxs-lookup"><span data-stu-id="7172f-173">If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</span></span></para>
+          <para><span data-ttu-id="7172f-p117">現在のビューまたは現在のフォルダーに項目が含まれていない、 <b>ClearSelection</b> を呼び出すことが選択範囲に何らかの変更につながらないし、 <b>SelectionChange</b> イベントは発生しません。</span><span class="sxs-lookup"><span data-stu-id="7172f-p117">If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="7172f-175">
+            <b>ClearSelection</b> では、現在のビューで、項目を編集する場合、エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-175">
+            <b>ClearSelection</b> returns an error if the item is being edited in the current view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -736,12 +488,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-129">閉じ、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-129">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-176">閉じ、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-176">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -771,12 +518,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-130">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-177">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-177">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -807,29 +549,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-131">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、エクスプ ローラーに表示されている現在のフォルダーを表すオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-131">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span>
-          </span>
-          <span data-ttu-id="3e246-132">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-178">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、エクスプ ローラーに表示されている現在のフォルダーを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-178">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span></span> <span data-ttu-id="7172f-179">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-133">
-            <para>ユーザーを表示するフォルダーを変更するのにには、このプロパティを使用します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-133">
-              <para>Use this property to change the folder the user is viewing.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-180">このプロパティを使って、ユーザーが表示しているフォルダーを変更することができます。</span><span class="sxs-lookup"><span data-stu-id="7172f-180">Use this property to change the folder the user is viewing.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -858,45 +581,12 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-134">現在のビューを表す<b>オブジェクト</b>を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-134">Returns or sets an <b>Object</b> representing the current view.</span>
-          </span>
-          <span data-ttu-id="3e246-135">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-181">現在のビューを表す<b>オブジェクト</b>を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-181">Returns or sets an <b>Object</b> representing the current view.</span></span> <span data-ttu-id="7172f-182">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-182">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-136">
-            <para>入手するのには、 <see cref="T:Microsoft.Office.Interop.Outlook.View" /> 、現在のビューのオブジェクト<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />の代わりに<b>Explorer.CurrentView</b>を使用して、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティの現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />によって返されるオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</para>
-            <para>、いかなる目的のために使用する開始する前に、<b>示します</b>によって返される<b>ビュー</b>オブジェクトへの参照を保存する必要があります</para>。
-          <para>現在のビューを正しくリセットするのには行う必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />し、 <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。次のコード例は、呼び出しの順序を示しています:</para><code>Sub ResetView()
-    Dim v as Outlook.View
-    ' Save a reference to the current view object
-    Set v = Application.ActiveExplorer().CurrentView
-    ' Reset and then apply the current view
-    v.Reset
-    v.Apply
-End Sub</code><code>private void ResetView()
-{
-    // Save a reference to the current view object    
-    Outlook.View v = Application.ActiveExplorer().CurrentView 
-        as Outlook.View; 
-    
-    // Reset and then apply the current view
-    v.Reset();
-    v.Apply();
-}</code><para>このプロパティが設定されている場合は、2 つのイベントが発生する:<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />実際のビューの変更が行われ、変更をキャンセルするのには使用することができます前に発生し、<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />の処理を行う後、変更が有効にします</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-136">
-              <para>To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-              <para>You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</para>
-              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
-              <code>Sub ResetView()
+        <remarks><para><span data-ttu-id="7172f-183">入手するのには、 <see cref="T:Microsoft.Office.Interop.Outlook.View" /> 、現在のビューのオブジェクト<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />の代わりに<b>Explorer.CurrentView</b>を使用して、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />プロパティの現在の<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />によって返されるオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-183">To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span></span> </para>
+          <para><span data-ttu-id="7172f-184">任意の目的に使用する開始する前に、 <b>示します</b> によって返される <b>ビュー</b> オブジェクトへの参照を保存する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7172f-184">You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</span></span></para>
+          <para><span data-ttu-id="7172f-185">現在のビューが正しく再設定を行う必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />し、 <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-185">To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span></span> <span data-ttu-id="7172f-186">次のコード例は、呼び出しの順序を示しています。</span><span class="sxs-lookup"><span data-stu-id="7172f-186">The code sample below illustrates the order of the calls:</span></span></para>
+          <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
     Set v = Application.ActiveExplorer().CurrentView
@@ -904,7 +594,7 @@ End Sub</code><code>private void ResetView()
     v.Reset
     v.Apply
 End Sub</code>
-              <code>private void ResetView()
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -914,11 +604,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-              <para>When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="7172f-187">このプロパティを設定すると、2 つのイベントが発生する:<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />実際のビューの変更が行われ、変更をキャンセルするのには使用することができます前に発生し、 <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> 、変更が有効にした後の処理を行う。</span><span class="sxs-lookup"><span data-stu-id="7172f-187">When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -948,12 +635,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="3e246-137">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-137">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-188">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-188">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -978,25 +660,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-138">新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />フォルダーのオブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-138">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-139">
-            <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
-          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-139">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7172f-189">新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />フォルダーのオブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-189">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-190">後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="7172f-190">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="7172f-191">エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="7172f-191">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="7172f-p123">Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7172f-p123">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1025,16 +692,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-140">エクスプ ローラー ウィンドウの高さ (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-140">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span>
-          </span>
-          <span data-ttu-id="3e246-141">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-141">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-194">エクスプ ローラー ウィンドウの高さ (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-194">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span></span> <span data-ttu-id="7172f-195">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-195">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1062,25 +720,10 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-p112">(存在する場合)、現在のビュー内の HTML ドキュメントに関連付けられた HTML オブジェクト モデルを指定する <b>HTMLDocument</b> オブジェクトを返します。読み取り専用です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-p112">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-p125">(存在する場合)、現在のビュー内の HTML ドキュメントに関連付けられた HTML オブジェクト モデルを指定する <b>HTMLDocument</b> オブジェクトを返します。読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-p125">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-144">
-            <para>このプロパティを使用するには、フォルダーする必要があります使用するフォルダーのホーム ページ、または設定することができます、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトを Web ページにします。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-144">
-              <para>In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-198">このプロパティを使用するには、フォルダーする必要があります使用するフォルダーのホーム ページ、または設定することができます、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトを Web ページにします。</span><span class="sxs-lookup"><span data-stu-id="7172f-198">In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -1110,12 +753,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="3e246-145">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-199">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-199">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1143,42 +781,15 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="3e246-146">選択対象と見なされるアイテムを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-146">The item that is being considered for selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-147">アクティブなエクスプローラーの現在のビューの、指定された Microsoft Outlook アイテムを選択できるかどうかを示す値を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-147">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3e246-148">返します、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値を指定した項目を現在のビューで選択できるかどうかを示します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-148">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3e246-149">
-            <para>を返します<b>True の</b>場合は、現在のビューでアイテムを選択できますそれ以外の場合は<b>False</b>を返します。</para>
-            <para>メソッドは、アイテムがビューで選択できるかどうかに応じて<b>True</b>または<b>False</b>を返します。アイテムがビューに表示するかどうかは示しません。アイテムがビューで折りたたまれたグループに含まれている場合、メソッドは<b>False</b>を返します。</para>
-            <para>の場合は、アクティブなエクスプ ローラーの現在のビューのセル内編集がオンで、セル内編集項目上で進行中、このメソッドは<b>False</b>を返します。現在のビューが表形式ビューの場合は、セル内編集を使用してをチェックすることができます、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。同様に、カード形式のビューを現在のビューを使って、<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />オブジェクトです</para>。
-          <para>、 <b>IsItemSelectableInView</b>メソッドへの引数は、引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによって、<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティと<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。場合、定期的なアイテムを展開して、一連の出来事を取得しない予定またはタスクの系列を表すインスタンス変数を渡すことは、 <b>IsItemSelectableInView</b>メソッドは、の代わりに一連の動作は、発生します。</para><para>現在のビューがスレッド ビューの場合、 <b>IsItemSelectableInView</b>メソッドによってエラーが発生します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-149">
-              <para>Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </para>
-              <para>The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </para>
-              <para>If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>. If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object. Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</para>
-              <para>When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence. </para>
-              <para>The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="7172f-200">選択対象と見なされるアイテムを指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-200">The item that is being considered for selection.</span></span></param>
+        <summary><span data-ttu-id="7172f-201">アクティブなエクスプローラーの現在のビューの、指定された Microsoft Outlook アイテムを選択できるかどうかを示す値を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-201">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span></span></summary>
+        <returns><span data-ttu-id="7172f-202">返します、 <see cref="T:System.Boolean" /> (C# では<b>bool</b> ) の値を指定した項目を現在のビューで選択できるかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="7172f-202">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span></span></returns>
+        <remarks><para><span data-ttu-id="7172f-p126">を返します <b>True の</b> 場合は、現在のビューでアイテムを選択できますそれ以外の場合は <b>False</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-p126">Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="7172f-p127">メソッドは、アイテムがビューで選択できるかどうかに応じて、 <b>True</b> または <b>False</b> を返します。アイテムがビューに表示するかどうかは示しません。アイテムがビューで折りたたまれたグループに含まれている場合、メソッドは <b>False</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-p127">The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="7172f-207">アクティブなエクスプ ローラーの現在のビューのセル内編集がオンで、セル内編集項目の進行中の場合、メソッドは <b>False</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-207">If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>.</span></span> <span data-ttu-id="7172f-208">現在のビューが表形式ビューの場合は、セル内編集を使用してをチェックすることができます、<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-208">If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="7172f-209">同様に、カード形式のビューを現在のビューを使って、<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />のプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-209">Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span></para>
+          <para><span data-ttu-id="7172f-210"><b>IsItemSelectableInView</b>メソッドへの引数として、定期的な予定またはタスクの項目を指定するときに引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによってを使用して確認、 <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティ、および<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="7172f-210">When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="7172f-211">場合、定期的なアイテムを展開して、一連の出来事を取得しない、予定またはタスクの系列を表すインスタンス変数を渡すことは、 <b>IsItemSelectableInView</b> メソッドを発生したのではなく一連の動作は</span><span class="sxs-lookup"><span data-stu-id="7172f-211">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="7172f-212"><b>IsItemSelectableInView</b> メソッドでは、現在のビューがスレッド ビューである場合にエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-212">The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -1204,38 +815,11 @@ End Sub</code>
         <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="3e246-150">確認するウィンドウを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-150">The pane to check.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-151">特定のエクスプ ローラー ウィンドウが表示されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) を返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-151">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3e246-152">
-            <b>True の</b> 場合は、エクスプ ローラーで指定されたペインが表示されます。それ以外の場合、 <b>false を指定</b> します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-152">
-              <b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3e246-153">
-            <para>使用することも、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> 、[ショートカット] ウィンドウが表示されているかどうかを決定するオブジェクト。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-153">
-              <para>You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="7172f-213">確認するウィンドウを指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-213">The pane to check.</span></span></param>
+        <summary><span data-ttu-id="7172f-214">特定のエクスプ ローラー ウィンドウが表示されているかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-214">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span></span></summary>
+        <returns><span data-ttu-id="7172f-215"><b>True の</b> 場合は、エクスプ ローラーで指定されたペインが表示されます。それ以外の場合、 <b>false を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="7172f-215"><b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="7172f-216">使用することも、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> 、[ショートカット] ウィンドウが表示されているかどうかを決定するオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-216">You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -1264,16 +848,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-154">(ピクセル単位) で、画面の端から、[エクスプ ローラー] ウィンドウの左端の位置を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-154">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="3e246-155">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-155">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-217">(ピクセル単位) で、画面の端から、[エクスプ ローラー] ウィンドウの左端の位置を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-217">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="7172f-218">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-218">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1301,30 +876,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPane</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-156">返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />のナビゲーション ウィンドウを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-          <span data-ttu-id="3e246-157">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-157">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-219">返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />のナビゲーション ウィンドウを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-219">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span> <span data-ttu-id="7172f-220">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-220">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-158">
-            <para>
-              <b>エクスプ ローラー</b>の一部のオブジェクトには、関連付けられている<b>NavigationPane</b>オブジェクトがありません。このような場合、このプロパティを返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-158">
-              <para>Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object. In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-221"><b>エクスプ ローラー</b> の一部のオブジェクトには、関連付けられている <b>NavigationPane</b> オブジェクトがありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-221">Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object.</span></span> <span data-ttu-id="7172f-222">このような場合、このプロパティを返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)</span><span class="sxs-lookup"><span data-stu-id="7172f-222">In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -1350,12 +905,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Panes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-159">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />コレクションを表す指定したエクスプ ローラーで表示されるウィンドウです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-223">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />コレクションを表す指定したエクスプ ローラーで表示されるウィンドウです。</span><span class="sxs-lookup"><span data-stu-id="7172f-223">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1383,12 +933,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-p115">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-p133">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1416,100 +961,66 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="3e246-162">選択範囲から削除するアイテム。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-162">The item to be removed from the selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-163">アクティブなエクスプローラーの指定された Microsoft Outlook アイテムの選択を取り消します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-163">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-164">
-            <para>アクティブなエクスプ ローラーで選択範囲が表される、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />によって返されるオブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティ</para>。削除するには、
-          <para>の項目は、アクティブなエクスプ ローラーの現在のビューで選択可能である必要があります。使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />ビューでアイテムを選択できるかどうかを調べます。項目をビューに表示する必要はありません。</para><para><b>RemoveFromSelection</b>メソッドを呼び出すと次の条件では、Outlook はエラーを返します:</para><list type="bullet"><item><para>指定した項目がアクティブなエクスプ ローラーの現在のビューではありません</para></item>。
-            <item><para>指定した項目がアクティブなエクスプ ローラーの現在のビューで編集中です</para></item>。
-            <item><para>現在のビューのフィルターを適用し、フィルターの適用は、ビューからアイテムを削除します</para></item>。
-            <item><para>指定した項目が保存されていません</para></item>。
-            <item><para>指定された項目を表す、<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />です</para></item>。
-            <item><para>現在のビューでは、テーマ別ビュー</para></item> 。
-            <item><para>、アクティブなエクスプ ローラーの現在のビューが存在しません</para></item></list>。項目を選択すると、 <b>RemoveFromSelection</b>の原因を呼び出す場合、 
-          <para>、<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />イベントが発生します。アイテムが選択されていない場合を呼び出す<b>RemoveFromSelection</b>はない、 <b>SelectionChange</b>イベントが発生します</para>。
-          <para>呼び出しの<b>RemoveFromSelection</b>が選択した項目をビューに表示して、展開または折りたたみできないビュー内のグループにビューをスクロールしていません</para>。
-          <para>は、次の表は、呼び出し<b>RemoveFromSelection</b>、現在の選択項目を考慮に入れて結果を示しています (、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />プロパティ) で指定した項目が表示されるかどうか、および閲覧ウィンドウが表示されているかどうか、閲覧ウィンドウ</para>。
-          <list type="table"><item><description>1</description><description>はい</description><description>はい</description><description>選択範囲をオフにします<b>。SelectionChange</b>に発生します。閲覧ウィンドウは空です</description></item>。
-            <item><description> &gt;1</description><description>はい</description><description>いいえ</description><description>から、選択します。<b>は、項目を削除してください。SelectionChange</b>に発生します。閲覧ウィンドウは変更されません</description></item>。
-            <item><description> &gt;1</description><description>はい</description><description>はい</description><description>から、選択します。<b>は、項目を削除してください。SelectionChange</b>に発生します。閲覧ウィンドウでは選択範囲の次の項目または項目の横にあるが表示されます</description></item>。
-            <item><description> &gt;= 1</description><description>なし</description><description>なし</description><description>から、選択します。<b>は、項目を削除してください。SelectionChange</b>に発生します</description></item></list>。
-          <para>指定されたアイテムは現在のビュー内に存在するがで、 <b>RemoveFromSelection</b>を呼び出して表示は行われませんで何らかの変更の選択範囲に、 <b>SelectionChange</b>イベントは発生しませんが選択されていない</para>。
-          <para>、 <b>RemoveFromSelection</b>メソッドの引数は、引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによって、<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティと<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。場合、定期的なアイテムを展開して、一連の出来事を取得しない予定またはタスクの系列を表すインスタンス変数を渡すことは、 <b>RemoveFromSelection</b>メソッドは、の代わりに一連の動作は、発生します。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-164">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be removed, an item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>The current view is a conversation view.</para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire. If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</para>
-              <para>Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</para>
-              <list type="table">
-                <item>
-                  <description>1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>No</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>N/A</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="7172f-226">選択範囲から削除するアイテム。</span><span class="sxs-lookup"><span data-stu-id="7172f-226">The item to be removed from the selection.</span></span></param>
+        <summary><span data-ttu-id="7172f-227">アクティブなエクスプローラーの指定された Microsoft Outlook アイテムの選択を取り消します。</span><span class="sxs-lookup"><span data-stu-id="7172f-227">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-228">アクティブなエクスプ ローラーで選択範囲が表される、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />によって返されるオブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />プロパティ。</span><span class="sxs-lookup"><span data-stu-id="7172f-228">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="7172f-229">削除するには、アイテムをアクティブなエクスプ ローラーの現在のビューで選択可能にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7172f-229">To be removed, an item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="7172f-230">使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />ビューでアイテムを選択できるかどうかを調べます。</span><span class="sxs-lookup"><span data-stu-id="7172f-230">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="7172f-231">ビューに表示されていないアイテムも確認できます。</span><span class="sxs-lookup"><span data-stu-id="7172f-231">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="7172f-232">次の条件では、Outlook では、 <b>RemoveFromSelection</b>メソッドを呼び出したときにエラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-232">Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="7172f-233">指定されたアイテムが、アクティブなエクスプローラーの現在のビューにない。</span><span class="sxs-lookup"><span data-stu-id="7172f-233">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-234">指定されたアイテムが、アクティブなエクスプローラーの現在のビューで編集中である。</span><span class="sxs-lookup"><span data-stu-id="7172f-234">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-235">現在のビューがフィルター処理され、フィルターの適用によってビューからアイテムが削除されている。</span><span class="sxs-lookup"><span data-stu-id="7172f-235">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-236">指定されたアイテムが保存されていない。</span><span class="sxs-lookup"><span data-stu-id="7172f-236">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-237">指定された項目を表す、 <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-237">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-238">現在のビューがスレッド ビューである。</span><span class="sxs-lookup"><span data-stu-id="7172f-238">The current view is a conversation view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7172f-239">アクティブなエクスプローラーに現在のビューが存在しない。</span><span class="sxs-lookup"><span data-stu-id="7172f-239">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="7172f-240">アイテムが選択されている場合は、 <b>RemoveFromSelection</b>の原因を呼び出すこと、<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-240">If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span> <span data-ttu-id="7172f-241">アイテムが選択されていない場合は、 <b>RemoveFromSelection</b> の呼び出しは発生しません <b>SelectionChange</b> イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-241">If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</span></span></para>
+          <para><span data-ttu-id="7172f-242"><b>RemoveFromSelection</b>を呼び出して、選択した項目をビューに表示して、展開または折りたたみできないビュー内のグループをビューがスクロールされることはできません。</span><span class="sxs-lookup"><span data-stu-id="7172f-242">Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="7172f-243">次の表は、呼び出し元<b>RemoveFromSelection</b>、現在の選択項目を考慮に入れての結果を示します (、<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />プロパティ) の読み取り中に指定した項目が表示されるかどうか、および閲覧ウィンドウが表示されているかどうかウィンドウです。</span><span class="sxs-lookup"><span data-stu-id="7172f-243">The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="7172f-244">1</span><span class="sxs-lookup"><span data-stu-id="7172f-244">1</span></span></description>
+              <description><span data-ttu-id="7172f-245">あり</span><span class="sxs-lookup"><span data-stu-id="7172f-245">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-246">はい</span><span class="sxs-lookup"><span data-stu-id="7172f-246">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-247">選択範囲がクリアされます。<b>SelectionChange</b>が発生します。閲覧ウィンドウは空です。</span><span class="sxs-lookup"><span data-stu-id="7172f-247">The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-248">&gt;1</span><span class="sxs-lookup"><span data-stu-id="7172f-248">&gt;1</span></span></description>
+              <description><span data-ttu-id="7172f-249">あり</span><span class="sxs-lookup"><span data-stu-id="7172f-249">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-250">いいえ</span><span class="sxs-lookup"><span data-stu-id="7172f-250">No</span></span></description>
+              <description><span data-ttu-id="7172f-251">項目は、選択範囲から削除されます。<b>SelectionChange</b>が発生します。閲覧ウィンドウは変更されません。</span><span class="sxs-lookup"><span data-stu-id="7172f-251">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-252">&gt;1</span><span class="sxs-lookup"><span data-stu-id="7172f-252">&gt;1</span></span></description>
+              <description><span data-ttu-id="7172f-253">あり</span><span class="sxs-lookup"><span data-stu-id="7172f-253">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-254">はい</span><span class="sxs-lookup"><span data-stu-id="7172f-254">Yes</span></span></description>
+              <description><span data-ttu-id="7172f-255">項目は、選択範囲から削除されます。<b>SelectionChange</b>が発生します。閲覧ウィンドウは、選択範囲の次の項目または隣接する項目を表示します。</span><span class="sxs-lookup"><span data-stu-id="7172f-255">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="7172f-256">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="7172f-256">&gt;=1</span></span></description>
+              <description><span data-ttu-id="7172f-257">なし</span><span class="sxs-lookup"><span data-stu-id="7172f-257">No</span></span></description>
+              <description><span data-ttu-id="7172f-258">N/A</span><span class="sxs-lookup"><span data-stu-id="7172f-258">N/A</span></span></description>
+              <description><span data-ttu-id="7172f-259">項目は、選択範囲から削除されます。<b>SelectionChange</b>が発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-259">The item is removed from the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="7172f-260">指定された項目が現在のビューに存在しますで、ビューの<b>RemoveFromSelection</b>の呼び出しは行われませんが選択されていない場合の選択は、 <b>SelectionChange</b>イベントへの変更は発生しません。</span><span class="sxs-lookup"><span data-stu-id="7172f-260">If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="7172f-261"><b>RemoveFromSelection</b>メソッドへの引数として定期的な予定またはタスクの項目を指定するときに引数を渡す前に入手することの発生のインスタンス、定期的なアイテムを展開することによってを使用して確認、 <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />プロパティ、および<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="7172f-261">When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="7172f-262">場合、定期的なアイテムを展開して、一連の出来事を取得しない、予定またはタスクの系列を表すインスタンス変数を渡すことは、 <b>RemoveFromSelection</b> メソッドを発生したのではなく一連の動作は</span><span class="sxs-lookup"><span data-stu-id="7172f-262">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1536,38 +1047,12 @@ End Sub</code>
         <Parameter Name="SearchScope" Type="Microsoft.Office.Interop.Outlook.OlSearchScope" />
       </Parameters>
       <Docs>
-        <param name="Query">
-          <span data-ttu-id="3e246-165">検索文字列 (クイック検索でサポートされている有効なキーワードが使用可能) を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-165">A search string that can contain any valid keywords supported in Instant Search.</span>
-          </span>
-        </param>
-        <param name="SearchScope">
-          <span data-ttu-id="3e246-166">検索対象のフォルダーを基準とした範囲を指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-166">Specifies the scope in terms of folders for the search.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-167">使用して、エクスプ ローラーに表示されている現在のフォルダーに Microsoft クイック検索を実行、指定された<paramref name="Query" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-167">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-168">
-            <para>
-              <b>Explorer.Search</b>の機能は、クイック検索の [検索] ボタンに似ています。ユーザーがクイック検索のユーザー インターフェイスでクエリ文字列を入力し、検索をクリックしたかのように動作します。 ユーザー インターフェイスでクエリを実行、<b>検索</b>を呼び出すときに、検索結果を得るためのプログラムによるメカニズムはありません。クイック検索の詳細については、Outlook のヘルプで「クイック検索」を照会します</para>。
-          <para><b>検索</b>メソッドは、検索が終了するとことを確認を有効にするコールバックを提供しない</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-168">
-              <para>The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search. It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.  When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results. For more information on Instant Search, query for "Instant Search" in the Outlook Help.</para>
-              <para>The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Query"><span data-ttu-id="7172f-263">検索文字列 (クイック検索でサポートされている有効なキーワードが使用可能) を指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-263">A search string that can contain any valid keywords supported in Instant Search.</span></span></param>
+        <param name="SearchScope"><span data-ttu-id="7172f-264">検索対象のフォルダーを基準とした範囲を指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-264">Specifies the scope in terms of folders for the search.</span></span></param>
+        <summary><span data-ttu-id="7172f-265">使用して、エクスプ ローラーに表示されている現在のフォルダーに Microsoft クイック検索を実行、指定された<paramref name="Query" />。</span><span class="sxs-lookup"><span data-stu-id="7172f-265">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-266"><b>Explorer.Search</b> の機能は、クイック検索の [ 検索] ボタンに似ています。</span><span class="sxs-lookup"><span data-stu-id="7172f-266">The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search.</span></span> <span data-ttu-id="7172f-267">ユーザーがクイック検索のユーザー インターフェイスでクエリ文字列を入力し、 検索をクリックしたかのように動作します。</span><span class="sxs-lookup"><span data-stu-id="7172f-267">It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.</span></span>  <span data-ttu-id="7172f-268">ユーザー インターフェイスでクエリを実行、 <b>検索</b> を呼び出すときに、検索結果を得るためのプログラムによるメカニズムはありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-268">When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results.</span></span> <span data-ttu-id="7172f-269">クイック検索、Outlook のヘルプで「クイック検索」のクエリの詳細については。</span><span class="sxs-lookup"><span data-stu-id="7172f-269">For more information on Instant Search, query for "Instant Search" in the Outlook Help.</span></span></para>
+          <para><span data-ttu-id="7172f-p139"><b>Search</b> メソッドでは、コールバック、検索が完了したときを決定する開発者を有効にするのには提供されません。</span><span class="sxs-lookup"><span data-stu-id="7172f-p139">The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1591,32 +1076,15 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-169">アクティブなエクスプローラーの現在のビューに表示されているすべてのアイテムを選択します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-169">Selects all items that are contained in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-170">
-            <para>現在のビューでは、1 つまたは複数のグループが折りたたまれている場合、 <b>SelectAllItems</b>を呼び出すことは選択されません項目、折りたたまれたグループで。展開されたグループ内のアイテムのみを選択します</para>。
-          <para>の現在のビューが [カレンダー] ビューの場合は、すべての予定と終日のイベントを選択するビューで<b>SelectAllItems</b>を呼び出すこと。予定表ビューで<b>SelectAllItems</b>を呼び出していない項目が選択されない日毎の仕事リストにします</para>。
-          <para>、 <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> 、 <b>SelectAllItems</b>メソッドが呼び出された後にイベントが 1 回だけ発生します</para>。
-          <para>場合は、現在のビューまたは現在のフォルダーに項目が含まれていない、 <b>SelectAllItems</b>を呼び出して、選択範囲に何らかの変更につながらないし、 <b>SelectionChange</b>イベントは発生しません</para>。
-          <para><b>SelectAllItems</b>アイテムが現在のビューで編集中、または現在のビューでは、テーマ別ビューでエラーが発生します</para>。
-          <para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-170">
-              <para>If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</para>
-              <para>If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7172f-271">アクティブなエクスプローラーの現在のビューに表示されているすべてのアイテムを選択します。</span><span class="sxs-lookup"><span data-stu-id="7172f-271">Selects all items that are contained in the current view of the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-p140">現在のビューでは、1 つまたは複数のグループが折りたたまれている場合、 <b>SelectAllItems</b> を呼び出すことは選択されません項目、折りたたまれたグループで。展開されたグループ内のアイテムのみが選択されます。</span><span class="sxs-lookup"><span data-stu-id="7172f-p140">If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</span></span></para>
+          <para><span data-ttu-id="7172f-p141">現在のビューが [カレンダー] ビューの場合は、 <b>SelectAllItems</b> を呼び出すことを選択したすべての予定と終日のイベント ビューで。予定表ビューの <b>SelectAllItems</b> を呼び出すことも、日毎の仕事リスト内の項目は選択されません。</span><span class="sxs-lookup"><span data-stu-id="7172f-p141">If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</span></span></para>
+          <para><span data-ttu-id="7172f-276"><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> 、 <b>SelectAllItems</b>メソッドが呼び出された後にイベントが 1 回だけ発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-276">The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</span></span></para>
+          <para><span data-ttu-id="7172f-p142">現在のビューまたは現在のフォルダーに項目が含まれていない、 <b>SelectAllItems</b> を呼び出すことが選択範囲に何らかの変更につながらないし、 <b>SelectionChange</b> イベントは発生しません。</span><span class="sxs-lookup"><span data-stu-id="7172f-p142">If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="7172f-278">
+            <b>SelectAllItems</b> では、アイテムが現在のビューで編集されている、または現在のビューには、[テーマ別] ビューにエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="7172f-278">
+            <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1646,12 +1114,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="3e246-171">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-171">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-279">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-279">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1678,29 +1141,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-172">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />の現在のビューで選択されている 1 つまたは複数の項目で構成されるオブジェクト。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-172">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span>
-          </span>
-          <span data-ttu-id="3e246-173">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-173">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-280">返します、<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />の現在のビューで選択されている 1 つまたは複数の項目で構成されるオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="7172f-280">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span></span> <span data-ttu-id="7172f-281">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-281">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-174">
-            <para>現在のフォルダーは、ファイル システム フォルダー、または、Outlook Today、または任意のフォルダーの Web ビューが現在表示されている場合、このプロパティは空のコレクションを返します。グループ ヘッダーを選択すると、選択範囲の<b>Count</b>プロパティは 0 を返します。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-174">
-              <para>If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection. Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7172f-282">現在のフォルダーは、ファイル システム フォルダー、または、Outlook Today、または任意のフォルダーの Web ビューが現在表示されている場合、このプロパティは空のコレクションを返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-282">If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection.</span></span> <span data-ttu-id="7172f-283">グループ ヘッダーを選択すると、選択範囲の<b>Count</b>プロパティは 0 を返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-283">Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1726,42 +1170,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-175">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-175">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="3e246-176">値の取得のみ可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-176">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-284">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="7172f-284">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="7172f-285">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="7172f-285">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3e246-177">
-            <para>
-              <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="7172f-286"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="7172f-286">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="7172f-287">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="7172f-287">Both members serve the same purpose.</span></span> <span data-ttu-id="7172f-288">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="7172f-288">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-177">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1788,40 +1206,13 @@ End Sub</code>
         <Parameter Name="Visible" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="3e246-178">表示するウィンドウを指定します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-178">The pane to display.</span>
-          </span>
-        </param>
-        <param name="Visible">
-          <span data-ttu-id="3e246-179">
-            <b>True</b> ウィンドウを表示する <b>偽</b> のウィンドウを非表示にします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-179">
-              <b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3e246-180">エクスプローラー内の特定のウィンドウを表示または非表示にします。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-180">Displays or hides a specific pane in the explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3e246-181">
-            <para>
-              <b>注</b>: 使用することも、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />オブジェクトは、[ショートカット] ウィンドウを表示または非表示にします。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-181">
-              <para>
-                <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="7172f-289">表示するウィンドウを指定します。</span><span class="sxs-lookup"><span data-stu-id="7172f-289">The pane to display.</span></span></param>
+        <param name="Visible"><span data-ttu-id="7172f-290"><b>True</b> ウィンドウを表示する <b>偽</b> のウィンドウを非表示にします。</span><span class="sxs-lookup"><span data-stu-id="7172f-290"><b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span></span></param>
+        <summary><span data-ttu-id="7172f-291">エクスプローラー内の特定のウィンドウを表示または非表示にします。</span><span class="sxs-lookup"><span data-stu-id="7172f-291">Displays or hides a specific pane in the explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="7172f-292">
+            <b>注</b>: 使用することも、<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />オブジェクトは、[ショートカット] ウィンドウを表示または非表示にします。</span><span class="sxs-lookup"><span data-stu-id="7172f-292">
+            <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1850,16 +1241,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-182">(ピクセル単位) で、画面の端から、[エクスプ ローラー] ウィンドウの上端の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-182">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="3e246-183">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-183">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-293">(ピクセル単位) で、画面の端から、[エクスプ ローラー] ウィンドウの上端の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-293">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="7172f-294">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-294">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1890,12 +1272,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-184">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-184">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-295">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="7172f-295">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1926,16 +1303,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-185">ピクセル単位で指定したオブジェクトの幅を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-185">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
-          </span>
-          <span data-ttu-id="3e246-186">値の取得および設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-186">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-296">ピクセル単位で指定したオブジェクトの幅を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="7172f-296">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span></span> <span data-ttu-id="7172f-297">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-297">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1966,16 +1334,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3e246-187">内の定数をプロパティに設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />には、エクスプ ローラーまたはインスペクター ウィンドウのウィンドウ状態を指定する列挙体です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-187">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span>
-          </span>
-          <span data-ttu-id="3e246-188">値の取得と設定が可能です。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3e246-188">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7172f-298">内の定数をプロパティに設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />には、エクスプ ローラーまたはインスペクター ウィンドウのウィンドウ状態を指定する列挙体です。</span><span class="sxs-lookup"><span data-stu-id="7172f-298">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span></span> <span data-ttu-id="7172f-299">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="7172f-299">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
