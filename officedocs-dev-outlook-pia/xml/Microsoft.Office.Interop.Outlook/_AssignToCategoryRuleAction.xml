@@ -1,13 +1,5 @@
 <Type Name="_AssignToCategoryRuleAction" FullName="Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c792cfd8ebc5a986254fa2d2ce409c68091bc98" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637908" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AssignToCategoryRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5c792cfd8ebc5a986254fa2d2ce409c68091bc98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902720" /></Metadata><TypeSignature Language="C#" Value="public interface _AssignToCategoryRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AssignToCategoryRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AssignToCategoryRuleAction" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数、 <b>olRuleActionAssignToCategory</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> 、ルールによって実行される操作の種類を指定する列挙体。 値の取得のみ可能です。</summary>
+        <summary>定数、 <b>olRuleActionAssignToCategory</b>を返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> 、ルールによって実行される操作の種類を指定する列挙体。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの処理を割り当てる分類項目は、メッセージおよびメッセージを送信するルールを受信するためのルールでサポートされます。詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para> ルールの処理を割り当てる分類項目は、メッセージおよびメッセージを送信するルールを受信するためのルールでサポートされます。 詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,10 +107,9 @@
       <Docs>
         <summary>メッセージに割り当てられた分類項目を表す文字列の配列を設定します。値の取得および設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>1 つのカテゴリの 1 つの要素を含む配列、または複数の分類項目の文字列の配列を割り当てることができます。このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。</para>
-          <para>マスター分類項目] ボックスの一覧に含まれるカテゴリ名を<b>カテゴリ</b>のプロパティが含まれているかどうかを判断するのには outlook がチェックされません</para>。
-          <para /></remarks>
+        <remarks><para>1 つのカテゴリの 1 つの要素を含む配列、または複数の分類項目の文字列の配列を割り当てることができます。 このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。 </para>
+          <para>マスター カテゴリ リストにカテゴリ名を <b>カテゴリ</b> のプロパティが含まれているかどうかを判断するのには outlook をチェックしません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -146,7 +135,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,12 +166,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの処理が有効になっているかどうかを決定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの処理が有効になっているかどうかを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用してルールを保存するルールを有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールとその有効な状態が持続するようにします。 ルールは正常に保存された後にのみ有効です。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用してルールを保存するルールを有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールとその有効な状態が持続するようにします。  ルールは、正常に保存された後でなければ有効にすることはできません。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -210,10 +197,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -239,19 +224,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

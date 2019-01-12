@@ -1,13 +1,5 @@
 <Type Name="_Inspector" FullName="Microsoft.Office.Interop.Outlook._Inspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638753" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Inspector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905912" /></Metadata><TypeSignature Language="C#" Value="public interface _Inspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Inspector" />
@@ -78,7 +70,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得、 <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> 、インスペクターで選択されている 1 つまたは複数の添付ファイルで構成されるオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>取得、 <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> 、インスペクターで選択されている 1 つまたは複数の添付ファイルで構成されるオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,8 +126,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します、タイトルを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,7 +154,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,12 +241,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>インスペクターに表示されている現在の項目を表す<b>オブジェクト</b>を返します。 値の取得のみ可能です。</summary>
+        <summary>インスペクターに表示されている現在の項目を表す<b>オブジェクト</b>を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>現在開いているアイテムがない場合は、エラー メッセージが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>現在開いているアイテムがない場合は、エラー メッセージが表示されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -280,13 +269,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
+        <param name="Modal"><b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
         <summary>新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</summary>
-        <remarks>
-          <para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの<b>表示</b>方法がサポートされています。エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです</para>。
-          <para>場合は、Outlook オブジェクト モデルを使用して、「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を開こうすると、C または C++ プログラミング言語で、E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b>メソッドを使用して、「安全でない」ファイル システム オブジェクトを開くことができます</para>。
-          <para /></remarks>
+        <remarks><para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。 エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</para>
+          <para>Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EditorType">
@@ -312,12 +299,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEditorType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" />エディターの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" />エディターの種類を示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Microsoft Office Outlook 2007 では、以降、 <b>editortype プロパティ</b>のプロパティは常に olEditorWord を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>Microsoft Office Outlook 2007 では、以降、 <b>editortype プロパティ</b>のプロパティは常に olEditorWord を返します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -346,7 +331,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>「インスペクター」ウィンドウの高さ (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>「インスペクター」ウィンドウの高さ (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -376,10 +361,8 @@
       <Docs>
         <param name="PageName">非表示にするフォーム ページの表示名、またはフォーム領域の内部名。</param>
         <summary>フォーム ページまたはインスペクターのフォーム領域を非表示にします。</summary>
-        <remarks>
-          <para>指定してフォーム領域を非表示にする<b>HideFormRegion</b>を使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の場合は、隣接するフォーム領域では、フォーム領域または個別フォーム領域のプロパティです。のみアドインがフォーム領域を実装するフォーム領域を隠すことができます。</para>
-          <para />
-        </remarks>
+        <remarks><para>指定してフォーム領域を非表示にする<b>HideFormRegion</b>を使用することができます、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の場合は、隣接するフォーム領域では、フォーム領域または個別フォーム領域のプロパティです。 フォーム領域を実装するアドインのみが、フォーム領域を非表示にすることができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLEditor">
@@ -435,8 +418,7 @@
       <Parameters />
       <Docs>
         <summary>Outlook のインスペクターに関連付けられているメール メッセージが表示されるかどうかを決定する<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />または Microsoft Word でします。</summary>
-        <returns>
-          <b>True の</b> 場合、Microsoft では、メール メッセージが表示されます (Word を電子メール エディターでは、使用中) の場合は、Word のです。それ以外の場合、 <b>false を指定</b> します。</returns>
+        <returns><b>True の</b> 場合、Microsoft では、メール メッセージが表示されます (Word を電子メール エディターでは、使用中) の場合は、Word のです。それ以外の場合、 <b>false を指定</b> します。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -466,7 +448,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>画面の端からのインスペクター ウィンドウの左端の位置 (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>画面の端からのインスペクター ウィンドウの左端の位置 (ピクセル単位で) を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -494,12 +476,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Pages" /> 、インスペクター内の項目に対するすべてのページを表すコレクション。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Pages" /> 、インスペクター内の項目に対するすべてのページを表すコレクション。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>メイン ページで最大 5 つのカスタマイズ可能なページを使って取得でき、<see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>メイン ページで最大 5 つのカスタマイズ可能なページを使って取得でき、<see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />メソッドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewFormRegion">
@@ -525,10 +505,9 @@
       <Docs>
         <summary>インスペクターに新しいフォーム領域の新しいページをデザイン モードで開きます。</summary>
         <returns>インスペクター内のフォーム領域を表示するページを表すオブジェクト。</returns>
-        <remarks>
-          <para>インスペクターがデザイン モードでない場合<b>NewFormRegion</b>は、デザイン モードにします</para>。
-          <para>のみ、このメソッドはデザイン モードでフォーム領域の新しいページを開きます。このメソッドを実行時にフォーム領域を作成する必要はありません</para>。
-          <para /></remarks>
+        <remarks><para>インスペクターがデザイン モードでない場合 <b>NewFormRegion</b> は、デザイン モードにします。</para>
+          <para>このメソッドは、フォーム領域のページをデザイン モードで開くだけです。このメソッドは、実行時にフォーム領域を作成するためのものではありません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenFormRegion">
@@ -557,10 +536,8 @@
         <param name="Path">インスペクターに開かれるフォーム領域の Outlook Form Storage (.OFS) ファイルへの完全なローカルのファイル パスを指定します。</param>
         <summary>インスペクターに、指定されたフォーム領域のページをデザイン モードで開きます。</summary>
         <returns>インスペクター内のフォーム領域を表示するページを表すオブジェクト。</returns>
-        <remarks>
-          <para>インスペクターがデザイン モードでない場合<b>OpenFormRegion</b>は、デザイン モードにします。</para>
-          <para />
-        </remarks>
+        <remarks><para>インスペクターがデザイン モードでない場合 <b>OpenFormRegion</b> は、デザイン モードにします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -618,11 +595,8 @@
         <param name="Page">インスペクター内のフォーム領域を表示するページを指定します。</param>
         <param name="FileName">フォーム領域の保存先となる Outlook Form Storage (.OFS) ファイルへの完全なローカルのファイル パスを指定します。</param>
         <summary>インスペクターにデザイン モードで表示された指定されたページを、指定されたファイルに保存します。</summary>
-        <remarks>
-          <para>
-            <b>SaveFormRegion</b>をフォーム領域を保存するためには、フォーム領域をインスペクターにデザイン モードでロードがある必要があります。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveFormRegion</b> をフォーム領域を保存するためには、フォーム領域をインスペクターにデザイン モードでロードがある必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -648,19 +622,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -690,10 +661,10 @@
         <param name="Control">プロパティに連結されるコントロールを指定します。</param>
         <param name="PropertyName">コントロールに連結されるプロパティの名前を指定します。</param>
         <summary>インスペクター内のコントロールの組み込みプロパティまたはカスタム プロパティをバインドします。</summary>
-        <remarks>
-          <para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。必要がありますプロパティを参照する、文字列名、たとえば、<b>件名</b>、および名前空間ではなく、http://schemas.microsoft.com/mapi/proptag/0x0037001Eです</para>。
-          <para>、<paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。<b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ</para>。
-          <para>は myPage.Controls("bar") のコードの次の行を使用することもできます。ItemProperty サブタイトルのプロパティをコントロールにバインドするのには「件名」を = します。ただし、信頼されていないコード<b>する</b>などのオブジェクト モデル セキュリティ ガードによってプロパティが保護されているし、クライアント コンピューターは、Microsoft Office Outlook 2007 またはそれ以降が実行されている場合にセキュリティの警告がトリガーされますこれを使用していないこと、ウイルス対策ソフトウェアを適切に設定するには。<b>SetControlItemProperty</b>メソッドを使用すると、信頼されたアプリケーションのセキュリティの警告メッセージを回避します。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Outlook オブジェクト モデルにおけるセキュリティ動作</a>を参照してください</para><para /></remarks>
+        <remarks><para>このメソッドを使用すると、明示的な組み込みプロパティまたはカスタム プロパティをコントロールにバインドします。文字列名、たとえば、 <b>件名</b> 、および、http://schemas.microsoft.com/mapi/proptag/0x0037001E などの名前空間ではなく、プロパティを参照する必要があります。</para>
+          <para><paramref name="PropertyName" />パラメーターが、大文字小文字を区別することはありません。 <b>SetControlItemProperty</b>の<b>[得意先コード]</b>、 <b>[得意先コード]</b>の場合と同様に、引数を解釈、組み込みを指定したコントロールをバインドなどの<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />プロパティ。</para>
+          <para>コード myPage.Controls("bar") の次の行を使用することもできます。ItemProperty サブタイトルのプロパティをコントロールにバインドするのには「件名」を = します。 ただし <b>する</b> などのオブジェクト モデル セキュリティ ガードによってプロパティが保護されていると、クライアント コンピューターは、2007年以降の Microsoft Office Outlook を実行しているが、適切に設定されていない場合にこれを使用して、信頼されていないコードがセキュリティの警告をトリガーするウイルス対策ソフトウェアをします。 <b>SetControlItemProperty</b> メソッドを使用すると、信頼されたアプリケーションのセキュリティの警告メッセージを回避します。  詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Outlook オブジェクト モデルにおけるセキュリティ動作</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCurrentFormPage">
@@ -721,11 +692,8 @@
       <Docs>
         <param name="PageName">フォーム ページの表示名またはフォーム領域の内部名です。</param>
         <summary>インスペクターに指定したフォーム ページまたはフォーム領域を表示します。</summary>
-        <remarks>
-          <para>
-            <b>SetCurrentFormPage</b>を使用するには指定することによって、フォーム領域を表示するのには、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />フォーム領域の場合、フォーム領域のプロパティ、独立した、置換、またはすべて置換フォーム領域です。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SetCurrentFormPage</b>を使用するには指定することによって、フォーム領域を表示するのには、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />フォーム領域の場合、フォーム領域のプロパティ、独立した、置換、またはすべて置換フォーム領域です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSchedulingStartTime">
@@ -753,10 +721,8 @@
       <Docs>
         <param name="Start">インスペクターの [ スケジュール アシスタント] タブに会議の出席者の空き時間を表示する時間範囲の開始時刻を指定します。</param>
         <summary>インスペクターの [スケジュール アシスタント] タブで、空き時間グリッドに会議アイテムの開始時刻を設定します。</summary>
-        <remarks>
-          <para>指定されたオブジェクト、 <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> 、親<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトである必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />または<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />。インスペクターで、[スケジュール アシスタント] タブを表示する必要があります、それ以外の場合 Microsoft Outlook でエラーが発生します。Outlook は、その項目の種類の [スケジュール アシスタント] タブを表示できない場合次のエラーが表示されます: スケジュールの開始時刻は、スケジュール アシスタント会議アイテムに表示される場合にのみ設定できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>指定されたオブジェクト、 <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> 、親<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />オブジェクトである必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />または<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />。 インスペクターで、[ スケジュール アシスタント] タブを表示する必要があります、それ以外の場合、 Microsoft Outlookエラーが発生します。 Outlook は、その項目の種類の [ スケジュール アシスタント] タブを表示できない場合次のエラーが表示されます: スケジュールの開始時刻は、スケジュール アシスタント会議アイテムに表示される場合にのみ設定できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFormPage">
@@ -784,10 +750,8 @@
       <Docs>
         <param name="PageName">表示するフォーム ページの表示名、またはフォーム領域の内部名。</param>
         <summary>によって指定されたページまたはフォーム領域を表示するをクリックすると、インスペクターの [Microsoft Office Fluent リボンの表示] ボタンが表示されます<paramref name="PageName" />。</summary>
-        <remarks>
-          <para>フォーム領域の場合は、 <b>ShowFormPage</b>を使用を指定してボタンを表示するのには、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の場合は、隣接するフォーム領域では、フォーム領域または個別フォーム領域のプロパティです。のみアドインがフォーム領域を実装することができます<b>ShowFormRegion</b>ボタンを表示するのに使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>フォーム領域の場合は、 <b>ShowFormPage</b>を使用を指定してボタンを表示するのには、<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />の場合は、隣接するフォーム領域では、フォーム領域または個別フォーム領域のプロパティです。 フォーム領域を実装するアドインのみが、 <b>ShowFormRegion</b> を使用してこのボタンを表示できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -816,7 +780,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>(ピクセル単位) で、画面の端からのインスペクター ウィンドウの上端の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>(ピクセル単位) で、画面の端からのインスペクター ウィンドウの上端の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -847,7 +811,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ピクセル単位で指定したオブジェクトの幅を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>ピクセル単位で指定したオブジェクトの幅を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -878,7 +842,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数をプロパティに設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />には、エクスプ ローラーまたはインスペクター ウィンドウのウィンドウ状態を指定する列挙体です。 値の取得および設定が可能です。</summary>
+        <summary>内の定数をプロパティに設定を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />には、エクスプ ローラーまたはインスペクター ウィンドウのウィンドウ状態を指定する列挙体です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -908,9 +872,7 @@
       <Docs>
         <summary>表示されているメッセージの Word ドキュメント オブジェクト モデルを取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>WordEditor</b>プロパティは有効な場合<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" />が<b>True</b>を返すと<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />が<b>olEditorWord</b>。返された<b>WordDocument</b>オブジェクトには、次のメンバーを除く、Word オブジェクト モデルの多くへのアクセスが用意されています: </para>
+        <remarks><para><b>WordEditor</b>プロパティは有効な場合<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" />が<b>True</b>を返すと<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />が<b>olEditorWord</b>。 返された<b>WordDocument</b>オブジェクトは、次のメンバーを除く、Word オブジェクト モデルの多くへのアクセスを提供します。 </para>
           <list type="bullet">
             <item>
               <para>
@@ -948,8 +910,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

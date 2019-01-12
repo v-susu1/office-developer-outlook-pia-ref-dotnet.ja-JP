@@ -1,13 +1,5 @@
 <Type Name="ApplicationEvents_11_ReminderEventHandler" FullName="Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9b817bedefc9050c5f7a524163d18787eb46e05" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639024" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ApplicationEvents_11_ReminderEventHandler(object Item);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98ff788f7362e746d8a8dacf8408e05ba13dbe16" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905772" /></Metadata><TypeSignature Language="C#" Value="public delegate void ApplicationEvents_11_ReminderEventHandler(object Item);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents_11_ReminderEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents_11_ReminderEventHandler(Item As Object)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Item">
-      <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />アラームに関連付けられています。 アラームに関連付けられている予定は定期的な予定の場合は場合、<paramref name="Item" />は、特定の回のアラーム、マスターの予定を表示する予定です。</param>
+    <param name="Item"><see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />、または<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />アラームに関連付けられています。 アラームに関連付けられている予定は定期的な予定の場合は場合、<paramref name="Item" />は、特定の回のアラーム、マスターの予定を表示する予定です。</param>
     <summary>これは、対応するオブジェクトのイベントのデリゲートです。イベントのコールバック メソッドを実装した後、このデリゲートを使用してコールバック メソッドをイベントに接続します。複数のバージョンのイベント インターフェイスがある場合、このデリゲートは Outlook の指定バージョンのイベントのコールバック メソッドを接続します。</summary>
     <remarks>To be added.</remarks>
   </Docs>

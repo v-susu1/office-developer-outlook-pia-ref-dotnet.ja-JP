@@ -1,13 +1,5 @@
 <Type Name="FormDescription" FullName="Microsoft.Office.Interop.Outlook.FormDescription">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="474138c677b1667c78f8bf4160d0107458af0554" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638557" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormDescription" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1625d2c4b84142438b141ea8a9cc465c8ebceaf7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904470" /></Metadata><TypeSignature Language="C#" Value="public interface FormDescription" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormDescription" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormDescription" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormDescription" />
@@ -27,12 +19,11 @@
   </Attributes>
   <Docs>
     <summary>このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</summary>
-    <remarks>
-      <para>Outlook フォームの一般的なプロパティを表します</para>。
-      <para>Outlook フォームのプロパティはデザイン時にフォームの [プロパティ] ページに表示されます</para>。
-      <para>をデザイン時にプロパティ ページを参照してください、Outlook アイテムを開き、ツール] メニューの [フォーム] を選択、[このフォームのデザイン] をクリックしておよびアイテムのウィンドウの [プロパティ] タブをクリックします</para>。
-      <para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" /> 、Outlook アイテムに関連する<b>FormDescription</b>オブジェクトを取得するプロパティ</para>。
-      <para /></remarks>
+    <remarks><para>Outlook フォームの一般的なプロパティを表します。</para>
+      <para>Outlook フォームのプロパティは、フォームのデザイン時に、[ プロパティ] ページに表示されます。</para>
+      <para>デザイン時に [プロパティ] ページを表示するには、Outlook アイテムを開き、[ツール] メニューの [フォーム] をポイントします。次に [このフォームのデザイン] をクリックし、そのアイテムのウィンドウの [プロパティ] タブをクリックします。</para>
+      <para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" /> 、Outlook アイテムに関連する<b>FormDescription</b>オブジェクトを取得するプロパティです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -58,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -89,8 +80,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するフォームの説明に割り当てられているカテゴリを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するフォームの説明に割り当てられているカテゴリを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,8 +111,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定するフォームの説明に割り当てられているサブカテゴリを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するフォームの説明に割り当てられているサブカテゴリを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -150,7 +139,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,8 +170,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定フォームの説明に割り当てられているコメントのテキストを表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定フォームの説明に割り当てられているコメントのテキストを表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,8 +201,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定またはユーザー設定のフォームについては、この問い合わせ先担当者の名前を表す<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />オブジェクトです。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定またはユーザー設定のフォームについては、この問い合わせ先担当者の名前を表す<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />オブジェクトです。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -245,13 +232,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、フォームの選択] ダイアログ ボックスに表示されるフォームの名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、フォームの選択] ダイアログ ボックスに表示されるフォームの名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>両方の場合、 <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /><b>FormDescription.DisplayName</b>プロパティは空とは、いずれかの設定ともう一方が設定されます。いずれかが設定されて場合、他の設定と値が変更されません。</para>
-          <para />
-        </remarks>
+        <remarks><para>両方の場合、 <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> <b>FormDescription.DisplayName</b>プロパティは空とは、いずれかの設定ともう一方が設定されます。 いずれかが設定されて場合、他の設定と値が変更されません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Hidden">
@@ -280,12 +264,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>示す<b>場合</b>に発生する、ユーザー設定フォームを非表示にするには<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。  値の取得および設定が可能です。</summary>
+        <summary>示す<b>場合</b>に発生する、ユーザー設定フォームを非表示にするには<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>カスタムのフォームでは、メニューまたは [フォームの選択] ダイアログ ボックスは表示されず、別のユーザー設定フォームからの返信フォームとして指定されて場合にのみ使用されます。既定値は、 <b>false を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>カスタムのフォームでは、メニューまたは [フォームの選択] ダイアログ ボックスは表示されず、別のユーザー設定フォームからの返信フォームとして指定されて場合にのみ使用されます。既定値は、 <b>false を指定</b> します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Icon">
@@ -314,8 +296,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、フォームに表示されるアイコンのファイル名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、フォームに表示されるアイコンのファイル名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,9 +327,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>True を設定するフォームを変更できない場合は、</b>
-          <b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得および設定が可能です。</summary>
+        <summary><b>True を設定するフォームを変更できない場合は、</b> <b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -376,13 +355,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返しますのメッセージ クラスを表す、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />オブジェクトです。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返しますのメッセージ クラスを表す、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />オブジェクトです。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagMessageClass</b>に対応します。<b>MessageClass</b>プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MiniIcon">
@@ -411,8 +387,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、フォームに表示される小さいアイコンのファイル名を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、フォームに表示される小さいアイコンのファイル名を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -443,13 +418,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、フォームの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、フォームの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>名前</b>は、フォームのキャプションをもできます。使用するには、このプロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>名前</b> は、フォームのキャプションをもできます。 使用するには、このプロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />メソッドです。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Number">
@@ -478,7 +450,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したフォームの番号に対応する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>指定したフォームの番号に対応する<b>文字列</b>(C# では<b>文字列</b>) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -509,9 +481,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>True を設定する場合は、一度使用した後、フォームは破棄され</b>
-          <b>ブール型</b>(C# では<b>bool</b> ) の値を返します (1 回限り)、および<b>False</b>場合は、フォームは、ユーザー設定フォームとして保持されます。 値の取得および設定が可能です。</summary>
+        <summary><b>True を設定する場合は、一度使用した後、フォームは破棄され</b><b>ブール型</b>(C# では<b>bool</b> ) の値を返します (1 回限り)、および<b>False</b>場合は、フォームは、ユーザー設定フォームとして保持されます。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -607,11 +577,10 @@
         <param name="Registry">フォーム クラスを指定します。</param>
         <param name="Folder">返す式です、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトです。 フォルダー フォーム レジストリでのみ使用されます。 フォルダー オブジェクトは、フォームがアクセスする必要があるからです。</param>
         <summary>定義を保存、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定されたフォーム レジストリ (ライブラリ) 内のオブジェクト。</summary>
-        <remarks>
-          <para>
-            <b>注</b>: <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> 、 <b>PublishForm</b>メソッドを使用する前にプロパティを設定する必要があります</para>。
-          <para>フォームは、次の 3 つのクラスの 1 つとして登録されている: フォルダー、組織、または個人。フォルダー フォーム レジストリは、パブリックまたはプライベートかどうか、その特定のフォルダーからアクセスできるフォームのセットを保持します。組織フォーム レジストリには、企業全体で共有され、全員がアクセスできるフォームが保持されます。個人用フォーム レジストリは、現在のストア ユーザーだけがアクセス可能なフォームを保持します</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>注</b>: <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> 、 <b>PublishForm</b>メソッドを使用する前にプロパティを設定する必要があります。</para>
+          <para>フォームは、フォルダー、組織、個人用の 3 つのクラスのいずれかとして登録されます。フォルダー フォーム レジストリには、パブリック フォルダーまたは個人用のフォルダーからアクセスできるフォーム セットが保持されます。組織フォーム レジストリは、企業全体で共有され、全員がアクセスできるフォームが保持されます。個人用フォーム レジストリには、現在のストア ユーザーだけがアクセスできるフォームが保持されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ScriptText">
@@ -637,8 +606,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すすべての VBScript コードでは、フォームのスクリプト エディターが含まれています。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すすべての VBScript コードでは、フォームのスクリプト エディターが含まれています。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -666,19 +634,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Template">
@@ -707,13 +672,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、フォーム テンプレートの名前を示します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、フォーム テンプレートの名前を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、Microsoft Office の Word を参照します。テンプレート ファイルでは、ドット (.) と、フォームの該当する場合は<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、Microsoft Office の Word を参照します。テンプレート ファイルでは、ドット (.) と、フォームの該当する場合は<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>true を指定</b>します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseWordMail">
@@ -742,8 +704,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) を示す<b>場合は True</b>フォームの既定のエディターとして Microsoft Office Word を使用するを返します。 値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) を示す<b>場合は True</b>フォームの既定のエディターとして Microsoft Office Word を使用するを返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -774,8 +735,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、バージョンの数を示します。 値の取得と設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、バージョンの数を示します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

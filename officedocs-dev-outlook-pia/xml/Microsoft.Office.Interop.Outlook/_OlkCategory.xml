@@ -1,13 +1,5 @@
 <Type Name="_OlkCategory" FullName="Microsoft.Office.Interop.Outlook._OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638752" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCategory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904155" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCategory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCategory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCategory" />
@@ -56,13 +48,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの既定値は<b>True</b>です</para>。
-          <para>内容を展開しより多くの領域が必要な場合を除き、このコントロールに 1 つの行と仮定します。 このような場合は、コントロールが拡大する内容を表示し、領域の残りのフォームの内容を下に移動します</para>。
-          <para /></remarks>
+        <remarks><para>  このプロパティの既定値は、 <b>true を指定</b> します。</para>
+          <para>このコントロールは 1 行を想定しています。内容が大きくなりさらにスペースが必要になった場合、コントロールは内容を表示するため拡大し、残りのフォーム内容は下に移動します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -94,12 +84,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。0x8000000F、「ボタンの絵」は、このプロパティ既定値です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 0x8000000F、「ボタンの絵」は、このプロパティ既定値です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -128,12 +116,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />の定数を透明と不透明の間でコントロールの背景のスタイルを変更します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olBackStyleOpaque</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olBackStyleOpaque</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -162,13 +148,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -200,12 +183,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -236,10 +217,8 @@
       <Docs>
         <summary>このコントロールのマウス カーソルのカスタム画像を表す <b>StdPicture</b> を設定または返します。読み取り/書き込み。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -268,12 +247,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

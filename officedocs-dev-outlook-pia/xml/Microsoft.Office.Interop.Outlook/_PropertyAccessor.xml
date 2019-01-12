@@ -1,13 +1,5 @@
 <Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637804" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906213" /></Metadata><TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
   <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親アプリケーション (Outlook) を表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,11 +76,8 @@
         <param name="Value">変換するバイト配列を指定します。</param>
         <summary>指定されたバイトの配列に変換する<paramref name="Value" /><b>の文字列</b>(C# では<b>文字列</b>) にします。</summary>
         <returns>16 進<b>文字列</b>(C# では<b>文字列</b>) を変換後の値を表します。</returns>
-        <remarks>
-          <para>
-            <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -114,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />のクラスを示す列挙値の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,10 +134,8 @@
         <param name="SchemaNames">オブジェクトの親オブジェクトを削除するのにはプロパティの名前を格納している配列の<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 これらのプロパティは、名前空間によって参照されます。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</param>
         <summary>配列で指定されたプロパティを削除<paramref name="SchemaNames" />。</summary>
         <returns>操作が成功するか、エラーが発生した場合は、 <b>Err</b>オブジェクトの配列の場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の)<b>オブジェクト</b>。 戻り値が配列の場合は、この配列のサイズは SchemaNames配列と同じです。 配列内の <b>Err</b> 値は、エラーの結果、 SchemaNamesパラメーターに対応するプロパティを削除するのにマップされます。</returns>
-        <remarks>
-          <para>呼び出し元のプロパティを削除する権限が必要です。<b>DeleteProperties</b>メソッドは、存在するカスタム プロパティのみを削除します。任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>呼び出し元のプロパティを削除する権限が必要です。 <b>DeleteProperties</b> メソッドは、存在するカスタム プロパティのみを削除します。 任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。 カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteProperty">
@@ -176,10 +163,8 @@
       <Docs>
         <param name="SchemaName">オブジェクトの親オブジェクトを削除するのにはプロパティの名前、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 プロパティは名前空間によって参照されます。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</param>
         <summary>指定されたプロパティを削除<paramref name="SchemaName" />。</summary>
-        <remarks>
-          <para>呼び出し元のプロパティを削除する権限が必要です。<b>DeleteProperty</b>メソッドは、カスタム プロパティのみを削除します。任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>呼び出し元のプロパティを削除する権限が必要です。 <b>DeleteProperty</b>メソッドは、カスタム プロパティのみを削除します。任意の Outlook の組み込みプロパティまたは任意の MAPI プロパティは削除されません。 カスタム プロパティは削除されません、<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -207,13 +192,10 @@
       <Docs>
         <param name="SchemaNames">値を取得するプロパティの名前が含まれる配列を指定します。 これらのプロパティは名前空間で参照されます。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</param>
         <summary>1 次元の配列で指定されたプロパティの値を取得する<paramref name="SchemaNames" />。</summary>
-        <returns>パラメーターで指定されたプロパティの値の配列を表す<b>オブジェクト</b><paramref name="SchemaNames" />。 返される配列内の要素の数の要素の数に等しい、<paramref name="SchemaNames" />の配列です。  特定のプロパティを取得するためにエラーが発生する場合は、 <b>Err</b> の値に表示されます、返される配列の対応する位置。</returns>
-        <remarks>
-          <para>
-            <b>GetProperties</b>によって返される配列は、要求されたプロパティの種類に応じて、さまざまな種類の要素を含めることができます。<b>GetProperties</b>によって返される配列要素の型は、基になるプロパティの型と同じになります。<b>PT_OBJECT</b>などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
-          <para>、 <b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <returns>パラメーターで指定されたプロパティの値の配列を表す<b>オブジェクト</b> <paramref name="SchemaNames" />。 返される配列内の要素の数の要素の数に等しい、<paramref name="SchemaNames" />の配列です。  特定のプロパティを取得するためにエラーが発生する場合は、 <b>Err</b> の値に表示されます、返される配列の対応する位置。</returns>
+        <remarks><para><b>GetProperties</b> によって返される配列は、要求されたプロパティの種類に応じて、さまざまな種類の要素を含めることができます。 <b>GetProperties</b> によって返される配列要素の型は、基になるプロパティの型と同じになります。 <b>PT_OBJECT</b> などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。 生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。 </para>
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperty">
@@ -241,13 +223,10 @@
       <Docs>
         <param name="SchemaName">値を返すプロパティの名前。 プロパティは名前空間によって参照されます。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</param>
         <summary>指定されたプロパティの値を表す<b>オブジェクト</b>を返します。 <paramref name="SchemaName" />。</summary>
-        <returns>
-          <b>オブジェクト</b>の値で指定されている要求されたプロパティの値を表す<paramref name="SchemaName" />。</returns>
-        <remarks>
-          <para>戻り値の型は、基になるプロパティの型と同じになります。<b>PT_OBJECT</b>などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
-          <para>、 <b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <returns><b>オブジェクト</b>の値で指定されている要求されたプロパティの値を表す<paramref name="SchemaName" />。</returns>
+        <remarks><para>戻り値の型は、基になるプロパティの型と同じになります。 <b>PT_OBJECT</b> などの生のプロパティの特定の種類はサポートされていませんし、エラーが発生します。 生のプロパティのデータ型の変換を必要とする場合など、文字列に<b>PT_BINARY</b>から、またはローカル時刻では、 <b>PT_SYSTIME</b>から、ヘルパー メソッドを使用<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />と<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。 </para>
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの取得の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -276,11 +255,8 @@
         <param name="Value">現地時刻から UTC に変換する日時の値。</param>
         <summary>指定された日時の値を変換する<paramref name="Value" />を世界協定時刻 (UTC) 形式のローカル時刻の形式から。</summary>
         <returns>日時の値を表す<paramref name="Value" />後、現地時刻から UTC に変換します。</returns>
-        <remarks>
-          <para>
-            <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -306,7 +282,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>親オブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -334,19 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。  値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティと、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />を取得するメソッドは同じ意味で使用できます、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティと、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />を取得するメソッドは同じ意味で使用できます、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperties">
@@ -377,17 +350,35 @@
         <param name="Values">SchemaNames パラメーターで指定したプロパティに対して設定する値の配列を指定します。</param>
         <summary>配列で指定されたプロパティを設定する<paramref name="SchemaNames" />の配列で指定された値を<paramref name="Values" />。</summary>
         <returns>操作が成功した場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) C# の)<b>オブジェクト</b>。 任意のプロパティを設定する前にエラーがある場合はたとえば、  SchemaNames配列内の要素の数と一致しません、  Values配列の、 <b>Err</b> の値が返されます。 プロパティの設定中にエラーがある場合は、同じ SchemaNames 配列の配列の要素の数と、 <b>Err</b>オブジェクトの配列を返します。 配列内の <b>Err</b> 値は、 SchemaNamesパラメーターに対応するプロパティの設定のエラーの結果にマップされます。</returns>
-        <remarks>
-          <para>プロパティが存在しない場合、および<paramref name="SchemaNames" />要素には有効なプロパティの指定子が含まれている場合、 <b>SetProperties</b>はプロパティを作成しで指定された値を持つプロパティが割り当てられます<paramref name="Values" />。プロパティの型が渡される要素の種類になります<paramref name="Values" />。プロパティが存在する場合、 <b>SetProperties</b>はプロパティで指定された値を割り当てます<paramref name="Values" />です</para>。
-          <para><b>PropertyAccessor</b>を使用して作成されたカスタム プロパティがカスタム ビューでサポートされていないことをメモします。アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです</para>。
-          <para>場合の親オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />明示的なサポートにオブジェクトを<b>保存</b>するの明示的な<b>Save</b>操作では、[プロパティを保存するメソッドの呼び出しです。オブジェクトがサポートしていない場合、明示的な<b>Save</b>操作では、[プロパティが<b>SetProperties</b>が呼び出されたときにオブジェクトに保存されます。</para><para>は、十分注意を使用して、すべての例外が正しく処理されることを確認します。条件の設定のプロパティが失敗した場合が含まれます:</para><list type="bullet"><item><para>プロパティが読み取り専用には、いくつかの Outlook と MAPI プロパティは読み取り専用</para></item>。
-            <item><para>指定した名前空間によって参照されるプロパティが見つかりません</para></item>。
-            <item><para>プロパティが無効な形式で指定されており、解析できません</para></item>。
-            <item><para>プロパティが存在しないと作成できません</para></item>。
-            <item><para>プロパティが存在しますが、誤った型の値が渡されます</para></item>。
-            <item><para>クライアントがオフラインであるために、プロパティを開くことができません</para></item>。
-            <item><para>プロパティの作成の<b>Add</b>メソッドを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /><b>SetProperties</b>の代わりに、オブジェクトまたは<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /><b>PropertyAccessor</b>オブジェクトのメソッドです</para></item></list>。
-          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para><para /></remarks>
+        <remarks><para>プロパティが存在しない場合、および<paramref name="SchemaNames" />要素には有効なプロパティの指定子が含まれている場合、 <b>SetProperties</b>はプロパティを作成しで指定された値を持つプロパティが割り当てられます<paramref name="Values" />。 プロパティの型が渡される要素の種類になります<paramref name="Values" />。 プロパティが存在する場合、 <b>SetProperties</b>はプロパティで指定された値を割り当てます<paramref name="Values" />。</para>
+          <para><b>PropertyAccessor</b> を使用して作成されたカスタム プロパティは、ユーザー設定のビューに表示されません。 アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです。</para>
+          <para>場合の親オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />明示的なサポートにオブジェクトを<b>保存</b>するの明示的な<b>Save</b>操作では、[プロパティを保存するメソッドの呼び出しです。 オブジェクトがサポートしていない場合、明示的な <b>Save</b> 操作では、[プロパティが <b>SetProperties</b> が呼び出されたときにオブジェクトに保存されます。 </para>
+          <para>すべての例外が正しく処理されるように十分注意してください。プロパティの値の設定が失敗するのは、次のような場合です。</para>
+          <list type="bullet">
+            <item>
+              <para>プロパティが読み取り専用の場合。Outlook や MAPI の一部のプロパティは、値の取得のみ可能です。</para>
+            </item>
+            <item>
+              <para>指定した名前空間で参照されるプロパティが見つからない場合。</para>
+            </item>
+            <item>
+              <para>プロパティが無効な形式で指定されており、解析できない場合。</para>
+            </item>
+            <item>
+              <para>プロパティが存在せず、作成もできない場合。</para>
+            </item>
+            <item>
+              <para>プロパティは存在するが、誤った種類の値を渡された場合。</para>
+            </item>
+            <item>
+              <para>クライアントがオフラインでプロパティを開けない場合。</para>
+            </item>
+            <item>
+              <para><b>Add</b>メソッドを使用してプロパティの作成、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。 使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> <b>SetProperties</b>の代わりに、オブジェクトまたは<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> <b>PropertyAccessor</b>オブジェクトのメソッドです。</para>
+            </item>
+          </list>
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperty">
@@ -417,17 +408,35 @@
         <param name="SchemaName">値を設定するプロパティの名前で指定された<paramref name="Value" />。 プロパティは名前空間によって参照されます。 詳細については、 <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Namespace でプロパティを参照する</a>を参照してください。</param>
         <param name="Value">値で指定されたプロパティを設定するのには<paramref name="SchemaName" />です。</param>
         <summary>指定されたプロパティの設定<paramref name="SchemaName" />によって指定された値を<paramref name="Value" />。</summary>
-        <remarks>
-          <para>プロパティが存在しない場合、および<paramref name="SchemaName" />が含まれている有効なプロパティの指定子では、 <b>SetProperty</b>はプロパティを作成しで指定された値が割り当てられます<paramref name="Value" />。プロパティが存在する場合、<paramref name="SchemaName" />が正しく、 <b>SetProperty</b>によって指定された値をプロパティに代入し、<paramref name="Value" />です</para>。
-          <para><b>PropertyAccessor</b>を使用して作成されたカスタム プロパティがカスタム ビューでサポートされていないことをメモします。アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです</para>。
-          <para><b>PropertyAccessor</b>の親オブジェクトが明示的なサポートしている場合にオブジェクトを<b>保存</b>するの明示的な<b>Save</b>操作では、[プロパティを保存するメソッドの呼び出しです。オブジェクトがサポートしていない場合、明示的な<b>Save</b>操作では、[プロパティが<b>SetProperties</b>が呼び出されたときにオブジェクトに保存されます。</para><para>は、十分注意を使用して、すべての例外が正しく処理されることを確認します。条件の設定のプロパティが失敗した場合が含まれます:</para><list type="bullet"><item><para>プロパティが読み取り専用には、いくつかの Outlook と MAPI プロパティは読み取り専用</para></item>。
-            <item><para>指定した名前空間によって参照されるプロパティが見つかりません</para></item>。
-            <item><para>プロパティが無効な形式で指定されており、解析できません</para></item>。
-            <item><para>プロパティが存在しないと作成できません</para></item>。
-            <item><para>プロパティが存在しますが、誤った型の値が渡されます</para></item>。
-            <item><para>クライアントがオフラインであるために、プロパティを開くことができません</para></item>。
-            <item><para>プロパティの作成の<b>Add</b>メソッドを使用して、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />オブジェクトの代わりに、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<b>PropertyAccessor</b>オブジェクトの<b>SetProperty</b>メソッド</para></item></list>。
-          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定の詳細については<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para><para /></remarks>
+        <remarks><para>プロパティが存在しない場合、および<paramref name="SchemaName" />が含まれている有効なプロパティの指定子では、 <b>SetProperty</b>はプロパティを作成しで指定された値が割り当てられます<paramref name="Value" />。 プロパティが存在する場合、<paramref name="SchemaName" />が正しく、 <b>SetProperty</b>によって指定された値をプロパティに代入し、 <paramref name="Value" />。</para>
+          <para><b>PropertyAccessor</b> を使用して作成されたカスタム プロパティは、ユーザー設定のビューに表示されません。 アイテムのカスタム プロパティを表示する場合を使用してプロパティを作成、<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />メソッドです。</para>
+          <para><b>PropertyAccessor</b> の親オブジェクトが明示的なサポートしている場合にオブジェクトを <b>保存</b> するの明示的な <b>Save</b> 操作では、[プロパティを保存するメソッドの呼び出しです。オブジェクトがサポートしていない場合、明示的な <b>Save</b> 操作では、[プロパティが <b>SetProperties</b> が呼び出されたときにオブジェクトに保存されます。</para>
+          <para>すべての例外が正しく処理されるように十分注意してください。プロパティの値の設定が失敗するのは、次のような場合です。</para>
+          <list type="bullet">
+            <item>
+              <para>プロパティが読み取り専用の場合。Outlook や MAPI の一部のプロパティは、値の取得のみ可能です。</para>
+            </item>
+            <item>
+              <para>指定した名前空間で参照されるプロパティが見つからない場合。</para>
+            </item>
+            <item>
+              <para>プロパティが無効な形式で指定されており、解析できない場合。</para>
+            </item>
+            <item>
+              <para>プロパティが存在せず、作成もできない場合。</para>
+            </item>
+            <item>
+              <para>プロパティは存在するが、誤った種類の値を渡された場合。</para>
+            </item>
+            <item>
+              <para>クライアントがオフラインでプロパティを開けない場合。</para>
+            </item>
+            <item>
+              <para><b>Add</b>メソッドを使用してプロパティの作成、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />オブジェクトです。 使用する必要があります最初にプロパティを設定する場合、<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />オブジェクトの代わりに、<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />または<b>PropertyAccessor</b>オブジェクトの<b>SetProperty</b>メソッド。</para>
+            </item>
+          </list>
+          <para><b>PropertyAccessor</b>オブジェクトを使用してプロパティの設定方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StringToBinary">
@@ -456,11 +465,8 @@
         <param name="Value">バイト配列に変換する 16 進数の文字列型 (String) の値を指定します。</param>
         <summary>指定された文字列に変換する<paramref name="Value" />のバイト配列にします。</summary>
         <returns>変換から返されるバイトの配列を表す<b>オブジェクト</b>の値です。</returns>
-        <remarks>
-          <para>
-            <b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>PropertyAccessor</b>オブジェクトを使用する場合、型変換の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">取得し、プロパティを設定するためのベスト プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -489,10 +495,8 @@
         <param name="Value">UTC から現地時刻に変換する日時の値。</param>
         <summary>指定された DateTime 値に変換<paramref name="Value" />し、現地時刻の値を世界協定時刻 (UTC) を表現します。</summary>
         <returns>日時の値を表す<paramref name="Value" />UTC から現地時刻に変換した後です。</returns>
-        <remarks>
-          <para>使用する場合、型変換の詳細については、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクト、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">プロパティの設定の取得とのベスト ・ プラクティス</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用する場合、型変換の詳細については、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクト、<a href="http://go.microsoft.com/fwlink/?LinkId=87854">プロパティの設定の取得とのベスト ・ プラクティス</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

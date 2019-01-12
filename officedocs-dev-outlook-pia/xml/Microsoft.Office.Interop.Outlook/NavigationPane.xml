@@ -1,13 +1,5 @@
 <Type Name="NavigationPane" FullName="Microsoft.Office.Interop.Outlook.NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d3c5a11a93d132b99135088c4f284cf16e2dd2c5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639339" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationPane : Microsoft.Office.Interop.Outlook._NavigationPane, Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="605b928699843ba2dbfb61a2517029cc5be68043" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906458" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationPane : Microsoft.Office.Interop.Outlook._NavigationPane, Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationPane implements class Microsoft.Office.Interop.Outlook._NavigationPane, class Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationPane&#xA;Implements _NavigationPane, NavigationPaneEvents_12_Event" />
@@ -34,12 +26,11 @@
   </Attributes>
   <Docs>
     <summary>アクティブな表示されるナビゲーション ウィンドウを表す<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />オブジェクトです。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationPane" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />です</para>。使用の
-      <para>、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.NavigationPane" /> 、エクスプ ローラーのいずれかが存在する場合、 <b>NavigationPane</b>オブジェクトを取得するために<b>エクスプ ローラー</b>のオブジェクトのプロパティです。<b>エクスプ ローラー</b>の一部のオブジェクトをナビゲーション Pane.Use いない可能性があります注意、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> 、ナビゲーション ウィンドウの表示モードを設定するプロパティ</para>。使用の
-      <para>、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />を返すプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />をナビゲーション ウィンドウに含まれるナビゲーション モジュールのコレクションを表すオブジェクト。使用、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.DisplayedModuleCount" />のカウントを返す<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトがナビゲーション ウィンドウに現在表示されていると<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" />プロパティを取得または現在選択されている<b>NavigationModule</b>オブジェクトを設定します</para>。
-      <para>使用して、 <see cref="E:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event.ModuleSwitch" /> 、ナビゲーション ウィンドウで選択されている<b>NavigationModule</b>オブジェクトが変更されたときを検出するイベントです</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._NavigationPane" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />。</para>
+      <para>使用して、 <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.NavigationPane" /> 、エクスプ ローラーのいずれかが存在する場合、 <b>NavigationPane</b>オブジェクトを取得するために<b>エクスプ ローラー</b>のオブジェクトのプロパティです。<b>エクスプ ローラー</b>の一部のオブジェクトをナビゲーション Pane.Use いない可能性があります注意、 <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> 、ナビゲーション ウィンドウの表示モードを設定するプロパティです。</para>
+      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />を返すプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、ナビゲーション ウィンドウに含まれるナビゲーション モジュールのコレクションを表すオブジェクト。 使用、<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.DisplayedModuleCount" />のカウントを返す<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />オブジェクトがナビゲーション ウィンドウに現在表示されていると<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" />を取得または現在選択されている<b>NavigationModule</b>オブジェクトを設定するプロパティです。</para>
+      <para>使用して、 <see cref="E:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event.ModuleSwitch" /> 、ナビゲーション ウィンドウで選択されている<b>NavigationModule</b>オブジェクトが変更されたときを検出するイベントです。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

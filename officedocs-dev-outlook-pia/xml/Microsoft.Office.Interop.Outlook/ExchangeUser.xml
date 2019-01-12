@@ -1,13 +1,5 @@
 <Type Name="ExchangeUser" FullName="Microsoft.Office.Interop.Outlook.ExchangeUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="69e45ae6aa0306775d4fc58cc049443e819f1962" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638514" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExchangeUser : Microsoft.Office.Interop.Outlook._ExchangeUser" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7920bdc80dbcd9531563db6fcfee2d192db835b2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906024" /></Metadata><TypeSignature Language="C#" Value="public interface ExchangeUser : Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExchangeUser implements class Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExchangeUser&#xA;Implements _ExchangeUser" />
@@ -31,10 +23,11 @@
   </Attributes>
   <Docs>
     <summary>に関する詳細な情報を提供、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、Microsoft Exchange メールボックス ユーザーを表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />です</para>。
-      <para><b>ExchangeUser</b>は、 <b>AddressEntry</b>オブジェクトから派生し、呼び出し元が<b>AddressEntry</b>オブジェクトのクエリ インターフェイスを実行すると、 <b>AddressEntry</b>の代わりに返されます</para>。
-      <para>このオブジェクト アクセスを提供最高の Exchange ユーザーに適用可能なプロパティを次のように<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.FirstName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.JobTitle" />、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.LastName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.OfficeLocation" />。固有のプロパティを Exchange ユーザーを使用して、オブジェクト モデルに公開されていないことをアクセスすることも、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。   読み取り/書き込みプロパティは、明示的な組み込みプロパティのいくつかのことに注意してください。これらのプロパティを設定するには、適切な Exchange 管理者アカウントで実行されているコードが必要です。呼び出すための十分な権限がない場合、<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />メソッドは「アクセス許可が拒否されました」エラーが発生します。</para><para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />。</para>
+      <para>
+        <b>ExchangeUser</b> オブジェクトは <b>AddressEntry</b> オブジェクトから派生し、呼び出し元が <b>AddressEntry</b> オブジェクトに対してクエリ インターフェイスを実行すると、 <b>AddressEntry</b> の代わりに返されます。</para>
+      <para>このオブジェクトは最上位の Exchange ユーザーに適用可能なプロパティ次のように<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.FirstName" />、 <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.JobTitle" />、<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.LastName" />と<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.OfficeLocation" />。 固有のプロパティを Exchange ユーザーを使用して、オブジェクト モデルに公開されていないことをアクセスすることも、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトです。    読み取り/書き込みプロパティは、明示的な組み込みプロパティのいくつかのことに注意してください。 これらのプロパティを設定するには、適切な Exchange 管理者アカウントで実行されているコードが必要です。呼び出すための十分な権限がない場合、<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />メソッドは「アクセス許可が拒否されました」エラーが発生します。 </para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

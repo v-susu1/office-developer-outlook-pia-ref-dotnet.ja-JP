@@ -1,13 +1,5 @@
 <Type Name="View" FullName="Microsoft.Office.Interop.Outlook.View">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b10e73e5691c861b2adb03a1f9002fa391a33274" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638460" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface View" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="87b0e2f941bfdd33517182275daf75a85449684a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903168" /></Metadata><TypeSignature Language="C#" Value="public interface View" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract View" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.View" />
   <TypeSignature Language="VB.NET" Value="Public Interface View" />
@@ -27,17 +19,38 @@
   </Attributes>
   <Docs>
     <summary>データの並べ替え、グループ化、および表示に使用できるカスタマイズ可能なビューを表します。</summary>
-    <remarks>
-      <para>
-        <b>View</b>オブジェクトを使用すると、並べ替え、グループ化、および最終的にすべての種類のデータを表示することができるカスタマイズ可能なビューを作成できます。さまざまな種類のビューを作成し、重要なデータを管理するために必要な柔軟性を提供することがあります</para>。
-      <list type="bullet"><item><para>テーブル ビューの種類 (olTableView) を使用すると、単純なフィールド ベースのテーブルのデータを表示します</para></item>。
-        <item><para>[カレンダー ビューの種類 (olCalendarView) を使用すると、予定表形式でデータを表示します</para></item>。
-        <item><para>カードのビューの種類 (olCardView) を使用すると、一連のカードのデータを表示できます。各カードでは、アイテムに含まれる情報を表示し、並べ替えることができます。</para></item><item><para>アイコン ビュー (olIconView) することができますアイコン、Windows フォルダーやエクスプ ローラーのようにデータを表示します。 </para></item><item><para>、時間帯形式ビュー (olTimelineView) では、カスタマイズ可能な線形のタイムラインで、受信したデータを表示することができます</para></item></list>。
-      <para>ビューが定義されている使用およびカスタマイズする<b>ビュー</b>オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />プロパティ。<b>XML</b>プロパティを使用するを作成し、ビューのさまざまな機能を定義するカスタマイズされた XML スキーマを設定します</para>。
-      <para><b>ビュー</b>を使用 (<paramref name="index" />)、<paramref name="index" />は、 <b>View</b>オブジェクトまたは 1 つの<b>ビュー</b>オブジェクトを取得する、序数値の名前</para>。
-      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> 、 <b>Views</b>コレクションに新しいビューを作成する方法です</para>。
-      <para>常に使用<see cref="M:Microsoft.Office.Interop.Outlook.View.Save" />ビューのプロパティを変更した後にビューを保存します</para>。
-      <para /></remarks>
+    <remarks><para><b>View</b> オブジェクトを使用すると、並べ替え、グループ化、および最終的にすべての種類のデータを表示することができるカスタマイズ可能なビューを作成できます。さまざまな種類のビューを作成し、重要なデータを管理するために必要な柔軟性を提供することがあります。</para>
+      <list type="bullet">
+        <item>
+          <para>表形式ビュー (olTableView) を使用すると、データを単純なフィールド ベースの表に表示できます。
+</para>
+        </item>
+        <item>
+          <para> 
+				予定表ビュー (olCalendarView) を使用すると、データを予定表形式で表示できます。
+</para>
+        </item>
+        <item>
+          <para> 
+				カード形式のビュー (olCardView) を使用すると、データを一連のカード形式で表示できます。各カードにはアイテムごとの情報が表示され、カードを並べ替えることができます。
+</para>
+        </item>
+        <item>
+          <para> 
+				アイコン ビュー (olIconView) を使用すると、データを Windows のフォルダーやエクスプローラーと同様に、アイコンで表示できます。  
+</para>
+        </item>
+        <item>
+          <para> 
+				時間帯ビュー (olTimelineView) を使用すると、カスタマイズ可能な時間帯で受信した順にデータを表示できます。
+</para>
+        </item>
+      </list>
+      <para>ビュー定義は、使用およびカスタマイズする<b>ビュー</b>オブジェクトの<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />プロパティ。 <b>XML</b> プロパティを使用すると、作成し、ビューのさまざまな機能を定義するカスタマイズされた XML スキーマを設定できます。</para>
+      <para><b>ビュー</b>を使用して (<paramref name="index" />)、 <paramref name="index" /> <b>ビュー</b>オブジェクトまたは 1 つの<b>ビュー</b>オブジェクトを取得する、序数値の名前です。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> 、 <b>Views</b>コレクションに新しいビューを作成する方法です。 </para>
+      <para>常に使用<see cref="M:Microsoft.Office.Interop.Outlook.View.Save" />ビューのプロパティを変更した後にビューを保存します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,7 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,8 +103,7 @@
       <Parameters />
       <Docs>
         <summary>Microsoft Outlookのユーザー インターフェイスにビューを適用します。</summary>
-        <remarks>
-          <para>現在のビューが正しく再設定を行う必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />とし、 <b>View.Apply</b>。次のコード例は、呼び出しの順序を示しています。</para>
+        <remarks><para>現在のビューが正しく再設定を行う必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />とし、 <b>View.Apply</b>。 次のコード例は、呼び出しの順序を示しています。</para>
           <code>Sub ResetView()
     Dim v As Outlook.View
     ' Save a reference to the current view object
@@ -110,8 +122,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -137,7 +148,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,12 +234,10 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ビューのフィルターを表す<b>文字列</b>(C# では<b>文字列</b>) 値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、ビューの現在のフィルターを表す DAV の検索および検索 (DASL) 構文では、文字列です。ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティの値は、DAV Searching and Locating (DASL) 構文の文字列で、ビューの現在のフィルターを表します。 ビューでアイテムをフィルターする DASL 構文を使用する方法については、<a href="http://go.microsoft.com/fwlink/?LinkId=87855">フィルタ リングの項目</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -256,8 +265,7 @@ End Sub</code>
       <Docs>
         <param name="Date">ビューで変更する日付を指定します。</param>
         <summary>現在のビューで情報の表示に使用される日付を変更します。</summary>
-        <remarks>
-          <para>現在のビューのように移動する日付を指定するのには、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトの場合、最初に取得する必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用して現在のビューのオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />の代わりに<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />。次のコード サンプルでは、この操作を実行する方法を示します。</para>
+        <remarks><para>現在のビューのように移動する日付を指定するのには、<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />オブジェクトの場合、最初に取得する必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用して現在のビューのオブジェクト<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />の代わりに<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />。 次のコード サンプルは、このアクションを実行する方法を示しています。 </para>
           <code>Sub TestGoToDate()
     Dim oCV As Outlook.CalendarView
     Dim oExpl As Outlook.Explorer
@@ -312,8 +320,7 @@ End Sub</code>
     // for which information is displayed in the view.
     oCV.GoToDate(datGoTo);
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -342,13 +349,11 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>メニューで使用する言語を定義するオブジェクトの言語の設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得および設定が可能です。</summary>
+        <summary>メニューで使用する言語を定義するオブジェクトの言語の設定を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>言語</b>のプロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。たとえば、文字列"EN-US"が「米国 - 英語」の ISO コードを表す</para>。
-          <para>オブジェクトが指定した言語の種類の [表示] メニューで利用可能なだけする有効な言語コードが指定されている場合。値が指定されていない場合は、すべての言語の種類のオブジェクトの項目があります。このプロパティの既定値は、空の文字列です</para>。
-          <para /></remarks>
+        <remarks><para>[<b>言語</b>] プロパティは、ISO 言語タグを表す<b>文字列</b>(C# では<b>文字列</b>) を使用します。 たとえば、文字列"EN-US"は「米国 - 英語」の ISO コードを表します</para>
+          <para>有効な言語コードが指定されている場合は、指定された言語の [ 表示] メニューでのみオブジェクトを使用できます。値が指定されていない場合は、すべての言語でオブジェクト アイテムを使用できます。このプロパティの既定値は空の文字列です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -377,12 +382,10 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、ユーザーが現在のビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、ユーザーが現在のビューの設定を変更できるかどうかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>かどうか<b>は True</b>、ユーザー設定を変更できます、現在のビューのです。ただし、インターフェイスに対する変更は保存されません。かどうかは<b>False</b> (既定値)、変更が保存されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>かどうか <b>は True</b> 、ユーザー設定を変更できます、現在のビューのです。ただし、インターフェイスに対する変更は保存されません。かどうかは <b>False</b> (既定値)、変更が保存されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -411,7 +414,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,16 +469,17 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>組み込みの Microsoft Outlook ビューをリセットして元の設定に戻します。</summary>
-        <remarks>
-          <para>このメソッドは、組み込みの Outlook ビューでのみ機能します</para>。
-          <para>現在のビューを正しくリセットするのには、 <b>View.Reset</b>を行う必要があり、 <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。次のコード例は、呼び出しの順序を示しています:</para><code>Sub ResetView()
+        <remarks><para>このメソッドは、組み込みの Outlook ビューに対してのみ適用されます。</para>
+          <para>現在のビューを正しくリセットするには、 <b>View.Reset</b>を行う必要があり、 <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。 次のコード例は、呼び出しの順序を示しています。</para>
+          <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
     Set v = Application.ActiveExplorer().CurrentView
     ' Reset and then apply the current view
     v.Reset
     v.Apply
-End Sub</code><code>private void ResetView()
+End Sub</code>
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -484,7 +488,8 @@ End Sub</code><code>private void ResetView()
     // Reset and then apply the current view
     v.Reset();
     v.Apply();
-}</code><para /></remarks>
+}</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -509,10 +514,8 @@ End Sub</code><code>private void ResetView()
       <Parameters />
       <Docs>
         <summary>ビューまたはビューの変更内容を保存します。</summary>
-        <remarks>
-          <para>常にビューのプロパティを変更した後にビューを保存するのに<b>保存</b>を使用します。</para>
-          <para />
-        </remarks>
+        <remarks><para>常にビューのプロパティを変更した後にビューを保存するのに <b>保存</b> を使用します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveOption">
@@ -538,13 +541,10 @@ End Sub</code><code>private void ResetView()
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。  値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />のビューに関連付けられている指定されたビューを使用できるフォルダーを指定する定数と読み取りのアクセス許可。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>プロパティを設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>プロパティを設定する場合、<see cref="T:Microsoft.Office.Interop.Outlook.View" />を使用してオブジェクトを作成、<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />メソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -570,19 +570,16 @@ End Sub</code><code>private void ResetView()
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -608,8 +605,7 @@ End Sub</code><code>private void ResetView()
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) ビューが組み込みの Outlook ビューかどうかを指定する値を返します。 値の取得のみ可能です。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) ビューが組み込みの Outlook ビューかどうかを指定する値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -637,12 +633,10 @@ End Sub</code><code>private void ResetView()
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />のビューを表す定数を入力する<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />のビューを表す定数を入力する<see cref="T:Microsoft.Office.Interop.Outlook.View" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティには、[ショートカット] ウィンドウに表示されるアイコンには影響はありません。大きいアイコンが削除されているし、このプロパティが<b>olLargeIcon</b>に設定されている場合に、効果のいずれかです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティには、[ショートカット] ウィンドウに表示されるアイコンには影響はありません。大きいアイコンが削除されているし、このプロパティが <b>olLargeIcon</b> に設定されている場合に、効果のいずれかです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="XML">
@@ -671,13 +665,12 @@ End Sub</code><code>private void ResetView()
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または現在のビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または現在のビューの XML 定義を指定する<b>文字列</b>(C# では<b>文字列</b>) の値を設定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定義では、一連のタグと、ビュー自体のさまざまなプロパティに対応するキーワードを使用して、ビューの種類について説明します。新しいビューの設定を表示するビューが作成されると、XML 定義が解析される</para>。
-          <para>ビューを作成するには、ビューを作成できます、Outlook のユーザー インターフェイスを使用して、そのビューの XML プロパティを取得することができますし、ときに、XML の構造方法を決定します</para>。プログラムを使用してビューを使用するユーザー設定フィールドを追加するのには
-          <para>、<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />メソッドです。<b>View.XML</b>プロパティを設定する上では、ビューを動的に変更するのには推奨される方法です</para>。
-          <para /></remarks>
+        <remarks><para>XML 定義は、ビュー自体のさまざまなプロパティに対応する一連のタグおよびキーワードを使用して、ビューの種類を記述します。ビューを作成すると、XML 定義が構文解析され、新しいビューの設定がレンダリングされます。</para>
+          <para>ビューの作成時に XML の構造を確認するには、Outlook ユーザー インターフェイスを使用してビューを作成し、そのビューの XML プロパティを取得します。</para>
+          <para>プログラムを使用してビューにカスタム フィールドを追加するを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />メソッドです。 これは、 <b>View.XML</b>プロパティを設定する上では、ビューを動的に変更することを推奨します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

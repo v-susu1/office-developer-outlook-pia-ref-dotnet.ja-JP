@@ -1,13 +1,5 @@
 <Type Name="OlkSenderPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38b39f13b137a4b4ed1bf56097da0fda2cac1133" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638085" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="822ba4099c9cbb5e680fd7e7bbc599cadba66c9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905060" /></Metadata><TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkSenderPhotoEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>送信者の連絡先の写真が変更されたときに発生します。</summary>
-        <remarks>
-          <para>送信者の連絡先の写真の変更が通常意味する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />と<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />にもプロパティが変更されました。したがって、このイベントは、コントロールのサイズを変更する必要があることを示す値として使用できます。</para>
-          <para />
-        </remarks>
+        <remarks><para>送信者の連絡先の写真の変更が通常意味する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />と<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />にもプロパティが変更されました。 このため、このイベントはコントロールのサイズ変更が必要かどうかを確認する場合に使用できます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Click">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>マウス ポインターがコントロール上を通過した後に発生します。</summary>
-        <remarks>
-          <para>ALT キーを押すと、 <b>MouseMove</b>イベントが発生します。</para>
-          <para />
-        </remarks>
+        <remarks><para>ALTキーを押すと、 <b>MouseMove</b> イベントが発生します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

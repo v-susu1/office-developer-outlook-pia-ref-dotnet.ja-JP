@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638678" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1da25ba77d55a14d75d64b193c88a0a25d516efe" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903819" /></Metadata><TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
@@ -49,19 +41,35 @@
       </ReturnValue>
       <Docs>
         <summary>発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />がプログラムまたはユーザー操作によって現在のセッションから削除しようとしています。</summary>
-        <remarks>
-          <para>このイベントを発生させるために outlook を実行する必要があります。このイベントが発生する場合、次のいずれかが発生する: </para>
+        <remarks><para>このイベントを発生させるには、Outlook が実行されている必要があります。このイベントは、次のいずれかに該当する場合に発生します。</para>
           <list type="bullet">
             <item>
-              <para>ストアは、ショートカット メニューの [閉じる] コマンドをクリックすると、ユーザーによって削除されます</para>
-            </item>。
-            <item><para>を呼び出すことによって、ストアがプログラムによって削除される<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />です</para></item></list>。
-          <para>このイベントは発生しない場合、次のいずれかが発生する:</para><list type="bullet"><item><para>と、Outlook はシャット ダウンし、プライマリの終了またはデリゲートを格納します</para></item>。
-            <item><para>Microsoft Windows のコントロール パネルの [メール] アプレットを通じてストアが削除されたかどうかと、Outlook が実行されていません</para></item>。
-            <item><para>、代理ストアが削除されて、Microsoft Exchange Server] ダイアログ ボックスの [詳細] タブにします</para></item>。
-            <item><para>Outlook が実行されていない場合にアカウント マネージャー] ダイアログ ボックスの [データ ファイル] タブを通じてストアが削除される</para></item>。
-            <item><para>「IMAP ストアがプロファイルから削除します。</para></item></list><para>このイベントを使用して、ストアが削除されたことを確認して、ストアがストアの再マウント) など、アプリケーションに必要な場合は、適切なアクションを実行します。ポーリングする必要がそれ以外の場合、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションです</para>。
-          <para /></remarks>
+              <para>ユーザーがショートカット メニューの [ 閉じる] をクリックしたことによって、ストアが削除されるとき。</para>
+            </item>
+            <item>
+              <para>呼び出すことによって、ストアがプログラムによって削除される<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />。</para>
+            </item>
+          </list>
+          <para>このイベントは、次のいずれかに該当する場合は発生しません。 </para>
+          <list type="bullet">
+            <item>
+              <para>Outlook が終了し、プライマリ ストアまたは代理ストアが閉じられるとき。</para>
+            </item>
+            <item>
+              <para>Outlook が実行中でない場合に、Microsoft Windows のコントロール パネルの [ メール] アプレットを通じてストアが削除されるとき。</para>
+            </item>
+            <item>
+              <para>[ Microsoft Exchange Server] ダイアログ ボックスの [ 詳細設定] タブで代理ストアが削除されるとき。</para>
+            </item>
+            <item>
+              <para>Outlook が実行中でない場合に、[ アカウント マネージャー] ダイアログ ボックスの [ データ ファイル] タブを通じてストアが削除されるとき。</para>
+            </item>
+            <item>
+              <para>プロファイルから IMAP ストアが削除されるとき。</para>
+            </item>
+          </list>
+          <para>このイベントを使用すると、ストアが削除されたことを検出でき、そのストアがアプリケーションに必要な場合は適切な処理 (ストアの再マウントなど) を実行できます。 ポーリングする必要がそれ以外の場合、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreAdd">
@@ -80,19 +88,32 @@
       </ReturnValue>
       <Docs>
         <summary>発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />プログラムまたはユーザー操作によって現在のセッションに追加されました。</summary>
-        <remarks>
-          <para>このイベントを発生させるために outlook を実行する必要があります。次のいずれかが発生したときにこのイベントが発生します</para>
+        <remarks><para>このイベントを発生させるには、Outlook が実行されている必要があります。このイベントは、次のいずれかに該当する場合に発生します。</para>
           <list type="bullet">
             <item>
-              <para>ストアがオープンし、[ファイル] メニューの [Outlook データ ファイルを選択することにより、Outlook データ ファイルを開く] ダイアログ ボックスで追加します。</para>
-            </item> 。
-            <item><para>アカウント マネージャー] ダイアログ ボックスの [データ ファイル] タブを通じてストアを追加します</para></item>。
-            <item><para>を呼び出すことによって、ストアが正常に追加、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" />メソッドです</para></item></list>。
-          <para>このイベントは発生しない場合、次のいずれかが発生する:</para><list type="bullet"><item><para>と、Outlook が起動し、プライマリを開きますまたはデリゲートを格納します</para></item>。
-            <item><para>Microsoft Windows のコントロール パネルの [メール] アプレットを通じてストアが追加されたかどうかと、Outlook が実行されていません</para></item>。
-            <item><para>Microsoft Exchange Server] ダイアログ ボックスの [詳細] タブを通じて代理ストアが追加されます</para></item></list>。
-          <para>ストアが追加されているかどうかを判断するのにはこのイベントを使用し、そのストア内のアイテムに対して適切なアクションを実行します。ポーリングする必要がない場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションです</para>。
-          <para /></remarks>
+              <para>[ ファイル] メニューの [ 開く] をポイントし、[ Outlook データ ファイル] をクリックして、[ Outlook データ ファイルを開く] ダイアログ ボックスを通じてストアを追加したとき。</para>
+            </item>
+            <item>
+              <para>[ アカウント マネージャー] ダイアログ ボックスの [ データ ファイル] タブを通じてストアを追加したとき。</para>
+            </item>
+            <item>
+              <para>呼び出すことによって、ストアが正常に追加、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" />メソッドです。</para>
+            </item>
+          </list>
+          <para>このイベントは、次のいずれかに該当する場合は発生しません。 </para>
+          <list type="bullet">
+            <item>
+              <para>Outlook が起動し、プライマリ ストアまたは代理ストアが開かれるとき。</para>
+            </item>
+            <item>
+              <para>Outlook が実行中でない場合に、Microsoft Windows のコントロール パネルの [ メール] アプレットを通じてストアが追加されたとき。</para>
+            </item>
+            <item>
+              <para>[ Microsoft Exchange Server] ダイアログ ボックスの [ 詳細設定] タブを通じて代理ストアが追加されたとき。</para>
+            </item>
+          </list>
+          <para>このイベントを使用すると、ストアが追加されたことを検出し、そのストア内のアイテムに対して適切な操作を実行できます。 ポーリングする必要がない場合は、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

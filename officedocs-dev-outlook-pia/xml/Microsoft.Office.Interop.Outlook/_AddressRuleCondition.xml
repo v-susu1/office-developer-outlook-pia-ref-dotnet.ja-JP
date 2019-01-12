@@ -1,13 +1,5 @@
 <Type Name="_AddressRuleCondition" FullName="Microsoft.Office.Interop.Outlook._AddressRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638437" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905107" /></Metadata><TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AddressRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AddressRuleCondition" />
@@ -56,12 +48,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アドレスのルールの条件を評価する<b>文字列</b>(C# では<b>文字列</b>) の要素の配列を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>アドレスのルールの条件を評価する<b>文字列</b>(C# では<b>文字列</b>) の要素の配列を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>は 1 つのアドレスを評価するために要素が 1 つの配列、または複数のアドレスを評価するために複数の文字列の配列を割り当てることができます。配列で割り当てた複数のアドレスの文字列は、論理 OR 演算を使って評価されます</para>。
-          <para>条件が<b>True</b>に評価された<b>アドレス</b>で指定した文字列が受信者または送信者のアドレスに含まれている場合</para>。
-          <para /></remarks>
+        <remarks><para>1 つの要素を含む配列を割り当てて、1 つのアドレスを評価することも、複数の文字列の配列を割り当てて、複数のアドレスを評価することもできます。配列で割り当てた複数のアドレスの文字列は、論理 OR 演算を使って評価されます。</para>
+          <para><b>Address</b> で指定した文字列が受信者または送信者のアドレスに含まれる場合、条件は <b>True</b> と評価されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -87,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +106,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,14 +134,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />ルールの条件の種類を指定する列挙体です。 値の取得のみ可能です。</summary>
+        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />ルールの条件の種類を指定する列挙体です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />の種類が<b>olRuleSend</b>および<b>olRuleReceive</b>のルールでオブジェクトを使用します。<b>OlRuleSend</b>ルールとルールを作成する場合、関連付けられている<b>取得した AddressRuleCondition</b>オブジェクトの種類になります<b>olConditionSenderAddress</b>。<b>OlRuleReceive</b>ルールとルールを作成する場合、関連付けられている<b>取得した AddressRuleCondition</b>オブジェクトの種類になります<b>olConditionRecipientAddress</b>。</para>
-          <para>ただしはありません、ルールは常に送信者または受信者のアドレスの定義済みのルールの条件を持っています。このような定義済みまたは有効なルールの条件が存在するかどうかとは無関係に関連するルールが作成されると常に、 <b>AddressRuleCondition.ConditionType</b>プロパティが初期化されます。ルールの条件の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />の種類が<b>olRuleSend</b>および<b>olRuleReceive</b>のルールでオブジェクトを使用します。 <b>OlRuleSend</b> ルールとルールを作成する場合、関連付けられている <b>取得した AddressRuleCondition</b> オブジェクトの種類になります <b>olConditionSenderAddress</b> 。 <b>OlRuleReceive</b> ルールとルールを作成する場合、関連付けられている <b>取得した AddressRuleCondition</b> オブジェクトの種類になります <b>olConditionRecipientAddress</b> 。 </para>
+          <para>ただしはありません、ルールは常に送信者または受信者のアドレスの定義済みのルールの条件を持っています。 このような定義済みまたは有効なルールの条件が存在するかどうかとは無関係に関連するルールが作成されると常に、 <b>AddressRuleCondition.ConditionType</b> プロパティが初期化されます。 ルールの条件の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -179,12 +167,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの条件が有効になっているかどうかを決定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) ルールの条件が有効になっているかどうかを決定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用してルールを保存するルールの条件を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールの条件とその有効な状態が持続するようにします。 ルールの条件は、正常に保存された後にのみ有効です。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用してルールを保存するルールの条件を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールの条件とその有効な状態が持続するようにします。  ルールの条件は、正常に保存された後でなければ有効になりません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -212,10 +198,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -241,19 +225,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

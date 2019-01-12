@@ -1,13 +1,5 @@
 <Type Name="RuleAction" FullName="Microsoft.Office.Interop.Outlook.RuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5743cd73382d3ab8101df11cb011aba2ef07f771" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638667" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleAction : Microsoft.Office.Interop.Outlook._RuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="132f27cc744a51b00f4dfbd300f92e64bf1697d0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903959" /></Metadata><TypeSignature Language="C#" Value="public interface RuleAction : Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleAction implements class Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleAction&#xA;Implements _RuleAction" />
@@ -31,10 +23,9 @@
   </Attributes>
   <Docs>
     <summary>時に実行されるアクションを表す、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトを実行します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleAction" />。</para>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleAction" />。 </para>
       <para>
-        <b>Ruleaction オブジェクト</b>は、プログラムによるルールの作成でサポートされているルールの処理の基本クラスです。<b>Ruleaction オブジェクト</b>から派生したクラスが含まれます: </para>
+        <b>Ruleaction オブジェクト</b> は、プログラムによるルールの作成でサポートされているルールの処理の基本クラスです。 <b>Ruleaction オブジェクト</b> から派生したクラスは次のとおりです。</para>
       <list type="bullet">
         <item>
           <para>
@@ -61,11 +52,15 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />
+          </para>
+        </item>
       </list>
-      <para>、ルール オブジェクト モデルには、ルールと通知ウィザードが Outlook のユーザー インターフェイスを使用して、部分的にしか同等が用意されています。最もよく使用されるルールのアクションと条件がサポートされています。サポートしていませんが各ルールの処理またはウィザードがサポートするルールの条件によるルールの作成も列挙してこれらのルールの処理と既存のルールの条件を有効にできます。</para>
+      <para>Rules オブジェクト モデルは、Outlook のユーザー インターフェイスの仕分けルールと通知ウィザードと部分的に同等の機能を提供します。このオブジェクト モデルは、最もよく使用されるルールの処理と条件をサポートしています。このオブジェクト モデルは、ウィザードがサポートする個々のルールの処理またはルールの条件によるルールの作成をサポートするわけではありませんが、既存のルールでこれらのルールの処理と条件を列挙して有効化することはできます。</para>
       <para>ルールの処理の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87797">ルールの処理の指定</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

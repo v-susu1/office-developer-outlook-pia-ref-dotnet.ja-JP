@@ -1,13 +1,5 @@
 <Type Name="MeetingItem" FullName="Microsoft.Office.Interop.Outlook.MeetingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="34eab5654ab96af922059da1346bbb0bbeb90464" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637646" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MeetingItem : Microsoft.Office.Interop.Outlook._MeetingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a519f177e19a587888ee73b9e44d8933e51cec00" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904764" /></Metadata><TypeSignature Language="C#" Value="public interface MeetingItem : Microsoft.Office.Interop.Outlook._MeetingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MeetingItem implements class Microsoft.Office.Interop.Outlook._MeetingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MeetingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface MeetingItem&#xA;Implements _MeetingItem, ItemEvents_10_Event" />
@@ -34,11 +26,10 @@
   </Attributes>
   <Docs>
     <summary>別のユーザーやグループの操作による受信者の予定表フォルダーへの変更を表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._MeetingItem" />。COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />です</para>。
-      <para>、他の Outlook オブジェクトとは異なり、このオブジェクトを作成できません。設定するときに自動的に作成されて、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /><b>olMeeting</b>にオブジェクトし、1 つまたは複数のユーザーに送信します。の<b>MeetingItem</b>として受信トレイで受信します</para>。
-      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" /><b>MeetingItem</b>オブジェクトは、 <b>AppointmentItem</b>オブジェクトを取得するメソッドが関連付けられているし、作業直接で<b>AppointmentItem</b>オブジェクトの要求に応答します</para>。
-      <para /></remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._MeetingItem" />。 COM オブジェクトのイベントのメンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>他の Microsoft Outlook オブジェクトと異なり、このオブジェクトを作成することはできません。 設定するときに自動的に作成されて、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />のプロパティ、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> <b>olMeeting</b>にオブジェクトし、1 つまたは複数のユーザーに送信します。 受信の受信トレイで、 <b>MeetingItem</b>として。</para>
+      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" /> <b>MeetingItem</b>オブジェクトは、 <b>AppointmentItem</b>オブジェクトを取得するメソッドが関連付けられているし、作業直接で<b>AppointmentItem</b>オブジェクトの要求に応答します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

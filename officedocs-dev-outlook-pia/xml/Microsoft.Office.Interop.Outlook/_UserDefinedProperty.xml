@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638218" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905170" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperty" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,25 +126,122 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表示形式を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します、<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>表示形式を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します、<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、列挙体の定数、列挙体の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /><b>UserDefinedProperty</b>オブジェクトのプロパティ:</para>
+        <remarks><para>このプロパティの値は、列挙体の定数、列挙体の値に依存する、 <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> <b>UserDefinedProperty</b>オブジェクトのプロパティ。</para>
           <list type="table">
             <item>
-              <description>DisplayFormat 列挙体</description>の
-              <description>型の値</description></item>
+              <description>種類の値</description>
+              <description>DisplayFormat 列挙</description>
+            </item>
             <item>
               <description>
                 <b>olCombination</b>
               </description>
-              <description>使用できる列挙はありません。このプロパティは常に<b>olCombination</b>の場合は 1 を返します</description>
-            </item>。
-            <item><description><b>olCurrency</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /></description></item><item><description><b>olDateTime</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" /></description></item><item><description><b>olDuration</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" /></description></item><item><description><b>olEnumeration</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" /></description></item><item><description><b>olFormula</b></description><description>使用できる列挙はありません。このプロパティは常に<b>olFormula</b>の場合は 1 を返します</description></item>。
-            <item><description><b>olInteger</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" /></description></item><item><description><b>olKeywords</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" /></description></item><item><description><b>olNumber</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" /></description></item><item><description><b>olOutlookInternal</b></description><description>使用できる列挙はありません。このプロパティは常に<b>olOutlookInternal</b>の場合は 1 を返します</description></item>。
-            <item><description><b>olPercent</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" /></description></item><item><description><b>olSmartFrom</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" /></description></item><item><description><b>olText</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" /></description></item><description><b>olYesNo</b></description><description><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" /></description></list>
-          <para />
-        </remarks>
+              <description>列挙体はありません。 このプロパティは、常に<b>olCombination</b>の場合は 1 を返します。</description>
+            </item>
+            <item>
+              <description>
+                <b>olCurrency</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olDateTime</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olDuration</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olEnumeration</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olFormula</b>
+              </description>
+              <description>列挙体はありません。 このプロパティは、常に<b>olFormula</b>の場合は 1 を返します。</description>
+            </item>
+            <item>
+              <description>
+                <b>olInteger</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olKeywords</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olNumber</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olOutlookInternal</b>
+              </description>
+              <description>列挙体はありません。 このプロパティは、常に<b>olOutlookInternal</b>の場合は 1 を返します。</description>
+            </item>
+            <item>
+              <description>
+                <b>olPercent</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olSmartFrom</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olText</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>olYesNo</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
+              </description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Formula">
@@ -178,8 +267,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>UserDefinedProperty</b>オブジェクトの数式を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary><b>UserDefinedProperty</b>オブジェクトの数式を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,7 +295,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -263,19 +351,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

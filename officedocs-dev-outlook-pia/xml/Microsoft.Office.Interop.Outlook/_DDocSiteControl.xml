@@ -1,13 +1,5 @@
 <Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638977" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905226" /></Metadata><TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Outlook アイテムの本文を表示するコントロールです。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。このインターフェイスを使用して、オブジェクトとそのメンバーにアクセスするのにはインタ フェースについての情報を参照してください。</para>
-      <para />
-    </remarks>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 このインターフェイスを使用して、オブジェクトとそのメンバーにアクセスするのにはインタ フェースについての情報を参照してください。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ReadOnly">
@@ -62,13 +52,11 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールに表示される本文がのみ表示できるし、変更することはできないかどうかを指定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールに表示される本文がのみ表示できるし、変更することはできないかどうかを指定する<b>Boolean</b>値 (C# では<b>bool</b> ) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>を示すコントロールのみ、本文が表示されます、その修正をサポートしていません<b>False</b>を示すコントロールを表示して、アイテムの本文の変更の両方をサポートしています。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressAttachments">
@@ -97,11 +85,12 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールに Outlook アイテムの添付ファイルを表示しないかどうかを指定する<b>ブール</b>値 (C# では<b>bool</b> ) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールに Outlook アイテムの添付ファイルを表示しないかどうかを指定する<b>ブール</b>値 (C# では<b>bool</b> ) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、[添付ファイル] ボックスの Outlook アイテムに添付されているファイルにのみ適用され、インラインの添付ファイルに、Outlook アイテム内に埋め込まれる項目としては適用されません</para>。コントロールでは、アイテムの添付ファイルは表示されないことを示す
-            <b>true</b><para><b>False</b>を示す項目の添付ファイルを表示するコントロールをサポートしています。</para><para /></remarks>
+        <remarks><para>このプロパティは、[添付ファイル] ボックスの Outlook アイテムに添付されているファイルにのみ適用され、インラインの添付ファイルに、Outlook アイテム内に埋め込まれる項目としては適用されません。 </para>
+          <para>
+            <b>True</b>コントロールが項目の添付ファイルを表示しないことを示すために<b>False</b>を示す項目の添付ファイルを表示するコントロールをサポートしています。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

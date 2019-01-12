@@ -1,13 +1,5 @@
 <Type Name="SyncObjects" FullName="Microsoft.Office.Interop.Outlook.SyncObjects">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="897801400bda22ee1d2c19d30674ead29210e33e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639116" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SyncObjects : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b6347fd733986d34504b47f33826a031314444d2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905730" /></Metadata><TypeSignature Language="C#" Value="public interface SyncObjects : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SyncObjects implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObjects" />
   <TypeSignature Language="VB.NET" Value="Public Interface SyncObjects&#xA;Implements IEnumerable" />
@@ -31,10 +23,9 @@
   </Attributes>
   <Docs>
     <summary>セットが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />ユーザーの送受信グループを表すオブジェクト。</summary>
-    <remarks>
-      <para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />から<b>SyncObjects</b>オブジェクトを取得するプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです</para>。
-      <para><b>SyncObjects</b>オブジェクトは読み取り専用です。コレクションに項目を追加できません。ただし、アプリケーション フォルダーと呼ばれる送受信グループを作成する<b>AppFolders</b>プロパティを使用して 1 つの送受信グループを追加することができます</para>。
-      <para /></remarks>
+    <remarks><para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />から<b>SyncObjects</b>オブジェクトを取得するプロパティの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
+      <para><b>SyncObjects</b> オブジェクトは読み取り専用です。 コレクションに項目を追加できません。 ただし、アプリケーション フォルダーと呼ばれる送受信グループを作成する<b>AppFolders</b>プロパティを使用して 1 つの送受信グループを追加することができます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="AppFolders">
@@ -60,13 +51,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObject</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このプロパティが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />アプリケーションのフォルダーにします。 値の取得のみ可能です。</summary>
+        <summary>このプロパティが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />アプリケーションのフォルダーにします。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SyncObject</b>は、 <b>Folder</b>オブジェクトの<b>InAppFolderSyncObject</b>プロパティが<b>True</b>に設定するとフォルダーが追加自動的にします。<b>SyncObject</b>では、Microsoft Outlook フォルダー、アドレス帳、およびオフラインで使用するフォルダーのホーム ページを同期することができます。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SyncObject</b> は、 <b>Folder</b> オブジェクトの <b>InAppFolderSyncObject</b> プロパティが <b>True</b> に設定するとフォルダーが追加自動的にします。 <b>SyncObject</b> では、 Microsoft Outlookフォルダー、アドレス帳、およびオフラインで使用するフォルダーのホーム ページを同期することができます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -92,7 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,7 +108,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,7 +136,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,13 +224,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。などの次のステートメントは、同じ機能を実行します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 などの次のステートメントは、同じ機能を実行します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

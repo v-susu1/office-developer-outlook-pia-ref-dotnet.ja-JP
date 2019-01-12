@@ -1,13 +1,5 @@
 <Type Name="_Stores" FullName="Microsoft.Office.Interop.Outlook._Stores">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1140b6b1b491b9b987703c19f7175944985e3b9b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637835" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Stores : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1140b6b1b491b9b987703c19f7175944985e3b9b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903231" /></Metadata><TypeSignature Language="C#" Value="public interface _Stores : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Stores implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Stores" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Stores&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,16 +136,12 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <b>ストア</b>コレクション内の 1 から始まるインデックスを指定する<b>整数</b>または<b>文字列</b>(C# では<b>文字列</b>) の値を指定するのいずれか、<see cref="P:Microsoft.Office.Interop.Outlook._Store.DisplayName" />の<b>Stores</b>コレクション内の<b>ストア</b>です。</param>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトで指定されている<paramref name="Index" />。 値の取得のみ可能です。</summary>
-        <value>
-          <b>Store</b>オブジェクトの親に<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />を指定して、コレクション<paramref name="Index" />。</value>
-        <remarks>
-          <para>
-            <b>Store.DisplayName</b>プロパティは、<b>ストア</b>の既定のプロパティです</para>。
-          <para>場合<paramref name="Index" />文字列は、項目がありません、その名前で、エラーが返されます</para>。
-          <para /></remarks>
+        <param name="Index"><b>ストア</b>コレクション内の 1 から始まるインデックスを指定する<b>整数</b>または<b>文字列</b>(C# では<b>文字列</b>) の値を指定するのいずれか、<see cref="P:Microsoft.Office.Interop.Outlook._Store.DisplayName" />の<b>Stores</b>コレクション内の<b>ストア</b>です。</param>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />オブジェクトで指定されている<paramref name="Index" />。 読み取り専用です。</summary>
+        <value><b>Store</b>オブジェクトの親に<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />を指定して、コレクション<paramref name="Index" />。</value>
+        <remarks><para><b>Store.DisplayName</b> プロパティは、 <b>ストア</b> の既定のプロパティです。</para>
+          <para>場合<paramref name="Index" />文字列は、項目がありません、その名前で、エラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -181,10 +169,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -210,19 +196,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

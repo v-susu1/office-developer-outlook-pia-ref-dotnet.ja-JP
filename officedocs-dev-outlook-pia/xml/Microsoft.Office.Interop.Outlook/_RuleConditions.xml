@@ -1,13 +1,5 @@
 <Type Name="_RuleConditions" FullName="Microsoft.Office.Interop.Outlook._RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638809" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905464" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleConditions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleConditions&#xA;Implements IEnumerable" />
@@ -57,12 +49,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /><b>olConditionAccount</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> <b>olConditionAccount</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>AccountRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージを送信するまたは経由で受信したことを指定する新しいルールを作成するとき、指定したアカウントです。</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AccountRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>AccountRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージを送信するまたは経由で受信したことを指定する新しいルールを作成するとき、指定したアカウントです。 </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AccountRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnyCategory">
@@ -88,13 +79,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionAnyCategory</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionAnyCategory</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージは、任意のカテゴリに割り当てられている例外の条件または条件を指定するルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。 </para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく、<b>取得した RuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。 </para>
-          <para />
-        </remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージは、任意のカテゴリに割り当てられている例外の条件または条件を指定するルールを作成するときは、返される <b>RuleCondition</b> オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく、<b>取得した RuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -120,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,12 +137,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBody</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBody</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件をメッセージの本文には、特定のテキストを指定する新しいルールを作成するときは、返される<b>TextRuleCondition</b>オブジェクトを使用します。</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件をメッセージの本文には、特定のテキストを指定する新しいルールを作成するときは、返される<b>TextRuleCondition</b>オブジェクトを使用します。 </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyOrSubject">
@@ -179,12 +167,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBodyOrSubject</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBodyOrSubject</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件は、メッセージの本文または件名に特定のテキストを指定する新しいルールを作成します。.</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件は、メッセージの本文または件名に特定のテキストを指定する新しいルールを作成します。. </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -210,12 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.CategoryRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /><b>olConditionCategory</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> <b>olConditionCategory</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>CategoryRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または特定の条件または例外条件のメッセージが割り当てられているを指定する新しいルールを作成します。カテゴリです。</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した CategoryRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>CategoryRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または特定の条件または例外条件のメッセージが割り当てられているを指定する新しいルールを作成します。カテゴリです。 </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した CategoryRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -241,12 +227,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionCc</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionCc</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件の [Cc] ボックスに名前があることを指定する新しいルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件の [Cc] ボックスに名前があることを指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -272,7 +257,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -300,12 +285,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>列挙することができます、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> 1 から<b>RuleConditions.Count</b>を既存のルールのすべてのルールの条件を決定するまでのコレクションです。ルールの条件およびルールと通知ウィザードでサポートされているすべてのルールの条件を使用できるの最も一般的規則を作成するルール オブジェクト モデルをサポートしていますが、 <b>RuleConditions</b>コレクションには、ルールの条件がすべてが含まれます。したがって常に列挙する<b>RuleConditions</b>コレクション オブジェクトは、既存のルールのルールの条件が有効になっていることを確認します。</para>
-          <para />
-        </remarks>
+        <remarks><para>列挙することができます、 <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> 1 から<b>RuleConditions.Count</b>を既存のルールのすべてのルールの条件を決定するまでのコレクションです。 ルールの条件およびルールと通知ウィザードでサポートされているすべてのルールの条件を使用できるの最も一般的規則を作成するルール オブジェクト モデルをサポートしていますが、 <b>RuleConditions</b> コレクションには、ルールの条件がすべてが含まれます。 したがって常に列挙する <b>RuleConditions</b> コレクション オブジェクトは、既存のルールのルールの条件が有効になっていることを確認します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -331,13 +314,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormNameRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /><b>olConditionFormName</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> <b>olConditionFormName</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>FormNameRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するときか、またはメッセージが指定されたフォームを使用する例外条件を指定する新しいルールを作成するときに使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>FormNameRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para><b>FormNameRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または、またはメッセージが指定されたフォームを使用する例外条件を指定する新しいルールを作成するに使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>FormNameRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -363,13 +344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionFrom</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionFrom</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ToOrFromRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件では、メッセージの送信者を指定する新しいルールを作成するときに使用します 指定のリストで<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />です</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ToOrFromRuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para><b>ToOrFromRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件では、メッセージの送信者を指定する新しいルールを作成するときに使用します 一覧を指定した<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ToOrFromRuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAnyRSSFeed">
@@ -395,11 +374,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionFromAnyRssFeed</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionFromAnyRssFeed</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージが RSS 購読からの例外の条件または条件を指定するルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく、<b>取得した RuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。 </para><para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージが RSS 購読からの例外の条件または条件を指定するルールを作成するときは、返される <b>RuleCondition</b> オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく、<b>取得した RuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -425,11 +404,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /><b>olConditionFromRssFeed</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> <b>olConditionFromRssFeed</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>FromRSSFeedRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージが特定の RSS からの例外の条件または条件を指定する新しいルールを作成します。サブスクリプション</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>FromRSSFeedRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /><b>は True</b>になります。 </para><para /></remarks>
+        <remarks><para><b>FromRSSFeedRuleCondition</b> オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、またはメッセージが特定の RSS 購読からの例外の条件または条件を指定する新しいルールを作成するに使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>FromRSSFeedRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /><b>は True</b>になります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -455,12 +434,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionHasAttachment</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionHasAttachment</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージに添付ファイルがあることを指定する新しいルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージに添付ファイルがあることを指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -486,12 +464,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ImportanceRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /><b>olConditionImportance</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> <b>olConditionImportance</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>ImportanceRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件を指定したレベルのメッセージは、指定する新しいルールを作成します。重要なのです</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ImportanceRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>ImportanceRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件を指定したレベルのメッセージは、指定する新しいルールを作成します。重要性。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ImportanceRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -523,11 +500,8 @@
         <param name="Index">1 から始まる数値<b>RuleConditions</b>コレクション内のルールの条件の位置を反映しています。 たとえば、コレクションの最初のルールの条件のインデックス値は 1、し、2 番目のルールの条件のインデックス値は 2 です。</param>
         <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />で指定されたオブジェクト<paramref name="Index" />に数値インデックスである、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションです。</summary>
         <value>指定したオブジェクトを <b>取得した RuleCondition</b> オブジェクトを返します。</value>
-        <remarks>
-          <para>
-            <b>RuleConditions</b>コレクション オブジェクトは、固定のコレクションです。<b>取得した RuleCondition</b>オブジェクトまたは<b>RuleCondition</b>から派生したオブジェクトが含まれています。コレクション内のルールの条件のアイテムを列挙し、設定するインデックスを作成することができますが追加または、このコレクションから項目を削除することはできません、<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />ルールの条件のプロパティです。列挙して、コレクションを列挙するために<b>アイテム</b>を使用して、<paramref name="Index" />を 1 から<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>RuleConditions</b> コレクション オブジェクトは、固定のコレクションです。 <b>取得した RuleCondition</b> オブジェクトまたは <b>RuleCondition</b> から派生したオブジェクトが含まれています。 コレクション内のルールの条件のアイテムを列挙し、設定するインデックスを作成することができますが追加または、このコレクションから項目を削除することはできません、<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />ルールの条件のプロパティです。 列挙して、コレクションを列挙するために<b>アイテム</b>を使用して、<paramref name="Index" />を 1 から<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingInviteOrUpdate">
@@ -553,12 +527,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionMeetingInviteOrUpdate</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionMeetingInviteOrUpdate</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返される<b>RuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージは、会議出席依頼または会議を指定する新しいルールを作成します。更新します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>返される<b>RuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件のメッセージは、会議出席依頼または会議を指定する新しいルールを作成します。更新します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageHeader">
@@ -584,12 +557,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionMessageHeader</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionMessageHeader</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、またはメッセージのヘッダーには、指定した例外条件を指定する新しいルールを作成します。テキスト</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、またはメッセージのヘッダーには、指定した例外条件を指定する新しいルールを作成します。テキストです。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotTo">
@@ -615,12 +587,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionNotTo</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionNotTo</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] ボックスには自分の名前を指定する新しいルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] ボックスには自分の名前を指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnLocalMachine">
@@ -646,12 +617,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionLocalMachineOnly</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionLocalMachineOnly</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件ルールは、このコンピューターのみで実行できることを指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。同じルールを別のコンピューターで実行すると、ルールが表示されます、条件<b>olConditionOtherMachine</b>が有効になっている</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。この種類のルールの条件をプログラムで有効にできます。場合によっては、 <b>olConditionAccount</b>などの別のルール条件を有効にすることの結果として<b>olConditionLocalMachine</b>が自動的に設定します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件ルールは、このコンピューターのみで実行できることを指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。 別のコンピューターで同じルールを実行すると、条件 <b>olConditionOtherMachine</b> が有効になっていることを示すメッセージが表示されます。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 この種類のルールの条件をプログラムで有効にできます。 場合によっては、 <b>olConditionAccount</b> などの別のルール条件を有効にすることの結果として <b>olConditionLocalMachine</b> が自動的に設定します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnlyToMe">
@@ -677,12 +647,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionOnlyToMe</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionOnlyToMe</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するときや、自分だけにメッセージが送信される例外の条件または条件を指定する新しいルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するときや、自分だけにメッセージが送信される例外の条件または条件を指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnOtherMachine">
@@ -708,13 +677,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionOtherMachine</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionOtherMachine</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件または既存のルールの例外条件を列挙する場合は、返される<b>RuleCondition</b>オブジェクトを使用します。このルールの条件では、ローカル コンピューター以外のいくつかのコンピューターでのみルールを実行できることを示します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します</para>。
-          <para>のプログラムを有効にするまたは種類が<b>olConditionOtherMachine</b>の条件を無効にすることはできません。この種類のルールの条件は、現在のものではない特定のコンピューターでのみルールを実行できることを示します。これは、コンピューターおよびルールの条件<b>olConditionLocalMachineOnly</b>が有効である、ルールをそのコンピューター上でのみ実行できることを示すルールが作成されたときに発生します。同じルールを別のコンピューターで実行すると、ルールが表示されます、条件<b>olConditionOtherMachine</b>が有効になっている</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件または既存のルールの例外条件を列挙する場合は、返される<b>RuleCondition</b>オブジェクトを使用します。 このルールの条件では、ローカル コンピューター以外のいくつかのコンピューターでのみルールを実行できることを示します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。</para>
+          <para>プログラムを有効にするまたは、種類が <b>olConditionOtherMachine</b> の条件を無効にすることはできません。 この種類のルールの条件は、現在のものではない特定のコンピューターでのみルールを実行できることを示します。 これは、コンピューターおよびルールの条件<b>olConditionLocalMachineOnly</b>が有効である、ルールをそのコンピューター上でのみ実行できることを示すルールが作成されたときに発生します。 別のコンピューターで同じルールを実行すると、条件 <b>olConditionOtherMachine</b> が有効になっていることを示すメッセージが表示されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -742,10 +710,8 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>親、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RecipientAddress">
@@ -771,13 +737,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionRecipientAddress</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionRecipientAddress</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>取得した AddressRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または受信者のアドレスが含まれている例外の条件または条件を指定する新しいルールを作成するときに使用します指定されたテキストです。</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AddressRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para><b>取得した AddressRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または受信者のアドレスが含まれている例外の条件または条件を指定する新しいルールを作成するときに使用します指定されたテキストです。 </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AddressRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderAddress">
@@ -803,13 +767,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionSenderAddress</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionSenderAddress</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>取得した AddressRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または送信者のアドレスが含まれている例外の条件または条件を指定する新しいルールを作成するときに使用します指定されたテキストです。</para>
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AddressRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para><b>取得した AddressRuleCondition</b>オブジェクトは、ルールの条件や、既存のルールの例外条件を列挙するとき、または送信者のアドレスが含まれている例外の条件または条件を指定する新しいルールを作成するときに使用します指定されたテキストです。 </para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した AddressRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderInAddressList">
@@ -835,12 +797,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /><b>olConditionAccount</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> <b>olConditionAccount</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>SenderInAddressListRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または送信者が、指定した例外条件または条件を指定する新しいルールを作成します。アドレス] ボックスの一覧です</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>SenderInAddressListRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>SenderInAddressListRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または送信者が、指定した例外条件または条件を指定する新しいルールを作成します。アドレス一覧です。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>SenderInAddressListRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentTo">
@@ -866,13 +827,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionSentTo</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionSentTo</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ToOrFromRuleCondition</b>オブジェクト使用条件または例外条件を指定する新しいルールを作成するときや、ルールの条件または既存のルールの例外条件を列挙する場合、受信者 ([宛先] および [cc] テキストボックス) の指定されたリストでは、メッセージの<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />です</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ToOrFromRuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para><b>ToOrFromRuleCondition</b>オブジェクト使用条件または例外条件を指定する新しいルールを作成するときや、ルールの条件または既存のルールの例外条件を列挙する場合、受信者 ([宛先] および [cc] テキストボックス) の指定されたリストでは、メッセージの<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>ToOrFromRuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -898,19 +857,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -936,12 +892,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionSubject</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionSubject</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、またはメッセージの件名には、指定した例外条件を指定する新しいルールを作成します。テキスト</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>取得した<b>TextRuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、またはメッセージの件名には、指定した例外条件を指定する新しいルールを作成します。テキストです。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した TextRuleCondition</b>オブジェクトを返します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToMe">
@@ -967,12 +922,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionTo</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionTo</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] ボックスには、自分の名前を指定する新しいルールを作成するときに<b>取得した RuleCondition</b>オブジェクトを使用します</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] ボックスには、自分の名前を指定する新しいルールを作成するときは、返される<b>RuleCondition</b>オブジェクトを使用します。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToOrCc">
@@ -998,12 +952,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionToOrCc</b>のです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、 <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionToOrCc</b>のです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返される<b>RuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] または [cc] に名前があることを指定する新しいルールを作成するボックスです</para>。
-          <para>の特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります</para>。
-          <para /></remarks>
+        <remarks><para>返される<b>RuleCondition</b>オブジェクトを使用して、ルールの条件や、既存のルールの例外条件を列挙するとき、または、条件または例外条件] または [cc] に名前があることを指定する新しいルールを作成するボックスです。</para>
+          <para>特定のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />コレクションを常には、この<b>RuleConditions</b>コレクションに関連付けられているルールがルールの条件を定義するかどうかに関係なく<b>取得した RuleCondition</b>オブジェクトを取得します。 ルールが定義され、し、このようなルールの条件を有効になっているかどうかは<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>は True</b>になります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_SimpleItems" FullName="Microsoft.Office.Interop.Outlook._SimpleItems">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638466" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903364" /></Metadata><TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SimpleItems implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SimpleItems" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SimpleItems&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親 Outlook アプリケーションを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Application" />の親 Outlook アプリケーションを表すオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>を返す<b>整数値</b>(C# では<b>int</b> ) 内のオブジェクトの数を示す、<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />コレクションです。 値の取得のみ可能です。</summary>
+        <summary>を返す<b>整数値</b>(C# では<b>int</b> ) 内のオブジェクトの数を示す、<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />コレクションです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,14 +136,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <b>SimpleItems</b> コレクション内のオブジェクトの 0 から始まるインデックス番号です。</param>
+        <param name="Index"><b>SimpleItems</b> コレクション内のオブジェクトの 0 から始まるインデックス番号です。</param>
         <summary>返します、 <see cref="T:System.Object" /> (C# での<b>オブジェクト</b>) で、<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />コレクションです。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが、コレクション内のオブジェクトを取得する失敗した場合で指定された、 <paramref name="Index" /> 、パラメーター、メソッドを返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが、コレクション内のオブジェクトを取得する失敗した場合で指定された、 <paramref name="Index" /> 、パラメーター、メソッドを返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#)。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -177,13 +166,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>親を返します<see cref="T:System.Object" />(C# での<b>オブジェクト</b>) の<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>親を返します<see cref="T:System.Object" />(C# での<b>オブジェクト</b>) の<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SimpleItems</b>オブジェクトの親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SimpleItems</b>オブジェクトの親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -209,12 +195,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>を返します<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) ログオン セッションが存在しない場合です</para>。<b>セッション</b>のプロパティを使用することができます
-          <para>と<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドを取得するには、同じ意味で、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。両方のメンバーが同じ目的を提供します</para>。
-          <para /></remarks>
+        <remarks><para>ログオン セッションが存在しない場合<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para><b>セッション</b>のプロパティを使用することができ、<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドを取得するには、同じ意味で、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクト。 両方のメンバーでは、同じ目的を果たします。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

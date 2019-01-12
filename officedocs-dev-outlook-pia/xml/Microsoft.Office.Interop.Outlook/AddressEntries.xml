@@ -1,13 +1,5 @@
 <Type Name="AddressEntries" FullName="Microsoft.Office.Interop.Outlook.AddressEntries">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4bda78f2cfac522b2c9037bd4e14d0b6b1213f6c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638506" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="934ec4a81165b2002ddbd25cdf69cfc08184863b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903154" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntries implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntries" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntries&#xA;Implements IEnumerable" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>アドレスのコレクションが含まれています、<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />オブジェクトです。</summary>
-    <remarks>
-      <para>オブジェクトには、0 個以上が含まれている可能性があります<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトし、トランスポート プロバイダーのアドレス帳コンテナー内のエントリへのアクセスを提供します。</para>
-      <para />
-    </remarks>
+    <remarks><para>オブジェクトには、0 個以上が含まれている可能性があります<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトし、トランスポート プロバイダーのアドレス帳コンテナー内のエントリへのアクセスを提供します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -65,12 +55,9 @@
         <param name="Name">新しい項目の名前を指定します。</param>
         <param name="Address">アドレスを指定します。</param>
         <summary>新しいエントリを追加、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、新しいエントリを表すオブジェクト。</returns>
-        <remarks>
-          <para>通話が終了するまでコレクションに新しい項目または既存のエントリへの変更は保持されません、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、新しいエントリを表すオブジェクト。</returns>
+        <remarks><para>通話が終了するまでコレクションに新しい項目または既存のエントリへの変更は保持されません、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" />メソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -96,7 +83,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,7 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +139,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,12 +166,9 @@
       <Parameters />
       <Docs>
         <summary>最初のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、コレクションに含まれる最初のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 、コレクションに含まれる最初のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para>返す <b>も何も</b> 最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。 <b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -209,13 +193,9 @@
       <Parameters />
       <Docs>
         <summary>最後のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />コレクションに含まれている最後のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />コレクションに含まれている最後のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para><b>Nothing</b> が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。 動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -240,13 +220,9 @@
       <Parameters />
       <Docs>
         <summary>次のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />コレクションに含まれている次のオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />コレクションに含まれている次のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para><b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -271,13 +247,9 @@
       <Parameters />
       <Docs>
         <summary>前のオブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />コレクションです。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />前に、コレクションに含まれるオブジェクトを表すオブジェクト。</returns>
-        <remarks>
-          <para>
-            <b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />前に、コレクションに含まれるオブジェクトを表すオブジェクト。</returns>
+        <remarks><para><b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -394,19 +366,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -435,11 +404,9 @@
         <param name="Property">並べ替えに使用するプロパティの名前を指定します。"[CompanyName]" のように角かっこで囲んでもかまいません。ユーザー定義のフィールドは指定できません。また、分類項目などの複数値を持つプロパティを指定することもできません。</param>
         <param name="Order">指定されたアドレス エントリの順序です。 <b>アドレス</b> 項目のいずれか: <b>olAscending</b> 、 <b>olDescending</b> 、または <b>順序</b> です。 </param>
         <summary>指定されたプロパティごとにアイテムのコレクションを並べ替えます。コレクションのインデックスは、メソッドの完了時に 1 に設定されます。</summary>
-        <remarks>
-          <para>
-            <b>並べ替え</b>は、コレクション内の項目の順序にのみ影響します。エクスプ ローラー ビューでアイテムの順序には影響しません。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>並べ替え</b> は、コレクション内の項目の順序にのみ影響します。エクスプ ローラー ビューでアイテムの順序には影響しません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

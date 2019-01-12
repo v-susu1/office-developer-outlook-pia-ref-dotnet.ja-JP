@@ -1,13 +1,5 @@
 <Type Name="AddressEntry" FullName="Microsoft.Office.Interop.Outlook.AddressEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="682854cc41fd5876bf1d22c8d65e2332e2233750" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638256" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c3361d6fae79bf9b2c1326717d5a3bd9227da59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906752" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntry" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>メッセージング システムがメッセージを配信できるユーザー、グループ、パブリック フォルダーのいずれかを表します。</summary>
-    <remarks>
-      <para>
-        <b>AddressEntry</b>オブジェクトのアドレスでは、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />オブジェクトです。<b>AddressEntries</b>オブジェクトの各<b>AddressEntry</b>オブジェクトは、ユーザー、グループ、またはパブリック フォルダーのメッセージング システムがメッセージを配信する先を表す情報を保持します</para>。
-      <para>使用<b>AddressEntries</b>(<paramref name="index" />)、<paramref name="index" />のアドレス エントリまたは 1 つの<b>AddressEntry</b>オブジェクトを取得するのには、アドレス エントリの既定のプロパティを一致するように使用する値のインデックス番号します</para>。
-      <para /></remarks>
+    <remarks><para><b>AddressEntry</b>オブジェクトのアドレスでは、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />オブジェクトです。 <b>AddressEntries</b>オブジェクトの各<b>AddressEntry</b>オブジェクトには、ユーザー、グループ、またはパブリック フォルダーのメッセージング システムがメッセージを配信する先を表す情報が保持されます。</para>
+      <para><b>AddressEntries</b>を使用 (<paramref name="index" />)、どこで<paramref name="index" />のアドレス エントリまたは 1 つの<b>AddressEntry</b>オブジェクトを取得するのには、アドレス エントリの既定のプロパティを一致するように使用する値のインデックス番号します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -60,13 +50,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定を取得または設定の電子メール アドレスを表す、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <remarks><para>呼び出しの前に、 <b>Address</b>プロパティを設定する必要があります、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -92,13 +79,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 値の取得のみ可能です。</summary>
+        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />のユーザーを表す列挙値を入力、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AddressEntryUserType</b>の場合よりもさらに細かくは、ユーザーの種類の細分性のレベルを提供する<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />。<b>DisplayType</b>プロパティは<b>AddressEntry</b>、ライトウェイト ディレクトリ アクセス プロトコル (LDAP)、簡易メール転送プロトコル (SMTP) 電子メール アドレスを持つ<b>AddressEntry</b>などのさまざまな種類のユーザーを区別していませんアドレス、Exchange ユーザーのアドレス、または Outlook の連絡先アドレス帳には、 <b>AddressEntry</b> 。これらすべてのエントリには、その<b>AddressEntry.DisplayType</b>として<b>olUser</b>をがあります。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>AddressEntryUserType</b>の場合よりもさらに細かくは、ユーザーの種類の細分性のレベルを提供する<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />。 <b>DisplayType</b>プロパティは<b>AddressEntry</b>、ライトウェイト ディレクトリ アクセス プロトコル (LDAP)、簡易メール転送プロトコル (SMTP) 電子メール アドレスを持つ<b>AddressEntry</b>などのさまざまな種類のユーザーを区別していませんアドレス、Exchange ユーザーのアドレス、または Outlook の連絡先アドレス帳には、 <b>AddressEntry</b> 。 これらすべてのエントリには、その<b>AddressEntry.DisplayType</b>として<b>olUser</b>をがあります。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -124,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +137,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,11 +191,10 @@
       <Docs>
         <param name="HWnd">[ 詳細] ダイアログ ボックスの親ウィンドウ ハンドルを指定します。0 (既定値) を設定すると、そのダイアログの親として Outlook が指定されます。 </param>
         <summary>に関する詳細な情報を提供するモードレス ダイアログ ボックスが表示され、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。</summary>
-        <remarks>
-          <para>
-            <b>注</b>:<b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />プロパティが空です</para>。
-          <para>ダイアログ ボックスで [キャンセル] をクリックすると、実行時エラーを処理するためにエラー処理を使用する必要があります。<b>Details</b>メソッドは実際には、コードの実行] ダイアログ ボックスが表示されますを停止します</para>。
-          <para /></remarks>
+        <remarks><para>
+            <b>注</b>:<b>詳細</b>失敗した場合、<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />プロパティが空です。</para>
+          <para>エラー] ダイアログ ボックスで キャンセルをユーザーがクリックしたときに実行時エラーを処理するために処理を使用する必要があります。 <b>Details</b> メソッドは、実際には、コードの実行のダイアログ ボックスが表示されているときを停止します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -236,13 +220,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 値の取得のみ可能です。</summary>
+        <summary>属しているクラスの定数の<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />の性質を説明する列挙体の<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>DisplayType</b>プロパティ フィルターのアドレスのエントリを使用することができます。<b>DisplayType</b>プロパティは、MAPI プロパティの<b>PidTagDisplayType</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>DisplayType</b> プロパティ フィルターのアドレスのエントリを使用することができます。 <b>DisplayType</b> プロパティは、MAPI プロパティの <b>PidTagDisplayType</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -266,9 +247,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の連絡先で、Outlook の連絡先アドレス帳 (CAB) に対応している場合、します。</summary>
-        <returns>
-          <b>AddressEntry</b> に対応する <b>ContactItem</b> オブジェクトを返します。 <b>AddressEntry</b>オブジェクトが連絡先アドレス帳に連絡先に対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の連絡先で、Outlook の連絡先アドレス帳 (CAB) に対応している場合、します。</summary>
+        <returns><b>AddressEntry</b> に対応する <b>ContactItem</b> オブジェクトを返します。 <b>AddressEntry</b>オブジェクトが連絡先アドレス帳に連絡先に対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -293,13 +273,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange の配布リストに対応します。</summary>
-        <returns>
-          <b>AddressEntry</b> を表す <b>ExchangeDistributionList</b> オブジェクト。 <b>AddressEntry</b>オブジェクトが Exchange の配布リストに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
-        <remarks>
-          <para>このメソッドを使用して Exchange サーバーに接続する必要があります。</para>
-          <para />
-        </remarks>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange の配布リストに対応します。</summary>
+        <returns><b>AddressEntry</b> を表す <b>ExchangeDistributionList</b> オブジェクト。 <b>AddressEntry</b>オブジェクトが Exchange の配布リストに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
+        <remarks><para> このメソッドを使用するには、Exchange サーバーに接続している必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -323,13 +300,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /><b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange ユーザーに対応します。</summary>
-        <returns>
-          <b>AddressEntry</b>を表す<b>ExchangeUser</b>オブジェクト。 <b>AddressEntry</b>オブジェクトが Exchange ユーザーに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
-        <remarks>
-          <para>このメソッドを使用して Exchange サーバーに接続する必要があります。</para>
-          <para />
-        </remarks>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />を表すオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> <b>AddressEntry</b>の交換に属している場合は<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />グローバル アドレス一覧 (GAL) などのオブジェクトし、Exchange ユーザーに対応します。</summary>
+        <returns><b>AddressEntry</b>を表す<b>ExchangeUser</b>オブジェクト。 <b>AddressEntry</b>オブジェクトが Exchange ユーザーに対応していない場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
+        <remarks><para> このメソッドを使用するには、Exchange サーバーに接続している必要があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -361,19 +335,48 @@
         <param name="CompleteFormat">各時間枠に対して返される情報のレベルを表す<b>ブール</b>値 (C# では<b>bool</b> ) を指定します。 既定値は <b>False</b> です。</param>
         <summary>表す個々 のユーザーの 30 日間の期間の開始日から指定された日付の午前 0 時から始まる<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</summary>
         <returns>指定された期間のユーザーの可用性を表す<b>文字列</b>(C# では<b>文字列</b>) の値です。 この文字列値には、指定した期間内の時間枠ごとに 1 つの文字が含まれます。</returns>
-        <remarks>
-          <para>
-            <b>注</b>: <b>GetFreeBusy</b>メソッドを使用して、個々 のメンバーの状態に返されることはできませんアドレス エントリが配布リストである場合は、します。だけに会議出席依頼を送信するメッセージングのユーザーを 1 。かどうか、メッセージングのユーザーは配布リストかどうかを指定できます、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /><b>olDistList</b>や<b>olPrivateDistList</b>プロパティが設定されます</para>。
-          <para>このメソッドによって返される文字列の内容によって決まりますが、<paramref name="CompleteFormat" />のパラメーターです</para>。
-          <para>場合<paramref name="CompleteFormat" />設定は、 <b>false を指定</b>既定値をこのメソッドによって返される文字列が含まれています各タイム ・ スロットの次の文字のいずれか:</para><item><description>文字</description><description>の説明</description></item>を
-          <list type="table"><item><description>0</description><description>の時間帯は空き時間を表します</description></item>。
-            <item><description>1</description><description>の時間帯を仮の予定、外出中 (OOF)、またはビジー状態の期間を表します</description></item></list>。
-          <para>場合<paramref name="CompleteFormat" />に設定する<b>場合は True</b>、このメソッドによって返される文字列を含む各タイム ・ スロットの次の文字のいずれかの:</para><item><description>文字</description><description>の説明</description></item>を
-          <list type="table"><item><description>0</description><description>の時間帯は空き時間を表します</description></item>。
-            <item><description>1</description><description>の時間帯は、仮の予定期間を表します</description></item>。
-            <item><description>2</description><description>の時間帯がビジー状態である期間を表します</description></item>。
-            <item><description>3</description><description>(oof) の期間の時間帯を表します</description></item></list>。
-          <para /></remarks>
+        <remarks><para>
+            <b>注</b>: <b>GetFreeBusy</b>メソッドを使用して、個々 のメンバーの状態に返されることはできませんアドレス エントリが配布リストである場合は、します。 だけに会議出席依頼を送信するメッセージングのユーザーを 1 。 かどうか、メッセージングのユーザーは配布リストかどうかを指定できます、 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> <b>olDistList</b>や<b>olPrivateDistList</b>プロパティが設定されます。</para>
+          <para>このメソッドによって返される文字列の内容によって決まりますが、<paramref name="CompleteFormat" />のパラメーターです。 </para>
+          <para>場合<paramref name="CompleteFormat" />設定が<b>False</b>で、既定値をこのメソッドによって返される文字列が含まれています各タイム ・ スロットの次の文字のいずれか。</para>
+          <list type="table">
+            <item>
+              <description>文字</description>
+              <description>説明</description>
+            </item>
+            <item>
+              <description>0</description>
+              <description>時間枠は、空き時間を表します。</description>
+            </item>
+            <item>
+              <description>1</description>
+              <description>時間枠は、仮の予定の入っている時間、外出中 (OOF) の時間、または予定の入っている時間を表します。</description>
+            </item>
+          </list>
+          <para>場合<paramref name="CompleteFormat" />に設定する<b>場合は True</b>、このメソッドによって返される文字列を含む各タイム ・ スロットの次の文字のいずれかの。</para>
+          <list type="table">
+            <item>
+              <description>文字</description>
+              <description>説明</description>
+            </item>
+            <item>
+              <description>0</description>
+              <description>時間枠は、空き時間を表します。</description>
+            </item>
+            <item>
+              <description>1</description>
+              <description>時間枠は、仮の予定の入っている時間を表します。</description>
+            </item>
+            <item>
+              <description>2</description>
+              <description>時間枠は、予定の入っている時間を表します。</description>
+            </item>
+            <item>
+              <description>3</description>
+              <description>時間枠は、外出中 (OOF) の時間を表します。</description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -399,13 +402,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意の識別子を表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意の識別子を表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>トランスポート プロバイダーは、個々 のメンバー オブジェクトが作成される永続的な一意の文字列<b>ID</b>プロパティを割り当てます。これらの識別子の 1 つのセッションから別に変わりません。</para>
-          <para />
-        </remarks>
+        <remarks><para>トランスポート プロバイダーは、個々 のメンバー オブジェクトが作成される永続的な一意の文字列 <b>ID</b> プロパティを割り当てます。これらの識別子の 1 つのセッションから別に変わりません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -533,13 +533,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトの表示名の<b>文字列</b>値 (C# では<b>文字列</b>) を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはオブジェクトの表示名の<b>文字列</b>値 (C# では<b>文字列</b>) を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Name</b>プロパティを呼び出す前に設定する必要がある、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Name</b>プロパティを呼び出す前に設定する必要がある、<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />メソッドです。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -593,7 +590,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -621,19 +618,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -662,8 +656,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、インターネット アドレス、MacMail アドレス、またはマイクロソフトのメール アドレスなど、このアドレスのエントリの種類を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、インターネット アドレス、MacMail アドレス、またはマイクロソフトのメール アドレスなど、このアドレスのエントリの種類を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -691,15 +684,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </param>
-        <param name="Refresh">
-          <b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </param>
+        <param name="MakePermanent"><b>True</b> に設定すると、元のアドレス帳に対するすべての変更内容が反映され、プロパティのキャッシュがクリアされます。 <b>False</b> に設定すると、変更内容は反映されずに、プロパティのキャッシュがクリアされます。既定値は <b>True</b> です。 </param>
+        <param name="Refresh"><b>True</b> に設定すると、元のアドレス帳の値をプロパティのキャッシュに読み込みます。 <b>False</b> に設定すると、プロパティのキャッシュに読み込みません。既定値は <b>False</b> です。 </param>
         <summary>投稿への変更、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />のメッセージング システム内のオブジェクト。</summary>
-        <remarks>
-          <para>新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します</para>。
-          <para>をキャッシュをフラッシュし、アドレス帳からの値を再読み込み、<b>更新</b>を呼び出す、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します</para>。
-          <para /></remarks>
+        <remarks><para>新しい項目または既存のエントリへの変更は保持されません、コレクションの<b>Update</b>メソッドが呼び出されるとまで、<paramref name="MakePermanent" />パラメーターが<b>True</b>に設定します。</para>
+          <para>キャッシュをフラッシュし、アドレス帳からの値を再読み込み、<b>更新</b>を呼び出す、<paramref name="MakePermanent" />パラメーターが<b>False</b>に設定し、<paramref name="Refresh" />パラメーターが<b>True</b>に設定します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

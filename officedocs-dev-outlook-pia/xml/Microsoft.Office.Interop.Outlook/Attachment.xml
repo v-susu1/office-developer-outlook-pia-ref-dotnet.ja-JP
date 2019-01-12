@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637954" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904219" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -27,10 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Outlook アイテムに含まれる文書または文書へのリンクを表します。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />インデックス番号は、1 つの<b>添付ファイル</b>オブジェクトを返します</para>。
-      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します</para>。
-      <para /></remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)、<paramref name="index" />インデックス番号は、1 つの<b>添付ファイル</b>オブジェクトを返します。</para>
+      <para>使用して、<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />のアイテムに添付ファイルを追加します。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,12 +75,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />かどうかは、そのファイル拡張子に基づいた添付ファイルを任意の制限を指定する定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />かどうかは、そのファイル拡張子に基づいた添付ファイルを任意の制限を指定する定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティの値は、そのファイルの拡張子とクライアント コンピューターどのように添付ファイルのセキュリティが設定されて、添付ファイルをブロックするかどうかを反映します。Outlook で添付ファイルのセキュリティの詳細については、Office リソース キット Web サイトを参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para>プロパティ中のこの値には、ファイル拡張子に基づいた添付ファイルのブロックの有無や、クライアント コンピューターに設定を施した添付セキュリティの種類が反映されます。Outlook の添付セキュリティについて詳しくは、Office リソース キット Web サイトを参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -115,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,13 +160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を設定、埋め込まれた添付ファイルを表すアイコンの下に表示される実際のファイル名を指定する必要はありませんが、名前を表します。 値の取得および設定が可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、埋め込まれた添付ファイルを表すアイコンの下に表示される実際のファイル名を指定する必要はありませんが、名前を表します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティは、MAPI プロパティの<b>PidTagDisplayName</b>に対応します。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagDisplayName</b> に対応します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -203,13 +189,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのファイル名を表します。  値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのファイル名を表します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>組み合わせてこのプロパティを使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />プロパティ。</para>
-          <para />
-        </remarks>
+        <remarks><para>組み合わせてこのプロパティを使用して、<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />プロパティ。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -233,13 +216,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>一時ファイル フォルダーにある添付ファイルへの完全なパスを返します。 値の取得のみ可能です。</summary>
+        <summary>一時ファイル フォルダーにある添付ファイルへの完全なパスを返します。 読み取り専用です。</summary>
         <returns>返します、<see cref="T:System.String" />の一時添付ファイルへの完全なパスを表します。</returns>
-        <remarks>
+        <remarks><para><b>GetTemporaryFilePath</b>メソッドはこれらの添付ファイル用の<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />プロパティは、 <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。 添付ファイルがコピーであること、および元のファイルが削除された場合でも、コピーにアクセスできることを意味します。 その他の添付ファイルの種類は、 <b>GetTemporaryFilePath</b> メソッドはエラーを返します。 </para>
           <para>
-            <b>GetTemporaryFilePath</b>メソッドはこれらの添付ファイル用の<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />プロパティは、 <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。添付ファイルがコピーであること、および元のファイルが削除された場合でも、コピーにアクセスできることを意味します。その他の添付ファイルの種類は、 <b>GetTemporaryFilePath</b>メソッドはエラーを返します。</para>
-          <para>
-            <b>GetTemporaryFilePath</b>にアクセスするときも、エラーを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトで、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />コレクションに、<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />オブジェクトです。Microsoft Outlook のさまざまな項目を以下に示すイベントのコールバックを添付ファイルでのみ使用して<b>GetTemporaryFilePath</b> :</para>
+            <b>GetTemporaryFilePath</b>にアクセスするときも、エラーを返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトで、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />コレクションに、<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />オブジェクトです。 <b>GetTemporaryFilePath</b> Microsoft Outlookさまざまな項目を以下に示すイベントのコールバックを添付ファイルでのみ使用します。</para>
           <list type="bullet">
             <item>
               <para>
@@ -282,8 +263,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -309,13 +289,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。  値の取得のみ可能です。</summary>
+        <summary>コレクション内のオブジェクトの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Index</b>プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の<b>インデックス</b>値があります。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Index</b> プロパティは現在のセッション中と、オブジェクトの追加、コレクションから削除すると変更できます。コレクション内の最初のオブジェクトには、1 の <b>インデックス</b> 値があります。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -400,13 +377,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのリンクの完全なパスを表します。 値の取得のみ可能です。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します添付ファイルのリンクの完全なパスを表します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティはリンクされたファイルに対して有効です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティは、ファイルがリンクされている場合にだけ有効です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -435,12 +409,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アイテムの本文内の添付ファイルの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>アイテムの本文内の添付ファイルの位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>「<b>位置</b>」プロパティは、本文形式がリッチ テキスト形式 (RTF) アイテムの添付ファイルに対してのみ機能します。本文が RTF でない場合は、 <b>Position</b>プロパティは設定操作では無視され、取得操作で常にゼロ (0) を返します</para>。
-          <para>本文の書式設定する項目の 0<b>の位置</b>プロパティを設定する場合は、rtf 形式、添付ファイルは、Outlook のユーザー インターフェイスに表示されません。添付ファイルには表示されないビュー、およびユーザーは、アイテムの本文から添付ファイルを削除することはできません。添付ファイルを介してアクセスできます、 <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> 、アイテムのコレクションです</para>。BodyFormat プロパティのプログラムでの設定を可能にする唯一の項目は、 
-          <para>、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。予定、連絡先、タスクなどの他の項目の種類は、既定で rtf 形式です。</para><para /></remarks>
+        <remarks><para>「 <b>位置</b> 」プロパティは、本文形式がリッチ テキスト形式 (RTF) アイテムの添付ファイルに対してのみ機能します。本文が RTF でない場合は、 <b>Position</b> プロパティは設定操作では無視され、取得操作で常にゼロ (0) を返します。</para>
+          <para>本文が rtf 形式を項目の 0 <b>の位置</b> プロパティを設定する場合、添付ファイルは Outlook のユーザー インターフェイスで表示されません。 添付ファイルには表示されないビュー、およびユーザーは、アイテムの本文から添付ファイルを削除することはできません。 添付ファイルを介してアクセスできます、 <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> 、アイテムのコレクションです。</para>
+          <para>BodyFormat プロパティのプログラムでの設定を可能にする唯一の項目は、 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 予定、連絡先、タスクなどの他の項目の種類は、既定で rtf 形式です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -466,7 +440,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -522,19 +496,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -560,12 +531,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>添付ファイルのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>添付ファイルのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>この情報できない場合があります常に添付ファイルにします。 たとえば、秒/MIME メッセージでは、実際の添付ファイルのサイズは正常、添付ファイルを抽出するまで添付ファイルのサイズを決定できない場合、このプロパティは 0 を返します。</para>
-          <para />
-        </remarks>
+        <remarks><para>この情報を添付ファイルで常に使用できるとは限りません。  たとえば、S/MIME メッセージでは、添付ファイルを抽出するまで実際の添付ファイルのサイズはわかりません。 添付ファイルのサイズを決定できない場合、このプロパティは 0 を返します。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

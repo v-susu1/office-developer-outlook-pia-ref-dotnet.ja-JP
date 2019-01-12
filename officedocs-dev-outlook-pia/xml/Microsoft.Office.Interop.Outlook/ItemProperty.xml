@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638841" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905611" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -27,10 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Microsoft Outlook アイテム オブジェクトの特定のアイテムのプロパティに関する情報を表します。</summary>
-    <remarks>
-      <para>各アイテムのプロパティは、名前、型、または項目の値など、アイテムの特定の属性を定義します。<b>ItemProperty</b>オブジェクトのメンバーである、<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />コレクションです</para>。
-      <para>使用<b>ItemProperties.Item</b>(<paramref name="index" />)、<paramref name="index" />コレクション内のオブジェクトの位置は、または単一の<b>ItemProperty</b>オブジェクトを取得する名前を付けることができます</para>。
-      <para /></remarks>
+    <remarks><para> 各アイテムのプロパティは、名前、型、または項目の値など、アイテムの特定の属性を定義します。 <b>ItemProperty</b>オブジェクトのメンバーである、<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />コレクションです。</para>
+      <para><b>ItemProperties.Item</b>を使用 (<paramref name="index" />)、どこで<paramref name="index" />コレクション内のオブジェクトの位置は、または単一の<b>ItemProperty</b>オブジェクトを取得する名前を付けることができます。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,7 +168,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Item プロパティがユーザーによって作成されたカスタム プロパティであるかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 値の取得のみ可能です。</summary>
+        <summary>Item プロパティがユーザーによって作成されたカスタム プロパティであるかを示す<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,7 +196,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>オブジェクトの表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,19 +252,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 値の取得のみ可能です。</summary>
+        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。両方のメンバーでは、同じ目的を果たします。たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -299,7 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。 値の取得のみ可能です。</summary>
+        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />を指定したオブジェクトの種類を示す定数です。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -404,13 +392,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定されたカスタムまたは明示的な組み込みプロパティの値を示す<b>オブジェクト</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>指定されたカスタムまたは明示的な組み込みプロパティの値を示す<b>オブジェクト</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ItemProperty.Value</b>を取得または明示的な組み込みプロパティまたはカスタム プロパティを設定することが許可されている場合でも、親オブジェクト、たとえば、ContactItem.Body から直接明示的な組み込みプロパティを参照できます。Outlook のプロパティにアクセスする方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ItemProperty.Value</b>を取得または明示的な組み込みプロパティまたはカスタム プロパティを設定することが許可されている場合でも、親オブジェクト、たとえば、ContactItem.Body から直接明示的な組み込みプロパティを参照できます。 Outlook のプロパティにアクセスする方法の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87861">プロパティの概要</a>を参照してください。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

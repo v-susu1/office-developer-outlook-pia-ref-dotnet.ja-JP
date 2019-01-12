@@ -1,13 +1,5 @@
 <Type Name="RuleCondition" FullName="Microsoft.Office.Interop.Outlook.RuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8dcd68641587fe09b73c2039f1d0b10882d45a6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638751" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleCondition : Microsoft.Office.Interop.Outlook._RuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b497b7a43bb4f0fee9ed02fcaf15e50d044a1a57" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902398" /></Metadata><TypeSignature Language="C#" Value="public interface RuleCondition : Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleCondition implements class Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleCondition&#xA;Implements _RuleCondition" />
@@ -30,12 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <b>RuleCondition</b> オブジェクトは、ルールを実行する前に満たす必要がある条件、またはルールを実行する前に満たしてはいけない例外条件を表します。</summary>
-    <remarks>
-      <para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。COM オブジェクトについての情報は、このトピックを参照してください。COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleCondition" />。</para>
+    <summary><b>RuleCondition</b> オブジェクトは、ルールを実行する前に満たす必要がある条件、またはルールを実行する前に満たしてはいけない例外条件を表します。</summary>
+    <remarks><para>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラスから派生した .NET インターフェイスです。 COM オブジェクトのすべてのメソッド、プロパティ、およびイベント メンバーにアクセスするのにには、この派生インターフェイスを使用します。 ただし、メソッドまたはイベントを使用する、同じ COM オブジェクトの下にある同じ名前を共有する場合は、メソッドを呼び出し、およびイベントに接続するための最新のイベント インターフェイスにキャストする場合は、対応するプライマリ インターフェイスにキャストします。 COM オブジェクトについての情報は、このトピックを参照してください。 COM オブジェクトのメソッドおよびプロパティ メンバーについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook._RuleCondition" />。 </para>
       <para>
-        <b>取得した RuleCondition</b>は、プログラムによるルールの作成でサポートされているルールの条件の基本クラスです。<b>取得した RuleCondition</b>から派生したクラスが含まれます:</para>
+        <b>取得した RuleCondition</b> は、プログラムによるルールの作成でサポートされているルールの条件の基本クラスです。 <b>取得した RuleCondition</b> から派生したクラスは次のとおりです。</para>
       <list type="bullet">
         <item>
           <para>
@@ -77,11 +67,15 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />
+          </para>
+        </item>
       </list>
-      <para>、ルール オブジェクト モデルには、仕分けルールと通知ウィザードと部分的に同等が用意されています。Outlook のユーザー インターフェイスです。最もよく使用されるルールのアクションと条件がサポートされています。サポートしていませんが各ルールの処理またはウィザードがサポートするルールの条件によるルールの作成も列挙してこれらのルールの処理と既存のルールの条件を有効にできます。</para>
+      <para>Rules オブジェクト モデルは、Outlook のユーザー インターフェイスの仕分けルールと通知ウィザードと部分的に同等の機能を提供します。このオブジェクト モデルは、最もよく使用されるルールの処理と条件をサポートしています。このオブジェクト モデルは、ウィザードがサポートする個々のルールの処理またはルールの条件によるルールの作成をサポートするわけではありませんが、既存のルールでこれらのルールの処理と条件を列挙して有効化することはできます。</para>
       <para>ルールの条件の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください<a href="http://go.microsoft.com/fwlink/?LinkId=87859">する方法: 特定の電子メールをフォルダーに移動するルールを作成</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

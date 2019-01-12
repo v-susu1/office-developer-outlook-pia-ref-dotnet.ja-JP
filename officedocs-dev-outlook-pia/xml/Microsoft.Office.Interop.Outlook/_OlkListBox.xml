@@ -1,13 +1,5 @@
 <Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20638473" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902762" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">リスト ボックス コントロールの一覧に追加する値です。</param>
         <param name="Index">一覧内での新しいアイテムの順番を示す値です。開始値は 0 です。</param>
         <summary>アイテムを一覧に追加します。さらに、一覧に追加する新しいアイテムのインデックスを指定することもできます。</summary>
-        <remarks>
-          <para>場合の値<paramref name="Index" />数以上は、リスト内の要素のリストの末尾に新規の項目が追加されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合の値<paramref name="Index" />数以上は、リスト内の要素のリストの末尾に新規の項目が追加されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -91,12 +81,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000005、ウィンドウです。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000005、ウィンドウ] です。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -125,12 +113,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。   値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>olBorderStyleSingle</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>olBorderStyleSingle</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -209,13 +195,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得および設定が可能です。</summary>
+        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>true を指定</b>します。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は <b>True</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -241,7 +224,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  値の取得のみ可能です。</summary>
+        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,12 +258,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>このプロパティが<b>OLE_COLOR</b><b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</para>
-          <para />
-        </remarks>
+        <remarks><para>このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。 このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -307,13 +288,10 @@
       </Parameters>
       <Docs>
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
-        <summary>
-          <b>文字列</b>(C# では<b>文字列</b>) を表す、リスト内の指定位置にある項目を取得します。</summary>
+        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す、リスト内の指定位置にある項目を取得します。</summary>
         <returns>リスト内の指定位置にある項目を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</returns>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelected">
@@ -340,13 +318,10 @@
       </Parameters>
       <Docs>
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
-        <summary>
-          <b>ブール型</b>(C# では<b>bool</b> ) をインデックス付けされた項目が現在選択されているかどうかを示す値を返します。</summary>
+        <summary><b>ブール型</b>(C# では<b>bool</b> ) をインデックス付けされた項目が現在選択されているかどうかを示す値を返します。</summary>
         <returns>Boolean (C# では<b>bool</b> )<b>に指定されたアイテムは、現在</b>選択されている、 <b>False</b>それ以外の場合。</returns>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -372,12 +347,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>リスト ボックス コントロールのドロップダウン リストで要素の数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。 値の取得のみ可能です。</summary>
+        <summary>リスト ボックス コントロールのドロップダウン リストで要素の数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、リストにアイテムがないことを示す、0 です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は 0 で、リストに要素がないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -406,13 +379,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Reurns またはセットをコンボ ボックスの一覧で現在選択されている要素の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を制御します。 値の取得および設定が可能です。</summary>
+        <summary>Reurns またはセットをコンボ ボックスの一覧で現在選択されている要素の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を制御します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ListIndex</b>は、リスト内の項目の配列のインデックス 0 から始まる値です。 既定値は、-1 で、項目が選択されていないことを示します。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ListIndex</b> は、リスト内の項目の配列のインデックス 0 から始まる値です。  既定値は、-1 で、項目が選択されていないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -441,11 +412,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得および設定が可能です。</summary>
+        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は<b>false を指定</b>します</para>。
-          <para>コントロールがロックされている場合は、コントロールは「無効」の外観では、ありませんが、ユーザーがコントロールの内容を編集できません。 </para><para /></remarks>
+        <remarks><para>既定値は <b>False</b> です。</para>
+          <para>ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MatchEntry">
@@ -474,12 +445,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMatchEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" />コントロールがユーザーのリストを検索する方法を示す定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" />コントロールがユーザーのリストを検索する方法を示す定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMatchEntryComplete</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMatchEntryComplete</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -508,12 +477,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得および設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルに独自の画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -542,12 +509,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、 <b>olMousePointerDefault</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiSelect">
@@ -576,7 +541,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> 、リスト ボックス コントロールで選択できる項目の範囲を指定する定数です。 値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> 、リスト ボックス コントロールで選択できる項目の範囲を指定する定数です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -606,10 +571,8 @@
       <Docs>
         <param name="Index">一覧内でのアイテムの配列に対するインデックスの値です。開始値は 0 です。</param>
         <summary>一覧から指定したアイテムを削除します。</summary>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -639,10 +602,8 @@
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
         <param name="Item">一覧内の指定位置を更新するときに使用する値です。</param>
         <summary>一覧内で指定した位置にあるアイテムを、指定した値に設定します。</summary>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSelected">
@@ -670,13 +631,10 @@
       </Parameters>
       <Docs>
         <param name="Index">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</param>
-        <param name="Selected">
-          <b>該当</b> 項目を選択することを示すために、 <b>false を指定</b> する項目を選択されていないことを示します。</param>
+        <param name="Selected"><b>該当</b> 項目を選択することを示すために、 <b>false を指定</b> する項目を選択されていないことを示します。</param>
         <summary>リスト内の指定位置にあるアイテムの選択状態を設定、指定した<paramref name="Selected" />の値です。</summary>
-        <remarks>
-          <para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</para>
-          <para />
-        </remarks>
+        <remarks><para>場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -705,13 +663,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得および設定が可能です。</summary>
+        <summary>取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>プロパティの既定値は、空の文字列です</para>。
-          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です</para>。
-          <para /></remarks>
+        <remarks><para><b>Text</b> プロパティの既定値は、空の文字列です。</para>
+          <para><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -740,12 +696,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得および設定が可能です。</summary>
+        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>既定値は、英語などの左から右の言語では<b>olTextAlignLeft</b>です。</para>
-          <para />
-        </remarks>
+        <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -774,12 +728,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、リストの表示部分の一番上にある項目のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、リストの表示部分の一番上にある項目のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>一覧をスクロール、リストの上部にある項目を変更すると、リストの上部に表示されている項目を反映するようにこのプロパティの値が変更されます</para>。
-          <para>インデックスの値は 0 です。既定値は-1、特別な順序付けを設定しないことを示すします</para>。
-          <para /></remarks>
+        <remarks><para>一覧をスクロールすると先頭のアイテムは変わります。このプロパティの値も、一覧の先頭に現在表示されているアイテムに応じて変わります。</para>
+          <para>インデックスの開始値は 0 です。既定値は -1 で、特に順序を設定しないことを示します。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -808,12 +761,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、コントロールによって表示される一覧で選択した内容を表す<b>オブジェクト</b>を設定します。 値の取得および設定が可能です。</summary>
+        <summary>返すまたは、コントロールによって表示される一覧で選択した内容を表す<b>オブジェクト</b>を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。</para>
-          <para />
-        </remarks>
+        <remarks><para>値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

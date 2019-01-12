@@ -1,13 +1,5 @@
 <Type Name="OlMarkInterval" FullName="Microsoft.Office.Interop.Outlook.OlMarkInterval">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7c9e49df717ce3ddf0f27eb4d29b64b4f9d7e205" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ja-JP" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20639080" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlMarkInterval" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5d866ab7681d12730bf668c858772b7531129236" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904974" /></Metadata><TypeSignature Language="C#" Value="public enum OlMarkInterval" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMarkInterval extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlMarkInterval" />
@@ -21,8 +13,7 @@
   </Base>
   <Docs>
     <summary>Outlook アイテムをタスクとして設定する期限を指定します。</summary>
-    <remarks>
-      <para>次の Outlook アイテムを<b>仕事としてマークできる</b>メソッドでこの列挙体を使用:</para>
+    <remarks><para>次の Outlook アイテムの <b>MarkAsTask</b> メソッドで使用します。</para>
       <list type="bullet">
         <item>
           <para>
@@ -44,11 +35,62 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />
+          </para>
+        </item>
       </list>
-      <para>指定された既定値に、選択した値に応じて次のプロパティの設定します</para>。
-      <list type="table"><item><description>列挙値</description>の
-          <description>プロパティの値</description></item><item><description><b>olMarkComplete</b></description><description><b>TaskCompletedDate</b>を現在の日付に設定されて、項目がタスクとしてマークされている場合 (<b>ここで</b>Visual Basic で) 時間とします。<b>TaskCompletedDate</b>は、アイテムがタスクとしてマークされていない場合、またはタスクが既に表示されて完全な空の日付値 (1/1/4501 #) に設定されています</description></item>。
-        <item><description><b>olMarkNoDate</b></description><description><b>IsMarkedAsTask</b>が<b>True</b>に設定されています。<b>TaskSubject</b>は、Outlook アイテムの<b>Subject</b>プロパティの値に設定されます。<b>TaskStartDate</b><b>TaskDueDate</b>、 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されます。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。 </description></item><item><description><b>olMarkNextWeek</b></description><description><b>IsMarkedAsTask</b>が<b>True</b>に設定します。<b>TaskSubject</b>は、Outlook アイテムの<b>Subject</b>プロパティの値に設定されます。<b>TaskStartDate</b>は、次の週の最初の稼働日に設定されています。  <b>TaskDueDate</b>は、次の週の最後の稼働日に設定されています。<b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。</description></item><item><description><b>olMarkThisWeek</b></description><description><b>IsMarkedAsTask</b>が<b>True</b>に設定します。<b>TaskSubject</b>は、Outlook アイテムの<b>Subject</b>プロパティの値に設定されます。<b>TaskStartDate</b>は、現在の日付の前の 2 つの稼働日の日付に設定されています。<b>TaskDueDate</b>の値を超える値を場合、 <b>TaskStartDate</b>は、 <b>TaskDueDate</b>の値に設定されます。  <b>TaskDueDate</b>は、現在の週の最後の稼働日に設定されています。<b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。</description></item><item><description><b>olMarkToday</b></description><description><b>IsMarkedAsTask</b>が<b>True</b>に設定します。<b>TaskSubject</b>は、Outlook アイテムの<b>Subject</b>プロパティの値に設定されます。<b>TaskStartDate</b> 、 <b>TaskDueDate</b>は、現在の日付に設定されます。 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。</description></item><item><description><b>olMarkTomorrow</b></description><description><b>IsMarkedAsTask</b>が<b>True</b>に設定します。<b>TaskSubject</b>は、Outlook アイテムの<b>Subject</b>プロパティの値に設定されます。<b>TaskStartDate</b> 、 <b>TaskDueDate</b>は、現在の日付の翌日に設定されます。 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。</description></item></list><para /></remarks>
+      <para>設定値に応じ、次のプロパティがそれぞれの既定値に設定されます。</para>
+      <list type="table">
+        <item>
+          <description>列挙値</description>
+          <description>プロパティの値</description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkComplete</b>
+          </description>
+          <description>
+            <b>TaskCompletedDate</b>を現在の日付に設定されて、項目がタスクとしてマークされている場合 (<b>ここで</b>Visual Basic で) 時間とします。 アイテムがタスクとしてマークされていない場合、またはタスクが既に表示されて完全な <b>TaskCompletedDate</b>が空の日付の値 (1/1/4501 #) に設定されています。</description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkNoDate</b>
+          </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> を True <b>True</b> と設定します。 TaskSubject <b>TaskSubject</b> に Outlook アイテムの Subject <b>Subject</b> プロパティ値を設定します。 <b>TaskStartDate</b> <b>TaskDueDate</b>、 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されます。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。  </description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkNextWeek</b>
+          </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> を True <b>True</b> と設定します。 TaskSubject <b>TaskSubject</b> に Outlook アイテムの Subject <b>Subject</b> プロパティ値を設定します。 TaskStartDate <b>TaskStartDate</b> に来週の最初の稼働日を設定します。   TaskDueDate <b>TaskDueDate</b> に来週の最後の稼働日を設定します。 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。 </description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkThisWeek</b>
+          </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> を True <b>True</b> と設定します。 TaskSubject <b>TaskSubject</b> に Outlook アイテムの Subject <b>Subject</b> プロパティ値を設定します。 TaskStartDate <b>TaskStartDate</b> に今日から 2 稼働日後の日付を設定します。 ただし、この日付が TaskDueDate <b>TaskDueDate</b> 以降になってしまう場合、TaskStartDate <b>TaskStartDate</b> を TaskDueDate <b>TaskDueDate</b> と同じ日付にします。   TaskDueDate <b>TaskDueDate</b> に今週の最後の稼働日を設定します。 <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。<b>ToDoTaskOrdinal</b>の設定を現在の日付と時刻 (<b>今すぐ</b>Visual Basic で)。 </description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkToday</b>
+          </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> を True <b>True</b> と設定します。 TaskSubject <b>TaskSubject</b> に Outlook アイテムの Subject <b>Subject</b> プロパティ値を設定します。 TaskStartDate <b>TaskStartDate</b> および TaskDueDate <b>TaskDueDate</b> に今日の日付を設定します。  <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。 <b>ToDoTaskOrdinal</b> に現在の日時を設定します (Visual Basic では <b>Now</b>)。 </description>
+        </item>
+        <item>
+          <description>
+            <b>olMarkTomorrow</b>
+          </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> を True <b>True</b> と設定します。 TaskSubject <b>TaskSubject</b> に Outlook アイテムの Subject <b>Subject</b> プロパティ値を設定します。 TaskStartDate <b>TaskStartDate</b> および TaskDueDate <b>TaskDueDate</b> に今日から 1 日後の日付を設定します。  <b>TaskCompletedDate</b>は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) に設定されています。 <b>ToDoTaskOrdinal</b> に現在の日時を設定します (Visual Basic では <b>Now</b>)。 </description>
+        </item>
+      </list>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olMarkComplete">
