@@ -1,0 +1,906 @@
+<Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898383" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Items : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063041-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary><span data-ttu-id="9110d-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="9110d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="9110d-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="9110d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="9110d-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="9110d-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Items" />。</span><span class="sxs-lookup"><span data-stu-id="9110d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</span></span></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public object Add (object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Add([in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Type As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type"><span data-ttu-id="9110d-105">新しい項目の Outlook アイテムの種類です。</span><span class="sxs-lookup"><span data-stu-id="9110d-105">The Outlook item type for the new item.</span></span> <span data-ttu-id="9110d-106">指定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" />にカスタム フォームを作成します。</span><span class="sxs-lookup"><span data-stu-id="9110d-106">Specifies a <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> to create custom forms.</span></span> <span data-ttu-id="9110d-107"><b>OlItemType</b> 定数は、次のいずれか: <b>olAppointmentItem</b> 、 <b>olContactItem</b> 、 <b>olJournalItem</b> 、 <b>olMailItem</b> 、 <b>olNoteItem</b> 、 <b>olPostItem</b> 、または <b>olTaskItem</b> 、または任意の有効なメッセージ クラスです。</span><span class="sxs-lookup"><span data-stu-id="9110d-107">Can be one of the following <b>OlItemType</b> constants: <b>olAppointmentItem</b>, <b>olContactItem</b>, <b>olJournalItem</b>, <b>olMailItem</b>, <b>olNoteItem</b>, <b>olPostItem</b>, or <b>olTaskItem,</b>, or any valid message class.</span></span></param>
+        <summary><span data-ttu-id="9110d-108">新しい Outlook アイテムを作成、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションです。</span><span class="sxs-lookup"><span data-stu-id="9110d-108">Creates a new Outlook item in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection for the folder.</span></span></summary>
+        <returns><span data-ttu-id="9110d-109">新しい Outlook アイテムを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-109">An Object value that represents the new Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-110">フォルダーの種類を指定しない場合、Outlook アイテムの<b>Type</b>プロパティの既定値<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />場合は、親フォルダーが入力されていません。</span><span class="sxs-lookup"><span data-stu-id="9110d-110">If not specified, the <b>Type</b> property of the Outlook item defaults to the type of the folder or to <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> if the parent folder is not typed.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-111">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9110d-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="9110d-112">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9110d-112">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-113">返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="9110d-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="9110d-114">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9110d-114">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-115">指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="9110d-116">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9110d-116">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public object Find (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Find([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Filter As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Find(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="9110d-117">新しいアイテムの Outlook アイテムの種類です。</span><span class="sxs-lookup"><span data-stu-id="9110d-117">A string that specifies the criteria that the returned object must satisfy.</span></span></param>
+        <summary><span data-ttu-id="9110d-118">検索しを満たす Outlook アイテム オブジェクトを取得、指定された<paramref name="Filter" />。</span><span class="sxs-lookup"><span data-stu-id="9110d-118">Locates and returns an Outlook item object that satisfies the given <paramref name="Filter" />.</span></span></summary>
+        <returns><span data-ttu-id="9110d-119">呼び出しが成功した場合は、Outlook アイテムを表すオブジェクトの値失敗した場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-119">An Object value that represents an Outlook item if the call succeeds; returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)  if it fails.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-120">コンテンツのインデックス検索を使用するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="9110d-120">To use content indexing search in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, use the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> method.</span></span> <span data-ttu-id="9110d-121"><b>FindRow</b>はエラーを返す場合<paramref name="Filter" />コンテンツのインデックス キーワードが含まれています。</span><span class="sxs-lookup"><span data-stu-id="9110d-121"><b>FindRow</b> will return an error if <paramref name="Filter" /> contains content indexing keywords.</span></span> <span data-ttu-id="9110d-122">コンテンツのインデックス キーワードの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87947">クエリ キーワードを使ってアイテムをフィルター処理</a>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9110d-122">For more information on content indexing keywords, see <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtering Items Using Query Keywords</a></span></span></para>
+          <para><span data-ttu-id="9110d-123">メソッドはエラーでは、次のプロパティで、 <paramref name="Filter" />。</span><span class="sxs-lookup"><span data-stu-id="9110d-123">The method will return an error with the following properties in the <paramref name="Filter" />:</span></span> </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="9110d-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="9110d-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="9110d-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="9110d-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="9110d-126">Find メソッドおよび Restrict メソッドのためのフィルターの作成</span><span class="sxs-lookup"><span data-stu-id="9110d-126">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="9110d-p107">フィルターの構文は、フィルターを適用するフィールドの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="9110d-p107">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="9110d-128">文字列 (テキスト フィールドの場合)</span><span class="sxs-lookup"><span data-stu-id="9110d-128">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="9110d-129">テキスト フィールドを検索する場合は、アポストロフィ (') または二重引用符 () のいずれかを使用することができます ("")、フィルターの一部である値を区切るために。</span><span class="sxs-lookup"><span data-stu-id="9110d-129">When searching Text fields, you can use either an apostrophe (') or  double quotation marks ("") to delimit the values that are part of the filter.</span></span> <span data-ttu-id="9110d-130">たとえば、次の行はすべて正しくフィールドの場合入力<b>文字列</b>(C# では<b>文字列</b>)。</span><span class="sxs-lookup"><span data-stu-id="9110d-130">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="9110d-131">範囲 ="[得意先名] = 'マイクロソフト'」</span><span class="sxs-lookup"><span data-stu-id="9110d-131">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="9110d-132">範囲 ="[得意先名] =""Microsoft"""</span><span class="sxs-lookup"><span data-stu-id="9110d-132">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="9110d-133">範囲 ="[得意先名] =" &amp; chr (34) &amp; "Microsoft" &amp; chr (34)</span><span class="sxs-lookup"><span data-stu-id="9110d-133">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="9110d-p109">Jet または DASL クエリでフィルターを指定するときに、フィルターに含める文字列の区切り文字として単一引用符のペアを使用しており、かつその文字列に別の単一引用符やアポストロフィが含まれている場合は、その単一引用符またはアポストロフィの前に、エスケープ文字として単一引用符を追加します。文字列の区切り文字として二重引用符を使用している場合も、同様に処理します。つまり、文字列に二重引用符が含まれている場合は、その二重引用符の前に、エスケープ文字として二重引用符を追加します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p109">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="9110d-137">たとえば、DASL フィルターでは、1 組の単一引用符で文字列の単語が<b>件名</b>のプロパティをフィルターできません、全体のフィルター文字列は、二重引用符のペアで区切られた、埋め込まれた文字列のことはできませんが区切られます。</span><span class="sxs-lookup"><span data-stu-id="9110d-137">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="9110d-138">このフィルター文字列にエスケープする必要がある 3 つの文字が含まれて: 開始の二重引用符と二重引用符のプロパティの参照のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f、アポストロフィ、word の値の状態ではできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-138">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="9110d-139">適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-139">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-140">フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f"」= 'ことができます' t'」</span><span class="sxs-lookup"><span data-stu-id="9110d-140">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-p111">chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="9110d-p111">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-143">フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</span><span class="sxs-lookup"><span data-stu-id="9110d-143">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="9110d-144">&amp;Chr (34) &amp; 「=」 &amp; "' が ' t'"</span><span class="sxs-lookup"><span data-stu-id="9110d-144">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-p112">DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="9110d-p112">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="9110d-147">フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</span><span class="sxs-lookup"><span data-stu-id="9110d-147">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="9110d-148">&amp;Chr (34) &amp; "ci_phrasematch" &amp; "' できます ' t'"</span><span class="sxs-lookup"><span data-stu-id="9110d-148">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-149">別の例は、DASL フィルターの文字列をフィルター処理する単語に等しくなる<b>件名</b>プロパティに理想的な機能で、word の機能を二重引用符で囲む、です。</span><span class="sxs-lookup"><span data-stu-id="9110d-149">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="9110d-150">この場合は、次に示すように囲んでいる二重引用符をエスケープする必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-150">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-151">フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= '「データ」右'」</span><span class="sxs-lookup"><span data-stu-id="9110d-151">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="9110d-152">スペース、単一引用符、二重引用符、またはパーセント文字を含んでいる名前付きプロパティのプロパティ参照には、別のエスケープ規則のセットが適用されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-152">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character.</span></span> <span data-ttu-id="9110d-153">詳細については、「名前空間によってプロパティを参照する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9110d-153">For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="9110d-154">日付</span><span class="sxs-lookup"><span data-stu-id="9110d-154">Date</span></span></para>
+          <para><span data-ttu-id="9110d-155">日付形式では、日付と時刻が格納されます通常、Find メソッドおよび Restrict メソッドは、日付と時刻を文字列形式に変換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-155">Although dates and times are typically stored with a Date format, the Find and Restrict methods require that the date and time be converted to a string representation.</span></span> <span data-ttu-id="9110d-156">Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、Format 関数を使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-156">To make sure that the date is formatted as Microsoft Outlook expects, use the Format function.</span></span> <span data-ttu-id="9110d-157">次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。</span><span class="sxs-lookup"><span data-stu-id="9110d-157">The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M.</span></span> </para>
+          <para><span data-ttu-id="9110d-158">範囲 ="[LastModificationTime] &gt; '」&amp;形式 ("99/1/15 午後 3 時 30 分"、「ddddd h:nn AMPM」) &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="9110d-158">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="9110d-159">ブール型 (Boolean)</span><span class="sxs-lookup"><span data-stu-id="9110d-159">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="9110d-p116">TRUE/FALSE、YES/NO、ON/OFF などのブール型 (Boolean) の値は、文字列に変換せずに処理する必要があります。たとえば、連絡先の履歴が有効になっているかどうかを確認するには、次のフィルターを使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p116">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string. For example, to determine whether journaling is enabled for contacts, you can use this filter: </span></span></para>
+          <para><span data-ttu-id="9110d-162">範囲 ="[仕訳帳] = True"</span><span class="sxs-lookup"><span data-stu-id="9110d-162">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="9110d-163">
+            <b>注</b>: ブール型のフィールドで区切り文字として引用符を使用するかどうか、False をされているフィールド アイテムを空の文字列が検索され、されているフィールドのアイテムをすべての空でない文字列が検索されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-163">
+            <b>Note</b>: If you use quotation marks as delimiters with Boolean fields, then an empty string will find items whose fields are False and all non-empty strings will find items whose fields are True.</span></span></para>
+          <para><span data-ttu-id="9110d-164">キーワード (または Categories)</span><span class="sxs-lookup"><span data-stu-id="9110d-164">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="9110d-165">カテゴリ フィールドが型のキーワードの複数の値を保持するために設計されています。</span><span class="sxs-lookup"><span data-stu-id="9110d-165">The Categories field is of type keywords, which is designed to hold multiple values.</span></span> <span data-ttu-id="9110d-166">プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-166">When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly.</span></span> <span data-ttu-id="9110d-167">テキスト文字列内の値は、コンマとスペースで区切られています。</span><span class="sxs-lookup"><span data-stu-id="9110d-167">Values in the text string are separated by a comma and a space.</span></span> <span data-ttu-id="9110d-168">つまり、一般に複数の値が含まれているキーワード フィールドには Find メソッドと Restrict メソッドが使用できないということです。</span><span class="sxs-lookup"><span data-stu-id="9110d-168">This typically means that you cannot use the Find and Restrict methods on a keywords field if it contains more than one value.</span></span> <span data-ttu-id="9110d-169">たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、Find メソッドと Restrict メソッドを簡単に使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-169">For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the Find and Restrict methods to retrieve all items that are in the Business category.</span></span> <span data-ttu-id="9110d-170">その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを Instr 関数でテストします。</span><span class="sxs-lookup"><span data-stu-id="9110d-170">Instead, you can loop through all contacts in the folder and use the Instr function to test whether the string "Business" is contained within the entire keywords field.</span></span> </para>
+          <para><span data-ttu-id="9110d-171">
+            <b>注</b>: 2、または値の数が少ないカテゴリ フィールドを制限するかどうかは、例外があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-171">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="9110d-172">できます、検索機能を使用し、すべてのビジネス用連絡先を取得するのには、OR 論理演算子を含むメソッドを制限します。</span><span class="sxs-lookup"><span data-stu-id="9110d-172">Then you can use the Find and Restrict methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="9110d-173">たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。</span><span class="sxs-lookup"><span data-stu-id="9110d-173">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="9110d-174">Category の文字列は、大文字と小文字が区別されません。</span><span class="sxs-lookup"><span data-stu-id="9110d-174">Category strings are not case sensitive.</span></span></para>
+          <para><span data-ttu-id="9110d-175">整数</span><span class="sxs-lookup"><span data-stu-id="9110d-175">Integer</span></span></para>
+          <para><span data-ttu-id="9110d-176">整数フィールドは、引用符の区切り文字として検索できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-176">You can search for Integer fields with or without quotation marks as delimiters.</span></span> <span data-ttu-id="9110d-177">Outlook 2000 で作成した連絡先は、次のフィルターが表示されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-177">The following filters will find contacts that were created with  Outlook 2000:</span></span> </para>
+          <para><span data-ttu-id="9110d-178">範囲 ="[OutlookInternalVersion] = 92711」</span><span class="sxs-lookup"><span data-stu-id="9110d-178">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="9110d-179">範囲 ="[OutlookInternalVersion] = '92711'」</span><span class="sxs-lookup"><span data-stu-id="9110d-179">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="9110d-180">フィルターの一部として変数を使用する</span><span class="sxs-lookup"><span data-stu-id="9110d-180">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="9110d-181">Restrict メソッドの例が示すように、フィルターの一部として変数から値を使用することができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-181">As the Restrict method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="9110d-182">次の Microsoft Visual Basic のコード サンプルは、フィルターの一部として変数を使用する構文を示しています。</span><span class="sxs-lookup"><span data-stu-id="9110d-182">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="9110d-183">示します"Dan Wilson"を =。</span><span class="sxs-lookup"><span data-stu-id="9110d-183">sFullName = "Dan Wilson"</span></span> </para>
+          <para> <span data-ttu-id="9110d-184">このアプローチでは、chr (34) を使用して値: 範囲 ="[FullName] =" &amp; chr (34)&amp;示します&amp;chr (34)。</span><span class="sxs-lookup"><span data-stu-id="9110d-184">This approach uses Chr(34) to delimit the value: sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para> <span data-ttu-id="9110d-185">このアプローチでは、値を区切るために二重引用符 () を使用: 範囲 ="[FullName] ="""&amp;示します&amp;」」」。</span><span class="sxs-lookup"><span data-stu-id="9110d-185">This approach uses double quotation marks to delimit the value: sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="9110d-186">フィルターの一部として論理演算子を使用する</span><span class="sxs-lookup"><span data-stu-id="9110d-186">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="9110d-187">論理演算子は、AND、OR、および NOT が使用可能です。</span><span class="sxs-lookup"><span data-stu-id="9110d-187">Logical operators that are allowed are AND, OR, and NOT.</span></span> <span data-ttu-id="9110d-188">以下は、Restrict メソッドでは、句を組み合わせたのため、複数の抽出条件を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-188">The following are variations of the clause for the Restrict method, so you can specify multiple criteria.</span></span>  </para>
+          <para><span data-ttu-id="9110d-p122">OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p122">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="9110d-190">範囲 ="[カテゴリ] = '個人' または [カテゴリ] = 'ビジネス'」</span><span class="sxs-lookup"><span data-stu-id="9110d-190">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="9110d-p123">AND: Microsoft で勤務している個人用連絡先をすべて取得します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p123">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="9110d-192">範囲 ="[カテゴリ] = '個人' と [得意先名] = 'マイクロソフト'」</span><span class="sxs-lookup"><span data-stu-id="9110d-192">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="9110d-p124">NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p124">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="9110d-194">範囲 ="[カテゴリ] = '個人' ではなく ([得意先名] = 'マイクロソフト')"</span><span class="sxs-lookup"><span data-stu-id="9110d-194">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="9110d-195">追加情報</span><span class="sxs-lookup"><span data-stu-id="9110d-195">Additional Notes</span></span></para>
+          <para><span data-ttu-id="9110d-196">場合は、Find メソッドまたは Restrict メソッドを使用して、ユーザー定義フィールドをしようとすると、フィールドはフォルダーで、それ以外の場合、エラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="9110d-196">If you are trying to use the Find or Restrict methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur.</span></span> <span data-ttu-id="9110d-197">「含む」操作を実行する方法はありません。</span><span class="sxs-lookup"><span data-stu-id="9110d-197">There is no way to perform a "contains" operation.</span></span> <span data-ttu-id="9110d-198">たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、Find または Restrict は使用できません。</span><span class="sxs-lookup"><span data-stu-id="9110d-198">For example, you cannot use Find or Restrict to search for items that have a particular word in the Subject field.</span></span> <span data-ttu-id="9110d-199">その代わりに、AdvancedSearch メソッドを使用できます。また、フォルダー内のすべてのアイテムをループ処理し、InStr 関数を使用してフィールド内の検索を実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="9110d-199">Instead, you can use the AdvancedSearch method, or you can loop through all of the items in the folder and use the InStr function to perform a search within a field.</span></span> <span data-ttu-id="9110d-200">Restrict メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-200">You can use the Restrict method to search for items that begin within a certain range of characters.</span></span> <span data-ttu-id="9110d-201">たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-201">For example, to search for all contacts with a last name beginning with the letter M, use this filter:</span></span> </para>
+          <para><span data-ttu-id="9110d-202">範囲 ="[LastName] &gt; [姓] および ['LZZZ' &lt; ' N '」</span><span class="sxs-lookup"><span data-stu-id="9110d-202">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNext">
+      <MemberSignature Language="C#" Value="public object FindNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-203">後、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドの実行、このメソッドは、検索し、指定されたコレクション内の次の Outlook アイテムを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-203">After the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method runs, this method finds and returns the next Outlook item in the specified collection.</span></span></summary>
+        <returns><span data-ttu-id="9110d-204">コレクション内で見つかった次の Outlook アイテムを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-204">An Object value that represents the next Outlook item found in the collection.</span></span></returns>
+        <remarks><para> <span data-ttu-id="9110d-205">検索操作は、 <b>Find</b> メソッドで設定された式に一致する現在の位置から開始します。</span><span class="sxs-lookup"><span data-stu-id="9110d-205">The search operation begins from the current position, which matches the expression previously set through the <b>Find</b> method.</span></span></para>
+          <para><span data-ttu-id="9110d-206">Outlook アイテム オブジェクトの呼び出しが成功した場合、メソッドを返します。失敗した場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-206">The method returns an Outlook item object if the call succeeds; it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if it fails.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public object GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFirst () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFirst();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-207">コレクションの先頭のオブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-207">Returns the first object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="9110d-208">コレクションに格納されている先頭のオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-208">An Object value that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-209">返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.</span><span class="sxs-lookup"><span data-stu-id="9110d-209">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="9110d-210">コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</span><span class="sxs-lookup"><span data-stu-id="9110d-210">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public object GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLast () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetLast();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-211">コレクションの末尾のオブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-211">Returns the last object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="9110d-212">コレクションに格納されている末尾のオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-212">An Object value that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-213"><b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.</span><span class="sxs-lookup"><span data-stu-id="9110d-213">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="9110d-214">コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</span><span class="sxs-lookup"><span data-stu-id="9110d-214">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public object GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-215">コレクションの次のオブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-215">Returns the next object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="9110d-216">コレクションに格納されている次のオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-216">An Object value that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-217"><b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>.</span><span class="sxs-lookup"><span data-stu-id="9110d-217">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="9110d-218">コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</span><span class="sxs-lookup"><span data-stu-id="9110d-218">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public object GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPrevious () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetPrevious();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-219">コレクションの 1 つ前のオブジェクトを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-219">Returns the previous object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="9110d-220">コレクションに格納されている 1 つ前のオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-220">An Object value that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-221"><b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。</span><span class="sxs-lookup"><span data-stu-id="9110d-221">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="9110d-222">コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</span><span class="sxs-lookup"><span data-stu-id="9110d-222">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeRecurrences">
+      <MemberSignature Language="C#" Value="public bool IncludeRecurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeRecurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeRecurrences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeRecurrences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-223"><b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定する場合は</b>、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションは、定期的なパターンを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-223">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection should include recurrence patterns.</span></span> <span data-ttu-id="9110d-224">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="9110d-224">Read/write.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="9110d-225">このプロパティは、 <b>Items</b>コレクションを選択し、予定が含まれていますがで並べ替えられていない任意のプロパティ以外の場合のみ効果を<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />の順序を昇順にします。</span><span class="sxs-lookup"><span data-stu-id="9110d-225">This property only has an effect if the <b>Items</b> collection contains appointments and is not sorted by any property other than <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> in ascending order.</span></span> <span data-ttu-id="9110d-226">既定値は、 <b>false を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="9110d-226">The default value is <b>False</b>.</span></span> <span data-ttu-id="9110d-227">プロパティを使用してこの特定の日付のすべての予定を取得する場合に、定期的な予定は通常は表示されません、特定の日付に関連付けられているではないためです。</span><span class="sxs-lookup"><span data-stu-id="9110d-227">Use this property when you want to retrieve all appointments for a given date, where recurring appointments would not normally appear because they are not associated with any specific date.</span></span> <span data-ttu-id="9110d-228">予定表アイテムを定期的な予定の並べ替えし、フィルター処理する必要がある場合は、次の順序で行う必要があります: 昇順でアイテムを並べ替える、 <b>日付</b> に設定する <b>場合は True</b> 、およびアイテムのフィルターを適用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-228">If you need to sort and filter on appointment items that contain recurring appointments, you must do so in this order: sort the items in ascending order, set <b>IncludeRecurrences</b> to <b>True</b>, and then filter the items.</span></span> <span data-ttu-id="9110d-229">この順序を示すコード サンプルでは、次の 2 つ目の例を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9110d-229">For a code sample showing this order, see the second example below.</span></span> <span data-ttu-id="9110d-230">コレクションには、終了日を含む定期的な予定が含まれているプロパティを <b>True</b> に設定、コレクションを無限の数を示すことがあります。</span><span class="sxs-lookup"><span data-stu-id="9110d-230">If the collection includes recurring appointments with no end date, setting the property to <b>True</b> may cause the collection to be of infinite count.</span></span> <span data-ttu-id="9110d-231">任意のループでこのテストを含めることを確認します。</span><span class="sxs-lookup"><span data-stu-id="9110d-231">Be sure to include a test for this in any loop.</span></span> <span data-ttu-id="9110d-232"><b>ループ</b> のプロパティを <b>True</b> に設定を持つ <b>アイテム</b> のコレクションを反復処理するときは、 <b>項目</b> のコレクションの <b>Count</b> プロパティを使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="9110d-232">You should not use <b>Count</b> property of <b>Items</b> collection when iterating <b>Items</b> collection with <b>IncludeRecurrence</b> property set to <b>True</b>.</span></span> <span data-ttu-id="9110d-233"><b>数</b> ] の値は未定義の値になります。</span><span class="sxs-lookup"><span data-stu-id="9110d-233">The value of <b>Count</b> will be an undefined value.</span></span></para>
+          <para><span data-ttu-id="9110d-234">
+            <b>注意</b>: 正常に動作しないように、日付のプロパティと、文字列の並べ替えられたリストをフィルター処理します。</span><span class="sxs-lookup"><span data-stu-id="9110d-234">
+            <b>Caution</b>: Filtering on a sorted list of occurrences will cause the IncludeRecurrences property not to work as expected.</span></span> <span data-ttu-id="9110d-235">たとえば、次の順序が予定に出現するすべてを返す定期的と非定期的な: (1) Start プロパティ は false (3) の呼び出しに 制限する (つまり、フィルターなど) のプロパティを設定 (2) でソートします。</span><span class="sxs-lookup"><span data-stu-id="9110d-235">For example, the following sequence will return all appointment occurrences; recurring and non-recurring: (1) Sort by Start property (2) Set property to false (3) call Restrict (i.e., filter).</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="9110d-236">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</span><span class="sxs-lookup"><span data-stu-id="9110d-236">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="9110d-237">コレクションから Outlook アイテムを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-237">Returns an Outlook item from a collection.</span></span></summary>
+        <value><span data-ttu-id="9110d-238">指定されたオブジェクトを表すオブジェクト型 (Object) の値。</span><span class="sxs-lookup"><span data-stu-id="9110d-238">An Object value that represents the specified object.</span></span></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-p133">指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</span><span class="sxs-lookup"><span data-stu-id="9110d-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-241">このオブジェクト、メンバー、または列挙体は非推奨です。ユーザーのコード内で使用されるものではありません。</span><span class="sxs-lookup"><span data-stu-id="9110d-241">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="9110d-242">コレクション内で 1 から始まるオブジェクトのインデックス値を指定します。</span><span class="sxs-lookup"><span data-stu-id="9110d-242">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="9110d-243">コレクションからオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="9110d-243">Removes an object from the collection.</span></span></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetColumns">
+      <MemberSignature Language="C#" Value="public void ResetColumns ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetColumns() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.ResetColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetColumns ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetColumns();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="9110d-244">キャッシュされているプロパティをクリア、<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="9110d-244">Clears the properties that have been cached with the <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> method.</span></span></summary>
+        <remarks><para><span data-ttu-id="9110d-p134">すべてのプロパティは、 <b>ResetColumns</b> メソッドを呼び出した後にアクセスできます。 <b>Setcolumns メソッドに新しいプロパティをもう一度保存します。</b> <b>ResetColumns</b> は <b>SetColumns</b> が最初に呼び出されていない場合に、何も実行しません。</span><span class="sxs-lookup"><span data-stu-id="9110d-p134">All properties are accessible after calling the <b>ResetColumns</b> method. <b>SetColumns</b> should be reused to store new properties again. <b>ResetColumns</b> does nothing if <b>SetColumns</b> has not been called first.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Items Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Items Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Items ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="9110d-248">適用するフィルター文字列式。</span><span class="sxs-lookup"><span data-stu-id="9110d-248">A filter string expression to be applied.</span></span> <span data-ttu-id="9110d-249">詳細についてを参照してください、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドです。</span><span class="sxs-lookup"><span data-stu-id="9110d-249">For details, see the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method.</span></span></param>
+        <summary><span data-ttu-id="9110d-250">フィルターを適用して、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションは、すべてのフィルターに一致する元のアイテムを含む新しいコレクションを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-250">Applies a filter to the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  collection, returning a new collection containing all of the items from the original that match the filter.</span></span></summary>
+        <returns><span data-ttu-id="9110d-251">フィルターに一致する元の<b>項目</b>のコレクションから項目を表す<b>項目</b>のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="9110d-251">An <b>Items</b> collection that represents the items from the original <b>Items</b> collection which match the filter.</span></span></returns>
+        <remarks><para><span data-ttu-id="9110d-252">このメソッドは、使用する代わりに、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドまたは<see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />コレクション内の特定の項目を反復処理するメソッドです。</span><span class="sxs-lookup"><span data-stu-id="9110d-252">This method is an alternative to using the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method or <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />  method to iterate over specific items within a collection.</span></span> <span data-ttu-id="9110d-253">アイテム数が少ない場合は、<b>Find</b> メソッドや <b>FindNext</b> メソッドの方が処理が速くなります。</span><span class="sxs-lookup"><span data-stu-id="9110d-253">The <b>Find</b> or <b>FindNext</b> methods are faster than filtering if there are a small number of items.</span></span> <span data-ttu-id="9110d-254"><b>Restrict</b> メソッドは、アイテム数が多くなるほど大幅に処理が速くなります。特に、大きなコレクション内で少数のアイテムを検索する場合に高速になります。</span><span class="sxs-lookup"><span data-stu-id="9110d-254">The <b>Restrict</b> method is significantly faster if there is a large number of items in the collection, especially if only a few items in a large collection are expected to be found.</span></span></para>
+          <para><span data-ttu-id="9110d-255">
+            <b>注</b>: ユーザー定義フィールドがフォルダーに存在する必要があります<b>を検索</b>または<b>制限する</b>句の一部としてユーザー定義フィールドを使用する場合。</span><span class="sxs-lookup"><span data-stu-id="9110d-255">
+            <b>Note</b>: If you are using user-defined fields as part of a <b>Find</b> or <b>Restrict</b> clause, the user-defined fields must exist in the folder.</span></span> <span data-ttu-id="9110d-256">それ以外の場合は、そのフィールドが不明であることを示すエラーがコードによって生成されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-256">Otherwise the code will generate an error stating that the field is unknown.</span></span> <span data-ttu-id="9110d-257">フォルダーを追加するには、[フィールドの選択] を表示して [新規] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9110d-257">You can add a field to a folder by displaying the Field Chooser and clicking New.</span></span></para>
+          <para><span data-ttu-id="9110d-258">このメソッドは、次のプロパティと共に使用することはできません (エラーが発生します)。</span><span class="sxs-lookup"><span data-stu-id="9110d-258">This method cannot be used and will cause an error with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="9110d-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="9110d-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="9110d-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="9110d-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="9110d-261">Find メソッドおよび Restrict メソッドのためのフィルターの作成</span><span class="sxs-lookup"><span data-stu-id="9110d-261">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="9110d-p138">フィルターの構文は、フィルターを適用するフィールドの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="9110d-p138">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="9110d-263">文字列 (テキスト フィールドの場合)</span><span class="sxs-lookup"><span data-stu-id="9110d-263">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="9110d-264">テキスト フィールドを検索する場合は、アポストロフィ (') または二重引用符 () のいずれかを使用することができます ("")、フィルターの一部である値の区切り文字にします。</span><span class="sxs-lookup"><span data-stu-id="9110d-264">When searching Text fields, you can use either an apostrophe ('), or  double quotation marks (""), to delimit the values that are part of the filter.</span></span> <span data-ttu-id="9110d-265">たとえば、次の行はすべて正しくフィールドの場合入力<b>文字列</b>(C# では<b>文字列</b>)。</span><span class="sxs-lookup"><span data-stu-id="9110d-265">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="9110d-266">範囲 ="[得意先名] = 'マイクロソフト'」</span><span class="sxs-lookup"><span data-stu-id="9110d-266">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="9110d-267">範囲 ="[得意先名] =""Microsoft"""</span><span class="sxs-lookup"><span data-stu-id="9110d-267">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="9110d-268">範囲 ="[得意先名] =" &amp; chr (34) &amp; "Microsoft" &amp; chr (34)</span><span class="sxs-lookup"><span data-stu-id="9110d-268">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="9110d-p140">Jet または DASL クエリでフィルターを指定するときに、フィルターに含める文字列の区切り文字として単一引用符のペアを使用しており、かつその文字列に別の単一引用符やアポストロフィが含まれている場合は、その単一引用符またはアポストロフィの前に、エスケープ文字として単一引用符を追加します。文字列の区切り文字として二重引用符を使用している場合も、同様に処理します。つまり、文字列に二重引用符が含まれている場合は、その二重引用符の前に、エスケープ文字として二重引用符を追加します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p140">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="9110d-272">たとえば、DASL フィルターでは、1 組の単一引用符で文字列の単語が<b>件名</b>のプロパティをフィルターできません、全体のフィルター文字列は、二重引用符のペアで区切られた、埋め込まれた文字列のことはできませんが区切られます。</span><span class="sxs-lookup"><span data-stu-id="9110d-272">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="9110d-273">このフィルター文字列にエスケープする必要がある 3 つの文字が含まれて: 開始の二重引用符と二重引用符のプロパティの参照のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f、アポストロフィ、word の値の状態ではできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-273">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="9110d-274">適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-274">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-275">フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f"」= 'ことができます' t'」</span><span class="sxs-lookup"><span data-stu-id="9110d-275">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-p142">chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="9110d-p142">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-278">フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</span><span class="sxs-lookup"><span data-stu-id="9110d-278">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="9110d-279">&amp;Chr (34) &amp; 「=」 &amp; "' が ' t'"</span><span class="sxs-lookup"><span data-stu-id="9110d-279">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-p143">DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="9110d-p143">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="9110d-282">フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</span><span class="sxs-lookup"><span data-stu-id="9110d-282">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="9110d-283">&amp;Chr (34) &amp; "ci_phrasematch" &amp; "' できます ' t'"</span><span class="sxs-lookup"><span data-stu-id="9110d-283">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="9110d-284">別の例は、DASL フィルターの文字列をフィルター処理する単語に等しくなる<b>件名</b>プロパティに理想的な機能で、word の機能を二重引用符で囲む、です。</span><span class="sxs-lookup"><span data-stu-id="9110d-284">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="9110d-285">この場合は、次に示すように囲んでいる二重引用符をエスケープする必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-285">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="9110d-286">フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= '「データ」右'」</span><span class="sxs-lookup"><span data-stu-id="9110d-286">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="9110d-287">スペース、単一引用符、二重引用符、またはパーセント文字を含んでいる名前付きプロパティのプロパティ参照には、別のエスケープ規則のセットが適用されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-287">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character.</span></span> <span data-ttu-id="9110d-288">詳細については、「名前空間によってプロパティを参照する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9110d-288">For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="9110d-289">日付</span><span class="sxs-lookup"><span data-stu-id="9110d-289">Date</span></span></para>
+          <para><span data-ttu-id="9110d-290">日付と時刻は、通常の<b>検索</b>日付の形式で格納し、 <b>Restrict</b>メソッドを使うには、日付と時刻の文字列形式に変換します。</span><span class="sxs-lookup"><span data-stu-id="9110d-290">Although dates and times are typically stored with a Date format, the <b>Find</b> and <b>Restrict</b> methods require that the date and time be converted to a string representation.</span></span> <span data-ttu-id="9110d-291">Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、<b>Format</b> 関数を使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-291">To make sure that the date is formatted as Microsoft Outlook expects, use the <b>Format</b> function.</span></span> <span data-ttu-id="9110d-292">次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。</span><span class="sxs-lookup"><span data-stu-id="9110d-292">The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M.</span></span> </para>
+          <para><span data-ttu-id="9110d-293">範囲 ="[LastModificationTime] &gt; '」&amp;形式 ("99/1/15 午後 3 時 30 分"、「ddddd h:nn AMPM」) &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="9110d-293">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="9110d-294">ブール型 (Boolean)</span><span class="sxs-lookup"><span data-stu-id="9110d-294">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="9110d-p147">TRUE/FALSE、YES/NO、ON/OFF などのブール型 (Boolean) の値は、文字列に変換せずに処理する必要があります。たとえば、連絡先の履歴が有効になっているかどうかを確認するには、次のフィルターを使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p147">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string. For example, to determine whether journaling is enabled for contacts, you can use this filter: </span></span></para>
+          <para><span data-ttu-id="9110d-297">範囲 ="[仕訳帳] = True"</span><span class="sxs-lookup"><span data-stu-id="9110d-297">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="9110d-298">
+            <b>注</b>: かどうかは、<b>ブール型</b>のフィールドで区切り文字として引用符を使用するアイテムは<b>false を指定</b>されているフィールドを空の文字列が検索され、すべての空でない文字列が<b>格納されているフィールド</b>のアイテムを検索します。</span><span class="sxs-lookup"><span data-stu-id="9110d-298">
+            <b>Note</b>: If you use quotation marks as delimiters with <b>Boolean</b> fields, then an empty string will find items whose fields are <b>False</b> and all non-empty strings will find items whose fields are <b>True</b>.</span></span> </para>
+          <para><span data-ttu-id="9110d-299">キーワード (または Categories)</span><span class="sxs-lookup"><span data-stu-id="9110d-299">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="9110d-300">カテゴリ フィールドが型のキーワードの複数の値を保持するために設計されています。</span><span class="sxs-lookup"><span data-stu-id="9110d-300">The Categories field is of type keywords, which is designed to hold multiple values.</span></span> <span data-ttu-id="9110d-301">プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-301">When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly.</span></span> <span data-ttu-id="9110d-302">テキスト文字列内の値は、コンマとスペースで区切られています。</span><span class="sxs-lookup"><span data-stu-id="9110d-302">Values in the text string are separated by a comma and a space.</span></span> <span data-ttu-id="9110d-303">つまり、一般に複数の値が含まれているキーワード フィールドには <b>Find</b> メソッドと <b>Restrict</b> メソッドが使用できないということです。</span><span class="sxs-lookup"><span data-stu-id="9110d-303">This typically means that you cannot use the <b>Find</b> and <b>Restrict</b> methods on a keywords field if it contains more than one value.</span></span> <span data-ttu-id="9110d-304">たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、<b>Find</b> メソッドと <b>Restrict</b> メソッドを簡単に使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-304">For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the <b>Find</b> and <b>Restrict</b> methods to retrieve all items that are in the Business category.</span></span> <span data-ttu-id="9110d-305">その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを <b>Instr</b> 関数でテストします。</span><span class="sxs-lookup"><span data-stu-id="9110d-305">Instead, you can loop through all contacts in the folder and use the <b>Instr</b> function to test whether the string "Business" is contained within the entire keywords field.</span></span> </para>
+          <para><span data-ttu-id="9110d-306">
+            <b>注</b>: 2、または値の数が少ないカテゴリ フィールドを制限するかどうかは、例外があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-306">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="9110d-307">すべてのビジネス用連絡先を取得するために、論理演算子を使って、 <b>Find</b>メソッドと<b>Restrict</b>メソッドを使用できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-307">Then you can use the <b>Find</b> and <b>Restrict</b> methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="9110d-308">たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。</span><span class="sxs-lookup"><span data-stu-id="9110d-308">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="9110d-309">Category の文字列は、大文字と小文字が区別されません。</span><span class="sxs-lookup"><span data-stu-id="9110d-309">Category strings are not case sensitive.</span></span> </para>
+          <para><span data-ttu-id="9110d-310">整数</span><span class="sxs-lookup"><span data-stu-id="9110d-310">Integer</span></span></para>
+          <para><span data-ttu-id="9110d-311">引用符の有無、<b>整数型</b>フィールドの区切り文字として検索できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-311">You can search for <b>Integer</b> fields with, or without quotation marks as delimiters.</span></span> <span data-ttu-id="9110d-312">次のフィルターには、Outlook 2000 を使用して作成した連絡先があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-312">The following filters will find contacts that were created using  Outlook 2000:</span></span> </para>
+          <para><span data-ttu-id="9110d-313">範囲 ="[OutlookInternalVersion] = 92711」</span><span class="sxs-lookup"><span data-stu-id="9110d-313">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="9110d-314">範囲 ="[OutlookInternalVersion] = '92711'」</span><span class="sxs-lookup"><span data-stu-id="9110d-314">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="9110d-315">フィルターの一部として変数を使用する</span><span class="sxs-lookup"><span data-stu-id="9110d-315">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="9110d-316"><b>Restrict</b>メソッドの例が示すように、フィルターの一部として変数から値を使用することができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-316">As the <b>Restrict</b> method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="9110d-317">次の Microsoft Visual Basic のコード サンプルは、フィルターの一部として変数を使用する構文を示しています。</span><span class="sxs-lookup"><span data-stu-id="9110d-317">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="9110d-318">示します"Dan Wilson"を =。</span><span class="sxs-lookup"><span data-stu-id="9110d-318">sFullName = "Dan Wilson"</span></span> </para>
+          <para><span data-ttu-id="9110d-319">' このアプローチでは、値を区切るために chr (34) を使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-319">' This approach uses Chr(34) to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="9110d-320">範囲 ="[FullName] =" &amp; chr (34)&amp;示します&amp;chr (34)。</span><span class="sxs-lookup"><span data-stu-id="9110d-320">sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para><span data-ttu-id="9110d-321">' このアプローチでは、値を区切るために二重引用符 () を使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-321">' This approach uses double quotation marks to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="9110d-322">範囲 ="[FullName] ="""&amp;示します&amp;」」」。</span><span class="sxs-lookup"><span data-stu-id="9110d-322">sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="9110d-323">フィルターの一部として論理演算子を使用する</span><span class="sxs-lookup"><span data-stu-id="9110d-323">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="9110d-324">論理演算子は、AND、OR、および NOT が使用可能です。</span><span class="sxs-lookup"><span data-stu-id="9110d-324">Logical operators that are allowed are AND, OR, and NOT.</span></span> <span data-ttu-id="9110d-325">以下は、 <b>Restrict</b>メソッドの句を組み合わせたのため、複数の抽出条件を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="9110d-325">The following are variations of the clause for the <b>Restrict</b> method so you can specify multiple criteria.</span></span>  </para>
+          <para><span data-ttu-id="9110d-p156">OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p156">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="9110d-327">範囲 ="[カテゴリ] = '個人' または [カテゴリ] = 'ビジネス'」</span><span class="sxs-lookup"><span data-stu-id="9110d-327">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="9110d-p157">AND: Microsoft で勤務している個人用連絡先をすべて取得します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p157">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="9110d-329">範囲 ="[カテゴリ] = '個人' と [得意先名] = 'マイクロソフト'」</span><span class="sxs-lookup"><span data-stu-id="9110d-329">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="9110d-p158">NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。</span><span class="sxs-lookup"><span data-stu-id="9110d-p158">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="9110d-331">範囲 ="[カテゴリ] = '個人' ではなく ([得意先名] = 'マイクロソフト')"</span><span class="sxs-lookup"><span data-stu-id="9110d-331">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="9110d-332">追加情報</span><span class="sxs-lookup"><span data-stu-id="9110d-332">Additional Notes</span></span></para>
+          <para><span data-ttu-id="9110d-333">ユーザー定義フィールドに、<b>検索</b>メソッドまたは<b>Restrict</b>メソッドを使用しようとしている場合のフィールドはそれ以外の場合、エラーが発生、フォルダーに定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-333">If you are trying to use the <b>Find</b> or <b>Restrict</b> methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur.</span></span> <span data-ttu-id="9110d-334">「含む」操作を実行する方法はありません。</span><span class="sxs-lookup"><span data-stu-id="9110d-334">There is no way to perform a "contains" operation.</span></span> <span data-ttu-id="9110d-335">たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、<b>Find</b> または <b>Restrict</b> は使用できません。</span><span class="sxs-lookup"><span data-stu-id="9110d-335">For example, you cannot use <b>Find</b> or <b>Restrict</b> to search for items that have a particular word in the Subject field.</span></span> <span data-ttu-id="9110d-336">代わりに、使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />メソッド、またはすべてのフォルダー内のアイテムをループでき、フィールド内で検索を実行するのには、 <b>InStr</b>関数を使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-336">Instead, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method, or you can loop through all of the items in the folder and use the <b>InStr</b> function to perform a search within a field.</span></span> <span data-ttu-id="9110d-337"><b>Restrict</b> メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-337">You can use the <b>Restrict</b> method to search for items that begin within a certain range of characters.</span></span> <span data-ttu-id="9110d-338">たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。</span><span class="sxs-lookup"><span data-stu-id="9110d-338">For example, to search for all contacts with a last name beginning with the letter M, use this filter:</span></span> </para>
+          <para><span data-ttu-id="9110d-339">範囲 ="[LastName] &gt; [姓] および ['LZZZ' &lt; ' N '」</span><span class="sxs-lookup"><span data-stu-id="9110d-339">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="9110d-340">返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="9110d-340">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="9110d-341">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="9110d-341">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="9110d-342"><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。</span><span class="sxs-lookup"><span data-stu-id="9110d-342">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="9110d-343">両方のメンバーでは、同じ目的を果たします。</span><span class="sxs-lookup"><span data-stu-id="9110d-343">Both members serve the same purpose.</span></span> <span data-ttu-id="9110d-344">たとえば、次のステートメントのペアは、同じ機能を実行します。</span><span class="sxs-lookup"><span data-stu-id="9110d-344">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColumns">
+      <MemberSignature Language="C#" Value="public void SetColumns (string Columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetColumns([in]string Columns) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColumns (Columns As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetColumns(System::String ^ Columns);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(92)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Columns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Columns"><span data-ttu-id="9110d-p162">キャッシュに格納するプロパティの名前を含む文字列を指定します。この文字列内では、プロパティ名をコンマで区切ります。</span><span class="sxs-lookup"><span data-stu-id="9110d-p162">A string that contains the names of the properties to cache. The property names are delimited by commas in this string.</span></span></param>
+        <summary><span data-ttu-id="9110d-347">特定のプロパティをキャッシュに格納して、コレクションのアイテムの特定のプロパティに非常に早くアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="9110d-347">Caches certain properties for extremely fast access to those particular properties of an item within the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="9110d-348"><b>SetColumns</b>メソッドを反復処理するのに便利ですが、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。</span><span class="sxs-lookup"><span data-stu-id="9110d-348">The <b>SetColumns</b> method is useful for iterating through the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="9110d-349">このメソッドを使用しない場合、 Microsoft Outlookは、プロパティにアクセスするには、各項目を開く必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-349">If you don't use this method, Microsoft Outlook must open each item to access the property.</span></span> <span data-ttu-id="9110d-350">、 <b>SetColumns</b> メソッドを使用して Outlook はキャッシュに格納されて、し、これらのプロパティを高速で読み取り専用のアクセスを提供するプロパティだけをチェックします。</span><span class="sxs-lookup"><span data-stu-id="9110d-350">With the <b>SetColumns</b> method, Outlook only checks the properties that you have cached, and provides fast, read-only access to these properties.</span></span></para>
+          <para><span data-ttu-id="9110d-351"><b>SetColumns</b>メソッドを適用すると、コレクションの特定のプロパティに、そのコレクションの他のプロパティを読み取ることができません。空のキャッシュされていないプロパティが返されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-351">After applying the <b>SetColumns</b> method on specific properties of the collection, you cannot read other properties of that collection; properties which are not cached are returned empty.</span></span> <span data-ttu-id="9110d-352">か、そのコレクションのプロパティのいずれかに書き込むことはできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-352">You cannot write to any of the properties of that collection either.</span></span> <span data-ttu-id="9110d-353">項目のセットへの読み取り/書き込み、高速のアクセスを必要とする場合は、使用の<see cref="T:Microsoft.Office.Interop.Outlook.Table" />オブジェクトです。</span><span class="sxs-lookup"><span data-stu-id="9110d-353">Alternatively, if you require read-write, fast access to a set of items, use the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span></para>
+          <para><span data-ttu-id="9110d-p165">
+            <b>SetColumns</b> ことはできませんが使用され、オブジェクトを返す任意のプロパティでは、エラーが発生します。次のプロパティで使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="9110d-p165">
+            <b>SetColumns</b> cannot be used, and will cause an error, with any property that returns an object. It cannot be used with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="9110d-356">AutoResolvedWinner</span><span class="sxs-lookup"><span data-stu-id="9110d-356">AutoResolvedWinner</span></span></description>
+              <description><span data-ttu-id="9110d-357">InternetCodePage</span><span class="sxs-lookup"><span data-stu-id="9110d-357">InternetCodePage</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-358">Body</span><span class="sxs-lookup"><span data-stu-id="9110d-358">Body</span></span></description>
+              <description><span data-ttu-id="9110d-359">MeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="9110d-359">MeetingWorkspaceURL</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-360">BodyFormat</span><span class="sxs-lookup"><span data-stu-id="9110d-360">BodyFormat</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-361">カテゴリ</span><span class="sxs-lookup"><span data-stu-id="9110d-361">Categories</span></span></description>
+              <description><span data-ttu-id="9110d-362">ReceivedByEntryID</span><span class="sxs-lookup"><span data-stu-id="9110d-362">ReceivedByEntryID</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description><span data-ttu-id="9110d-363">ReceivedOnBehalfOfEntryID</span><span class="sxs-lookup"><span data-stu-id="9110d-363">ReceivedOnBehalfOfEntryID</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-364">Class</span><span class="sxs-lookup"><span data-stu-id="9110d-364">Class</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-365">Companies</span><span class="sxs-lookup"><span data-stu-id="9110d-365">Companies</span></span></description>
+              <description><span data-ttu-id="9110d-366">ReplyRecipients</span><span class="sxs-lookup"><span data-stu-id="9110d-366">ReplyRecipients</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-367">DownloadState</span><span class="sxs-lookup"><span data-stu-id="9110d-367">DownloadState</span></span></description>
+              <description><span data-ttu-id="9110d-368">Saved</span><span class="sxs-lookup"><span data-stu-id="9110d-368">Saved</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-369">EntryID</span><span class="sxs-lookup"><span data-stu-id="9110d-369">EntryID</span></span></description>
+              <description><span data-ttu-id="9110d-370">送信日時</span><span class="sxs-lookup"><span data-stu-id="9110d-370">Sent</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-371">HTMLBody</span><span class="sxs-lookup"><span data-stu-id="9110d-371">HTMLBody</span></span></description>
+              <description><span data-ttu-id="9110d-372">Submitted</span><span class="sxs-lookup"><span data-stu-id="9110d-372">Submitted</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-373">IsConflict</span><span class="sxs-lookup"><span data-stu-id="9110d-373">IsConflict</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" />
+              </description>
+            </item>
+          </list>
+          <para><span data-ttu-id="9110d-p166"><b>SetColumns</b> メソッドを使用して <b>ConversationIndex</b> プロパティをキャッシュすることはできません。ただし、このプロパティは、前述の他のプロパティと同じようにエラーは発生しません。</span><span class="sxs-lookup"><span data-stu-id="9110d-p166">The <b>ConversationIndex</b> property cannot be cached using the <b>SetColumns</b> method. However, this property will not result in an error like the other properties listed above.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string Property, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string Property, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (Property As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property"><span data-ttu-id="9110d-376">並べ替えに使用する、角かっこ、たとえば、「[得意先名]」で囲むことがプロパティの名前。</span><span class="sxs-lookup"><span data-stu-id="9110d-376">The name of the property by which to sort, which may be enclosed in brackets, for example, "[CompanyName]".</span></span> <span data-ttu-id="9110d-377">スペースを含むユーザー定義のプロパティは、角かっこで囲む必要があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-377">User-defined properties that contain spaces must be enclosed in brackets.</span></span> <span data-ttu-id="9110d-378">型のキーワードのユーザー定義プロパティではない可能性があり、カテゴリなど、複数値を持つプロパティではない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="9110d-378">May not be a user-defined property of type keywords, and may not be a multi-valued property, such as a category.</span></span> <span data-ttu-id="9110d-379"><b>UserDefinedProperties</b>コレクションのプロパティのユーザー定義のプロパティが存在する必要があります<see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />を表し、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />の項目を格納しているオブジェクト。</span><span class="sxs-lookup"><span data-stu-id="9110d-379">For user-defined properties, the property must exist in the <b>UserDefinedProperties</b> collection for <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />, which represents the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that contains the items.</span></span></param>
+        <param name="Descending"><span data-ttu-id="9110d-p168"><b>True を指定</b> の順序を降順で並べ替えるには。既定値が <b>False</b> (昇順です)。 </span><span class="sxs-lookup"><span data-stu-id="9110d-p168"><b>True</b> to sort in descending order. The default value is <b>False</b> (ascending).</span></span></param>
+        <summary><span data-ttu-id="9110d-p169">指定されたプロパティごとにアイテムのコレクションを並べ替えます。コレクションのインデックスは、メソッドの完了時に 1 に設定されます。</span><span class="sxs-lookup"><span data-stu-id="9110d-p169">Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</span></span></summary>
+        <remarks><para><span data-ttu-id="9110d-p170">
+            <b>並べ替え</b> は、コレクション内の項目の順序にのみ影響します。エクスプ ローラー ビューでアイテムの順序には影響しません。</span><span class="sxs-lookup"><span data-stu-id="9110d-p170">
+            <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</span></span></para>
+          <para><span data-ttu-id="9110d-386">
+            <b>並べ替え</b>は使用できず、エラーが発生する場合は、<paramref name="property" />パラメーターは、次のプロパティの 1 つ。</span><span class="sxs-lookup"><span data-stu-id="9110d-386">
+            <b>Sort</b> cannot be used and will cause an error if the <paramref name="property" /> paramater is one of the following properties:</span></span>                </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="9110d-387">
+                <b>カテゴリ</b>
+              </span><span class="sxs-lookup"><span data-stu-id="9110d-387">
+                <b>Categories</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnly" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnlyCompany" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="9110d-388">
+                <b>クラス</b>
+              </span><span class="sxs-lookup"><span data-stu-id="9110d-388">
+                <b>Class</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstNoSpace" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.NetMeetingAlias" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstSpaceOnly" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
+              </description>
+              <description><span data-ttu-id="9110d-389">
+                <b>保存</b>
+              </span><span class="sxs-lookup"><span data-stu-id="9110d-389">
+                <b>Saved</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
+              </description>
+              <description><span data-ttu-id="9110d-390">
+                <b>送信</b>
+              </span><span class="sxs-lookup"><span data-stu-id="9110d-390">
+                <b>Sent</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpaceCompany" />
+              </description>
+              <description />
+            </item>
+          </list>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
