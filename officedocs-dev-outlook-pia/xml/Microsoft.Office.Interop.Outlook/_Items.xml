@@ -1,5 +1,5 @@
 <Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898383" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="90ccbcb3fe07f548327e1919c5fa54fecbde32ba" /><Meta Name="ms.sourcegitcommit" Value="8bffa304e2953ca61fa94459dd08997552262640" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="04/05/2019" /><Meta Name="ms.locfileid" Value="31479563" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
@@ -22,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.Items" />。</summary>
+    <summary>これは、対応する com コクラスとの相互運用のためにマネージコードが必要とする com コクラスのプライマリインターフェイスです。 このプライマリインターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有する場合にのみ使用します。この場合、このインターフェイスにキャストしてメソッドを呼び出し、最新の events インターフェイスにキャストしてイベントに接続します。 それ以外の場合は、com コクラスから派生した .net インターフェイスを使用して、com オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については<see cref="T:Microsoft.Office.Interop.Outlook.Items" />、「」を参照してください。</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,10 +48,10 @@
         <Parameter Name="Type" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">新しい項目の Outlook アイテムの種類です。 指定、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" />にカスタム フォームを作成します。 <b>OlItemType</b> 定数は、次のいずれか: <b>olAppointmentItem</b> 、 <b>olContactItem</b> 、 <b>olJournalItem</b> 、 <b>olMailItem</b> 、 <b>olNoteItem</b> 、 <b>olPostItem</b> 、または <b>olTaskItem</b> 、または任意の有効なメッセージ クラスです。</param>
-        <summary>新しい Outlook アイテムを作成、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションです。</summary>
+        <param name="Type">新しい項目の Outlook アイテムの種類です。 ユーザー設定<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" />フォームを作成するを指定します。 <b>OlItemType</b> 定数は、次のいずれか: <b>olAppointmentItem</b> 、 <b>olContactItem</b> 、 <b>olJournalItem</b> 、 <b>olMailItem</b> 、 <b>olNoteItem</b> 、 <b>olPostItem</b> 、または <b>olTaskItem</b> 、または任意の有効なメッセージ クラスです。</param>
+        <summary>フォルダーの<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションに新しい Outlook アイテムを作成します。</summary>
         <returns>新しい Outlook アイテムを表すオブジェクト型 (Object) の値。</returns>
-        <remarks><para>フォルダーの種類を指定しない場合、Outlook アイテムの<b>Type</b>プロパティの既定値<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />場合は、親フォルダーが入力されていません。</para>
+        <remarks><para>指定しない場合、Outlook アイテムの<b>type</b>プロパティの既定値は、フォルダーの種類、また<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />は、親フォルダーが入力されていない場合です。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -78,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Application" />親 Outlook アプリケーションを表すオブジェクト型 (object) の値を取得します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +106,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />クラスを示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,7 +134,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
+        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数</b>(C# では<b>int</b> ) を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -162,11 +162,11 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">新しいアイテムの Outlook アイテムの種類です。</param>
-        <summary>検索しを満たす Outlook アイテム オブジェクトを取得、指定された<paramref name="Filter" />。</summary>
-        <returns>呼び出しが成功した場合は、Outlook アイテムを表すオブジェクトの値失敗した場合は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</returns>
-        <remarks><para>コンテンツのインデックス検索を使用するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションを使用して、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />メソッドです。 <b>FindRow</b>はエラーを返す場合<paramref name="Filter" />コンテンツのインデックス キーワードが含まれています。 コンテンツのインデックス キーワードの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87947">クエリ キーワードを使ってアイテムをフィルター処理</a>を参照してください。</para>
-          <para>メソッドはエラーでは、次のプロパティで、 <paramref name="Filter" />。 </para>
+        <param name="Filter">取得したオブジェクトが満たす必要がある条件を指定する文字列です。</param>
+        <summary>指定さ<paramref name="Filter" />れたを満たす Outlook アイテムオブジェクトを検索して返します。</summary>
+        <returns>呼び出しが成功した場合は Outlook アイテムを表すオブジェクト型 (Object) の値。失敗した場合は<b>nothing</b> (C# では null 参照 (Visual Basic では nothing) を返します。</returns>
+        <remarks><para><see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクション内のコンテンツインデックス検索を使用するには<see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> 、メソッドを使用します。 <b></b>コンテンツインデックスのキーワードが含ま<paramref name="Filter" />れている場合、FindRow はエラーを返します。 コンテンツインデックスのキーワードの詳細については、「<a href="http://go.microsoft.com/fwlink/?LinkId=87947">クエリキーワードを使用してアイテムをフィルター</a>にかける」を参照してください。</para>
+          <para>このメソッドは、 <paramref name="Filter" />で次のプロパティを使用してエラーを返します。 </para>
           <list type="table">
             <item>
               <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
@@ -176,62 +176,54 @@
           <para>Find メソッドおよび Restrict メソッドのためのフィルターの作成</para>
           <para>フィルターの構文は、フィルターを適用するフィールドの種類によって異なります。</para>
           <para>文字列 (テキスト フィールドの場合) </para>
-          <para>テキスト フィールドを検索する場合は、アポストロフィ (') または二重引用符 () のいずれかを使用することができます ("")、フィルターの一部である値を区切るために。 たとえば、次の行はすべて正しくフィールドの場合入力<b>文字列</b>(C# では<b>文字列</b>)。 </para>
-          <para>範囲 ="[得意先名] = 'マイクロソフト'」 </para>
-          <para>範囲 ="[得意先名] =""Microsoft""" </para>
-          <para>範囲 ="[得意先名] =" &amp; chr (34) &amp; "Microsoft" &amp; chr (34)</para>
+          <para>テキストフィールドを検索する場合は、アポストロフィ (') または二重引用符 ("") のいずれかを使用して、フィルターの一部である値を区切ることができます。 たとえば、次のすべての行は、フィールドが<b>string</b>型 (C# の場合は<b>string</b> ) の場合に正しく機能します。 </para>
+          <para>sFilter = "[CompanyName] = ' Microsoft '" </para>
+          <para>sFilter = "[CompanyName] =" "Microsoft" "" </para>
+          <para>sFilter = "[CompanyName] =" &amp; chr (34) &amp; "Microsoft" &amp; Chr (34)</para>
           <para>Jet または DASL クエリでフィルターを指定するときに、フィルターに含める文字列の区切り文字として単一引用符のペアを使用しており、かつその文字列に別の単一引用符やアポストロフィが含まれている場合は、その単一引用符またはアポストロフィの前に、エスケープ文字として単一引用符を追加します。文字列の区切り文字として二重引用符を使用している場合も、同様に処理します。つまり、文字列に二重引用符が含まれている場合は、その二重引用符の前に、エスケープ文字として二重引用符を追加します。</para>
-          <para>たとえば、DASL フィルターでは、1 組の単一引用符で文字列の単語が<b>件名</b>のプロパティをフィルターできません、全体のフィルター文字列は、二重引用符のペアで区切られた、埋め込まれた文字列のことはできませんが区切られます。 このフィルター文字列にエスケープする必要がある 3 つの文字が含まれて: 開始の二重引用符と二重引用符のプロパティの参照のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f、アポストロフィ、word の値の状態ではできません。 適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</para>
-          <para>フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f"」= 'ことができます' t'」</para>
-          <para>chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。
-
- 
-
-</para>
-          <para>フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</para>
-          <para>    &amp;Chr (34) &amp; 「=」 &amp; "' が ' t'"</para>
-          <para>DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。
-
- 
-
-</para>
-          <para>フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</para>
-          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "' できます ' t'"</para>
-          <para>別の例は、DASL フィルターの文字列をフィルター処理する単語に等しくなる<b>件名</b>プロパティに理想的な機能で、word の機能を二重引用符で囲む、です。 この場合は、次に示すように囲んでいる二重引用符をエスケープする必要があります。</para>
-          <para>フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= '「データ」右'」</para>
+          <para>たとえば、" <b>Subject/件名</b>" プロパティが word ではないことをフィルター処理する DASL フィルター文字列の場合、フィルター文字列全体は二重引用符のペアで区切られ、埋め込み文字列は1つの引用符で区切られません。 このフィルター文字列には、次のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f3 つの文字をエスケープする必要があります。プロパティを参照するための開始二重引用符と終わり二重引用符。また、単語に対する値の条件にアポストロフィを使用することはできません。 適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</para>
+          <para>filter = "@SQL=" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' は ' ' できません"</para>
+          <para>chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。 二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。</para>
+          <para>filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
+          <para>    &amp;Chr (34) &amp; "=" &amp; "' は ' ' できません"</para>
+          <para>DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。 たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。 </para>
+          <para>filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
+          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "' ' は ' ' できません"</para>
+          <para>もう1つの例としては、" <b>Subject/件名</b>" プロパティが右の部分と等しい場合をフィルター処理する DASL フィルター文字列があります。この文字列は、単語が二重引用符で囲まれています。 この場合、次に示すように、末尾の二重引用符をエスケープする必要があります。</para>
+          <para>filter = "@SQL=" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' right" "": ""</para>
           <para>スペース、単一引用符、二重引用符、またはパーセント文字を含んでいる名前付きプロパティのプロパティ参照には、別のエスケープ規則のセットが適用されます。 詳細については、「名前空間によってプロパティを参照する」を参照してください。</para>
           <para>日付</para>
-          <para>日付形式では、日付と時刻が格納されます通常、Find メソッドおよび Restrict メソッドは、日付と時刻を文字列形式に変換する必要があります。 Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、Format 関数を使用します。 次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。 </para>
-          <para>範囲 ="[LastModificationTime] &gt; '」&amp;形式 ("99/1/15 午後 3 時 30 分"、「ddddd h:nn AMPM」) &amp; "'"</para>
-          <para>ブール型 (Boolean)</para>
+          <para>通常、日付と時刻は日付形式で格納されますが、Find メソッドおよび Restrict メソッドでは、日付と時刻を文字列表現に変換する必要があります。 Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、Format 関数を使用します。 次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。 </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp;形式 ("1/15/99 3: 30pm", "ddddd h:nn AMPM") &amp; "'"</para>
+          <para>Boolean 演算子</para>
           <para>TRUE/FALSE、YES/NO、ON/OFF などのブール型 (Boolean) の値は、文字列に変換せずに処理する必要があります。たとえば、連絡先の履歴が有効になっているかどうかを確認するには、次のフィルターを使用します。</para>
-          <para>範囲 ="[仕訳帳] = True" </para>
+          <para>sFilter = "[ジャーナル] = True" </para>
           <para>
-            <b>注</b>: ブール型のフィールドで区切り文字として引用符を使用するかどうか、False をされているフィールド アイテムを空の文字列が検索され、されているフィールドのアイテムをすべての空でない文字列が検索されます。</para>
+            <b>注</b>: ブール型 (Boolean) のフィールドで区切り文字として引用符を使用する場合、空の文字列は、フィールドが False であるアイテムを検索し、空ではないすべての文字列は、フィールドが True であるアイテムを検索します。</para>
           <para>キーワード (または Categories)</para>
-          <para>カテゴリ フィールドが型のキーワードの複数の値を保持するために設計されています。 プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。 テキスト文字列内の値は、コンマとスペースで区切られています。 つまり、一般に複数の値が含まれているキーワード フィールドには Find メソッドと Restrict メソッドが使用できないということです。 たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、Find メソッドと Restrict メソッドを簡単に使用することはできません。 その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを Instr 関数でテストします。 </para>
+          <para>Categories フィールドは、複数の値を保持するように設計されたキーワード型です。 プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。 テキスト文字列内の値は、コンマとスペースで区切られています。 つまり、一般に複数の値が含まれているキーワード フィールドには Find メソッドと Restrict メソッドが使用できないということです。 たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、Find メソッドと Restrict メソッドを簡単に使用することはできません。 その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを Instr 関数でテストします。 </para>
           <para>
-            <b>注</b>: 2、または値の数が少ないカテゴリ フィールドを制限するかどうかは、例外があります。 できます、検索機能を使用し、すべてのビジネス用連絡先を取得するのには、OR 論理演算子を含むメソッドを制限します。 たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。 Category の文字列は、大文字と小文字が区別されません。</para>
+            <b>注</b>: 例外として、Categories フィールドを2に制限するか、値の数を少なくすることをお勧めします。 その後、or の論理演算子を使用して Find メソッドおよび Restrict メソッドを使用すると、すべてのビジネス用連絡先を取得できます。 たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。 Category の文字列は、大文字と小文字が区別されません。</para>
           <para>整数</para>
-          <para>整数フィールドは、引用符の区切り文字として検索できます。 Outlook 2000 で作成した連絡先は、次のフィルターが表示されます。 </para>
-          <para>範囲 ="[OutlookInternalVersion] = 92711」 </para>
-          <para>範囲 ="[OutlookInternalVersion] = '92711'」</para>
+          <para>整数型 (Integer) のフィールドを検索するには、区切り文字として引用符を使用しないようにします。 次のフィルターは、Outlook 2000 で作成された連絡先を取得します。 </para>
+          <para>sFilter = "[outlookinternalversion] = 92711" </para>
+          <para>sFilter = "[outlookinternalversion] = ' 92711 '"</para>
           <para>フィルターの一部として変数を使用する</para>
-          <para>Restrict メソッドの例が示すように、フィルターの一部として変数から値を使用することができます。 次の Microsoft Visual Basic のコード サンプルは、フィルターの一部として変数を使用する構文を示しています。 </para>
-          <para>示します"Dan Wilson"を =。 </para>
-          <para> このアプローチでは、chr (34) を使用して値: 範囲 ="[FullName] =" &amp; chr (34)&amp;示します&amp;chr (34)。 </para>
-          <para> このアプローチでは、値を区切るために二重引用符 () を使用: 範囲 ="[FullName] ="""&amp;示します&amp;」」」。</para>
+          <para>Restrict メソッドの使用例に示されているように、変数の値をフィルターの一部として使用できます。 次の Microsoft Visual Basic のコード例は、フィルターの一部として変数を使用する構文を示しています。 </para>
+          <para>sfullname = "Dan Wilson" </para>
+          <para> この方法では、chr (34) を使用して値: sFilter = "[FullName &amp; ] =" chr &amp; (34 &amp; ) sfullname Chr (34) を区切ります。 </para>
+          <para> この方法では、二重引用符を使用して値を区切ります。 sFilter = "[FullName &amp; ] = &amp; " "" sfullname "" ""</para>
           <para>フィルターの一部として論理演算子を使用する</para>
-          <para>論理演算子は、AND、OR、および NOT が使用可能です。 以下は、Restrict メソッドでは、句を組み合わせたのため、複数の抽出条件を指定することができます。  </para>
-          <para>OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' または [カテゴリ] = 'ビジネス'」 </para>
-          <para>AND: Microsoft で勤務している個人用連絡先をすべて取得します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' と [得意先名] = 'マイクロソフト'」 </para>
-          <para>NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' ではなく ([得意先名] = 'マイクロソフト')"</para>
+          <para>論理演算子は、AND、OR、および NOT が使用可能です。 Restrict メソッドの句のバリエーションを次に示します。したがって、複数の条件を指定することもできます。  </para>
+          <para>OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' または [categories] = ' Business '" </para>
+          <para>AND: Microsoft で勤務している個人用連絡先をすべて取得します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' および [CompanyName] = ' Microsoft '" </para>
+          <para>NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' および Not ([CompanyName] = ' Microsoft ')"</para>
           <para>追加情報</para>
-          <para>場合は、Find メソッドまたは Restrict メソッドを使用して、ユーザー定義フィールドをしようとすると、フィールドはフォルダーで、それ以外の場合、エラーが発生します。 「含む」操作を実行する方法はありません。 たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、Find または Restrict は使用できません。 その代わりに、AdvancedSearch メソッドを使用できます。また、フォルダー内のすべてのアイテムをループ処理し、InStr 関数を使用してフィールド内の検索を実行することもできます。 Restrict メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。 たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。 </para>
-          <para>範囲 ="[LastName] &gt; [姓] および ['LZZZ' &lt; ' N '」</para>
+          <para>ユーザー定義フィールドで Find メソッドまたは Restrict メソッドを使用しようとしている場合は、そのフィールドがフォルダー内に定義されている必要があります。それ以外の場合は、エラーが発生します。 「含む」操作を実行する方法はありません。 たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、Find または Restrict は使用できません。 その代わりに、AdvancedSearch メソッドを使用できます。また、フォルダー内のすべてのアイテムをループ処理し、InStr 関数を使用してフィールド内の検索を実行することもできます。 Restrict メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。 たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。 </para>
+          <para>sFilter = "[lastname] &gt; ' ' lzzz ' And [lastname &lt; ] ' N '"</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -256,10 +248,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>後、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドの実行、このメソッドは、検索し、指定されたコレクション内の次の Outlook アイテムを返します。</summary>
+        <summary>メソッドを<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />実行すると、このメソッドは、指定されたコレクション内の次の Outlook アイテムを検索して返します。</summary>
         <returns>コレクション内で見つかった次の Outlook アイテムを表すオブジェクト型 (Object) の値。</returns>
         <remarks><para> 検索操作は、 <b>Find</b> メソッドで設定された式に一致する現在の位置から開始します。</para>
-          <para>Outlook アイテム オブジェクトの呼び出しが成功した場合、メソッドを返します。失敗した場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+          <para>呼び出しが成功した場合、メソッドは Outlook アイテムオブジェクトを返します。失敗した場合、 <b>Nothing</b> (C# では nothing) (Visual Basic では nothing) を返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -286,7 +278,7 @@
       <Docs>
         <summary>コレクションの先頭のオブジェクトを返します。</summary>
         <returns>コレクションに格納されている先頭のオブジェクトを表すオブジェクト型 (Object) の値。</returns>
-        <remarks><para>返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <remarks><para>最初のオブジェクトが存在しない場合 (コレクション内にオブジェクトがない場合など) は、 <b>Nothing</b>を返します。大きなコレクションで、 <b>getfirst</b> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />メソッドが正しく動作していることを確認するには、そのコレクションで<b>GetNext</b>を呼び出す前に<b>getfirst</b>を呼び出し、getfirst を呼び出す前に<b>getfirst</b>を呼び出します。 <b></b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -313,7 +305,7 @@
       <Docs>
         <summary>コレクションの末尾のオブジェクトを返します。</summary>
         <returns>コレクションに格納されている末尾のオブジェクトを表すオブジェクト型 (Object) の値。</returns>
-        <remarks><para><b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <remarks><para>最後のオブジェクトが存在しない場合 (コレクションが空の場合など) は、 <b>Nothing</b>を返します。大規模なコレクションで、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <b>getlast</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />メソッドが正しく動作していることを確認するには、そのコレクションで<b>GetNext</b>を呼び出す前に<b>getlast</b>を呼び出し、getlast を呼び出す前に<b>getlast</b>を呼び出します。 <b></b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -338,9 +330,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>コレクションの次のオブジェクトを返します。</summary>
+        <summary>コレクション内の次のオブジェクトを取得します。</summary>
         <returns>コレクションに格納されている次のオブジェクトを表すオブジェクト型 (Object) の値。</returns>
-        <remarks><para><b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <remarks><para>次のオブジェクトが存在しない場合 (コレクションの末尾に配置済みの場合など) は、 <b>Nothing</b>を返します。<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、 <b>getnext</b>、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />および大規模なコレクション内のメソッドが正しく動作していることを確認するには、そのコレクションで<b>GetNext</b>を呼び出す前に<b>getfirst</b>を呼び出し、getfirst を呼び出す前に<b>getfirst</b>を呼び出します。 <b></b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -365,9 +357,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>コレクションの 1 つ前のオブジェクトを返します。</summary>
+        <summary>コレクション内の 1 つ前のオブジェクトを取得します。</summary>
         <returns>コレクションに格納されている 1 つ前のオブジェクトを表すオブジェクト型 (Object) の値。</returns>
-        <remarks><para><b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <remarks><para>前のオブジェクトが存在しない場合 (コレクションの先頭に既に配置されている場合など) は、 <b>Nothing</b>を返します。大<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />規模なコレクションで、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />、、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />、および<b>getprevious</b>メソッドが正しく動作していることを確認するには、そのコレクションで<b>GetNext</b>を呼び出す前に<b>getprevious</b>を呼び出し、呼び出し前に<b></b> <b>getprevious を呼び出します。getprevious</b>。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -397,11 +389,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定する場合は</b>、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションは、定期的なパターンを含める必要があります。 値の取得と設定が可能です。</summary>
+        <summary>コレクションに<see cref="T:Microsoft.Office.Interop.Outlook.Items" />定期的なパターンを含める必要がある場合は<b>True</b>を示す<b>ブール値</b>(C# では<b>bool</b> ) を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティは、 <b>Items</b>コレクションを選択し、予定が含まれていますがで並べ替えられていない任意のプロパティ以外の場合のみ効果を<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />の順序を昇順にします。 既定値は、 <b>false を指定</b> します。 プロパティを使用してこの特定の日付のすべての予定を取得する場合に、定期的な予定は通常は表示されません、特定の日付に関連付けられているではないためです。 予定表アイテムを定期的な予定の並べ替えし、フィルター処理する必要がある場合は、次の順序で行う必要があります: 昇順でアイテムを並べ替える、 <b>日付</b> に設定する <b>場合は True</b> 、およびアイテムのフィルターを適用します。 この順序を示すコード サンプルでは、次の 2 つ目の例を参照してください。 コレクションには、終了日を含む定期的な予定が含まれているプロパティを <b>True</b> に設定、コレクションを無限の数を示すことがあります。 任意のループでこのテストを含めることを確認します。 <b>ループ</b> のプロパティを <b>True</b> に設定を持つ <b>アイテム</b> のコレクションを反復処理するときは、 <b>項目</b> のコレクションの <b>Count</b> プロパティを使用しないでください。 <b>数</b> ] の値は未定義の値になります。</para>
+        <remarks><para>このプロパティは、 <b>Items</b>コレクションに予定が含まれていて、昇順以外<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />のプロパティで並べ替えられていない場合にのみ有効です。 既定値は、 <b>false を指定</b> します。 プロパティを使用してこの特定の日付のすべての予定を取得する場合に、定期的な予定は通常は表示されません、特定の日付に関連付けられているではないためです。 予定表アイテムを定期的な予定の並べ替えし、フィルター処理する必要がある場合は、次の順序で行う必要があります: 昇順でアイテムを並べ替える、 <b>日付</b> に設定する <b>場合は True</b> 、およびアイテムのフィルターを適用します。 この順序を示すコード サンプルでは、次の 2 つ目の例を参照してください。 コレクションには、終了日を含む定期的な予定が含まれているプロパティを <b>True</b> に設定、コレクションを無限の数を示すことがあります。 任意のループでこのテストを含めることを確認します。 <b>ループ</b> のプロパティを <b>True</b> に設定を持つ <b>アイテム</b> のコレクションを反復処理するときは、 <b>項目</b> のコレクションの <b>Count</b> プロパティを使用しないでください。 <b>数</b> ] の値は未定義の値になります。</para>
           <para>
-            <b>注意</b>: 正常に動作しないように、日付のプロパティと、文字列の並べ替えられたリストをフィルター処理します。 たとえば、次の順序が予定に出現するすべてを返す定期的と非定期的な: (1) Start プロパティ は false (3) の呼び出しに 制限する (つまり、フィルターなど) のプロパティを設定 (2) でソートします。</para>
+            <b>注意</b>: 並べ替えられたアイテムの一覧をフィルター処理すると、IncludeRecurrences プロパティが期待どおりに動作しなくなります。 たとえば、次の順序が予定に出現するすべてを返す定期的と非定期的な: (1) Start プロパティ は false (3) の呼び出しに 制限する (つまり、フィルターなど) のプロパティを設定 (2) でソートします。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -460,7 +452,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
+        <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。 値の取得のみ可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -545,7 +537,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>キャッシュされているプロパティをクリア、<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />メソッドです。</summary>
+        <summary><see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />メソッドを使用してキャッシュされたプロパティをクリアします。</summary>
         <remarks><para>すべてのプロパティは、 <b>ResetColumns</b> メソッドを呼び出した後にアクセスできます。 <b>Setcolumns メソッドに新しいプロパティをもう一度保存します。</b> <b>ResetColumns</b> は <b>SetColumns</b> が最初に呼び出されていない場合に、何も実行しません。</para>
           <para> </para></remarks>
       </Docs>
@@ -573,12 +565,12 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">適用するフィルター文字列式。 詳細についてを参照してください、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドです。</param>
-        <summary>フィルターを適用して、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションは、すべてのフィルターに一致する元のアイテムを含む新しいコレクションを返します。</summary>
-        <returns>フィルターに一致する元の<b>項目</b>のコレクションから項目を表す<b>項目</b>のコレクションです。</returns>
-        <remarks><para>このメソッドは、使用する代わりに、<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドまたは<see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />コレクション内の特定の項目を反復処理するメソッドです。 アイテム数が少ない場合は、<b>Find</b> メソッドや <b>FindNext</b> メソッドの方が処理が速くなります。 <b>Restrict</b> メソッドは、アイテム数が多くなるほど大幅に処理が速くなります。特に、大きなコレクション内で少数のアイテムを検索する場合に高速になります。</para>
+        <param name="Filter">適用するフィルター文字列式。 詳細については<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> 、メソッドを参照してください。</param>
+        <summary><see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションにフィルターを適用し、フィルターに一致する元のすべてのアイテムを含む新しいコレクションを返します。</summary>
+        <returns>フィルターに一致する元の<b>items</b>コレクションのアイテムを表す<b>items</b>コレクション。</returns>
+        <remarks><para>このメソッドは、 <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />メソッドまたは<see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />メソッドを使用して、コレクション内の特定のアイテムを反復処理する方法とは別の方法です。 アイテム数が少ない場合は、<b>Find</b> メソッドや <b>FindNext</b> メソッドの方が処理が速くなります。 <b>Restrict</b> メソッドは、アイテム数が多くなるほど大幅に処理が速くなります。特に、大きなコレクション内で少数のアイテムを検索する場合に高速になります。</para>
           <para>
-            <b>注</b>: ユーザー定義フィールドがフォルダーに存在する必要があります<b>を検索</b>または<b>制限する</b>句の一部としてユーザー定義フィールドを使用する場合。 それ以外の場合は、そのフィールドが不明であることを示すエラーがコードによって生成されます。 フォルダーを追加するには、[フィールドの選択] を表示して [新規] をクリックします。</para>
+            <b>注</b>: <b>Find</b>句または<b>Restrict</b>句の一部としてユーザー定義フィールドを使用している場合は、ユーザー定義フィールドがフォルダー内に存在している必要があります。 それ以外の場合は、そのフィールドが不明であることを示すエラーがコードによって生成されます。 フォルダーを追加するには、[フィールドの選択] を表示して [新規] をクリックします。</para>
           <para>このメソッドは、次のプロパティと共に使用することはできません (エラーが発生します)。</para>
           <list type="table">
             <item>
@@ -589,64 +581,56 @@
           <para>Find メソッドおよび Restrict メソッドのためのフィルターの作成</para>
           <para>フィルターの構文は、フィルターを適用するフィールドの種類によって異なります。</para>
           <para>文字列 (テキスト フィールドの場合) </para>
-          <para>テキスト フィールドを検索する場合は、アポストロフィ (') または二重引用符 () のいずれかを使用することができます ("")、フィルターの一部である値の区切り文字にします。 たとえば、次の行はすべて正しくフィールドの場合入力<b>文字列</b>(C# では<b>文字列</b>)。 </para>
-          <para>範囲 ="[得意先名] = 'マイクロソフト'」 </para>
-          <para>範囲 ="[得意先名] =""Microsoft""" </para>
-          <para>範囲 ="[得意先名] =" &amp; chr (34) &amp; "Microsoft" &amp; chr (34)</para>
+          <para>テキストフィールドを検索する場合は、アポストロフィ (') または二重引用符 ("") のいずれかを使用して、フィルターの一部である値を区切ることができます。 たとえば、次のすべての行は、フィールドが<b>string</b>型 (C# の場合は<b>string</b> ) の場合に正しく機能します。 </para>
+          <para>sFilter = "[CompanyName] = ' Microsoft '" </para>
+          <para>sFilter = "[CompanyName] =" "Microsoft" "" </para>
+          <para>sFilter = "[CompanyName] =" &amp; chr (34) &amp; "Microsoft" &amp; Chr (34)</para>
           <para>Jet または DASL クエリでフィルターを指定するときに、フィルターに含める文字列の区切り文字として単一引用符のペアを使用しており、かつその文字列に別の単一引用符やアポストロフィが含まれている場合は、その単一引用符またはアポストロフィの前に、エスケープ文字として単一引用符を追加します。文字列の区切り文字として二重引用符を使用している場合も、同様に処理します。つまり、文字列に二重引用符が含まれている場合は、その二重引用符の前に、エスケープ文字として二重引用符を追加します。</para>
-          <para>たとえば、DASL フィルターでは、1 組の単一引用符で文字列の単語が<b>件名</b>のプロパティをフィルターできません、全体のフィルター文字列は、二重引用符のペアで区切られた、埋め込まれた文字列のことはできませんが区切られます。 このフィルター文字列にエスケープする必要がある 3 つの文字が含まれて: 開始の二重引用符と二重引用符のプロパティの参照のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f、アポストロフィ、word の値の状態ではできません。 適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</para>
-          <para>フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f"」= 'ことができます' t'」</para>
-          <para>chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。
-
- 
-
-</para>
-          <para>フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</para>
-          <para>    &amp;Chr (34) &amp; 「=」 &amp; "' が ' t'"</para>
-          <para>DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。
-
- 
-
-</para>
-          <para>フィルター ="@SQL =" &amp; chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</para>
-          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "' できます ' t'"</para>
-          <para>別の例は、DASL フィルターの文字列をフィルター処理する単語に等しくなる<b>件名</b>プロパティに理想的な機能で、word の機能を二重引用符で囲む、です。 この場合は、次に示すように囲んでいる二重引用符をエスケープする必要があります。</para>
-          <para>フィルター ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= '「データ」右'」</para>
+          <para>たとえば、" <b>Subject/件名</b>" プロパティが word ではないことをフィルター処理する DASL フィルター文字列の場合、フィルター文字列全体は二重引用符のペアで区切られ、埋め込み文字列は1つの引用符で区切られません。 このフィルター文字列には、次のhttp://schemas.microsoft.com/mapi/proptag/0x0037001f3 つの文字をエスケープする必要があります。プロパティを参照するための開始二重引用符と終わり二重引用符。また、単語に対する値の条件にアポストロフィを使用することはできません。 適切なエスケープ文字を適用すると、フィルター文字列を次のように表すことができます。</para>
+          <para>filter = "@SQL=" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' は ' ' できません"</para>
+          <para>chr(34) 関数を使用して、エスケープ文字として使用される二重引用符 (ASCII 文字値は 34) を表すこともできます。 二重引用符のエスケープ文字の代わりに chr(34) を使用すると、最後の例を次のように表すことができます。</para>
+          <para>filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
+          <para>    &amp;Chr (34) &amp; "=" &amp; "' は ' ' できません"</para>
+          <para>DASL クエリを <b>ci_startswith</b> 演算子または <b>ci_phrasematch</b> 演算子と共に使用する場合も、単一引用符と二重引用符をエスケープする必要があります。 たとえば、次のクエリは、メッセージの件名で can't の語句一致クエリを実行します。 </para>
+          <para>filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
+          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "' ' は ' ' できません"</para>
+          <para>もう1つの例としては、" <b>Subject/件名</b>" プロパティが右の部分と等しい場合をフィルター処理する DASL フィルター文字列があります。この文字列は、単語が二重引用符で囲まれています。 この場合、次に示すように、末尾の二重引用符をエスケープする必要があります。</para>
+          <para>filter = "@SQL=" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' right" "": ""</para>
           <para>スペース、単一引用符、二重引用符、またはパーセント文字を含んでいる名前付きプロパティのプロパティ参照には、別のエスケープ規則のセットが適用されます。 詳細については、「名前空間によってプロパティを参照する」を参照してください。</para>
           <para>日付</para>
-          <para>日付と時刻は、通常の<b>検索</b>日付の形式で格納し、 <b>Restrict</b>メソッドを使うには、日付と時刻の文字列形式に変換します。 Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、<b>Format</b> 関数を使用します。 次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。 </para>
-          <para>範囲 ="[LastModificationTime] &gt; '」&amp;形式 ("99/1/15 午後 3 時 30 分"、「ddddd h:nn AMPM」) &amp; "'"</para>
-          <para>ブール型 (Boolean)</para>
+          <para>日付と時刻は、通常、日付の書式で格納されますが、<b>Find</b> メソッドおよび <b>Restrict</b> メソッドでは、この書式を文字列の表記に変換する必要があります。 Microsoft Outlook が必要とするとおりに日付が形式化されるようにするには、<b>Format</b> 関数を使用します。 次の例では、1999 年 1 月 15 日の午後 3 時 30 分より後に変更されたすべての連絡先を検索するフィルターを作成しています。 </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp;形式 ("1/15/99 3: 30pm", "ddddd h:nn AMPM") &amp; "'"</para>
+          <para>Boolean 演算子</para>
           <para>TRUE/FALSE、YES/NO、ON/OFF などのブール型 (Boolean) の値は、文字列に変換せずに処理する必要があります。たとえば、連絡先の履歴が有効になっているかどうかを確認するには、次のフィルターを使用します。</para>
-          <para>範囲 ="[仕訳帳] = True" </para>
+          <para>sFilter = "[ジャーナル] = True" </para>
           <para>
-            <b>注</b>: かどうかは、<b>ブール型</b>のフィールドで区切り文字として引用符を使用するアイテムは<b>false を指定</b>されているフィールドを空の文字列が検索され、すべての空でない文字列が<b>格納されているフィールド</b>のアイテムを検索します。 </para>
+            <b>注</b>:<b>ブール型 (Boolean)</b>のフィールドで区切り文字として引用符を使用する場合、空の文字列は、フィールドが<b>False</b>であるアイテムを検索し、空ではないすべての文字列は、フィールドが<b>True</b>であるアイテムを検索します。 </para>
           <para>キーワード (または Categories)</para>
-          <para>カテゴリ フィールドが型のキーワードの複数の値を保持するために設計されています。 プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。 テキスト文字列内の値は、コンマとスペースで区切られています。 つまり、一般に複数の値が含まれているキーワード フィールドには <b>Find</b> メソッドと <b>Restrict</b> メソッドが使用できないということです。 たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、<b>Find</b> メソッドと <b>Restrict</b> メソッドを簡単に使用することはできません。 その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを <b>Instr</b> 関数でテストします。 </para>
+          <para>Categories フィールドは、複数の値を保持するように設計されたキーワード型です。 プログラムでアクセスするときには、Categories フィールドはテキスト フィールドのように動作し、文字列は完全一致する必要があります。 テキスト文字列内の値は、コンマとスペースで区切られています。 つまり、一般に複数の値が含まれているキーワード フィールドには <b>Find</b> メソッドと <b>Restrict</b> メソッドが使用できないということです。 たとえば、Business のカテゴリに 1 つの連絡先があり、Business と Social のカテゴリに 1 つの連絡先がある場合は、Business のカテゴリに含まれるすべてのアイテムを取得するために、<b>Find</b> メソッドと <b>Restrict</b> メソッドを簡単に使用することはできません。 その代わりに、フォルダー内のすべての連絡先をループ処理して、全体のキーワード フィールド内に文字列 "Business" が含まれているかどうかを <b>Instr</b> 関数でテストします。 </para>
           <para>
-            <b>注</b>: 2、または値の数が少ないカテゴリ フィールドを制限するかどうかは、例外があります。 すべてのビジネス用連絡先を取得するために、論理演算子を使って、 <b>Find</b>メソッドと<b>Restrict</b>メソッドを使用できます。 たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。 Category の文字列は、大文字と小文字が区別されません。 </para>
+            <b>注</b>: 例外として、Categories フィールドを2に制限するか、値の数を少なくすることをお勧めします。 その後、or の論理演算子を使用して<b>Find</b>メソッドおよび<b>Restrict</b>メソッドを使用すると、すべてのビジネス用連絡先を取得できます。 たとえば、"Business" OR "Business, Personal" OR "Personal, Business" のようにします (擬似コード)。 Category の文字列は、大文字と小文字が区別されません。 </para>
           <para>整数</para>
-          <para>引用符の有無、<b>整数型</b>フィールドの区切り文字として検索できます。 次のフィルターには、Outlook 2000 を使用して作成した連絡先があります。 </para>
-          <para>範囲 ="[OutlookInternalVersion] = 92711」 </para>
-          <para>範囲 ="[OutlookInternalVersion] = '92711'」</para>
+          <para>整数型 ( <b>Integer</b> ) のフィールドを検索するには、区切り文字として引用符は使用しません。 次に示すのは、Outlook 2000 で作成した連絡先を取得するフィルターです。 </para>
+          <para>sFilter = "[outlookinternalversion] = 92711" </para>
+          <para>sFilter = "[outlookinternalversion] = ' 92711 '"</para>
           <para>フィルターの一部として変数を使用する</para>
-          <para><b>Restrict</b>メソッドの例が示すように、フィルターの一部として変数から値を使用することができます。 次の Microsoft Visual Basic のコード サンプルは、フィルターの一部として変数を使用する構文を示しています。 </para>
-          <para>示します"Dan Wilson"を =。 </para>
-          <para>' このアプローチでは、値を区切るために chr (34) を使用します。 </para>
-          <para>範囲 ="[FullName] =" &amp; chr (34)&amp;示します&amp;chr (34)。 </para>
-          <para>' このアプローチでは、値を区切るために二重引用符 () を使用します。 </para>
-          <para>範囲 ="[FullName] ="""&amp;示します&amp;」」」。</para>
+          <para><b>Restrict</b> メソッドの例で示したように、フィルターには変数の値を使用することもできます。 次の Microsoft Visual Basic のコード例は、フィルターの一部として変数を使用する構文を示しています。 </para>
+          <para>sfullname = "Dan Wilson" </para>
+          <para>' この方法では、値を区切るために Chr (34) を使用します。 </para>
+          <para>sFilter = "[FullName] =" &amp; Chr (34) &amp; sfullname &amp; chr (34) </para>
+          <para>' この方法では、二重引用符を使用して値を区切ります。 </para>
+          <para>sFilter = "[FullName] =" "" &amp; sfullname &amp; "" ""</para>
           <para>フィルターの一部として論理演算子を使用する</para>
-          <para>論理演算子は、AND、OR、および NOT が使用可能です。 以下は、 <b>Restrict</b>メソッドの句を組み合わせたのため、複数の抽出条件を指定することができます。  </para>
-          <para>OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' または [カテゴリ] = 'ビジネス'」 </para>
-          <para>AND: Microsoft で勤務している個人用連絡先をすべて取得します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' と [得意先名] = 'マイクロソフト'」 </para>
-          <para>NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。</para>
-          <para>範囲 ="[カテゴリ] = '個人' ではなく ([得意先名] = 'マイクロソフト')"</para>
+          <para>論理演算子は、AND、OR、および NOT が使用可能です。 次に、複数の条件を指定できるように、 <b>Restrict</b>メソッドの句のバリエーションを示します。  </para>
+          <para>OR: カテゴリが Business または Personal のすべての連絡先アイテムを返します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' または [categories] = ' Business '" </para>
+          <para>AND: Microsoft で勤務している個人用連絡先をすべて取得します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' および [CompanyName] = ' Microsoft '" </para>
+          <para>NOT: Microsoft に勤務していない個人用連絡先をすべて取得します。 </para>
+          <para>sFilter = "[カテゴリ] = ' Personal ' および Not ([CompanyName] = ' Microsoft ')"</para>
           <para>追加情報</para>
-          <para>ユーザー定義フィールドに、<b>検索</b>メソッドまたは<b>Restrict</b>メソッドを使用しようとしている場合のフィールドはそれ以外の場合、エラーが発生、フォルダーに定義する必要があります。 「含む」操作を実行する方法はありません。 たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、<b>Find</b> または <b>Restrict</b> は使用できません。 代わりに、使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />メソッド、またはすべてのフォルダー内のアイテムをループでき、フィールド内で検索を実行するのには、 <b>InStr</b>関数を使用します。 <b>Restrict</b> メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。 たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。 </para>
-          <para>範囲 ="[LastName] &gt; [姓] および ['LZZZ' &lt; ' N '」</para>
+          <para>ユーザー定義フィールドで<b>Find</b>メソッドまたは<b>Restrict</b>メソッドを使用しようとしている場合は、そのフィールドがフォルダー内に定義されている必要があります。それ以外の場合は、エラーが発生します。 「含む」操作を実行する方法はありません。 たとえば、Subject フィールドに特定の語が含まれているアイテムを検索するために、<b>Find</b> または <b>Restrict</b> は使用できません。 代わりに、 <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />メソッドを使用することも、フォルダー内のすべてのアイテムをループ処理して、 <b>InStr</b>関数を使用して、フィールド内で検索を実行することもできます。 <b>Restrict</b> メソッドは、特定の範囲の文字で始まるアイテムの検索に使用できます。 たとえば、姓が文字 M で始まる連絡先のすべてを検索するには、次のフィルターを使用します。 </para>
+          <para>sFilter = "[lastname] &gt; ' ' lzzz ' And [lastname &lt; ] ' N '"</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -673,9 +657,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在の<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />セッションのオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>session</b>プロパティと<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドを同じ方法で使用して、現在のセッションの<b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ機能を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -708,10 +692,10 @@
         <Parameter Name="Columns" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Columns">キャッシュに格納するプロパティの名前を含む文字列を指定します。この文字列内では、プロパティ名をコンマで区切ります。</param>
+        <param name="Columns">キャッシュに格納するプロパティの名前を含む文字列を指定します。 この文字列内では、プロパティ名をコンマで区切ります。</param>
         <summary>特定のプロパティをキャッシュに格納して、コレクションのアイテムの特定のプロパティに非常に早くアクセスできるようにします。</summary>
-        <remarks><para><b>SetColumns</b>メソッドを反復処理するのに便利ですが、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションです。 このメソッドを使用しない場合、 Microsoft Outlookは、プロパティにアクセスするには、各項目を開く必要があります。 、 <b>SetColumns</b> メソッドを使用して Outlook はキャッシュに格納されて、し、これらのプロパティを高速で読み取り専用のアクセスを提供するプロパティだけをチェックします。</para>
-          <para><b>SetColumns</b>メソッドを適用すると、コレクションの特定のプロパティに、そのコレクションの他のプロパティを読み取ることができません。空のキャッシュされていないプロパティが返されます。 か、そのコレクションのプロパティのいずれかに書き込むことはできません。 項目のセットへの読み取り/書き込み、高速のアクセスを必要とする場合は、使用の<see cref="T:Microsoft.Office.Interop.Outlook.Table" />オブジェクトです。</para>
+        <remarks><para><b>SetColumns</b>メソッドは、 <see cref="T:Microsoft.Office.Interop.Outlook.Items" />コレクションを反復処理するのに便利です。 このメソッドを使用しない場合、 Microsoft Outlookは、プロパティにアクセスするには、各項目を開く必要があります。 、 <b>SetColumns</b> メソッドを使用して Outlook はキャッシュに格納されて、し、これらのプロパティを高速で読み取り専用のアクセスを提供するプロパティだけをチェックします。</para>
+          <para>コレクションの特定のプロパティに対して <b>SetColumns</b> メソッドを実行すると、そのコレクション内の他のプロパティを読み取ることができなくなります (つまり、キャッシュに格納されていないプロパティを取得しようとすると、空の値が返されます)。 また、そのコレクションのプロパティへの書き込みもできなくなります。 または、アイテムのセットに対する読み取り/書き込みの高速アクセスが必要な場合は<see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 、オブジェクトを使用します。</para>
           <para>
             <b>SetColumns</b> ことはできませんが使用され、オブジェクトを返す任意のプロパティでは、エラーが発生します。次のプロパティで使用することはできません。</para>
           <list type="table">
@@ -720,7 +704,7 @@
               <description>InternetCodePage</description>
             </item>
             <item>
-              <description>Body</description>
+              <description>本文</description>
               <description>MeetingWorkspaceURL</description>
             </item>
             <item>
@@ -803,13 +787,13 @@
         <Parameter Name="Descending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Property">並べ替えに使用する、角かっこ、たとえば、「[得意先名]」で囲むことがプロパティの名前。 スペースを含むユーザー定義のプロパティは、角かっこで囲む必要があります。 型のキーワードのユーザー定義プロパティではない可能性があり、カテゴリなど、複数値を持つプロパティではない可能性があります。 <b>UserDefinedProperties</b>コレクションのプロパティのユーザー定義のプロパティが存在する必要があります<see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />を表し、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />の項目を格納しているオブジェクト。</param>
-        <param name="Descending"><b>True を指定</b> の順序を降順で並べ替えるには。既定値が <b>False</b> (昇順です)。 </param>
-        <summary>指定されたプロパティごとにアイテムのコレクションを並べ替えます。コレクションのインデックスは、メソッドの完了時に 1 に設定されます。</summary>
+        <param name="Property">並べ替えの基準となるプロパティの名前 ("[得意先名]" など) を角かっこで囲んで指定します。 スペースを含むユーザー定義のプロパティは、角かっこで囲む必要があります。 キーワード型のユーザー定義プロパティではない場合があり、カテゴリなどの複数値を持つプロパティにすることはできません。 ユーザー定義のプロパティの場合、このプロパティは、アイテムを含む<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトを<see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />表す<b>userdefinedproperties</b>コレクションに存在する必要があります。</param>
+        <param name="Descending"><b>True を指定</b> の順序を降順で並べ替えるには。 既定値が <b>False</b> (昇順です)。</param>
+        <summary>指定されたプロパティごとにアイテムのコレクションを並べ替えます。 コレクションのインデックスは、メソッドの完了時に 1 に設定されます。</summary>
         <remarks><para>
-            <b>並べ替え</b> は、コレクション内の項目の順序にのみ影響します。エクスプ ローラー ビューでアイテムの順序には影響しません。</para>
+            <b>並べ替え</b> は、コレクション内の項目の順序にのみ影響します。 エクスプ ローラー ビューでアイテムの順序には影響しません。</para>
           <para>
-            <b>並べ替え</b>は使用できず、エラーが発生する場合は、<paramref name="property" />パラメーターは、次のプロパティの 1 つ。                </para>
+            <b>Sort</b>を使用することはできません。 <paramref name="property" />パラメーターが次のいずれかのプロパティである場合は、エラーが発生します。                </para>
           <list type="table">
             <item>
               <description>
@@ -864,7 +848,7 @@
                 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
               </description>
               <description>
-                <b>保存</b>
+                <b>Saved</b>
               </description>
             </item>
             <item>
@@ -872,7 +856,7 @@
                 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
               </description>
               <description>
-                <b>送信</b>
+                <b>Sent</b>
               </description>
             </item>
             <item>
