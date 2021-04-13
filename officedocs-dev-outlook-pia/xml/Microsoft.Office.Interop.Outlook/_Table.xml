@@ -1,5 +1,5 @@
 <Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="158a812340e5870cd83216af795ef455983e655b" /><Meta Name="ms.sourcegitcommit" Value="8bffa304e2953ca61fa94459dd08997552262640" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="04/05/2019" /><Meta Name="ms.locfileid" Value="31479556" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="158a812340e5870cd83216af795ef455983e655b" /><Meta Name="ms.sourcegitcommit" Value="9e48edef9d279c87fa2fbd78f150bc92c2332179" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="04/13/2021" /><Meta Name="ms.locfileid" Value="51691743" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する com コクラスとの相互運用のためにマネージコードが必要とする com コクラスのプライマリインターフェイスです。 このプライマリインターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有する場合にのみ使用します。この場合、このインターフェイスにキャストしてメソッドを呼び出し、最新の events インターフェイスにキャストしてイベントに接続します。 それ以外の場合は、com コクラスから派生した .net インターフェイスを使用して、com オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については<see cref="T:Microsoft.Office.Interop.Outlook.Table" />、「」を参照してください。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.Table" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.Application" />親アプリケーション (Outlook) を表すオブジェクト型 (object) の値を取得します。 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 読み取り専用です。</summary>
+        <summary>オブジェクトの <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 親アプリケーション (Outlook) を表すオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトのクラスを示す<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />列挙型の定数を返します。 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 読み取り専用です。</summary>
+        <summary>オブジェクトのクラスを示 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> す列挙体の定数を返 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,11 +101,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>に定義<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />されている列を含む collection オブジェクト<see cref="T:Microsoft.Office.Interop.Outlook.Table" />を返します。 読み取り専用です。</summary>
+        <summary>に対 <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> して定義された列を含むコレクション オブジェクトを返します <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para><b>Columns</b> コレクションのオブジェクトは、 <b>Table</b> オブジェクトの既定のメンバーです。  </para>
-          <para>テーブル内の行<b></b>は、テーブルの親<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />または<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトのアイテムに<b></b>対応していますが、<b>テーブル</b>内の<b>列</b>はこれらのアイテムのプロパティに対応します。 <b>Table</b> オブジェクトの親フォルダーに基づいてすべてのフォルダーは、既定の列が定義されています。 受信トレイの既定のプロパティは、たとえば、: <b>エントリ Id</b> 、 <b>件名</b> 、 <b>CreationTime</b> 、 <b>LastModificationTime</b> 、および <b>MessageClass</b> です。 <b>テーブル</b>の既定のプロパティの詳細については、「 <a href="http://go.microsoft.com/fwlink/?LinkId=87925">table オブジェクトに表示される既定のプロパティ</a>」を参照してください。</para>
-          <para><b>テーブル</b>の<see cref="T:Microsoft.Office.Interop.Outlook.Column" /> <b>Columns</b>コレクションにオブジェクトを追加するには、 <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />を使用します。 既定の列セットを削除するに<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />は、を使用します。 <b>表</b>の列を調整する方法の詳細については、「 <a href="http://go.microsoft.com/fwlink/?LinkID=87935">table オブジェクトに列を追加する</a>」を参照してください。</para>
+          <para>Table 内の行<b>は Table</b>の親またはオブジェクト内のアイテムに対応しますが、Table 内の列は、これらのアイテム <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> のプロパティに対応します。 <b></b> <b></b> <b></b> <b>Table</b> オブジェクトの親フォルダーに基づいてすべてのフォルダーは、既定の列が定義されています。 受信トレイの既定のプロパティは、たとえば、: <b>エントリ Id</b> 、 <b>件名</b> 、 <b>CreationTime</b> 、 <b>LastModificationTime</b> 、および <b>MessageClass</b> です。 Table の既定のプロパティの詳細については<b>、「Table</b><a href="http://go.microsoft.com/fwlink/?LinkId=87925">オブジェクトに表示される既定のプロパティ」を参照してください。</a></para>
+          <para>Table の <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> <b>Columns</b>コレクションにオブジェクト<b></b>を追加するには、 を使用します <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" /> 。 既定の列セットを削除するには、 を使用します <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> 。 テーブルの列の調整の詳細については <b>、「Table</b>オブジェクトへの列の追加 <a href="http://go.microsoft.com/fwlink/?LinkID=87935">」を参照してください。</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -132,10 +132,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>オブジェクトの最後の行の後に現在の行が配置されているかどうかを示す<b>ブール値</b>(C# では bool) を返します。<b></b> <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 読み取り専用です。</summary>
+        <summary>現在の行 <b>が</b> オブジェクトの最後の行の後に配置されるかどうかを示すブール型 (C#) のブール型<b>(bool)</b> を返 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>、、または<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />を使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />し<see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />て<b>テーブル</b>を開くと、 <b>endoftable</b>の値は<b>テーブル</b>内の行数によって決まります。 行がない場合、 <b>endoftable</b>は True を返します。 行がある場合、ポインターが表の最後の行を超えて移動するまで、 <b>endoftable</b>は<b>False</b>を返します。  </para>
-          <para><b>テーブル</b> には 2 つの仮想 <b>Null</b> の行、最初の行の前に 1 つは、 <b>テーブル</b> の最後の行の後のいずれかです。 各呼び出しは<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> 、現在の行を<b>テーブル</b>の次の行に移動し、 <see cref="T:Microsoft.Office.Interop.Outlook.Row" />現在の行を表すオブジェクトを返します。   </para>
+        <remarks><para>、またはを使用<b>してテーブル</b>を開く場合、EndOfTable の値は、Table の行数 <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" /> <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> によって異<b>なります</b>。 <b></b> 行がない場合 <b>、EndOfTable は</b> True を返します。 行がある場合は、カーソルが Table の最後の行を超えるまで<b>、EndOfTable</b>は False を返します。 <b></b>  </para>
+          <para><b>テーブル</b> には 2 つの仮想 <b>Null</b> の行、最初の行の前に 1 つは、 <b>テーブル</b> の最後の行の後のいずれかです。 呼び出しごとに、現在の行を Table の次の行に移動し、現在の行を表す <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> <b></b> <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> オブジェクトを返します。   </para>
           <para><b>EndOfTable</b> プロパティは、現在の行 <b>の最後の行後</b> が上、または最後の行の前に現在の行がある場合に <b>True</b> を返します。</para>
           <para> </para></remarks>
       </Docs>
@@ -161,10 +161,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>で、前の手順<see cref="T:Microsoft.Office.Interop.Outlook.Table" /> <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />で指定した条件に一致するの次の行を検索します。</summary>
-        <returns><see cref="T:Microsoft.Office.Interop.Outlook.Row" /> <b>FindRow</b>を呼び出す前のフィルター条件を満たす<b>テーブル</b>内の次の行を表すオブジェクト。 <b>FindNextRow</b>が<b>FindRow</b>で指定された条件に一致する別の行を見つけることができない場合、 <b>nothing</b> (C# では null 参照 (nothing)) を返します。 また、 <b>FindNextRow</b>の前に<b>FindRow</b>が呼び出されていない場合は、 <b>Nothing</b> (C# の場合は null 参照 (Visual Basic では nothing) を返します。</returns>
+        <summary>前に指定した条件を満たす次の行 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> を検索します  <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" /> 。</summary>
+        <returns>FindRow の前の呼び出しでフィルター条件を満たす Table の次の行を表 <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> す<b>オブジェクト</b>。 <b></b> <b>FindNextRow</b>が FindRow で指定された条件を満たす別の行を検索できない場合は、nothing (C# の null 参照 (Visual Basic では Nothing) を<b>返します</b>。 <b></b> また<b>、FindNextRow</b><b>の前</b>に<b>FindRow</b>が呼び出されていない場合は、Nothing (Visual Basic の null 参照 ( C#) を返します。</returns>
         <remarks><para>
-            <b>FindNextRow</b> は、直前の <b>FindRow</b> または <b>FindNextRow</b> によって返される行の次の行を検索します。 この値は、現在の行に依存しません (たとえば、のように、現在の行は前の<b>FindRow</b>または<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> <b>FindNextRow</b>から再配置されている場合があります)。</para>
+            <b>FindNextRow</b> は、直前の <b>FindRow</b> または <b>FindNextRow</b> によって返される行の次の行を検索します。 現在の行には依存しない (たとえば、前の <b>FindRow</b> または <b>FindNextRow</b>以降に現在の行が再配置された可能性があります <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> )。</para>
           <para><b>FindNextRow</b> には、行が検出されると、その行を現在の行を配置します。 それ以上行が見つからない場合は、現在の行の位置を移動しません。</para>
           <para> </para></remarks>
       </Docs>
@@ -193,15 +193,15 @@
       </Parameters>
       <Docs>
         <param name="Filter">満たすために、 <b>テーブル</b> 内の行がある条件を指定します。</param>
-        <summary>で<paramref name="Filter" />指定された条件<see cref="T:Microsoft.Office.Interop.Outlook.Table" />に一致するの最初の行を検索します。</summary>
-        <returns>フィルター <see cref="T:Microsoft.Office.Interop.Outlook.Row" />条件に一致する<b>テーブル</b>の最初の行を表すオブジェクト。 そのような行が見つからない場合、または<b>テーブル</b>に行が含まれていない場合は、 <b>nothing</b> (null 参照 (Visual Basic では nothing) を返します。</returns>
+        <summary>で指定した条件を  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 満たす行の最初の行を検索します <paramref name="Filter" /> 。</summary>
+        <returns>フィルター <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> 条件を満たす <b>Table</b> の最初の行を表すオブジェクト。 そのような行 <b>が見</b> つからない場合、または Table に行が含まれている場合は、Nothing (C# の null 参照 (Visual Basic では <b>Nothing)</b> を返します。</returns>
         <remarks><para>
             <b>FindRow</b> は常に <b>テーブル</b> の最初の行から開始します。  </para>
-          <para>の<paramref name="Filter" />プロパティが指定した名前空間に存在しない場合、 
-            <b>FindRow</b>は<b>nothing</b> (Visual Basic では nothing) を返します (C# では null 参照)。 プロパティは、MAPI プロパティ セットの PS_PUBLIC_STRINGS で名前付きプロパティと見なされます。 <b>FindRow</b> がエラーをここでは返されません。</para>
           <para>
-            <b>FindRow</b>は、空白文字列<paramref name="Filter" />または無効な制限の場合にエラーを返します。 <b>FindRow</b>で行が見つからない場合、 <b>FindRow</b>の呼び出し前の位置に現在の行が再配置されることはありません。</para>
-          <para><b>テーブル</b>でコンテンツインデックス検索を使用するには、 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />メソッドを使用します。 <b></b>コンテンツインデックスのキーワードが<paramref name="Filter" />含まれている場合、FindRow はエラーを返します。 </para>
+            <b>FindRow</b> は、 <b>指定</b> された名前空間にプロパティが存在しない場合、Nothing Visual Basic (C# の null 参照 (C# では Nothing) <paramref name="Filter" /> を返します。 プロパティは、MAPI プロパティ セットの PS_PUBLIC_STRINGS で名前付きプロパティと見なされます。 <b>FindRow</b> がエラーをここでは返されません。</para>
+          <para>
+            <b>FindRow</b> は、空白の文字列または無効 <paramref name="Filter" /> な制限の場合にエラーを返します。 FindRow で行が見つからない場合、現在の行は  <b>FindRow</b> の呼び出し前の位置に <b>再配置されません</b>。</para>
+          <para>Table でコンテンツ インデックス検索を使用 <b>するには</b>、メソッドを使用 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> します。 コンテンツ インデックスキーワードが含まれている場合<b>、FindRow</b> <paramref name="Filter" /> はエラーを返します。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -229,13 +229,13 @@
       </Parameters>
       <Docs>
         <param name="MaxRows"><b>テーブル</b> から取得する行の最大数を指定します。</param>
-        <summary>の行と列の値のセットを含む2次元配列を取得<see cref="T:Microsoft.Office.Interop.Outlook.Table" />します。</summary>
-        <returns><b>テーブル</b>の行と列の値のセットを表す2次元配列の<b>オブジェクト</b>値。 配列は0から始まります。配列インデックス (i, j) は、配列内の i 番目の列と j 番目の行にインデックスを作成します。 配列内の列は<b>テーブル</b>内の列に対応し、配列内の行は<b>テーブル</b>内の行に対応します。 返される配列内の行数は、<b>テーブル</b>内の行の<paramref name="MaxRows" />数と実際の行数の小さい方の値です。</returns>
+        <summary>から行と列の値のセットを含む 2 次元配列を取得します <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 。</summary>
+        <returns>Table <b>の</b> 行と列の値のセットを表す 2 次元配列の <b>Object 値</b>です。 配列は 0 から始ります。配列インデックス (i, j) は、配列内の i 番目の列と j 番目の行にインデックスを作成します。 配列内の列は Table の<b></b>列に対応し、配列内の行は Table の行に対応<b>します</b>。 返される配列内の行数は、Table の小さい値と実際の行 <paramref name="MaxRows" /> 数 <b>です</b>。</returns>
         <remarks><para><b>GetArray</b> メソッドは、概念的には単純な (現在の行に基づいて) <b>テーブル</b> 内のデータのすべてまたは一部を配列にコピーし、配列にインデックスを <b>テーブル</b> から値を取得する手段を提供します。</para>
           <para>
-            <b>GetArray</b> は、常に、 <b>テーブル</b> の現在の行から開始します。 このメソッドは、 <paramref name="MaxRows" /> <b>テーブル</b>内の現在の位置から少なく<paramref name="MaxRows" />とも行数を指定すると、行数の配列を返します。 が<paramref name="MaxRows" /> <b>テーブル</b>の行数の合計よりも大きくない場合に、現在の行から始まる<paramref name="MaxRows" /> <b>テーブル</b>の要素数が少ない場合は、<b>テーブル</b>内の残りの行のみを含む配列が返されます。 <b>GetArray</b> を呼び出したとき、残りの行がない場合は、 <b>GetArray</b> は 0 個の要素に空の配列を返します。</para>
-          <para><b>Table</b> から適切な行を取得し、処理を終了する前に、<b>GetArray</b> は常に現在の行の位置を <b>Table</b> の次の行に移動します (次の行がある場合)。 GetArray (n) は、n <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />回呼び出された場合と同じように動作します。</para>
-          <para>列の値は、 <b>テーブル</b> 内の列にマップし、ため、列で使用されるプロパティ名の形式によって決まります。 詳細については、「<a href="http://go.microsoft.com/fwlink/?LinkId=87858">テーブルおよびビュークラスのプロパティ値表現に影響する要素</a>」を参照してください。</para>
+            <b>GetArray</b> は、常に、 <b>テーブル</b> の現在の行から開始します。 Table に現在の位置から始まる行の数が少なくともある場合は、行数の配列 <paramref name="MaxRows" /> <paramref name="MaxRows" /> を返します。 <b></b> Table 内の行の総数より大きくなく、現在の行から始まる Table 内の要素数よりも少ない場合は、Table 内の残りの行のみを含む配列を返します。 <paramref name="MaxRows" /> <b></b> <paramref name="MaxRows" /> <b></b> <b></b> <b>GetArray</b> を呼び出したとき、残りの行がない場合は、 <b>GetArray</b> は 0 個の要素に空の配列を返します。</para>
+          <para><b>Table</b> から適切な行を取得し、処理を終了する前に、<b>GetArray</b> は常に現在の行の位置を <b>Table</b> の次の行に移動します (次の行がある場合)。 GetArray(n) は、n 回と呼 <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> ばれる場合と同様に動作します。</para>
+          <para>列の値は、 <b>テーブル</b> 内の列にマップし、ため、列で使用されるプロパティ名の形式によって決まります。 詳細については、「Table クラスと View クラスのプロパティ <a href="http://go.microsoft.com/fwlink/?LinkId=87858">値表現に影響を与える要因」を参照してください。</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -260,8 +260,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>現在の行をの<see cref="T:Microsoft.Office.Interop.Outlook.Table" />次の行に移動し、<b>テーブル</b>内のその行を取得します。</summary>
-        <returns>使用<see cref="T:Microsoft.Office.Interop.Outlook.Row" />可能な追加の行がある場合に、<b>テーブル</b>内の次の有効な行を表すオブジェクト。 使用できる行が他にない場合 ( <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> where は<b>True</b>)、 <b>GetNextRow</b>は<b>nothing</b> (C# では null 参照 (Visual Basic では nothing) を返します。</returns>
+        <summary>現在の行を表の次の行に移動し、 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> その行を <b>取得します</b>。</summary>
+        <returns>使用可能 <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> な追加の行がある場合 <b>、Table</b> 内の次の有効な行を表すオブジェクト。 使用可能な追加の行がない場合 <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> <b>(True</b>の場合<b></b>)、GetNextRow は Nothing (null 参照<b></b>(Visual Basic) を返C#。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -286,10 +286,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>の行の数を取得し<see cref="T:Microsoft.Office.Interop.Outlook.Table" />ます。</summary>
-        <returns>テーブル内の行の数を表す<b>整数</b>(C# の<b>int</b> ) 値。</returns>
-        <remarks><para>大きなテーブルで
-            <b>getrowcount</b>を実行すると、パフォーマンスに影響が生じます。  MAPI 制限 (たとえば、大きなテーブルのメモリ制約、<b>テーブル</b>に対する同時操作など) のため、 <b>getrowcount</b>は<b>テーブル</b>内の行の数を特定できないか、近似行のみを返すことができます。量. このような場合、 <b>getrowcount</b>はエラーを返します。 <b>getrowcount</b>に対して適切なエラー検出を使用して、呼び出しがエラーを返すかどうかを判断する必要があります。 </para>
+        <summary>内の行数を取得します <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 。</summary>
+        <returns>Table<b></b>の<b>行数</b>をC#整数 (整数型 ) の値。</returns>
+        <remarks><para>
+            <b>大きなテーブルの GetRowCount</b> は、パフォーマンスに影響を与えます。  MAPI の制限 (大きなテーブルのメモリ制約、テーブルでの同時操作など)<b></b>により<b>、GetRowCount</b>ではテーブル内の行数を特定できない場合<b></b>や、おおよその行数のみを返す場合があります。 このような場合 <b>、GetRowCount は</b> エラーを返します。 呼び出しがエラーを返すかどうかを判断するには <b>、GetRowCount</b> に適切なエラー検出を使用する必要があります。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -314,9 +314,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>の現在の行<see cref="T:Microsoft.Office.Interop.Outlook.Table" />を<b>テーブル</b>の最初の行の直前に移動します。</summary>
+        <summary>現在の行を Table <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> の最初の行の直前に移動 <b>します</b>。</summary>
         <remarks><para>
-            <b>MoveToStart</b> は、<b>Table</b> をリセットする操作と同じです。 <b>movetostart</b>を<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />呼び出した後に通話すると、<b>テーブル</b>の最初の行を表す行が返されます。</para>
+            <b>MoveToStart</b> は、<b>Table</b> をリセットする操作と同じです。 MoveToStart を呼び出した後に呼び出す場合は、Table の最初の行を表 <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> す行を返<b>します</b>。 <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -343,7 +343,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><see cref="T:Microsoft.Office.Interop.Outlook.Table" />オブジェクトの親<b>オブジェクト</b>を返します。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <b>オブジェクトを</b> 返 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -371,18 +371,18 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter"><b>Table</b>オブジェクト内の行の抽出条件を指定します。</param>
-        <summary>の<see cref="T:Microsoft.Office.Interop.Outlook.Table" />行にフィルターを適用し、新しい<b>Table</b>オブジェクトを取得します。</summary>
-        <returns>親<b>table</b>オブジェクトの行に適用<paramref name="Filter" />することによって返される<b>table</b>オブジェクト。</returns>
-        <remarks><para>table の親オブジェクト<b></b>が<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />オブジェクトの場合、table に対して<b></b>別のフィルターを適用するには、Restrict を使用する必要があります<b>。</b> 親オブジェクトが<see cref="T:Microsoft.Office.Interop.Outlook.Search" />オブジェクトの場合、 <b>Restrict</b>はエラーを返します。</para>
-          <para>filter は table オブジェクトの行に適用されるので、このフィルターは、同じ<b>table</b>オブジェクトに適用される論理 and <paramref name="Filter" />およびその他すべてのフィルターを適用することと同じです。</para>
+        <param name="Filter">Table オブジェクト内の行の条件を <b>指定</b> します。</param>
+        <summary>内の行にフィルターを適用し <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> 、新しい Table オブジェクト <b>を取得</b> します。</summary>
+        <returns>親 <b>Table</b> オブジェクトの行に適用することによって返 <paramref name="Filter" /> される <b>Table</b> オブジェクト。</returns>
+        <remarks><para><b>Table.Restrict を使用して、Table</b>の親オブジェクト<b></b>がオブジェクトである場合にのみ、その Table に別の<b>フィルターを適用</b> <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> できます。 親オブジェクトがオブジェクトの場合 <see cref="T:Microsoft.Office.Interop.Outlook.Search" />  <b>、Restrict は</b> エラーを返します。</para>
+          <para>このフィルターは Table オブジェクトの行に適用されます。これは、同じ Table オブジェクトに適用される論理 AND および先行するフィルターすべてであるフィルターを適用するのと <paramref name="Filter" /> <b>同</b> じです。</para>
           <para>
-            <paramref name="Filter" /> は、親<b>テーブル</b>内の行として表されるアイテムの指定されたプロパティに対するクエリです。 クエリは、Microsoft Jet 構文または DAV の検索および検索 (DASL) 構文のいずれかを使用します。 たとえば、次の Jet フィルターおよび DASL フィルター アイテムと同じ条件 <b>LastModificationTime</b> をより前に指定、2005 年 6 月 12 日の午後 3 時 30 分。</para>
-          <para>criteria = "[LastModificationTime] &lt; '" &amp; Format $ ("6/12/2005 3: 30PM", "General Date") &amp; "'"</para>
-          <para>criteria = "@SQL=" &amp; chr (34) &amp; "DAV: getlastmodified" &amp; chr (34) &amp; " &lt; '" &amp;形式 $ ("6/12/2005 3: 30PM", "General Date") &amp; "'" </para>
-          <para><b>Table</b>オブジェクトのフィルターを指定する方法の詳細については、「<a href="http://go.microsoft.com/fwlink/?LinkId=87855">アイテムをフィルター</a>にかける」を参照してください。</para>
-          <para>カスタム<paramref name="Filter" />プロパティが含まれている場合、制限が正しく動作するためには、これらのプロパティが<b>Table</b>オブジェクトの親フォルダーに存在する必要があります。  バイナリ プロパティ、計算されたプロパティは、HTML または rtf 形式の本文の内容など、 <b>Table</b> フィルターでは、特定のプロパティはサポートされていません。 詳細については、「 <a href="http://go.microsoft.com/fwlink/?LinkId=87926">table オブジェクトまたは table Filter でサポートされていないプロパティ</a>」を参照してください。</para>
-          <para>が<paramref name="Filter" />空白の文字列である<b></b>場合、parent <b>table</b>オブジェクトと同一の<b>table</b>オブジェクトが返されます。  </para>
+            <paramref name="Filter" /> は、親 Table の行として表されるアイテムの指定されたプロパティに対する <b>クエリです</b>。 クエリは、Microsoft Jet 構文または DAV の検索および検索 (DASL) 構文のいずれかを使用します。 たとえば、次の Jet フィルターおよび DASL フィルター アイテムと同じ条件 <b>LastModificationTime</b> をより前に指定、2005 年 6 月 12 日の午後 3 時 30 分。</para>
+          <para>criteria = "[LastModificationTime] &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</para>
+          <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34)          &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'" </para>
+          <para>Table オブジェクトのフィルターの指定の詳細については、「 <b>アイテム</b> のフィルター <a href="http://go.microsoft.com/fwlink/?LinkId=87855">処理」を参照してください。</a></para>
+          <para>カスタム プロパティが含まれている場合、制限が正しく機能するには、これらのプロパティが Table オブジェクトの親フォルダー <paramref name="Filter" /> に存在している必要があります。 <b></b>  バイナリ プロパティ、計算されたプロパティは、HTML または rtf 形式の本文の内容など、 <b>Table</b> フィルターでは、特定のプロパティはサポートされていません。 詳細については、「Table <a href="http://go.microsoft.com/fwlink/?LinkId=87926">オブジェクトまたはテーブル フィルターのサポートされていないプロパティ」を参照してください。</a></para>
+          <para>空白 <paramref name="Filter" /> の文字列の場合 <b>、Restrict</b> は親 Table オブジェクトと同一の <b>Table</b> オブジェクトを <b>返</b> します。  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -409,9 +409,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>現在の<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />セッションのオブジェクトを返します。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>session</b>プロパティと<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドを同じ方法で使用して、現在のセッションの<b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -446,11 +446,11 @@
       <Docs>
         <param name="SortProperty">使用して <b>テーブル</b> の行をソートするプロパティを指定します。</param>
         <param name="Descending">降順の順序で <b>テーブル</b> をソートするかどうか。</param>
-        <summary>で<paramref name="SortProperty" />指定された<see cref="T:Microsoft.Office.Interop.Outlook.Table" />プロパティによっての行を並べ替え、現在の行を<b>テーブル</b>の最初の行の直前にリセットします。</summary>
+        <summary>で指定したプロパティによって行を並べ替え、現在の行を Table の最初の行の直前 <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> <paramref name="SortProperty" /> にリセット <b>します</b>。</summary>
         <remarks><para>
-            <paramref name="SortProperty" /> 任意の明示的な組み込みプロパティまたはカスタムプロパティを指定できますが、バイナリプロパティと複数値プロパティは例外です。 プロパティは、明示的な文字列名で参照する必要があります。名前空間で参照することはできません。 並べ替えプロパティの指定の詳細については、「<a href="http://go.microsoft.com/fwlink/?LinkId=87936">フォルダー内のアイテムを並べ替える</a>」を参照してください。</para>
-          <para>テーブルの並べ替えは、メソッドの<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />呼び出しと同じです。 カーソルは Table の先頭の位置に移動します。  </para>
-          <para><b>table. Sort</b>を呼び出す<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />と、新しい<b>テーブル</b>内のフィルター処理されたアイテムは、同じ<paramref name="SortProperty" />と<paramref name="SortOrder" />によって並べ替えられます。</para>
+            <paramref name="SortProperty" /> バイナリプロパティと複数値プロパティを除き、明示的な組み込みプロパティまたはカスタム プロパティを指定できます。 プロパティは、明示的な文字列名で参照する必要があります。名前空間で参照することはできません。 並べ替えプロパティの指定の詳細については、「フォルダー内の <a href="http://go.microsoft.com/fwlink/?LinkId=87936">アイテムの並べ替え」を参照してください。</a></para>
+          <para>テーブルの並べ替えは、メソッドの呼び出しと同 <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> じです。 カーソルは Table の先頭の位置に移動します。  </para>
+          <para><b>Table.Sort</b>を呼び出して呼び出した場合、新しい Table 内のフィルター処理されたアイテムは同じで並 <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> <b></b>べ替 <paramref name="SortProperty" /> え <paramref name="SortOrder" /> 、.</para>
           <para>
             <b>Table.Sort</b> は、単一の列で並べ替えをサポートするだけです。</para>
           <para> </para></remarks>
