@@ -1,5 +1,5 @@
 <Type Name="_NameSpace" FullName="Microsoft.Office.Interop.Outlook._NameSpace">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897221" /></Metadata><TypeSignature Language="C#" Value="public interface _NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a87a43de5dc77c99e251521002873396b70a33ed" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139601" /></Metadata><TypeSignature Language="C#" Value="public interface _NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NameSpace" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NameSpace" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,9 +45,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Accounts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Account" />現在のプロファイル内のオブジェクト。 読み取り専用です。</summary>
+        <summary>現在のプロファイル <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> 内のすべてのオブジェクトを表す <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> コレクション オブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>アカウント</b>が、<b>アカウント</b>のコレクションを返します Outlook をセッションレス モードで実行する場合<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />0 にします。</para>
+        <remarks><para>セッションOutlook実行中の場合<b>、Accounts</b>は 0 の<b>Accounts</b>コレクション <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> を返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -74,9 +74,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressLists</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />このセッションのアドレスのコレクションを表すコレクションを使用可能な一覧表示します。 読み取り専用です。</summary>
+        <summary>このセッションで <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  使用できるアドレス一覧のコレクションを表すコレクションを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>AddressLists</b> コレクションは、現在のセッションのアドレス帳階層のルートを表します。 特定の<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />オブジェクトには、利用可能なアドレス帳の 1 つを表します。 取得できるアクセスの種類は、それぞれ個別のアドレス帳プロバイダーに与えられたアクセス許可に依存します。</para>
+        <remarks><para><b>AddressLists</b> コレクションは、現在のセッションのアドレス帳階層のルートを表します。 特定の <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  オブジェクトは、使用可能なアドレス帳のいずれかを表します。 取得できるアクセスの種類は、それぞれ個別のアドレス帳プロバイダーに与えられたアクセス許可に依存します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -163,7 +163,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,7 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> Exchange サーバーの自動検出サービスへの接続の種類を表す定数を指定します。 読み取り専用です。</summary>
+        <summary>自動検出サービスのサーバーへの接続の種類をExchange <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> 定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,10 +219,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を表す情報を XML では、Exchange サーバーの自動検出サービスから取得されたを返します。 読み取り専用です。</summary>
+        <summary>サーバーの<b>自動</b>検出サービス<b></b>から取得された XML 内の情報を表す文字列 (C# の文字列) をExchangeします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>返される XML の文字列には、可用性サービスやユニファイド メッセージング サービスなどの各種 Web サービスや、利用可能なサービスについての情報が含まれます。  </para>
-          <para>アクティブなプロファイルに Microsoft Exchange Server 2007 またはそれ以降のアカウントが含まれていない場合は、エラーが返されます。</para>
+          <para>アクティブ なプロファイルに 2007 以降のアカウントが含Microsoft Exchange Server返されます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -249,7 +249,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />のセットを表す<see cref="T:Microsoft.Office.Interop.Outlook.Category" />名前空間に使用できるオブジェクトです。 値の取得と設定が可能です。</summary>
+        <summary>名前空間で使用できる <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> オブジェクトのセットを表すオブジェクト <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、一連の <b>名前空間</b> のオブジェクトに格納されている Outlook アイテムに適用可能な <b>カテゴリ</b> オブジェクトでは、マスター] を表し、その名前空間のすべてのユーザーに適用されます。</para>
           <para> </para></remarks>
@@ -278,7 +278,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -309,7 +309,7 @@
       <Docs>
         <param name="FirstEntryID">比較対象の一方のエントリ ID を指定します。</param>
         <param name="SecondEntryID">比較対象のもう一方のエントリ ID を指定します。</param>
-        <summary>同じ Outlook アイテムを参照してください 2 つのエントリ ID の値を示す<b>ブール</b>値 (C# では<b>bool</b> ) を返します。</summary>
+        <summary>2 つの<b>エントリ</b>ID 値が同じアイテムを参照C#ブール型<b>(bool)</b>の値をOutlookします。</summary>
         <returns><b>True の</b> 場合、エントリ ID の値が同じ Outlook アイテムを参照してください。それ以外の場合、 <b>false を指定</b> します。</returns>
         <remarks><para>1 つのオブジェクトは、2 つの異なるバイナリ値で表すことができるため、エントリ ID を直接比較することはできません。このメソッドを使用すると、2 つのエントリ ID が同じオブジェクトを表しているかどうかを判断できます。</para>
           <para> </para></remarks>
@@ -337,11 +337,11 @@
         <Parameter Name="AddressEntry" Type="Microsoft.Office.Interop.Outlook.AddressEntry" />
       </Parameters>
       <Docs>
-        <param name="AddressEntry"><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />を作成する連絡先カードは、対象となるユーザーを表すオブジェクト。</param>
-        <summary>インスタンスを作成、<see cref="T:Microsoft.Office.Core.ContactCard" />オブジェクトで指定されている連絡先の<paramref name="AddressEntry" />のパラメーターです。</summary>
-        <returns>指定したユーザー用に作成される<b>ContactCard</b>オブジェクトを返します。</returns>
+        <param name="AddressEntry">連絡先 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> カードを作成するユーザーを表すオブジェクト。</param>
+        <summary>パラメーターで指定された <see cref="T:Microsoft.Office.Core.ContactCard" /> 連絡先のオブジェクトのインスタンスを作成 <paramref name="AddressEntry" /> します。</summary>
+        <returns>指定したユーザー <b>に対</b> して作成された ContactCard オブジェクトを返します。</returns>
         <remarks><para><b>ContactCard</b> オブジェクトは、Microsoft Office のタイプ ライブラリであります。 Microsoft Outlookでアドレス帳カードを作成する <b>CreateContactCard</b> を呼び出す前に Outlook が Outlook のセッションにログオンしなければなりません。</para>
-          <para><paramref name="AddressEntry" />パラメーターで定義されている次の AddressEntry 型のいずれかを表す<b>AddressEntry</b>オブジェクトでは、<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />列挙体。</para>
+          <para>パラメーターは、列挙で定義されている次のいずれかの AddressEntry 型を表す <paramref name="AddressEntry" /> AddressEntry オブジェクト<b></b> <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> です。</para>
           <list type="bullet">
             <item>
               <para>
@@ -369,7 +369,7 @@
               </para>
             </item>
           </list>
-          <para><b>OlAddressEntryUserType</b>値は次のいずれか、引数として<b>CreateContactCard</b>メソッドに渡すときに、outlook から<b>E_INVALIDARG</b>エラーが発生します。</para>
+          <para>Outlook引数<b>として次E_INVALIDARG</b> <b>OlAddressEntryUserType</b>値を<b>CreateContactCard</b>メソッドに渡す場合、エラーが発生します。</para>
           <list type="bullet">
             <item>
               <para>
@@ -429,9 +429,9 @@
       </Parameters>
       <Docs>
         <param name="RecipientName">受信者の名前を指定します。受信者の表示名、エイリアス、完全な SMTP 電子メール アドレスのいずれかを表す文字列を指定できます。</param>
-        <summary>作成、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。</summary>
+        <summary>オブジェクトを作成 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  します。</summary>
         <returns>新しい受信者を表す <b>Recipient</b> オブジェクト。</returns>
-        <remarks><para> 使用する<b>受信者</b>オブジェクトを作成するこのメソッドを使用してほとんどの場合、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />メソッド、たとえば、代理人のフォルダーを開きます。 アドレス帳に対して指定された名前を確認するのにも使用できます。</para>
+        <remarks><para> このメソッドは、最も一般的に、メソッドで使用する <b>Recipient</b> オブジェクトを作成するために使用されます 。たとえば、デレガターのフォルダー <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />  を開きます。 アドレス帳に対して指定された名前を確認するのにも使用できます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -458,12 +458,12 @@
         <Parameter Name="Provider" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Context">どちらかの<b>文字列</b>(C# では<b>文字列</b>) 値、または<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />を使用する共有コンテキストを表すオブジェクト。</param>
-        <param name="Provider"><see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />を使用する共有プロバイダーを表す値。</param>
-        <summary>新しい<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />オブジェクトです。</summary>
+        <param name="Context">String ( <b>文字列</b> (<b>C#)</b> の値、または使用する共有コンテキストを表す <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> オブジェクト。</param>
+        <param name="Provider">使用 <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />  する共有プロバイダーを表す値。</param>
+        <summary>新しいオブジェクトを作成 <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> します。</summary>
         <returns>指定したコンテキストの共有メッセージを表す <b>SharingItem</b> オブジェクト。</returns>
-        <remarks><para><b>文字列</b>(C# では<b>文字列</b>) の値が指定されている場合<paramref name="Context" />、このメソッドは、共有コンテキストとして URL が指定されていると仮定しています。 場合、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />でオブジェクトが指定されている<paramref name="Context" />、メソッドは、フォルダーから共有コンテキストを検出しようとしています。 共有コンテキストが存在しない場合、または 1 つの共有コンテキストが存在する以上の場合、エラーが発生します。</para>
-          <para>場合<paramref name="Provider" />が指定されていないメソッドで指定した値の適切な共有プロバイダーを使用しようとする<paramref name="Context" />。</para>
+        <remarks><para>String <b>(</b> string in<b>C#)</b> の値がで指定されている場合、メソッドは URL が共有コンテキスト <paramref name="Context" /> として指定されたと見なします。 オブジェクトが <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 指定されている場合 <paramref name="Context" /> 、メソッドはフォルダーから共有コンテキストを検出します。 共有コンテキストが存在しない場合、または 1 つの共有コンテキストが存在する以上の場合、エラーが発生します。</para>
+          <para>指定 <paramref name="Provider" /> しない場合、メソッドはで指定された値に対して適切な共有プロバイダーを使用します <paramref name="Context" /> 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -490,7 +490,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 現在のプロファイルの名前を表します。 読み取り専用です。</summary>
+        <summary>現在のプロファイル<b>の名前</b><b>を表</b>す文字列 (C#) を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>プロファイル名は、プロファイルの作成時に割り当てます。</para>
           <para>
@@ -521,7 +521,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>現在ログオン中のユーザーの表示名を取得、<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在ログオンしているユーザーの表示名をオブジェクトとして返 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -549,7 +549,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 、プロファイルの既定のストアを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>プロファイルの既定 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> のストアを表すオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>現在のプロファイルに既定のストアがない場合、エラーを返します。</para>
           <para> </para></remarks>
@@ -577,7 +577,7 @@
         <Parameter Name="ContactItem" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ContactItem"><see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />をダイヤルする連絡先のオブジェクトです。</param>
+        <param name="ContactItem">ダイヤル <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> する連絡先のオブジェクト。</param>
         <summary>指定した連絡先の通常の電話番号をダイヤルできる [新しいコール] ダイアログ ボックスを表示します。</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -605,9 +605,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />を現在のユーザーの接続モードを示す定数を使用します。 読み取り専用です。</summary>
+        <summary>ユーザーが使用 <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> している現在の接続モードを示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>ExchangeConnectionMode</b>プロパティが<b>olOffline</b>または<b>olDisconnected</b>である場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" />プロパティは<b>True</b>を返します。 <b>ExchangeConnectionMode</b>プロパティが<b>olOnline</b> <b>olConnected</b>、 <b>olConnectedHeaders</b>の場合、 <b>NameSpace.Offline</b>プロパティは<b>False</b>を返します。</para>
+        <remarks><para><b>ExchangeConnectionMode プロパティ</b>が<b>olOffline</b>または<b>olDisconnected</b>の場合、プロパティ <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> は True を返<b>します</b>。 <b>ExchangeConnectionMode</b>プロパティが<b>olOnline、olConnected、</b>または<b>olConnectedHeaders</b>の場合<b>、NameSpace.Offline</b>プロパティは False を返<b>します</b>。 <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -634,7 +634,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アクティブなメールボックスがホストされている Exchange サーバーの名前を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
+        <summary>アクティブ<b>なメールボックスが</b>ホスト<b></b>されているC#サーバーの名前を表す文字列 (C# Exchange) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>Exchange メールボックスが名前空間に存在していない場合、このプロパティは空の文字列を返します。</para>
           <para> </para></remarks>
@@ -663,11 +663,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アクティブなメールボックスがホストされている Exchange サーバーの完全なバージョンを表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
+        <summary>アクティブ<b>なメールボックスが</b>ホスト<b></b>されている C# サーバーの完全なバージョンを表す文字列 (C# Exchange) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティは、アクティブなメールボックスの Exchange サーバーのバージョン番号を含む文字列を返します。 バージョン番号では、次のように 4 つの部分があります。</para>
+        <remarks><para>このプロパティは、アクティブなメールボックスのサーバーのバージョン番号Exchange文字列を返します。 バージョン番号には、次の 4 つの部分があります。</para>
           <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-          <para>すべてのパーツは、Microsoft Exchange Server によって提供されるバージョン情報に応じて、バージョン番号である可能性があります。 たとえば、Microsoft Exchange Server 2003 Service Pack 2 の場合、このプロパティは "6.5.7638" を返します。</para>
+          <para>一部のパーツがバージョン番号に存在する場合は、バージョン番号によって提供されるバージョン情報にMicrosoft Exchange Server。 たとえば、Microsoft Exchange Server 2003 Service Pack 2 の場合、このプロパティは "6.5.7638" を返します。</para>
           <para>Exchange メールボックスが名前空間に存在していない場合、このプロパティは空の文字列を返します。</para>
           <para> </para></remarks>
       </Docs>
@@ -695,9 +695,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクション内の指定されたすべてのフォルダーを表す<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。 読み取り専用です。</summary>
+        <summary>指定したフォルダー <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  に含まれるすべてのフォルダーを表すコレクションを返します <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>名前空間</b>のオブジェクトは、特定の名前空間のすべてのフォルダーのルートです。 </para>
+        <remarks><para><b>NameSpace オブジェクト</b>は、指定されたネーム スペースのすべてのフォルダーのルートです。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -724,15 +724,15 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">セッションの維持されるアドレス エントリの文字列識別子です。</param>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />で指定されたアドレスのエントリを表す<paramref name="ID" />。</summary>
-        <returns>持つ<b>AddressEntry</b> <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />プロパティの指定に一致する<paramref name="ID" />。</returns>
-        <remarks><para><b>AddressEntry</b>の<b>ID</b>プロパティは、 <b>AddressEntry</b>が作成されたときに割り当てられるトランスポート プロバイダーは、永続的な一意の文字列識別子です。 </para>
-          <para>Outlook セッションは、アドレス帳の階層構造を維持して一致する必要がありますアドレスのエントリが返される、指定された<paramref name="ID" />のアドレス帳のいずれかとします。</para>
+        <param name="ID">セッション用に保持されているアドレス エントリの文字列識別子。</param>
+        <summary>で指定された <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> アドレス エントリを表すオブジェクトを返します <paramref name="ID" /> 。</summary>
+        <returns>指定 <b>したプロパティと</b> 一致 <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> するプロパティを持つ AddressEntry <paramref name="ID" /> 。</returns>
+        <remarks><para>AddressEntry の  <b>ID</b> <b>プロパティは、AddressEntry</b> の作成時にトランスポート プロバイダーが割り当てる永続的で一意 <b>の</b> 文字列識別子です。 </para>
+          <para>Outlookは、セッションのアドレス帳の階層を維持し、返されるアドレス エントリは指定されたアドレス帳と一致し、アドレス帳の 1 つにある <paramref name="ID" /> 必要があります。</para>
           <para>
-            <b>GetAddressEntryFromID</b>がエラーを返す場合はアイテムではありません、指定された<paramref name="ID" />はあります。</para>
+            <b>GetAddressEntryFromID は</b> 、指定されたアイテムが見つからない場合にエラー <paramref name="ID" /> を返します。</para>
           <para>
-            <b>GetAddressEntryFromID</b>は、使用可能な接続が存在しないか、オフラインで作業するユーザーが設定されている場合にもエラーを返します。</para>
+            <b>GetAddressEntryFromID は</b> 、接続が利用できない場合、またはユーザーがオフラインで作業するために設定されている場合にもエラーを返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -760,10 +760,10 @@
       </Parameters>
       <Docs>
         <param name="FolderType">返される既定のフォルダーの種類です。</param>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 、現在のプロファイルの要求された型の既定のフォルダーを表すオブジェクトたとえば、現在ログオンしているユーザーの既定の予定表フォルダーを取得します。</summary>
+        <summary>現在のプロファイルの要求された種類の既定のフォルダーを表すオブジェクトを返します。たとえば、現在ログオンしているユーザーの既定の <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> 予定表フォルダーを取得します。</summary>
         <returns>現在のプロファイルにおける要求された種類の既定のフォルダーを表す <b>Folder</b> オブジェクト。</returns>
-        <remarks><para>返す特定の既定以外のフォルダーを使用します<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />コレクションです。</para>
-          <para>要求された種類の既定のフォルダーが存在しない場合は、種類に応じて、Outlook がフォルダーを作成して返すか、エラーを返します。 たとえば、olFolderManagedEmail が、FolderType として指定されているフォルダーの管理グループが展開されていない場合は、Microsoft Outlook によってエラーが発生します。</para>
+        <remarks><para>特定の既定以外のフォルダーを取得するには、コレクションを使用 <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> します。</para>
+          <para>要求された種類の既定のフォルダーが存在しない場合は、種類に応じて、Outlook がフォルダーを作成して返すか、エラーを返します。 たとえば、olFolderManagedEmail が FolderType として指定されているが、管理フォルダー グループが展開されていない場合、Microsoft Outlookエラーが発生します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -790,10 +790,10 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDFolder"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のフォルダーです。</param>
-        <param name="EntryIDStore"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。</param>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</summary>
-        <returns>指定したフォルダーを表す<b>Folder</b>オブジェクトを返します。</returns>
+        <param name="EntryIDFolder">フォルダー <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  の。</param>
+        <param name="EntryIDStore">フォルダー <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  の場合。</param>
+        <summary>指定したエントリ <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  ID で識別されるオブジェクトを返します (有効な場合)。</summary>
+        <returns>指定<b>したフォルダー</b> を表す Folder オブジェクト。</returns>
         <remarks><para>このメソッドは、MAPI および OLE/メッセージング アプリケーションと Microsoft Outlook との互換性を保つために使用します。</para>
           <para> </para></remarks>
       </Docs>
@@ -819,7 +819,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 、Exchange のグローバル アドレス一覧を表すオブジェクト。</summary>
+        <summary>グローバル アドレス一 <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> 覧のオブジェクトを表Exchange返します。</summary>
         <returns>グローバル アドレス一覧を表す <b>addresslist オブジェクトを見つける</b> 。</returns>
         <remarks><para>
             <b>GetGlobalAddressList</b> には、Exchange サーバーのみがサポートされています。グローバル アドレス一覧が使用できないまたはが見つからない場合、エラーが返されます。</para>
@@ -850,12 +850,12 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDItem"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />のアイテムです。</param>
-        <param name="EntryIDStore"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />フォルダーにします。 <paramref name="EntryIDStore" />通常に提供してください、MAPI Id に基づいてアイテムを取得します。</param>
+        <param name="EntryIDItem">アイテム <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  の値。</param>
+        <param name="EntryIDStore">フォルダー <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  の場合。 <paramref name="EntryIDStore" /> 通常、MAPI ID に基づいてアイテムを取得するときに指定する必要があります。</param>
         <summary>指定されたエントリ ID で表される Microsoft Outlook アイテムを返します。</summary>
         <returns>指定された Outlook アイテムを表すオブジェクト型 (Object) の値。</returns>
         <remarks><para>このメソッドは、MAPI および OLE/メッセージング アプリケーションと Outlook との互換性を保つために使用します。</para>
-          <para>エントリ Id の詳細についてを参照してください、<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />プロパティ。 </para>
+          <para>Entry IDs の詳細については、プロパティを参照 <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> してください。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -882,8 +882,8 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />の受信者です。</param>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> (有効な) 場合は、指定されたエントリ ID によって識別されるオブジェクト。</summary>
+        <param name="EntryID">受信者 <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />  の。</param>
+        <summary>指定したエントリ <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  ID で識別されるオブジェクトを返します (有効な場合)。</summary>
         <returns>指定された受信者を表す <b>Recipient</b> オブジェクトです。</returns>
         <remarks><para>このメソッドは、MAPI および OLE/メッセージング アプリケーションと Microsoft Outlook との互換性を保つために使用します。</para>
           <para> </para></remarks>
@@ -910,8 +910,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>取得、 <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> 、現在のセッション オブジェクトです。</summary>
-        <returns>現在のセッションの<b>SelectNamesDialog</b>オブジェクトです。 <b>SelectNamesDialog</b> オブジェクトは、現在のセッションで 1 つまたは複数のアドレス一覧からエントリを選択するユーザーの 名前の選択] ダイアログ ボックスの表示をサポートします。</returns>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> のオブジェクトを取得します。</summary>
+        <returns>現在  <b>のセッションの SelectNamesDialog</b> オブジェクト。 <b>SelectNamesDialog</b> オブジェクトは、現在のセッションで 1 つまたは複数のアドレス一覧からエントリを選択するユーザーの 名前の選択] ダイアログ ボックスの表示をサポートします。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -938,13 +938,13 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="Recipient">フォルダーの所有者です。 <b>受信者</b>オブジェクトを解決する必要があることに注意してください。</param>
+        <param name="Recipient">フォルダーの所有者を指定します。<b>Recipient</b> オブジェクトは、名前がサーバーに登録されている必要があります。</param>
         <param name="FolderType">フォルダーの種類を指定します。</param>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />指定したユーザーの既定のフォルダーを表すオブジェクト。</summary>
-        <returns>指定したユーザーの既定のフォルダーを表す<b>Folder</b>オブジェクトを返します。</returns>
-        <remarks><para>このメソッドは、1 人のユーザーは、代理アクセス権を別のユーザーに、既定のフォルダー (共有予定表フォルダーなど) の 1 つ以上の委任のシナリオで使用されます。</para>
+        <summary>指定したユーザー <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  の指定した既定のフォルダーを表すオブジェクトを返します。</summary>
+        <returns>指定したユーザーの既定のフォルダーを表す <b>Folder</b> オブジェクト。</returns>
+        <remarks><para>このメソッドは、あるユーザーが、既定のフォルダー (共有されている予定表フォルダーなど) について、別のユーザーに対する代理アクセス権を持っている場合に使用されます。</para>
           <para>
-            <paramref name="FolderType" /><b>OlDefaultFolders</b>定数は、次のいずれか: <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、<b>または olFolderTasks</b>. (定数<b>olFolderDeletedItems</b>、 <b>olFolderOutbox</b>、<b>それ</b>、 <b>olFolderConflicts</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>、 <b>olPublicFoldersAllPublicFolders</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderToDo</b>、 <b>olFolderManagedEmail</b>、 <b>olFolderSentMail</b>は、この引数に指定できません)。</para>
+            <paramref name="FolderType" /><b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>、 <b>or olFolderTasks</b>の<b>OlDefaultFolderFolders</b>定数のいずれかを指定できます。 (the <b>constants olFolderDeletedItems</b>, <b>olFolderOutbox</b>, <b>olFolderJunk</b>, <b>olFolderConflicts</b>, <b>olFolderLocalFailures</b>, <b>olFolderServerFailures , olFolderServerFailures</b>, <b>olFolderSync</b>この引数には<b>、olPublicFoldersAllPublicFolders</b> <b>、olFolderRssSubscriptions</b> <b>、olFolderToDo</b> <b>、olFolderManagedEmail、olFolderSentMail</b>を指定できません。 <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -972,12 +972,12 @@
       </Parameters>
       <Docs>
         <param name="ID">ストアを識別する文字列値を指定します。</param>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />で指定されたストアを表す<paramref name="ID" />。</summary>
-        <returns><b>Store</b>オブジェクトを持つ、<see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />プロパティと一致する<paramref name="ID" />。</returns>
+        <summary>で指定された <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> ストアを表すオブジェクトを返します <paramref name="ID" /> 。</summary>
+        <returns>プロパティ <b>が一</b> 致する Store <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> オブジェクト <paramref name="ID" /> 。</returns>
         <remarks><para><b>ストア</b> の <b>StoreID</b> プロパティは、セッションのプロファイルに一意です。 MAPI プロパティの <b>PidTagStoreEntryId</b> と同じであります。</para>
           <para>このメソッドを正常に実行するには、ストアがマウントされている必要があります。</para>
           <para>
-            <b>GetStoreFromID</b>エラーが返されますありませんストアを指定した<paramref name="ID" />の現在のセッションが見つからないことができます。</para>
+            <b>GetStoreFromID</b> は、指定されたストアが現在のセッションで見つからない場合に <paramref name="ID" /> エラーを返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1031,14 +1031,14 @@
         <Parameter Name="NewSession" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Profile">MAPI プロファイル名として<b>文字列</b>(C# では<b>文字列</b>)、セッションに使用します。 現在のセッションの既定のプロファイルを使用するには、空の文字列を指定します。</param>
-        <param name="Password">パスワード (存在する場合)、<b>文字列</b>(C# では<b>文字列</b>)、プロファイルに関連付けられています。  このパラメーターが存在するだけの下位互換性とセキュリティ上の理由から、お勧めできませんを使用します。  しないでユーザーがほとんどのシステム構成でパスワードを指定します。  これは、ログオン パスワードであり、PST のパスワードと混同しない必要があります。</param>
+        <param name="Profile">セッションに使用する <b>MAPI </b>プロファイル名を文字列<b>(C#</b> 内の文字列) として指定します。 現在のセッションの既定のプロファイルを使用するには、空の文字列を指定します。</param>
+        <param name="Password">プロファイルに関連付けられた<b>文字列</b><b>(</b>文字列 ( C#) として、パスワード (指定されている場合)。  このパラメーターは、下位互換性のためにのみ存在し、セキュリティ上の理由から、使用をお勧めしません。  Microsoft Outlookは、ほとんどのシステム構成でパスワードを指定するようユーザーに求めるメッセージを表示します。  これはログオン パスワードであり、PST パスワードと混同しないでください。</param>
         <param name="ShowDialog"><b>True</b> を指定すると、MAPI のログオン ダイアログ ボックスが表示され、ユーザーが MAPI プロファイルを選択できます。</param>
-        <param name="NewSession"><b>True</b>新しい Outlook セッションを作成します。 Outlook で複数のセッションを作成できないために、セッションが存在しない場合にのみ True としてこのパラメーターを指定する必要があります。</param>
+        <param name="NewSession"><b>True</b>を指定すると、新しいOutlook作成されます。 複数のセッションを作成できないOutlook、セッションが存在しない場合にのみ、このパラメーターを True として指定する必要があります。</param>
         <summary>ユーザーを MAPI にログオンさせ、MAPI セッションを返します。</summary>
-        <remarks><para>まだ Outlook を実行していない場合、 <b>Logon</b> メソッドのみを使用して特定のプロファイルにログオンします。 これは、一度に 1 つの Outlook プロセスしか実行できず、Outlook プロセスは 1 つのプロファイルのみを使用し、1 つの MAPI セッションのみをサポートしているためです。 ユーザーは、2 つ目に Outlook を起動、Outlook のインスタンスが同じ Outlook のプロセス内で実行されて、新しいプロセスを作成できず、同じプロファイルを使用しています。 </para>
+        <remarks><para>まだ Outlook を実行していない場合、 <b>Logon</b> メソッドのみを使用して特定のプロファイルにログオンします。 これは、一度に 1 つの Outlook プロセスしか実行できず、Outlook プロセスは 1 つのプロファイルのみを使用し、1 つの MAPI セッションのみをサポートしているためです。 ユーザーが 2 回目Outlook開始すると、Outlook のインスタンスは同じ Outlook プロセス内で実行され、新しいプロセスは作成され、同じプロファイルを使用します。 </para>
           <para>既に Outlook を実行している場合、このメソッドを使用して新しい Outlook セッションを作成したり、現在のプロファイルを別のプロファイルに変更したりすることはできません。</para>
-          <para>Outlook が実行されていない、既定のプロファイルで Outlook を起動する場合は、 <b>Logon</b>メソッドを使わないでください。 方が InitializeMAPI 次のコード例に示すように: 最初に、Outlook のインスタンスを作成<see cref="T:Microsoft.Office.Interop.Outlook.Application" />オブジェクト、し、[受信トレイなどの既定のフォルダーを参照します。 これは、既定のプロファイルを使用してオブジェクト モデルを完全に機能するのには MAPI の初期化中の副作用です。 </para>
+          <para>既定Outlookが実行されていない場合に、既定のプロファイルOutlookを開始する場合は<b>、Logon</b>メソッドを使用しない必要があります。 より良い代替方法は、InitializeMAPI の次のコード例に示されています。まず、Outlook オブジェクトをインスタンス化してから、受信トレイなどの既定のフォルダー <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> を参照します。 これは、MAPI を初期化して既定のプロファイルを使用し、オブジェクト モデルを完全に機能させるという副作用があります。 </para>
           <code>
 Imports Outlook = Microsoft.Office.Interop.Outlook
 
@@ -1060,7 +1060,7 @@ Sub InitializeMAPI ()
 
     ' Continue to use the object model to automate Outlook.
 End Sub</code>
-          <para>複数のプロファイルがある、常に既定のプロファイルを使用するように Outlook を構成しているメソッドを使用して、<b>ログオン</b>ユーザーの確認なしの既定のプロファイルにログオンする場合は、Outlook 2010 で開始、ユーザー プロンプトが表示されます、プロファイルを選択するにはとにかく。 この現象を回避するには、メソッドを使用しない、<b>ログオン</b>します。前の例で InitializeMAPI の代わりに推奨する回避策を使用します。</para>
+          <para>Outlook 2010 から、複数のプロファイルがある場合は、常に既定のプロファイルを使用するように Outlook を構成し<b>、Logon</b>メソッドを使用して、ユーザーにプロンプトを表示せずに既定のプロファイルにログオンすると、ユーザーはプロファイルを選択するように求めるプロンプトを表示します。 こうした動作を回避するため、<b>Logon</b> メソッドを使用せずに、前述の InitializeMAPI の例で示した回避策を実行してください。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1118,10 +1118,10 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) を返します (に接続されていない Exchange サーバー)、Outlook がオフラインの場合は、 <b>True</b>を示す場合は<b>False</b>オンライン (Exchange サーバーに接続されている)。  読み取り専用です。</summary>
+        <summary>Outlook がオフライン<b>(Exchange</b>サーバーに接続されていない) 場合<b></b>は True、オンラインの場合は False (Exchange サーバーに接続) を<b></b>示すブール型 (C# のブール値) を返します。<b></b>  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>Exchange プロファイルを使用する場合に限り、Offline プロパティは有効な情報を返します。POP3、IMAPI、HTTP などの、Exchange を除く種類のアカウントでの使用は想定していません。</para>
-          <para>場合、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />プロパティが<b>olOffline</b>または<b>olDisconnected</b>で、 <b>[オフライン</b>プロパティは<b>True</b>を返します。 <b>ExchangeConnectionMode</b> プロパティが <b>olOnline</b> <b>olConnected</b> 、 <b>olConnectedHeaders</b> の場合は、 <b>[オフライン</b> プロパティに <b>False</b> が戻ります。</para>
+          <para>プロパティが <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> <b>olOffline または</b> <b>olDisconnected</b>の場合 <b>、Offline</b> プロパティは True を返 <b>します</b>。 <b>ExchangeConnectionMode</b> プロパティが <b>olOnline</b> <b>olConnected</b> 、 <b>olConnectedHeaders</b> の場合は、 <b>[オフライン</b> プロパティに <b>False</b> が戻ります。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1155,7 +1155,7 @@ End Sub</code>
         <param name="DownloadAttachments">同封物 (RSS フィードの場合) または添付ファイル (WebCal カレンダーの場合) をダウンロードするかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</param>
         <param name="UseTTL">RSS フィードまたは WebCal カレンダーの TTL (Time To Live) の設定を使用するかどうかを指定します。他の種類の共有フォルダーでは、このパラメーターは無視されます。</param>
         <summary>URL またはファイル名によって参照される共有フォルダーを開きます。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />共有フォルダーを表すオブジェクト。</returns>
+        <returns>共有 <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> フォルダーを表すオブジェクト。</returns>
         <remarks><para>このメソッドは、以下の種類の共有フォルダーにアクセスするために使用します。</para>
           <list type="bullet">
             <item>
@@ -1178,8 +1178,8 @@ End Sub</code>
             </item>
           </list>
           <para>
-            <b>注</b>: このメソッドは、iCalendar 予定 (.ics) ファイルをサポートしていません。 ICalendar 予定ファイルを開くに使用することができます、<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" />のメソッドの<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />オブジェクトです。</para>
-          <para>使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> 、Exchange の受信トレイ フォルダーなどの既定のフォルダーを共有するのには、 <b>Namespace</b>オブジェクトのメソッドです。</para>
+            <b>注</b>: このメソッドでは、iCalendar 予定 (.ics) ファイルはサポートされていません。 iCalendar 予定ファイルを開く場合は、オブジェクトの <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> メソッドを使用 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> します。</para>
+          <para>Namespace オブジェクトのメソッドを使用して、受信トレイ フォルダーなどの既定のフォルダーを共有 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> Exchange。 <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1229,7 +1229,7 @@ End Sub</code>
             </item>
           </list>
           <para>
-            <b>注</b>: このメソッドは、iCalendar カレンダー (.ics) ファイルをサポートしていません。 ICalendar カレンダー ファイルを開くを使用することができます、 <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> <b>名前空間</b>のオブジェクトのメソッドです。</para>
+            <b>注</b>: このメソッドでは、iCalendar 予定表 (.ics) ファイルはサポートされていません。 iCalendar カレンダー ファイルを開く場合は <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> <b>、NameSpace</b> オブジェクトのメソッドを使用できます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1283,7 +1283,7 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>[フォルダーの選択] ダイアログ ボックスを表示します。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />場合は、ダイアログ ボックスがユーザーによってキャンセル] ダイアログ ボックス、または<b>何も</b>のユーザーが選択したフォルダーを表すオブジェクト。</returns>
+        <returns>ダイアログ <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> ボックスでユーザーが選択したフォルダーを表すオブジェクト、またはダイアログ ボックスがユーザーによって取り消された場合は<b>Nothing。</b></returns>
         <remarks><para>[ Pick Folder] ダイアログ ボックスはモーダル ダイアログ ボックスなので、コードの実行を続行するにはユーザーがフォルダーを選択するか、またはダイアログ ボックスをキャンセルする必要があります。</para>
           <para> </para></remarks>
       </Docs>
@@ -1341,7 +1341,7 @@ End Sub</code>
       <Docs>
         <param name="Folder">フォルダー一覧から削除する個人用フォルダー (.pst) を指定します。</param>
         <summary>現在の MAPI プロファイルまたはセッションから個人用フォルダー (.pst) を削除します。</summary>
-        <remarks><para>このメソッドは、Microsoft Outlook のユーザー インターフェイスからのみ、ストアを削除します。 Outlook のオブジェクト モデルでは、サーバー上のメインのメールボックス、またはユーザーのハード ディスク上のフォルダーを削除できません。</para>
+        <remarks><para>このメソッドは、Microsoft ユーザー インターフェイスからのみストアOutlookします。 Outlook のオブジェクト モデルでは、サーバー上のメインのメールボックス、またはユーザーのハード ディスク上のフォルダーを削除できません。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1369,11 +1369,11 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="showProgressDialog">[ Outlook 送受信の進捗度] ダイアログ ボックスを、ユーザー設定にかかわらず表示するかどうかを指定します。</param>
-        <summary>現在のセッション、および現在のプロファイル内のすべてのアカウント宛てのメールの受信を直ちに送信された未配信メッセージの配信を開始します。</summary>
+        <summary>現在のセッションで送信された未配信メッセージの即時配信と、現在のプロファイル内のすべてのアカウントのメールの即時受信を開始します。</summary>
         <remarks><para><b>SendAndReceive</b> メソッドの呼び出しは、非同期です。</para>
           <para>
-            <b>Sendandreceive では、ツールと、[送受信] をクリックするときに使用されるすべて送受信コマンドを同等のプログラムです。</b></para>
-          <para>使用するすべてのオブジェクトを同期する必要がない場合、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />コレクションのオブジェクトを特定のオブジェクトを選択します。 詳細については、「<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />」をご覧ください。</para>
+            <b>SendAndReceive には、[</b> ツール] をクリックしてから [送受信] をクリックすると使用できる [すべて送受信] コマンドと同等のプログラムが用意されています。</para>
+          <para>すべてのオブジェクトを同期する必要がない場合は、コレクション オブジェクトを使用して <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> 特定のオブジェクトを選択できます。 詳細については、<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />を参照してください。</para>
           <para>現在のプロファイルで定義されているすべてのアカウントは、 すべての送受信に使用されます。オンライン接続が必要な場合、 すべての送受信を実行するのには、ユーザー設定に従って接続を確立します。</para>
           <para> </para></remarks>
       </Docs>
@@ -1401,9 +1401,9 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -1436,7 +1436,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Stores</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />コレクションを表すオブジェクトのすべての<see cref="T:Microsoft.Office.Interop.Outlook.Store" />現在のプロファイル内のオブジェクト。 読み取り専用です。</summary>
+        <summary>現在のプロファイル <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> 内のすべてのオブジェクトを表す <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> コレクション オブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1464,7 +1464,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObjects</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />すべての送受信グループを含むコレクションです。 読み取り専用です。</summary>
+        <summary>すべての <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />  Send\Receive グループを含むコレクションを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1492,7 +1492,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 指定したオブジェクトの種類を示します。  読み取り専用です。</summary>
+        <summary>指定 <b>したオブジェクトの</b> 種類<b>を</b> C#文字列 ( 文字列 ) を返します。  値の取得のみ可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

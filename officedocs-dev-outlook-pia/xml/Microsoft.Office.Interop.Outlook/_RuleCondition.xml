@@ -1,5 +1,5 @@
 <Type Name="_RuleCondition" FullName="Microsoft.Office.Interop.Outlook._RuleCondition">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898202" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34c8b257cbe3a183c9f968b5fbf92261f64ed341" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139594" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleCondition" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,9 +101,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>内の定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />の条件の種類を示す列挙値、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>オブジェクトの条件の種類を <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> 示す列挙型の定数を返 <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>受信メッセージ、およびメッセージを送信するルール用にサポートされているルール用にサポートされているプログラムによるルールの作成用にサポートされているルールの条件の詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
+        <remarks><para>プログラムによるルール作成でサポートされるルール条件、メッセージを受信するルールでサポートされるルール、およびメッセージを送信するルールでサポートされるルールの詳細については、「ルール条件の指定」を参照<a href="http://go.microsoft.com/fwlink/?LinkId=87803">してください</a>。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -133,11 +133,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />を有効にします。 値の取得と設定が可能です。</summary>
+        <summary>有効になっているかどうかを決定する<b>ブール</b>型<b></b> (C#) を <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> 設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>使用してルールを保存するルールの条件を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールの条件とその有効な状態が持続するようにします。  ルールの条件は、正常に保存された後でなければ有効になりません。 </para>
-          <para>種類は<b>olRuleReceive</b>ルールの種類<b>olRuleSend</b>のルールでのみサポートされているルールの条件を有効にしようとした場合にエラーを返す、またはその逆。  メッセージまたはメッセージを送信するルールを受信するためのルールによるサポートの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
-          <para>有効にするか、種類が <b>olConditionOtherMachine</b> の条件を無効にすることはできません。 この種類のルールの条件は、現在のものではない特定のコンピューターでのみルールを実行できることを示します。 これは、コンピューターおよびルールの条件<b>olConditionLocalMachineOnly</b>が有効である、ルールをそのコンピューター上でのみ実行できることを示すルールが作成されたときに発生します。 別のコンピューターで同じルールを実行すると、条件 <b>olConditionOtherMachine</b> が有効になっているルールが表示されます。</para>
+        <remarks><para>ルール条件を有効にした後で、ルール条件と有効な状態が現在のセッションを超えて保持される場合に使用してルールを <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> 保存する必要があります。  ルールの条件は、正常に保存された後でなければ有効になりません。 </para>
+          <para><b>olRuleReceive</b>型のルールに対して<b>olRuleSend</b>型のルールでのみサポートされているルール条件を有効にしようとした場合、またはその逆の場合にエラーを返します。  メッセージを受信するルールまたはメッセージを送信するルールによるサポートの詳細については、「ルール条件の指定」 <a href="http://go.microsoft.com/fwlink/?LinkId=87803">を参照してください。</a></para>
+          <para>有効にするか、種類が <b>olConditionOtherMachine</b> の条件を無効にすることはできません。 この種類のルールの条件は、そのルールが現在のコンピューターでない特定のコンピューターでのみ実行可能なことを示します。 これは、そのコンピューターでルールが作成され、ルール条件 <b>olConditionLocalMachineOnly</b> が有効になっている場合に発生し、そのコンピューターでのみルールを実行できます。 別のコンピューターで同じルールを実行すると、条件 <b>olConditionOtherMachine</b> が有効になっているルールが表示されます。</para>
           <para>種類が <b>olConditionLocalMachineOnly</b> の例外条件を有効にしようとする場合は、エラーを返します。</para>
           <para> </para></remarks>
       </Docs>
@@ -167,7 +167,7 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>親、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />オブジェクトです。</para>
+        <remarks><para>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> はオブジェクト <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> です。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -194,9 +194,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

@@ -1,5 +1,5 @@
 <Type Name="_MailModule" FullName="Microsoft.Office.Interop.Outlook._MailModule">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f4a919f25b3d83f96d4b107547649713c302fb12" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905289" /></Metadata><TypeSignature Language="C#" Value="public interface _MailModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc9d8afe9a2806c2f76ebcb9253980c53f84b82a" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139622" /></Metadata><TypeSignature Language="C#" Value="public interface _MailModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MailModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MailModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MailModule" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,9 +73,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>OlMailModule</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。</para>
+        <remarks><para>このプロパティは、 <b>オブジェクトの olMailModule</b> を返 <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -102,7 +102,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ローカライズされた表示名を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>オブジェクトのローカライズ<b>された</b>表示<b></b>名をC#文字列 ( 文字列 ) の値を返 <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,7 +130,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroups</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />に関連付けられたナビゲーション グループのセットを含むオブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>オブジェクトに関連 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> 付けられた一連のナビゲーション グループを含むオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,9 +158,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />オブジェクトのナビゲーション モジュールの種類を表す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのナビゲーション <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> モジュールの種類を表す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティを<b>olModuleMail</b>を返します、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトです。</para>
+        <remarks><para>このプロパティは、 <b>オブジェクトの olModuleMail</b> を返 <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -218,16 +218,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>序数位置を表す<b>整数値</b>(C# では int) 値を取得または設定します<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトのナビゲーション ウィンドウに表示されるとき。 値の取得と設定が可能です。</summary>
+        <summary>ナビゲーション ウィンドウに表示 <b>されるオブジェクト</b> の序数位置を表す整数 (C#) の値を <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> 設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは 1 ～ 8 の範囲の値にのみ設定できます。このプロパティをこの範囲外の値に設定しようとすると、エラーが発生します。</para>
-          <para>含まれるその他の navigaton モジュールの<b>位置</b>の値を変更する<b>MailModule</b>オブジェクトに対してこのプロパティの値を変更する、 <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> 、新しい値と、<b>の元の値との間の相対的な変化に応じて、コレクション位置</b> <b>MailModule</b>オブジェクトのプロパティ。</para>
+          <para>MailModule オブジェクトのこのプロパティの値を変更すると、<b></b>新しい値と、その<b>MailModule</b>オブジェクトの Position プロパティの元の値との相対的な変化に応じて、コレクションに含まれる他のナビゲーション モジュールの Position 値が変更されます <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> <b></b>。 <b></b></para>
           <list type="bullet">
             <item>
-              <para>新しい値が元の値より小さい場合は、指定された<b>MailModule</b>オブジェクトの新しい位置に移動し、他のナビゲーション モジュールが新しい位置より下の位置です。</para>
+              <para>新しい値が元の値より小さい場合、指定した <b>MailModule</b> オブジェクトは新しい位置に移動し、その新しい位置以下にある他のナビゲーション モジュールを押します。</para>
             </item>
             <item>
-              <para>新しい値が元の値より大きい場合は、指定された<b>MailModule</b>オブジェクトは新しい位置に移動しての間にあった他のナビゲーション モジュール、古い位置と新しい位置を古い位置を埋めます。</para>
+              <para>新しい値が元の値より大きい場合、指定した <b>MailModule</b> オブジェクトは新しい位置に移動し、古い位置と新しい位置の間の他のナビゲーション モジュールを押し上げ、古い位置を埋める。</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -256,9 +256,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -294,7 +294,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定を決定する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定するかどうか、<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />オブジェクトがナビゲーション ウィンドウに表示されます。 値の取得と設定が可能です。</summary>
+        <summary>オブジェクトがナビゲーション ウィンドウに表示<b></b>されるかどうかを決定するブール型<b>(C#)</b>の値 <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

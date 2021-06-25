@@ -1,5 +1,5 @@
 <Type Name="_AppointmentItem" FullName="Microsoft.Office.Interop.Outlook._AppointmentItem">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="e1a98d4cad5fc9572e588f667c7713563d8c671c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899958" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b2884a5c5f2ab4368f538b8ff4fac0ead2aa935" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139496" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AppointmentItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AppointmentItem" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />アイテムの使用可能なすべてのアクションを表すコレクション。 読み取り専用です。</summary>
+        <summary>アイテムに対 <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  して使用可能なすべてのアクションを表すコレクションを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +132,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />を指定した項目のすべての添付ファイルを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>指定したアイテム <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  のすべての添付ファイルを表すオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,10 +160,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) アイテムが自動競合解決の勝者であるかどうかを返します。 読み取り専用です。</summary>
+        <summary>アイテム<b>が自動競合</b>解決<b></b>の勝者かどうかを決定するブール型 (C# のブール値) を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>値が <b>False</b> の場合、必ずしもアイテムの競合が自動的に解決されなかったであります。アイテムは、別のアイテムと競合していない可能性があります。</para>
-          <para>項目がある場合<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />の<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" />プロパティを 0 より大きい<b>が必要</b>] プロパティが<b>True</b>の場合に、競合の自動解決の勝者です。 その一方で、アイテムが競合している <b>が必要</b> プロパティは <b>False</b> として、自動競合が解決で優先されなかったデータです。</para>
+          <para>アイテムのプロパティが 0 より大きい場合  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" /> <b>、AutoResolvedWinner</b> プロパティが <b>True</b>の場合は、自動競合解決の勝者になります。 その一方で、アイテムが競合している <b>が必要</b> プロパティは <b>False</b> として、自動競合が解決で優先されなかったデータです。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている請求先情報を表します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムに関連<b>付けられた請求</b>情報を表す文字列<b>(C#</b>内の文字列) をOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、自由形式のテキスト フィールドです。</para>
           <para> </para></remarks>
@@ -225,7 +225,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのクリア テキストの本体を表します。 値の取得と設定が可能です。</summary>
+        <summary>取得または設定、 <b>String</b> <b>(</b> C#内の文字列) を表すテキストのクリア テキストの本文を表Outlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> 、予定のユーザーのビジー状態のステータスを示す定数です。 値の取得と設定が可能です。</summary>
+        <summary>予定のユーザーのビ <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> ジー状態を示す定数を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -287,10 +287,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに割り当てられているカテゴリを表します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムに割り当<b>てられたカテゴリ</b>を表す文字列<b>(C#</b>内の文字列) をOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>
-            <b>カテゴリ</b> は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。 このプロパティは、複数のカテゴリの値を区切り文字として値の名前、sList、Windows レジストリ内の HKEY_CURRENT_USER\Control Panel\International の下に指定された文字を使用します。 カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数 <b>Split</b> を使用します。</para>
+            <b>カテゴリ</b> は、Outlook アイテムに割り当てられているカテゴリの名前の区切り記号付きの文字列です。 このプロパティは、複数のカテゴリ値の区切り文字として、HKEY_CURRENT_USER\Control Panel\International レジストリWindowsの下の値名 sList で指定された文字を使用します。 カテゴリ名の文字列を項目名の配列に変換するには、Microsoft Visual Basic 関数 <b>Split</b> を使用します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,7 +317,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -371,7 +371,7 @@
       </Parameters>
       <Docs>
         <param name="SaveMode">閉じる際の動作を指定します。インスペクターで表示されたアイテムが変更されなかった場合、この引数は動作に影響を与えません。</param>
-        <summary>Outlook アイテムを閉じ、Outlook アイテムへの変更を保存するかどうかを選択できます。</summary>
+        <summary>Outlook アイテムを閉じ、必要に応じてアイテムへの変更を保存します。</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -401,7 +401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムに関連付けられている会社の名前を表します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムに関連<b>付けられている会社</b>の<b>名前をC#</b>文字列 (文字列) をOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、自由形式のテキスト フィールドです。 </para>
           <para> </para></remarks>
@@ -504,7 +504,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返す、 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 、任意の Outlook アイテム オブジェクトの競合する項目を表すオブジェクト。  読み取り専用です。</summary>
+        <summary>任意の <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> アイテム オブジェクトに対して競合しているアイテムを表すオブジェクトOutlook返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,11 +532,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>を返します<b>文字列</b>(C# では<b>文字列</b>) を一意に識別する、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />オブジェクトの<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトに属しています。 読み取り専用です。</summary>
+        <summary>オブジェクトが属 <b>する</b> オブジェクト<b>C#</b> 一意に識別する文字列 (文字列) <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、アイテムを会話に関連付けます。これらのアイテムと、会話の <b>ConversationID</b> プロパティで同じ値であります。</para>
           <para>このプロパティが MAPI プロパティ <b>PidTagConversationId</b> に対応しています。</para>
-          <para><b>AppointmentItem</b>オブジェクトが Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、または Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server をオンライン モードで Outlook が実行されている場合このプロパティと同じ値を返す、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" />プロパティ。</para>
+          <para>AppointmentItem<b></b>オブジェクトが Microsoft Outlook 2010 より前のバージョンの Microsoft Outlook で作成されている場合、または Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange Server に対してオンライン モードで実行されている場合、このプロパティはプロパティと同じ値を返します。 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" /></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -563,7 +563,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのインデックスを表します。 読み取り専用です。</summary>
+        <summary>アイテムの<b>スレッド</b><b>スレッドの</b>C#を表す文字列 (文字列) をOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -591,7 +591,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムのテーマ スレッドのトピックを表します。 読み取り専用です。</summary>
+        <summary>アイテムの<b>会話</b><b>スレッドの</b>C#を表す文字列 (文字列) をOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -618,7 +618,7 @@
       <Parameters />
       <Docs>
         <summary>オブジェクトの別のインスタンスを作成します。</summary>
-        <returns>返します、<see cref="T:System.Object" />は親の予定アイテムのコピー。</returns>
+        <returns>親予定 <see cref="T:System.Object" /> アイテムのコピーを返します。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -648,12 +648,12 @@
       <Docs>
         <param name="DestinationFolder"><b>AppointmentItem</b> オブジェクトのコピー先フォルダーを指定します。</param>
         <param name="CopyOptions">コピー操作に関するユーザーの操作性を指定します。</param>
-        <summary>コピー、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />によって指定されたフォルダーに、<paramref name="DestinationFolder" />パラメーターは、コピー操作でコピー先のフォルダーにアイテムを表すオブジェクトを作成します。</summary>
-        <returns><b>AppointmentItem</b> objectthat は、コピー操作の結果の保存先フォルダーに作成されたオブジェクトを表すを返します。</returns>
-        <remarks><para>引数が指定されていない場合、<paramref name="CopyOptions" />値が<b>olCreateAppointment</b>パラメーターでは、 <b>CopyTo</b>のものとします。</para>
+        <summary>パラメーターで指定されたフォルダーにコピーし、コピー操作によって移動先フォルダーに作成されたアイテムを表すオブジェクト <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> <paramref name="DestinationFolder" /> を返します。</summary>
+        <returns>コピー操作の結果として、移動先フォルダーに作成されたオブジェクトを表す <b>AppointmentItem</b> オブジェクトを返します。</returns>
+        <remarks><para>パラメーターに引数が指定されていない場合 <paramref name="CopyOptions" /> <b>、CopyTo</b> は値が <b>olCreateAppointment と見なされます</b>。</para>
           <para>
             <b>CopyTo</b> は、コピー先のフォルダーは、 <b>AppointmentItem</b> オブジェクトに使用する適切なフォルダー タイプではない場合、またはユーザーが指定した保存先のフォルダーにアイテムを作成する必要なアクセス許可を持っていない場合にエラーを返します。</para>
-          <para>REG_MULTI_SZ 値を設定するには、DisableCrossAccountCopy、Windows レジストリ内の HKCU\Software\Microsoft\Office\14.0\Outlook では、このメソッドを無効にするという副作用が。</para>
+          <para>Windows レジストリの HKCU\Software\Microsoft\Office\14.0\Outlook の REG_MULTI_SZ 値 DisableCrossAccountCopy を設定すると、このメソッドを無効にする副作用があります。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -680,7 +680,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムの作成時刻を示す<b>DateTime</b>を返します。 読み取り専用です。</summary>
+        <summary>アイテムの作成時間を示す<b>DateTime</b>をOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagCreationTime</b> に対応します。</para>
           <para> </para></remarks>
@@ -708,7 +708,7 @@
       <Parameters />
       <Docs>
         <summary>アイテムを含むフォルダーからアイテムを削除します。</summary>
-        <remarks><para><b>Delete</b> メソッドは、コレクション内の単一のアイテムを削除します。 すべてのアイテムを削除するのには、<see cref="T:Microsoft.Office.Interop.Outlook.Items" />フォルダーのコレクションは、フォルダーの最後の項目の各項目を削除する必要があります。 などのフォルダーの項目のコレクション、AllItems、n 個のフォルダーにアイテムがある場合開始 AllItems.Item(n)、AllItems.Item(1) を削除するまでは、各時間のインデックスをデクリメントする操作でアイテムを削除します。</para>
+        <remarks><para><b>Delete</b> メソッドは、コレクション内の単一のアイテムを削除します。 フォルダーのコレクション内のすべてのアイテムを削除するには、フォルダー内の最後のアイテムから始まる各アイテム <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> を削除する必要があります。 たとえば、フォルダーの items コレクションである AllItems で n 個のアイテムがフォルダーにある場合、AllItems.Item(n) から削除を開始し、AllItems.Item(1) にたどり着くまでインデックスを 1 つずつ減少しながら削除を繰り返します。</para>
           <para><b>Delete</b> メソッドは、アイテムをそのフォルダーから [ 削除済みアイテム] フォルダーに移動します。アイテムを含むフォルダーが [ 削除済みアイテム] フォルダーである場合は、 <b>Delete</b> メソッドは、アイテムを完全に削除します。</para>
           <para> </para></remarks>
       </Docs>
@@ -736,8 +736,8 @@
       </Parameters>
       <Docs>
         <param name="Modal"><b>True</b> ウィンドウがモーダルにします。既定値は、 <b>false を指定</b> します。 </param>
-        <summary>新しい表示<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />項目のオブジェクトです。</summary>
-        <remarks><para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。 エクスプ ローラーまたはインスペクター ウィンドウをアクティブにするには、<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />メソッドです。</para>
+        <summary>アイテムの新 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> しいオブジェクトを表示します。</summary>
+        <remarks><para>後方互換性のためのエクスプ ローラーおよびインスペクター ウィンドウの <b>表示</b> 方法がサポートされています。 エクスプローラーまたはインスペクター ウィンドウをアクティブにするには、メソッドを使用 <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> します。</para>
           <para>Microsoft Outlookオブジェクト モデルを使用して「安全でない」ファイル システム オブジェクト (または「freedoc」ファイル) を表示しようとするプログラムが C または C++ プログラミング言語で、 E_FAIL というコードが表示されます。Outlook 2000 で、以前のバージョンでは、 <b>Display</b> メソッドを使用して、「安全でない」ファイル システム オブジェクトを開く可能性があります。</para>
           <para> </para></remarks>
       </Docs>
@@ -765,7 +765,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>属しているクラスの定数、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 、アイテムのダウンロードの状態を示す列挙値。 読み取り専用です。</summary>
+        <summary>アイテムのダウンロード状態を示す <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 列挙に属する定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -796,7 +796,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定の時間 (分) のことを示す<b>整数値</b>(C# では<b>int</b> ) 値を設定、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 値の取得と設定が可能です。</summary>
+        <summary>取得または設定、 <b>Integer</b> ( int in<b>C#)</b>の期間を示す値 (分単位)。 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -827,7 +827,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>設定の終了日時を示す<b>DateTime</b>を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 値の取得と設定が可能です。</summary>
+        <summary>終了日時を示す <b>DateTime</b> を設定または返します <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -858,7 +858,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表現される予定の終了日時を表す<b>DateTime</b>値を取得または設定、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。 値の取得と設定が可能です。</summary>
+        <summary>で表される予定の終了日時を表す <b>DateTime</b> 値を設定または返します <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> 。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>これは予定インスペクター画面の [ 終了時刻] に表示される時刻です。</para>
           <para> </para></remarks>
@@ -890,13 +890,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 、予定の終了時刻に対応する値です。  値の取得と設定が可能です。</summary>
+        <summary>予定の終了 <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 時刻に対応する値を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>タイム ゾーン情報は、予定を保存するタイミングでその予定を正確な UTC 時間に割り当てる際や予定表に項目が表示されるタイミングでその予定を正しい現地時間に割り当てる場合に使用します。</para>
-          <para> <b>EndTimeZone</b>を変更するの値に影響を与える<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />を常には、ローカル タイム ゾーンで、 <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
-          <para>環境によっては、 <b>EndTimeZone</b>を変更することがありますか、Outlook を再計算し、更新しない場合があります、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" />。 </para>
-          <para>予定インスペクター、午後 1 時の開始時刻を予定の開催者がいる場合の例として EST と終了時刻の午後 3 時に EST が、 <b>EndTimeZone</b>を PST の予定を変更すると、予定の午後 1 時から継続期間 EST 午後 3 時に Pst ファイルを残りの午後 3 時と<b>なります</b>。 開催者は、次から<b>EndTimeZone</b>を変更することはない場合は PST に EST が原因で Outlook を再計算し、<b>なります</b>を更新して、予定は午後 1 時から最後 EST 午後 12 時に PST です。 </para>
-          <para>別の例は、以前に設定する前に発生する予定の終了時刻、 <b>EndTimeZone</b>を変更する予定の開始時刻でケースの Outlook が再計算および更新<b>なります</b>。 たとえば、午後 1 時の開始時刻を予定 PST と終了時刻の午後 3 時に 推定に変更、 <b>EndTimeZone</b>を PST には Outlook には<b>なります</b>が再計算されない、予定は午後 3 時に終了時間を必要 EST で、午後 12 時と同じです。 PST に、午後 1 時の開始時刻の前に発生します。 PST です。 実際には、ただし、 <b>EndTimeZone</b>を変更することになる Outlook の再計算と<b>なります</b>が午後 6 時に更新 で、 <b>EndTimeZone</b> EST)。</para>
+          <para> <b>EndTimeZone の</b>変更は、ローカル タイム ゾーンで常に表される値 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> に影響します <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /> 。</para>
+          <para>状況に応じて<b>、EndTimeZone</b>を変更すると、その結果、Outlookが再計算および更新される場合があります <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" /> 。 </para>
+          <para>例として、予定インスペクターで、午後 1 時に開始時刻を持つ予定の開催者である場合。 EST と終了時刻 (午後 3 時) EST の場合、予定を PST の <b>EndTimeZone</b> に変更すると、午後 1 時から予定が続く結果になります。 EST から午後 3 時 <b>PST、EndInEndTimeZone</b>は午後 3 時として残ります。 ただし、開催者ではない場合は<b>、EndTimeZone</b>を EST から PST に変更すると、Outlook は<b>EndInEndTimeZone</b>を再計算して更新し、予定は午後 1 時から続くでしょう。 EST から午後 12 時 PST。 </para>
+          <para>もう 1 つの例は<b>、EndTimeZone</b>を変更すると、以前に設定した予定開始時刻の前に予定の終了時刻が発生し、その場合、Outlook は<b>EndInEndTimeZone</b>を再計算して更新します。 たとえば、開始時刻が午後 1 時の予定です。 PST と終了時刻は午後 3 時です。 PST の <b>EndTimeZone が</b> EST に変更されました。 <b>EndInEndTimeZone</b>Outlook再計算しなかった場合、予定の終了時刻は午後 3 時です。 EST 。これは午後 12 時と同じです。 PST、および開始時刻 1 午後 1 時より前に発生します。 PST。 ただし、実際には<b>、EndTimeZone</b>を変更すると<b>、EndInEndTimeZone</b> Outlook 6 P.M に再計算および更新されます。 <b>(EndTimeZone</b> EST 内)。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -926,9 +926,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または世界協定時刻 (UTC) 形式で表現される予定の終了日時を表す<b>DateTime</b>値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>協定世界時 <b>(UTC)</b> 標準で表される予定の終了日時を表す DateTime 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />プロパティまたは<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />プロパティが原因で Outlook は<b>EndUTC</b>を再計算します。 </para>
+        <remarks><para>プロパティまたはプロパティの値 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> を変更すると <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> <b>、EndUTC</b>Outlookが再計算されます。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -955,7 +955,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返すオブジェクトの一意のエントリ ID を表します。  読み取り専用です。</summary>
+        <summary>オブジェクトの一<b></b>意の<b>エントリ</b>ID をC#文字列 ( 文字列 ) を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの PR_CREATION_TIME に対応しています。 <b>PidTagEntryId</b></para>
           <para>MAPI ストアのプロバイダーでは、そのストア内でアイテムを作成するときに一意の ID 文字列が割り当てられます。したがって、 <b>EntryID</b> プロパティが設定されていません Outlook アイテムの保存または送信されるまで。アイテムのエントリ ID の変更は、たとえば、Microsoft Exchange Server パブリック フォルダー、 受信トレイから、または 1 つの個人用フォルダー (.pst) ファイルを別の .pst ファイルから別のストアに移動します。ソリューションは、 <b>EntryID</b> プロパティが一意になるアイテムが移動しない限りに依存する必要があります。 <b>EntryID</b> プロパティは MAPI 長期エントリ ID を返します。詳細情報に関する長期的および short 的な entryid を代入、http://msdn.microsoft.com の <b>PidTagEntryId</b> を検索してください。</para>
@@ -989,9 +989,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定を示す<b>ブール型</b>(C# では<b>bool</b> ) の値を設定するかどうかを更新、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトは、すべての出席者に送信する必要があります。 値の取得と設定が可能です。</summary>
+        <summary>オブジェクトの更新プログラムをすべての出席者<b></b>に送信するかどうかを示すブール型<b>(C#)</b>の値を設定または <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>通常、時間または予定アイテムの場所が変更された場合にのみ、更新が出席者に送信します。 このプロパティを<b>True</b>に設定が強制的にアップデートをすべての出席者に送信する時間または場所の変更が発生していない場合でも。</para>
+        <remarks><para>通常、時間または予定アイテムの場所が変更された場合にのみ、更新が出席者に送信します。 このプロパティを <b>True に設定</b> すると、時間や場所に変更が加えなくても、すべての出席者に更新プログラムが強制的に送信されます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1018,7 +1018,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定された Outlook アイテムのフォームの説明を表すオブジェクト。 読み取り専用です。</summary>
+        <summary>指定したアイテム <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> のフォームの説明を表すオブジェクトをOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1044,9 +1044,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>転送、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />として、vCal です。仮想の予定表のアイテムです。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />予定表の情報が関連付けられている新しい電子メール アイテムを表すオブジェクト。</returns>
-        <remarks><para><b>ForwardAsVcal</b>メソッドが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />されたら目的の vCal ファイルが添付されました。</para>
+        <summary><see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />vCal、仮想予定表アイテムとして転送します。</summary>
+        <returns>予定表 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 情報が添付されている新しいメール アイテムを表すオブジェクト。</returns>
+        <remarks><para><b>ForwardAsVcal</b>メソッドは <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 、vCal ファイルが添付された a を返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1071,10 +1071,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />は、この項目が所属する会話を表すオブジェクト。</summary>
-        <returns><b>会話</b>この項目が所属する会話を表すオブジェクトを返します。</returns>
+        <summary>このアイテムが <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> 属する会話を表すオブジェクトを取得します。</summary>
+        <returns>このアイテムが <b>属</b> する会話を表す Conversation オブジェクトを返します。</returns>
         <remarks><para>
-            <b>GetConversation</b>は項目の会話が存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。 次のシナリオ内の項目の会話は存在しません。</para>
+            <b>GetConversation</b>は<b></b>、アイテムの会話が存在しない場合、Nothing (Visual Basic の null 参照 (C#) を返します。 次のシナリオ内の項目の会話は存在しません。</para>
           <list type="bullet">
             <item>
               <para>アイテムが保存されていません。 アイテムは、自動保存、ユーザーの操作によって、プログラムを使用して、保存できます。</para>
@@ -1086,7 +1086,7 @@
               <para>Windows レジストリによって、スレッドが無効になっている。</para>
             </item>
             <item>
-              <para>ストアは、[テーマ別] ビューをサポートしていません (たとえば、Outlook が Microsoft Exchange Server 2010 より前のバージョンの Microsoft Exchange に対して従来のオンライン モードで実行中)。 使用して、<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />のプロパティ、<see cref="T:Microsoft.Office.Interop.Outlook.Store" />ストアがスレッド ビューをサポートしているかどうかを決定するオブジェクトです。</para>
+              <para>ストアは会話ビューをサポートしません (たとえば、Outlook は従来のオンライン モードで 2010 年より前のバージョンの Microsoft Exchangeに対して実行Microsoft Exchange Server)。 オブジェクトの <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> プロパティを使用 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> して、ストアが会話ビューをサポートするかどうかを判断します。</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -1115,9 +1115,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />指定された項目を格納するインスペクターを表すオブジェクトを初期化します。 読み取り専用です。</summary>
+        <summary>指定したアイテム <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  を含む初期化されたインスペクターを表すオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティを使用するのではなく、アイテムを表示する新しい<b>Inspector</b>オブジェクトを取得すると便利です、<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />メソッドと設定、<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />プロパティ。 アイテムの <b>Inspector</b> オブジェクトが既に存在する場合、 <b>GetInspector</b> プロパティは新規に作成するのではなく場合は、その <b>Inspector</b> オブジェクトを返します。</para>
+        <remarks><para>このプロパティは、メソッドを使用してプロパティを設定するのではなく、アイテムを表示する新しい <b>Inspector</b> オブジェクトを返 <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  す場合に便利 <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> です。 アイテムの <b>Inspector</b> オブジェクトが既に存在する場合、 <b>GetInspector</b> プロパティは新規に作成するのではなく場合は、その <b>Inspector</b> オブジェクトを返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1142,8 +1142,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>取得、<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />の開催者のアドレス帳からの情報を格納しているオブジェクト、 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
-        <returns><b>AppointmentItem</b>の開催者を表す<b>AddressEntry</b>オブジェクトを返します。</returns>
+        <summary>のオー <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> ガナイザーに関する情報をアドレス帳から含むオブジェクトを取得します <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。</summary>
+        <returns><b>AppointmentItem の開催者を表す AddressEntry</b>オブジェクトを<b>返します</b>。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1168,10 +1168,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />予定の定期的なアイテムの属性を表すオブジェクト。</summary>
+        <summary>予定の <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> 定期的な属性を表すオブジェクトを返します。</summary>
         <returns>予定の定期的な設定を表す <b>RecurrencePattern</b> オブジェクト。</returns>
         <remarks><para>定期的なパターンが存在しない場合は、新しい空の <b>RecurrencePattern</b> オブジェクトを返します。</para>
-          <para>定期的な予定アイテムの作業を行うときは、以前の参照を解放し、定期的な予定アイテムへの新しい参照を取得してからアイテムにアクセスしたりアイテムを変更したりした後、作業が終了して変更を保存したら直ちに参照を解放する必要があります。 この実習は、定期的に適用されます<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクト、および<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />または<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />オブジェクトです。 Visual Basic で参照を解放するには、既存のオブジェクトを <b>Nothing</b> に設定します。 C# では、そのオブジェクトのメモリを明示的に解放します。 </para>
+          <para>定期的な予定アイテムの作業を行うときは、以前の参照を解放し、定期的な予定アイテムへの新しい参照を取得してからアイテムにアクセスしたりアイテムを変更したりした後、作業が終了して変更を保存したら直ちに参照を解放する必要があります。 この方法は、定期的なオブジェクト、および任意 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> またはオブジェクトに <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> 適用 <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> されます。 Visual Basic で参照を解放するには、既存のオブジェクトを <b>Nothing</b> に設定します。 C# では、そのオブジェクトのメモリを明示的に解放します。 </para>
           <para>参照を解放してから新しい参照を取得しようとしても、前記のいずれかのオブジェクトに対して、別のアドインまたは Outlook が保持するアクティブな参照がまだある場合、新しい参照はオブジェクトの古いコピーをまだ指していることに注意してください。したがって、定期的な予定の作業が終了したら速やかに参照を解放することが重要です。</para>
           <para> </para></remarks>
       </Docs>
@@ -1199,9 +1199,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>グローバル一意の識別子を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返す、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>オブジェクト <b>の一意</b> の<b>グローバル</b> 識別子をC#文字列 ( 文字列 ) の値を返 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>AppointmentItem</b>オブジェクトのエントリ ID が変わったり、アイテムを別のフォルダーまたは別のストアに移動するときなどもあります。 エントリ Id は、ユーザーが Outlook では、エクスポートなどのデータをインポートし、特定の機能を実行するときにも変更できます。 </para>
+        <remarks><para>アイテムを別のフォルダーまたは別のストアに移動する場合など <b>、AppointmentItem</b> オブジェクトのエントリ ID が変更される場合があります。 エントリ Id は、ユーザーが Outlook では、エクスポートなどのデータをインポートし、特定の機能を実行するときにも変更できます。 </para>
           <para>したがって、Outlook の各予定アイテムには、グローバル オブジェクト ID、つまりそのような状況でも変更されない一意のグローバル ID が割り当てられます。グローバル オブジェクト ID は、Outlook で使用される MAPI プロパティで、会議の更新および会議返答を予定表の特定の会議に相互に関連付けます。グローバル オブジェクト ID は、そのアイテムのすべてのコピーで同じです。</para>
           <para> </para></remarks>
       </Docs>
@@ -1232,7 +1232,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 、Outlook アイテムの相対的な重要度レベルを示す定数です。 値の取得と設定が可能です。</summary>
+        <summary>アイテムの相対的な重要度レベルを示す定数をOutlook <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagImportance</b> に対応します。</para>
           <para> </para></remarks>
@@ -1264,9 +1264,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、アイテムで使用するインターネット コード ページを決定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムで使用 <b>されるインターネット</b> コード ページをC#整数 (<b>int</b> ) の値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>インターネット コード ページによって、アイテムで使用するテキスト エンコード スキームが定義されます。</para>
+        <remarks><para>インターネット コード ページによって、アイテムで使用するテキスト エンコード スキーマが定義されます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1293,9 +1293,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) をローカル コンピューター上の項目がサーバー上のコピーと異なるかどうかを返します。 読み取り専用です。</summary>
+        <summary>ローカル コンピューター<b>上の</b>アイテムがサーバー上のコピーと異なるかどうかを決定するブール型 (C#) のブール型 (bool) を返します。<b></b> 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。 たとえば、ユーザーがオフラインし、オンライン フォルダーにアクセスしようとしています、操作は失敗します。 この場合、 <b>IsConflict</b> プロパティは <b>True</b> を返します。</para>
+        <remarks><para>アイテムが競合しているかどうかは、アプリケーションの状態によって決まります。 たとえば、ユーザーがオフラインでオンライン フォルダーにアクセスしようとすると、アクションは失敗します。 この場合、 <b>IsConflict</b> プロパティは <b>True</b> を返します。</para>
           <para>このプロパティは、予定アイテムが予定表の別の予定と時間が競合しているかどうかは示しません。</para>
           <para> </para></remarks>
       </Docs>
@@ -1360,9 +1360,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>予定が定期的な予定の場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。  読み取り専用です。</summary>
+        <summary>予定が定期的<b>な</b>予定のC# True の<b>ブール</b>値 ( ブール型 (<b>bool</b> ) の値を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />メソッドを使用、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトの場合、このプロパティが<b>True</b>に設定します。</para>
+        <remarks><para>メソッドを <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />  オブジェクトと一緒に使用 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  すると、このプロパティは True に設定 <b>されます</b>。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1389,7 +1389,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 、Outlook アイテムに関連付けられているすべての標準およびユーザー定義のプロパティを表すコレクション。 読み取り専用です。</summary>
+        <summary>アイテムに関連付けられているすべての標準プロパティとユーザー定義プロパティを表す <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> コレクションOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para><b>名前</b> またはコレクションは、0 から始まるコレクション、インデックス 0 を使用してコレクション内の最初のオブジェクトが参照されていることを意味します。</para>
           <para> </para></remarks>
@@ -1418,7 +1418,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後に変更されたときの日時を指定する<b>DateTime</b>を返します。  読み取り専用です。</summary>
+        <summary>アイテムが最後に変更された日付と時刻をOutlook <b>DateTime</b>を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagLastModificationTime</b> に対応します。</para>
           <para> </para></remarks>
@@ -1481,7 +1481,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、特定のオフィスの場所を表す (地など、スイート 123) の予定です。 値の取得と設定が可能です。</summary>
+        <summary>予定の特定のオフィスの場所<b></b><b>(たとえば</b>、Building 1 Room 1 または Suite 123) を表す文字列 (C# の文字列) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagOfficeLocation</b> に対応します。</para>
           <para> </para></remarks>
@@ -1544,7 +1544,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />をリモート ユーザーが受信すると、アイテムのステータスを決定します。 値の取得と設定が可能です。</summary>
+        <summary>リモート ユーザーが受け取ったアイテムの状態を決定する定数を設定または <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティによって、メッセージングの柔軟性が向上したデータ転送機能がリモート ユーザーに提供されます。</para>
           <para> </para></remarks>
@@ -1576,9 +1576,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />予定のミーティングのステータスを指定する定数です。 値の取得と設定が可能です。</summary>
+        <summary>予定の会議の状態 <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" /> を指定する定数を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティを使用して、 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> 、予定の利用可能なオブジェクトです。 </para>
+        <remarks><para>このプロパティを使用して、予定 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  でオブジェクトを使用できます。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1605,7 +1605,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>予定アイテムがリンクされている会議ワークスペースの URL を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。 読み取り専用です。</summary>
+        <summary>予定<b>アイテムがリンク</b>されている<b></b>会議ワークスペースの URL を表す文字列 (C# の文字列) 値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>会議ワークスペースは、会議の予定作成や会議の結果確認のための共有の Web サイトです。  </para>
           <para> </para></remarks>
@@ -1637,7 +1637,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのメッセージ クラスを表します。 値の取得と設定が可能です。</summary>
+        <summary>取得または設定、 <b>String</b> <b>(</b> C#内の文字列) のメッセージ クラスを表Outlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagMessageClass</b> に対応します。 <b>MessageClass</b> プロパティは、基になるフォームに項目をリンクします。アイテムを選択すると、Outlook は、フォームを見つけて 返信コマンドなど、そのプロパティを公開するメッセージ クラスを使用します。</para>
           <para> </para></remarks>
@@ -1669,7 +1669,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定するアイテムの経費情報を表します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムのマイレージ<b>を表す</b>文字列<b></b> (C#) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは自由形式のテキスト フィールドです。アイテムに関連付けられた経費情報を保存するために使用されます。 </para>
           <para> </para></remarks>
@@ -1952,7 +1952,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または Outlook のアイテムがない時代に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>True の<b>ブール値</b>(<b>ブール</b>型 ( C#) の値を<b></b>、アイテムの年齢をOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1983,7 +1983,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得または予定の任意出席者名の表示文字列を表します。 値の取得と設定が可能です。</summary>
+        <summary>予定の省略<b>可能な出席者</b>名<b></b>のC#文字列 ( 文字列 ) を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagDisplayCc</b> に対応します。</para>
           <para> </para></remarks>
@@ -2012,7 +2012,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を取得する予定の開催者の名前を表します。 読み取り専用です。</summary>
+        <summary>予定の開催 <b>者</b> の<b>名前</b> をC#文字列 (文字列) を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2040,7 +2040,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテム用の Outlook アプリケーションのビルド番号を表す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
+        <summary>指定<b>したアイテムの</b>アプリケーションC#ビルド番号を表す整数 (int) OutlookをOutlookします。<b></b> 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2068,7 +2068,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を返します。 Outlook アイテムの Outlook アプリケーションのメジャー バージョンとマイナー バージョン番号を示します。 読み取り専用です。</summary>
+        <summary>文字列<b>(C#</b> <b></b>の文字列) を返し、そのアイテムのアプリケーションのメジャー バージョン番号とマイナー バージョン番号Outlook Outlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2149,7 +2149,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />オブジェクトの作成、取得、設定、および親のプロパティを削除するをサポートしている<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />オブジェクトです。 読み取り専用です。</summary>
+        <summary>親オブジェクトの <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> プロパティの作成、取得、設定、および削除をサポートするオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2177,7 +2177,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 、Outlook アイテムのすべての受信者を表すコレクション。 読み取り専用です。</summary>
+        <summary>アイテムのすべての受信者を表すコレクション <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> をOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>受信者の指定には、その受信者の表示名、エイリアス、または完全な SMTP 電子メール アドレスを表す文字列を使用できます。</para>
           <para> </para></remarks>
@@ -2206,7 +2206,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" />を指定したオブジェクトの定期的なアイテムのプロパティを示す定数です。 読み取り専用です。</summary>
+        <summary>指定したオブジェクト <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" /> の繰り返しプロパティを示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2237,7 +2237,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>予定の開始前に、アラームが発生する分の数を示す<b>整数値</b>(C# では<b>int</b> ) 値を設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>予定の開始前にアラームが<b></b>発生する必要がある分数を示す整数<b>(C#)</b>の値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2268,9 +2268,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アラームは、アイテムの既定のアラーム設定をオーバーライドする場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
+        <summary>アラームがアイテムの既定のアラーム<b></b>動作を上書きする場合は、True の<b></b>ブール値<b>(C#</b>のブール値) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>検証するのには、 <b>ReminderOverrideDefault</b>プロパティを設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />のプロパティです。</para>
+        <remarks><para><b>ReminderOverrideDefault プロパティを設定して</b>、プロパティとプロパティ <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" /> を検証する必要 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" /> があります。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2300,9 +2300,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、アラームはこの項目の発生時にサウンドを再生する必要がある場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>このアイテムに対してアラームが<b></b>サウンドを再生する必要がある場合は、True<b></b>のブール値<b>(C#</b>のブール値) の値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>ReminderPlaySound</b>プロパティを検証するために設定する必要があります、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />プロパティ。 </para>
+        <remarks><para><b>プロパティを検証するには、ReminderPlaySound</b>プロパティを設定する必要 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" /> があります。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2332,7 +2332,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このアイテムのアラームが設定されている場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
+        <summary>このアイテムに対してアラームが設定されている場合C#ブール値<b>(</b>ブール型<b></b>(<b>bool</b> ) の値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2363,9 +2363,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムのアラームが発生したときに再生するサウンド ファイルのパスとファイル名を示します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムのアラームが発生した場合<b></b>に再生するサウンド ファイルのパスとファイル名を示す文字列<b>(C#</b>の文字列) をOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティは有効な場合、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />と<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />プロパティが<b>True</b>に設定します。 </para>
+        <remarks><para>このプロパティは、プロパティとプロパティ <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />  が True に <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />  設定されている場合にのみ有効 <b>です</b>。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2395,7 +2395,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>予定への返信時間を示す<b>日付時刻</b>を設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>予定の返信時刻を <b>示す DateTime</b> を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2426,9 +2426,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>必須出席者の会議の予定の名前のセミコロンで区切られた<b>文字列</b>(C# では<b>文字列</b>) を返します。 値の取得と設定が可能です。</summary>
+        <summary>会議の予定に必要な出席者名のセミコロンで<b></b>区切られた文字列<b>(C#</b>内の文字列) を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>のみ、このプロパティには、必須出席者の表示名が含まれています。 出席者リストを使用して設定する必要があります、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />コレクションです。 </para>
+        <remarks><para>のみ、このプロパティには、必須出席者の表示名が含まれています。 出席者リストは、コレクションを使用して設定する必要 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  があります。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2458,9 +2458,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>セミコロンで区切られた<b>文字列</b>(C# では<b>文字列</b>) の会議のリソース名を返します。 値の取得と設定が可能です。</summary>
+        <summary>会議のリソース名のセミコロンで区切られた<b>文字列</b><b>(C#)</b>を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>このプロパティには、表示名だけが含まれています。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />リソースの受信者を変更するのにはコレクションを使用する必要があります。 リソースとして追加は、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" />受信者コレクションにします。 </para>
+        <remarks><para>このプロパティには、表示名だけが含まれています。 コレクション <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> を使用して、リソースの受信者を変更する必要があります。 リソースは、コレクションに <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" /> 受信者として追加されます。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2490,23 +2490,23 @@
       <Docs>
         <param name="Response">依頼への返信を指定します。</param>
         <param name="fNoUI"><b>True を指定</b> するダイアログ ボックスは表示されません。応答が自動的に送信されます。 <b>False</b> 応答のダイアログ ボックスを表示します。 </param>
-        <param name="fAdditionalTextDialog"><b>False</b> の入力をユーザーにプロンプトを表示しません。応答を編集するためのインスペクターに表示されます。 <b>True の</b> 送信] または [コメントの送信をユーザーに確認します。この引数は、 <b>fNoUI</b> が <b>False</b> の場合にのみ有効です。 </param>
+        <param name="fAdditionalTextDialog"><b>False</b> の入力をユーザーにプロンプトを表示しません。応答を編集するためのインスペクターに表示されます。 <b>True の</b> 送信] または [コメントの送信をユーザーに確認します。この引数は、 <b>fNoUI</b>が <b>False</b> の場合にのみ有効です。 </param>
         <summary>会議出席依頼に返信します。</summary>
-        <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> 、会議出席依頼への応答を表すオブジェクト。</returns>
-        <remarks><para><b>OlMeetingAccepted</b>または<b>olMeetingTentative</b>パラメーターを指定して<b>Respond</b>メソッドを呼び出すと、Outlook は元の予定アイテムを複製する新しい予定アイテムを作成します。 新しいアイテムを別のエントリ ID とは そうすると、outlook では、元のアイテムが削除されます。 不要になった元のアイテムのエントリ ID を使用する必要がありますが、代わりに、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" />以降の新しいアイテムのエントリ ID を取得するプロパティです。 これは、複数のクライアント コンピューターは、予定表にアクセスするが、ときどきキャッシュ モードを使ってオフラインになる可能性がある場合に、予定のアイテムが予定表で正しく同期されることを確認します。</para>
-          <para>次の表は、親オブジェクトには、<b>応答</b>のメソッドの動作を説明し、<paramref name="fNoUI" />と<paramref name="fAdditionalTextDialog" />のパラメーターです。</para>
+        <returns>会議 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> 出席依頼に対する応答を表すオブジェクト。</returns>
+        <remarks><para><b>olMeetingAccepted</b> パラメーターまたは <b>olMeetingTentative</b> パラメーターを指定して <b>Respond</b> メソッドを呼び出すと、元の予定のアイテムを複製する新しい予定のアイテムが作成されます。 新しいアイテムには、別のエントリ ID が与えられます。 次に、元のアイテムが削除されます。 元のアイテムの Entry ID を使用するのではなく、プロパティを呼び出して、以降のニーズに合った新しいアイテムの <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" /> Entry ID を取得する必要があります。 これは、複数のクライアントが予定表にアクセスし、ときどきキャッシュ モードを使ってオフラインになる可能性のある場合に、予定のアイテムが予定表で正しく同期されるようにするためです。</para>
+          <para>次の表に、親オブジェクトとパラメーターに応じて <b>Respond</b> メソッドの動作を <paramref name="fNoUI" /> 示 <paramref name="fAdditionalTextDialog" /> します。</para>
           <list type="table">
             <item>
               <description>True、True</description>
-              <description> ユーザー インターフェイスなしの返信アイテムが返されます。応答を送信するには、 Send メソッドを呼び出す必要があります。 </description>
+              <description> ユーザー インターフェイスなしの返信アイテムが返されます。 応答を送信するには、 Send メソッドを呼び出す必要があります。  </description>
             </item>
             <item>
               <description>True、False</description>
-              <description> True、True のときと同じです。</description>
+              <description> Same result as with True, True.</description>
             </item>
             <item>
               <description>False、True</description>
-              <description> 返信する前に 送信または 編集のいずれかの操作を求めるメッセージが表示されます。</description>
+              <description> 返信する前に送信または編集のいずれかの操作を求めるメッセージが表示されます。</description>
             </item>
             <item>
               <description>False、False</description>
@@ -2542,7 +2542,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) <b>true を設定する場合、送信者は予定の会議出席依頼への応答</b>を返します。 値の取得と設定が可能です。</summary>
+        <summary>送信者が予定<b>の</b>会議<b>出席依頼</b>に対する応答を希望する場合<b></b>は True を示すブール型 (C# のブール値) を返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2570,7 +2570,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> 、現在のユーザーの予定の会議の全体的なステータスを示す定数です。 読み取り専用です。</summary>
+        <summary>予定の現在のユーザーの会議の全体的な状態を示 <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2601,9 +2601,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>リッチ テキスト形式で Microsoft Outlook アイテムの本文を表すバイト配列を設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>リッチ テキスト形式で Microsoft のアイテムの本文を表すバイト配列Outlookまたは設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>バイトの配列を文字列に変換するのには、C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用できます。</para>
+        <remarks><para>C# または Visual Basic で System.Text.Encoding.AsciiEncoding.GetString() メソッドを使用して、バイトの配列を文字列に変換できます。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2656,9 +2656,9 @@
       </Parameters>
       <Docs>
         <param name="Path">アイテムを保存するパスを指定します。</param>
-        <param name="Type">保存するファイルの種類です。 <b>OlSaveAsType</b>定数は、次のいずれか: <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、または<b>olMSGUnicode</b>。</param>
+        <param name="Type">保存するファイルの種類です。 olHTML 、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT 、 olVCal</b>、 <b>olVCard</b>、 <b>olICal</b>、 または<b>olMSGUnicode</b>のいずれかの<b>OlSaveAsType</b>クラスの定数を指定できます。 <b></b> <b></b></param>
         <summary>Microsoft Outlookアイテムを、指定したパスに、指定したファイルの種類の形式で保存します。ファイルの種類を指定しない場合は、MSG 形式 (.msg) が使用されます。</summary>
-        <remarks><para>ことに注意して<b>olDoc</b>は、有効な<b>OlSaveAsType</b>定数、文書の形式に HTML 形式のメッセージを保存することはできませんし、 <b>olDoc</b>定数を有効にする既定の電子メール エディターとして Microsoft Word が設定されます。</para>
+        <remarks><para>また<b>、olDoc</b>が有効な<b>OlSaveAsType</b>定数である場合でも、HTML 形式のメッセージをドキュメント形式で保存することはできません。また、olDoc 定数は Microsoft Word が既定の電子メール エディターとして設定されている場合にのみ機能します。 <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2685,7 +2685,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムが最後の保存以降変更されていない場合に<b>True</b>となる<b>ブール型</b>(C# では<b>bool</b> ) の値を返します。 読み取り専用です。</summary>
+        <summary>最後の保存<b>以降</b>、C#アイテムが変更されていない場合は True の<b></b>ブール値<b>(ブール</b>型 (C# Outlook) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2712,7 +2712,7 @@
       <Parameters />
       <Docs>
         <summary>予定を送信します。</summary>
-        <remarks><para><b>Send</b> メソッドは、そのセッションに指定された既定のアカウントを使用してアイテムを送信します。 プロファイルに複数の Microsoft Exchange アカウントが設定されているセッションでは、プロファイルに最初に追加された Exchange アカウントが、プライマリ Exchange アカウントになり、そのセッションの既定のアカウントになります。 アイテムを送信する別のアカウントを指定するには、設定、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" />に必要なプロパティ<see cref="T:Microsoft.Office.Interop.Outlook.Account" />オブジェクトし、し、 <b>Send</b>メソッドを呼び出します。</para>
+        <remarks><para><b>Send</b> メソッドは、そのセッションに指定された既定のアカウントを使用してアイテムを送信します。 プロファイルに複数の Microsoft Exchange アカウントが設定されているセッションでは、プロファイルに最初に追加された Exchange アカウントが、プライマリ Exchange アカウントになり、そのセッションの既定のアカウントになります。 アイテムを送信する別のアカウントを指定するには、プロパティを目的のオブジェクトに設定し <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" /> <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> 、Send メソッドを <b>呼び出</b> します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2742,9 +2742,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.Account" />アカウントを表すオブジェクト、<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />は、送信することです。 値の取得と設定が可能です。</summary>
+        <summary>送信するアカウントを表すオブジェクトを設定 <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>SendUsingAccount</b>プロパティを使用して、 <b>AppointmentItem</b>の送信に使用するアカウントを指定することと、<see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" />メソッドが呼び出されます。 <b>AppointmentItem</b>に指定されたアカウントが存在しない場合は<b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) を返します。</para>
+        <remarks><para><b>SendUsingAccount</b>プロパティを使用して、メソッドの呼び出し時に<b>AppointmentItem</b>の送信に使用するアカウント <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> を指定できます。 AppointmentItem に<b>指定されたアカウント</b>が存在しない場合、このプロパティは Nothing (Visual Basic C# で null 参照<b></b>(Visual Basic) を返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2774,7 +2774,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を設定を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 、Outlook アイテムの秘密度を示す列挙値。 値の取得と設定が可能です。</summary>
+        <summary>アイテムの感度を示す列挙体の定数を設定Outlook <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSensitivity</b> に対応します。</para>
           <para> </para></remarks>
@@ -2803,9 +2803,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -2836,7 +2836,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>[分類の表示] ダイアログ ボックスを表示し、ユーザーがアイテムの件名に対応する分類項目を表示できるようにします。</summary>
+        <summary>[分類の表示] ダイアログ ボックスを表示し、ユーザーがアイテムの件名に対応する分類項目を選択できるようにします。</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2863,7 +2863,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Outlook アイテムのバイト単位でサイズを示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
+        <summary>指定<b>したアイテムの</b>サイズ (バイト単位) をC#整数 (<b>int</b> ) の値をOutlookします。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2894,7 +2894,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>起動する日付と時刻の Outlook アイテムを示す<b>日付時刻</b>を設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>アイテムの開始日と時刻を示す<b>DateTime</b>を設定またはOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2925,7 +2925,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>表現される予定の開始日時を表す<b>DateTime</b>値を取得または設定、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />。 値の取得と設定が可能です。</summary>
+        <summary>で表される予定の開始日と時刻を表す <b>DateTime</b> 値を設定または返します <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> 。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>これは予定インスペクター画面の [ 開始時刻] に表示される時刻です。</para>
           <para> </para></remarks>
@@ -2957,13 +2957,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 、予定の開始時刻のタイム ゾーンに対応する値です。  値の取得と設定が可能です。</summary>
+        <summary>予定の開始時刻のタイム ゾーンに対応する <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 値を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>タイム ゾーン情報は、予定を保存するタイミングでその予定を正確な UTC 時間に割り当てる際や予定表に項目が表示されるタイミングでその予定を正しい現地時間に割り当てる場合に使用します。</para>
-          <para><b>StartTimeZone</b>を変更するの値に影響を与える<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />を常には、ローカル タイム ゾーンで、 <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
-          <para>環境によっては、 <b>StartTimeZone</b>を変更することがありますか、Outlook を再計算し、更新しない場合があります、 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" />。 </para>
+          <para><b>StartTimeZone の</b>変更は、ローカル タイム ゾーンで常に表される値 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> に影響します <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /> 。</para>
+          <para>状況に応じて<b>、StartTimeZone</b>を変更すると、 の再計算と更新Outlookが発生する場合と変更されない場合があります <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" /> 。 </para>
           <para>予定インスペクターで、例として 1 p. m. PST と PST の午後 3 時の終了時刻に開始時刻を予定の開催者がいる場合の EST、 <b>StartTimeZone</b> を使用して予定を変更すると、継続期間が EST の午後 1 から PST の午後 3 まで残りの 1 p. m. <b>StartInStartTimeZone</b> を予定ただし、していない場合、開催者から、 <b>StartTimeZone</b> を変更する EST を PST が原因で再計算および更新 <b>StartInStartTimeZone</b> では、Outlook と、PST の午後 3 まで、予定が EST の午後 4 から最後の。</para>
-          <para>別の例は、以前に設定する前に発生する予定の終了時刻、 <b>StartTimeZone</b>を変更する予定の開始時刻でケースの Outlook が再計算および<b>StartInStartTimeZone</b>を更新します。 たとえば、午後 1 時の開始時刻を予定 EST と終了時刻の午後 3 時に EST では、pst ファイルへの変更、 <b>StartTimeZone</b>を持っています。 Outlook は<b>StartInStartTimeZone</b>の再計算は場合、予定が、午後 1 時の開始時刻 PST には、午後 4時に相当します。 EST、午後 3 時の終了時刻より前に発生します。 推定 実際には、ただし、 <b>StartTimeZone</b>を変更することになる Outlook を再計算し、 <b>StartInStartTimeZone</b>を午前 10 時に更新します。 で、 <b>StartTimeZone</b> PST)。</para>
+          <para>もう 1 つの例は<b>、StartTimeZone</b>を変更すると、以前に設定した予定の開始時刻の前に予定の終了時刻が発生し、その場合、Outlook は<b>StartInStartTimeZone</b>を再計算して更新します。 たとえば、開始時刻が午後 1 時の予定です。 EST と終了時刻 (午後 3 時) EST の <b>StartTimeZone が</b> PST に変更されました。 <b>StartInStartTimeZone</b>Outlook再計算しなかった場合、予定の開始時刻は午後 1 時です。 PST。これは午後 4 時と同じです。 EST、および終了時刻 3 P.M の前に発生します。 EST。 ただし、実際には<b>、StartTimeZone</b>を変更すると<b>、StartInStartTimeZone</b> Outlook再計算および更新が実行され、10 A.M に更新されます。 <b>(StartTimeZone</b> PST 内)。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2993,9 +2993,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返すまたは、世界標準時 (UTC) 形式で表現される予定の開始日時を表す<b>DateTime</b>値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>協定世界時 <b>(UTC)</b> 標準で表される予定の開始日時を表す DateTime 値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>値を変更する、<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />プロパティまたは<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />プロパティと、Outlook で<b>StartUTC</b>の値を再計算します。 </para>
+        <remarks><para>プロパティまたはプロパティの値 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> を変更すると <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> 、Outlook <b>StartUTC</b>の値が再計算されます。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -3025,7 +3025,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>文字列</b>(C# では<b>文字列</b>) を設定、Outlook アイテムの件名を示します。 値の取得と設定が可能です。</summary>
+        <summary>取得または設定、 <b>String</b> <b>(</b>文字列内の文字列C#) を示す件名のアイテムOutlookします。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>このプロパティは、MAPI プロパティの <b>PidTagSubject</b> に対応します。 <b>Subject</b> プロパティは、Outlook アイテムの既定のプロパティです。</para>
           <para> </para></remarks>
@@ -3057,7 +3057,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または項目がされていません。 Outlook には、(読み取り) が開かれている場合は、 <b>true を指定</b>する<b>ブール型</b>(C# では<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
+        <summary>取得または設定、 <b>Boolean</b> ( bool in<b>C#)</b>の<b></b>値が True の場合は、アイテムが開かOutlook (読み取り) です。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3085,7 +3085,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 、Outlook アイテムのすべてのユーザーのプロパティを表すコレクション。 読み取り専用です。</summary>
+        <summary>アイテムのすべてのユーザー プロパティを表すコレクション <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> をOutlookします。 値の取得のみ可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

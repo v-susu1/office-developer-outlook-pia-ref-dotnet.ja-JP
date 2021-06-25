@@ -1,5 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906878" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3504a30b96a752a815c2c8ae8507b8f75ba9590f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139475" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -22,11 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>コレクションが含まれています<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />は、特定の Outlook アイテムと競合しているすべての Outlook アイテムを表すオブジェクト。</summary>
-    <remarks><para>使用して、<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />プロパティは、Outlook のアイテムの次のように<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、<b>競合</b>のオブジェクトを取得します。</para>
-      <para>使用の<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />オブジェクトのプロパティ、<b>競合</b>をアイテムが invloved、競合しているかどうかを判断します。 0 以外の値は、競合を示します。</para>
-      <para>使用、 <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> (<b>この</b>C# の) プロパティ<b>の競合</b>のコレクション オブジェクトから特定の競合アイテムを取得します。</para>
-      <para>使用して、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />、および<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /><b>の競合</b>のコレクションを走査するメソッドです。</para>
+    <summary>特定のアイテムと競合しているすべての Microsoft Outlookアイテムを表す <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> オブジェクトのコレクションをOutlookします。</summary>
+    <remarks><para>Conflicts <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> オブジェクトを取得するには、Outlookアイテム <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> のプロパティ<b>を使用</b>します。</para>
+      <para>Conflicts <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> オブジェクトの <b>プロパティを使用</b> して、アイテムが競合に関係しているかどうかを判断します。 0 以外の値は競合を示します。</para>
+      <para>Conflicts コレクション オブジェクトから特定の競合C#を取得するには、プロパティ (このプロパティを使用 <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> します)<b>を</b>使用します。<b></b></para>
+      <para>Conflicts <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> コレクション <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> を走査するには、、 、 、および <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <b>メソッドを使用</b> します。</para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -53,7 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>指定したコレクション内のオブジェクトの数を示す<b>整数値</b>(C# では<b>int</b> ) 値を返します。 読み取り専用です。</summary>
+        <summary>指定 <b>したコレクション内</b> の<b>オブジェクト</b> の数C#整数 (整数型 ) の値を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,9 +135,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>最初のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />コレクションです。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />コレクションに含まれる最初のオブジェクトを表すオブジェクト。</returns>
-        <remarks><para>返す<b>も何も</b>最初のオブジェクトが存在しない場合、たとえば、コレクション内のオブジェクトがない場合。<b>GetFirst</b>では、正しく動作させるために<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />の大規模なコレクション内のメソッドがそのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <summary>コレクション内の最初のオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> します。</summary>
+        <returns>コレクション <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> に含まれる最初のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para>コレクション内<b>にオブジェクト</b>がない場合など、最初のオブジェクトが存在しない場合は Nothing を返します。大規模なコレクション内の<b>GetFirst</b>、、、およびメソッドの正しい操作を確認するには、そのコレクションで GetNext を呼び出す前に GetFirst を呼び出し <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b></b><b>、GetPrevious</b><b></b>を呼び出す前に<b>GetLast</b>を呼び出します。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -162,9 +162,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>最後のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />コレクションです。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />コレクションに含まれている最後のオブジェクトを表すオブジェクト。</returns>
-        <remarks><para> <b>Nothing</b>が返されます最後のオブジェクトが存在しない場合、たとえば、コレクションが空の場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />、<b>末尾</b>、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />、および<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <summary>コレクション内の最後のオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> します。</summary>
+        <returns>コレクション <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> に含まれる最後のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para> コレクションが空<b>の場合</b>など、最後のオブジェクトが存在しない場合は Nothing を返します。大規模なコレクション内の 、 GetLast 、およびメソッドの正しい操作を確実に行う場合は、そのコレクションで GetNext を呼び出す前に <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetFirst</b>を呼び出し<b></b><b>、GetPrevious</b>を呼び出す前に<b>GetLast</b>を呼び出します。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -189,9 +189,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>次のオブジェクトが返されます、<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />コレクションです。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />コレクションに含まれている次のオブジェクトを表すオブジェクト。</returns>
-        <remarks><para><b>Nothing</b>が返されますかどうかの次のオブジェクトが存在しないなどのコレクションの末尾に既に配置されている場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />、 <b>GetNext</b>、および<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />の大規模なコレクション内のメソッドが、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>末尾</b>の 1 つの<b>を呼び出す前に呼び出し</b>. コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <summary>コレクション内の次のオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> します。</summary>
+        <returns>コレクション <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> に含まれる次のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para>次のオブジェクト<b>が</b>存在しない場合 、たとえば、コレクションの末尾に既に配置されている場合は、Nothing を返します。大きなコレクション内の 、 、 、 GetNext 、 およびメソッドの正しい操作を確認するには、そのコレクションで GetNext を呼び出す前に GetFirst を呼び出し <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b></b><b>、GetPrevious</b><b></b>を呼び出す前に<b>GetLast</b>を呼び出します。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -216,9 +216,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>前のオブジェクトを取得します<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />コレクションです。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />前に、コレクションに含まれるオブジェクトを表すオブジェクト。</returns>
-        <remarks><para><b>Nothing</b>が返されますかどうか前オブジェクトが存在しない、たとえば、既にコレクションの先頭に位置している場合。動作が正しいことを確認するのには、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />、<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />の大規模なコレクションの<b>1 つ</b>のメソッドは、そのコレクションに<b>GetNext</b>を呼び出す前に<b>GetFirst</b>を呼び出すし、<b>を呼び出す前に<b>末尾</b>を呼び出して、1 つ</b>。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
+        <summary>コレクション内の前のオブジェクトを返 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> します。</summary>
+        <returns>コレクション <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> に含まれる前のオブジェクトを表すオブジェクト。</returns>
+        <remarks><para>コレクションの<b>先頭に</b>既に配置されている場合など、前のオブジェクトが存在しない場合は Nothing を返します。大きなコレクション内の 、 、 および GetPrevious メソッドの正しい操作を確認するには、GetFirst を呼び出してからそのコレクションで GetNext を呼び出し <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <b></b><b></b><b>、GetPrevious</b><b></b>を呼び出す前に<b>GetLast</b>を呼び出します。 コレクションの呼び出しを常に行っていることを確認するには、ループに入る前に、そのコレクションを参照する明示的な変数を作成します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -249,7 +249,7 @@
       </Parameters>
       <Docs>
         <param name="Index">オブジェクトのインデックス番号、またはコレクションのオブジェクトの既定のプロパティに適合する値を指定します。</param>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />コレクションからのオブジェクト。</summary>
+        <summary>コレクションから <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> オブジェクトを返します。</summary>
         <value>指定したオブジェクトを表す <b>Conflict</b> オブジェクト。</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,9 +305,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

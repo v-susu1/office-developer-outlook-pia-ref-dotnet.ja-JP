@@ -1,5 +1,5 @@
 <Type Name="_ToOrFromRuleCondition" FullName="Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="648baf91163629ffdd4d280837514179e56bd36d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901670" /></Metadata><TypeSignature Language="C#" Value="public interface _ToOrFromRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e527e4aa96d3487f87ac18b8eabc5a52989272e1" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139482" /></Metadata><TypeSignature Language="C#" Value="public interface _ToOrFromRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ToOrFromRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ToOrFromRuleCondition" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 、親オブジェクトの Outlook アプリケーションを表すオブジェクト。 読み取り専用です。</summary>
+        <summary>オブジェクトの親 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> アプリケーションを表すOutlookを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />オブジェクトのクラスを示す定数です。 読み取り専用です。</summary>
+        <summary>オブジェクトのクラス <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> を示す定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,10 +101,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>定数を<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />ルールの条件の種類を指定する列挙体です。 読み取り専用です。</summary>
+        <summary>ルール条件の種類を示 <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> す列挙体から定数を返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>
-            <b>ConditionType</b>の 2 種類のルールの条件の使用としてルールの条件の種類に依存して、<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />オブジェクト: <b>olConditionFrom</b>および<b>olConditionSentTo</b>。   <b>olConditionFrom</b>が<b>olConditionSentTo</b>は、メッセージを送信するための規則と同様にメッセージを受信するルールによってサポートされている間、メッセージを受信するためのルールでのみサポートされています。 詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
+            <b>ConditionType は</b> 、2 種類のルール条件がオブジェクトを使用します <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> <b>。olConditionFrom</b> と <b>olConditionSentTo</b>の 2 種類のルール条件は、ルール条件の種類によって異なります。   <b>olConditionFrom</b> クラスの定数はメッセージを受信するルールでのみサポートされ、一方 <b>olConditionSentTo</b> クラスの定数は、メッセージを受信するルールおよびメッセージを送信するルールの両方でサポートされます。 詳細については、「ルール条件 <a href="http://go.microsoft.com/fwlink/?LinkId=87803">の指定」を参照してください。</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -134,10 +134,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 場合を決定する、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />を有効にします。 取得/設定が可能な値です</summary>
+        <summary>有効になっているかどうかを決定する<b>ブール</b>型<b></b> (C#) を <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> 設定または返します。 読み取り/書き込み</summary>
         <value>To be added.</value>
-        <remarks><para>使用してルールを保存するルールの条件を有効にした後もする必要があります<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />現在のセッション以降、ルールの条件とその有効な状態が持続するようにします。  ルールの条件は、正常に保存された後でなければ有効になりません。 </para>
-          <para>種類は<b>olRuleReceive</b>ルールの種類<b>olRuleSend</b>のルールでのみサポートされているルールの条件を有効にしようとした場合にエラーを返す、またはその逆。  メッセージまたはメッセージを送信するルールを受信するためのルールによるサポートの詳細については、<a href="http://go.microsoft.com/fwlink/?LinkId=87803">ルールの条件を指定する</a>を参照してください。</para>
+        <remarks><para>ルール条件を有効にした後で、ルール条件と有効な状態が現在のセッションを超えて保持される場合に使用してルールを <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> 保存する必要があります。  ルールの条件は、正常に保存された後でなければ有効になりません。 </para>
+          <para><b>olRuleReceive</b>型のルールに対して<b>olRuleSend</b>型のルールでのみサポートされているルール条件を有効にしようとした場合、またはその逆の場合にエラーを返します。  メッセージを受信するルールまたはメッセージを送信するルールによるサポートの詳細については、「ルール条件の指定」 <a href="http://go.microsoft.com/fwlink/?LinkId=87803">を参照してください。</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -166,7 +166,7 @@
       <Docs>
         <summary>指定されたオブジェクトの親 <b>Object</b> を取得します。値の取得のみ可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>親オブジェクトは、<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />オブジェクトです。</para>
+        <remarks><para>親オブジェクトはオブジェクト <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> です。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />ルールの条件の評価には、受信者の一覧を表すコレクション。 読み取り専用です。</summary>
+        <summary>ルール条件の <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  評価の受信者リストを表すコレクションを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks><para>複数の受信者は、論理 OR 演算を使って評価されます。</para>
           <para> </para></remarks>
@@ -222,9 +222,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返します、 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> 、現在のセッション オブジェクトです。 読み取り専用です。</summary>
+        <summary>現在のセッション <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  のオブジェクトを返します。 読み取り専用です。</summary>
         <value>To be added.</value>
-        <remarks><para><b>セッション</b>のプロパティ、および<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />メソッドは現在のセッションの<b>名前空間</b>のオブジェクトを取得するのには同じ意味で使用できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは、同じ機能を実行します。</para>
+        <remarks><para><b>Session プロパティ</b>とメソッドを同じ意味で使用して、現在のセッションの <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace</b>オブジェクトを取得できます。 両方のメンバーでは、同じ目的を果たします。 たとえば、次のステートメントのペアは同じ関数を実行します。</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

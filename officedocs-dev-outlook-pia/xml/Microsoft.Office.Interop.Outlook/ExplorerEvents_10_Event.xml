@@ -1,5 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896801" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c3a3195e08f69bc1e2baf898bd2129a95216031f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139489" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -80,7 +80,7 @@
       </ReturnValue>
       <Docs>
         <summary>ユーザーの操作またはプログラムのコードによって、エクスプローラーが新しいフォルダーに移動する前に発生します。</summary>
-        <remarks><para>(ファイル システムなど)、オートメーションでサポートされていない名前空間には、フォルダーに切り替わる場合は、<paramref name="NewFolder" />は<b>ありません</b>。</para>
+        <remarks><para>切り替えるフォルダーがオートメーション (ファイル システムなど) をサポートしない名前空間にある場合は <paramref name="NewFolder" /> 、Nothing <b>です</b>。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -199,7 +199,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>発生した場合、<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />がユーザーによって移動します。</summary>
+        <summary>ユーザーが移動  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> すると発生します。</summary>
         <remarks><para>このイベントは開始された後で取り消すことができます。</para>
           <para> </para></remarks>
       </Docs>
@@ -219,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ユーザーの現在のサイズを設定するときに発生する<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</summary>
+        <summary>ユーザーが現在のサイズを設定すると発生します <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> 。</summary>
         <remarks><para>このイベントは開始された後で取り消すことができます。イベントを取り消すと、ウィンドウのサイズは変更されません。</para>
           <para> </para></remarks>
       </Docs>
@@ -259,7 +259,7 @@
       </ReturnValue>
       <Docs>
         <summary>エクスプローラーが閉じるときに発生します。</summary>
-        <remarks><para>使用する場合、 <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> 、このイベントを発生させるメソッドに取り消すことができます<b>Close</b>メソッドが<b>呼び出すことにより</b>使用されている場合。</para>
+        <remarks><para>メソッドを使用してこのイベントを発生する場合 <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> <b>、Close</b> メソッドが <b>olPromptForSave</b> 引数を使用している場合にのみ取り消し可能です。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,7 +317,7 @@
       </ReturnValue>
       <Docs>
         <summary>閲覧ウィンドウにインライン返信が表示されるアクションをユーザーが実行したときに発生します。</summary>
-        <remarks><para>このイベントは、インラインの応答の項目を表す項目オブジェクトを返します。</para>
+        <remarks><para>このイベントは、インライン応答アイテムを表す item オブジェクトを返します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -336,26 +336,26 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ユーザーは、閲覧ウィンドウを閉じる作業中のインライン応答の原因となる操作を実行するときに発生します。</summary>
-        <remarks><para>新しいインライン応答するときにこのイベントが発生またはドラフト インライン応答は次の理由で終了します。</para>
+        <summary>ユーザーが閲覧ウィンドウでアクティブなインライン応答を閉じるアクションを実行すると発生します。</summary>
+        <remarks><para>このイベントは、次の理由で新しいインライン応答または下書きインライン応答が閉じたときに発生します。</para>
           <list type="bullet">
             <item>
-              <para>ユーザーは、<b>ポップ アウト</b>] コマンドを選択します。</para>
+              <para>ユーザーが [ポップ アウト] <b>コマンドを選択</b> します。</para>
             </item>
             <item>
-              <para>ユーザーは、[<b>破棄</b>] コマンドを選択します。</para>
+              <para>ユーザーが [破棄] コマンド <b>を選択</b> します。</para>
             </item>
             <item>
-              <para>ユーザーは、インラインの応答を送信します。</para>
+              <para>ユーザーはインライン応答を送信します。</para>
             </item>
             <item>
-              <para>ユーザーは、メッセージの一覧で別のメッセージに移動します。</para>
+              <para>ユーザーは、メッセージ リスト内の別のメッセージに移動します。</para>
             </item>
             <item>
-              <para>ユーザーは、別のフォルダーに移動します。</para>
+              <para>ユーザーは別のフォルダーに移動します。</para>
             </item>
             <item>
-              <para>ユーザーは、たとえば、[予定表] モジュールに [メール] モジュールから、モジュールを切り替えます。</para>
+              <para>ユーザーは、メール モジュールから予定表モジュールにモジュールを切り替えします。</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -376,8 +376,8 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>ユーザーがユーザー インターフェイス (UI) を使用してフォルダー内の別のアイテムに切り替えた場合に発生またはプログラムを使用しています。</summary>
-        <remarks><para>このイベントが発生したときにユーザーか、プログラムを使用してユーザーへ切り替えたを使用してをクリックするか、Outlook はそのフォルダー内の最初の項目を自動的に選択項目を含む別のフォルダーに切り替えますか。 ただし、フォルダーがファイル システム フォルダーである場合や、現在の Web ビューが表示されている場合には、このイベントは発生しません。 </para>
+        <summary>ユーザー がユーザー インターフェイス (UI) を使用してフォルダー内の別のアイテムに切り替え、またはプログラムによって行われる場合に発生します。</summary>
+        <remarks><para>このイベントは、ユーザーがプログラムによって、またはユーザー インターフェイスを使用して、Outlook が自動的にそのフォルダー内の最初のアイテムを選択すると、アイテムを含む別のフォルダーをクリックまたは切り替える場合にも発生します。 ただし、フォルダーがファイル システム フォルダーである場合や、現在の Web ビューが表示されている場合には、このイベントは発生しません。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>

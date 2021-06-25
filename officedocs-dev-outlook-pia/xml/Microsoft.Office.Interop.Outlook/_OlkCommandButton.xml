@@ -1,5 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899188" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="514c2b47aad5e0f65ed9fb8a30338a93e30048b4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139614" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。 メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。 それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。 COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />。</summary>
+    <summary>これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。 このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。 それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。 COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +48,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>アクセラレータまたはコントロールのホット キーを表す<b>文字列</b>(C# では<b>文字列</b>) の値を設定を取得または取得します。 値の取得と設定が可能です。</summary>
+        <summary>コントロールのアクセラレータまたはホット キー<b></b>を表す文字列<b>(C#)</b>の値を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は空の文字列で、ホット キーが存在しないことを意味します。このプロパティに 1 文字以上の文字列を設定した場合は、先頭の文字だけが使用され、後続の文字は切り捨てられます。  </para>
           <para>アクセス キーに数字は使用できません。</para>
@@ -81,7 +81,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>コントロールのサイズを自動的 <b>に設定して</b> コンテンツ全体を表示するブール型<b>(C#)</b> を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>  このプロパティの既定値は <b>False</b> です。</para>
           <para>コントロールがボタンの場合、このプロパティではキャプション値全体を表示するためコントロールを自動調整するかどうかが指定されます。</para>
@@ -114,7 +114,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得またはオブジェクトを識別または説明の<b>文字列</b>(C# では<b>文字列</b>) に表示されるを設定します。  値の取得と設定が可能です。</summary>
+        <summary>オブジェクトに表示される<b>文字列</b><b>(C#)</b>を取得または設定して、オブジェクトを識別または説明します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は空の文字列です。このプロパティはフォーム デザイナーによりコントロールの既定の名前に設定されます。  </para>
           <para> </para></remarks>
@@ -146,9 +146,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール型</b>(C# では<b>bool</b> ) のボタンの下向きの矢印を描画することを設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>ボタンの下 <b>向き矢印</b> のレンダリングをC#ブール型 (ブール型 (<b>bool</b> ) の値を設定します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>右から左に、右側のボタンの左から右に位置し、位置の左側のこの矢印が表示されます。 <b>True</b> <b>False</b> レンダリングを無効にする] ボタンの矢印を表示します。</para>
+        <remarks><para>この矢印は、左から右に書かれた言語のボタンの右側に、右から左に書かれた言語で左にレンダリングされます。 <b>True</b> <b>False</b> レンダリングを無効にする] ボタンの矢印を表示します。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -178,7 +178,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。  値の取得と設定が可能です。</summary>
+        <summary>コントロールが機能 <b>可能かどうかを示</b> すブール型<b>(C#)</b> を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は <b>False</b> です。</para>
           <para>コントロールが無効になっている場合、コントロールの内容は淡色表示されます。</para>
@@ -208,7 +208,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロール内のテキストのレンダリングに使用するフォントを表す<b>StdFont</b>を返します。  読み取り専用です。</summary>
+        <summary>コントロール内のテキストのレンダリングに使用されるフォントを表す <b>StdFont</b> を返します。  読み取り専用です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,9 +239,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>このコントロールのマウス カーソルのカスタム画像を表す<b>StdPicture</b>を設定または返します。 値の取得と設定が可能です。</summary>
+        <summary>このコントロールのマウス カーソルにカスタム画像を表す <b>StdPicture</b> を設定または返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+        <remarks><para>既定値は<b>Nothing</b> (null 参照 (Visual Basic) C#)。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -271,7 +271,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。  値の取得と設定が可能です。</summary>
+        <summary>ユーザーがコントロールの上にマウスを置いた場合に表示されるポインターの種類を指定する定数 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は、 <b>olMousePointerDefault</b> です。</para>
           <para> </para></remarks>
@@ -303,9 +303,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>コントロールに表示される画像を表す<b>StdPicture</b>を設定または返します。    値の取得と設定が可能です。</summary>
+        <summary>コントロールに表示される図を表す <b>StdPicture</b> を設定または返します。    値の取得と設定が可能です。</summary>
         <value>To be added.</value>
-        <remarks><para>既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</para>
+        <remarks><para>既定値は<b>Nothing</b> (null 参照 (Visual Basic) C#)。</para>
           <para>画像とテキストを同時にコントロール上に表示することはできません。このため、Picture プロパティが設定されているとき、Text プロパティは無視されます。</para>
           <para>画像は常にボタン コントロールの中央に表示され、表示可能スペースに合わせて切り抜かれます。</para>
           <para> </para></remarks>
@@ -337,7 +337,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPictureAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" />ボタンにイメージとテキストの配置を表す定数を指定します。 値の取得と設定が可能です。</summary>
+        <summary>画像の配置とボタンのテキストを指定する定数を設定または <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> 返します。 値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,7 +368,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。  値の取得と設定が可能です。</summary>
+        <summary>コントロール内のテキストの位置合わせ方法を指定 <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> する定数を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</para>
           <para>コマンド ボタン コントロール、 <b>olTextAlignLeft</b> 、 <b>文字配置</b> に設定すると左余白はコントロールの境界線のピクセルを 1 つだけです。</para>
@@ -401,7 +401,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) コントロールの内容が行の末尾に自動的に折り返すかどうかを指定します。  値の取得と設定が可能です。</summary>
+        <summary>コントロールの内容が行<b></b>の末尾で自動的に折り返されるかどうかを指定するブール型 (C#) のブール型<b>(bool)</b>を設定または返します。  値の取得と設定が可能です。</summary>
         <value>To be added.</value>
         <remarks><para>既定値は <b>True</b> です。</para>
           <para> </para></remarks>
