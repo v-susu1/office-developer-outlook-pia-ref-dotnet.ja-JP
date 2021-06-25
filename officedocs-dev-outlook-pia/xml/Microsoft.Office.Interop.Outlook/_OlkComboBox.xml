@@ -1,5 +1,5 @@
 <Type Name="_OlkComboBox" FullName="Microsoft.Office.Interop.Outlook._OlkComboBox">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901432" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c820bf50404a80db164080f3f14e21ad21d54c4c" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ja-JP" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139611" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkComboBox" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary><span data-ttu-id="681cb-101">これは、対応する COM オブジェクトと相互運用するためのマネージ コードで必要とされる COM コクラス内のプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="681cb-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="681cb-102">メソッドを使用する COM オブジェクトのイベントと同じ名前を共有する場合にのみ、この主要なインタ フェースを使用します。メソッドを呼び出すには、このインターフェイスにこの例では、キャストし、イベントに接続するための最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="681cb-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="681cb-103">それ以外の場合、メソッド、プロパティ、および COM オブジェクトのイベントにアクセスする COM コクラスから派生した .NET インターフェイスを使用します。</span><span class="sxs-lookup"><span data-stu-id="681cb-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="681cb-104">COM オブジェクトについてを参照してください<see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />.</span></span></summary>
+    <summary><span data-ttu-id="023f0-101">これは、対応する COM オブジェクトとの相互運用性のためにマネージ コードで必要な COM コクラスのプライマリ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="023f0-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="023f0-102">このプライマリ インターフェイスは、使用するメソッドが COM オブジェクトのイベントと同じ名前を共有している場合にのみ使用します。この場合は、このインターフェイスにキャストしてメソッドを呼び出し、イベントに接続するために最新のイベント インターフェイスにキャストします。</span><span class="sxs-lookup"><span data-stu-id="023f0-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="023f0-103">それ以外の場合は、COM コクラスから派生した .NET インターフェイスを使用して、COM オブジェクトのメソッド、プロパティ、およびイベントにアクセスします。</span><span class="sxs-lookup"><span data-stu-id="023f0-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="023f0-104">COM オブジェクトの詳細については、「. <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" /></span><span class="sxs-lookup"><span data-stu-id="023f0-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,10 +45,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ItemText"><span data-ttu-id="681cb-105">コンボ ボックスの一覧に追加する値です。</span><span class="sxs-lookup"><span data-stu-id="681cb-105">Value to be added to the list in the combo box.</span></span></param>
-        <param name="Index"><span data-ttu-id="681cb-106">一覧内での新しいアイテムの順番を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="681cb-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
-        <summary><span data-ttu-id="681cb-107">アイテムを一覧に追加します。さらに、一覧に追加する新しいアイテムのインデックスを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="681cb-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-108">場合の値<paramref name="Index" />数以上は、リスト内の要素のリストの末尾に新規の項目が追加されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
+        <param name="ItemText"><span data-ttu-id="023f0-105">コンボ ボックスの一覧に追加する値です。</span><span class="sxs-lookup"><span data-stu-id="023f0-105">Value to be added to the list in the combo box.</span></span></param>
+        <param name="Index"><span data-ttu-id="023f0-106">一覧内での新しいアイテムの順番を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="023f0-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
+        <summary><span data-ttu-id="023f0-107">アイテムを一覧に追加します。さらに、一覧に追加する新しいアイテムのインデックスを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="023f0-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-108">値がリスト内の要素数以上の場合は、新しいアイテムがリストの末尾  <paramref name="Index" /> に追加されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -78,10 +78,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-109"><b>ブール型</b>(C# では<b>bool</b> ) 全体の内容を表示するコントロールのサイズを自動的に設定または返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-109">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span>  <span data-ttu-id="681cb-110">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-110">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-109">コントロールのサイズを自動的 <b>に設定して</b> コンテンツ全体を表示するブール型<b>(C#)</b> を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-109">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span>  <span data-ttu-id="023f0-110">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-110">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para>  <span data-ttu-id="681cb-111">このプロパティの既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-111">The default value for this property is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="681cb-p103"><b>Autosize プロパティを <b>True</b> に自動的に</b> コンボ ボックス内のテキストの長さを表示領域の幅を設定します。この現象は、単一行テキスト ボックスに似ています。</span><span class="sxs-lookup"><span data-stu-id="681cb-p103">Setting <b>AutoSize</b> to <b>True</b> automatically sets the width of the display area to the length of the text in the combo box. This behavior is similar to the single-line text box. </span></span></para>
+        <remarks><para>  <span data-ttu-id="023f0-111">このプロパティの既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-111">The default value for this property is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="023f0-p103"><b>Autosize プロパティを <b>True</b> に自動的に</b> コンボ ボックス内のテキストの長さを表示領域の幅を設定します。この現象は、単一行テキスト ボックスに似ています。</span><span class="sxs-lookup"><span data-stu-id="023f0-p103">Setting <b>AutoSize</b> to <b>True</b> automatically sets the width of the display area to the length of the text in the combo box. This behavior is similar to the single-line text box. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -111,9 +111,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-114">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) かどうか、タブが自動的に挿入、コントロールが指定の最大長まで埋められたときを指定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a tab is inserted automatically  when the control has been filled to the maximum length specified.</span></span> <span data-ttu-id="681cb-115">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-115">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-114">コントロールが指定された最大<b></b>長に塗りつぶされた場合にタブが自動的に挿入される場合を指定するブール型 (C#) のブール型<b>(bool)</b>を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a tab is inserted automatically  when the control has been filled to the maximum length specified.</span></span> <span data-ttu-id="023f0-115">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-115">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para>  <span data-ttu-id="681cb-116">このプロパティの既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-116">The default value for this property is <b>False</b>.</span></span></para>
+        <remarks><para>  <span data-ttu-id="023f0-116">このプロパティの既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-116">The default value for this property is <b>False</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -143,9 +143,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-117"><b>ブール型</b>(C# では<b>bool</b> ) を指定するかどうか、単語や文字選択範囲を拡張するために使用する基本単位を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span></span>  <span data-ttu-id="681cb-118">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-118">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-117">単語または文字が選択範囲の拡張<b></b>に使用される基本単位であるかどうかを指定するブール型<b>(C#</b>のブール値) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span></span>  <span data-ttu-id="023f0-118">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-119">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-119">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-119">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-119">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -178,9 +178,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-120">取得またはコントロールの背景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-120">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="681cb-121">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-121">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-120">コントロールの背景色を示す <b>UInteger</b> (C# の<b>uint)</b> 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-120">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="023f0-121">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-121">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-122">このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。</span><span class="sxs-lookup"><span data-stu-id="681cb-122">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="681cb-123">このプロパティの既定値は、0x80000005、ウィンドウ] です。</span><span class="sxs-lookup"><span data-stu-id="681cb-123">The default value for this property is 0x80000005, "Window."</span></span> </para>
+        <remarks><para><span data-ttu-id="023f0-122">このプロパティは<b>、UInteger</b> <b>(OLE_COLOR</b> <b>uint)</b>の値である型C#です。</span><span class="sxs-lookup"><span data-stu-id="023f0-122">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="023f0-123">このプロパティの既定値は、0x80000005、ウィンドウ] です。</span><span class="sxs-lookup"><span data-stu-id="023f0-123">The default value for this property is 0x80000005, "Window."</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -210,9 +210,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-124">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />コントロールの境界線のスタイルを定義する定数です。</span><span class="sxs-lookup"><span data-stu-id="681cb-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="681cb-125">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-125">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-124">コントロールの周囲の境界線 <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> のスタイルを定義する定数を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="023f0-125">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-125">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-126">既定値は <b>olBorderStyleSingle</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-126">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-126">既定値は <b>olBorderStyleSingle</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-126">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -237,7 +237,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="681cb-127">コンボ ボックスの一覧からすべてのオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="681cb-127">Removes all objects from the list in the combo box.</span></span></summary>
+        <summary><span data-ttu-id="023f0-127">コンボ ボックスの一覧からすべてのオブジェクトを削除します。</span><span class="sxs-lookup"><span data-stu-id="023f0-127">Removes all objects from the list in the combo box.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,9 +262,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="681cb-128">コントロールの内容をクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="681cb-128">Copies the contents of the control to the clipboard.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-129">データは書式なしのテキスト形式でコピーされ、クリップボードにある既存の内容は置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="681cb-129">The data is copied in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
-          <para><span data-ttu-id="681cb-130">コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、この方法現在の選択範囲」ドロップ ダウン リストでクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="681cb-130">If the control style is <b>olComboBoxStyleListBox</b>, then this method copies the current selection in the drop-down list to the clipboard.</span></span></para>
+        <summary><span data-ttu-id="023f0-128">コントロールの内容をクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="023f0-128">Copies the contents of the control to the clipboard.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-129">データは書式なしのテキスト形式でコピーされ、クリップボードにある既存の内容は置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="023f0-129">The data is copied in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
+          <para><span data-ttu-id="023f0-130">コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、この方法現在の選択範囲」ドロップ ダウン リストでクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="023f0-130">If the control style is <b>olComboBoxStyleListBox</b>, then this method copies the current selection in the drop-down list to the clipboard.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -289,9 +289,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="681cb-131">コントロールの内容を切り取ってクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="681cb-131">Removes the contents of the control and copies the contents to the clipboard.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-132">データは書式なしのテキスト形式でクリップボードにコピーされ、クリップボードにある既存の内容は置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="681cb-132">The data is copied to the clipboard in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
-          <para><span data-ttu-id="681cb-133">コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、このメソッドはないカットは何もします。</span><span class="sxs-lookup"><span data-stu-id="681cb-133">If the control style is <b>olComboBoxStyleListBox</b>, then this method will not cut anything.</span></span></para>
+        <summary><span data-ttu-id="023f0-131">コントロールの内容を切り取ってクリップボードにコピーします。</span><span class="sxs-lookup"><span data-stu-id="023f0-131">Removes the contents of the control and copies the contents to the clipboard.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-132">データは書式なしのテキスト形式でクリップボードにコピーされ、クリップボードにある既存の内容は置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="023f0-132">The data is copied to the clipboard in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
+          <para><span data-ttu-id="023f0-133">コントロールのスタイルが <b>olComboBoxStyleListBox</b> の場合は、し、このメソッドはないカットは何もします。</span><span class="sxs-lookup"><span data-stu-id="023f0-133">If the control style is <b>olComboBoxStyleListBox</b>, then this method will not cut anything.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -321,9 +321,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-134">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 、システムがこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数です。</span><span class="sxs-lookup"><span data-stu-id="681cb-134">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constant that indicates whether the system enables the drag-and-drop feature for this control.</span></span>  <span data-ttu-id="681cb-135">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-135">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-134">システムでこのコントロールのドラッグ アンド ドロップ機能を有効にするかどうかを示す定数を設定または <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> 返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-134">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constant that indicates whether the system enables the drag-and-drop feature for this control.</span></span>  <span data-ttu-id="023f0-135">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-135">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-136">既定値は <b>olDragDropDisabled</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-136">The default value is <b>olDragDropDisabled</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-136">既定値は <b>olDragDropDisabled</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-136">The default value is <b>olDragDropDisabled</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -348,8 +348,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="681cb-137">コンボ ボックスのドロップダウン部分を展開します。</span><span class="sxs-lookup"><span data-stu-id="681cb-137">Expands  the drop-down portion of the combo box.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-138">ユーザーがコントロール上のドロップ ボタンをクリックする動作をシミュレートします。</span><span class="sxs-lookup"><span data-stu-id="681cb-138">Simulates the user clicking the drop button on the control.</span></span> <span data-ttu-id="681cb-139">このメソッドにより、<see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" />イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="681cb-139">This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> event to fire.</span></span></para>
+        <summary><span data-ttu-id="023f0-137">コンボ ボックスのドロップダウン部分を展開します。</span><span class="sxs-lookup"><span data-stu-id="023f0-137">Expands  the drop-down portion of the combo box.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-138">ユーザーがコントロール上のドロップ ボタンをクリックする動作をシミュレートします。</span><span class="sxs-lookup"><span data-stu-id="023f0-138">Simulates the user clicking the drop button on the control.</span></span> <span data-ttu-id="023f0-139">このメソッドを使用すると、 <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> イベントが発生します。</span><span class="sxs-lookup"><span data-stu-id="023f0-139">This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> event to fire.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -379,9 +379,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-140"><b>ブール値</b>(C# では<b>bool</b> ) を示すかどうかに機能するコントロールが許可を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-140">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="681cb-141">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-141">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-140">コントロールが機能 <b>可能かどうかを示</b> すブール型<b>(C#)</b> を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-140">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="023f0-141">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-141">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-142">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-142">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-142">既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-142">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -411,9 +411,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-143">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />コントロールを入力するときの選択動作を指定する定数です。</span><span class="sxs-lookup"><span data-stu-id="681cb-143">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span></span> <span data-ttu-id="681cb-144">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-144">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-143">コントロールの入力時の <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> 選択動作を指定する定数を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-143">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span></span> <span data-ttu-id="023f0-144">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-144">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-145">既定値は <b>olEnterFieldBehaviorSelectAll</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-145">The default value is <b>olEnterFieldBehaviorSelectAll</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-145">既定値は <b>olEnterFieldBehaviorSelectAll</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-145">The default value is <b>olEnterFieldBehaviorSelectAll</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -440,9 +440,9 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-146">コントロール内のテキストのレンダリングに使用するフォントを表す <b>StdFont</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-146">Returns a <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="681cb-147">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="681cb-147">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="023f0-146">コントロール内のテキストのレンダリングに使用するフォントを表す <b>StdFont</b> を返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-146">Returns a <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="023f0-147">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="023f0-147">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-148">フォントは、Microsoft Windows の型の<b>上位</b>として表されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-148">The font is expressed as the Microsoft Windows type <b>stdfont</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-148">フォントは<b>、Stdfont</b>型の Microsoft Windowsで表されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-148">The font is expressed as the Microsoft Windows type <b>stdfont</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -475,9 +475,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-149">取得またはコントロールの前景色を示す<b>UInteger</b> (C# では<b>uint</b> ) の値を設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-149">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="681cb-150">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-150">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-149">コントロールの前景色を示す <b>UInteger</b> (C# の<b>uint)</b> 値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-149">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="023f0-150">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-150">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-151">このプロパティが<b>OLE_COLOR</b> <b>UInteger</b> (C# では<b>uint</b> ) の値の種類のです。</span><span class="sxs-lookup"><span data-stu-id="681cb-151">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="681cb-152">このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</span><span class="sxs-lookup"><span data-stu-id="681cb-152">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
+        <remarks><para><span data-ttu-id="023f0-151">このプロパティは<b>、UInteger</b> <b>(OLE_COLOR</b> <b>uint)</b>の値である型C#です。</span><span class="sxs-lookup"><span data-stu-id="023f0-151">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="023f0-152">このプロパティの既定値は、0x80000008、「ウィンドウ テキスト」です。</span><span class="sxs-lookup"><span data-stu-id="023f0-152">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -504,10 +504,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="681cb-153">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="681cb-153">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <summary><span data-ttu-id="681cb-154"><b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックス コントロールの一覧で指定した位置に項目を取得します。</span><span class="sxs-lookup"><span data-stu-id="681cb-154">Obtains a <b>String</b> (<b>string</b> in C#) that represents an item at the specified location in the list of the combo box control.</span></span></summary>
-        <returns><span data-ttu-id="681cb-155">リスト内の指定位置にある項目を表す<b>文字列</b>(C# では<b>文字列</b>) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-155">A <b>String</b> (<b>string</b> in C#) value that represents the item at the specified location in the list.</span></span></returns>
-        <remarks><para><span data-ttu-id="681cb-156">場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-156">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
+        <param name="Index"><span data-ttu-id="023f0-153">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="023f0-153">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <summary><span data-ttu-id="023f0-154">コンボ ボックス<b>コントロールの</b>一覧C#位置にあるアイテムを表す文字列 (文字列) を取得します。<b></b></span><span class="sxs-lookup"><span data-stu-id="023f0-154">Obtains a <b>String</b> (<b>string</b> in C#) that represents an item at the specified location in the list of the combo box control.</span></span></summary>
+        <returns><span data-ttu-id="023f0-155">リスト<b>内</b><b>の指定された</b>C#を表す文字列 (文字列) の値。</span><span class="sxs-lookup"><span data-stu-id="023f0-155">A <b>String</b> (<b>string</b> in C#) value that represents the item at the specified location in the list.</span></span></returns>
+        <remarks><para><span data-ttu-id="023f0-156">許可される値の範囲 (0 ~ -1) の外側にある場合は、境界外のエラー <paramref name="Index" /> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" /> が返されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-156">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -537,9 +537,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-157">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) 選択範囲を表示するか、コントロールがフォーカスを失ったときに、コントロールの非表示を指定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-157">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span></span>  <span data-ttu-id="681cb-158">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-158">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-157">コントロールがフォーカスを失<b></b>った場合にコントロールの選択範囲を表示または非表示にした場合に指定するブール型 (C#) のブール型<b>(bool)</b>の値を取得または設定します。</span><span class="sxs-lookup"><span data-stu-id="023f0-157">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span></span>  <span data-ttu-id="023f0-158">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-158">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-p117">このプロパティの既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-p117">The default value of this property is <b>True</b>. </span></span></para>
+        <remarks><para><span data-ttu-id="023f0-p117">このプロパティの既定値は <b>True</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-p117">The default value of this property is <b>True</b>. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -566,9 +566,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-160">ボックス コントロール、コンボ ボックスの一覧で要素の数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-160">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the combo box control.</span></span> <span data-ttu-id="681cb-161">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="681cb-161">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="023f0-160">コンボ ボックス<b>コントロールの</b>ドロップダウン リスト内の要素の数を指定する整数 (C#) の値を返します。<b></b></span><span class="sxs-lookup"><span data-stu-id="023f0-160">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the combo box control.</span></span> <span data-ttu-id="023f0-161">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="023f0-161">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-162">既定値は 0 で、リストに要素がないことを示します。</span><span class="sxs-lookup"><span data-stu-id="681cb-162">The default value is zero, indicating that there are no items in the list.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-162">既定値は 0 で、リストに要素がないことを示します。</span><span class="sxs-lookup"><span data-stu-id="023f0-162">The default value is zero, indicating that there are no items in the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -598,11 +598,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-163">Reurns またはセットをコンボ ボックスの一覧で現在選択されている要素の位置を示す<b>整数値</b>(C# では<b>int</b> ) 値を制御します。</span><span class="sxs-lookup"><span data-stu-id="681cb-163">Reurns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="681cb-164">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-164">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-163">コンボ ボックス コントロールの一<b></b>覧で現在選択されている要素の位置を示す整数<b>(C#)</b>の値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-163">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="023f0-164">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-164">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-165">
-            <b>ListIndex</b> は、リスト内の項目の配列のインデックス 0 から始まる値です。</span><span class="sxs-lookup"><span data-stu-id="681cb-165">
-            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="681cb-166">既定値は、-1 で、項目が選択されていないことを示します。</span><span class="sxs-lookup"><span data-stu-id="681cb-166">The default value is -1, indicating that no item is selected.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-165">
+            <b>ListIndex</b> は、リスト内の項目の配列のインデックス 0 から始まる値です。</span><span class="sxs-lookup"><span data-stu-id="023f0-165">
+            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="023f0-166">既定値は、-1 で、項目が選択されていないことを示します。</span><span class="sxs-lookup"><span data-stu-id="023f0-166">The default value is -1, indicating that no item is selected.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -632,10 +632,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-167">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) から変更されているコントロールがロックされているかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-167">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="681cb-168">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-168">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-167">コントロールが変更されるの<b>をロック</b>するかどうかを指定するブール型 (C#) のブール型 (bool) を設定または返します。<b></b></span><span class="sxs-lookup"><span data-stu-id="023f0-167">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="023f0-168">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-168">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-169">既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-169">The default value is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="681cb-p122">ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</span><span class="sxs-lookup"><span data-stu-id="681cb-p122">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
+        <remarks><para><span data-ttu-id="023f0-169">既定値は <b>False</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-169">The default value is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="023f0-p122">ロックされたコントロールは "無効" としては表示されませんが、ユーザーはこのコントロールの内容を編集できません。</span><span class="sxs-lookup"><span data-stu-id="023f0-p122">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -665,9 +665,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-171">文字の最大数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を取得または設定、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />のこのコントロールです。</span><span class="sxs-lookup"><span data-stu-id="681cb-171">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the maximum number of characters for the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> of this control.</span></span>  <span data-ttu-id="681cb-172">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-172">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-171">このコントロールの最大文字数 <b>を指定</b> する整数<b>(C#)</b> の値 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-171">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the maximum number of characters for the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> of this control.</span></span>  <span data-ttu-id="023f0-172">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-172">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-p124">既定値は 0 で、コントロールに値の最大長が定義されていないことを示します。制限がないわけではなく、最大長は利用可能なメモリやその他の要因によって決定されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-p124">The default value is zero, which only means that no maximum length for the value has been defined for this control. A maximum length may still be in place based on available memory or other factors.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-p124">既定値は 0 で、コントロールに値の最大長が定義されていないことを示します。制限がないわけではなく、最大長は利用可能なメモリやその他の要因によって決定されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-p124">The default value is zero, which only means that no maximum length for the value has been defined for this control. A maximum length may still be in place based on available memory or other factors.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -697,9 +697,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-p125">このコントロールのマウス カーソルのカスタム画像を表す <b>StdPicture</b> を設定または返します。読み取り/書き込み。</span><span class="sxs-lookup"><span data-stu-id="681cb-p125">Returns or sets a <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control. Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-p125">このコントロールのマウス カーソルのカスタム画像を表す <b>StdPicture</b> を設定または返します。読み取り/書き込み。</span><span class="sxs-lookup"><span data-stu-id="023f0-p125">Returns or sets a <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control. Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-177">既定値は、 <b>Nothing</b> (null 参照 (Visual Basic では Nothing) では C#) です。</span><span class="sxs-lookup"><span data-stu-id="681cb-177">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-177">既定値は<b>Nothing</b> (null 参照 (Visual Basic) C#)。</span><span class="sxs-lookup"><span data-stu-id="023f0-177">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -729,9 +729,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-178">値を取得または設定、 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 、ユーザーがコントロール上にマウスを置いたときに表示されるポインターの種類を表す定数を指定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-178">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="681cb-179">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-179">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-178">ユーザーがコントロールの上にマウスを置いた場合に表示されるポインターの種類を指定する定数 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-178">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="023f0-179">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-180">既定値は、 <b>olMousePointerDefault</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-180">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-180">既定値は、 <b>olMousePointerDefault</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-180">The default value is <b>olMousePointerDefault</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -756,9 +756,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="681cb-181">クリップボードの内容をコントロールに貼り付けます。</span><span class="sxs-lookup"><span data-stu-id="681cb-181">Pastes the contents of the clipboard in the control.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-182">クリップボードの内容は、書式なしのテキストとして貼り付けられます。</span><span class="sxs-lookup"><span data-stu-id="681cb-182">The contents of the clipboard are pasted in unformatted text.</span></span></para>
-          <para><span data-ttu-id="681cb-183">このメソッドは何かを貼り付けられていませんと、コントロールの<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" />が<b>olComboBoxStyleListBox</b>。</span><span class="sxs-lookup"><span data-stu-id="681cb-183">This method does not paste anything when the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> is <b>olComboBoxStyleListBox</b>.</span></span></para>
+        <summary><span data-ttu-id="023f0-181">クリップボードの内容をコントロールに貼り付けます。</span><span class="sxs-lookup"><span data-stu-id="023f0-181">Pastes the contents of the clipboard in the control.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-182">クリップボードの内容は、書式なしのテキストとして貼り付けられます。</span><span class="sxs-lookup"><span data-stu-id="023f0-182">The contents of the clipboard are pasted in unformatted text.</span></span></para>
+          <para><span data-ttu-id="023f0-183">コントロールが <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> <b>olComboBoxStyleListBox</b>の場合、このメソッドは何も貼り付けません。</span><span class="sxs-lookup"><span data-stu-id="023f0-183">This method does not paste anything when the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> is <b>olComboBoxStyleListBox</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -785,9 +785,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="681cb-184">一覧内でのアイテムの配列に対するインデックスの値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="681cb-184">A zero-based value indexing into the array of items in the list.</span></span></param>
-        <summary><span data-ttu-id="681cb-185">一覧から指定したアイテムを削除します。</span><span class="sxs-lookup"><span data-stu-id="681cb-185">Removes the specified item from the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-186">場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1)、範囲外エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-186">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="023f0-184">一覧内でのアイテムの配列に対するインデックスの値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="023f0-184">A zero-based value indexing into the array of items in the list.</span></span></param>
+        <summary><span data-ttu-id="023f0-185">一覧から指定したアイテムを削除します。</span><span class="sxs-lookup"><span data-stu-id="023f0-185">Removes the specified item from the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-186">許可される値の範囲 (0 ~ -1) の外側にある場合は、境界外のエラー <paramref name="Index" /> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" /> が返されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-186">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -817,9 +817,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-187">取得または設定する<b>ブール型</b>(C# では<b>bool</b> ) テキストの左側に領域内をクリックして、ユーザーがテキストの行を選択できるかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-187">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the user can select a line of text by clicking in the region to the left of the text.</span></span>   <span data-ttu-id="681cb-188">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-188">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-187">ユーザーがテキストの左側にある領域<b></b>をクリックしてテキスト行を選択できるかどうかを指定するブール型<b>(C#</b>のブール値) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-187">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the user can select a line of text by clicking in the region to the left of the text.</span></span>   <span data-ttu-id="023f0-188">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-188">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-189">の場合 <b>は True</b> 、マージンをクリックするとのテキストを選択します。</span><span class="sxs-lookup"><span data-stu-id="681cb-189">If <b>True</b>, clicking in the margin causes selection of text.</span></span>  <span data-ttu-id="681cb-190">場合は <b>False</b> 、このアクションは、任意のテキストは選択されません。</span><span class="sxs-lookup"><span data-stu-id="681cb-190">If <b>False</b>, this action does not select any text.</span></span> <span data-ttu-id="681cb-191">既定値は、 <b>false を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="681cb-191">The default value is <b>False</b>.</span></span>  </para>
+        <remarks><para><span data-ttu-id="023f0-189">の場合 <b>は True</b> 、マージンをクリックするとのテキストを選択します。</span><span class="sxs-lookup"><span data-stu-id="023f0-189">If <b>True</b>, clicking in the margin causes selection of text.</span></span>  <span data-ttu-id="023f0-190">場合は <b>False</b> 、このアクションは、任意のテキストは選択されません。</span><span class="sxs-lookup"><span data-stu-id="023f0-190">If <b>False</b>, this action does not select any text.</span></span> <span data-ttu-id="023f0-191">既定値は、 <b>false を指定</b> します。</span><span class="sxs-lookup"><span data-stu-id="023f0-191">The default value is <b>False</b>.</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -849,12 +849,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-192">取得または現在の選択範囲の文字数を指定する<b>整数値</b>(C# では<b>int</b> ) 値を設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-192">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of characters in the current selection.</span></span>  <span data-ttu-id="681cb-193">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-193">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-192">現在の選択範囲 <b>の文字数を</b> C#整数 (<b>int</b> ) の値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-192">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of characters in the current selection.</span></span>  <span data-ttu-id="023f0-193">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-193">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-194">によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-194">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="681cb-195"><b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-195">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="681cb-p132">既定値は 0 で、現在テキストが選択されていないことを示します。</span><span class="sxs-lookup"><span data-stu-id="681cb-p132">The default value is zero, which means no text is currently selected. </span></span></para>
-          <para><span data-ttu-id="681cb-197">コントロールにフォーカスがあるないときでも、 <b>SelLength</b> プロパティは有効ですが、常にします。</span><span class="sxs-lookup"><span data-stu-id="681cb-197">The <b>SelLength</b> property is always valid, even when the control does not have focus.</span></span></para>
-          <para><span data-ttu-id="681cb-198"><b>SelLength</b> を 0 未満の原因のエラーが値に設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-198">Setting <b>SelLength</b> to a value less than zero causes an error.</span></span>   <span data-ttu-id="681cb-199"><b>SelLength</b> を <b>maxlength プロパティ</b> を設定することで結果の <b>最大長</b> より大きい値を設定しようとしています。</span><span class="sxs-lookup"><span data-stu-id="681cb-199">Attempting to set the value greater than <b>MaxLength</b> results in setting <b>SelLength</b> to <b>MaxLength</b>.</span></span>  </para>
+        <remarks><para><span data-ttu-id="023f0-194">現在の選択範囲は、コントロールの一部で <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" /> 指定されます <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-194">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="023f0-195">Value でサポートできる最大文字数は <b>です</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-195">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="023f0-p132">既定値は 0 で、現在テキストが選択されていないことを示します。</span><span class="sxs-lookup"><span data-stu-id="023f0-p132">The default value is zero, which means no text is currently selected. </span></span></para>
+          <para><span data-ttu-id="023f0-197">コントロールにフォーカスがあるないときでも、 <b>SelLength</b> プロパティは有効ですが、常にします。</span><span class="sxs-lookup"><span data-stu-id="023f0-197">The <b>SelLength</b> property is always valid, even when the control does not have focus.</span></span></para>
+          <para><span data-ttu-id="023f0-198"><b>SelLength</b> を 0 未満の原因のエラーが値に設定します。</span><span class="sxs-lookup"><span data-stu-id="023f0-198">Setting <b>SelLength</b> to a value less than zero causes an error.</span></span>   <span data-ttu-id="023f0-199"><b>SelLength</b> を <b>maxlength プロパティ</b> を設定することで結果の <b>最大長</b> より大きい値を設定しようとしています。</span><span class="sxs-lookup"><span data-stu-id="023f0-199">Attempting to set the value greater than <b>MaxLength</b> results in setting <b>SelLength</b> to <b>MaxLength</b>.</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -884,11 +884,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-200">取得またはテキストが選択されていない場合にいずれかの方法を指定する<b>整数値</b>(C# では<b>int</b> ) 値を選択したテキストの開始位置またはカーソル位置に設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-200">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies either  the starting point of the selected text or the insertion point if no text has been selected.</span></span>    <span data-ttu-id="681cb-201">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-201">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-200">テキストが選択されていない場合は、選択したテキストの開始点またはカーソル位置を指定する整数 <b>(C#</b> の<b>int)</b> の値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-200">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies either  the starting point of the selected text or the insertion point if no text has been selected.</span></span>    <span data-ttu-id="023f0-201">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-201">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-202">によって現在の選択範囲が指定されている<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />、コントロールの一部である<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-202">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="681cb-203"><b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-203">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="681cb-204">既定値は 0 で、テキストが選択されておらず、挿入位置が先頭にあることを示します。</span><span class="sxs-lookup"><span data-stu-id="681cb-204">The default value is zero, which means no text is selected and the insertion point is at the beginning.</span></span></para>
-          <para><span data-ttu-id="681cb-205"><b>SelStart</b> プロパティは、しますコントロールにフォーカスがあるないときでも常に有効ですが。</span><span class="sxs-lookup"><span data-stu-id="681cb-205">The <b>SelStart</b> property is always valid, even when the control does not have focus.</span></span>  <span data-ttu-id="681cb-206"><b>SelStart</b> の値に設定すると、エラーが 0 未満の原因。</span><span class="sxs-lookup"><span data-stu-id="681cb-206">Setting <b>SelStart</b> to a value less than zero causes an error.</span></span>  <span data-ttu-id="681cb-207"><b>SelStart</b> の <b>最大長</b> より大きい値に設定すると、 <b>SelStart</b> が <b>maxlength プロパティ</b> にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="681cb-207">Setting <b>SelStart</b> to a value greater than <b>MaxLength</b> will reset <b>SelStart</b> to <b>MaxLength</b>.</span></span>  <span data-ttu-id="681cb-208"><b>SelStart</b> の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b> プロパティを 0 に設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-208">Changing the value of <b>SelStart</b> cancels any existing selection, places the insertion point in the text, and sets the <b>SelLength</b> property to zero.</span></span> </para>
+        <remarks><para><span data-ttu-id="023f0-202">現在の選択範囲は、コントロールの一部で <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" /> 指定されます <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-202">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="023f0-203">Value でサポートできる最大文字数は <b>です</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-203">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="023f0-204">既定値は 0 で、テキストが選択されておらず、挿入位置が先頭にあることを示します。</span><span class="sxs-lookup"><span data-stu-id="023f0-204">The default value is zero, which means no text is selected and the insertion point is at the beginning.</span></span></para>
+          <para><span data-ttu-id="023f0-205"><b>SelStart</b> プロパティは、しますコントロールにフォーカスがあるないときでも常に有効ですが。</span><span class="sxs-lookup"><span data-stu-id="023f0-205">The <b>SelStart</b> property is always valid, even when the control does not have focus.</span></span>  <span data-ttu-id="023f0-206"><b>SelStart</b> の値に設定すると、エラーが 0 未満の原因。</span><span class="sxs-lookup"><span data-stu-id="023f0-206">Setting <b>SelStart</b> to a value less than zero causes an error.</span></span>  <span data-ttu-id="023f0-207"><b>SelStart</b> の <b>最大長</b> より大きい値に設定すると、 <b>SelStart</b> が <b>maxlength プロパティ</b> にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="023f0-207">Setting <b>SelStart</b> to a value greater than <b>MaxLength</b> will reset <b>SelStart</b> to <b>MaxLength</b>.</span></span>  <span data-ttu-id="023f0-208"><b>SelStart</b> の値を変更する既存の選択内容をキャンセル、テキストに挿入ポイントを配置、 <b>SelLength</b> プロパティを 0 に設定します。</span><span class="sxs-lookup"><span data-stu-id="023f0-208">Changing the value of <b>SelStart</b> cancels any existing selection, places the insertion point in the text, and sets the <b>SelLength</b> property to zero.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -915,12 +915,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-209"><b>文字列</b>(C# では<b>文字列</b>) を表す、コンボ ボックスの値の選択した部分を返します。</span><span class="sxs-lookup"><span data-stu-id="681cb-209">Returns a <b>String</b> (<b>string</b> in C#) that represents the selected portion of the value of the combo box.</span></span>    <span data-ttu-id="681cb-210">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="681cb-210">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="023f0-209">コンボ ボックス<b></b>の値<b>のC#</b>部分を表す文字列 (文字列) を返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-209">Returns a <b>String</b> (<b>string</b> in C#) that represents the selected portion of the value of the combo box.</span></span>    <span data-ttu-id="023f0-210">読み取り専用です。</span><span class="sxs-lookup"><span data-stu-id="023f0-210">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-211">
-            <b>Seltext プロパティ</b>は、一部のコントロールの現在の選択範囲を表す<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-211">
-            <b>SelText</b> represents the current selection, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="681cb-212"><b>値</b>がサポートされる文字の最大数<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />。</span><span class="sxs-lookup"><span data-stu-id="681cb-212">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="681cb-213">既定値は空の文字列です。</span><span class="sxs-lookup"><span data-stu-id="681cb-213">The default value is an empty string.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-211">
+            <b>SelText</b> は、コントロールの一部である現在の選択範囲を表します <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-211">
+            <b>SelText</b> represents the current selection, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="023f0-212">Value でサポートできる最大文字数は <b>です</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> 。</span><span class="sxs-lookup"><span data-stu-id="023f0-212">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="023f0-213">既定値は空の文字列です。</span><span class="sxs-lookup"><span data-stu-id="023f0-213">The default value is an empty string.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -948,10 +948,10 @@
         <Parameter Name="Item" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="681cb-214">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="681cb-214">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <param name="Item"><span data-ttu-id="681cb-215">一覧内の指定位置を更新するときに使用する値です。</span><span class="sxs-lookup"><span data-stu-id="681cb-215">The value to be used to update the list at the specified location.</span></span></param>
-        <summary><span data-ttu-id="681cb-216">コンボ ボックスの一覧内で指定した位置にあるアイテムを、指定した値に設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-216">Sets the item at the specified location in the list of the combo box to the specified value.</span></span></summary>
-        <remarks><para><span data-ttu-id="681cb-217">場合<paramref name="Index" />が使用可能な値の範囲外 (0 の間、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)、範囲外エラーが返されます。</span><span class="sxs-lookup"><span data-stu-id="681cb-217">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="023f0-214">一覧内でのアイテムの位置を示す値です。開始値は 0 です。</span><span class="sxs-lookup"><span data-stu-id="023f0-214">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <param name="Item"><span data-ttu-id="023f0-215">一覧内の指定位置を更新するときに使用する値です。</span><span class="sxs-lookup"><span data-stu-id="023f0-215">The value to be used to update the list at the specified location.</span></span></param>
+        <summary><span data-ttu-id="023f0-216">コンボ ボックスの一覧内で指定した位置にあるアイテムを、指定した値に設定します。</span><span class="sxs-lookup"><span data-stu-id="023f0-216">Sets the item at the specified location in the list of the combo box to the specified value.</span></span></summary>
+        <remarks><para><span data-ttu-id="023f0-217">許可される値の範囲 (0 ~ -1) の外側にある場合は、境界外のエラー <paramref name="Index" /> <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> が返されます。</span><span class="sxs-lookup"><span data-stu-id="023f0-217">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -981,9 +981,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlComboBoxStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-218">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" />ユーザーが選択したり、コントロールの値を設定する方法を指定する定数です。</span><span class="sxs-lookup"><span data-stu-id="681cb-218">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constant to specify how the user can choose or set the control's value.</span></span>  <span data-ttu-id="681cb-219">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-219">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-218">ユーザーがコントロールの値を選択または設定する方法を指定する定数 <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-218">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constant to specify how the user can choose or set the control's value.</span></span>  <span data-ttu-id="023f0-219">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-219">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-p141">既定値は <b>olComboBoxStyleCombo</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-p141">The default value is <b>olComboBoxStyleCombo</b>. </span></span></para>
+        <remarks><para><span data-ttu-id="023f0-p141">既定値は <b>olComboBoxStyleCombo</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-p141">The default value is <b>olComboBoxStyleCombo</b>. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1013,10 +1013,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-221">取得または<b>文字列</b>(C# では<b>文字列</b>) を表すコントロールに表示するテキストを設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-221">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="681cb-222">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-222">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-221">コントロールに表示される<b>テキストである</b><b>文字列</b>(C# 内の文字列) を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-221">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="023f0-222">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-222">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-223"><b>Text</b> プロパティの既定値は、空の文字列です。</span><span class="sxs-lookup"><span data-stu-id="681cb-223">The default value of the <b>Text</b> property is the empty string.</span></span></para>
-          <para><span data-ttu-id="681cb-224"><b>Text</b>プロパティと同じ値を提供する、<see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />プロパティは、値は、厳密に型指定<b>文字列</b>(C# では<b>文字列</b>) です。</span><span class="sxs-lookup"><span data-stu-id="681cb-224">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-223"><b>Text</b> プロパティの既定値は、空の文字列です。</span><span class="sxs-lookup"><span data-stu-id="023f0-223">The default value of the <b>Text</b> property is the empty string.</span></span></para>
+          <para><span data-ttu-id="023f0-224"><b>Text プロパティ</b>はプロパティと同じ値を提供しますが、この値は String ( 文字列 ) として強く <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> C#。 <b></b> <b></b></span><span class="sxs-lookup"><span data-stu-id="023f0-224">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1046,9 +1046,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-225">値を取得または設定、<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />コントロール内のテキストの配置方法を指定する定数です。</span><span class="sxs-lookup"><span data-stu-id="681cb-225">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="681cb-226">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-226">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-225">コントロール内のテキストの位置合わせ方法を指定 <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> する定数を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-225">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="023f0-226">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-226">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-227">既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</span><span class="sxs-lookup"><span data-stu-id="681cb-227">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-227">既定値は、英語などの左から右の言語では <b>olTextAlignLeft</b> です。</span><span class="sxs-lookup"><span data-stu-id="023f0-227">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1078,10 +1078,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-228">返すまたは、コンボ ボックスの一覧の表示部分の一番上にある項目のインデックスを表す<b>整数値</b>(C# では<b>int</b> ) 値を設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-228">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list in the combo box.</span></span> <span data-ttu-id="681cb-229">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-229">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-228">コンボ ボックス内のリストの<b></b>表示部分の上部にあるアイテムのインデックスを表す整数<b>(C#)</b>の値を設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-228">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list in the combo box.</span></span> <span data-ttu-id="023f0-229">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-229">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-230">一覧をスクロールすると先頭のアイテムは変わります。このプロパティの値も、一覧の先頭に現在表示されているアイテムに応じて変わります。</span><span class="sxs-lookup"><span data-stu-id="681cb-230">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
-          <para><span data-ttu-id="681cb-p145">インデックスの開始値は 0 です。既定値は -1 で、特に順序を設定しないことを示します。</span><span class="sxs-lookup"><span data-stu-id="681cb-p145">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
+        <remarks><para><span data-ttu-id="023f0-230">一覧をスクロールすると先頭のアイテムは変わります。このプロパティの値も、一覧の先頭に現在表示されているアイテムに応じて変わります。</span><span class="sxs-lookup"><span data-stu-id="023f0-230">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
+          <para><span data-ttu-id="023f0-p145">インデックスの開始値は 0 です。既定値は -1 で、特に順序を設定しないことを示します。</span><span class="sxs-lookup"><span data-stu-id="023f0-p145">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1111,9 +1111,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="681cb-233">返すまたは、コントロールによって表示される一覧で選択した内容を表す<b>オブジェクト</b>を設定します。</span><span class="sxs-lookup"><span data-stu-id="681cb-233">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="681cb-234">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="681cb-234">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="023f0-233">コントロールによって表示される一覧 <b>で</b> 選択されているコンテンツを表すオブジェクトを設定または返します。</span><span class="sxs-lookup"><span data-stu-id="023f0-233">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="023f0-234">値の取得と設定が可能です。</span><span class="sxs-lookup"><span data-stu-id="023f0-234">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="681cb-235">値と同じ値が、 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />、このプロパティは、<b>オブジェクト</b>と<b>テキスト</b>が<b>文字列</b>(C# では<b>文字列</b>) として厳密に型指定される点が異なります。</span><span class="sxs-lookup"><span data-stu-id="681cb-235">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
+        <remarks><para><span data-ttu-id="023f0-235">値は、このプロパティが Object で、Text が String (文字列) として強く入力される以外は、値 <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" /> と同C#。 <b></b> <b></b> <b></b> <b></b></span><span class="sxs-lookup"><span data-stu-id="023f0-235">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
